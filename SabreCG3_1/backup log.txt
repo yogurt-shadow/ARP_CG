@@ -1,0 +1,66 @@
+20170308
+SabreCG3
+subproblem 改成输出好几个lof
+findNewMultiColumns(Aircraft* )
+
+20170114
+修改station print
+使用TIMEDIFF
+
+20170113
+完成initilization by original plan
+
+20170112
+修改Aircraft.h, Aircraft.cpp, 增加_planLegList, getPlanLegList, isPlanLegFeasible(), pushPlanLeg(), sortScheLegByDepTime()
+修改Leg.h, Leg.cpp, 增加compareDepTime()
+修改Model.h, Model.cpp, 增加findInitOneColumn, 修改findInitColumns
+
+20170111
+把SubNode 改回vector
+
+改SubNode vector to list
+需要改Leg.h, Leg.cpp, Model.h, Model.cpp
+
+edgeProcessFltFlt
+computeFlightDelay被注释掉了
+//* BUG corrected
+
+bool Leg::resetLeg()
+for(int i = 0; i < _subNodeList.size(); i++)
+//* BUG 在删除vector元素的过程中subNodeList的长度会不断改变 20170111
+改为
+int sizeBefore = _subNodeList.size();
+for(int i = 0; i < sizeBefore; i++)
+
+before 20170111
+leg类新加subNode, 作为multi label
+相应修改edgeProcess functions
+
+20161228
+backup after fix possible cycle problem
+before remove _accDelay, _accDual, _delay to Leg, for efficiency
+
+20161227
+add _accDelay, _accDual, _delay to Leg, for debuging
+backup before fix the big hole: possible cycle
+
+20161226
+backup after testing on 'real' data
+BUG found, in Schedule.cpp, connecting neiboring maint and maint
+	//&& _legList[i]->getAircraft() == _legList[i]->getAircraft())	//BUG found here, corrected 20161226
+	&& _legList[i]->getAircraft() == _legList[j]->getAircraft())
+UPDATED, Model.cpp, edgeProcessMaintMaint
+
+20161222
+backup before adding class schedule
+after complete column generation cycle
+
+20161221
+backup before complete column generation cycle
+after adding master problem
+
+20161220
+backup before adding master problem
+
+20161219
+backup before saving lofs

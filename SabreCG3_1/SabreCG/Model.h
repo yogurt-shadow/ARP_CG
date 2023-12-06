@@ -1,0 +1,81 @@
+// Model for Multi-label DP 20170108
+#ifndef MODEL_H
+#define MODEL_H
+
+#include "Util.h"
+#include "Leg.h"
+#include "Aircraft.h"
+#include "Station.h"
+#include "Lof.h"
+#include "OperLeg.h"
+
+class Model
+{
+private:
+	
+	IloEnv _env;
+	IloModel _model;
+	//* IloModel _modelIP;
+	IloCplex _solver;
+	IloObjective _obj;
+
+	IloNum _tolerance;
+
+	// Var.
+	IloNumVarArray _lofVar;
+	IloNumVarArray _legVar;
+
+	// Cons.
+	IloRangeArray _coverRng;
+	IloRangeArray _selectRng;				//* select one Lof for one aircraft
+
+	// soln
+	vector<Lof* > _finalLofList;			// final selected lofs
+	vector<Leg* > _cancelLegList;			// cancelled flights/maint
+
+	static int _count;						// column generation的迭代次数
+	
+
+	vector<Leg *> _legList;                 // flight + maint
+	vector<Aircraft *> _aircraftList;		// aircraft
+	vector<Station *> _stationList;			// airport
+
+	vector<Lof* > _initColumns;				//* 初始column, 由findInitColumns成员函数初始
+
+	vector<Leg *> _topOrderList;			//* leg topological order
+
+	//Leg _dummySource;						//* dummy source node connecting starting nodes // 使得findNewOneColumn的debug比较方便
+public:
+	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
+	vector<Lof *> findNewColumns();
+	vector<Lof *> findNewMultiColumns(Aircraft* aircraft);
+
+	Lof* findNewOneColumn(Aircraft* aircraft);
+	void edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+
+	void edgeProcessFltMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltMaint(SubNode* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+
+	void edgeProcessMaintFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+
+	void edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+
+	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft);
+
+	time_t computeFlightDelay (SubNode* subNode, Leg* nextLeg);
+	time_t delayByAirportClose (Leg* nextLeg, time_t delay);
+
+	vector<Lof* > solveColGen();
+	vector<Lof* > findInitColumns();
+	Lof* findInitOneColumn(Aircraft* aircraft);
+	void populateByColumn(vector<Lof* > _initColumns);
+	void solve();
+	void addColumns(vector<Lof* > _betterColumns);	//*
+	vector<Lof* > solveIP();
+};
+
+#endif

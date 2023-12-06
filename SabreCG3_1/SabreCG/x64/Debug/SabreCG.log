@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/12/13 15:11:32。
+     1>项目“E:\NTU study\CplusplusLearn64\SabreCG\SabreCG\SabreCG.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include" /I"D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\include" /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Aircraft.cpp Leg.cpp Model.cpp Station.cpp Util.cpp main.cpp
+         main.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         Util.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         Station.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         Model.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         Leg.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         Aircraft.cpp
+     1>D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include\ilconcert/ilosys.h(374): fatal error C1083: 无法打开包括文件:“iostream.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\NTU study\CplusplusLearn64\SabreCG\SabreCG\SabreCG.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.90
