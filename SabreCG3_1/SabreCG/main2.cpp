@@ -533,6 +533,8 @@ vector<Leg *> updaInfo(vector<Lof *> _LofListSoln,vector<Leg *> _InitLegList) //
 
 int main( int argc, char * argv[] ) 
 { 
+
+	cout << "program start..." << endl;
 #if defined( _MSC_VER ) && defined( DEBUG ) 
 	_CrtMemCheckpoint( &startMemState ); 
 	// Enable MS Visual C++ debug heap memory leaks dump on exit 
@@ -900,8 +902,8 @@ int main( int argc, char * argv[] )
 			cout << "dual is " << finaLegList[i]->getDual() << endl;
 		}
 	}
-	
 
-	// system("pause");
+	system("pause");
+	return 0;
 
 } 
