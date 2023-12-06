@@ -1,7 +1,73 @@
-﻿  正在生成代码
-  0 of 1580 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+﻿  Aircraft.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Aircraft.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(22,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(23,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Leg.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Leg.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(63,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(64,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(68,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(69,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(96,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lof.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Lof.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Lof.cpp”)
+  
+  main2.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“main2.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“main2.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\main2.cpp(572,2): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+  Model.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Model.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Model.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(118,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(164,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(177,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(189,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(216,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(283,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  OperLeg.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“OperLeg.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(64,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Schedule.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Schedule.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(116,56): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  Station.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Station.cpp”)
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(33,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(34,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SubNode.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“SubNode.cpp”)
+  
+  tinyxml2.cpp
+  Util.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1595 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
 concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloextractable.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloenv.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
@@ -40,4 +106,4 @@ concert.lib(ilossol.obj) : warning LNK4099: 未找到 PDB“”(使用“concert
 concert.lib(ilossequencei.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilossequencei.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 concert.lib(ilosolution.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosolution.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 concert.lib(ilosstructi.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosstructi.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-  SabreCG.vcxproj -> C:\Research\internship\code\SabreCG3_1\x64\Release\SabreCG.exe
+  SabreCG.vcxproj -> C:\Code\ARP_CG\SabreCG3_1\x64\Release\SabreCG.exe

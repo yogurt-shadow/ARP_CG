@@ -13,6 +13,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 #include <vector>
 #include"Aircraft.h"
 #include"Leg.h"
@@ -566,6 +567,10 @@ int main( int argc, char * argv[] )
 		std::cout << "Either input directory or output directory is not specified." << std::endl;
 		return 0;
 	}
+	cout << "input path: " << input_path << endl;
+	char tmp[256];
+	getcwd(tmp, 256);
+	cout << "Current working directory: " << tmp << endl;
 	if(!importAircarfts(input_path + "Aircraft.xml", aircrafts))
 		return 0;
 	if (!importAirportClosures(input_path + "AirportClosure.xml", airportClosures))
