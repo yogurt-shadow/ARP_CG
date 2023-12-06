@@ -567,10 +567,6 @@ int main( int argc, char * argv[] )
 		std::cout << "Either input directory or output directory is not specified." << std::endl;
 		return 0;
 	}
-	cout << "input path: " << input_path << endl;
-	char tmp[256];
-	getcwd(tmp, 256);
-	cout << "Current working directory: " << tmp << endl;
 	if(!importAircarfts(input_path + "Aircraft.xml", aircrafts))
 		return 0;
 	if (!importAirportClosures(input_path + "AirportClosure.xml", airportClosures))
@@ -606,7 +602,7 @@ int main( int argc, char * argv[] )
 		Station * depStation = NULL;
 		Station * arrStation = NULL;
 
-		for(int j = 0; j < stationList.size(); j++)  /// ±éÀústationListÖÐ±£´æµÄstation pointer, Èç¹ûdepStation»¹Ã»ÓÐ¼ÓÈëstationList, ¼ÓÈëÖ®; µÃµ½depStation, arrStationµÄÖ¸Õë
+		for(int j = 0; j < stationList.size(); j++)  /// ï¿½ï¿½ï¿½ï¿½stationListï¿½Ð±ï¿½ï¿½ï¿½ï¿½station pointer, ï¿½ï¿½ï¿½depStationï¿½ï¿½Ã»ï¿½Ð¼ï¿½ï¿½ï¿½stationList, ï¿½ï¿½ï¿½ï¿½Ö®; ï¿½Ãµï¿½depStation, arrStationï¿½ï¿½Ö¸ï¿½ï¿½
 		{
 			if (stationList[j]->getName() == depName)
 			{
@@ -717,7 +713,7 @@ int main( int argc, char * argv[] )
 		legList.push_back(leg);
 	}
 
-	for (int i = 0; i < aircraftList.size(); i++) /// ÉèÖÃ»ú³¡µÄdeparture aircraftÐÅÏ¢
+	for (int i = 0; i < aircraftList.size(); i++) /// ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½departure aircraftï¿½ï¿½Ï¢
 	{
 		Station * depStation = aircraftList[i]->getDepStation();
 		depStation->pushDepAircraft(aircraftList[i]);
@@ -733,7 +729,7 @@ int main( int argc, char * argv[] )
 
 	for (int i = 0; i < stationList.size(); i++)
 	{
-		stationList[i]->setLegNum(legList.size()); // ¼ÈÈ»ËùÓÐstationµÄlegNum¶¼ÊÇÒ»ÑùµÄ£¬¸ÉÂï²»°ÑlegNumÉèÎªstatic?
+		stationList[i]->setLegNum(legList.size()); // ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½stationï¿½ï¿½legNumï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï²»ï¿½ï¿½legNumï¿½ï¿½Îªstatic?
 	}
 
 	// for(int i = 0; i < legList.size(); i++)
@@ -817,7 +813,7 @@ int main( int argc, char * argv[] )
 			cout <<"Error, Cannot Find Station " << stationName << endl;
 			exit(0);
 		}
-		pair<time_t, time_t> closeTime;  /// ½¨Ò»¸öpair ±£´æcloseTime, ÆðÊ¼ºÍ½áÊøÊ±¼ä
+		pair<time_t, time_t> closeTime;  /// ï¿½ï¿½Ò»ï¿½ï¿½pair ï¿½ï¿½ï¿½ï¿½closeTime, ï¿½ï¿½Ê¼ï¿½Í½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 		closeTime.first= startT;
 		closeTime.second = endT;
 		station->pushCloseTime(closeTime);
@@ -840,7 +836,7 @@ int main( int argc, char * argv[] )
 	//* generate feasible lofs by scheduledLegs 
 	schedule->createLof();
 
-	schedule->setOperLofList(); /// added È»¶ø²¢Ã»ÓÐÊ²Ã´ÓÃ
+	schedule->setOperLofList(); /// added È»ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ê²Ã´ï¿½ï¿½
 
 	//* Init time node related to aircraft and station
 	schedule->initAircraftNodes();
@@ -863,9 +859,9 @@ int main( int argc, char * argv[] )
 
 	//	model->solve();
 
-	model->populateLofByAircraft();  /// agg modelÓÃcol enumerationÇó½âÄ£ÐÍ£¬²¢°ÑÑ¡³öÀ´µÄlof¸´ÖÆ¸øaircraft£¬Ã¿¼ÜaircraftÓÐÒ»¸ö¶ÀÁ¢µÄlofList
-	model->delayLofsCrossDay();  /// Ã¿¼ÜaircraftµÄlofList×öcross day delay, Ã¿¼Ü·É»úµÄlofListºÍÔÚÒ»Æð·ÅÔÚgetOperLofList, ¸øºóÃæmodelIPÓÃ
-	model->computeLofCost(); /// Ã¿¼ÜaircraftµÄlofListµÄlof ¼ÆËãcost
+	model->populateLofByAircraft();  /// agg modelï¿½ï¿½col enumerationï¿½ï¿½ï¿½Ä£ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½ï¿½Æ¸ï¿½aircraftï¿½ï¿½Ã¿ï¿½ï¿½aircraftï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofList
+	model->delayLofsCrossDay();  /// Ã¿ï¿½ï¿½aircraftï¿½ï¿½lofListï¿½ï¿½cross day delay, Ã¿ï¿½Ü·É»ï¿½ï¿½ï¿½lofListï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½getOperLofList, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½modelIPï¿½ï¿½
+	model->computeLofCost(); /// Ã¿ï¿½ï¿½aircraftï¿½ï¿½lofListï¿½ï¿½lof ï¿½ï¿½ï¿½ï¿½cost
 
 	Model * modelIP = new Model(stationList,model->getAircraftList(),legList,model->getOperLofList());
 	modelIP->populateByColumn();
@@ -902,7 +898,7 @@ int main( int argc, char * argv[] )
 	{
 		if (!finaLegList[i]->getAssigned())
 		{
-			// Èç¹û±»cancel, ÏÔÊ¾º½°àÐÅÏ¢£¬ºÍdual
+			// ï¿½ï¿½ï¿½ï¿½ï¿½cancel, ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½dual
 			finaLegList[i]->print();
 			cout << "dual is " << finaLegList[i]->getDual() << endl;
 		}
