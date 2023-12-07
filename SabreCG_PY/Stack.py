@@ -15,8 +15,8 @@ class Stack(object):
         if self.stack:
             return self.stack[-1]
         
-    def is_empty(self):
+    def is_empty(self) -> bool:
         return not bool(self.stack)
  
-    def size(self):
+    def size(self) -> int:
         return len(self.stack)

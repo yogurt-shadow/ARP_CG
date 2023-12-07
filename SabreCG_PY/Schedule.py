@@ -1,8 +1,12 @@
 from Stack import Stack
+from typing import List
+from Station import Station
+from Leg import Leg
+from Aircraft import Aircraft
 import util as ut
 
 class Schedule:
-    def __init__(self, stationList, aircraftList, legList):
+    def __init__(self, stationList: List[Station], aircraftList: List[Aircraft], legList: List[Leg]):
         self._reversePost = Stack()
         self._topOrderList = []
         self._stationList, self._aircraftList, self._legList = stationList, aircraftList, legList
@@ -22,7 +26,7 @@ class Schedule:
             _flight.print()
         self.setAdjascentLeg()
 
-    def setAdjascentLeg(self):
+    def setAdjascentLeg(self) -> None:
         for _leg1 in self._legList:
             for _leg2 in self._legList:
                 if _leg1.isMaint() and _leg2.isMaint():
@@ -52,22 +56,21 @@ class Schedule:
         for _leg in self._legList:
             self._connectionSize += len(_leg.getNextLegList())
         print("############## TOTAL CONNECTION " + str(self._connectionSize) + " ###############")
-        pass
 
-    def computeTopOrder(self):
+    def computeTopOrder(self) -> None:
         for _leg in self._legList:
             if not _leg.isVisited():
                 self.dfs(_leg)
         while len(self._reversePost) > 0:
             self._topOrderList.append(self._reversePost.pop())
 
-    def getTopOrderList(self):
+    def getTopOrderList(self) -> List[Leg]:
         return self._topOrderList
     
-    def getConnectionSize(self):
+    def getConnectionSize(self) -> int:
         return self._connectionSize
     
-    def dfs(self, leg):
+    def dfs(self, leg) -> None:
         leg.setIsVisited(True)
         nextLegList = leg.getNextLegList()
         for _leg in nextLegList:
