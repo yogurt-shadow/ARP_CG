@@ -3,6 +3,8 @@ from Aircraft import Aircraft
 from Leg import Leg
 from Schedule import Schedule
 import util as ut
+from typing import List
+import xml.dom.minidom
 
 import sys
 import os
@@ -60,6 +62,13 @@ def readConfigurationFile(input_dir, output_dir):
     # with open(configFile, "r") as myfile:
     pass
 
+def importAircrafts(fullFileName: str) -> (bool, List[aircraftType]):
+    if not os.path.isfile(fullFileName):
+        print("Error while reading aircrafts!")
+        return False, []
+    doc = xml.dom.minidom.parse(fullFileName)
+    pass
+    # TODO
 
 
 if __name__ == "__main__":
