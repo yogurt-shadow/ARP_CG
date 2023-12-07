@@ -1,11 +1,16 @@
 from Station import Station
 from Aircraft import Aircraft
 from Leg import Leg
+from Lof import Lof
+from OperLeg import OperLeg
 from Schedule import Schedule
 import util as ut
+from Model import Model
+from ReadXML import importAircrafts, importAirportClosures, importSchedules, importParameters
+
+
 from typing import List
 import xml.dom.minidom
-
 import sys
 import os
 import time
@@ -62,14 +67,36 @@ def readConfigurationFile(input_dir, output_dir):
     # with open(configFile, "r") as myfile:
     pass
 
-def importAircrafts(fullFileName: str) -> (bool, List[aircraftType]):
-    if not os.path.isfile(fullFileName):
-        print("Error while reading aircrafts!")
-        return False, []
-    doc = xml.dom.minidom.parse(fullFileName)
-    pass
-    # TODO
+def updaInfo(_LofListSoln: List[Lof], _InitLegList: List[Leg]) -> List[Leg]:
+    legList = []
+    # dealing with assigned flights
+    for _lof in _LofListSoln:
+        _OperLegList = _lof.getLegList()
+        for _operLeg in _OperLegList:
+            depStation = _operLeg.getLeg().getDepStation()
+            arrStation = _operLeg.getLeg().getArrStation()
+            depTime = _operLeg.getPrintDepTime()
+            arrTime = _operLeg.getPrintArrTime()
+            flightNum = _operLeg.getLeg().getFlightNum()
+            aircraft = _lof.getAircraft()
+            leg = Leg(flightNum, depStation, arrStation, depTime, arrTime, aircraft)
+            leg.setAssigned(True)
+            leg.setIsMaint(_operLeg.getLeg().isMaint())
+            legList.append(leg)
+    # dealing with cancelled flights
+    for _initleg in _InitLegList:
+        found  = False
+        for _leg in legList:
+            if _leg.getFlightNum() == _initleg.getFlightNum():
+                found = True
+                break
+        if not found:
+            _initleg.setAssigned(False)
+            legList.append(_initleg)
+    return legList
 
+def exportSolution(output_path: str, _LegList: List[Leg]) -> bool:
+    pass
 
 if __name__ == "__main__":
     print("program start...")
