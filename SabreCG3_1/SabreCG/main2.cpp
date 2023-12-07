@@ -15,6 +15,8 @@
 #include <fstream>
 #include <filesystem>
 #include <vector>
+
+
 #include"Aircraft.h"
 #include"Leg.h"
 #include"Station.h"
@@ -560,8 +562,13 @@ int main( int argc, char * argv[] )
 	} 
 
 	std::string input_path, output_path;
-	if (!processArguments(argc, argv, input_path, output_path))
+	if (!processArguments(argc, argv, input_path, output_path)) {
+		cout << "read config" << endl;
 		readConfiguarationFile(input_path, output_path);
+	}
+	else {
+		cout << "skip config" << endl;
+	}
 	if (input_path.empty() || output_path.empty())
 	{
 		std::cout << "Either input directory or output directory is not specified." << std::endl;
@@ -888,8 +895,14 @@ int main( int argc, char * argv[] )
 	clock_t endTime = clock();
 	cout << "total run time is " << (endTime - startTime)/CLK_TCK << " seconds" << endl;
 
-	if(exportSolution(output_path,finaLegList))
+	if (exportSolution(output_path, finaLegList)) {
 		std::cout << "Solution is printed." << std::endl;
+		cout << "output path: " << output_path << endl;
+	}
+	else {
+		std::cout << "Solution not printed" << endl;
+		cout << "output path: " << output_path << endl;
+	}
 	
 	
 	cout << endl;
