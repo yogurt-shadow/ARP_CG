@@ -205,7 +205,29 @@ class Model:
         return delay + delay2
 
     def delayByAirportClose(self, nextLeg: Leg, delay: float) -> None:
-        pass
+        if nextLeg.isMaint():
+            print("Error, nextLeg must be flight to compute delay!")
+            sys.exit(0)
+        nextLegDepTime = nextLeg.getDepTime() + delay
+        nextLegArrTime = nextLeg.getArrTime() + delay
+        delay2 = 0
+        depCloseList = nextLeg.getDepStation().getCloseTimeList()
+        arrCloseList = nextLeg.getArrStation().getCloseTimeList()
+        stopFlag1, stopFlag2 = False, False
+        while not stopFlag1 or not stopFlag2:
+            stopFlag1 = True
+            for _depClose in depCloseList:
+                if nextLegDepTime + delay2 >= _depClose[0] and nextLegDepTime + delay2 < _depClose[1]:
+                    delay2 = _depClose[1] - nextLegDepTime
+                    stopFlag1 = False
+                    break
+            stopFlag2 = True
+            for _arrClose in arrCloseList:
+                if nextLegArrTime + delay2 >= _arrClose[0] and nextLegArrTime + delay2 < _arrClose[1]:
+                    delay2 = _arrClose[1] - nextLegArrTime
+                    stopFlag2 = False
+                    break
+        return delay2
 
     def findInitOneColumn(self, aircraft):
         aircraft.sortScheLegByDepTime()
@@ -292,26 +314,175 @@ class Model:
         nextLeg.insertSubNode(newSubNode)
 
     def edgeProcessFltMaint(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
-        pass
+        subNodeList = thisLeg.getSubNodeList()
+        for _subNode in subNodeList:
+           self.edgeProcessFltMaintSubNode(_subNode, nextLeg, aircraft)
+
+    def edgeProcessFltMaintSubNode(self, subNode: SubNode, nextLeg: Leg, aircraft: Aircraft) -> None:
+        delay, edgeCost = 0, 0
+        if nextLeg.getAircraft() == aircraft:
+            if subNode.getOperArrTime() <= nextLeg.getDepTime():
+                if nextLeg.getArrTime() > aircraft.getEndTime():
+                    return
+                edgeCost = 0 - nextLeg.getDual()
+                newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+                nextLeg.insertSubNode(newSubNode)
 
     def edgeProcessMaintFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
-        pass
+        subNodeList = thisLeg.getSubNodeList()
+        for _subNode in subNodeList:
+            self.edgeProcessMaintFltSubNode(_subNode, nextLeg, aircraft)
+    
+    def edgeProcessMaintFltSubNode(self, subNode: SubNode, nextLeg: Leg, aircraft: Aircraft) -> None:
+        delay, edgeCost = 0, 0
+        thisLeg = subNode.getLeg()
+        if thisLeg.getAircraft() == aircraft:
+            delay = self.computeFlightDelay(subNode, nextLeg)
+            edgeCost = delay / 60.0 * ut.util.w_fltDelay - nextLeg.getDual()
+            if delay > ut.util.maxDelayTime:
+                return
+            if nextLeg.getArrTime() + delay > aircraft.getEndTime():
+                return
+            if nextLeg.getAircraft() != aircraft:
+                edgeCost += ut.util.w_fltSwap
+            newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+            nextLeg.insertSubNode(newSubNode)
+        else:
+            if len(thisLeg.getSubNodeList) > 0:
+                print("Error, maintenance and aircraft mismatch; subNodeList of maintenance must be empty!")
+                sys.exit(0)
+
 
     def exgeProcessMaintMaint(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
-        pass
+        subNodeList = thisLeg.getSubNodeList()
+        for _subNode in subNodeList:
+            self.edgeProcessMaintMaintSubNode(_subNode, nextLeg, aircraft)
+
+    def edgeProcessMaintMaintSubNode(self, subNode: SubNode, nextLeg: Leg, aircraft: Aircraft) -> None:
+        delay, edgeCost = 0, 0
+        thisLeg = subNode.getLeg()
+        if thisLeg.getAircraft() != nextLeg.getAircraft():
+            print("Error, aircraft of two connected maintenances do not match")
+            sys.exit(0)
+        if nextLeg.isMaint():
+            if nextLeg.getAircraft() == aircraft:
+                if subNode.getOperArrTime() > nextLeg.getDepTime():
+                    print("Error, maintenance cannot be delayed!")
+                    sys.exit(0)
+                if nextLeg.getArrTime() > aircraft.getEndTime():
+                    return
+                edgeCost = 0 - nextLeg.getDual()
+                newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+                nextLeg.insertSubNode(newSubNode)
+            else:
+                if len(thisLeg.getSubNodeList()) > 0:
+                    print("Error, thisLeg maintenance and aircraft do not match!")
+                    sys.exit(0)
+        else:
+            print("Error, nextLeg must be maintenance!")
+            sys.exit(0)
 
     def solveColGen(self) -> List[Lof]:
-        pass
+        self._initColumns = self.findInitColumns()
+        print("###### initial Lofs have been generated ######")
+        self.populateByColumn(self._initColumns)
+        print(" ********************* LP SOLUTION 0 *********************")
+        self.solve()
+        print(" ********************* END IP SOLUTION 0 *********************")
+        print()
+        count = 1
+        betterColumns = self.findNewColumns()
+        while len(betterColumns) > 0:
+            print(" ********************* LP SOLUTION " + str(count) + " *********************")
+            self.addColumns(betterColumns)
+            self._initColumns.extend(betterColumns)
+            self.solve()
+            print(" ********************* END IP SOLUTION " + str(count) + " *********************")
+            print()
+            count += 1
+            betterColumns = self.findNewColumns()
+        lofListSoln = self.solveIP()
+        return lofListSoln
 
     def populateByColumn(self, _initColumns: List[Lof]) -> None:
-        pass
+        # cover constraint
+        for _leg in self._legList:
+            consName = "cover_lg_" + str(_leg.getId())
+            self._model.addConstr(gp.quicksum(_leg.getOperLegList()) == 1, name = consName)
+        # TODO
+
 
     def solve(self) -> None:
-        pass
+        name = "recovery_" + str(_count) + ".lp"
+        _count += 1
+        """
+        -1=automatic,
+        0=primal simplex,
+        1=dual simplex,
+        2=barrier,
+        3=concurrent,
+        4=deterministic concurrent, and
+        5=deterministic concurrent simplex (deprecated; see ConcurrentMethod).
+        """
+        self._model.setParam(GRB.param.Method, 2)
+        # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
+        self._model.optimize()
+        print()
+        print("Number of leg variables is: " + str(len(self._legVar)))
+        print("Number of lof variables is: " + str(len(self._lofVar)))
+        print("Number of selection constraint is: " + str(len(self._selectRng)))
+        print("Number of cover constraint is: " + str(len(self._coverRng)))
+
+        print("Solution status: " + str(self._model.Status))
+        print("Optimal value: " + str(self._model.ObjVal))
+        
+        # get leg dual
+        legDual = self._model.getAttr('Pi', self._coverRng)
+        # set leg dual
+        for i in range(len(self._legList)):
+            if i != self._legList[i].getId():
+                print("Error, leg index mismatch when get dual")
+                sys.exit(0)
+            self._legList[i].setDual(legDual[i])
+        
+        # get aircraft dual
+        aircraftDual = self._model.getAttr('Pi', self._selectRng)
+        # set aircraft dual
+        for i in range(len(self._aircraftList)):
+            if i != self._aircraftList[i].getId():
+                print("Error, aircraft index mismatch when get dual")
+                sys.exit(0)
+            self._aircraftList[i].setDual(aircraftDual[i])
+
+
 
     def addColumns(self, _betterColumns: List[Lof]) -> None:
         pass
 
     def solveIP(self) -> List[Lof]:
-        pass
+        print(" ********************* FINAL IP SOLUTION *********************")
+        for v in self._model.getVars():
+            v.setAttr('VType', GRB.BINARY)
+        self._model.write("recovery.lp")
+        self._model.optimize()
+        print()
+        print("Number of leg variables is: " + str(len(self._legVar)))
+        print("Number of lof variables is: " + str(len(self._lofVar)))
+        print("Number of selection constraint is: " + str(len(self._selectRng)))
+        print("Number of cover constraint is: " + str(len(self._coverRng)))
+        print()
+        print("Solution status: " + str(self._model.Status))
+        print("Optimal value: " + str(self._model.ObjVal))
+        lofVarSoln = [v.x for v in self._lofVar]
+        lofListSoln = []
+        if len(self._initColumns) > 0:
+            for i in range(0, len(lofVarSoln)):
+                _sln = lofVarSoln[i]
+                if _sln <= 1.0001 and _sln >= 0.9999:
+                    lofListSoln.append(self._initColumns[i])
+                    self._initColumns[i].print()
+        legVarSoln = [v.x for v in self._legVar]
+        print()
+        print(" ********************* END FINAL IP SOLUTION *********************")
+        return lofListSoln
     
