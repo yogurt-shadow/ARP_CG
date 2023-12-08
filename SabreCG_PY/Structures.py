@@ -1,13 +1,18 @@
 import Util as ut
 from typing import List
 from Stack import Stack
+import time
 
 class Station:
     count = 0
     def __init__(self, name: str):
         self._name = name
-        self._id = count
-        count += 1
+        self._id = Station.count
+        Station.count += 1
+        self._depLegList, self._arrLegList = [], []
+        self._depAircraft = []
+        self._maintList = []
+        self._closeTimeList = []
 
     def getName(self) -> str:
         return self._name
@@ -46,8 +51,8 @@ class Station:
         print("Station %s Id %d" % (self._name, self._id))
         for _time in self._closeTimeList:
             begin, end = _time[0] - ut.TIMEDIFF, _time[1] - ut.TIMEDIFF
-            print("Bgn Close " + begin)
-            print("End Close " + end)
+            print("Bgn Close ", time.ctime(begin))
+            print("End Close ", time.ctime(end))
 
     def getId(self) -> int:
         return self._id
@@ -120,8 +125,8 @@ class Leg:
         self._depStation, self._arrStation = depStation, arrStation
         self._depTime, self._arrTime = depTime, arrTime
         self._aircraft = aircraft
-        self._id = _count
-        _count += 1
+        self._id = Leg._count
+        Leg._count += 1
         self._isVisited = False
         self._aircraft.pushPlanLeg(self)
         if depStation != arrStation: # flight
@@ -133,6 +138,7 @@ class Leg:
             self._depStation.pushMaint(self)
         self._dual = 0
         self._isAssigned = False
+        self._nextLegList, self._prevLegList = [], []
 
     @classmethod
     def initFlighytNum(self, flightNum: str) -> 'Leg':
@@ -141,6 +147,7 @@ class Leg:
         self._depTime, self._arrTime = 0, 0
         self._aircraft = None
         self._id = -1
+        self._nextLegList, self._prevLegList = [], []
         return self
     
     def print(self) -> None:
@@ -264,8 +271,8 @@ class Aircraft:
         self._tail = name
         self._startT, self._endT = startT, endT
         self._depStation, self._arrStation = depS, arrS
-        self._id = _count
-        _count += 1
+        self._id = Aircraft._count
+        Aircraft._count += 1
         self._dual = 0
     
     def print(self) -> None:
@@ -305,7 +312,7 @@ class Aircraft:
         return self._planLegList
 
     def sortScheLegByDepTime(self):
-        self._planLegList.sort(key = lambda _leg: _leg.compareDepKey)
+        self._planLegList.sort(key = lambda _leg: _leg.compareDepKey())
 
     def isPlanLegFeasible(self):
         pass
@@ -369,16 +376,16 @@ class Schedule:
         self._stationList, self._aircraftList, self._legList = stationList, aircraftList, legList
         self._maintList = [_leg for _leg in legList if _leg.isMaint()]
         self._flightList = [_leg for _leg in legList if not _leg.isMaint()]
-        print("****** Total Number of Airports is " + str(len(stationList) + " ******"))
+        print("****** Total Number of Airports is " + str(len(stationList)) + " ******")
         for _station in self._stationList:
             _station.print()
-        print("****** Total Number of Aircraft is " + str(len(aircraftList) + " ******"))
+        print("****** Total Number of Aircraft is " + str(len(aircraftList)) + " ******")
         for _aircraft in self._aircraftList:
             _aircraft.print()
-        print("****** Total Number of Maints is " + str(len(self._maintList) + " ******"))
+        print("****** Total Number of Maints is " + str(len(self._maintList)) + " ******")
         for _maint in self._maintList:
             _maint.print()
-        print("****** Total Number of Flights is " + str(len(self._flightList) + " ******"))
+        print("****** Total Number of Flights is " + str(len(self._flightList)) + " ******")
         for _flight in self._flightList:
             _flight.print()
         self.setAdjascentLeg()
@@ -418,7 +425,7 @@ class Schedule:
         for _leg in self._legList:
             if not _leg.isVisited():
                 self.dfs(_leg)
-        while len(self._reversePost) > 0:
+        while self._reversePost.size() > 0:
             self._topOrderList.append(self._reversePost.pop())
 
     def getTopOrderList(self) -> List[Leg]:
@@ -433,7 +440,7 @@ class Schedule:
         for _leg in nextLegList:
             if not _leg.isVisited():
                 self.dfs(_leg)
-        self._reversePost.append(leg)
+        self._reversePost.push(leg)
 
 class Lof:
     _count = 0
@@ -441,14 +448,14 @@ class Lof:
     def __init__(self):
         self._aircraft = None
         self._cost = 0
-        self._id = _count
-        _count += 1
+        self._id = Lof._count
+        Lof._count += 1
+        self._legList = []
 
     def pushLeg(self, leg: OperLeg) -> None:
         self._legList.append(leg)
         if leg.getLeg().isMaint():
             self._maintList.append(leg)
-
 
     def popLeg(self) -> None:
         self._legList.pop()
@@ -471,7 +478,7 @@ class Lof:
     def computeLofCost(self) -> None:
         self._cost = 0
         for _leg in self._legList:
-            if not _leg.isMaint():
+            if not _leg.getLeg().isMaint():
                 self._cost += (_leg.getOpDepTime() - _leg.getScheDepTime())/60.0 * ut.util.w_fltDelay
             if _leg.getScheAircraft() != self._aircraft:
                 self._cost += ut.util.w_fltSwap

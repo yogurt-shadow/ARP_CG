@@ -17,6 +17,7 @@ class Model:
         self._coverRng, self._selectRng = [], [] # cons
         self._finalLofList , self._cancelLegList = [], [] # final solution
         self._initColumns = []
+        self._tolerance = 0
         # initialize gurobi
         self._model = gp.Model()
 
@@ -491,10 +492,9 @@ class Model:
         print("Number of lof variables is: " + str(len(self._lofVar)))
         print("Number of selection constraint is: " + str(len(self._selectRng)))
         print("Number of cover constraint is: " + str(len(self._coverRng)))
-
         print("Solution status: " + str(self._model.Status))
         print("Optimal value: " + str(self._model.ObjVal))
-        
+
         # get leg dual
         legDual = self._model.getAttr('Pi', self._coverRng)
         # set leg dual
@@ -516,7 +516,19 @@ class Model:
 
 
     def addColumns(self, _betterColumns: List[Lof]) -> None:
-        pass
+        for _col in _betterColumns:
+            obj = _col.getCost()
+            OperLegList = _col.getLegList()
+            coeffs, constrs = [], []
+            for _operLeg in OperLegList:
+                _leg = _operLeg.getLeg()
+                coeffs.append(1)
+                constrs.append(self._coverRng[_leg.getId()])
+            coeffs.append(1)
+            constrs.append(self._selectRng[_col.getAircraft().getId()])
+            varName = "x_" + str(_col.getId())
+            v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
+            self._lofVar.append(v)
 
     def solveIP(self) -> List[Lof]:
         print(" ********************* FINAL IP SOLUTION *********************")

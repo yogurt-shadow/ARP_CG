@@ -71,7 +71,7 @@ def importAircrafts(fullFileName: str) -> (bool, List[aircraftType]):
     input_aircrafts = []
     nmap = get_xml_namespaces(fullFileName)
     reverse_map = {v: k for k, v in nmap.items()}
-    tree = ET.Element(file=fullFileName)
+    tree = ET.ElementTree(file=fullFileName)
     root = tree.getroot()
     eleChildren = firstChildElements(root, "ns1:aircraft", reverse_map)
     for eleChild1 in eleChildren:
@@ -93,7 +93,7 @@ def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType])
     input_airportClosures = []
     nmap = get_xml_namespaces(fullFileName)
     reverse_map = {v: k for k, v in nmap.items()}
-    tree = ET.Element(file=fullFileName)
+    tree = ET.ElementTree(file=fullFileName)
     root = tree.getroot()
     eleChildren = firstChildElements(root, "ns2:flow", reverse_map)
     for eleChild1 in eleChildren:
@@ -113,7 +113,7 @@ def importSchedules(fullFileName: str) -> (bool, List[flightType], List[mtcType]
     input_flights, input_mtc = [], []
     nmap = get_xml_namespaces(fullFileName)
     reverse_map = {v: k for k, v in nmap.items()}
-    tree = ET.Element(file=fullFileName)
+    tree = ET.ElementTree(file=fullFileName)
     root = tree.getroot()
     xml_fltList = firstChildElement(root, "ns3:flightInfoList", reverse_map)
     xml_fltFound = firstChildElements(xml_fltList, "ns3:flightInfo", reverse_map)
@@ -150,7 +150,7 @@ def importParameters(fullFileName: str) -> (bool, paraSet):
     input_para = paraSet()
     nmap = get_xml_namespaces(fullFileName)
     reverse_map = {v: k for k, v in nmap.items()}
-    tree = ET.Element(file=fullFileName)
+    tree = ET.ElementTree(file=fullFileName)
     root = tree.getroot()
     turnTime = firstChildElement(root, "turnTime", reverse_map)
     maxDelayTime = firstChildElement(root, "maxDelayTime", reverse_map)
