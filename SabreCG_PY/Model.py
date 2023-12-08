@@ -274,7 +274,7 @@ class Model:
             print("Error, nextLeg must be flight to compute delay!")
             sys.exit(0)
         nextLegDepTime = nextLeg.getDepTime() + delay
-        nextLegArrTime = nextLeg.getArrTime11 + delay
+        nextLegArrTime = nextLeg.getArrTime() + delay
         delay2 = 0
         depCloseList = nextLeg.getDepStation().getCloseTimeList()
         arrCloseList = nextLeg.getArrStation().getCloseTimeList()
@@ -300,7 +300,7 @@ class Model:
             self.edgeProcessFltFltSubNode(_subNode, nextLeg, aircraft)
 
     # helper function
-    def edgeProcessFltFlt(self, subNode: SubNode, nextLeg: Leg, aircraft: Aircraft) -> None:
+    def edgeProcessFltFltSubNode(self, subNode: SubNode, nextLeg: Leg, aircraft: Aircraft) -> None:
         delay, edgeCost = 0, 0
         delay = self.computeFlightDelay(subNode, nextLeg)
         edgeCost = delay / 60.0 * ut.util.w_fltDelay - nextLeg.getDual()
@@ -456,6 +456,7 @@ class Model:
                     expr.addTerms(cover_lof_mat[i][j], self._lofVar[j])
             # add constraint
             rng = self._model.addConstr(expr == 1, name = consName)
+            self._coverRng.append(rng)
 
         # select constraint
         for i in range(len(self._aircraftList)):
@@ -470,7 +471,8 @@ class Model:
                 if select_lof_mat[i][j] > 0:
                     expr.addTerms(select_lof_mat[i][j], self._lofVar[j])
             # add constraint
-            rng = self._model.addConstr(expr <= 1, name = consName)
+            slt = self._model.addConstr(expr <= 1, name = consName)
+            self._selectRng.append(slt)
 
     def solve(self) -> None:
         name = "recovery_" + str(Model._count) + ".lp"

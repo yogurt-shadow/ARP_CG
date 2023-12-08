@@ -312,7 +312,7 @@ if __name__ == "__main__":
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
     lofListSoln = model.solveColGen()
     finaLegList = updaInfo(lofListSoln, legList)
-    print("Total number of connection of leg network: " + schedule.getConnectionSize())
+    print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
     endTime = time.time()
     print("total run time is " + str(endTime - startTime) + " seconds")
 

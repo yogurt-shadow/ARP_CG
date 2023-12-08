@@ -139,6 +139,7 @@ class Leg:
         self._dual = 0
         self._isAssigned = False
         self._nextLegList, self._prevLegList = [], []
+        self._subNodeList = []
 
     @classmethod
     def initFlighytNum(self, flightNum: str) -> 'Leg':
@@ -148,6 +149,7 @@ class Leg:
         self._aircraft = None
         self._id = -1
         self._nextLegList, self._prevLegList = [], []
+        self._subNodeList = []
         return self
     
     def print(self) -> None:
