@@ -78,7 +78,7 @@ class Model:
                     tempLeg, tempOperLeg = None, None
                     newLof = Lof()
                     newLof.setAircraft(aircraft)
-                    while len(subNodeSelect) > 0:
+                    while subNodeSelect.size() > 0:
                         tempSubNode = subNodeSelect.peek()
                         tempLeg = tempSubNode.getLeg()
                         tempOperLeg = OperLeg(tempLeg, aircraft)
@@ -257,17 +257,46 @@ class Model:
         return initColumns
     
     def edgeProcessMaint(self, nextLeg: Leg, aircraft: Aircraft) -> None:
-        pass
+        if not nextLeg.isMaint():
+            print("Error, input of edgeProcessMaint must be maintenance.")
+            sys.exit(0)
+        edgeCost = 0
+        if nextLeg.getAircraft() == aircraft:
+            if aircraft.getStartTime() <= nextLeg.getDepTime():
+                if nextLeg.getArrTime() > aircraft.getEndTime():
+                    return
+                edgeCost = 0 - nextLeg.getDual()
+                if len(nextLeg.getSubNodeList()) > 0:
+                    print("Error, initial leg's subNodeList must be empty")
+                    sys.exit(0)
+                newSubNode = SubNode(nextLeg, None, edgeCost, 0)
+                if not nextLeg.insertSubNode(newSubNode):
+                    print("Error, initial relaxation must happen")
+                    sys.exit(0)
 
     def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft) -> None:
         if nextLeg.isMaint():
             print("Error, input of edgeProcessFlt must be flight.")
-            return
+            sys.exit(0)
         delay, edgeCost = 0, 0
         if aircraft.getStartTime() > nextLeg.getDepTime():
             delay = aircraft.getStartTime() - nextLeg.getDepTime()
         delay2 = self.delayByAirportClose(nextLeg, delay)
-        return delay + delay2
+        delay += delay2
+        if delay > ut.util.maxDelayTime:
+            return
+        if nextLeg.getArrTime() + delay > aircraft.getEndTime():
+            return
+        edgeCost = delay / 60.0 * ut.util.w_fltDelay - nextLeg.getDual()
+        if nextLeg.getAircraft() != aircraft:
+            edgeCost += ut.util.w_fltSwap
+        if len(nextLeg.getSubNodeList()) > 0:
+            print("Error, initial leg's subNodeList must be empty")
+            sys.exit(0)
+        newSubNode = SubNode(nextLeg, None, edgeCost, delay)
+        if not nextLeg.insertSubNode(newSubNode):
+            print("Error, initial relaxation must happen")
+            sys.exit(0)
     
     def delayByAirportClose(self, nextLeg: Leg, delay: float) -> float:
         if nextLeg.isMaint():

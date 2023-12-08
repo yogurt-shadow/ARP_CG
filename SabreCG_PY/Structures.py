@@ -107,11 +107,10 @@ class SubNode:
     def getOperArrTime(self) -> float:
         return self._leg.getArrTime() + self._delay
     
-    @classmethod
-    def LessKey(p1, p2) -> bool:
-        if p1.getSubNodeCost() == p2.getSubNodeCost() and p1.getDelay() == p2.getDelay():
+    def LessKey(self, other) -> bool:
+        if self.getSubNodeCost() == other.getSubNodeCost() and self.getDelay() == other.getDelay():
             return False
-        a, b = p1.getSubNodeCost() <= p2.getSubNodeCost(), p1.getDelay() <= p2.getDelay()
+        a, b = self.getSubNodeCost() <= other.getSubNodeCost(), self.getDelay() <= other.getDelay()
         return a and b
 
     def CostKey(self) -> float:
@@ -255,9 +254,9 @@ class Leg:
             self._subNodeList.append(subNode)
             return True
         for _subNode in self._subNodeList:
-            if SubNode.LessKey(_subNode, subNode):
+            if _subNode.LessKey(subNode):
                 return False
-            if SubNode.LessKey(subNode, _subNode):
+            if subNode.LessKey(_subNode):
                 self._subNodeList.remove(_subNode)
         self._subNodeList.append(subNode)
         return True
@@ -365,8 +364,9 @@ class OperLeg:
         self._leg.print()
         depTime = self._depTime - ut.TIMEDIFF
         arrTime = self._arrTime - ut.TIMEDIFF
-        print("ODp %s" % depTime)
-        print("OAr %s" % arrTime)
+        print("ODp %s" % time.ctime(depTime))
+        print("OAr %s" % time.ctime(arrTime))
+        print()
 
     def getLeg(self) -> Leg:
         return self._leg
@@ -486,6 +486,7 @@ class Lof:
         self._id = Lof._count
         Lof._count += 1
         self._legList = []
+        self._maintList = []
 
     def pushLeg(self, leg: OperLeg) -> None:
         self._legList.append(leg)

@@ -1,13 +1,73 @@
-﻿  main2.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+﻿  Aircraft.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Aircraft.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(22,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(23,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Leg.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Leg.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(63,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(64,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(68,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(69,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(96,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Lof.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Lof.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Lof.cpp')
+  
+  main2.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Model.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Model.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Model.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(118,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(164,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(177,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(189,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(216,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(283,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(985,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  OperLeg.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'OperLeg.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(64,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Schedule.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Schedule.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(116,56): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  Station.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Station.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(33,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(34,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SubNode.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SubNode.cpp')
+  
+  tinyxml2.cpp
+  Util.cpp
   Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  Previous IPDB not found, fall back to full compilation.
   All 1599 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
 concert.lib(iloextractable.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloextractable.obj)' or at ''; linking object as if no debug info

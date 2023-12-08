@@ -20,3 +20,6 @@ class Stack(object):
  
     def size(self) -> int:
         return len(self.stack)
+    
+    def __len__(self) -> int:
+        return len(self.stack)
