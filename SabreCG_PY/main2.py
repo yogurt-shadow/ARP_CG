@@ -1,49 +1,19 @@
-from Station import Station
-from Aircraft import Aircraft
-from Leg import Leg
-from Lof import Lof
-from OperLeg import OperLeg
-from Schedule import Schedule
+# from Station import Station
+# from Aircraft import Aircraft
+# from Leg import Leg
+# from Lof import Lof
+# from OperLeg import OperLeg
+# from Schedule import Schedule
+
+from Structures import Station, Aircraft, Leg, Lof, OperLeg, Schedule
 import util as ut
 from Model import Model
 from ReadXML import importAircrafts, importAirportClosures, importSchedules, importParameters
-
-
 from typing import List
 import xml.etree.ElementTree as et
 import sys
 import os
 import time
-
-class flightType:
-    def __init__(self):
-        self.id, self.tailNumber = "", ""
-        self.arrivalAirport, self.departureAirport = "", ""
-        self.arrivalTime, self.departureTime = 0, 0
-
-class aircraftType:
-    def __init__(self):
-        self.tailNumber, self.startAvailableAirport, self.endAvailableAirport = "", "", ""
-        self.startAvailableTime, self.endAvailableTime = 0, 0
-
-class mtcType:
-    def __init__(self):
-        self.id, self.airport, self.tailNumber = "", "", ""
-        self.startTime, self.endTime = 0, 0
-
-class airportClosureType:
-    def __init__(self):
-        self.code = ""
-        self.startTime, self.endTime = 0, 0
-
-class paraSet:
-    def __init__(self):
-        self.turnTime = 0
-        self.maxDelayTime = 0
-        self.w_cancelMtc, self.cancelFlt = 0, 0
-        self.w_violatedBalance, self.w_violatedPosition = 0, 0
-        self.w_fltDelay, self.w_fltSwap = 0, 0
-        self.maxRunTime = 0
 
 def processArguments(argc, argv):
     isCheck = False
@@ -56,13 +26,13 @@ def processArguments(argc, argv):
             isCheck = True
     print("input dir is %s", input_dir)
     print("output dir is %s", output_dir)
-    return isCheck
+    return isCheck, input_dir, output_dir
 
 def readConfigurationList() -> (str, str):
     configFile = "./Config.txt"
     input_dir, output_dir = "", ""
     if not os.path.exists(configFile):
-        return
+        return "", ""
     with open(configFile, 'r') as f:
         line = f.readlines()
     for i in range(len(line)):

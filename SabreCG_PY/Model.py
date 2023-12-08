@@ -1,10 +1,5 @@
-from Lof import Lof
-from OperLeg import OperLeg
-from Aircraft import Aircraft
+from Structures import Station, Aircraft, Leg, OperLeg, SubNode, Lof
 from typing import List
-from Leg import Leg
-from Station import Station
-from SubNode import SubNode
 from Stack import Stack
 import util as ut
 import sys

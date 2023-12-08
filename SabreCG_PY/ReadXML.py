@@ -4,7 +4,7 @@ import time
 from typing import List
 from lxml import etree
 import xml.etree.ElementTree as ET
-from main2 import aircraftType, airportClosureType, flightType, mtcType, paraSet
+from Type import aircraftType, airportClosureType, flightType, mtcType, paraSet
 
 def get_xml_namespaces(inputPath: str) -> dict[str, str]:
     """Get the namespaces of an XML file.
