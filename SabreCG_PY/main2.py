@@ -6,7 +6,7 @@
 # from Schedule import Schedule
 
 from Structures import Station, Aircraft, Leg, Lof, OperLeg, Schedule
-import util as ut
+import Util as ut
 from Model import Model
 from ReadXML import importAircrafts, importAirportClosures, importSchedules, importParameters
 from typing import List

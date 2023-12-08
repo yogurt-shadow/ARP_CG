@@ -1,7 +1,7 @@
 from Structures import Station, Aircraft, Leg, OperLeg, SubNode, Lof
 from typing import List
 from Stack import Stack
-import util as ut
+import Util as ut
 import sys
 import gurobipy as gp
 from gurobipy import GRB
@@ -404,12 +404,72 @@ class Model:
         return lofListSoln
 
     def populateByColumn(self, _initColumns: List[Lof]) -> None:
-        # cover constraint
-        for _leg in self._legList:
-            consName = "cover_lg_" + str(_leg.getId())
-            self._model.addConstr(gp.quicksum(_leg.getOperLegList()) == 1, name = consName)
-        # TODO
+        # init constraint - var coefficient matrix
+        """
+        cover_leg_mat[cons][i]: coefficient of variable i in constraint cons
+        cover_lof_mat[cons][j]: coefficient of variable j in constraint cons
+        """
+        cover_leg_mat = [[0] * len(self._legList) for i in range(len(self._legList))]
+        cover_lof_mat = [[0] * len(self._initColumns) for i in range(len(self._legList))]
+        """
+        select_leg_mat[cons][i]: coefficient of variable i in constraint cons
+        select_lof_mat[cons][j]: coefficient of variable j in constraint cons
+        """
+        select_leg_mat = [[0] * len(self._legList) for i in range(len(self._aircraftList))]
+        select_lof_mat = [[0] * len(self._initColumns) for i in range(len(self._aircraftList))]
 
+        # add decision variable _legVar (y)
+        for i in range(len(self._legList)):
+            _leg = self._legList[i]
+            varName = "y_" + str(_leg.getId())
+            cancelCost = ut.util.w_cancelFlt
+            if _leg.isMaint():
+                cancelCost = ut.util.w_cancelMtc
+            v = self._model.addVar(lb = 0, ub = 1, obj = cancelCost, name = varName, vtype = GRB.CONTINUOUS)
+            self._legVar.append(v)
+            cover_leg_mat[_leg.getId()][i] = 1
+
+        # add decision variable _lofVar (x)
+        for i in range(len(self._initColumns)):
+            _col = self._initColumns[i]
+            varName = "x_" + str(_col.getId())
+            v = self._model.addVar(lb = 0, ub = 1, obj = _col.getCost(), name = varName, vtype = GRB.CONTINUOUS)
+            self._lofVar.append(v)
+            operLegList = _col.getLegList()
+            for j in range(len(operLegList)):
+                _leg = operLegList[j].getLeg()
+                cover_lof_mat[_leg.getId()][i] = 1
+            select_lof_mat[_col.getAircraft().getId()][i] = 1
+
+        # cover constraint
+        for i in range(len(self._legList)):
+            consName = "cover_lg_" + str(self._legList[i].getId())
+            expr = gp.LinExpr()
+            # add cover-leg terms
+            for j in range(len(self._legVar)):
+                if cover_leg_mat[i][j] > 0:
+                    expr.addTerms(cover_leg_mat[i][j], self._legVar[j])
+            # add cover-lof terms
+            for j in range(len(self._lofVar)):
+                if cover_lof_mat[i][j] > 0:
+                    expr.addTerms(cover_lof_mat[i][j], self._lofVar[j])
+            # add constraint
+            rng = self._model.addConstr(expr == 1, name = consName)
+
+        # select constraint
+        for i in range(len(self._aircraftList)):
+            consName = "select_ac_" + str(self._aircraftList[i].getId())
+            expr = gp.LinExpr()
+            # add select-leg terms
+            for j in range(len(self._legVar)):
+                if select_leg_mat[i][j] > 0:
+                    expr.addTerms(select_leg_mat[i][j], self._legVar[j])
+            # add select-lof terms
+            for j in range(len(self._lofVar)):
+                if select_lof_mat[i][j] > 0:
+                    expr.addTerms(select_lof_mat[i][j], self._lofVar[j])
+            # add constraint
+            rng = self._model.addConstr(expr <= 1, name = consName)
 
     def solve(self) -> None:
         name = "recovery_" + str(Model._count) + ".lp"
