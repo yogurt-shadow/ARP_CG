@@ -1,67 +1,45 @@
 ﻿//给大家一个测试代码
 
 #include <ilcplex/ilocplex.h>
+#include <iostream>
+#include <string>
 
+using namespace std;
 
 
 int main() {
 
-    IloEnv env;
+    IloEnv _env;
 
     try {
+        IloModel _model;
+        IloCplex _solver;
+        IloObjective _obj;
+        IloNumVarArray _Var;
+        IloRangeArray _Rng;
 
-        IloModel model(env);
+        _model = IloModel(_env, "Minimize");
+        _obj = IloMinimize(_env);
+        _Var = IloNumVarArray(_env);
+        _Rng = IloRangeArray(_env);
+        _solver = IloCplex(_model);
 
-        IloCplex cplex(model);
+        _obj = IloAdd(_model, IloMinimize(_env));
+        for (int i = 0; i < 5; i++) {
+            string cons_name = "cover_lg_" + to_string(i);
+            cout << "here " << i << endl;
+            _Rng.add(IloRange(_env, 1, 1, cons_name.c_str()));
+        }
+        _model.add(_Rng);
 
+        int rr[] = {1, 4, 0, 3, 2};
 
-
-        // 定义决策变量
-
-        IloNumVar x(env, 0.0, IloInfinity, ILOFLOAT, "x");
-
-        IloNumVar y(env, 0.0, IloInfinity, ILOFLOAT, "y");
-
-
-
-        // 添加决策变量到模型中
-
-        model.add(x);
-
-        model.add(y);
-
-
-
-        // 设置目标函数为最小化
-
-        IloObjective obj = IloMinimize(env);
-
-        obj.setExpr(3 * x + 2 * y);
-
-        model.add(obj);
-
-
-
-        // 添加约束条件：2 * x + y >= 10
-
-        model.add(2 * x + y >= 10);
-
-
-
-        // 求解模型
-
-        cplex.solve();
-
-
-
-        // 获取求解结果
-
-        std::cout << "Objective value = " << cplex.getObjValue() << std::endl;
-
-        std::cout << "x = " << cplex.getValue(x) << std::endl;
-
-        std::cout << "y = " << cplex.getValue(y) << std::endl;
-
+        for (int i = 0; i < 5; i++) {
+            string varName = "y_" + to_string(i);
+            _Var.add(IloNumVar(_obj(100) + _Rng[rr[i]](1), 0, 1, ILOFLOAT, varName.c_str()));
+        }
+        _solver.solve();
+        _solver.exportModel("recovery.lp");
     }
     catch (IloException& e) {
 
@@ -76,7 +54,7 @@ int main() {
 
 
 
-    env.end();
+    _env.end();
 
     return 0;
 
