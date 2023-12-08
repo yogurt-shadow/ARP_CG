@@ -24,8 +24,8 @@ def processArguments(argc, argv):
         elif i == 2:
             output_dir += (argv[i] + "\\")
             isCheck = True
-    print("input dir is %s", input_dir)
-    print("output dir is %s", output_dir)
+    print("input dir is %s" % input_dir)
+    print("output dir is %s" % output_dir)
     return isCheck, input_dir, output_dir
 
 def readConfigurationList() -> (str, str):

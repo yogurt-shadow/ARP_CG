@@ -157,12 +157,12 @@ class Leg:
         arrTime = self._arrTime - ut.TIMEDIFF
         if not self._isMaint:
             print("Leg %d Flt %s Tal %s" % (self._id, self._flightNum, self._aircraft.getTail()))
-            print("%s %s" % (self._depStation.getName(), depTime))
-            print("%s %s" % (self._arrStation, arrTime))
+            print("%s %s" % (self._depStation.getName(), time.ctime(depTime)))
+            print("%s %s" % (self._arrStation, time.ctime(arrTime)))
         else:
             print("Maint %d Flt %s Sta %s Tal %s" % (self._id, self._flightNum, self._depStation.getName(), self._aircraft.getTail()))
-            print(depTime)
-            print(arrTime)
+            print(time.ctime(depTime))
+            print(time.ctime(arrTime))
 
     def setId(self, id: int) -> None:
         self._id = id
@@ -280,8 +280,8 @@ class Aircraft:
     def print(self) -> None:
         startT, endT = self._startT, self._endT
         print("Tail %s" % self._tail)
-        print("%s %s" % (self._depStation.getName(), startT))
-        print("%s %s" % (self._arrStation.getName(), endT))
+        print("%s %s" % (self._depStation.getName(), time.ctime(startT)))
+        print("%s %s" % (self._arrStation.getName(), time.ctime(endT)))
 
     def getTail(self) -> str:
         return self._tail
@@ -332,7 +332,7 @@ class OperLeg:
         self._leg.print()
         depTime = self._depTime - ut.TIMEDIFF
         arrTime = self._arrTime - ut.TIMEDIFF
-        print("ODp %s", depTime)
+        print("ODp %s" % depTime)
         print("OAr %s" % arrTime)
 
     def getLeg(self) -> Leg:
@@ -499,7 +499,7 @@ class Lof:
     
     def print(self) -> None:
         print("************ LOF ************")
-        print("Lof ID is ")
+        print("Lof ID is ", self._id)
         if self._aircraft != None:
             self._aircraft.print()
         else:
