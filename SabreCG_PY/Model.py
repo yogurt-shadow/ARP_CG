@@ -3,7 +3,6 @@ from typing import List
 from Stack import Stack
 import util as ut
 import sys
-import numpy as np
 import gurobipy as gp
 from gurobipy import GRB
 
@@ -13,6 +12,11 @@ class Model:
     def __init__(self, stationList: List[Station], aircraftList: List[Aircraft], legList: List[Leg], topOrderList: List[Leg]):
         self._stationList, self._aircraftList = stationList, aircraftList
         self._legList, self._topOrderList = legList, topOrderList
+        self._tolerance = 0
+        self._lofVar, self._legVar = [], [] # var
+        self._coverRng, self._selectRng = [], [] # cons
+        self._finalLofList , self._cancelLegList = [], [] # final solution
+        self._initColumns = []
         # initialize gurobi
         self._model = gp.Model()
 
@@ -408,8 +412,8 @@ class Model:
 
 
     def solve(self) -> None:
-        name = "recovery_" + str(_count) + ".lp"
-        _count += 1
+        name = "recovery_" + str(Model._count) + ".lp"
+        Model._count += 1
         """
         -1=automatic,
         0=primal simplex,
