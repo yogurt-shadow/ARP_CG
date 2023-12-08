@@ -173,4 +173,3 @@ def importParameters(fullFileName: str) -> (bool, paraSet):
     input_para.maxRunTime = int(maxRunTime.text)
     return True, input_para
 
-
