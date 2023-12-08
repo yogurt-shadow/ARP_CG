@@ -30,6 +30,354 @@ number of aircraft departured from station AIM is 0
 number of aircraft departured from station URG is 0
 ********************* END PRINTING *********************
 Ready to go!
+Station MIL Id 0
+Station XEM Id 1
+Bgn Close Tue Jul 24 02:00:00 2012
+End Close Tue Jul 24 04:00:00 2012
+Station NUC Id 2
+Station KFJ Id 3
+Station JIT Id 4
+Station XAL Id 5
+Station YTM Id 6
+Station LUY Id 7
+Station SCC Id 8
+Station GOB Id 9
+Station OCM Id 10
+Station VAH Id 11
+Station DIM Id 12
+Station RVP Id 13
+Station ASV Id 14
+Station LDG Id 15
+Station OJS Id 16
+Station DJS Id 17
+Station OMH Id 18
+Station SAL Id 19
+Station LUC Id 20
+Station UUC Id 21
+Station TZM Id 22
+Station AIM Id 23
+Station URG Id 24
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
 ****** Total Number of Airports is 25 ******
 Station MIL Id 0
 Station XEM Id 1
@@ -446,12 +794,12 @@ Summary statistics for Cholesky factor:
    8   2.3236625e+04   2.3213639e+04  8.32e-02  1.49e-02  2.98e-01  1.28e+01
    9   2.3218003e+04   2.3217998e+04  1.92e-05  3.44e-06  2.98e-05  3.48e+04
   10   2.3218000e+04   2.3218000e+04  4.54e-09  8.14e-10  3.05e-09  1.63e+08
-Barrier time = 0.01 sec. (0.29 ticks)
+Barrier time = 0.00 sec. (0.29 ticks)
 
-Total time on 20 threads = 0.01 sec. (0.42 ticks)
-Barrier time = 0.01 sec. (0.43 ticks)
+Total time on 20 threads = 0.00 sec. (0.42 ticks)
+Barrier time = 0.00 sec. (0.43 ticks)
 
-Total time on 20 threads = 0.01 sec. (0.43 ticks)
+Total time on 20 threads = 0.00 sec. (0.43 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 31
@@ -832,12 +1180,12 @@ Summary statistics for Cholesky factor:
    7   5.3651390e+03   5.3159442e+03  9.28e-02  1.40e-02  2.03e+00  9.41e+00
    8   5.3496396e+03   5.3494588e+03  2.29e-04  3.44e-05  8.58e-03  2.21e+03
    9   5.3496000e+03   5.3496000e+03  2.86e-08  4.31e-09  1.10e-06  1.99e+07
-Barrier time = 0.00 sec. (1.13 ticks)
+Barrier time = 0.02 sec. (1.13 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.74 ticks)
-Barrier time = 0.00 sec. (1.77 ticks)
+Total time on 20 threads = 0.02 sec. (1.74 ticks)
+Barrier time = 0.02 sec. (1.77 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.77 ticks)
+Total time on 20 threads = 0.02 sec. (1.77 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 187
@@ -941,12 +1289,12 @@ Summary statistics for Cholesky factor:
   10   5.1303535e+03   5.1301890e+03  2.07e-04  2.95e-05  6.20e-03  3.50e+03
   11   5.1302859e+03   5.1302857e+03  7.24e-07  1.03e-07  8.21e-07  2.62e+07
   12   5.1302857e+03   5.1302857e+03  1.11e-10  1.60e-11  1.36e-10  2.28e+10
-Barrier time = 0.00 sec. (1.63 ticks)
+Barrier time = 0.02 sec. (1.63 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.11 ticks)
-Barrier time = 0.00 sec. (2.15 ticks)
+Total time on 20 threads = 0.02 sec. (2.11 ticks)
+Barrier time = 0.02 sec. (2.15 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.15 ticks)
+Total time on 20 threads = 0.02 sec. (2.15 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 227
@@ -1048,10 +1396,10 @@ Summary statistics for Cholesky factor:
    8   4.4150000e+03   4.4150000e+03  4.07e-10  5.58e-11  4.94e-09  3.31e+09
 Barrier time = 0.00 sec. (1.34 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.88 ticks)
-Barrier time = 0.02 sec. (1.93 ticks)
+Total time on 20 threads = 0.00 sec. (1.88 ticks)
+Barrier time = 0.00 sec. (1.93 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.93 ticks)
+Total time on 20 threads = 0.00 sec. (1.93 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 264
@@ -1153,12 +1501,12 @@ Summary statistics for Cholesky factor:
    8   4.4155202e+03   4.4147743e+03  1.36e-03  1.87e-04  1.62e-02  1.74e+03
    9   4.4150005e+03   4.4149999e+03  1.36e-06  1.88e-07  1.62e-06  9.65e+06
   10   4.4150000e+03   4.4150000e+03  2.01e-10  2.63e-11  3.01e-10  1.25e+10
-Barrier time = 0.00 sec. (1.40 ticks)
+Barrier time = 0.01 sec. (1.40 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.01 ticks)
-Barrier time = 0.02 sec. (2.06 ticks)
+Total time on 20 threads = 0.01 sec. (2.01 ticks)
+Barrier time = 0.01 sec. (2.06 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.06 ticks)
+Total time on 20 threads = 0.01 sec. (2.06 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 300
@@ -1206,12 +1554,12 @@ Summary statistics for Cholesky factor:
    7   4.4023083e+03   4.3790342e+03  5.31e-02  7.31e-03  6.86e-01  2.70e+01
    8   4.3955731e+03   4.3954775e+03  5.84e-04  8.03e-05  8.64e-04  2.23e+04
    9   4.3955000e+03   4.3955000e+03  7.96e-08  1.09e-08  1.16e-07  7.06e+07
-Barrier time = 0.01 sec. (1.35 ticks)
+Barrier time = 0.00 sec. (1.35 ticks)
 
-Total time on 20 threads = 0.01 sec. (1.99 ticks)
-Barrier time = 0.01 sec. (2.04 ticks)
+Total time on 20 threads = 0.00 sec. (1.99 ticks)
+Barrier time = 0.00 sec. (2.04 ticks)
 
-Total time on 20 threads = 0.01 sec. (2.04 ticks)
+Total time on 20 threads = 0.00 sec. (2.04 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 317
@@ -1259,12 +1607,12 @@ Summary statistics for Cholesky factor:
    7   4.4077371e+03   4.3655145e+03  5.33e-02  7.29e-03  1.33e+00  1.67e+01
    8   4.3956722e+03   4.3952700e+03  7.44e-04  1.02e-04  1.03e-02  2.18e+03
    9   4.3955000e+03   4.3955000e+03  1.47e-07  2.01e-08  1.32e-06  1.54e+07
-Barrier time = 0.00 sec. (1.40 ticks)
+Barrier time = 0.02 sec. (1.40 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.05 ticks)
-Barrier time = 0.00 sec. (2.11 ticks)
+Total time on 20 threads = 0.02 sec. (2.05 ticks)
+Barrier time = 0.02 sec. (2.11 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.11 ticks)
+Total time on 20 threads = 0.02 sec. (2.11 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 332
@@ -1313,12 +1661,12 @@ Summary statistics for Cholesky factor:
    8   4.3706894e+03   4.3691772e+03  7.56e-03  1.03e-03  2.86e-02  5.79e+02
    9   4.3700001e+03   4.3699999e+03  7.56e-07  1.03e-07  4.28e-06  3.64e+06
   10   4.3700000e+03   4.3700000e+03  7.45e-11  1.03e-11  6.54e-10  2.89e+10
-Barrier time = 0.02 sec. (1.55 ticks)
+Barrier time = 0.00 sec. (1.55 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.23 ticks)
-Barrier time = 0.02 sec. (2.28 ticks)
+Total time on 20 threads = 0.00 sec. (2.23 ticks)
+Barrier time = 0.00 sec. (2.28 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.28 ticks)
+Total time on 20 threads = 0.00 sec. (2.28 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 345
@@ -1422,12 +1770,12 @@ Summary statistics for Cholesky factor:
    9   4.3681467e+03   4.3669503e+03  1.11e-03  1.48e-04  3.37e-02  4.39e+02
   10   4.3680001e+03   4.3679999e+03  3.79e-07  5.02e-08  4.58e-06  4.23e+06
   11   4.3680000e+03   4.3680000e+03  1.04e-10  7.18e-12  7.29e-10  3.09e+10
-Barrier time = 0.00 sec. (1.75 ticks)
+Barrier time = 0.02 sec. (1.75 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.48 ticks)
-Barrier time = 0.00 sec. (2.54 ticks)
+Total time on 20 threads = 0.02 sec. (2.48 ticks)
+Barrier time = 0.02 sec. (2.54 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.54 ticks)
+Total time on 20 threads = 0.02 sec. (2.54 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372
@@ -1476,12 +1824,12 @@ Summary statistics for Cholesky factor:
    8   4.3882514e+03   4.3294165e+03  2.64e-01  3.46e-02  1.09e+00  1.41e+01
    9   4.3641513e+03   4.3638723e+03  1.67e-03  2.19e-04  3.96e-03  3.90e+03
   10   4.3640000e+03   4.3640000e+03  2.04e-07  2.67e-08  5.51e-07  2.36e+07
-Barrier time = 0.02 sec. (1.67 ticks)
+Barrier time = 0.00 sec. (1.67 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.42 ticks)
-Barrier time = 0.02 sec. (2.48 ticks)
+Total time on 20 threads = 0.00 sec. (2.42 ticks)
+Barrier time = 0.00 sec. (2.48 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.48 ticks)
+Total time on 20 threads = 0.00 sec. (2.48 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 380
@@ -1530,12 +1878,12 @@ Summary statistics for Cholesky factor:
    8   4.3875094e+03   4.3305479e+03  2.60e-01  3.40e-02  1.06e+00  1.46e+01
    9   4.3641445e+03   4.3639074e+03  1.64e-03  2.15e-04  2.79e-03  5.51e+03
   10   4.3640000e+03   4.3640000e+03  1.99e-07  2.61e-08  3.91e-07  2.91e+07
-Barrier time = 0.00 sec. (1.67 ticks)
+Barrier time = 0.02 sec. (1.67 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.42 ticks)
-Barrier time = 0.00 sec. (2.48 ticks)
+Total time on 20 threads = 0.02 sec. (2.42 ticks)
+Barrier time = 0.02 sec. (2.48 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.48 ticks)
+Total time on 20 threads = 0.02 sec. (2.48 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381
@@ -1564,7 +1912,7 @@ Tried aggregator 1 time.
 Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
 Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
 Presolve time = 0.00 sec. (1.27 ticks)
-Probing time = 0.00 sec. (2.37 ticks)
+Probing time = 0.02 sec. (2.37 ticks)
 Clique table members: 136.
 MIP emphasis: balance optimality and feasibility.
 MIP search method: dynamic search.
@@ -1577,16 +1925,16 @@ Root relaxation solution time = 0.00 sec. (1.45 ticks)
 *     0+    0                        76000.0000     1600.0000            97.89%
 *     0+    0                        12356.0000     1600.0000            87.05%
 *     0     0      integral     0     4364.0000     4364.0000       11   -0.00%
-Elapsed time = 0.00 sec. (10.90 ticks, tree = 0.00 MB, solutions = 3)
+Elapsed time = 0.02 sec. (10.90 ticks, tree = 0.00 MB, solutions = 3)
 
 Root node processing (before b&c):
-  Real time             =    0.00 sec. (10.92 ticks)
+  Real time             =    0.02 sec. (10.92 ticks)
 Parallel b&c, 20 threads:
   Real time             =    0.00 sec. (0.00 ticks)
   Sync time (average)   =    0.00 sec.
   Wait time (average)   =    0.00 sec.
                           ------------
-Total (root+branch&cut) =    0.00 sec. (10.92 ticks)
+Total (root+branch&cut) =    0.02 sec. (10.92 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381

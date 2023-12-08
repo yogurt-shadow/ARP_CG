@@ -24,8 +24,8 @@ def processArguments(argc, argv):
         elif i == 2:
             output_dir += (argv[i] + "\\")
             isCheck = True
-    print("input dir is %s" % input_dir)
-    print("output dir is %s" % output_dir)
+    print("input_dir is %s" % input_dir)
+    print("output_dir is %s" % output_dir)
     return isCheck, input_dir, output_dir
 
 def readConfigurationList() -> (str, str):
@@ -306,6 +306,14 @@ if __name__ == "__main__":
         station.pushCloseTime(closeTime)
     
     print("Ready to go!")
+
+    for _station in stationList:
+        _station.print()
+    for _aircraft in aircraftList:
+        _aircraft.print()
+    for _leg in legList:
+        _leg.print()
+
     startTime = time.time()
     schedule = Schedule(stationList, aircraftList, legList)
     schedule.computeTopOrder()

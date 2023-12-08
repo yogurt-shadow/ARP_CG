@@ -231,7 +231,7 @@ class Model:
 
     def findInitOneColumn(self, aircraft):
         aircraft.sortScheLegByDepTime()
-        if aircraft.isPlanLegFeasible:
+        if aircraft.isPlanLegFeasible():
             newLof = Lof()
             newLof.setAircraft(aircraft)
             tempOperLeg = None

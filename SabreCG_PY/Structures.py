@@ -51,8 +51,8 @@ class Station:
         print("Station %s Id %d" % (self._name, self._id))
         for _time in self._closeTimeList:
             begin, end = _time[0] - ut.TIMEDIFF, _time[1] - ut.TIMEDIFF
-            print("Bgn Close ", time.ctime(begin))
-            print("End Close ", time.ctime(end))
+            print("Bgn Close", time.ctime(begin))
+            print("End Close", time.ctime(end))
 
     def getId(self) -> int:
         return self._id
@@ -158,7 +158,7 @@ class Leg:
         if not self._isMaint:
             print("Leg %d Flt %s Tal %s" % (self._id, self._flightNum, self._aircraft.getTail()))
             print("%s %s" % (self._depStation.getName(), time.ctime(depTime)))
-            print("%s %s" % (self._arrStation, time.ctime(arrTime)))
+            print("%s %s" % (self._arrStation.getName(), time.ctime(arrTime)))
         else:
             print("Maint %d Flt %s Sta %s Tal %s" % (self._id, self._flightNum, self._depStation.getName(), self._aircraft.getTail()))
             print(time.ctime(depTime))
@@ -313,11 +313,44 @@ class Aircraft:
     def getPlanLegList(self) -> List[Leg]:
         return self._planLegList
 
-    def sortScheLegByDepTime(self):
+    def sortScheLegByDepTime(self) -> None:
         self._planLegList.sort(key = lambda _leg: _leg.compareDepKey())
 
-    def isPlanLegFeasible(self):
-        pass
+    def isPlanLegFeasible(self) -> bool:
+        if self._planLegList[0].getDepTime() < self._startT:
+            return False
+        if self._planLegList[-1].getArrTime() > self._endT:
+            return False
+        if self._planLegList[0].getDepStation() != self._depStation:
+            return False
+        if self._planLegList[-1].getArrStation() != self._arrStation:
+            return False
+        thisLeg, nextLeg = None, None
+        for i in range(len(self._planLegList) - 1):
+            thisLeg, nextLeg = self._planLegList[i], self._planLegList[i+1]
+            if thisLeg.getArrStation() != nextLeg.getDepStation():
+                return False
+            if not thisLeg.isMaint() and not nextLeg.isMaint():
+                if thisLeg.getArrTime() + ut.util.turnTime > nextLeg.getDepTime():
+                    return False
+            else:
+                if thisLeg.getArrTime() > nextLeg.getDepTime():
+                    return False
+        depCloseList, arrCloseList = [], []
+        for thisLeg in self._planLegList:
+            if thisLeg.isMaint():
+                if thisLeg.getAircraft() != self:
+                    return False
+            else:
+                depCloseList = thisLeg.getDepStation().getCloseTimeList()
+                for _depClose in depCloseList:
+                    if thisLeg.getDepTime() >= _depClose[0] and thisLeg.getDepTime() < _depClose[1]:
+                        return False
+                arrCloseList = thisLeg.getArrStation().getCloseTimeList()
+                for _arrClose in arrCloseList:
+                    if thisLeg.getArrTime() >= _arrClose[0] and thisLeg.getArrTime() < _arrClose[1]:
+                        return False
+        return True
 
 class OperLeg:
     def __init__(self, leg: Leg, aircraft: Aircraft = None):
@@ -384,10 +417,10 @@ class Schedule:
         print("****** Total Number of Aircraft is " + str(len(aircraftList)) + " ******")
         for _aircraft in self._aircraftList:
             _aircraft.print()
-        print("****** Total Number of Maints is " + str(len(self._maintList)) + " ******")
+        print("******* Total Number of Maints is " + str(len(self._maintList)) + " *******")
         for _maint in self._maintList:
             _maint.print()
-        print("****** Total Number of Flights is " + str(len(self._flightList)) + " ******")
+        print("******* Total Number of Flights is " + str(len(self._flightList)) + " *******")
         for _flight in self._flightList:
             _flight.print()
         self.setAdjascentLeg()
