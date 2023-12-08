@@ -1,0 +1,3998 @@
+program start...
+input_dir is C:\Code\ARP_CG\Scenarios\Scn1\input\
+output_dir is C:\Code\ARP_CG\Scenarios\Scn1\output_py\
+********************* Number of Aircraft Departured *********************
+number of aircraft departured from station MIL is 1
+number of aircraft departured from station XEM is 4
+number of aircraft departured from station NUC is 3
+number of aircraft departured from station KFJ is 0
+number of aircraft departured from station JIT is 1
+number of aircraft departured from station XAL is 1
+number of aircraft departured from station YTM is 0
+number of aircraft departured from station LUY is 1
+number of aircraft departured from station SCC is 1
+number of aircraft departured from station GOB is 0
+number of aircraft departured from station OCM is 0
+number of aircraft departured from station VAH is 0
+number of aircraft departured from station DIM is 0
+number of aircraft departured from station RVP is 0
+number of aircraft departured from station ASV is 0
+number of aircraft departured from station LDG is 0
+number of aircraft departured from station OJS is 0
+number of aircraft departured from station DJS is 0
+number of aircraft departured from station OMH is 0
+number of aircraft departured from station SAL is 0
+number of aircraft departured from station LUC is 0
+number of aircraft departured from station UUC is 0
+number of aircraft departured from station TZM is 0
+number of aircraft departured from station AIM is 0
+number of aircraft departured from station URG is 0
+********************* END PRINTING *********************
+Ready to go!
+Station MIL Id 0
+Station XEM Id 1
+Bgn Close Tue Jul 24 02:00:00 2012
+End Close Tue Jul 24 04:00:00 2012
+Station NUC Id 2
+Station KFJ Id 3
+Station JIT Id 4
+Station XAL Id 5
+Station YTM Id 6
+Station LUY Id 7
+Station SCC Id 8
+Station GOB Id 9
+Station OCM Id 10
+Station VAH Id 11
+Station DIM Id 12
+Station RVP Id 13
+Station ASV Id 14
+Station LDG Id 15
+Station OJS Id 16
+Station DJS Id 17
+Station OMH Id 18
+Station SAL Id 19
+Station LUC Id 20
+Station UUC Id 21
+Station TZM Id 22
+Station AIM Id 23
+Station URG Id 24
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+****** Total Number of Airports is 25 ******
+Station MIL Id 0
+Station XEM Id 1
+Bgn Close Tue Jul 24 02:00:00 2012
+End Close Tue Jul 24 04:00:00 2012
+Station NUC Id 2
+Station KFJ Id 3
+Station JIT Id 4
+Station XAL Id 5
+Station YTM Id 6
+Station LUY Id 7
+Station SCC Id 8
+Station GOB Id 9
+Station OCM Id 10
+Station VAH Id 11
+Station DIM Id 12
+Station RVP Id 13
+Station ASV Id 14
+Station LDG Id 15
+Station OJS Id 16
+Station DJS Id 17
+Station OMH Id 18
+Station SAL Id 19
+Station LUC Id 20
+Station UUC Id 21
+Station TZM Id 22
+Station AIM Id 23
+Station URG Id 24
+****** Total Number of Aircraft is 12 ******
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+******* Total Number of Maints is 0 *******
+******* Total Number of Flights is 95 *******
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+############## TOTAL CONNECTION 1024 ###############
+Restricted license - for non-production use only - expires 2025-11-24
+Number of Initial Lofs is 8
+###### initial Lofs have been generated ######
+ ********************* LP SOLUTION 0 *********************
+Set parameter Method to value 2
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 103 columns and 168 nonzeros
+Model fingerprint: 0x7fc7f84d
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+02, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 107 rows and 103 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.4000000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.400000000e+04
+
+Number of leg variables is: 95
+Number of lof variables is: 8
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 24000.0
+ ********************* END IP SOLUTION 0 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 1 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 127 columns and 452 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 50 rows and 51 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 76 columns, 357 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 5.880e+02
+ Factor NZ  : 8.110e+02
+ Factor Ops : 1.325e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.40814495e+04  2.64379822e+04  1.51e+01 3.18e+03  2.29e+03     0s
+   1   3.57651904e+04  3.97040911e+03  2.25e+00 2.05e-12  3.22e+02     0s
+   2   2.51103988e+04  2.06458493e+04  4.64e-02 2.73e-12  2.93e+01     0s
+   3   2.31571350e+04  2.27378440e+04  2.68e-04 9.09e-13  2.60e+00     0s
+   4   2.28864818e+04  2.28835953e+04  4.11e-15 2.73e-12  1.78e-02     0s
+   5   2.28860005e+04  2.28859976e+04  1.48e-14 1.36e-12  1.78e-05     0s
+   6   2.28860000e+04  2.28860000e+04  3.55e-15 1.82e-12  1.78e-08     0s
+   7   2.28860000e+04  2.28860000e+04  2.44e-15 9.09e-13  1.78e-14     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 2.28860000e+04
+
+Crossover log...
+
+      32 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      34    2.2886000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 34 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.288600000e+04
+
+Number of leg variables is: 95
+Number of lof variables is: 32
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 22886.0
+ ********************* END IP SOLUTION 1 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 2 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 151 columns and 704 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 31 rows and 32 columns
+Presolve time: 0.00s
+Presolved: 76 rows, 119 columns, 640 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.026e+03
+ Factor NZ  : 1.739e+03
+ Factor Ops : 4.822e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.15208356e+04  2.08482576e+04  2.39e+01 2.56e+03  1.88e+03     0s
+   1   4.42345509e+04 -7.52014825e+02  3.41e+00 1.82e-12  2.82e+02     0s
+   2   2.52318716e+04  1.85136776e+04  2.48e-01 1.82e-12  3.17e+01     0s
+   3   2.24592053e+04  2.14658519e+04  4.07e-03 9.09e-13  4.06e+00     0s
+   4   2.17792490e+04  2.17261975e+04  2.39e-13 1.82e-12  2.13e-01     0s
+   5   2.17480363e+04  2.17479187e+04  3.25e-14 1.82e-12  4.72e-04     0s
+   6   2.17480000e+04  2.17479999e+04  5.73e-14 1.14e-12  4.72e-07     0s
+   7   2.17480000e+04  2.17480000e+04  4.44e-16 1.36e-12  4.76e-13     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 2.17480000e+04
+
+Crossover log...
+
+      42 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      45    2.1748000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 45 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.174800000e+04
+
+Number of leg variables is: 95
+Number of lof variables is: 56
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 21748.0
+ ********************* END IP SOLUTION 2 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 3 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 175 columns and 924 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 22 rows and 23 columns
+Presolve time: 0.00s
+Presolved: 85 rows, 152 columns, 874 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.330e+03
+ Factor NZ  : 2.336e+03
+ Factor Ops : 8.142e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.03948401e+05  1.59127134e+04  2.35e+01 1.57e+03  1.17e+03     0s
+   1   4.39813158e+04  8.25257893e+01  5.11e+00 2.18e+02  2.63e+02     0s
+   2   1.82716099e+04  9.71434175e+03  5.76e-01 4.70e+00  3.56e+01     0s
+   3   1.38660449e+04  1.28502691e+04  1.66e-02 2.25e-01  3.48e+00     0s
+   4   1.29640507e+04  1.29425459e+04  1.17e-14 9.09e-13  6.83e-02     0s
+   5   1.29512952e+04  1.29509845e+04  1.33e-14 1.82e-12  9.87e-04     0s
+   6   1.29510003e+04  1.29510000e+04  2.08e-13 9.09e-13  1.06e-06     0s
+   7   1.29510000e+04  1.29510000e+04  4.44e-16 1.02e-12  3.01e-11     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 1.29510000e+04
+
+Crossover log...
+
+      55 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      56    1.2951000e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 56 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.295100000e+04
+
+Number of leg variables is: 95
+Number of lof variables is: 80
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 12951.0
+ ********************* END IP SOLUTION 3 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 4 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 199 columns and 1154 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 12 rows and 13 columns
+Presolve time: 0.00s
+Presolved: 95 rows, 186 columns, 1122 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.593e+03
+ Factor NZ  : 2.925e+03
+ Factor Ops : 1.138e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.08366598e+05  1.28042848e+04  2.64e+01 1.58e+03  8.88e+02     0s
+   1   3.83613054e+04 -1.70919663e+03  3.48e+00 1.14e-12  1.44e+02     0s
+   2   1.41100216e+04  7.71924594e+03  2.92e-01 9.09e-13  1.87e+01     0s
+   3   1.16092712e+04  1.02643937e+04  4.87e-02 9.09e-13  3.81e+00     0s
+   4   1.09315184e+04  1.07250171e+04  5.05e-03 9.73e-13  5.67e-01     0s
+   5   1.07685917e+04  1.07633161e+04  1.72e-06 1.36e-12  1.37e-02     0s
+   6   1.07646706e+04  1.07646614e+04  2.91e-14 1.36e-12  2.38e-05     0s
+   7   1.07646667e+04  1.07646667e+04  3.28e-13 9.09e-13  4.85e-11     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 1.07646667e+04
+
+Crossover log...
+
+      46 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.7284841e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      47    1.0764667e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 47 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.076466667e+04
+
+Number of leg variables is: 95
+Number of lof variables is: 104
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 10764.666666666666
+ ********************* END IP SOLUTION 4 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 5 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 223 columns and 1365 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 12 rows and 13 columns
+Presolve time: 0.00s
+Presolved: 95 rows, 210 columns, 1333 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.723e+03
+ Factor NZ  : 3.075e+03
+ Factor Ops : 1.262e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.18763348e+05  1.28877470e+04  2.89e+01 1.63e+03  8.32e+02     0s
+   1   3.91108814e+04 -2.01108157e+03  4.25e+00 9.09e-13  1.38e+02     0s
+   2   1.35410722e+04  7.07223108e+03  3.49e-01 9.09e-13  1.72e+01     0s
+   3   1.01348047e+04  9.07213447e+03  3.91e-02 9.09e-13  2.67e+00     0s
+   4   9.61508540e+03  9.34356892e+03  7.96e-03 9.09e-13  6.73e-01     0s
+   5   9.41682617e+03  9.41000505e+03  5.75e-06 9.09e-13  1.58e-02     0s
+   6   9.41339034e+03  9.41331249e+03  2.98e-08 1.82e-12  1.80e-04     0s
+   7   9.41333333e+03  9.41333333e+03  5.66e-14 9.09e-13  1.38e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 9.41333333e+03
+
+Crossover log...
+
+      42 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 5.0022209e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      44    9.4133333e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 44 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  9.413333333e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 128
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 9413.33333333333
+ ********************* END IP SOLUTION 5 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 6 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 247 columns and 1561 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 10 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 97 rows, 236 columns, 1531 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.895e+03
+ Factor NZ  : 3.550e+03
+ Factor Ops : 1.667e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.30024631e+05  1.20649130e+04  3.77e+01 1.63e+03  8.31e+02     0s
+   1   4.29768123e+04 -3.40731720e+03  5.97e+00 1.36e-12  1.47e+02     0s
+   2   1.59935072e+04  5.61717465e+03  8.34e-01 1.14e-12  2.63e+01     0s
+   3   1.04404252e+04  8.49944668e+03  1.03e-01 1.36e-12  4.41e+00     0s
+   4   9.40825796e+03  9.10381377e+03  8.48e-03 1.36e-12  6.58e-01     0s
+   5   9.19877902e+03  9.16555842e+03  7.92e-04 9.09e-13  7.13e-02     0s
+   6   9.17146732e+03  9.17119012e+03  2.38e-13 1.36e-12  5.73e-04     0s
+   7   9.17128572e+03  9.17128567e+03  4.75e-13 1.36e-12  9.92e-08     0s
+   8   9.17128571e+03  9.17128571e+03  1.77e-12 9.09e-13  1.45e-13     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 9.17128571e+03
+
+Crossover log...
+
+      47 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.7284841e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      49    9.1712857e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 49 iterations and 0.02 seconds (0.00 work units)
+Optimal objective  9.171285714e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 152
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 9171.285714285714
+ ********************* END IP SOLUTION 6 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 7 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 271 columns and 1737 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 7 rows and 8 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 263 columns, 1711 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.007e+03
+ Factor NZ  : 3.791e+03
+ Factor Ops : 1.875e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.06300631e+05  1.02440327e+04  3.99e+01 1.07e+03  4.31e+02     0s
+   1   2.71993143e+04 -3.29518646e+02  5.35e+00 6.82e-13  6.99e+01     0s
+   2   1.05517721e+04  5.10200120e+03  8.42e-01 9.09e-13  1.23e+01     0s
+   3   7.33764333e+03  6.14324742e+03  1.06e-01 9.09e-13  2.48e+00     0s
+   4   6.52449102e+03  6.42146074e+03  1.81e-03 9.09e-13  1.96e-01     0s
+   5   6.43813323e+03  6.43741947e+03  4.69e-14 1.36e-12  1.33e-03     0s
+   6   6.43800013e+03  6.43799942e+03  1.67e-12 9.09e-13  1.33e-06     0s
+   7   6.43800000e+03  6.43800000e+03  8.41e-11 9.09e-13  2.52e-10     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 6.43800000e+03
+
+Crossover log...
+
+      69 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      71    6.4380000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 71 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  6.438000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 176
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 6438.0
+ ********************* END IP SOLUTION 7 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 8 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 294 columns and 1924 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 6 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 101 rows, 287 columns, 1900 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.125e+03
+ Factor NZ  : 3.872e+03
+ Factor Ops : 1.916e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.26315341e+05  1.07394510e+04  4.19e+01 1.32e+03  5.34e+02     0s
+   1   3.25763128e+04 -3.11654125e+03  5.37e+00 1.76e+01  8.62e+01     0s
+   2   1.08180070e+04  3.29783969e+03  6.37e-01 2.71e+00  1.48e+01     0s
+   3   7.14136265e+03  5.42565637e+03  7.84e-02 4.55e-01  3.06e+00     0s
+   4   6.21919211e+03  5.86909562e+03  9.28e-03 2.16e-02  6.07e-01     0s
+   5   6.04245586e+03  5.97140777e+03  5.82e-04 0.00e+00  1.22e-01     0s
+   6   5.98584052e+03  5.98504948e+03  1.40e-13 9.09e-13  1.35e-03     0s
+   7   5.98550000e+03  5.98550000e+03  7.61e-13 9.09e-13  9.73e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 5.98550000e+03
+
+Crossover log...
+
+      59 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 5.4569682e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      61    5.9855000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 61 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.985500000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 199
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 5985.5
+ ********************* END IP SOLUTION 8 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 9 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 317 columns and 2093 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 104 rows, 313 columns, 2075 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.274e+03
+ Factor NZ  : 4.252e+03
+ Factor Ops : 2.284e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.10616127e+05  2.40000000e+03  3.52e+01 8.00e+02  4.22e+02     0s
+   1   2.51506139e+04 -2.86213957e+03  3.32e+00 9.09e-13  5.78e+01     0s
+   2   9.59020320e+03  3.71273319e+03  3.74e-01 6.82e-13  1.01e+01     0s
+   3   6.96089961e+03  5.52840008e+03  4.89e-02 9.09e-13  2.28e+00     0s
+   4   6.21812376e+03  5.84658857e+03  9.12e-03 7.11e-13  5.86e-01     0s
+   5   5.99059888e+03  5.91687467e+03  9.31e-04 9.09e-13  1.16e-01     0s
+   6   5.92040746e+03  5.92022418e+03  8.10e-15 1.14e-12  2.87e-04     0s
+   7   5.92033333e+03  5.92033333e+03  2.19e-13 6.82e-13  2.14e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 5.92033333e+03
+
+Crossover log...
+
+      60 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 7.5033313e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      63    5.9203333e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 63 iterations and 0.02 seconds (0.00 work units)
+Optimal objective  5.920333333e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 222
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 5920.333333333333
+ ********************* END IP SOLUTION 9 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 10 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 340 columns and 2270 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 104 rows, 336 columns, 2252 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.338e+03
+ Factor NZ  : 4.230e+03
+ Factor Ops : 2.274e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.14951961e+05  2.40000000e+03  4.12e+01 8.00e+02  4.20e+02     0s
+   1   2.62696422e+04 -3.03172021e+03  4.18e+00 6.82e-13  5.90e+01     0s
+   2   9.72168307e+03  3.50703962e+03  4.82e-01 9.09e-13  1.01e+01     0s
+   3   6.48626338e+03  5.26379402e+03  4.28e-02 9.09e-13  1.81e+00     0s
+   4   5.77275583e+03  5.53913387e+03  1.24e-04 9.09e-13  3.42e-01     0s
+   5   5.63517519e+03  5.59985578e+03  3.55e-06 9.09e-13  5.16e-02     0s
+   6   5.62146769e+03  5.61365639e+03  7.43e-07 1.19e-12  1.14e-02     0s
+   7   5.61867386e+03  5.61592823e+03  2.39e-07 7.67e-13  4.01e-03     0s
+   8   5.61706793e+03  5.61684300e+03  2.36e-08 7.96e-13  3.29e-04     0s
+   9   5.61693764e+03  5.61693741e+03  2.51e-11 9.09e-13  3.46e-07     0s
+  10   5.61693750e+03  5.61693750e+03  2.60e-11 6.25e-13  3.46e-10     0s
+
+Barrier solved model in 10 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 5.61693750e+03
+
+Crossover log...
+
+      56 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 7.5033313e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      58    5.6169375e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 58 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.616937500e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 245
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 5616.9375
+ ********************* END IP SOLUTION 10 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 11 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 363 columns and 2443 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 104 rows, 359 columns, 2425 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.391e+03
+ Factor NZ  : 4.215e+03
+ Factor Ops : 2.234e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.17647864e+05  2.40000000e+03  4.03e+01 8.00e+02  4.07e+02     0s
+   1   2.73737825e+04 -3.23843211e+03  4.50e+00 1.14e-12  5.99e+01     0s
+   2   9.82513527e+03  3.11307963e+03  5.10e-01 6.82e-13  1.04e+01     0s
+   3   6.67813921e+03  4.99602915e+03  9.41e-02 1.14e-12  2.37e+00     0s
+   4   5.76497652e+03  5.32177074e+03  7.63e-03 9.09e-13  6.09e-01     0s
+   5   5.51875297e+03  5.43606811e+03  1.10e-03 1.19e-12  1.13e-01     0s
+   6   5.45142886e+03  5.44763837e+03  6.56e-06 8.57e-13  5.19e-03     0s
+   7   5.44833623e+03  5.44832789e+03  1.27e-09 1.02e-12  1.14e-05     0s
+   8   5.44833333e+03  5.44833333e+03  3.81e-12 5.68e-13  4.07e-10     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 5.44833333e+03
+
+Crossover log...
+
+      63 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 4.7748472e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      65    5.4483333e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 65 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.448333333e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 268
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 5448.333333333333
+ ********************* END IP SOLUTION 11 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 12 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 387 columns and 2637 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 104 rows, 383 columns, 2619 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.428e+03
+ Factor NZ  : 4.284e+03
+ Factor Ops : 2.336e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.22034197e+05  2.40000000e+03  4.10e+01 8.00e+02  4.08e+02     0s
+   1   2.74125534e+04 -3.74982822e+03  4.45e+00 9.09e-13  5.87e+01     0s
+   2   1.00571298e+04  2.91862682e+03  5.57e-01 6.82e-13  1.05e+01     0s
+   3   6.30656131e+03  4.93660316e+03  2.73e-02 9.09e-13  1.78e+00     0s
+   4   5.52882534e+03  5.10584644e+03  1.85e-03 7.96e-13  5.44e-01     0s
+   5   5.34117282e+03  5.27624565e+03  7.05e-05 9.09e-13  8.35e-02     0s
+   6   5.31538563e+03  5.31239024e+03  9.52e-07 9.09e-13  3.85e-03     0s
+   7   5.31436186e+03  5.31394537e+03  2.44e-07 8.53e-13  5.35e-04     0s
+   8   5.31401773e+03  5.31398759e+03  1.32e-10 9.09e-13  3.87e-05     0s
+   9   5.31400008e+03  5.31399956e+03  9.10e-11 8.53e-13  6.68e-07     0s
+  10   5.31400000e+03  5.31400000e+03  2.93e-12 9.09e-13  6.68e-10     0s
+
+Barrier solved model in 10 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 5.31400000e+03
+
+Crossover log...
+
+      61 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      64    5.3140000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 64 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.314000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 292
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 5314.0
+ ********************* END IP SOLUTION 12 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 13 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 409 columns and 2814 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.02s
+Presolved: 104 rows, 405 columns, 2796 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.484e+03
+ Factor NZ  : 4.417e+03
+ Factor Ops : 2.477e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.28548122e+05  2.40000000e+03  4.25e+01 8.00e+02  4.13e+02     0s
+   1   2.73148808e+04 -4.90176500e+03  4.45e+00 9.09e-13  5.81e+01     0s
+   2   9.39032915e+03  2.06559881e+03  4.65e-01 9.09e-13  1.01e+01     0s
+   3   5.81810997e+03  4.16514178e+03  2.93e-02 9.09e-13  2.04e+00     0s
+   4   4.55463656e+03  4.44048857e+03  3.50e-04 1.14e-12  1.39e-01     0s
+   5   4.44411041e+03  4.44393531e+03  7.17e-14 8.81e-13  2.13e-04     0s
+   6   4.44400011e+03  4.44399994e+03  1.48e-13 6.82e-13  2.13e-07     0s
+   7   4.44400000e+03  4.44400000e+03  1.27e-13 7.96e-13  5.00e-13     0s
+
+Barrier solved model in 7 iterations and 0.02 seconds (0.00 work units)
+Optimal objective 4.44400000e+03
+
+Crossover log...
+
+      77 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.0463631e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      80    4.4440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 80 iterations and 0.02 seconds (0.00 work units)
+Optimal objective  4.444000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 314
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4444.0
+ ********************* END IP SOLUTION 13 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 14 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 433 columns and 3038 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 104 rows, 429 columns, 3020 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.532e+03
+ Factor NZ  : 4.337e+03
+ Factor Ops : 2.394e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.31506455e+05  2.40000000e+03  4.28e+01 8.00e+02  4.10e+02     0s
+   1   2.74766594e+04 -5.48011829e+03  4.52e+00 6.82e-13  5.78e+01     0s
+   2   9.43657332e+03  1.52680004e+03  5.15e-01 6.82e-13  1.05e+01     0s
+   3   5.79969193e+03  4.18982078e+03  3.55e-02 9.09e-13  1.88e+00     0s
+   4   4.55679375e+03  4.38145412e+03  3.90e-04 9.09e-13  2.02e-01     0s
+   5   4.45262061e+03  4.44284016e+03  7.84e-14 6.82e-13  1.12e-02     0s
+   6   4.44409396e+03  4.44373148e+03  4.03e-13 1.14e-12  4.17e-04     0s
+   7   4.44400004e+03  4.44399997e+03  6.95e-12 9.09e-13  7.69e-08     0s
+   8   4.44400000e+03  4.44400000e+03  6.88e-15 5.68e-13  2.24e-13     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.44400000e+03
+
+Crossover log...
+
+      71 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.8212103e-13      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      73    4.4440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 73 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.444000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 338
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4444.0
+ ********************* END IP SOLUTION 14 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 15 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 453 columns and 3176 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 450 columns, 3160 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.622e+03
+ Factor NZ  : 4.538e+03
+ Factor Ops : 2.579e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.18499418e+05  1.60000000e+03  3.65e+01 4.60e+01  2.14e+02     0s
+   1   1.83602932e+04 -6.66802067e+02  3.93e+00 4.55e-13  2.82e+01     0s
+   2   8.09184491e+03  3.05775250e+03  6.87e-01 6.82e-13  6.21e+00     0s
+   3   5.24833785e+03  4.29460233e+03  5.78e-02 6.82e-13  1.07e+00     0s
+   4   4.52237439e+03  4.43500884e+03  2.24e-03 1.14e-12  9.66e-02     0s
+   5   4.45315078e+03  4.44316337e+03  2.02e-04 9.09e-13  1.10e-02     0s
+   6   4.44401287e+03  4.44399566e+03  1.75e-13 6.82e-13  1.89e-05     0s
+   7   4.44400000e+03  4.44400000e+03  1.88e-12 9.09e-13  6.20e-11     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.44400000e+03
+
+Crossover log...
+
+      77 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      79    4.4440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 79 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.444000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 358
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4444.0
+ ********************* END IP SOLUTION 15 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 16 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 476 columns and 3379 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 473 columns, 3363 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.714e+03
+ Factor NZ  : 4.690e+03
+ Factor Ops : 2.721e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.30951343e+05  1.60000000e+03  3.63e+01 4.60e+01  2.21e+02     0s
+   1   2.14174891e+04 -8.34973549e+02  4.22e+00 9.09e-13  3.13e+01     0s
+   2   8.11281097e+03  2.92670716e+03  5.23e-01 5.68e-13  5.94e+00     0s
+   3   5.48391218e+03  4.20507562e+03  6.91e-02 9.09e-13  1.36e+00     0s
+   4   4.55693132e+03  4.42526538e+03  2.03e-03 6.25e-13  1.38e-01     0s
+   5   4.45059743e+03  4.44363353e+03  2.53e-06 9.66e-13  7.27e-03     0s
+   6   4.44401459e+03  4.44393258e+03  1.19e-12 7.96e-13  8.56e-05     0s
+   7   4.44400006e+03  4.44399997e+03  3.79e-11 9.09e-13  9.32e-08     0s
+   8   4.44400000e+03  4.44400000e+03  3.61e-13 6.82e-13  1.78e-13     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.44400000e+03
+
+Crossover log...
+
+      80 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 1
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      84    4.4440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 84 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.444000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 381
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4444.0
+ ********************* END IP SOLUTION 16 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 17 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 498 columns and 3569 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 495 columns, 3553 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.744e+03
+ Factor NZ  : 4.558e+03
+ Factor Ops : 2.571e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.28354414e+05  1.60000000e+03  3.54e+01 4.60e+01  2.10e+02     0s
+   1   2.00462293e+04 -1.02174487e+03  4.04e+00 4.55e-13  2.88e+01     0s
+   2   7.83545550e+03  2.85507941e+03  4.88e-01 6.82e-13  5.47e+00     0s
+   3   4.96850384e+03  4.24511564e+03  1.79e-02 5.68e-13  7.27e-01     0s
+   4   4.49323760e+03  4.42646792e+03  2.62e-04 7.39e-13  6.67e-02     0s
+   5   4.44816352e+03  4.44380155e+03  6.64e-07 1.36e-12  4.35e-03     0s
+   6   4.44400486e+03  4.44399414e+03  5.11e-15 6.82e-13  1.07e-05     0s
+   7   4.44400000e+03  4.44400000e+03  6.49e-13 9.09e-13  3.12e-10     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.44400000e+03
+
+Crossover log...
+
+      80 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      81    4.4440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 81 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.444000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 403
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4444.0
+ ********************* END IP SOLUTION 17 *********************
+
+Number of Better Lofs is 21
+
+ ********************* LP SOLUTION 18 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 519 columns and 3721 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 515 columns, 3695 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.780e+03
+ Factor NZ  : 4.680e+03
+ Factor Ops : 2.741e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.27340359e+05  1.60000000e+03  3.48e+01 4.60e+01  2.01e+02     0s
+   1   2.03771017e+04 -1.03834584e+03  4.23e+00 9.09e-13  2.86e+01     0s
+   2   7.61911340e+03  2.94186047e+03  4.81e-01 5.68e-13  4.98e+00     0s
+   3   4.89996666e+03  4.27336195e+03  2.13e-02 6.82e-13  6.09e-01     0s
+   4   4.50632662e+03  4.40666214e+03  1.85e-03 8.53e-13  9.63e-02     0s
+   5   4.43421011e+03  4.42713811e+03  1.05e-06 9.66e-13  6.79e-03     0s
+   6   4.42823498e+03  4.42786038e+03  3.34e-13 6.82e-13  3.59e-04     0s
+   7   4.42800159e+03  4.42799917e+03  1.55e-10 1.14e-12  2.32e-06     0s
+   8   4.42800000e+03  4.42800000e+03  8.29e-13 6.87e-13  9.80e-12     0s
+
+Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
+Optimal objective 4.42800000e+03
+
+Crossover log...
+
+      77 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      80    4.4280000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 80 iterations and 0.02 seconds (0.00 work units)
+Optimal objective  4.428000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 424
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4428.0
+ ********************* END IP SOLUTION 18 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 19 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 543 columns and 3938 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 539 columns, 3912 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.825e+03
+ Factor NZ  : 4.680e+03
+ Factor Ops : 2.741e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.17019987e+05  1.60000000e+03  3.03e+01 4.60e+01  1.76e+02     0s
+   1   1.96065365e+04 -7.70459433e+02  3.76e+00 4.55e-13  2.56e+01     0s
+   2   7.68282444e+03  2.89626127e+03  4.72e-01 6.82e-13  4.86e+00     0s
+   3   5.04279998e+03  4.26212094e+03  3.05e-02 6.82e-13  7.25e-01     0s
+   4   4.44941229e+03  4.36672609e+03  1.41e-03 6.82e-13  7.62e-02     0s
+   5   4.37568923e+03  4.37201832e+03  8.45e-07 9.09e-13  3.37e-03     0s
+   6   4.37401124e+03  4.37399744e+03  3.68e-12 5.68e-13  1.27e-05     0s
+   7   4.37400000e+03  4.37400000e+03  1.30e-12 7.24e-13  5.79e-10     0s
+
+Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Optimal objective 4.37400000e+03
+
+Crossover log...
+
+      76 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 1
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      79    4.3740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 79 iterations and 0.01 seconds (0.00 work units)
+Optimal objective  4.374000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 448
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4374.0
+ ********************* END IP SOLUTION 19 *********************
+
+Number of Better Lofs is 21
+
+ ********************* LP SOLUTION 20 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 564 columns and 4095 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 560 columns, 4069 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.864e+03
+ Factor NZ  : 4.760e+03
+ Factor Ops : 2.825e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.13696744e+05  1.60000000e+03  2.84e+01 4.60e+01  1.65e+02     0s
+   1   1.97412301e+04 -7.76757913e+02  3.53e+00 5.68e-13  2.46e+01     0s
+   2   7.83614868e+03  2.90380976e+03  4.48e-01 4.55e-13  4.76e+00     0s
+   3   5.09475368e+03  4.22839770e+03  3.76e-02 1.02e-12  7.75e-01     0s
+   4   4.45301103e+03  4.34948318e+03  1.47e-03 8.03e-13  9.18e-02     0s
+   5   4.38243604e+03  4.37327990e+03  9.91e-06 9.09e-13  8.09e-03     0s
+   6   4.37400995e+03  4.37398535e+03  3.08e-13 9.31e-13  2.17e-05     0s
+   7   4.37400000e+03  4.37400000e+03  8.68e-12 9.09e-13  9.72e-10     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37400000e+03
+
+Crossover log...
+
+      80 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      83    4.3740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 83 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.374000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 469
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4374.0
+ ********************* END IP SOLUTION 20 *********************
+
+Number of Better Lofs is 21
+
+ ********************* LP SOLUTION 21 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 585 columns and 4275 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 581 columns, 4249 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.878e+03
+ Factor NZ  : 4.760e+03
+ Factor Ops : 2.825e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.11022849e+05  1.60000000e+03  3.02e+01 4.60e+01  1.57e+02     0s
+   1   1.97540230e+04 -7.18754597e+02  4.19e+00 6.82e-13  2.45e+01     0s
+   2   7.34232526e+03  3.03791332e+03  4.11e-01 9.09e-13  4.00e+00     0s
+   3   4.86641433e+03  4.21977100e+03  2.22e-02 6.82e-13  5.58e-01     0s
+   4   4.45124184e+03  4.36082119e+03  1.13e-03 9.09e-13  7.73e-02     0s
+   5   4.37753885e+03  4.37019022e+03  6.63e-06 1.05e-12  6.26e-03     0s
+   6   4.37402173e+03  4.37399559e+03  8.40e-13 8.90e-13  2.23e-05     0s
+   7   4.37400000e+03  4.37400000e+03  7.55e-12 6.82e-13  1.77e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37400000e+03
+
+Crossover log...
+
+      77 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 8.2422957e-13      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      80    4.3740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 80 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.374000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 490
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4374.0
+ ********************* END IP SOLUTION 21 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 22 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 605 columns and 4442 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 601 columns, 4416 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.892e+03
+ Factor NZ  : 4.766e+03
+ Factor Ops : 2.830e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.13209712e+05  1.60000000e+03  3.54e+01 4.60e+01  1.56e+02     0s
+   1   2.03236937e+04 -7.39611465e+02  4.63e+00 4.55e-13  2.42e+01     0s
+   2   7.56733896e+03  3.09849565e+03  4.77e-01 6.82e-13  4.03e+00     0s
+   3   4.94934700e+03  4.22331203e+03  1.85e-02 9.09e-13  6.04e-01     0s
+   4   4.44841304e+03  4.36450205e+03  7.67e-04 9.70e-13  6.93e-02     0s
+   5   4.37580607e+03  4.36999538e+03  1.41e-13 7.39e-13  4.79e-03     0s
+   6   4.37401955e+03  4.37399517e+03  1.41e-12 6.82e-13  2.01e-05     0s
+   7   4.37400000e+03  4.37400000e+03  1.53e-13 6.13e-13  4.76e-10     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37400000e+03
+
+Crossover log...
+
+      78 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      80    4.3740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 80 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.374000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 510
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4374.0
+ ********************* END IP SOLUTION 22 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 23 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 627 columns and 4632 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 623 columns, 4606 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.922e+03
+ Factor NZ  : 4.766e+03
+ Factor Ops : 2.830e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.13080122e+05  1.60000000e+03  3.73e+01 4.60e+01  1.52e+02     0s
+   1   2.01890674e+04 -7.72172577e+02  4.86e+00 9.09e-13  2.34e+01     0s
+   2   7.91822529e+03  3.10133029e+03  6.27e-01 6.82e-13  4.27e+00     0s
+   3   4.99418819e+03  4.27950188e+03  3.46e-02 7.39e-13  5.79e-01     0s
+   4   4.42183340e+03  4.36232969e+03  3.01e-04 7.39e-13  4.74e-02     0s
+   5   4.37642528e+03  4.37094520e+03  1.80e-13 9.09e-13  4.36e-03     0s
+   6   4.37404627e+03  4.37399446e+03  5.89e-12 9.96e-13  4.12e-05     0s
+   7   4.37400001e+03  4.37400000e+03  1.23e-11 9.09e-13  6.52e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37400001e+03
+
+Crossover log...
+
+      72 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      74    4.3740000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 74 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.374000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 532
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4374.0
+ ********************* END IP SOLUTION 23 *********************
+
+Number of Better Lofs is 19
+
+ ********************* LP SOLUTION 24 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 646 columns and 4803 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 642 columns, 4777 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.942e+03
+ Factor NZ  : 4.770e+03
+ Factor Ops : 2.833e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.11438751e+05  1.60000000e+03  3.62e+01 4.60e+01  1.46e+02     0s
+   1   2.03625416e+04 -7.56358604e+02  4.84e+00 6.82e-13  2.30e+01     0s
+   2   7.91407570e+03  2.98063837e+03  6.21e-01 9.09e-13  4.24e+00     0s
+   3   4.93878478e+03  4.24174719e+03  2.45e-02 6.82e-13  5.45e-01     0s
+   4   4.41641033e+03  4.35830767e+03  2.21e-04 6.82e-13  4.49e-02     0s
+   5   4.38023652e+03  4.36850105e+03  1.76e-05 1.59e-12  9.06e-03     0s
+   6   4.37011375e+03  4.36988271e+03  2.10e-08 1.14e-12  1.78e-04     0s
+   7   4.37000003e+03  4.37000000e+03  1.80e-12 1.05e-12  2.21e-08     0s
+   8   4.37000000e+03  4.37000000e+03  1.78e-14 5.35e-13  2.33e-14     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37000000e+03
+
+Crossover log...
+
+      70 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      73    4.3700000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 73 iterations and 0.01 seconds (0.00 work units)
+Optimal objective  4.370000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 551
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4370.0
+ ********************* END IP SOLUTION 24 *********************
+
+Number of Better Lofs is 17
+
+ ********************* LP SOLUTION 25 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 663 columns and 4958 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 658 columns, 4921 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.968e+03
+ Factor NZ  : 4.778e+03
+ Factor Ops : 2.840e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.13764802e+05  1.60000000e+03  3.62e+01 4.60e+01  1.45e+02     0s
+   1   2.00729228e+04 -9.05170172e+02  4.67e+00 4.55e-13  2.23e+01     0s
+   2   7.73566182e+03  3.18417080e+03  5.51e-01 9.09e-13  3.78e+00     0s
+   3   4.93419482e+03  4.24999587e+03  2.46e-02 6.82e-13  5.22e-01     0s
+   4   4.41194541e+03  4.36073766e+03  8.76e-05 9.09e-13  3.86e-02     0s
+   5   4.37186314e+03  4.36698459e+03  1.93e-13 9.09e-13  3.67e-03     0s
+   6   4.37006897e+03  4.36999167e+03  1.87e-11 9.09e-13  5.82e-05     0s
+   7   4.37000001e+03  4.37000000e+03  1.24e-11 7.96e-13  1.03e-08     0s
+   8   4.37000000e+03  4.37000000e+03  2.73e-14 7.39e-13  1.91e-14     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.37000000e+03
+
+Crossover log...
+
+      79 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 2
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      83    4.3700000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 83 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.370000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 568
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4370.0
+ ********************* END IP SOLUTION 25 *********************
+
+Number of Better Lofs is 18
+
+ ********************* LP SOLUTION 26 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 681 columns and 5130 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 676 columns, 5093 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.992e+03
+ Factor NZ  : 4.778e+03
+ Factor Ops : 2.840e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.15189848e+05  1.60000000e+03  3.83e+01 4.60e+01  1.44e+02     0s
+   1   2.03488108e+04 -9.50725800e+02  4.99e+00 9.09e-13  2.23e+01     0s
+   2   7.95702838e+03  2.65120944e+03  6.39e-01 9.09e-13  4.35e+00     0s
+   3   5.05074977e+03  4.18980676e+03  2.62e-02 1.14e-12  6.38e-01     0s
+   4   4.44758872e+03  4.35071770e+03  9.61e-04 6.82e-13  7.12e-02     0s
+   5   4.36833912e+03  4.35692325e+03  9.16e-14 9.09e-13  8.37e-03     0s
+   6   4.36423471e+03  4.36397920e+03  2.11e-11 7.96e-13  1.87e-04     0s
+   7   4.36400001e+03  4.36400000e+03  6.29e-13 6.82e-13  8.46e-09     0s
+
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.36400001e+03
+
+Crossover log...
+
+      80 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      82    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 82 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 586
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 26 *********************
+
+Number of Better Lofs is 13
+
+ ********************* LP SOLUTION 27 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 694 columns and 5254 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 687 columns, 5198 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.001e+03
+ Factor NZ  : 4.676e+03
+ Factor Ops : 2.689e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.16428889e+05  1.60000000e+03  3.87e+01 4.60e+01  1.44e+02     0s
+   1   2.02763073e+04 -1.07662224e+03  4.99e+00 6.82e-13  2.20e+01     0s
+   2   7.52811483e+03  2.68496303e+03  5.16e-01 9.09e-13  3.85e+00     0s
+   3   4.91202356e+03  4.24287755e+03  1.85e-02 7.11e-13  4.87e-01     0s
+   4   4.42097788e+03  4.33466315e+03  6.70e-05 1.36e-12  6.23e-02     0s
+   5   4.37573725e+03  4.35887713e+03  9.30e-14 9.09e-13  1.22e-02     0s
+   6   4.36491224e+03  4.36391118e+03  4.48e-11 9.09e-13  7.22e-04     0s
+   7   4.36400015e+03  4.36399979e+03  7.27e-13 7.96e-13  2.56e-07     0s
+   8   4.36400000e+03  4.36400000e+03  1.60e-11 9.09e-13  6.75e-12     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      70 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 2
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      75    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 75 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 599
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 27 *********************
+
+Number of Better Lofs is 15
+
+ ********************* LP SOLUTION 28 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 709 columns and 5392 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 700 columns, 5314 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.015e+03
+ Factor NZ  : 4.763e+03
+ Factor Ops : 2.782e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.18139929e+05  1.60000000e+03  4.09e+01 4.60e+01  1.44e+02     0s
+   1   2.05136086e+04 -1.11656261e+03  5.29e+00 6.82e-13  2.20e+01     0s
+   2   7.66820978e+03  2.67567479e+03  5.82e-01 1.14e-12  3.92e+00     0s
+   3   4.94001180e+03  4.22750851e+03  2.77e-02 1.02e-12  5.10e-01     0s
+   4   4.43060290e+03  4.35291963e+03  8.06e-05 8.46e-13  5.50e-02     0s
+   5   4.37202577e+03  4.35531052e+03  1.27e-14 1.02e-12  1.18e-02     0s
+   6   4.36463132e+03  4.36386724e+03  4.65e-11 9.09e-13  5.41e-04     0s
+   7   4.36400004e+03  4.36399987e+03  9.64e-13 9.09e-13  1.23e-07     0s
+   8   4.36400000e+03  4.36400000e+03  3.47e-11 6.82e-13  1.03e-11     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      74 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 1
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      78    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 78 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 614
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 28 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 29 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 729 columns and 5531 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 720 columns, 5453 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.025e+03
+ Factor NZ  : 4.778e+03
+ Factor Ops : 2.805e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.20596541e+05  1.60000000e+03  4.14e+01 4.60e+01  1.43e+02     0s
+   1   2.07256621e+04 -1.11216027e+03  5.32e+00 6.25e-13  2.18e+01     0s
+   2   7.57414522e+03  2.66244778e+03  5.49e-01 6.82e-13  3.76e+00     0s
+   3   4.93064433e+03  4.23239155e+03  3.06e-02 7.96e-13  4.88e-01     0s
+   4   4.43691397e+03  4.35668468e+03  3.14e-04 9.88e-13  5.53e-02     0s
+   5   4.37244276e+03  4.34958410e+03  3.36e-06 6.96e-13  1.57e-02     0s
+   6   4.36513542e+03  4.36392416e+03  1.96e-08 1.36e-12  8.34e-04     0s
+   7   4.36400009e+03  4.36399975e+03  6.43e-13 9.09e-13  2.37e-07     0s
+   8   4.36400000e+03  4.36400000e+03  8.44e-12 9.09e-13  6.59e-12     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      74 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 5
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      82    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 82 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 634
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 29 *********************
+
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 30 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 740 columns and 5631 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 730 columns, 5544 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.032e+03
+ Factor NZ  : 4.778e+03
+ Factor Ops : 2.805e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.22086837e+05  1.60000000e+03  4.12e+01 4.60e+01  1.43e+02     0s
+   1   2.04396068e+04 -1.22760828e+03  5.14e+00 6.82e-13  2.13e+01     0s
+   2   7.60739737e+03  2.62931424e+03  5.45e-01 6.82e-13  3.75e+00     0s
+   3   4.92406054e+03  4.26314564e+03  2.86e-02 7.96e-13  4.55e-01     0s
+   4   4.41310333e+03  4.35813163e+03  8.62e-05 9.09e-13  3.74e-02     0s
+   5   4.37018319e+03  4.35587169e+03  1.84e-06 9.09e-13  9.72e-03     0s
+   6   4.36485289e+03  4.36394604e+03  1.04e-08 9.09e-13  6.16e-04     0s
+   7   4.36400013e+03  4.36399971e+03  2.09e-11 1.09e-12  2.83e-07     0s
+   8   4.36400000e+03  4.36400000e+03  6.12e-12 9.09e-13  3.28e-12     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      75 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 5
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      82    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 82 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 645
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 30 *********************
+
+Number of Better Lofs is 10
+
+ ********************* LP SOLUTION 31 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 750 columns and 5719 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 740 columns, 5632 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.044e+03
+ Factor NZ  : 4.772e+03
+ Factor Ops : 2.798e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.18188615e+05  1.60000000e+03  4.08e+01 4.60e+01  1.37e+02     0s
+   1   2.03413616e+04 -1.15250916e+03  5.23e+00 9.09e-13  2.09e+01     0s
+   2   7.63345552e+03  2.63961895e+03  5.73e-01 9.09e-13  3.73e+00     0s
+   3   5.00237717e+03  4.24942007e+03  2.48e-02 1.08e-12  5.10e-01     0s
+   4   4.42607878e+03  4.35234061e+03  1.28e-04 9.09e-13  4.94e-02     0s
+   5   4.37249012e+03  4.35539188e+03  1.00e-06 1.02e-12  1.15e-02     0s
+   6   4.36499979e+03  4.36386159e+03  1.50e-08 6.82e-13  7.63e-04     0s
+   7   4.36400037e+03  4.36399927e+03  1.47e-12 1.02e-12  7.34e-07     0s
+   8   4.36400000e+03  4.36400000e+03  8.05e-12 9.09e-13  8.16e-12     0s
+
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      70 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 2
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      75    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 75 iterations and 0.01 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 655
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 31 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 32 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 770 columns and 5833 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 760 columns, 5746 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.068e+03
+ Factor NZ  : 4.808e+03
+ Factor Ops : 2.819e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.20670279e+05  1.60000000e+03  4.05e+01 4.60e+01  1.36e+02     0s
+   1   2.03495183e+04 -1.13112605e+03  5.07e+00 4.55e-13  2.03e+01     0s
+   2   7.70490681e+03  2.67149678e+03  5.87e-01 6.82e-13  3.68e+00     0s
+   3   5.00126920e+03  4.25210079e+03  2.65e-02 1.14e-12  4.96e-01     0s
+   4   4.42537409e+03  4.35124620e+03  1.46e-04 9.09e-13  4.84e-02     0s
+   5   4.37357740e+03  4.35787906e+03  4.92e-07 7.96e-13  1.02e-02     0s
+   6   4.36518886e+03  4.36389317e+03  1.32e-08 9.09e-13  8.46e-04     0s
+   7   4.36400048e+03  4.36399927e+03  2.86e-12 1.36e-12  7.90e-07     0s
+   8   4.36400000e+03  4.36400000e+03  3.56e-10 9.09e-13  8.71e-10     0s
+
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      74 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 10
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      87    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 87 iterations and 0.02 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 675
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 32 *********************
+
+Number of Better Lofs is 14
+
+ ********************* LP SOLUTION 33 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 784 columns and 5959 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 774 columns, 5872 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.077e+03
+ Factor NZ  : 4.834e+03
+ Factor Ops : 2.841e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.23539606e+05  1.60000000e+03  4.09e+01 4.60e+01  1.37e+02     0s
+   1   2.06818371e+04 -1.16143610e+03  5.13e+00 5.12e-13  2.04e+01     0s
+   2   7.70533679e+03  2.62527072e+03  5.78e-01 9.09e-13  3.66e+00     0s
+   3   4.97069540e+03  4.24723905e+03  2.26e-02 1.14e-12  4.70e-01     0s
+   4   4.42533116e+03  4.35321775e+03  1.23e-04 9.09e-13  4.63e-02     0s
+   5   4.37301929e+03  4.35581889e+03  9.87e-07 9.27e-13  1.10e-02     0s
+   6   4.36526588e+03  4.36382916e+03  2.00e-08 9.09e-13  9.21e-04     0s
+   7   4.36400101e+03  4.36399846e+03  7.31e-12 9.09e-13  1.63e-06     0s
+   8   4.36400000e+03  4.36400000e+03  3.37e-11 1.36e-12  3.25e-11     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      71 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 5
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      79    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 79 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 689
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 33 *********************
+
+Number of Better Lofs is 6
+
+ ********************* LP SOLUTION 34 *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 790 columns and 6014 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+LP warm-start: discard basis
+Presolve removed 2 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 105 rows, 780 columns, 5927 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 3.083e+03
+ Factor NZ  : 4.811e+03
+ Factor Ops : 2.821e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.24306352e+05  1.60000000e+03  4.18e+01 4.60e+01  1.37e+02     0s
+   1   2.07575520e+04 -1.18968287e+03  5.24e+00 6.82e-13  2.04e+01     0s
+   2   7.73057352e+03  2.60474520e+03  5.94e-01 5.68e-13  3.67e+00     0s
+   3   5.01400285e+03  4.23514271e+03  2.41e-02 9.09e-13  5.02e-01     0s
+   4   4.44473162e+03  4.35014774e+03  2.85e-04 7.96e-13  6.02e-02     0s
+   5   4.37903991e+03  4.34574325e+03  5.70e-06 1.08e-12  2.12e-02     0s
+   6   4.36801984e+03  4.36384740e+03  9.07e-07 9.09e-13  2.65e-03     0s
+   7   4.36400092e+03  4.36399853e+03  2.33e-10 1.14e-12  1.52e-06     0s
+   8   4.36400000e+03  4.36400000e+03  4.95e-13 9.09e-13  2.51e-11     0s
+
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Optimal objective 4.36400000e+03
+
+Crossover log...
+
+      69 DPushes remaining with DInf 0.0000000e+00                 0s
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      0s
+
+Extra simplex iterations after uncrush: 2
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      74    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 74 iterations and 0.00 seconds (0.01 work units)
+Optimal objective  4.364000000e+03
+
+Number of leg variables is: 95
+Number of lof variables is: 695
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Solution status: 2
+Optimal value: 4364.0
+ ********************* END IP SOLUTION 34 *********************
+
+Number of Better Lofs is 0
+
+ ********************* FINAL IP SOLUTION *********************
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 107 rows, 790 columns and 6014 nonzeros
+Model fingerprint: 0xec4fe4a2
+Variable types: 0 continuous, 790 integer (790 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 76000.000000
+Presolve removed 33 rows and 40 columns
+Presolve time: 0.01s
+Presolved: 74 rows, 750 columns, 4496 nonzeros
+Variable types: 0 continuous, 750 integer (750 binary)
+Found heuristic solution: objective 40813.000000
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.617e+03
+ Factor NZ  : 2.499e+03
+ Factor Ops : 1.077e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   6.24600252e+04  6.40000000e+03  4.48e+01 8.00e+02  2.10e+02     0s
+   1   1.40629518e+04 -4.43083768e+03  6.02e+00 6.82e-13  3.32e+01     0s
+   2   7.76405819e+03  1.13579278e+03  6.60e-01 1.02e-12  6.12e+00     0s
+   3   5.41200699e+03  4.02821868e+03  3.96e-02 9.09e-13  9.84e-01     0s
+   4   4.54032994e+03  4.30989315e+03  8.06e-04 9.09e-13  1.54e-01     0s
+   5   4.39883578e+03  4.35461547e+03  4.85e-05 9.09e-13  2.94e-02     0s
+   6   4.36549155e+03  4.36230711e+03  1.84e-07 9.09e-13  2.11e-03     0s
+   7   4.36400711e+03  4.36399808e+03  2.91e-13 1.36e-12  5.98e-06     0s
+   8   4.36400001e+03  4.36400000e+03  1.21e-12 7.96e-13  5.98e-09     0s
+
+Barrier solved model in 8 iterations and 0.01 seconds (0.02 work units)
+Optimal objective 4.36400001e+03
+
+
+Root relaxation: objective 4.364000e+03, 77 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    4364.0000000 4364.00000  0.00%     -    0s
+
+Explored 1 nodes (77 simplex iterations) in 0.01 seconds (0.02 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 4364 40813 76000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.364000000000e+03, best bound 4.364000000000e+03, gap 0.0000%
+
+Number of leg variables is: 95
+Number of lof variables is: 695
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+
+Solution status: 2
+Optimal value: 4364.0
+************ LOF ************
+Lof ID is  0
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  4
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+ODp Mon Jul 23 23:55:00 2012
+OAr Tue Jul 24 02:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+ODp Tue Jul 24 02:40:00 2012
+OAr Tue Jul 24 05:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 20:55:00 2012
+OAr Tue Jul 24 22:59:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  7
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg List Size is 5 cost 0
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+ODp Tue Jul 24 02:50:00 2012
+OAr Tue Jul 24 08:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 13:55:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+ODp Tue Jul 24 15:10:00 2012
+OAr Tue Jul 24 20:25:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+ODp Tue Jul 24 21:40:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  282
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 0
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  356
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg List Size is 6 cost 504
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  417
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+ODp Tue Jul 24 01:35:00 2012
+OAr Tue Jul 24 04:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+ODp Tue Jul 24 05:35:00 2012
+OAr Tue Jul 24 06:55:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+ODp Tue Jul 24 07:45:00 2012
+OAr Tue Jul 24 09:05:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+ODp Tue Jul 24 09:45:00 2012
+OAr Tue Jul 24 11:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  443
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  573
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 11 cost 2
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  588
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  591
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 1200
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+ODp Wed Jul 25 06:20:00 2012
+OAr Wed Jul 25 12:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  609
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+ODp Tue Jul 24 00:20:00 2012
+OAr Tue Jul 24 02:20:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+ODp Tue Jul 24 02:55:00 2012
+OAr Tue Jul 24 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 05:55:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+ODp Tue Jul 24 12:45:00 2012
+OAr Tue Jul 24 17:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:34:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is  635
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 6
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+*****************************
+
+ ********************* END FINAL IP SOLUTION *********************
+Total number of connection of leg network: 1024
+total run time is 0.7831113338470459 seconds
+
+Canceled flights are
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+dual is 800.0
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+dual is 800.0
+program finish

@@ -1,1 +1,0 @@
-python main2.py C:\\Code\\ARP_CG\\Scenarios\\Scn2\\input C:\\Code\\ARP_CG\\Scenarios\\Scn2\\output
