@@ -254,11 +254,16 @@ class Leg:
         if len(self._subNodeList) == 0:
             self._subNodeList.append(subNode)
             return True
-        for _subNode in self._subNodeList:
+        copied_list = []
+        for i in range(len(self._subNodeList)):
+            _subNode = self._subNodeList[i]
             if _subNode.LessKey(subNode):
                 return False
             if subNode.LessKey(_subNode):
-                self._subNodeList.remove(_subNode)
+                pass
+            else:
+                copied_list.append(_subNode)
+        self._subNodeList = copied_list
         self._subNodeList.append(subNode)
         return True
 

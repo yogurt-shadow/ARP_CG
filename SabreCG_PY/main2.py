@@ -265,44 +265,42 @@ if __name__ == "__main__":
         stationName = _mtcs.airport
         startTime, endTime = _mtcs.startTime, _mtcs.endTime
         maintId, tail = _mtcs.id, _mtcs.tailNumber
-        station, aircraft = None, None
-        stationFoundList = [_station for _station in stationList if _station.getName() == stationName]
-        if len(stationFoundList) == 0:
+        station = None
+        for _station in stationList:
+            if _station.getName() == stationName:
+                station = _station
+                break
+        if station == None:
             station = Station(stationName)
             stationList.append(station)
-        else:
-            station = stationFoundList[0]
-        aircraftFoundList = [_aircraft for _aircraft in aircraftList if _aircraft.getTail() == tail]
-        if len(aircraftFoundList) == 0:
+        aircraft = None
+        for _aircraft in aircraftList:
+            if _aircraft.getTail() == tail:
+                aircraft = _aircraft
+                break
+        if aircraft == None:
             print("Cannot Find Aircraft " + tail)
             sys.exit(0)
-        else:
-            aircraft = aircraftFoundList[0]
         maint = Leg(maintId, station, station, startTime, endTime, aircraft)
         maintList.append(maint)
         legList.append(maint)
 
+    # set the closure time of station
     for _airportClosure in airportClosures:
         stationName = _airportClosure.code
         startT, endT = _airportClosure.startTime, _airportClosure.endTime
         station = None
-        stationFoundList = [_station for _station in stationList if _station.getName() == stationName]
-        if len(stationFoundList) == 0:
-            print("Error, Cannot Find Station " + stationName)
+        for _station in stationList:
+            if _station.getName() == stationName:
+                station = _station
+                break
+        if station == None:
+            print("Error, cannot Find Station " + stationName)
             sys.exit(0)
-        else:
-            station = stationFoundList[0]
         closeTime = (startT, endT)
         station.pushCloseTime(closeTime)
     
     print("Ready to go!")
-
-    for _station in stationList:
-        _station.print()
-    for _aircraft in aircraftList:
-        _aircraft.print()
-    for _leg in legList:
-        _leg.print()
 
     startTime = time.time()
     schedule = Schedule(stationList, aircraftList, legList)

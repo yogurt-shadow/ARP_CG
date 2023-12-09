@@ -836,16 +836,6 @@ int main( int argc, char * argv[] )
 	/*Data Reading has done!*/
 	std::cout << "Ready to go!" << std::endl;
 
-	for (int i = 0; i < stationList.size(); i++) {
-		stationList[i]->print();
-	}
-	for (auto _air: aircraftList) {
-		_air->print();
-	}
-	for (auto _leg: legList) {
-		_leg->print();
-	}
-
 	/*
 	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
 

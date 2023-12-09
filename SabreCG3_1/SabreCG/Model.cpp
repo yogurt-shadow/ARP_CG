@@ -130,12 +130,13 @@ vector<Lof *> Model::findNewColumns()
 	vector<Lof* > betterLof;
 	//Lof* tempLof;
 	vector<Lof* > tempLof;
-
+	cout << "air size: " << _aircraftList.size() << endl;
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		//tempLof = findNewOneColumn(_aircraftList[i]);
 		tempLof = findNewMultiColumns(_aircraftList[i]);
 		//if (tempLof != NULL)
+		cout << "multi size: " << tempLof.size() << endl;
 		if (tempLof.size() > 0)
 		{
 			//betterLof.push_back(tempLof);
@@ -441,27 +442,31 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	for (int i = 0; i < _topOrderList.size(); i++)
 	{ //* check each node in topological order, to do relax operation
 		Leg * thisLeg = _topOrderList[i];
+		cout << "next leg size: " << thisLeg->getNextLegList().size() << endl;
 		for (int j = 0; j < thisLeg->getNextLegList().size(); j++)
 		{
 			Leg * nextLeg = thisLeg->getNextLegList()[j];
-
 			if (!thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is flight; nextLeg is flight
 			{
+				cout << "case 1" << endl;
 				edgeProcessFltFlt(thisLeg, nextLeg, aircraft);//##Ѱ��·��ʱʹ�õ�edge cost ����delay,swap,flight dual
 			}
 
 			if (!thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is flight; nextLeg is maintenance
 			{
+				cout << "case 2" << endl;
 				edgeProcessFltMaint(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is maint; nextLeg is flight
 			{
+				cout << "case 3" << endl;
 				edgeProcessMaintFlt(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is maint; nextLeg is maint
 			{
+				cout << "case 4" << endl;
 				edgeProcessMaintMaint(thisLeg, nextLeg, aircraft);
 			}
 
@@ -891,7 +896,6 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft)
 	time_t delay2 = delayByAirportClose(nextLeg, delay); // compute delay by airport closure
 
 	delay = delay + delay2; // overall delay
-
 	//* check maximum delay satisfied
 	if (delay > Util::maxDelayTime)
 		return;
@@ -902,7 +906,6 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft)
 
 	//edgeCost = delay * Util::w_fltDelay - nextLeg->getDual();
 	edgeCost = delay /60.0 * Util::w_fltDelay - nextLeg->getDual();
-
 	//* swap cost
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
@@ -979,6 +982,7 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft)
 void Model::edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 {
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
+	cout << "case 1 len: " << subNodeList.size() << endl;
 	for(int i = 0; i < subNodeList.size(); i++)
 	{
 		edgeProcessFltFlt(subNodeList[i], nextLeg, aircraft);

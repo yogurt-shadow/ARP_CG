@@ -5,6 +5,7 @@ import Util as ut
 import sys
 import gurobipy as gp
 from gurobipy import GRB
+import time
 
 class Model:
     _count = 0
@@ -23,8 +24,10 @@ class Model:
 
     def findNewColumns(self) -> List[Lof]:
         betterLof, tempLof = [], []
+        print("air size:", len(self._aircraftList))
         for _aircraft in self._aircraftList:
             tempLof = self.findNewMultiColumns(_aircraft)
+            print("multi size:", len(tempLof), flush=True)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
         print("Number of Better Lofs is " + str(len(betterLof)))
@@ -38,16 +41,30 @@ class Model:
         depMaintList = aircraft.getDepStation().getMainList()
         for _depMaint in depMaintList:
             self.edgeProcessMaint(_depMaint, aircraft)
+        # check each node in topological order, to do relax operation
+        index = 0
+        time1 = time.time()
         for thisLeg in self._topOrderList:
+            # print("index", index)
+            index += 1
             for nextLeg in thisLeg.getNextLegList():
+                caset1 = time.time()
                 if not thisLeg.isMaint() and not nextLeg.isMaint():
+                    # print("case 1")
                     self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
                 if not thisLeg.isMaint() and nextLeg.isMaint():
+                    # print("case 2")
                     self.edgeProcessFltMaint(thisLeg, nextLeg, aircraft)
                 if thisLeg.isMaint() and not nextLeg.isMaint():
+                    # print("case 3")
                     self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
                 if thisLeg.isMaint() and nextLeg.isMaint():
+                    # print("case 4")
                     self.exgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
+                caset2 = time.time()
+                # print("case time: ", caset2 - caset1)
+        time2 = time.time()
+        print("time range1: ", time2 - time1, flush=True)
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
             for _subNode in _arrLeg.getSubNodeList():
@@ -100,13 +117,15 @@ class Model:
                         newLof.print()
                         print("******* dual of legs are: *******")
                         lofOperLegList = newLof.getLegList()
-                        for i in range(len(newLof.getSize())):
+                        for i in newLof.getSize():
                             print("dual of leg %d  is %d" % (i, lofOperLegList[i].getLeg().getDual()))
                         break
                     betterLof.append(newLof)
                     tmp_count += 1
             else:
                 break
+        time3 = time.time()
+        print("time range2: ", time3 - time2)
         for _leg in self._legList:
             _leg.resetLeg()
         return betterLof
@@ -301,31 +320,6 @@ class Model:
         if not nextLeg.insertSubNode(newSubNode):
             print("Error, initial relaxation must happen")
             sys.exit(0)
-    
-    def delayByAirportClose(self, nextLeg: Leg, delay: float) -> float:
-        if nextLeg.isMaint():
-            print("Error, nextLeg must be flight to compute delay!")
-            sys.exit(0)
-        nextLegDepTime = nextLeg.getDepTime() + delay
-        nextLegArrTime = nextLeg.getArrTime() + delay
-        delay2 = 0
-        depCloseList = nextLeg.getDepStation().getCloseTimeList()
-        arrCloseList = nextLeg.getArrStation().getCloseTimeList()
-        stopFlag1, stopFlag2 = False, False
-        while not stopFlag1 or not stopFlag2:
-            stopFlag1 = True
-            for _depClose in depCloseList:
-                if nextLegDepTime + delay2 >= _depClose[0] and nextLegDepTime + delay2 < _depClose[1]:
-                    delay2 = _depClose[1] - nextLegDepTime
-                    stopFlag1 = False
-                    break
-            stopFlag2 = True
-            for _arrClose in arrCloseList:
-                if nextLegArrTime + delay2 >= _arrClose[0] and nextLegArrTime + delay2 < _arrClose[1]:
-                    delay2 = _arrClose[1] - nextLegArrTime
-                    stopFlag2 = False
-                    break
-        return delay2
 
     def edgeProcessFltFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
         subNodeList = thisLeg.getSubNodeList()
@@ -421,7 +415,7 @@ class Model:
         self.populateByColumn(self._initColumns)
         print(" ********************* LP SOLUTION 0 *********************")
         self.solve()
-        print(" ********************* END IP SOLUTION 0 *********************")
+        print(" ********************* END LP SOLUTION 0 *********************")
         print()
         count = 1
         betterColumns = self.findNewColumns()
@@ -430,7 +424,7 @@ class Model:
             self.addColumns(betterColumns)
             self._initColumns.extend(betterColumns)
             self.solve()
-            print(" ********************* END IP SOLUTION " + str(count) + " *********************")
+            print(" ********************* END LP SOLUTION " + str(count) + " *********************")
             print()
             count += 1
             betterColumns = self.findNewColumns()
