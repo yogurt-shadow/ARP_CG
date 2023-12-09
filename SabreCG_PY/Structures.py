@@ -128,6 +128,7 @@ class Leg:
         Leg._count += 1
         self._isVisited = False
         self._aircraft.pushPlanLeg(self)
+        self._isMaint = False
         if depStation != arrStation: # flight
             self._isMaint = False
             self._depStation.pushDepLeg(self)

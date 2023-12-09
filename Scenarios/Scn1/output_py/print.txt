@@ -762,6 +762,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 24000.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 0 *********************
 
 Number of Better Lofs is 24
@@ -817,7 +819,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       34    2.2886000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 34 iterations and 0.00 seconds (0.00 work units)
+Solved in 34 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  2.288600000e+04
 
 Number of leg variables is: 95
@@ -826,6 +828,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 22886.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 1 *********************
 
 Number of Better Lofs is 24
@@ -891,6 +895,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 21748.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 2 *********************
 
 Number of Better Lofs is 24
@@ -955,6 +961,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 12951.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 3 *********************
 
 Number of Better Lofs is 24
@@ -1020,6 +1028,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 10764.666666666666
+size: 95
+size: 12
  ********************* END IP SOLUTION 4 *********************
 
 Number of Better Lofs is 24
@@ -1060,7 +1070,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   9.41339034e+03  9.41331249e+03  2.98e-08 1.82e-12  1.80e-04     0s
    7   9.41333333e+03  9.41333333e+03  5.66e-14 9.09e-13  1.38e-09     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 9.41333333e+03
 
 Crossover log...
@@ -1075,7 +1085,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       44    9.4133333e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 44 iterations and 0.00 seconds (0.00 work units)
+Solved in 44 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  9.413333333e+03
 
 Number of leg variables is: 95
@@ -1084,6 +1094,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 9413.33333333333
+size: 95
+size: 12
  ********************* END IP SOLUTION 5 *********************
 
 Number of Better Lofs is 24
@@ -1141,7 +1153,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       49    9.1712857e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 49 iterations and 0.02 seconds (0.00 work units)
+Solved in 49 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  9.171285714e+03
 
 Number of leg variables is: 95
@@ -1150,6 +1162,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 9171.285714285714
+size: 95
+size: 12
  ********************* END IP SOLUTION 6 *********************
 
 Number of Better Lofs is 24
@@ -1214,6 +1228,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 6438.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 7 *********************
 
 Number of Better Lofs is 23
@@ -1278,6 +1294,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5985.5
+size: 95
+size: 12
  ********************* END IP SOLUTION 8 *********************
 
 Number of Better Lofs is 23
@@ -1334,7 +1352,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       63    5.9203333e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 63 iterations and 0.02 seconds (0.00 work units)
+Solved in 63 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  5.920333333e+03
 
 Number of leg variables is: 95
@@ -1343,6 +1361,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5920.333333333333
+size: 95
+size: 12
  ********************* END IP SOLUTION 9 *********************
 
 Number of Better Lofs is 23
@@ -1411,6 +1431,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5616.9375
+size: 95
+size: 12
  ********************* END IP SOLUTION 10 *********************
 
 Number of Better Lofs is 23
@@ -1476,6 +1498,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5448.333333333333
+size: 95
+size: 12
  ********************* END IP SOLUTION 11 *********************
 
 Number of Better Lofs is 24
@@ -1544,6 +1568,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5314.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 12 *********************
 
 Number of Better Lofs is 22
@@ -1562,7 +1588,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 3 rows and 4 columns
-Presolve time: 0.02s
+Presolve time: 0.00s
 Presolved: 104 rows, 405 columns, 2796 nonzeros
 
 Ordering time: 0.00s
@@ -1584,7 +1610,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.44400011e+03  4.44399994e+03  1.48e-13 6.82e-13  2.13e-07     0s
    7   4.44400000e+03  4.44400000e+03  1.27e-13 7.96e-13  5.00e-13     0s
 
-Barrier solved model in 7 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.44400000e+03
 
 Crossover log...
@@ -1599,7 +1625,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       80    4.4440000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 80 iterations and 0.02 seconds (0.00 work units)
+Solved in 80 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.444000000e+03
 
 Number of leg variables is: 95
@@ -1608,6 +1634,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4444.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 13 *********************
 
 Number of Better Lofs is 24
@@ -1673,6 +1701,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4444.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 14 *********************
 
 Number of Better Lofs is 20
@@ -1737,6 +1767,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4444.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 15 *********************
 
 Number of Better Lofs is 23
@@ -1794,7 +1826,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       84    4.4440000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 84 iterations and 0.00 seconds (0.00 work units)
+Solved in 84 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  4.444000000e+03
 
 Number of leg variables is: 95
@@ -1803,6 +1835,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4444.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 16 *********************
 
 Number of Better Lofs is 22
@@ -1867,6 +1901,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4444.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 17 *********************
 
 Number of Better Lofs is 21
@@ -1908,7 +1944,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.42800159e+03  4.42799917e+03  1.55e-10 1.14e-12  2.32e-06     0s
    8   4.42800000e+03  4.42800000e+03  8.29e-13 6.87e-13  9.80e-12     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.42800000e+03
 
 Crossover log...
@@ -1923,7 +1959,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       80    4.4280000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 80 iterations and 0.02 seconds (0.00 work units)
+Solved in 80 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  4.428000000e+03
 
 Number of leg variables is: 95
@@ -1932,6 +1968,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4428.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 18 *********************
 
 Number of Better Lofs is 24
@@ -1972,7 +2010,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.37401124e+03  4.37399744e+03  3.68e-12 5.68e-13  1.27e-05     0s
    7   4.37400000e+03  4.37400000e+03  1.30e-12 7.24e-13  5.79e-10     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.37400000e+03
 
 Crossover log...
@@ -1988,7 +2026,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       79    4.3740000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 79 iterations and 0.01 seconds (0.00 work units)
+Solved in 79 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.374000000e+03
 
 Number of leg variables is: 95
@@ -1997,6 +2035,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4374.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 19 *********************
 
 Number of Better Lofs is 21
@@ -2061,6 +2101,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4374.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 20 *********************
 
 Number of Better Lofs is 21
@@ -2125,6 +2167,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4374.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 21 *********************
 
 Number of Better Lofs is 20
@@ -2189,6 +2233,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4374.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 22 *********************
 
 Number of Better Lofs is 22
@@ -2253,6 +2299,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4374.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 23 *********************
 
 Number of Better Lofs is 19
@@ -2309,7 +2357,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       73    4.3700000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 73 iterations and 0.01 seconds (0.00 work units)
+Solved in 73 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.370000000e+03
 
 Number of leg variables is: 95
@@ -2318,6 +2366,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4370.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 24 *********************
 
 Number of Better Lofs is 17
@@ -2384,6 +2434,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4370.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 25 *********************
 
 Number of Better Lofs is 18
@@ -2448,6 +2500,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 26 *********************
 
 Number of Better Lofs is 13
@@ -2489,7 +2543,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400015e+03  4.36399979e+03  7.27e-13 7.96e-13  2.56e-07     0s
    8   4.36400000e+03  4.36400000e+03  1.60e-11 9.09e-13  6.75e-12     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -2505,7 +2559,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       75    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 75 iterations and 0.00 seconds (0.01 work units)
+Solved in 75 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -2514,6 +2568,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 27 *********************
 
 Number of Better Lofs is 15
@@ -2580,6 +2636,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 28 *********************
 
 Number of Better Lofs is 20
@@ -2646,6 +2704,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 29 *********************
 
 Number of Better Lofs is 11
@@ -2664,7 +2724,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 10 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 730 columns, 5544 nonzeros
 
 Ordering time: 0.00s
@@ -2687,7 +2747,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400013e+03  4.36399971e+03  2.09e-11 1.09e-12  2.83e-07     0s
    8   4.36400000e+03  4.36400000e+03  6.12e-12 9.09e-13  3.28e-12     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -2703,7 +2763,7 @@ Extra simplex iterations after uncrush: 5
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       82    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 82 iterations and 0.00 seconds (0.01 work units)
+Solved in 82 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -2712,6 +2772,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 30 *********************
 
 Number of Better Lofs is 10
@@ -2753,7 +2815,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400037e+03  4.36399927e+03  1.47e-12 1.02e-12  7.34e-07     0s
    8   4.36400000e+03  4.36400000e+03  8.05e-12 9.09e-13  8.16e-12     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -2769,7 +2831,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       75    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 75 iterations and 0.01 seconds (0.01 work units)
+Solved in 75 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -2778,6 +2840,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 31 *********************
 
 Number of Better Lofs is 20
@@ -2796,7 +2860,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 10 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 760 columns, 5746 nonzeros
 
 Ordering time: 0.00s
@@ -2844,6 +2908,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 32 *********************
 
 Number of Better Lofs is 14
@@ -2910,6 +2976,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 33 *********************
 
 Number of Better Lofs is 6
@@ -2951,7 +3019,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400092e+03  4.36399853e+03  2.33e-10 1.14e-12  1.52e-06     0s
    8   4.36400000e+03  4.36400000e+03  4.95e-13 9.09e-13  2.51e-11     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -2967,7 +3035,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       74    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 74 iterations and 0.00 seconds (0.01 work units)
+Solved in 74 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -2976,6 +3044,8 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
+size: 95
+size: 12
  ********************* END IP SOLUTION 34 *********************
 
 Number of Better Lofs is 0
@@ -2996,7 +3066,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 Found heuristic solution: objective 76000.000000
 Presolve removed 33 rows and 40 columns
-Presolve time: 0.01s
+Presolve time: 0.02s
 Presolved: 74 rows, 750 columns, 4496 nonzeros
 Variable types: 0 continuous, 750 integer (750 binary)
 Found heuristic solution: objective 40813.000000
@@ -3022,7 +3092,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400711e+03  4.36399808e+03  2.91e-13 1.36e-12  5.98e-06     0s
    8   4.36400001e+03  4.36400000e+03  1.21e-12 7.96e-13  5.98e-09     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.02 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.02 work units)
 Optimal objective 4.36400001e+03
 
 
@@ -3033,7 +3103,7 @@ Root relaxation: objective 4.364000e+03, 77 iterations, 0.00 seconds (0.00 work 
 
 *    0     0               0    4364.0000000 4364.00000  0.00%     -    0s
 
-Explored 1 nodes (77 simplex iterations) in 0.01 seconds (0.02 work units)
+Explored 1 nodes (77 simplex iterations) in 0.02 seconds (0.02 work units)
 Thread count was 20 (of 20 available processors)
 
 Solution count 3: 4364 40813 76000 
@@ -3984,7 +4054,7 @@ OAr Wed Jul 25 10:45:00 2012
 
  ********************* END FINAL IP SOLUTION *********************
 Total number of connection of leg network: 1024
-total run time is 0.7831113338470459 seconds
+total run time is 0.810126781463623 seconds
 
 Canceled flights are
 Leg 67 Flt 2928907 Tal MA059N

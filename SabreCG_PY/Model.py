@@ -529,6 +529,7 @@ class Model:
         # get leg dual
         legDual = self._model.getAttr('Pi', self._coverRng)
         # set leg dual
+        print("size: " + str(len(self._legList)))
         for i in range(len(self._legList)):
             if i != self._legList[i].getId():
                 print("Error, leg index mismatch when get dual")
@@ -537,14 +538,13 @@ class Model:
         
         # get aircraft dual
         aircraftDual = self._model.getAttr('Pi', self._selectRng)
+        print("size: " + str(len(self._aircraftList)))
         # set aircraft dual
         for i in range(len(self._aircraftList)):
             if i != self._aircraftList[i].getId():
                 print("Error, aircraft index mismatch when get dual")
                 sys.exit(0)
             self._aircraftList[i].setDual(aircraftDual[i])
-
-
 
     def addColumns(self, _betterColumns: List[Lof]) -> None:
         for _col in _betterColumns:

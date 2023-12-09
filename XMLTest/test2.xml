@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotion>
+  <folder>VOCtype</folder>
+  <filename>000001.jpg</filename>
+  <source>
+    <database>VOC</database>
+  </source>
+  <size>
+    <width>458</width>
+    <height>45</height>
+    <height>45</height>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>face</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>263</xmin>
+      <ymin>339</ymin>
+      <xmax>324</xmax>
+      <ymax>339</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>face</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>5</xmin>
+      <ymin>374</ymin>
+      <xmax>67</xmax>
+      <ymax>374</ymax>
+    </bndbox>
+  </object>
+</annotion>

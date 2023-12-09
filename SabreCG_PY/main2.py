@@ -83,96 +83,76 @@ def exportSolution(output_path: str, _LegList: List[Leg]) -> bool:
         if not os.path.exists(output_path):
             os.makedirs(output_path)
         root = et.Element("exportAircrafts")
-        root.text = ""
-        tree = et.ElementTree(root)
-
         # Flight Info
-        xml_fltList = et.Element("ns3:flightInfoList")
-        xml_fltList.text = ""
+        xml_fltList = et.SubElement(root, "ns3:flightInfoList")
         for _leg in _LegList:
-            if _leg.isMaint():
-                xml_fltType = et.Element("ns3:flightInfo")
-                xml_flt_id = et.Element("ns3:id")
+            if not _leg.isMaint():
+                xml_fltType = et.SubElement(xml_fltList, "ns3:flightInfo")
+                xml_flt_id = et.SubElement(xml_fltType, "ns3:id")
                 xml_value = _leg.getFlightNum()
                 xml_flt_id.text = str(xml_value)
-                xml_fltType.append(xml_flt_id)
 
-                xml_flt_depTime = et.Element("ns3:departureTime")
+                xml_flt_depTime = et.SubElement(xml_fltType, "ns3:departureTime")
                 xml_value = str(_leg.getDepTime())
                 xml_flt_depTime.text = xml_value
-                xml_fltType.append(xml_flt_depTime)
 
-                xml_flt_arrTime = et.Element("ns3:arrivalTime")
+                xml_flt_arrTime = et.SubElement(xml_fltType, "ns3:arrivalTime")
                 xml_value = str(_leg.getArrTime())
                 xml_flt_arrTime.text = xml_value
-                xml_fltType.append(xml_flt_arrTime)
 
-                xml_flt_depArp = et.Element("ns3:departureAirport")
+                xml_flt_depArp = et.SubElement(xml_fltType, "ns3:departureAirport")
                 xml_value = _leg.getDepStation().getName()
                 xml_flt_depArp.text = xml_value
-                xml_fltType.append(xml_flt_depArp)
 
-                xml_flt_arrArp = et.Element("ns3:arrivalAirport")
+                xml_flt_arrArp = et.SubElement(xml_fltType, "ns3:arrivalAirport")
                 xml_value = _leg.getArrStation().getName()
                 xml_flt_arrArp.text = xml_value
-                xml_fltType.append(xml_flt_arrArp)
 
-                xml_flt_tailNum = et.Element("ns3:tailNumber")
+                xml_flt_tailNum = et.SubElement(xml_fltType, "ns3:tailNumber")
                 xml_value = _leg.getAircraft().getTail()
                 xml_flt_tailNum.text = xml_value
-                xml_fltType.append(xml_flt_tailNum)
 
-                xml_flt_status = et.Element("ns3:status")
+                xml_flt_status = et.SubElement(xml_fltType, "ns3:status")
                 if _leg.getAssigned():
                     xml_value = "Assigned"
                 else:
                     xml_value = "Cancelled"
                 xml_flt_status.text = xml_value
-                xml_fltType.append(xml_flt_status)
-                xml_fltList.append(xml_fltType)
         
         # Maintenance Info
-        xml_mtcList = et.Element("ns3:mtcInfoList")
+        xml_mtcList = et.SubElement(root, "ns3:mtcInfoList")
         for _leg in _LegList:
             if _leg.isMaint():
-                xml_mtcType = et.Element("ns3:mtcInfo")
+                xml_mtcType = et.SubElement(xml_mtcList, "ns3:mtcInfo")
 
-                xml_mtc_id = et.Element("ns3:id")
+                xml_mtc_id = et.SubElement(xml_mtcType, "ns3:id")
                 xml_value = _leg.getFlightNum()
                 xml_mtc_id.text = str(xml_value)
-                xml_mtcType.append(xml_mtc_id)
 
-                xml_mtc_startTime = et.Element("ns3:startTime")
+                xml_mtc_startTime = et.SubElement(xml_mtcType, "ns3:startTime")
                 xml_value = str(_leg.getDepTime())
                 xml_mtc_startTime.text = xml_value
-                xml_mtcType.append(xml_mtc_startTime)
 
-                xml_mtc_endTime = et.Element("ns3:endTime")
+                xml_mtc_endTime = et.SubElement(xml_mtcType, "ns3:endTime")
                 xml_value = str(_leg.getArrTime())
                 xml_mtc_endTime.text = xml_value
-                xml_mtcType.append(xml_mtc_endTime)
 
-                xml_mtc_airport = et.Element("ns3:airport")
+                xml_mtc_airport = et.SubElement(xml_mtcType, "ns3:airport")
                 xml_value = _leg.getDepStation().getName()
                 xml_mtc_airport.text = xml_value
-                xml_mtcType.append(xml_mtc_airport)
 
-                xml_mtc_tailNum = et.Element("ns3:tailNumber")
+                xml_mtc_tailNum = et.SubElement(xml_mtcType, "ns3:tailNumber")
                 xml_value = _leg.getAircraft().getTail()
                 xml_mtc_tailNum.text = xml_value
-                xml_mtcType.append(xml_mtc_tailNum)
 
-                xml_mtc_status = et.Element("ns3:status")
+                xml_mtc_status = et.SubElement(xml_mtcType, "ns3:status")
                 if _leg.getAssigned():
                     xml_value = "Assigned"
                 else:
                     xml_value = "Cancelled"
                 xml_mtc_status.text = xml_value
-                xml_mtcType.append(xml_mtc_status)
-                xml_mtcList.append(xml_mtcType)
-        root.append(xml_fltList)
-        root.append(xml_mtcList)
-        if not tree.write(output_path + "Output.xml"):
+        tree = et.ElementTree(root)
+        if not tree.write(output_path + "Output.xml", xml_declaration=True, encoding='utf-8'):
             return False
     except Exception as e:
         print(e)
