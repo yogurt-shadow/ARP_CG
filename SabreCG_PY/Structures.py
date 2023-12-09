@@ -317,15 +317,16 @@ class Aircraft:
         self._planLegList.sort(key = lambda _leg: _leg.compareDepKey())
 
     def isPlanLegFeasible(self) -> bool:
-        if self._planLegList[0].getDepTime() < self._startT:
+        if len(self._planLegList) > 0 and self._planLegList[0].getDepTime() < self._startT:
             return False
-        if self._planLegList[-1].getArrTime() > self._endT:
+        if len(self._planLegList) > 0 and self._planLegList[-1].getArrTime() > self._endT:
             return False
-        if self._planLegList[0].getDepStation() != self._depStation:
+        if len(self._planLegList) > 0 and self._planLegList[0].getDepStation() != self._depStation:
             return False
-        if self._planLegList[-1].getArrStation() != self._arrStation:
+        if len(self._planLegList) > 0 and self._planLegList[-1].getArrStation() != self._arrStation:
             return False
         thisLeg, nextLeg = None, None
+        print("planLegList size is ", len(self._planLegList))
         for i in range(len(self._planLegList) - 1):
             thisLeg, nextLeg = self._planLegList[i], self._planLegList[i+1]
             if thisLeg.getArrStation() != nextLeg.getDepStation():

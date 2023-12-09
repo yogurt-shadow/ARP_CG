@@ -249,11 +249,15 @@ class Model:
 
     def findInitColumns(self):
         initColumns = []
+        print("List size:", len(self._aircraftList))
+        for _aircraft in self._aircraftList:
+            _aircraft.print()
         for _aircraft in self._aircraftList:
             tempLof = self.findInitOneColumn(_aircraft)
             if tempLof != None:
                 initColumns.append(tempLof)
         print("Number of Initial Lofs is " + str(len(initColumns)))
+        print()
         return initColumns
     
     def edgeProcessMaint(self, nextLeg: Leg, aircraft: Aircraft) -> None:

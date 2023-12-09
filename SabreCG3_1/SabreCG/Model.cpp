@@ -21,7 +21,10 @@ vector<Lof* > Model::findInitColumns()
 {
 	vector<Lof* > initColumns;
 	Lof* tempLof;
-
+	cout << "List size: " << _aircraftList.size() << endl;
+	for(auto _aircraft: _aircraftList) {
+		_aircraft->print();
+	}
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		tempLof = findInitOneColumn(_aircraftList[i]);

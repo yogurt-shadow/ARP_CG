@@ -51,11 +51,13 @@ def readConfigurationList() -> (str, str):
     return input_dir, output_dir
 
 def updaInfo(_LofListSoln: List[Lof], _InitLegList: List[Leg]) -> List[Leg]:
+    print("test for upda")
     legList = []
     # dealing with assigned flights
     for _lof in _LofListSoln:
         _OperLegList = _lof.getLegList()
         for _operLeg in _OperLegList:
+            _operLeg.print()
             depStation = _operLeg.getLeg().getDepStation()
             arrStation = _operLeg.getLeg().getArrStation()
             depTime = _operLeg.getPrintDepTime()
@@ -192,25 +194,29 @@ if __name__ == "__main__":
     ut.util.w_violatedPosition = parameters.w_violatedPosition
     
     stationList, aircraftList = [], []
+    # Initialize the aircraft information and station Information
     for _aircraft in aircrafts:
         tail = _aircraft.tailNumber
         startTime, endTime = _aircraft.startAvailableTime, _aircraft.endAvailableTime
         depName, arrName = _aircraft.startAvailableAirport, _aircraft.endAvailableAirport
-        depStationList = [_station for _station in stationList if _station.getName() == depName]
-        arrStationList = [_station for _station in stationList if _station.getName() == arrName]
         depStation, arrStation = None, None
-        if len(depStationList) == 0:
+        for _station in stationList:
+            if _station.getName() == depName:
+                depStation = _station
+                break
+        if depStation == None:
             depStation = Station(depName)
             stationList.append(depStation)
-        else:
-            depStation = depStationList[0]
-        if len(arrStationList) == 0:
+        for _station in stationList:
+            if _station.getName() == arrName:
+                arrStation = _station
+                break
+        if arrStation == None:
             arrStation = Station(arrName)
             stationList.append(arrStation)
-        else:
-            arrStation = arrStationList[0]
         aircraftList.append(Aircraft(tail, startTime, endTime, depStation, arrStation))
-    
+
+    # Initialize the legList, flights+maintenances
     legList = []
     for _flight in flights:
         depName, arrName = _flight.departureAirport, _flight.arrivalAirport
@@ -218,25 +224,28 @@ if __name__ == "__main__":
         depTime, arrTime = _flight.departureTime, _flight.arrivalTime
         flightNum = _flight.id
         tail = _flight.tailNumber
-        depStationList = [_station for _station in stationList if _station.getName() == depName]
-        arrStationList = [_station for _station in stationList if _station.getName() == arrName]
-        aircraftFoundList = [_aircraft for _aircraft in aircraftList if _aircraft.getTail() == tail]
-        depStation, arrStation, aircraft = None, None, None
-        if len(depStationList) == 0:
+        aircraft = None
+        for _station in stationList:
+            if _station.getName() == depName:
+                depStation = _station
+                break
+        if depStation == None:
             depStation = Station(depName)
             stationList.append(depStation)
-        else:
-            depStation = depStationList[0]
-        if len(arrStationList) == 0:
+        for _station in stationList:
+            if _station.getName() == arrName:
+                arrStation = _station
+                break
+        if arrStation == None:
             arrStation = Station(arrName)
             stationList.append(arrStation)
-        else:
-            arrStation = arrStationList[0]
-        if len(aircraftFoundList) == 0:
+        for _aircraft in aircraftList:
+            if _aircraft.getTail() == tail:
+                aircraft = _aircraft
+                break
+        if aircraft == None:
             print("Cannot Find Aircraft " + tail)
             sys.exit(0)
-        else:
-            aircraft = aircraftFoundList[0]
         legList.append(Leg(flightNum, depStation, arrStation, depTime, arrTime, aircraft))
     
     for _aircraft in aircraftList:
@@ -249,7 +258,8 @@ if __name__ == "__main__":
     print("********************* END PRINTING *********************")
     for _station in stationList:
         _station.setLegNum(len(legList))
-
+    
+    # Initialize maintList,only includes maintenance
     maintList = []
     for _mtcs in mtcs:
         stationName = _mtcs.airport

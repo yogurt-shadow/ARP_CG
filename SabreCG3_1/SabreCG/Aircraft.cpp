@@ -7,7 +7,7 @@ Aircraft::Aircraft(string name, time_t startT, time_t endT, Station * depS, Stat
 {
 	_id = _count;
 	_count++;
-	_dual = 0;	//* ¶ÔÓ¦master problemÃ¿¼Ü·É»úÖ»Ñ¡Ò»ÌõLofµÄconstraint
+	_dual = 0;	//* ï¿½ï¿½Ó¦master problemÃ¿ï¿½Ü·É»ï¿½Ö»Ñ¡Ò»ï¿½ï¿½Lofï¿½ï¿½constraint
 }
 
 int Aircraft::_count = 0;
@@ -30,13 +30,13 @@ void Aircraft::sortScheLegByDepTime()
 
 bool Aircraft::isPlanLegFeasible()
 {
-	// ¼ì²é×îÇ°ºÍ×îºóÒ»¸ölegÊÇ·ñÂú×ãaircraft start/end time
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½legï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½aircraft start/end time
 	if (_planLegList.front()->getDepTime() < _startT)
 		return false;
 	if (_planLegList.back()->getArrTime() > _endT)
 		return false;
 
-	// ¼ì²é×îÇ°ºÍ×îºóÒ»¸ölegÊÇ·ñÂú×ãaircraft start/end airport
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½legï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½aircraft start/end airport
 	if (_planLegList.front()->getDepStation() != _depStation)
 		return false;
 	if (_planLegList.back()->getArrStation() != _arrStation)
@@ -44,8 +44,8 @@ bool Aircraft::isPlanLegFeasible()
 
 	Leg* thisLeg = NULL;
 	Leg* nextLeg = NULL;
-
-	// ¼ì²éairport match, time mismatch
+	cout << "planLegList size: " << _planLegList.size() << endl;
+	// ï¿½ï¿½ï¿½airport match, time mismatch
 	for (int i = 0; i < _planLegList.size() - 1; i++)
 	{
 		thisLeg = _planLegList[i];
@@ -65,7 +65,7 @@ bool Aircraft::isPlanLegFeasible()
 		}
 	}
 	
-	// ¼ì²émaintenanceºÍaircraftÊÇ·ñmatch; dep timeºÍarr timeÊÇ·ñÊÜµ½airport closureÓ°Ïì
+	// ï¿½ï¿½ï¿½maintenanceï¿½ï¿½aircraftï¿½Ç·ï¿½match; dep timeï¿½ï¿½arr timeï¿½Ç·ï¿½ï¿½Üµï¿½airport closureÓ°ï¿½ï¿½
 	vector<pair<time_t, time_t>> depCloseList;
 	vector<pair<time_t, time_t>> arrCloseList;
 	for (int i = 0; i < _planLegList.size(); i++)
@@ -99,4 +99,4 @@ bool Aircraft::isPlanLegFeasible()
 	return true;
 }
 
-/*Ê¡ÂÔÁËÊ£ÏÂµÄ³ÉÔ±º¯Êý*/
+/*Ê¡ï¿½ï¿½ï¿½ï¿½Ê£ï¿½ÂµÄ³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½*/

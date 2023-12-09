@@ -21,10 +21,10 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': convers
   (compiling source file 'Lof.cpp')
   
   main2.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
@@ -36,13 +36,13 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': con
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Model.cpp')
   
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(118,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(164,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(177,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(189,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(216,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(283,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(985,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(121,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(167,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(180,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(192,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(219,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(286,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(982,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   OperLeg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'OperLeg.cpp')

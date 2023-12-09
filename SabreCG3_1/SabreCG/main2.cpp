@@ -477,7 +477,7 @@ bool processArguments(int argc, char** argv, std::string& input_dir, std::string
 vector<Leg *> updaInfo(vector<Lof *> _LofListSoln,vector<Leg *> _InitLegList) ///?????????????????????????????????
 {
 	vector<Leg *> legList;
-
+	cout << "test for upda" << endl;
 	/* dealing with assigned flights */
 	for (int i = 0; i < _LofListSoln.size(); i++)
 	{
@@ -486,6 +486,7 @@ vector<Leg *> updaInfo(vector<Lof *> _LofListSoln,vector<Leg *> _InitLegList) //
 
 		for (int j = 0; j < _OperLegList.size(); j++)
 		{
+			_OperLegList[j]->print();
 			Station * depStation = _OperLegList[j]->getLeg()->getDepStation();
 			Station * arrStation = _OperLegList[j]->getLeg()->getArrStation();
 
