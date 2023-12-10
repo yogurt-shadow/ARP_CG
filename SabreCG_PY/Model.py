@@ -81,6 +81,11 @@ class Model:
                 _leg.resetLeg()
             return betterLof
         tmpSubNodeList.sort(key = lambda x: x.CostKey())
+        print("tmpSubNodeList size: ", len(tmpSubNodeList))
+        for ele in tmpSubNodeList:
+            ele.print()
+
+
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
                 _leg.resetLeg()
@@ -287,7 +292,9 @@ class Model:
             sys.exit(0)
         edgeCost = 0
         if nextLeg.getAircraft() == aircraft:
-            if aircraft.getStartTime() <= nextLeg.getDepTime():
+            if aircraft.getStartTime() > nextLeg.getDepTime():
+                pass
+            else:
                 if nextLeg.getArrTime() > aircraft.getEndTime():
                     return
                 edgeCost = 0 - nextLeg.getDual()
@@ -421,6 +428,8 @@ class Model:
         print()
         count = 1
         betterColumns = self.findNewColumns()
+        for i in betterColumns:
+            i.print()
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
             self.addColumns(betterColumns)
@@ -563,6 +572,10 @@ class Model:
             varName = "x_" + str(_col.getId())
             v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
             self._lofVar.append(v)
+            print("add column: " + varName)
+            for cons in constrs:
+                print("add to constraint: " + cons.getAttr('ConstrName'))
+
 
     def solveIP(self) -> list[Lof]:
         print(" ********************* FINAL IP SOLUTION *********************")

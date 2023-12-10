@@ -1,0 +1,1805 @@
+tmpSubNodeList size:  45
+subNodeCost is -7996.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7996.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg74
+parent subnode's hosting leg is lg73
+subNodeCost is -6766.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6766.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6400.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -6398.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -6398.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6398.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -6398.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6396.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg21
+parent subnode's hosting leg is lg20
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg40
+parent subnode's hosting leg is lg39
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg94
+parent subnode's hosting leg is lg39
+subNodeCost is -5454.0
+subNode delay is 5640
+hosting leg is lg65
+parent subnode's hosting leg is lg39
+subNodeCost is -5254.0
+subNode delay is 2820
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -4800.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg46
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg19
+parent subnode's hosting leg is lg18
+subNodeCost is -4159.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -3435.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3435.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3435.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3200.0
+subNode delay is 0
+hosting leg is lg3
+parent subnode's hosting leg is lg2
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg62
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg62
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -2747.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -2508.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -1837.0
+subNode delay is 2520
+hosting leg is lg10
+parent subnode's hosting leg is lg9
+subNodeCost is -1600.0
+subNode delay is 0
+hosting leg is lg1
+parent subnode's hosting leg is lg0
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg10
+parent subnode's hosting leg is lg0
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg36
+parent subnode's hosting leg is lg0
+subNodeCost is -1517.0
+subNode delay is 3540
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -1298.0
+subNode delay is 0
+hosting leg is lg78
+parent subnode's hosting leg is lg75
+subNodeCost is -1167.0
+subNode delay is 4740
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -1149.0
+subNode delay is 2700
+hosting leg is lg43
+parent subnode's hosting leg is lg0
+subNodeCost is -939.0
+subNode delay is 3960
+hosting leg is lg8
+parent subnode's hosting leg is lg0
+tmpSubNodeList size:  9
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg31
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg31
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg31
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg57
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg57
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg57
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg13
+parent subnode's hosting leg is lg57
+subNodeCost is -3465.0
+subNode delay is 0
+hosting leg is lg79
+parent subnode's hosting leg is lg78
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg52
+parent subnode's hosting leg is lg8
+tmpSubNodeList size:  1
+subNodeCost is -8496.0
+subNode delay is 0
+hosting leg is lg22
+parent subnode's hosting leg is lg21
+tmpSubNodeList size:  39
+subNodeCost is -8800.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8790.0
+subNode delay is 0
+hosting leg is lg74
+parent subnode's hosting leg is lg73
+subNodeCost is -7568.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7200.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7199.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7198.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7198.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7194.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -7192.0
+subNode delay is 0
+hosting leg is lg21
+parent subnode's hosting leg is lg20
+subNodeCost is -7192.0
+subNode delay is 0
+hosting leg is lg40
+parent subnode's hosting leg is lg39
+subNodeCost is -7192.0
+subNode delay is 0
+hosting leg is lg94
+parent subnode's hosting leg is lg39
+subNodeCost is -6252.0
+subNode delay is 5640
+hosting leg is lg65
+parent subnode's hosting leg is lg39
+subNodeCost is -6052.0
+subNode delay is 2820
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5600.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -5598.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5596.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -5596.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -5596.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -5594.0
+subNode delay is 0
+hosting leg is lg19
+parent subnode's hosting leg is lg18
+subNodeCost is -4956.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -4000.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3998.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3696.0
+subNode delay is 0
+hosting leg is lg3
+parent subnode's hosting leg is lg2
+subNodeCost is -2400.0
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -2398.0
+subNode delay is 0
+hosting leg is lg10
+parent subnode's hosting leg is lg9
+subNodeCost is -2398.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -2398.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -2398.0
+subNode delay is 0
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -1508.0
+subNode delay is 5340
+hosting leg is lg36
+parent subnode's hosting leg is lg9
+subNodeCost is -1498.0
+subNode delay is 2400
+hosting leg is lg36
+parent subnode's hosting leg is lg35
+subNodeCost is -998.0
+subNode delay is 3000
+hosting leg is lg86
+parent subnode's hosting leg is lg85
+subNodeCost is -800.0
+subNode delay is 0
+hosting leg is lg23
+parent subNode is Null
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg15
+parent subNode is Null
+subNodeCost is 52.0
+subNode delay is 7200
+hosting leg is lg68
+parent subnode's hosting leg is lg67
+tmpSubNodeList size:  2
+subNodeCost is -7394.0
+subNode delay is 0
+hosting leg is lg41
+parent subnode's hosting leg is lg40
+subNodeCost is -999.0
+subNode delay is 0
+hosting leg is lg44
+parent subnode's hosting leg is lg34
+tmpSubNodeList size:  72
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9438.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -9288.0
+subNode delay is 0
+hosting leg is lg74
+parent subnode's hosting leg is lg73
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -8209.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7844.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7840.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7690.0
+subNode delay is 0
+hosting leg is lg21
+parent subnode's hosting leg is lg20
+subNodeCost is -7690.0
+subNode delay is 0
+hosting leg is lg40
+parent subnode's hosting leg is lg39
+subNodeCost is -7690.0
+subNode delay is 0
+hosting leg is lg94
+parent subnode's hosting leg is lg39
+subNodeCost is -6750.0
+subNode delay is 5640
+hosting leg is lg65
+parent subnode's hosting leg is lg39
+subNodeCost is -6550.0
+subNode delay is 2820
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -6243.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg46
+subNodeCost is -6242.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -6242.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -6242.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -6242.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -6242.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -6092.0
+subNode delay is 0
+hosting leg is lg19
+parent subnode's hosting leg is lg18
+subNodeCost is -5602.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -4794.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -4794.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -4794.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -4644.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -4644.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -4644.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -4644.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3744.0
+subNode delay is 0
+hosting leg is lg3
+parent subnode's hosting leg is lg2
+subNodeCost is -3200.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg10
+parent subnode's hosting leg is lg9
+subNodeCost is -3046.0
+subNode delay is 300
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -2696.0
+subNode delay is 1500
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -2586.0
+subNode delay is 840
+hosting leg is lg78
+parent subnode's hosting leg is lg77
+subNodeCost is -2306.0
+subNode delay is 5340
+hosting leg is lg36
+parent subnode's hosting leg is lg9
+subNodeCost is -1808.0
+subNode delay is 0
+hosting leg is lg78
+parent subnode's hosting leg is lg75
+subNodeCost is -1600.0
+subNode delay is 0
+hosting leg is lg43
+parent subnode's hosting leg is lg42
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg1
+parent subnode's hosting leg is lg42
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg36
+parent subnode's hosting leg is lg42
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg51
+parent subnode's hosting leg is lg50
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -1449.0
+subNode delay is 900
+hosting leg is lg8
+parent subnode's hosting leg is lg42
+subNodeCost is -1148.0
+subNode delay is 0
+hosting leg is lg15
+parent subnode's hosting leg is lg14
+subNodeCost is -1098.0
+subNode delay is 300
+hosting leg is lg86
+parent subnode's hosting leg is lg85
+subNodeCost is -48.0
+subNode delay is 4500
+hosting leg is lg68
+parent subnode's hosting leg is lg67
+tmpSubNodeList size:  10
+subNodeCost is -8646.0
+subNode delay is 0
+hosting leg is lg58
+parent subnode's hosting leg is lg57
+subNodeCost is -7641.0
+subNode delay is 5100
+hosting leg is lg81
+parent subnode's hosting leg is lg21
+subNodeCost is -7045.0
+subNode delay is 0
+hosting leg is lg81
+parent subnode's hosting leg is lg55
+subNodeCost is -7043.0
+subNode delay is 0
+hosting leg is lg30
+parent subnode's hosting leg is lg5
+subNodeCost is -7043.0
+subNode delay is 0
+hosting leg is lg30
+parent subnode's hosting leg is lg29
+subNodeCost is -7043.0
+subNode delay is 0
+hosting leg is lg30
+parent subnode's hosting leg is lg29
+subNodeCost is -5445.0
+subNode delay is 0
+hosting leg is lg4
+parent subnode's hosting leg is lg70
+subNodeCost is -3847.0
+subNode delay is 0
+hosting leg is lg37
+parent subnode's hosting leg is lg25
+subNodeCost is -3697.0
+subNode delay is 900
+hosting leg is lg62
+parent subnode's hosting leg is lg25
+subNodeCost is -3497.0
+subNode delay is 0
+hosting leg is lg62
+parent subnode's hosting leg is lg61
+tmpSubNodeList size:  16
+subNodeCost is -7042.0
+subNode delay is 0
+hosting leg is lg66
+parent subnode's hosting leg is lg31
+subNodeCost is -7042.0
+subNode delay is 0
+hosting leg is lg66
+parent subnode's hosting leg is lg57
+subNodeCost is -5393.0
+subNode delay is 0
+hosting leg is lg48
+parent subnode's hosting leg is lg47
+subNodeCost is -4893.0
+subNode delay is 1500
+hosting leg is lg39
+parent subnode's hosting leg is lg5
+subNodeCost is -4845.0
+subNode delay is 0
+hosting leg is lg39
+parent subnode's hosting leg is lg19
+subNodeCost is -4176.0
+subNode delay is 4020
+hosting leg is lg64
+parent subnode's hosting leg is lg19
+subNodeCost is -3847.0
+subNode delay is 0
+hosting leg is lg64
+parent subnode's hosting leg is lg63
+subNodeCost is -3795.0
+subNode delay is 300
+hosting leg is lg46
+parent subnode's hosting leg is lg27
+subNodeCost is -3545.0
+subNode delay is 0
+hosting leg is lg46
+parent subnode's hosting leg is lg70
+subNodeCost is -3247.0
+subNode delay is 0
+hosting leg is lg18
+parent subnode's hosting leg is lg17
+subNodeCost is -2398.0
+subNode delay is 0
+hosting leg is lg93
+parent subnode's hosting leg is lg44
+subNodeCost is -1697.0
+subNode delay is 3300
+hosting leg is lg16
+parent subnode's hosting leg is lg25
+subNodeCost is -1649.0
+subNode delay is 1500
+hosting leg is lg16
+parent subnode's hosting leg is lg61
+subNodeCost is -1599.0
+subNode delay is 0
+hosting leg is lg16
+parent subnode's hosting leg is lg59
+subNodeCost is -1249.0
+subNode delay is 2100
+hosting leg is lg9
+parent subnode's hosting leg is lg59
+subNodeCost is -299.0
+subNode delay is 7800
+hosting leg is lg35
+parent subnode's hosting leg is lg59
+tmpSubNodeList size:  17
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -8689.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7993.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -7993.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -7993.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -7993.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -7340.0
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -4794.0
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+tmpSubNodeList size:  65
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639.0
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg21
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941.0
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+subNodeCost is -6392.0
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg19
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -5344.0
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -3745.0
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+subNodeCost is -3745.0
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+tmpSubNodeList size:  76
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8789.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -8689.0
+subNode delay is 0
+hosting leg is lg74
+parent subnode's hosting leg is lg73
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7559.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7191.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -7092.0
+subNode delay is 0
+hosting leg is lg94
+parent subnode's hosting leg is lg39
+subNodeCost is -7091.0
+subNode delay is 0
+hosting leg is lg21
+parent subnode's hosting leg is lg20
+subNodeCost is -7091.0
+subNode delay is 0
+hosting leg is lg40
+parent subnode's hosting leg is lg39
+subNodeCost is -6151.0
+subNode delay is 5640
+hosting leg is lg65
+parent subnode's hosting leg is lg39
+subNodeCost is -5951.0
+subNode delay is 2820
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg46
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -5593.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -5493.0
+subNode delay is 0
+hosting leg is lg19
+parent subnode's hosting leg is lg18
+subNodeCost is -4953.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3995.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3305.0
+subNode delay is 0
+hosting leg is lg3
+parent subnode's hosting leg is lg2
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg10
+parent subnode's hosting leg is lg9
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -2397.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -2376.0
+subNode delay is 0
+hosting leg is lg78
+parent subnode's hosting leg is lg77
+subNodeCost is -2137.0
+subNode delay is 780
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -1507.0
+subNode delay is 5340
+hosting leg is lg36
+parent subnode's hosting leg is lg9
+subNodeCost is -937.0
+subNode delay is 4080
+hosting leg is lg36
+parent subnode's hosting leg is lg35
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg1
+parent subNode is Null
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg8
+parent subNode is Null
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg36
+parent subNode is Null
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg43
+parent subNode is Null
+subNodeCost is -437.0
+subNode delay is 4680
+hosting leg is lg86
+parent subnode's hosting leg is lg85
+subNodeCost is 613.0
+subNode delay is 8880
+hosting leg is lg68
+parent subnode's hosting leg is lg67
+tmpSubNodeList size:  96
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7992.0
+subNode delay is 0
+hosting leg is lg74
+parent subnode's hosting leg is lg73
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6762.0
+subNode delay is 7380
+hosting leg is lg49
+parent subnode's hosting leg is lg66
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg7
+parent subnode's hosting leg is lg6
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg31
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg49
+parent subnode's hosting leg is lg48
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg30
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6394.0
+subNode delay is 0
+hosting leg is lg82
+parent subnode's hosting leg is lg81
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg21
+parent subnode's hosting leg is lg20
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg40
+parent subnode's hosting leg is lg39
+subNodeCost is -6392.0
+subNode delay is 0
+hosting leg is lg94
+parent subnode's hosting leg is lg39
+subNodeCost is -5452.0
+subNode delay is 5640
+hosting leg is lg65
+parent subnode's hosting leg is lg39
+subNodeCost is -5252.0
+subNode delay is 2820
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -4798.0
+subNode delay is 0
+hosting leg is lg72
+parent subnode's hosting leg is lg71
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg29
+parent subnode's hosting leg is lg28
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg55
+parent subnode's hosting leg is lg54
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg46
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg46
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -4796.0
+subNode delay is 0
+hosting leg is lg65
+parent subnode's hosting leg is lg64
+subNodeCost is -4794.0
+subNode delay is 0
+hosting leg is lg19
+parent subnode's hosting leg is lg18
+subNodeCost is -4156.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -4156.0
+subNode delay is 3840
+hosting leg is lg38
+parent subnode's hosting leg is lg4
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3198.0
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg12
+parent subnode's hosting leg is lg11
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg27
+parent subnode's hosting leg is lg26
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg37
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg38
+parent subnode's hosting leg is lg62
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg37
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg63
+parent subnode's hosting leg is lg62
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg80
+parent subnode's hosting leg is lg79
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -3196.0
+subNode delay is 0
+hosting leg is lg88
+parent subnode's hosting leg is lg87
+subNodeCost is -2896.0
+subNode delay is 0
+hosting leg is lg3
+parent subnode's hosting leg is lg2
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg10
+parent subnode's hosting leg is lg9
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg45
+parent subnode's hosting leg is lg44
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg53
+parent subnode's hosting leg is lg52
+subNodeCost is -1598.0
+subNode delay is 0
+hosting leg is lg61
+parent subnode's hosting leg is lg60
+subNodeCost is -1548.0
+subNode delay is 0
+hosting leg is lg36
+parent subnode's hosting leg is lg35
+subNodeCost is -1098.0
+subNode delay is 300
+hosting leg is lg86
+parent subnode's hosting leg is lg85
+subNodeCost is -58.0
+subNode delay is 8940
+hosting leg is lg1
+parent subnode's hosting leg is lg35
+subNodeCost is -50.0
+subNode delay is 4500
+hosting leg is lg68
+parent subnode's hosting leg is lg67
+Number of Better Lofs is 23

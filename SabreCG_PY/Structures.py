@@ -97,7 +97,7 @@ class SubNode:
         else:
             print("hosting leg is Null")
         if self._parentSubNode != None:
-            print("parent subnode's hosting leg is lg" + str(self._parentSubNode.getLeg.getId()))
+            print("parent subnode's hosting leg is lg" + str(self._parentSubNode.getLeg().getId()))
         else:
             print("parent subNode is Null")
 
@@ -107,14 +107,22 @@ class SubNode:
     def getOperArrTime(self) -> float:
         return self._leg.getArrTime() + self._delay
     
-    def LessKey(self, other) -> bool:
-        if self.getSubNodeCost() == other.getSubNodeCost() and self.getDelay() == other.getDelay():
-            return False
-        a, b = self.getSubNodeCost() <= other.getSubNodeCost(), self.getDelay() <= other.getDelay()
-        return a and b
+    def LessKey(self, other: 'SubNode') -> bool:
+        if self.getSubNodeCost() < other.getSubNodeCost() and self.getDelay() < other.getDelay():
+            return True
+        if self.getSubNodeCost() <= other.getSubNodeCost() and self.getDelay() < other.getDelay():
+            return True
+        if self.getSubNodeCost() < other.getSubNodeCost() and self.getDelay() <= other.getDelay():
+            return True
+        return False
 
-    def CostKey(self) -> float:
-        return self.getSubNodeCost()
+    def CostKey(self) -> (float, int, int):
+        id1, id2 = -1, -1
+        if self._leg != None:
+            id1 = self._leg.getId()
+        if self._parentSubNode != None:
+            id2 = self._parentSubNode.getLeg().getId()
+        return (self.getSubNodeCost(), id1, id2)
 
 class Leg:
     _count = 0
@@ -540,7 +548,7 @@ class Lof:
     
     def print(self) -> None:
         print("************ LOF ************")
-        print("Lof ID is ", self._id)
+        print("Lof ID is", self._id)
         if self._aircraft != None:
             self._aircraft.print()
         else:

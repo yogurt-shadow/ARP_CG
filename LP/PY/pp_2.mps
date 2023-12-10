@@ -778,8 +778,8 @@ COLUMNS
     x_42      cover_lg_10  1
     x_42      cover_lg_37  1
     x_42      cover_lg_63  1
-    x_42      cover_lg_64  1
-    x_42      cover_lg_65  1
+    x_42      cover_lg_20  1
+    x_42      cover_lg_21  1
     x_42      cover_lg_58  1
     x_42      select_ac_6  1
     x_43      OBJ       198
@@ -788,9 +788,9 @@ COLUMNS
     x_43      cover_lg_9  1
     x_43      cover_lg_10  1
     x_43      cover_lg_37  1
-    x_43      cover_lg_63  1
-    x_43      cover_lg_64  1
-    x_43      cover_lg_40  1
+    x_43      cover_lg_38  1
+    x_43      cover_lg_20  1
+    x_43      cover_lg_21  1
     x_43      cover_lg_58  1
     x_43      select_ac_6  1
     x_44      OBJ       456

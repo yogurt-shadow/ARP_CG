@@ -778,8 +778,8 @@ COLUMNS
     x_42      cover_lg_10  1
     x_42      cover_lg_37  1
     x_42      cover_lg_63  1
-    x_42      cover_lg_64  1
-    x_42      cover_lg_65  1
+    x_42      cover_lg_20  1
+    x_42      cover_lg_21  1
     x_42      cover_lg_58  1
     x_42      select_ac_6  1
     x_43      OBJ       198
@@ -788,9 +788,9 @@ COLUMNS
     x_43      cover_lg_9  1
     x_43      cover_lg_10  1
     x_43      cover_lg_37  1
-    x_43      cover_lg_63  1
-    x_43      cover_lg_64  1
-    x_43      cover_lg_40  1
+    x_43      cover_lg_38  1
+    x_43      cover_lg_20  1
+    x_43      cover_lg_21  1
     x_43      cover_lg_58  1
     x_43      select_ac_6  1
     x_44      OBJ       456
@@ -926,28 +926,30 @@ COLUMNS
     x_55      cover_lg_1  1
     x_55      cover_lg_2  1
     x_55      cover_lg_3  1
-    x_55      cover_lg_46  1
-    x_55      cover_lg_47  1
-    x_55      cover_lg_48  1
-    x_55      cover_lg_49  1
+    x_55      cover_lg_54  1
+    x_55      cover_lg_55  1
+    x_55      cover_lg_56  1
+    x_55      cover_lg_33  1
     x_55      select_ac_0  1
-    x_56      OBJ       1328
-    x_56      cover_lg_8  1
-    x_56      cover_lg_60  1
-    x_56      cover_lg_61  1
+    x_56      OBJ       1327
+    x_56      cover_lg_1  1
     x_56      cover_lg_69  1
     x_56      cover_lg_70  1
-    x_56      cover_lg_4  1
-    x_56      cover_lg_38  1
+    x_56      cover_lg_28  1
+    x_56      cover_lg_29  1
     x_56      cover_lg_39  1
     x_56      cover_lg_40  1
     x_56      cover_lg_13  1
     x_56      select_ac_1  1
-    x_57      OBJ       892
-    x_57      cover_lg_8  1
-    x_57      cover_lg_9  1
-    x_57      cover_lg_36  1
-    x_57      cover_lg_79  1
+    x_57      OBJ       1327
+    x_57      cover_lg_1  1
+    x_57      cover_lg_26  1
+    x_57      cover_lg_27  1
+    x_57      cover_lg_28  1
+    x_57      cover_lg_29  1
+    x_57      cover_lg_39  1
+    x_57      cover_lg_40  1
+    x_57      cover_lg_13  1
     x_57      select_ac_1  1
     x_58      OBJ       1128
     x_58      cover_lg_42  1
@@ -960,7 +962,7 @@ COLUMNS
     x_58      cover_lg_65  1
     x_58      cover_lg_22  1
     x_58      select_ac_2  1
-    x_59      OBJ       904
+    x_59      OBJ       903
     x_59      cover_lg_23  1
     x_59      cover_lg_35  1
     x_59      cover_lg_36  1
@@ -968,8 +970,8 @@ COLUMNS
     x_59      cover_lg_27  1
     x_59      cover_lg_28  1
     x_59      cover_lg_29  1
-    x_59      cover_lg_6  1
-    x_59      cover_lg_7  1
+    x_59      cover_lg_56  1
+    x_59      cover_lg_33  1
     x_59      select_ac_3  1
     x_60      OBJ       904
     x_60      cover_lg_23  1
@@ -979,8 +981,8 @@ COLUMNS
     x_60      cover_lg_27  1
     x_60      cover_lg_28  1
     x_60      cover_lg_29  1
-    x_60      cover_lg_73  1
-    x_60      cover_lg_74  1
+    x_60      cover_lg_6  1
+    x_60      cover_lg_7  1
     x_60      select_ac_3  1
     x_61      OBJ       2295
     x_61      cover_lg_34  1
@@ -1018,82 +1020,76 @@ COLUMNS
     x_63      cover_lg_73  1
     x_63      cover_lg_74  1
     x_63      select_ac_5  1
-    x_64      OBJ       1426
+    x_64      OBJ       3
     x_64      cover_lg_42  1
-    x_64      cover_lg_8  1
-    x_64      cover_lg_9  1
-    x_64      cover_lg_36  1
-    x_64      cover_lg_37  1
-    x_64      cover_lg_63  1
-    x_64      cover_lg_64  1
+    x_64      cover_lg_1  1
+    x_64      cover_lg_69  1
+    x_64      cover_lg_70  1
+    x_64      cover_lg_46  1
     x_64      cover_lg_47  1
     x_64      cover_lg_48  1
     x_64      cover_lg_49  1
     x_64      select_ac_5  1
-    x_65      OBJ       1068
+    x_65      OBJ       1278
     x_65      cover_lg_42  1
     x_65      cover_lg_1  1
     x_65      cover_lg_69  1
     x_65      cover_lg_70  1
-    x_65      cover_lg_4  1
-    x_65      cover_lg_38  1
+    x_65      cover_lg_28  1
+    x_65      cover_lg_29  1
     x_65      cover_lg_39  1
     x_65      cover_lg_40  1
     x_65      cover_lg_58  1
     x_65      select_ac_6  1
-    x_66      OBJ       1068
+    x_66      OBJ       1278
     x_66      cover_lg_42  1
     x_66      cover_lg_1  1
-    x_66      cover_lg_2  1
-    x_66      cover_lg_3  1
-    x_66      cover_lg_4  1
-    x_66      cover_lg_38  1
+    x_66      cover_lg_26  1
+    x_66      cover_lg_27  1
+    x_66      cover_lg_28  1
+    x_66      cover_lg_29  1
     x_66      cover_lg_39  1
     x_66      cover_lg_40  1
     x_66      cover_lg_58  1
     x_66      select_ac_6  1
-    x_67      OBJ       1136
+    x_67      OBJ       1576
     x_67      cover_lg_59  1
     x_67      cover_lg_69  1
     x_67      cover_lg_70  1
-    x_67      cover_lg_4  1
-    x_67      cover_lg_38  1
+    x_67      cover_lg_28  1
+    x_67      cover_lg_29  1
     x_67      cover_lg_39  1
     x_67      cover_lg_40  1
     x_67      cover_lg_66  1
     x_67      select_ac_7  1
-    x_68      OBJ       1136
+    x_68      OBJ       1576
     x_68      cover_lg_59  1
-    x_68      cover_lg_2  1
-    x_68      cover_lg_3  1
-    x_68      cover_lg_4  1
-    x_68      cover_lg_38  1
+    x_68      cover_lg_26  1
+    x_68      cover_lg_27  1
+    x_68      cover_lg_28  1
+    x_68      cover_lg_29  1
     x_68      cover_lg_39  1
     x_68      cover_lg_40  1
     x_68      cover_lg_66  1
     x_68      select_ac_7  1
-    x_69      OBJ       1829
-    x_69      cover_lg_8  1
-    x_69      cover_lg_9  1
-    x_69      cover_lg_36  1
-    x_69      cover_lg_26  1
-    x_69      cover_lg_27  1
+    x_69      OBJ       557
+    x_69      cover_lg_1  1
+    x_69      cover_lg_69  1
+    x_69      cover_lg_70  1
     x_69      cover_lg_28  1
     x_69      cover_lg_29  1
     x_69      cover_lg_6  1
     x_69      cover_lg_7  1
     x_69      cover_lg_83  1
     x_69      select_ac_8  1
-    x_70      OBJ       1879
-    x_70      cover_lg_8  1
-    x_70      cover_lg_9  1
-    x_70      cover_lg_36  1
+    x_70      OBJ       557
+    x_70      cover_lg_1  1
     x_70      cover_lg_26  1
     x_70      cover_lg_27  1
     x_70      cover_lg_28  1
     x_70      cover_lg_29  1
-    x_70      cover_lg_39  1
-    x_70      cover_lg_94  1
+    x_70      cover_lg_6  1
+    x_70      cover_lg_7  1
     x_70      cover_lg_83  1
     x_70      select_ac_8  1
     x_71      OBJ       2209
@@ -1131,16 +1127,16 @@ COLUMNS
     x_73      cover_lg_73  1
     x_73      cover_lg_74  1
     x_73      select_ac_10  1
-    x_74      OBJ       1279
+    x_74      OBJ       1229
     x_74      cover_lg_8  1
     x_74      cover_lg_9  1
     x_74      cover_lg_36  1
-    x_74      cover_lg_26  1
-    x_74      cover_lg_27  1
+    x_74      cover_lg_37  1
+    x_74      cover_lg_63  1
     x_74      cover_lg_28  1
     x_74      cover_lg_29  1
-    x_74      cover_lg_6  1
-    x_74      cover_lg_7  1
+    x_74      cover_lg_56  1
+    x_74      cover_lg_33  1
     x_74      select_ac_10  1
     x_75      OBJ       56
     x_75      cover_lg_35  1

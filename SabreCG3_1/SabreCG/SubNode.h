@@ -11,10 +11,12 @@ private:
 	Leg* _leg;						// save the leg that the subnode belongs to
 	SubNode* _parentSubNode;		// the previous subnode
 	double _subNodeCost;
-	time_t _delay;						// ¼ÇÂ¼ÔÚDPÖÐµ÷Õûºódelay
+	time_t _delay;						// ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½delay
 
-	//time_t _operDepTime;				//* ¼ÇÂ¼ÔÚDPÖÐµ÷ÕûºóµÄflight departure time
-	//time_t _operArrTime;				//* ¼ÇÂ¼ÔÚDPÖÐµ÷ÕûºóµÄflight arrival time
+	int getLegId();
+	int getParentLegId();
+	//time_t _operDepTime;				//* ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flight departure time
+	//time_t _operArrTime;				//* ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flight arrival time
 
 public:
 	SubNode(Leg* leg, SubNode* parentSubNode, double subNodeCost, time_t delay);
@@ -34,8 +36,8 @@ public:
 
 	void print();
 
-	time_t getOperDepTime();		// ·µ»Øhosting legµÄOperational Departure Time
-	time_t getOperArrTime();		// ·µ»Øhosting legµÄOperational Arrival Time
+	time_t getOperDepTime();		// ï¿½ï¿½ï¿½ï¿½hosting legï¿½ï¿½Operational Departure Time
+	time_t getOperArrTime();		// ï¿½ï¿½ï¿½ï¿½hosting legï¿½ï¿½Operational Arrival Time
 
 	static bool lessSubNodePointer(SubNode* p1, SubNode* p2);
 

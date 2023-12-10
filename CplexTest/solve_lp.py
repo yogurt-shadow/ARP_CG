@@ -13,19 +13,19 @@ import sys
 import gurobipy as gp
 from gurobipy import GRB
 
-choice = sys.argv[1]
-
 # Read and solve model
-if choice == "pp":
-    model = gp.read("../LP/PY/pp_%d.mps" % int(sys.argv[2]))
-    model.setParam(GRB.Param.Threads, 1)
-    # model.setParam("TimeLimit", int(sys.argv[3]))
-    model.optimize()
-elif choice == "cc":
-    model = gp.read("../LP/CPP/cc_%d.mps" % int(sys.argv[2]))
-    model.setParam(GRB.Param.Threads, 1)
-    # model.setParam("TimeLimit", int(sys.argv[3]))
-    model.optimize()
+if __name__ == "__main__":
+    model1 = gp.read("../LP/PY/pp_%d.mps" % int(sys.argv[1]))
+    model1.setParam(GRB.Param.Threads, 1)
+    model1.setParam("OutputFlag", 0)
+    model1.optimize()
+    print(model1.ObjVal)
+
+    model2 = gp.read("../LP/CPP/cc_%d.mps" % int(sys.argv[1]))
+    model2.setParam(GRB.Param.Threads, 1)
+    model2.setParam("OutputFlag", 0)
+    model2.optimize()
+    print(model2.ObjVal)
 
 
 # if model.Status == GRB.INF_OR_UNBD:

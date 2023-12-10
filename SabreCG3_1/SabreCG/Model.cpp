@@ -109,19 +109,24 @@ void Model::addColumns(vector<Lof* > _betterColumns)		//*
 	{
 		IloNumColumn col(_env);
 		col = _obj(_betterColumns[j]->getCost());
-
+		vector<string> tempnames;
 		vector<OperLeg* > operLegList = _betterColumns[j]->getLegList();
 		for (int k = 0; k < operLegList.size(); k++)
 		{
 			col += _coverRng[operLegList[k]->getLeg()->getId()](1);
+			tempnames.push_back(_coverRng[operLegList[k]->getLeg()->getId()].getName());
 		}
 
 		col += _selectRng[_betterColumns[j]->getAircraft()->getId()](1);
-
+		tempnames.push_back(_selectRng[_betterColumns[j]->getAircraft()->getId()].getName());
 		itoa( _betterColumns[j]->getId(), str, 10);
 		string varName = string("x_") + string(str);
 		_lofVar.add(IloNumVar(col, 0, 1, ILOFLOAT, varName.c_str()));
 		col.end();
+		cout << "add column: " << varName << endl;
+		for(auto ele: tempnames) {
+			cout << "add to constraint: " << ele << endl;
+		}
 	}
 }
 
@@ -244,7 +249,9 @@ vector<Lof* > Model::solveColGen()
 
 	vector<Lof* > betterColumns;
 	betterColumns = findNewColumns();
-
+	for(auto ele: betterColumns) {
+		ele->print();
+	}
 	while (!betterColumns.empty())
 	{
 		cout<<" ********************* LP SOLUTION "<< count << " *********************"<<endl<<endl; 
@@ -515,6 +522,10 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	}
 
 	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
+	cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
+	for(auto ele: tmpSubNodeList) {
+		ele->print();
+	}
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{

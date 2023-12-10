@@ -3,7 +3,8 @@
     "iostream": "cpp",
     "stack": "cpp",
     "ostream": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "tuple": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

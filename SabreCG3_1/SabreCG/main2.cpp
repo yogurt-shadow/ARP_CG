@@ -587,6 +587,7 @@ int main( int argc, char * argv[] )
 	Util::maxDelayTime = parameters.maxDelayTime;
 	Util::maxRunTime = parameters.maxRunTime;
 	Util::turnTime = parameters.turnTime;
+
 	Util::w_cancelFlt = parameters.w_cancelFlt;
 	Util::w_cancelMtc = parameters.w_cancelMtc;
 	Util::w_fltDelay = parameters.w_fltDelay;

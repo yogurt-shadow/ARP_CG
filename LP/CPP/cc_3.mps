@@ -479,10 +479,10 @@ COLUMNS
     x_17          select_ac_5                         1
     x_17          cover_lg_33                         1
     x_17          cover_lg_32                         1
-    x_17          cover_lg_31                         1
-    x_17          cover_lg_30                         1
-    x_17          cover_lg_29                         1
-    x_17          cover_lg_28                         1
+    x_17          cover_lg_57                         1
+    x_17          cover_lg_56                         1
+    x_17          cover_lg_5                          1
+    x_17          cover_lg_4                          1
     x_17          cover_lg_70                         1
     x_17          cover_lg_69                         1
     x_17          cover_lg_25                         1
@@ -493,8 +493,8 @@ COLUMNS
     x_18          select_ac_5                         1
     x_18          cover_lg_33                         1
     x_18          cover_lg_32                         1
-    x_18          cover_lg_31                         1
-    x_18          cover_lg_30                         1
+    x_18          cover_lg_57                         1
+    x_18          cover_lg_56                         1
     x_18          cover_lg_29                         1
     x_18          cover_lg_28                         1
     x_18          cover_lg_27                         1
@@ -586,12 +586,12 @@ COLUMNS
     x_25          cover_lg_83                         1
     x_25          cover_lg_33                         1
     x_25          cover_lg_32                         1
-    x_25          cover_lg_31                         1
-    x_25          cover_lg_30                         1
-    x_25          cover_lg_29                         1
-    x_25          cover_lg_28                         1
-    x_25          cover_lg_70                         1
-    x_25          cover_lg_69                         1
+    x_25          cover_lg_40                         1
+    x_25          cover_lg_39                         1
+    x_25          cover_lg_19                         1
+    x_25          cover_lg_18                         1
+    x_25          cover_lg_17                         1
+    x_25          cover_lg_16                         1
     x_25          cover_lg_61                         1
     x_25          cover_lg_60                         1
     x_25          cover_lg_84                         1
@@ -600,23 +600,23 @@ COLUMNS
     x_26          cover_lg_83                         1
     x_26          cover_lg_33                         1
     x_26          cover_lg_32                         1
-    x_26          cover_lg_21                         1
-    x_26          cover_lg_20                         1
-    x_26          cover_lg_19                         1
-    x_26          cover_lg_18                         1
-    x_26          cover_lg_17                         1
-    x_26          cover_lg_16                         1
-    x_26          cover_lg_61                         1
-    x_26          cover_lg_60                         1
+    x_26          cover_lg_57                         1
+    x_26          cover_lg_56                         1
+    x_26          cover_lg_5                          1
+    x_26          cover_lg_4                          1
+    x_26          cover_lg_70                         1
+    x_26          cover_lg_69                         1
+    x_26          cover_lg_25                         1
+    x_26          cover_lg_24                         1
     x_26          cover_lg_84                         1
     x_27          obj                                11
     x_27          select_ac_10                        1
     x_27          cover_lg_33                         1
     x_27          cover_lg_32                         1
-    x_27          cover_lg_31                         1
-    x_27          cover_lg_30                         1
-    x_27          cover_lg_29                         1
-    x_27          cover_lg_28                         1
+    x_27          cover_lg_57                         1
+    x_27          cover_lg_56                         1
+    x_27          cover_lg_5                          1
+    x_27          cover_lg_4                          1
     x_27          cover_lg_70                         1
     x_27          cover_lg_69                         1
     x_27          cover_lg_25                         1
@@ -626,8 +626,8 @@ COLUMNS
     x_28          select_ac_10                        1
     x_28          cover_lg_33                         1
     x_28          cover_lg_32                         1
-    x_28          cover_lg_31                         1
-    x_28          cover_lg_30                         1
+    x_28          cover_lg_57                         1
+    x_28          cover_lg_56                         1
     x_28          cover_lg_29                         1
     x_28          cover_lg_28                         1
     x_28          cover_lg_27                         1
@@ -653,8 +653,8 @@ COLUMNS
     x_30          cover_lg_32                         1
     x_30          cover_lg_57                         1
     x_30          cover_lg_56                         1
-    x_30          cover_lg_55                         1
-    x_30          cover_lg_54                         1
+    x_30          cover_lg_5                          1
+    x_30          cover_lg_4                          1
     x_30          cover_lg_70                         1
     x_30          cover_lg_69                         1
     x_30          cover_lg_25                         1
@@ -682,8 +682,8 @@ COLUMNS
     x_33          obj                               195
     x_33          select_ac_1                         1
     x_33          cover_lg_13                         1
-    x_33          cover_lg_65                         1
-    x_33          cover_lg_64                         1
+    x_33          cover_lg_40                         1
+    x_33          cover_lg_39                         1
     x_33          cover_lg_63                         1
     x_33          cover_lg_37                         1
     x_33          cover_lg_10                         1
@@ -693,8 +693,8 @@ COLUMNS
     x_34          select_ac_1                         1
     x_34          cover_lg_13                         1
     x_34          cover_lg_40                         1
-    x_34          cover_lg_64                         1
-    x_34          cover_lg_63                         1
+    x_34          cover_lg_39                         1
+    x_34          cover_lg_38                         1
     x_34          cover_lg_37                         1
     x_34          cover_lg_10                         1
     x_34          cover_lg_9                          1
@@ -769,8 +769,8 @@ COLUMNS
     x_41          obj                               198
     x_41          select_ac_6                         1
     x_41          cover_lg_58                         1
-    x_41          cover_lg_65                         1
-    x_41          cover_lg_64                         1
+    x_41          cover_lg_40                         1
+    x_41          cover_lg_39                         1
     x_41          cover_lg_63                         1
     x_41          cover_lg_37                         1
     x_41          cover_lg_10                         1
@@ -781,18 +781,18 @@ COLUMNS
     x_42          select_ac_6                         1
     x_42          cover_lg_58                         1
     x_42          cover_lg_40                         1
-    x_42          cover_lg_64                         1
-    x_42          cover_lg_63                         1
+    x_42          cover_lg_39                         1
+    x_42          cover_lg_38                         1
     x_42          cover_lg_37                         1
     x_42          cover_lg_10                         1
     x_42          cover_lg_9                          1
     x_42          cover_lg_43                         1
     x_42          cover_lg_42                         1
-    x_43          obj                              1063
+    x_43          obj                              1065
     x_43          select_ac_7                         1
     x_43          cover_lg_66                         1
-    x_43          cover_lg_65                         1
-    x_43          cover_lg_64                         1
+    x_43          cover_lg_40                         1
+    x_43          cover_lg_39                         1
     x_43          cover_lg_63                         1
     x_43          cover_lg_37                         1
     x_43          cover_lg_10                         1
@@ -819,11 +819,15 @@ COLUMNS
     x_45          cover_lg_77                         1
     x_45          cover_lg_76                         1
     x_45          cover_lg_75                         1
-    x_46          obj                                 1
+    x_46          obj                              1756
     x_46          select_ac_8                         1
-    x_46          cover_lg_89                         1
-    x_46          cover_lg_80                         1
-    x_46          cover_lg_79                         1
+    x_46          cover_lg_83                         1
+    x_46          cover_lg_74                         1
+    x_46          cover_lg_73                         1
+    x_46          cover_lg_65                         1
+    x_46          cover_lg_64                         1
+    x_46          cover_lg_63                         1
+    x_46          cover_lg_37                         1
     x_46          cover_lg_78                         1
     x_46          cover_lg_77                         1
     x_46          cover_lg_76                         1
@@ -896,8 +900,8 @@ COLUMNS
     x_53          select_ac_0                         1
     x_53          cover_lg_33                         1
     x_53          cover_lg_32                         1
-    x_53          cover_lg_40                         1
-    x_53          cover_lg_39                         1
+    x_53          cover_lg_21                         1
+    x_53          cover_lg_20                         1
     x_53          cover_lg_63                         1
     x_53          cover_lg_37                         1
     x_53          cover_lg_36                         1
@@ -906,15 +910,15 @@ COLUMNS
     x_54          select_ac_0                         1
     x_54          cover_lg_82                         1
     x_54          cover_lg_81                         1
-    x_54          cover_lg_88                         1
-    x_54          cover_lg_87                         1
+    x_54          cover_lg_80                         1
+    x_54          cover_lg_79                         1
     x_54          cover_lg_36                         1
     x_54          cover_lg_0                          1
     x_55          obj                               266
     x_55          select_ac_1                         1
     x_55          cover_lg_13                         1
-    x_55          cover_lg_40                         1
-    x_55          cover_lg_39                         1
+    x_55          cover_lg_21                         1
+    x_55          cover_lg_20                         1
     x_55          cover_lg_63                         1
     x_55          cover_lg_62                         1
     x_55          cover_lg_61                         1
@@ -941,8 +945,8 @@ COLUMNS
     x_58          select_ac_3                         1
     x_58          cover_lg_33                         1
     x_58          cover_lg_32                         1
-    x_58          cover_lg_40                         1
-    x_58          cover_lg_39                         1
+    x_58          cover_lg_21                         1
+    x_58          cover_lg_20                         1
     x_58          cover_lg_63                         1
     x_58          cover_lg_62                         1
     x_58          cover_lg_61                         1
@@ -957,11 +961,11 @@ COLUMNS
     x_59          cover_lg_61                         1
     x_59          cover_lg_60                         1
     x_59          cover_lg_23                         1
-    x_60          obj                               604
+    x_60          obj                               606
     x_60          select_ac_4                         1
     x_60          cover_lg_41                         1
-    x_60          cover_lg_40                         1
-    x_60          cover_lg_39                         1
+    x_60          cover_lg_21                         1
+    x_60          cover_lg_20                         1
     x_60          cover_lg_63                         1
     x_60          cover_lg_62                         1
     x_60          cover_lg_61                         1
@@ -971,8 +975,8 @@ COLUMNS
     x_61          select_ac_5                         1
     x_61          cover_lg_33                         1
     x_61          cover_lg_32                         1
-    x_61          cover_lg_40                         1
-    x_61          cover_lg_39                         1
+    x_61          cover_lg_21                         1
+    x_61          cover_lg_20                         1
     x_61          cover_lg_63                         1
     x_61          cover_lg_62                         1
     x_61          cover_lg_61                         1
@@ -992,8 +996,8 @@ COLUMNS
     x_63          obj                               718
     x_63          select_ac_6                         1
     x_63          cover_lg_58                         1
-    x_63          cover_lg_40                         1
-    x_63          cover_lg_39                         1
+    x_63          cover_lg_21                         1
+    x_63          cover_lg_20                         1
     x_63          cover_lg_63                         1
     x_63          cover_lg_62                         1
     x_63          cover_lg_61                         1
@@ -1019,9 +1023,11 @@ COLUMNS
     x_65          cover_lg_53                         1
     x_65          cover_lg_52                         1
     x_65          cover_lg_59                         1
-    x_66          obj                              1551
+    x_66          obj                              1852
     x_66          select_ac_7                         1
-    x_66          cover_lg_39                         1
+    x_66          cover_lg_48                         1
+    x_66          cover_lg_47                         1
+    x_66          cover_lg_64                         1
     x_66          cover_lg_63                         1
     x_66          cover_lg_62                         1
     x_66          cover_lg_61                         1
@@ -1032,8 +1038,8 @@ COLUMNS
     x_67          cover_lg_83                         1
     x_67          cover_lg_33                         1
     x_67          cover_lg_32                         1
-    x_67          cover_lg_40                         1
-    x_67          cover_lg_39                         1
+    x_67          cover_lg_21                         1
+    x_67          cover_lg_20                         1
     x_67          cover_lg_63                         1
     x_67          cover_lg_62                         1
     x_67          cover_lg_61                         1
@@ -1054,8 +1060,8 @@ COLUMNS
     x_69          cover_lg_83                         1
     x_69          cover_lg_33                         1
     x_69          cover_lg_32                         1
-    x_69          cover_lg_40                         1
-    x_69          cover_lg_39                         1
+    x_69          cover_lg_21                         1
+    x_69          cover_lg_20                         1
     x_69          cover_lg_63                         1
     x_69          cover_lg_62                         1
     x_69          cover_lg_61                         1
@@ -1075,8 +1081,8 @@ COLUMNS
     x_71          select_ac_10                        1
     x_71          cover_lg_33                         1
     x_71          cover_lg_32                         1
-    x_71          cover_lg_40                         1
-    x_71          cover_lg_39                         1
+    x_71          cover_lg_21                         1
+    x_71          cover_lg_20                         1
     x_71          cover_lg_63                         1
     x_71          cover_lg_62                         1
     x_71          cover_lg_61                         1
@@ -1095,8 +1101,8 @@ COLUMNS
     x_73          select_ac_11                        1
     x_73          cover_lg_33                         1
     x_73          cover_lg_32                         1
-    x_73          cover_lg_40                         1
-    x_73          cover_lg_39                         1
+    x_73          cover_lg_21                         1
+    x_73          cover_lg_20                         1
     x_73          cover_lg_63                         1
     x_73          cover_lg_62                         1
     x_73          cover_lg_61                         1

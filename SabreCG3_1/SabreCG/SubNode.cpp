@@ -8,7 +8,7 @@ SubNode::SubNode(Leg* leg = NULL, SubNode* parentSubNode = NULL, double subNodeC
 
 void SubNode::print()
 {
-	cout << "subNodeCost is   " << _subNodeCost << endl;
+	cout << "subNodeCost is " << _subNodeCost << endl;
 	cout << "subNode delay is " << _delay << endl;
 
 	if (_leg != NULL)
@@ -50,7 +50,29 @@ bool SubNode::lessSubNodePointer(SubNode* p1, SubNode* p2)
 	return false;
 }
 
+int SubNode::getLegId()
+{
+	return this->getLeg() == NULL ? -1 : this->getLeg()->getId();
+}
+
+int SubNode::getParentLegId()
+{
+	return this->getParentSubNode() == NULL ? -1 : this->getParentSubNode()->getLeg()->getId();
+}
+
 bool SubNode::cmpByCost(SubNode* a, SubNode* b)
 {
-	return a->getSubNodeCost() < b->getSubNodeCost();
+	if(a->getSubNodeCost() < b->getSubNodeCost() )
+	{
+		return true;
+	}
+	if(a->getSubNodeCost() == b->getSubNodeCost() && a->getLegId() < b->getLegId())
+	{
+		return true;
+	}
+	if(a->getSubNodeCost() == b->getSubNodeCost() && a->getLegId() == b->getLegId() && a->getParentLegId() < b->getParentLegId())
+	{
+		return true;
+	}
+	return false;
 }
