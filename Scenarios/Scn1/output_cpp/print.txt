@@ -30,354 +30,6 @@ number of aircraft departured from station AIM is 0
 number of aircraft departured from station URG is 0
 ********************* END PRINTING *********************
 Ready to go!
-Station MIL Id 0
-Station XEM Id 1
-Bgn Close Tue Jul 24 02:00:00 2012
-End Close Tue Jul 24 04:00:00 2012
-Station NUC Id 2
-Station KFJ Id 3
-Station JIT Id 4
-Station XAL Id 5
-Station YTM Id 6
-Station LUY Id 7
-Station SCC Id 8
-Station GOB Id 9
-Station OCM Id 10
-Station VAH Id 11
-Station DIM Id 12
-Station RVP Id 13
-Station ASV Id 14
-Station LDG Id 15
-Station OJS Id 16
-Station DJS Id 17
-Station OMH Id 18
-Station SAL Id 19
-Station LUC Id 20
-Station UUC Id 21
-Station TZM Id 22
-Station AIM Id 23
-Station URG Id 24
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-Tail MA858N
-JIT Mon Jul 23 23:25:00 2012
-MIL Wed Jul 25 19:59:00 2012
-Tail MA958N
-XEM Mon Jul 23 23:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-Tail MA068N
-XEM Mon Jul 23 23:55:00 2012
-YTM Wed Jul 25 19:59:00 2012
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-Tail YOJAX
-NUC Tue Jul 24 01:25:00 2012
-XAL Wed Jul 25 19:59:00 2012
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-Tail MAZAX
-NUC Tue Jul 24 02:19:00 2012
-XEM Wed Jul 25 11:00:00 2012
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-Leg 0 Flt 2929704 Tal ARDIE
-MIL Mon Jul 23 21:25:00 2012
-NUC Tue Jul 24 02:55:00 2012
-Leg 1 Flt 2930018 Tal ARDIE
-NUC Tue Jul 24 04:10:00 2012
-XEM Tue Jul 24 06:34:00 2012
-Leg 2 Flt 2929470 Tal ARDIE
-XEM Tue Jul 24 07:50:00 2012
-GOB Tue Jul 24 12:25:00 2012
-Leg 3 Flt 2931868 Tal ARDIE
-GOB Tue Jul 24 14:05:00 2012
-XEM Tue Jul 24 18:40:00 2012
-Leg 4 Flt 2931930 Tal ARDIE
-XEM Tue Jul 24 20:00:00 2012
-YTM Tue Jul 24 21:34:00 2012
-Leg 5 Flt 2932431 Tal ARDIE
-YTM Tue Jul 24 22:05:00 2012
-XEM Tue Jul 24 23:35:00 2012
-Leg 6 Flt 2931966 Tal ARDIE
-XEM Wed Jul 25 00:40:00 2012
-OCM Wed Jul 25 03:50:00 2012
-Leg 7 Flt 2931813 Tal ARDIE
-OCM Wed Jul 25 05:05:00 2012
-XEM Wed Jul 25 08:15:00 2012
-Leg 8 Flt 2930060 Tal CRDIE
-NUC Tue Jul 24 02:19:00 2012
-XEM Tue Jul 24 04:43:00 2012
-Leg 9 Flt 2929894 Tal CRDIE
-XEM Tue Jul 24 05:30:00 2012
-NUC Tue Jul 24 07:43:00 2012
-Leg 10 Flt 2931668 Tal CRDIE
-NUC Tue Jul 24 08:20:00 2012
-XEM Tue Jul 24 10:45:00 2012
-Leg 11 Flt 2932399 Tal CRDIE
-XEM Tue Jul 24 14:25:00 2012
-LUY Tue Jul 24 19:40:00 2012
-Leg 12 Flt 2932397 Tal CRDIE
-LUY Tue Jul 24 22:05:00 2012
-XEM Wed Jul 25 03:35:00 2012
-Leg 13 Flt 2932089 Tal CRDIE
-XEM Wed Jul 25 05:55:00 2012
-KFJ Wed Jul 25 10:45:00 2012
-Leg 14 Flt 2929329 Tal MA953N
-XEM Mon Jul 23 23:10:00 2012
-XAL Tue Jul 24 02:55:00 2012
-Leg 15 Flt 2929923 Tal MA953N
-XAL Tue Jul 24 04:25:00 2012
-XEM Tue Jul 24 08:05:00 2012
-Leg 16 Flt 2932553 Tal MA953N
-XEM Tue Jul 24 09:00:00 2012
-NUC Tue Jul 24 11:12:00 2012
-Leg 17 Flt 2931720 Tal MA953N
-NUC Tue Jul 24 12:15:00 2012
-VAH Tue Jul 24 13:20:00 2012
-Leg 18 Flt 2932383 Tal MA953N
-VAH Tue Jul 24 14:20:00 2012
-NUC Tue Jul 24 15:30:00 2012
-Leg 19 Flt 2932478 Tal MA953N
-NUC Tue Jul 24 20:00:00 2012
-XEM Tue Jul 24 22:23:00 2012
-Leg 20 Flt 2932326 Tal MA953N
-XEM Tue Jul 24 23:40:00 2012
-DIM Wed Jul 25 01:25:00 2012
-Leg 21 Flt 2932099 Tal MA953N
-DIM Wed Jul 25 02:00:00 2012
-XEM Wed Jul 25 03:55:00 2012
-Leg 22 Flt 2932585 Tal MA953N
-XEM Wed Jul 25 04:50:00 2012
-JIT Wed Jul 25 08:10:00 2012
-Leg 23 Flt 2928944 Tal MA025N
-XAL Tue Jul 24 00:35:00 2012
-XEM Tue Jul 24 04:15:00 2012
-Leg 24 Flt 2929727 Tal MA025N
-XEM Tue Jul 24 05:15:00 2012
-RVP Tue Jul 24 06:40:00 2012
-Leg 25 Flt 2930106 Tal MA025N
-RVP Tue Jul 24 07:15:00 2012
-XEM Tue Jul 24 08:40:00 2012
-Leg 26 Flt 2931924 Tal MA025N
-XEM Tue Jul 24 10:30:00 2012
-ASV Tue Jul 24 11:55:00 2012
-Leg 27 Flt 2931527 Tal MA025N
-ASV Tue Jul 24 19:00:00 2012
-XEM Tue Jul 24 20:30:00 2012
-Leg 28 Flt 2931706 Tal MA025N
-XEM Tue Jul 24 21:15:00 2012
-LDG Tue Jul 24 22:25:00 2012
-Leg 29 Flt 2932034 Tal MA025N
-LDG Tue Jul 24 23:00:00 2012
-XEM Wed Jul 25 00:10:00 2012
-Leg 30 Flt 2932648 Tal MA025N
-XEM Wed Jul 25 01:00:00 2012
-YTM Wed Jul 25 02:38:00 2012
-Leg 31 Flt 2931674 Tal MA025N
-YTM Wed Jul 25 03:10:00 2012
-XEM Wed Jul 25 04:44:00 2012
-Leg 32 Flt 2931712 Tal MA025N
-XEM Wed Jul 25 06:00:00 2012
-LDG Wed Jul 25 07:10:00 2012
-Leg 33 Flt 2932048 Tal MA025N
-LDG Wed Jul 25 07:40:00 2012
-XEM Wed Jul 25 08:50:00 2012
-Leg 34 Flt 2929042 Tal MA858N
-JIT Mon Jul 23 23:35:00 2012
-XEM Tue Jul 24 03:00:00 2012
-Leg 35 Flt 2930114 Tal MA858N
-XEM Tue Jul 24 03:55:00 2012
-NUC Tue Jul 24 06:04:00 2012
-Leg 36 Flt 2929429 Tal MA858N
-NUC Tue Jul 24 06:44:00 2012
-XEM Tue Jul 24 09:09:00 2012
-Leg 37 Flt 2929430 Tal MA858N
-XEM Tue Jul 24 11:00:00 2012
-YTM Tue Jul 24 12:37:00 2012
-Leg 38 Flt 2931800 Tal MA858N
-YTM Tue Jul 24 21:00:00 2012
-XEM Tue Jul 24 22:30:00 2012
-Leg 39 Flt 2932435 Tal MA858N
-XEM Tue Jul 24 23:40:00 2012
-NUC Wed Jul 25 01:49:00 2012
-Leg 40 Flt 2932619 Tal MA858N
-NUC Wed Jul 25 02:25:00 2012
-XEM Wed Jul 25 04:49:00 2012
-Leg 41 Flt 2932105 Tal MA858N
-XEM Wed Jul 25 06:20:00 2012
-MIL Wed Jul 25 12:10:00 2012
-Leg 42 Flt 2929606 Tal MA958N
-XEM Mon Jul 23 23:55:00 2012
-NUC Tue Jul 24 02:04:00 2012
-Leg 43 Flt 2929593 Tal MA958N
-NUC Tue Jul 24 02:40:00 2012
-XEM Tue Jul 24 05:04:00 2012
-Leg 44 Flt 2929557 Tal MA958N
-XEM Tue Jul 24 06:20:00 2012
-MIL Tue Jul 24 12:10:00 2012
-Leg 45 Flt 2931898 Tal MA958N
-MIL Tue Jul 24 13:20:00 2012
-XEM Tue Jul 24 19:10:00 2012
-Leg 46 Flt 2931659 Tal MA958N
-XEM Tue Jul 24 20:55:00 2012
-NUC Tue Jul 24 22:59:00 2012
-Leg 47 Flt 2931660 Tal MA958N
-NUC Tue Jul 24 23:55:00 2012
-OJS Wed Jul 25 02:05:00 2012
-Leg 48 Flt 2931553 Tal MA958N
-OJS Wed Jul 25 03:05:00 2012
-NUC Wed Jul 25 05:10:00 2012
-Leg 49 Flt 2931554 Tal MA958N
-NUC Wed Jul 25 06:10:00 2012
-XEM Wed Jul 25 08:35:00 2012
-Leg 50 Flt 2929060 Tal MA068N
-XEM Tue Jul 24 00:20:00 2012
-DJS Tue Jul 24 02:20:00 2012
-Leg 51 Flt 2930028 Tal MA068N
-DJS Tue Jul 24 02:55:00 2012
-XEM Tue Jul 24 04:55:00 2012
-Leg 52 Flt 2929541 Tal MA068N
-XEM Tue Jul 24 05:55:00 2012
-KFJ Tue Jul 24 10:45:00 2012
-Leg 53 Flt 2931936 Tal MA068N
-KFJ Tue Jul 24 12:45:00 2012
-XEM Tue Jul 24 17:35:00 2012
-Leg 54 Flt 2932016 Tal MA068N
-XEM Tue Jul 24 19:20:00 2012
-OMH Tue Jul 24 21:50:00 2012
-Leg 55 Flt 2932579 Tal MA068N
-OMH Tue Jul 24 22:25:00 2012
-XEM Wed Jul 25 00:55:00 2012
-Leg 56 Flt 2931458 Tal MA068N
-XEM Wed Jul 25 02:00:00 2012
-LDG Wed Jul 25 03:10:00 2012
-Leg 57 Flt 2932636 Tal MA068N
-LDG Wed Jul 25 03:45:00 2012
-XEM Wed Jul 25 04:55:00 2012
-Leg 58 Flt 2931504 Tal MA068N
-XEM Wed Jul 25 06:00:00 2012
-YTM Wed Jul 25 07:34:00 2012
-Leg 59 Flt 2929850 Tal MA168N
-LUY Tue Jul 24 00:05:00 2012
-XEM Tue Jul 24 05:35:00 2012
-Leg 60 Flt 2929622 Tal MA168N
-XEM Tue Jul 24 05:00:00 2012
-LDG Tue Jul 24 06:10:00 2012
-Leg 61 Flt 2929203 Tal MA168N
-LDG Tue Jul 24 06:40:00 2012
-XEM Tue Jul 24 07:50:00 2012
-Leg 62 Flt 2932153 Tal MA168N
-XEM Tue Jul 24 09:00:00 2012
-YTM Tue Jul 24 10:38:00 2012
-Leg 63 Flt 2932179 Tal MA168N
-YTM Tue Jul 24 19:30:00 2012
-XEM Tue Jul 24 21:00:00 2012
-Leg 64 Flt 2932097 Tal MA168N
-XEM Tue Jul 24 21:46:00 2012
-NUC Tue Jul 24 23:55:00 2012
-Leg 65 Flt 2932216 Tal MA168N
-NUC Wed Jul 25 00:45:00 2012
-XEM Wed Jul 25 03:08:00 2012
-Leg 66 Flt 2932443 Tal MA168N
-XEM Wed Jul 25 05:30:00 2012
-NUC Wed Jul 25 07:43:00 2012
-Leg 67 Flt 2928907 Tal MA059N
-XEM Tue Jul 24 02:40:00 2012
-DIM Tue Jul 24 04:25:00 2012
-Leg 68 Flt 2929377 Tal MA059N
-DIM Tue Jul 24 05:00:00 2012
-XEM Tue Jul 24 06:50:00 2012
-Leg 69 Flt 2932545 Tal MA059N
-XEM Tue Jul 24 09:25:00 2012
-SAL Tue Jul 24 13:15:00 2012
-Leg 70 Flt 2932334 Tal MA059N
-SAL Tue Jul 24 14:30:00 2012
-XEM Tue Jul 24 17:55:00 2012
-Leg 71 Flt 2932535 Tal MA059N
-XEM Tue Jul 24 19:15:00 2012
-XAL Tue Jul 24 23:05:00 2012
-Leg 72 Flt 2931541 Tal MA059N
-XAL Wed Jul 25 00:35:00 2012
-XEM Wed Jul 25 04:15:00 2012
-Leg 73 Flt 2932495 Tal MA059N
-XEM Wed Jul 25 04:35:00 2012
-LUC Wed Jul 25 06:30:00 2012
-Leg 74 Flt 2932314 Tal MA059N
-LUC Wed Jul 25 07:05:00 2012
-XEM Wed Jul 25 08:55:00 2012
-Leg 75 Flt 2929015 Tal YOJAX
-NUC Tue Jul 24 01:35:00 2012
-UUC Tue Jul 24 04:50:00 2012
-Leg 76 Flt 2929423 Tal YOJAX
-UUC Tue Jul 24 05:35:00 2012
-TZM Tue Jul 24 06:55:00 2012
-Leg 77 Flt 2928965 Tal YOJAX
-TZM Tue Jul 24 07:45:00 2012
-UUC Tue Jul 24 09:05:00 2012
-Leg 78 Flt 2931835 Tal YOJAX
-UUC Tue Jul 24 09:45:00 2012
-XEM Tue Jul 24 11:50:00 2012
-Leg 79 Flt 2931512 Tal YOJAX
-XEM Tue Jul 24 14:30:00 2012
-KFJ Tue Jul 24 19:20:00 2012
-Leg 80 Flt 2931974 Tal YOJAX
-KFJ Tue Jul 24 21:00:00 2012
-XEM Wed Jul 25 01:50:00 2012
-Leg 81 Flt 2932377 Tal YOJAX
-XEM Wed Jul 25 03:00:00 2012
-YTM Wed Jul 25 04:38:00 2012
-Leg 82 Flt 2932425 Tal YOJAX
-YTM Wed Jul 25 05:10:00 2012
-XEM Wed Jul 25 06:40:00 2012
-Leg 83 Flt 2932499 Tal YOJAX
-XEM Wed Jul 25 07:50:00 2012
-XAL Wed Jul 25 11:45:00 2012
-Leg 84 Flt 2929572 Tal AIMAX
-SCC Mon Jul 23 21:00:00 2012
-XEM Tue Jul 24 02:15:00 2012
-Leg 85 Flt 2929712 Tal AIMAX
-XEM Tue Jul 24 03:15:00 2012
-AIM Tue Jul 24 06:20:00 2012
-Leg 86 Flt 2929806 Tal AIMAX
-AIM Tue Jul 24 07:30:00 2012
-XEM Tue Jul 24 10:45:00 2012
-Leg 87 Flt 2932272 Tal AIMAX
-XEM Tue Jul 24 14:40:00 2012
-SCC Tue Jul 24 19:45:00 2012
-Leg 88 Flt 2932120 Tal AIMAX
-SCC Tue Jul 24 21:00:00 2012
-XEM Wed Jul 25 02:15:00 2012
-Leg 89 Flt 2932621 Tal AIMAX
-XEM Wed Jul 25 03:30:00 2012
-XAL Wed Jul 25 07:15:00 2012
-Leg 90 Flt 2929718 Tal MAZAX
-NUC Tue Jul 24 02:50:00 2012
-MIL Tue Jul 24 08:10:00 2012
-Leg 91 Flt 2929719 Tal MAZAX
-MIL Tue Jul 24 09:10:00 2012
-URG Tue Jul 24 13:55:00 2012
-Leg 92 Flt 2932150 Tal MAZAX
-URG Tue Jul 24 15:10:00 2012
-MIL Tue Jul 24 20:25:00 2012
-Leg 93 Flt 2932151 Tal MAZAX
-MIL Tue Jul 24 21:40:00 2012
-NUC Wed Jul 25 03:10:00 2012
-Leg 94 Flt 2932555 Tal MAZAX
-NUC Wed Jul 25 04:15:00 2012
-XEM Wed Jul 25 06:39:00 2012
 ****** Total Number of Airports is 25 ******
 Station MIL Id 0
 Station XEM Id 1
@@ -731,6 +383,341 @@ Leg 94 Flt 2932555 Tal MAZAX
 NUC Wed Jul 25 04:15:00 2012
 XEM Wed Jul 25 06:39:00 2012
 ############## TOTAL CONNECTION 1024 ###############
+top order
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+List size: 12
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+planLegList size: 8
+planLegList size: 6
+planLegList size: 9
+planLegList size: 11
+planLegList size: 8
+planLegList size: 8
+planLegList size: 9
+planLegList size: 8
+planLegList size: 9
+planLegList size: 6
+planLegList size: 5
+planLegList size: 8
 Number of Initial Lofs is 8
 
 ###### initial Lofs have been generated ######
@@ -745,7 +732,7 @@ All rows and columns eliminated.
 Presolve time = 0.00 sec. (0.04 ticks)
 Barrier time = 0.00 sec. (0.04 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.04 ticks)
+Total time on 8 threads = 0.00 sec. (0.04 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 8
@@ -772,12 +759,12 @@ Symmetry aggregator did 40 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.02 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 191
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.01 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 36
   Integer space required    = 73
   Total non-zeros in factor = 332
@@ -794,12 +781,12 @@ Summary statistics for Cholesky factor:
    8   2.3236625e+04   2.3213639e+04  8.32e-02  1.49e-02  2.98e-01  1.28e+01
    9   2.3218003e+04   2.3217998e+04  1.92e-05  3.44e-06  2.98e-05  3.48e+04
   10   2.3218000e+04   2.3218000e+04  4.54e-09  8.14e-10  3.05e-09  1.63e+08
-Barrier time = 0.00 sec. (0.29 ticks)
+Barrier time = 0.00 sec. (0.31 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.42 ticks)
-Barrier time = 0.00 sec. (0.43 ticks)
+Total time on 8 threads = 0.00 sec. (0.44 ticks)
+Barrier time = 0.00 sec. (0.45 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.43 ticks)
+Total time on 8 threads = 0.00 sec. (0.45 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 31
@@ -826,12 +813,12 @@ Symmetry aggregator did 52 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.03 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 473
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.03 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 56
   Integer space required    = 155
   Total non-zeros in factor = 882
@@ -847,13 +834,13 @@ Summary statistics for Cholesky factor:
    7   1.7932076e+04   1.7236049e+04  4.09e+00  7.41e-01  6.47e+01  2.90e-01
    8   1.7617687e+04   1.7613226e+04  6.79e-03  1.23e-03  6.68e-01  2.85e+01
    9   1.7616001e+04   1.7616000e+04  2.55e-06  4.61e-07  8.90e-05  2.38e+05
-  10   1.7616000e+04   1.7616000e+04  6.34e-10  1.15e-10  9.69e-09  1.51e+09
-Barrier time = 0.00 sec. (0.52 ticks)
+  10   1.7616000e+04   1.7616000e+04  6.34e-10  1.15e-10  9.63e-09  1.51e+09
+Barrier time = 0.02 sec. (0.55 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.70 ticks)
-Barrier time = 0.00 sec. (0.72 ticks)
+Total time on 8 threads = 0.02 sec. (0.73 ticks)
+Barrier time = 0.02 sec. (0.75 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.72 ticks)
+Total time on 8 threads = 0.02 sec. (0.75 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 53
@@ -875,17 +862,17 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 19 rows and 20 columns.
 Reduced LP has 88 rows, 150 columns, and 792 nonzeros.
-Presolve time = 0.00 sec. (0.13 ticks)
+Presolve time = 0.02 sec. (0.13 ticks)
 Symmetry aggregator did 52 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.04 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 637
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.04 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 62
   Integer space required    = 169
   Total non-zeros in factor = 1281
@@ -900,13 +887,13 @@ Summary statistics for Cholesky factor:
    6   1.2058901e+04   1.1435414e+04  3.83e+00  6.54e-01  5.87e+01  3.88e-01
    7   1.1775793e+04   1.1772047e+04  4.04e-02  6.88e-03  1.28e-01  1.83e+02
    8   1.1773000e+04   1.1773000e+04  5.85e-06  9.98e-07  1.54e-05  4.57e+05
-   9   1.1773000e+04   1.1773000e+04  7.23e-10  1.26e-10  2.91e-09  3.42e+09
-Barrier time = 0.00 sec. (0.60 ticks)
+   9   1.1773000e+04   1.1773000e+04  7.05e-10  1.21e-10  1.58e-09  3.34e+09
+Barrier time = 0.00 sec. (0.64 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.82 ticks)
-Barrier time = 0.00 sec. (0.84 ticks)
+Total time on 8 threads = 0.02 sec. (0.86 ticks)
+Barrier time = 0.02 sec. (0.88 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.84 ticks)
+Total time on 8 threads = 0.02 sec. (0.88 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 75
@@ -933,12 +920,12 @@ Symmetry aggregator did 54 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.05 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 746
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.06 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 67
   Integer space required    = 221
   Total non-zeros in factor = 1388
@@ -956,13 +943,13 @@ Summary statistics for Cholesky factor:
    9   1.1782528e+04   1.1725769e+04  3.88e-01  6.41e-02  2.91e-03  4.05e+00
   10   1.1773578e+04   1.1766401e+04  5.72e-02  9.46e-03  3.54e-04  2.92e+01
   11   1.1773000e+04   1.1772994e+04  2.30e-05  3.81e-06  3.03e-07  3.38e+04
-  12   1.1773000e+04   1.1773000e+04  2.30e-09  3.81e-10  1.12e-10  2.90e+08
-Barrier time = 0.00 sec. (0.91 ticks)
+  12   1.1773000e+04   1.1773000e+04  2.30e-09  3.81e-10  9.74e-11  2.90e+08
+Barrier time = 0.00 sec. (0.96 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.17 ticks)
-Barrier time = 0.00 sec. (1.19 ticks)
+Total time on 8 threads = 0.02 sec. (1.22 ticks)
+Barrier time = 0.02 sec. (1.25 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.19 ticks)
+Total time on 8 threads = 0.02 sec. (1.25 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 99
@@ -989,12 +976,12 @@ Symmetry aggregator did 56 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.06 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 850
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.06 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 71
   Integer space required    = 206
   Total non-zeros in factor = 1591
@@ -1012,14 +999,14 @@ Summary statistics for Cholesky factor:
    9   1.0852197e+04   1.0836997e+04  1.25e+00  1.93e-01  6.43e-04  1.60e+01
   10   1.0852059e+04   1.0850657e+04  4.67e-01  7.24e-02  5.68e-05  1.16e+02
   11   1.0849891e+04   1.0849558e+04  9.88e-02  1.53e-02  9.91e-06  6.77e+01
-  12   1.0852868e+04   1.0852888e+04  6.88e-04  1.07e-04  8.61e-09  3.11e+05
-  13   1.0852889e+04   1.0852889e+04  1.28e-07  1.98e-08  8.88e-10  1.59e+08
-Barrier time = 0.02 sec. (1.12 ticks)
+  12   1.0852868e+04   1.0852888e+04  6.88e-04  1.07e-04  5.48e-09  3.11e+05
+  13   1.0852889e+04   1.0852889e+04  1.28e-07  1.98e-08  3.58e-10  1.59e+08
+Barrier time = 0.01 sec. (0.99 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.56 ticks)
-Barrier time = 0.02 sec. (1.58 ticks)
+Total time on 8 threads = 0.01 sec. (1.42 ticks)
+Barrier time = 0.01 sec. (1.45 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.58 ticks)
+Total time on 8 threads = 0.01 sec. (1.45 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 122
@@ -1046,12 +1033,12 @@ Symmetry aggregator did 60 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.07 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 934
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.06 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 73
   Integer space required    = 201
   Total non-zeros in factor = 1905
@@ -1070,13 +1057,13 @@ Summary statistics for Cholesky factor:
   10   5.6488847e+03   5.6064660e+03  5.94e-01  9.05e-02  3.94e-04  2.14e+01
   11   5.6256043e+03   5.6242820e+03  1.27e-02  1.93e-03  1.73e-05  4.30e+02
   12   5.6248744e+03   5.6248427e+03  4.40e-04  6.70e-05  1.67e-07  2.90e+04
-  13   5.6248519e+03   5.6248518e+03  7.21e-08  1.10e-08  6.18e-11  9.70e+07
-Barrier time = 0.00 sec. (1.26 ticks)
+  13   5.6248519e+03   5.6248518e+03  7.22e-08  1.10e-08  5.75e-11  9.70e+07
+Barrier time = 0.02 sec. (1.11 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.76 ticks)
-Barrier time = 0.00 sec. (1.79 ticks)
+Total time on 8 threads = 0.02 sec. (1.61 ticks)
+Barrier time = 0.02 sec. (1.64 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.79 ticks)
+Total time on 8 threads = 0.02 sec. (1.64 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 144
@@ -1103,12 +1090,12 @@ Symmetry aggregator did 58 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.08 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1056
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.07 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 74
   Integer space required    = 218
   Total non-zeros in factor = 1883
@@ -1126,13 +1113,13 @@ Summary statistics for Cholesky factor:
    9   5.5734451e+03   5.5039844e+03  6.30e-01  9.48e-02  1.12e-03  6.16e+00
   10   5.5480232e+03   5.5470282e+03  1.37e-02  2.06e-03  1.11e-05  6.47e+02
   11   5.5474547e+03   5.5474545e+03  3.66e-06  5.50e-07  1.59e-09  3.74e+06
-  12   5.5474545e+03   5.5474545e+03  4.12e-09  6.33e-10  1.44e-09  2.28e+10
-Barrier time = 0.02 sec. (1.30 ticks)
+  12   5.5474545e+03   5.5474545e+03  4.41e-10  6.71e-11  6.00e-11  2.23e+10
+Barrier time = 0.02 sec. (1.14 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.85 ticks)
-Barrier time = 0.02 sec. (1.88 ticks)
+Total time on 8 threads = 0.02 sec. (1.69 ticks)
+Barrier time = 0.02 sec. (1.72 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.88 ticks)
+Total time on 8 threads = 0.02 sec. (1.72 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 165
@@ -1158,13 +1145,13 @@ Presolve time = 0.00 sec. (0.44 ticks)
 Symmetry aggregator did 60 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
-Presolve time = 0.00 sec. (0.09 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Presolve time = 0.02 sec. (0.09 ticks)
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1130
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.07 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 75
   Integer space required    = 225
   Total non-zeros in factor = 2028
@@ -1180,12 +1167,12 @@ Summary statistics for Cholesky factor:
    7   5.3651390e+03   5.3159442e+03  9.28e-02  1.40e-02  2.03e+00  9.41e+00
    8   5.3496396e+03   5.3494588e+03  2.29e-04  3.44e-05  8.58e-03  2.21e+03
    9   5.3496000e+03   5.3496000e+03  2.86e-08  4.31e-09  1.10e-06  1.99e+07
-Barrier time = 0.00 sec. (1.13 ticks)
+Barrier time = 0.02 sec. (0.99 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.74 ticks)
-Barrier time = 0.00 sec. (1.77 ticks)
+Total time on 8 threads = 0.02 sec. (1.60 ticks)
+Barrier time = 0.02 sec. (1.63 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.77 ticks)
+Total time on 8 threads = 0.02 sec. (1.63 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 187
@@ -1212,12 +1199,12 @@ Symmetry aggregator did 60 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.09 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1181
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.08 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 75
   Integer space required    = 231
   Total non-zeros in factor = 2072
@@ -1232,13 +1219,13 @@ Summary statistics for Cholesky factor:
    6   5.4119853e+03   5.0435509e+03  1.96e+00  2.86e-01  8.15e+00  2.32e+00
    7   5.2273462e+03   5.2048443e+03  1.61e-01  2.36e-02  2.90e-01  4.08e+01
    8   5.2126303e+03   5.2126123e+03  1.70e-04  2.49e-05  9.29e-05  1.07e+05
-   9   5.2126154e+03   5.2126154e+03  2.70e-08  3.95e-09  9.61e-09  3.04e+08
-Barrier time = 0.00 sec. (1.21 ticks)
+   9   5.2126154e+03   5.2126154e+03  2.70e-08  3.96e-09  9.61e-09  3.04e+08
+Barrier time = 0.02 sec. (1.05 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.87 ticks)
-Barrier time = 0.00 sec. (1.91 ticks)
+Total time on 8 threads = 0.02 sec. (1.72 ticks)
+Barrier time = 0.02 sec. (1.75 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.91 ticks)
+Total time on 8 threads = 0.02 sec. (1.75 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 207
@@ -1265,12 +1252,12 @@ Symmetry aggregator did 60 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.10 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1220
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.08 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 75
   Integer space required    = 241
   Total non-zeros in factor = 2091
@@ -1288,13 +1275,13 @@ Summary statistics for Cholesky factor:
    9   5.1305342e+03   5.1297103e+03  8.44e-04  1.21e-04  3.42e-02  5.86e+02
   10   5.1303535e+03   5.1301890e+03  2.07e-04  2.95e-05  6.20e-03  3.50e+03
   11   5.1302859e+03   5.1302857e+03  7.24e-07  1.03e-07  8.21e-07  2.62e+07
-  12   5.1302857e+03   5.1302857e+03  1.11e-10  1.60e-11  1.36e-10  2.28e+10
-Barrier time = 0.00 sec. (1.63 ticks)
+  12   5.1302857e+03   5.1302857e+03  1.11e-10  1.60e-11  1.48e-10  2.28e+10
+Barrier time = 0.00 sec. (1.40 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.11 ticks)
-Barrier time = 0.00 sec. (2.15 ticks)
+Total time on 8 threads = 0.00 sec. (1.88 ticks)
+Barrier time = 0.00 sec. (1.92 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.15 ticks)
+Total time on 8 threads = 0.00 sec. (1.92 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 227
@@ -1321,12 +1308,12 @@ Symmetry aggregator did 58 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.11 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1287
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.08 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 76
   Integer space required    = 266
   Total non-zeros in factor = 2229
@@ -1341,13 +1328,13 @@ Summary statistics for Cholesky factor:
    6   4.5461540e+03   4.2602528e+03  3.31e-01  4.68e-02  1.08e+01  2.12e+00
    7   4.4168303e+03   4.4138565e+03  5.24e-03  7.41e-04  6.20e-02  3.61e+02
    8   4.4150002e+03   4.4149998e+03  7.09e-07  1.00e-07  9.05e-06  1.60e+06
-   9   4.4150000e+03   4.4150000e+03  6.44e-11  1.00e-11  1.34e-09  1.05e+10
-Barrier time = 0.00 sec. (1.38 ticks)
+   9   4.4150000e+03   4.4150000e+03  6.92e-11  1.00e-11  1.32e-09  1.05e+10
+Barrier time = 0.00 sec. (1.19 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.89 ticks)
-Barrier time = 0.00 sec. (1.93 ticks)
+Total time on 8 threads = 0.00 sec. (1.70 ticks)
+Barrier time = 0.00 sec. (1.74 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.93 ticks)
+Total time on 8 threads = 0.00 sec. (1.74 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 246
@@ -1374,12 +1361,12 @@ Symmetry aggregator did 56 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.12 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1368
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.09 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 77
   Integer space required    = 275
   Total non-zeros in factor = 2326
@@ -1393,13 +1380,13 @@ Summary statistics for Cholesky factor:
    5   4.6349816e+03   4.1136552e+03  2.58e+00  3.62e-01  1.05e+01  1.30e+00
    6   4.4173249e+03   4.4053743e+03  1.35e-02  1.89e-03  3.76e-01  3.61e+01
    7   4.4150008e+03   4.4149992e+03  3.08e-06  4.31e-07  3.99e-05  4.50e+05
-   8   4.4150000e+03   4.4150000e+03  4.07e-10  5.58e-11  4.94e-09  3.31e+09
-Barrier time = 0.01 sec. (1.34 ticks)
+   8   4.4150000e+03   4.4150000e+03  4.05e-10  5.59e-11  4.93e-09  3.31e+09
+Barrier time = 0.02 sec. (1.15 ticks)
 
-Total time on 20 threads = 0.01 sec. (1.88 ticks)
-Barrier time = 0.01 sec. (1.93 ticks)
+Total time on 8 threads = 0.02 sec. (1.70 ticks)
+Barrier time = 0.02 sec. (1.74 ticks)
 
-Total time on 20 threads = 0.01 sec. (1.93 ticks)
+Total time on 8 threads = 0.02 sec. (1.74 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 264
@@ -1426,12 +1413,12 @@ Symmetry aggregator did 50 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.13 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1458
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.09 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 80
   Integer space required    = 268
   Total non-zeros in factor = 2476
@@ -1446,13 +1433,13 @@ Summary statistics for Cholesky factor:
    6   4.5550700e+03   4.2126629e+03  7.34e-01  1.03e-01  1.06e+01  1.93e+00
    7   4.4159027e+03   4.4130689e+03  4.38e-03  6.13e-04  1.05e-01  1.92e+02
    8   4.4150002e+03   4.4149998e+03  6.58e-07  9.21e-08  1.43e-05  1.62e+06
-   9   4.4150000e+03   4.4150000e+03  8.65e-11  1.19e-11  1.95e-09  1.24e+10
-Barrier time = 0.00 sec. (1.24 ticks)
+   9   4.4150000e+03   4.4150000e+03  8.82e-11  1.19e-11  1.94e-09  1.24e+10
+Barrier time = 0.00 sec. (1.33 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.81 ticks)
-Barrier time = 0.00 sec. (1.86 ticks)
+Total time on 8 threads = 0.00 sec. (1.90 ticks)
+Barrier time = 0.00 sec. (1.95 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.86 ticks)
+Total time on 8 threads = 0.00 sec. (1.95 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 283
@@ -1479,12 +1466,12 @@ Symmetry aggregator did 50 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.13 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1474
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.09 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 80
   Integer space required    = 269
   Total non-zeros in factor = 2479
@@ -1500,13 +1487,13 @@ Summary statistics for Cholesky factor:
    7   4.4171085e+03   4.4032130e+03  6.73e-03  9.28e-04  5.60e-01  3.80e+01
    8   4.4155202e+03   4.4147743e+03  1.36e-03  1.87e-04  1.62e-02  1.74e+03
    9   4.4150005e+03   4.4149999e+03  1.36e-06  1.88e-07  1.62e-06  9.65e+06
-  10   4.4150000e+03   4.4150000e+03  2.01e-10  2.63e-11  3.01e-10  1.25e+10
-Barrier time = 0.02 sec. (1.40 ticks)
+  10   4.4150000e+03   4.4150000e+03  2.36e-10  2.63e-11  2.93e-10  1.25e+10
+Barrier time = 0.00 sec. (1.51 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.01 ticks)
-Barrier time = 0.02 sec. (2.06 ticks)
+Total time on 8 threads = 0.00 sec. (2.11 ticks)
+Barrier time = 0.00 sec. (2.16 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.06 ticks)
+Total time on 8 threads = 0.00 sec. (2.16 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 300
@@ -1533,12 +1520,12 @@ Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.14 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1547
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.10 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 81
   Integer space required    = 247
   Total non-zeros in factor = 2606
@@ -1554,12 +1541,12 @@ Summary statistics for Cholesky factor:
    7   4.4023083e+03   4.3790342e+03  5.31e-02  7.31e-03  6.86e-01  2.70e+01
    8   4.3955731e+03   4.3954775e+03  5.84e-04  8.03e-05  8.64e-04  2.23e+04
    9   4.3955000e+03   4.3955000e+03  7.96e-08  1.09e-08  1.16e-07  7.06e+07
-Barrier time = 0.00 sec. (1.35 ticks)
+Barrier time = 0.01 sec. (1.45 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.99 ticks)
-Barrier time = 0.00 sec. (2.04 ticks)
+Total time on 8 threads = 0.01 sec. (2.09 ticks)
+Barrier time = 0.01 sec. (2.14 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.04 ticks)
+Total time on 8 threads = 0.01 sec. (2.14 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 317
@@ -1586,12 +1573,12 @@ Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.15 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1565
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.11 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 81
   Integer space required    = 249
   Total non-zeros in factor = 2612
@@ -1607,12 +1594,12 @@ Summary statistics for Cholesky factor:
    7   4.4077371e+03   4.3655145e+03  5.33e-02  7.29e-03  1.33e+00  1.67e+01
    8   4.3956722e+03   4.3952700e+03  7.44e-04  1.02e-04  1.03e-02  2.18e+03
    9   4.3955000e+03   4.3955000e+03  1.47e-07  2.01e-08  1.32e-06  1.54e+07
-Barrier time = 0.01 sec. (1.40 ticks)
+Barrier time = 0.02 sec. (1.50 ticks)
 
-Total time on 20 threads = 0.01 sec. (2.05 ticks)
-Barrier time = 0.01 sec. (2.11 ticks)
+Total time on 8 threads = 0.02 sec. (2.16 ticks)
+Barrier time = 0.02 sec. (2.21 ticks)
 
-Total time on 20 threads = 0.01 sec. (2.11 ticks)
+Total time on 8 threads = 0.02 sec. (2.21 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 332
@@ -1639,12 +1626,12 @@ Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.15 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1590
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.10 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 81
   Integer space required    = 263
   Total non-zeros in factor = 2667
@@ -1660,13 +1647,13 @@ Summary statistics for Cholesky factor:
    7   4.4237222e+03   4.3392802e+03  5.30e-01  7.21e-02  1.17e+00  1.44e+01
    8   4.3706894e+03   4.3691772e+03  7.56e-03  1.03e-03  2.86e-02  5.79e+02
    9   4.3700001e+03   4.3699999e+03  7.56e-07  1.03e-07  4.28e-06  3.64e+06
-  10   4.3700000e+03   4.3700000e+03  7.45e-11  1.03e-11  6.54e-10  2.89e+10
-Barrier time = 0.00 sec. (1.55 ticks)
+  10   4.3700000e+03   4.3700000e+03  7.65e-11  1.03e-11  6.47e-10  2.89e+10
+Barrier time = 0.00 sec. (1.67 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.23 ticks)
-Barrier time = 0.00 sec. (2.28 ticks)
+Total time on 8 threads = 0.02 sec. (2.35 ticks)
+Barrier time = 0.02 sec. (2.40 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.28 ticks)
+Total time on 8 threads = 0.02 sec. (2.40 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 345
@@ -1693,12 +1680,12 @@ Symmetry aggregator did 46 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.16 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1618
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.11 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 82
   Integer space required    = 271
   Total non-zeros in factor = 2693
@@ -1714,13 +1701,13 @@ Summary statistics for Cholesky factor:
    7   4.4174463e+03   4.2906085e+03  6.14e-01  8.27e-02  2.57e+00  6.82e+00
    8   4.3725806e+03   4.3658319e+03  2.87e-02  3.87e-03  1.46e-01  1.19e+02
    9   4.3700014e+03   4.3699995e+03  1.58e-05  2.12e-06  1.46e-05  1.21e+06
-  10   4.3700000e+03   4.3700000e+03  2.06e-09  2.78e-10  2.26e-09  3.93e+09
-Barrier time = 0.00 sec. (1.63 ticks)
+  10   4.3700000e+03   4.3700000e+03  2.07e-09  2.78e-10  2.25e-09  3.93e+09
+Barrier time = 0.00 sec. (1.76 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.34 ticks)
-Barrier time = 0.00 sec. (2.40 ticks)
+Total time on 8 threads = 0.00 sec. (2.47 ticks)
+Barrier time = 0.00 sec. (2.52 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.40 ticks)
+Total time on 8 threads = 0.00 sec. (2.52 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 361
@@ -1742,17 +1729,17 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 2 rows and 12 columns.
 Reduced LP has 105 rows, 455 columns, and 3274 nonzeros.
-Presolve time = 0.00 sec. (0.44 ticks)
+Presolve time = 0.02 sec. (0.44 ticks)
 Symmetry aggregator did 46 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.16 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1625
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.11 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 82
   Integer space required    = 262
   Total non-zeros in factor = 2714
@@ -1769,13 +1756,13 @@ Summary statistics for Cholesky factor:
    8   4.3888188e+03   4.3393168e+03  2.20e-01  2.91e-02  8.87e-01  1.67e+01
    9   4.3681467e+03   4.3669503e+03  1.11e-03  1.48e-04  3.37e-02  4.39e+02
   10   4.3680001e+03   4.3679999e+03  3.79e-07  5.02e-08  4.58e-06  4.23e+06
-  11   4.3680000e+03   4.3680000e+03  1.04e-10  7.18e-12  7.29e-10  3.09e+10
-Barrier time = 0.00 sec. (1.75 ticks)
+  11   4.3680000e+03   4.3680000e+03  1.58e-10  1.32e-11  7.17e-10  3.09e+10
+Barrier time = 0.00 sec. (1.88 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.48 ticks)
-Barrier time = 0.00 sec. (2.54 ticks)
+Total time on 8 threads = 0.02 sec. (2.62 ticks)
+Barrier time = 0.02 sec. (2.68 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.54 ticks)
+Total time on 8 threads = 0.02 sec. (2.68 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372
@@ -1802,12 +1789,12 @@ Symmetry aggregator did 46 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.16 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1626
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.11 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 82
   Integer space required    = 263
   Total non-zeros in factor = 2715
@@ -1824,12 +1811,12 @@ Summary statistics for Cholesky factor:
    8   4.3882514e+03   4.3294165e+03  2.64e-01  3.46e-02  1.09e+00  1.41e+01
    9   4.3641513e+03   4.3638723e+03  1.67e-03  2.19e-04  3.96e-03  3.90e+03
   10   4.3640000e+03   4.3640000e+03  2.04e-07  2.67e-08  5.51e-07  2.36e+07
-Barrier time = 0.00 sec. (1.67 ticks)
+Barrier time = 0.00 sec. (1.80 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.42 ticks)
-Barrier time = 0.00 sec. (2.48 ticks)
+Total time on 8 threads = 0.00 sec. (2.55 ticks)
+Barrier time = 0.00 sec. (2.61 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.48 ticks)
+Total time on 8 threads = 0.00 sec. (2.61 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 380
@@ -1856,12 +1843,12 @@ Symmetry aggregator did 46 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
 Presolve time = 0.00 sec. (0.16 ticks)
-Parallel mode: using up to 20 threads for barrier.
+Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1626
 Using Approximate Minimum Degree ordering
 Total time for automatic ordering = 0.00 sec. (0.11 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 20
+  Threads                   = 8
   Rows in Factor            = 82
   Integer space required    = 263
   Total non-zeros in factor = 2715
@@ -1878,12 +1865,12 @@ Summary statistics for Cholesky factor:
    8   4.3875094e+03   4.3305479e+03  2.60e-01  3.40e-02  1.06e+00  1.46e+01
    9   4.3641445e+03   4.3639074e+03  1.64e-03  2.15e-04  2.79e-03  5.51e+03
   10   4.3640000e+03   4.3640000e+03  1.99e-07  2.61e-08  3.91e-07  2.91e+07
-Barrier time = 0.02 sec. (1.67 ticks)
+Barrier time = 0.03 sec. (1.80 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.42 ticks)
-Barrier time = 0.02 sec. (2.48 ticks)
+Total time on 8 threads = 0.03 sec. (2.55 ticks)
+Barrier time = 0.03 sec. (2.61 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.48 ticks)
+Total time on 8 threads = 0.03 sec. (2.61 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381
@@ -1907,7 +1894,7 @@ MIP Presolve eliminated 27 rows and 17 columns.
 Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
 Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
 Presolve time = 0.00 sec. (1.49 ticks)
-Probing time = 0.00 sec. (2.37 ticks)
+Probing time = 0.02 sec. (2.37 ticks)
 Tried aggregator 1 time.
 Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
 Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
@@ -1916,8 +1903,8 @@ Probing time = 0.00 sec. (2.37 ticks)
 Clique table members: 136.
 MIP emphasis: balance optimality and feasibility.
 MIP search method: dynamic search.
-Parallel mode: deterministic, using up to 20 threads.
-Root relaxation solution time = 0.02 sec. (1.45 ticks)
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (1.59 ticks)
 
         Nodes                                         Cuts/
    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
@@ -1925,16 +1912,16 @@ Root relaxation solution time = 0.02 sec. (1.45 ticks)
 *     0+    0                        76000.0000     1600.0000            97.89%
 *     0+    0                        12356.0000     1600.0000            87.05%
 *     0     0      integral     0     4364.0000     4364.0000       11   -0.00%
-Elapsed time = 0.02 sec. (10.90 ticks, tree = 0.00 MB, solutions = 3)
+Elapsed time = 0.06 sec. (11.04 ticks, tree = 0.00 MB, solutions = 3)
 
 Root node processing (before b&c):
-  Real time             =    0.02 sec. (10.92 ticks)
-Parallel b&c, 20 threads:
+  Real time             =    0.06 sec. (11.06 ticks)
+Parallel b&c, 8 threads:
   Real time             =    0.00 sec. (0.00 ticks)
   Sync time (average)   =    0.00 sec.
   Wait time (average)   =    0.00 sec.
                           ------------
-Total (root+branch&cut) =    0.02 sec. (10.92 ticks)
+Total (root+branch&cut) =    0.06 sec. (11.06 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381
@@ -2878,9 +2865,846 @@ OAr Wed Jul 25 10:45:00 2012
 *****************************
 
  ********************* END FINAL IP SOLUTION *********************
+test for upda
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+ODp Mon Jul 23 23:55:00 2012
+OAr Tue Jul 24 02:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+ODp Tue Jul 24 02:40:00 2012
+OAr Tue Jul 24 05:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 20:55:00 2012
+OAr Tue Jul 24 22:59:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+ODp Tue Jul 24 00:20:00 2012
+OAr Tue Jul 24 02:20:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+ODp Tue Jul 24 02:55:00 2012
+OAr Tue Jul 24 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 05:55:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+ODp Tue Jul 24 12:45:00 2012
+OAr Tue Jul 24 17:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:34:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+ODp Tue Jul 24 01:35:00 2012
+OAr Tue Jul 24 04:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+ODp Tue Jul 24 05:35:00 2012
+OAr Tue Jul 24 06:55:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+ODp Tue Jul 24 07:45:00 2012
+OAr Tue Jul 24 09:05:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+ODp Tue Jul 24 09:45:00 2012
+OAr Tue Jul 24 11:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+ODp Tue Jul 24 02:50:00 2012
+OAr Tue Jul 24 08:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 13:55:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+ODp Tue Jul 24 15:10:00 2012
+OAr Tue Jul 24 20:25:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+ODp Tue Jul 24 21:40:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+ODp Wed Jul 25 06:20:00 2012
+OAr Wed Jul 25 12:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
 Total number of connection of leg network: 1024
 total run time is 0 seconds
-test size: 0
 Solution is printed.
 output path: C:\Code\ARP_CG\Scenarios\Scn1\output_cpp\
 

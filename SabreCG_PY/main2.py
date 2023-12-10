@@ -10,6 +10,7 @@ import Util as ut
 from Model import Model
 from ReadXML import importAircrafts, importAirportClosures, importSchedules, importParameters
 from typing import List
+from Type import flightType, aircraftType, mtcType, airportClosureType, paraSet
 import lxml.etree as et
 import sys
 import os
@@ -50,7 +51,7 @@ def readConfigurationList() -> (str, str):
             break
     return input_dir, output_dir
 
-def updaInfo(_LofListSoln: List[Lof], _InitLegList: List[Leg]) -> List[Leg]:
+def updaInfo(_LofListSoln: list[Lof], _InitLegList: list[Leg]) -> list[Leg]:
     print("test for upda")
     legList = []
     # dealing with assigned flights
@@ -80,7 +81,7 @@ def updaInfo(_LofListSoln: List[Lof], _InitLegList: List[Leg]) -> List[Leg]:
             legList.append(_initleg)
     return legList
 
-def exportSolution(output_path: str, _LegList: List[Leg], nmap: dict[str, str]) -> bool:
+def exportSolution(output_path: str, _LegList: list[Leg], nmap: dict[str, str]) -> bool:
     try:
         if not os.path.exists(output_path):
             os.makedirs(output_path)
@@ -176,15 +177,19 @@ if __name__ == "__main__":
     if len(input_path) == 0 and len(output_path) == 0:
         print("Either input directory or output directory is not specified.")
         sys.exit()
+    aircraft = list[aircraftType]
     succeed, aircrafts, nsmap1 = importAircrafts(input_path + "Aircraft.xml")
     if not succeed:
         sys.exit()
+    airportClosures = list[airportClosureType]
     succeed, airportClosures, nsmap2 = importAirportClosures(input_path + "AirportClosure.xml")
     if not succeed:
         sys.exit()
+    flights = list[flightType]
     succeed, flights, mtcs, nsmap3 = importSchedules(input_path + "Schedule.xml")
     if not succeed:
         sys.exit()
+    parameters = paraSet()
     succeed, parameters, nsmap4 = importParameters(input_path + "Parameters.xml")
     if not succeed:
         sys.exit()
@@ -194,8 +199,6 @@ if __name__ == "__main__":
     nmap.update(nsmap3)
     nmap.update(nsmap4)
     # Initialize the parameters
-    ut.util.maxDelayTime = parameters.maxDelayTime
-    ut.util.maxRunTime = parameters.maxRunTime
     ut.util.maxDelayTime = parameters.maxDelayTime
     ut.util.maxRunTime = parameters.maxRunTime
     ut.util.turnTime = parameters.turnTime
@@ -290,7 +293,7 @@ if __name__ == "__main__":
         for _aircraft in aircraftList:
             if _aircraft.getTail() == tail:
                 aircraft = _aircraft
-                break
+                # should we break ?
         if aircraft == None:
             print("Cannot Find Aircraft " + tail)
             sys.exit(0)
@@ -319,6 +322,10 @@ if __name__ == "__main__":
     schedule = Schedule(stationList, aircraftList, legList)
     schedule.computeTopOrder()
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
+    print("top order")
+    for i in schedule.getTopOrderList():
+        i.print()
+    
     lofListSoln = model.solveColGen()
     finaLegList = updaInfo(lofListSoln, legList)
     print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))

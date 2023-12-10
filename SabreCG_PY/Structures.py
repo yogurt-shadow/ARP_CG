@@ -188,16 +188,16 @@ class Leg:
     def getAircraft(self):
         return self._aircraft
     
-    def setPrevLegList(self, legList: List['Leg']) -> None:
+    def setPrevLegList(self, legList: list['Leg']) -> None:
         self._prevLegList = legList
 
-    def setNextLegList(self, legList: List['Leg']) -> None:
+    def setNextLegList(self, legList: list['Leg']) -> None:
         self._nextLegList = legList
     
-    def getPrevLegList(self) -> List['Leg']:
+    def getPrevLegList(self) -> list['Leg']:
         return self._prevLegList
     
-    def getNextLegList(self) -> List['Leg']:
+    def getNextLegList(self) -> list['Leg']:
         return self._nextLegList
     
     def pushNextLeg(self, leg: 'Leg') -> None:
@@ -238,10 +238,10 @@ class Leg:
         flag = True
         return flag
     
-    def getSubNodeList(self) -> List[SubNode]:
+    def getSubNodeList(self) -> list[SubNode]:
         return self._subNodeList
     
-    def setSubList(self, subNodeList: List[SubNode]) -> None:
+    def setSubList(self, subNodeList: list[SubNode]) -> None:
         self._subNodeList = subNodeList
 
     def pushSubNode(self, subNode: SubNode) -> None:
@@ -315,7 +315,7 @@ class Aircraft:
     def getDual(self) -> float:
         return self._dual
     
-    def getPlanLegList(self) -> List[Leg]:
+    def getPlanLegList(self) -> list[Leg]:
         return self._planLegList
 
     def sortScheLegByDepTime(self) -> None:
@@ -412,7 +412,7 @@ class OperLeg:
         return self._leg.getAircraft()
 
 class Schedule:
-    def __init__(self, stationList: List[Station], aircraftList: List[Aircraft], legList: List[Leg]):
+    def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg]):
         self._reversePost = Stack()
         self._topOrderList = []
         self._stationList, self._aircraftList, self._legList = stationList, aircraftList, legList
@@ -470,7 +470,7 @@ class Schedule:
         while self._reversePost.size() > 0:
             self._topOrderList.append(self._reversePost.pop())
 
-    def getTopOrderList(self) -> List[Leg]:
+    def getTopOrderList(self) -> list[Leg]:
         return self._topOrderList
     
     def getConnectionSize(self) -> int:
@@ -506,10 +506,10 @@ class Lof:
     def getSize(self) -> int:
         return len(self._legList)
     
-    def setLegList(self, legList: List[OperLeg]) -> None:
+    def setLegList(self, legList: list[OperLeg]) -> None:
         self._legList = legList
 
-    def getLegList(self) -> List[OperLeg]:
+    def getLegList(self) -> list[OperLeg]:
         return self._legList
     
     def setAircraft(self, aircraft: Aircraft) -> None:

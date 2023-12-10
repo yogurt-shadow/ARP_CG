@@ -780,6 +780,7 @@ int main( int argc, char * argv[] )
 			if ( aircraftList[j]->getTail() == tail)
 			{
 				aircraft = aircraftList[j];
+				// should we break ?
 			}
 		}
 
@@ -884,7 +885,10 @@ int main( int argc, char * argv[] )
 	schedule->computeTopOrder();
 
 	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList());
-
+	cout << "top order" << endl;
+	for(auto ele: schedule->getTopOrderList()) {
+		ele->print();
+	}
 	vector<Lof *> lofListSoln;
 	lofListSoln = model->solveColGen();
 

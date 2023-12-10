@@ -130,13 +130,13 @@ vector<Lof *> Model::findNewColumns()
 	vector<Lof* > betterLof;
 	//Lof* tempLof;
 	vector<Lof* > tempLof;
-	cout << "air size: " << _aircraftList.size() << endl;
+	// cout << "air size: " << _aircraftList.size() << endl;
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		//tempLof = findNewOneColumn(_aircraftList[i]);
 		tempLof = findNewMultiColumns(_aircraftList[i]);
 		//if (tempLof != NULL)
-		cout << "multi size: " << tempLof.size() << endl;
+		// cout << "multi size: " << tempLof.size() << endl;
 		if (tempLof.size() > 0)
 		{
 			//betterLof.push_back(tempLof);
@@ -278,6 +278,8 @@ vector<Lof* > Model::solveColGen()
 	return lofListSoln;
 }
 
+string Model::header = "C:\\Code\\ARP_CG\\LP\\CPP\\";
+
 void Model::solve()
 {
 	//_solver.end();
@@ -286,13 +288,14 @@ void Model::solve()
 	char str[16] ;
 	itoa(_count,str,10);
 	_count++;
-	string name = "recovery_" + string(str) + ".lp";
+	string name = "cc_" + string(str) + ".lp";
 
 	//_solver.exportModel("test.lp");
 	//_solver.exportModel(name.c_str());
 
 	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
 	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
+	_solver.exportModel((header + name).c_str());
 	_solver.solve();
 
 	cout << endl;
@@ -352,7 +355,7 @@ vector<Lof* > Model::solveIP()
 
 	//_solver = IloCplex(_model);
 
-	_solver.exportModel("recovery.lp");
+	_solver.exportModel("recovery_cc.lp");
 
 	_solver.solve();
 
@@ -442,31 +445,31 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	for (int i = 0; i < _topOrderList.size(); i++)
 	{ //* check each node in topological order, to do relax operation
 		Leg * thisLeg = _topOrderList[i];
-		cout << "next leg size: " << thisLeg->getNextLegList().size() << endl;
+		// cout << "next leg size: " << thisLeg->getNextLegList().size() << endl;
 		for (int j = 0; j < thisLeg->getNextLegList().size(); j++)
 		{
 			Leg * nextLeg = thisLeg->getNextLegList()[j];
 			if (!thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is flight; nextLeg is flight
 			{
-				cout << "case 1" << endl;
+				// cout << "case 1" << endl;
 				edgeProcessFltFlt(thisLeg, nextLeg, aircraft);//##Ѱ��·��ʱʹ�õ�edge cost ����delay,swap,flight dual
 			}
 
 			if (!thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is flight; nextLeg is maintenance
 			{
-				cout << "case 2" << endl;
+				// cout << "case 2" << endl;
 				edgeProcessFltMaint(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is maint; nextLeg is flight
 			{
-				cout << "case 3" << endl;
+				// cout << "case 3" << endl;
 				edgeProcessMaintFlt(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is maint; nextLeg is maint
 			{
-				cout << "case 4" << endl;
+				// cout << "case 4" << endl;
 				edgeProcessMaintMaint(thisLeg, nextLeg, aircraft);
 			}
 
@@ -982,7 +985,7 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft)
 void Model::edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 {
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
-	cout << "case 1 len: " << subNodeList.size() << endl;
+	// cout << "case 1 len: " << subNodeList.size() << endl;
 	for(int i = 0; i < subNodeList.size(); i++)
 	{
 		edgeProcessFltFlt(subNodeList[i], nextLeg, aircraft);

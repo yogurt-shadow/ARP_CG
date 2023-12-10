@@ -33,18 +33,18 @@ private:
 	vector<Lof* > _finalLofList;			// final selected lofs
 	vector<Leg* > _cancelLegList;			// cancelled flights/maint
 
-	static int _count;						// column generationµÄµü´ú´ÎÊý
+	static int _count;						// column generationï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	
-
+	static string header;
 	vector<Leg *> _legList;                 // flight + maint
 	vector<Aircraft *> _aircraftList;		// aircraft
 	vector<Station *> _stationList;			// airport
 
-	vector<Lof* > _initColumns;				//* ³õÊ¼column, ÓÉfindInitColumns³ÉÔ±º¯Êý³õÊ¼
+	vector<Lof* > _initColumns;				//* ï¿½ï¿½Ê¼column, ï¿½ï¿½findInitColumnsï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼
 
 	vector<Leg *> _topOrderList;			//* leg topological order
 
-	//Leg _dummySource;						//* dummy source node connecting starting nodes // Ê¹µÃfindNewOneColumnµÄdebug±È½Ï·½±ã
+	//Leg _dummySource;						//* dummy source node connecting starting nodes // Ê¹ï¿½ï¿½findNewOneColumnï¿½ï¿½debugï¿½È½Ï·ï¿½ï¿½ï¿½
 public:
 	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
 	vector<Lof *> findNewColumns();

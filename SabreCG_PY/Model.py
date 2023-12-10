@@ -10,7 +10,7 @@ import time
 class Model:
     _count = 0
 
-    def __init__(self, stationList: List[Station], aircraftList: List[Aircraft], legList: List[Leg], topOrderList: List[Leg]):
+    def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg], topOrderList: list[Leg]):
         self._stationList, self._aircraftList = stationList, aircraftList
         self._legList, self._topOrderList = legList, topOrderList
         self._tolerance = 0
@@ -22,7 +22,7 @@ class Model:
         # initialize gurobi
         self._model = gp.Model()
 
-    def findNewColumns(self) -> List[Lof]:
+    def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
         print("air size:", len(self._aircraftList))
         for _aircraft in self._aircraftList:
@@ -32,9 +32,11 @@ class Model:
                 betterLof.extend(tempLof)
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
+        # for _lof in betterLof:
+        #     _lof.print()
         return betterLof
     
-    def findNewMultiColumns(self, aircraft: Aircraft) -> List[Lof]:
+    def findNewMultiColumns(self, aircraft: Aircraft) -> list[Lof]:
         betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
         for _depLeg in depLegList:
             self.edgeProcessFlt(_depLeg, aircraft)
@@ -409,7 +411,7 @@ class Model:
             print("Error, nextLeg must be maintenance!")
             sys.exit(0)
 
-    def solveColGen(self) -> List[Lof]:
+    def solveColGen(self) -> list[Lof]:
         self._initColumns = self.findInitColumns()
         print("###### initial Lofs have been generated ######")
         self.populateByColumn(self._initColumns)
@@ -431,7 +433,7 @@ class Model:
         lofListSoln = self.solveIP()
         return lofListSoln
 
-    def populateByColumn(self, _initColumns: List[Lof]) -> None:
+    def populateByColumn(self, _initColumns: list[Lof]) -> None:
         # init constraint - var coefficient matrix
         """
         cover_leg_mat[cons][i]: coefficient of variable i in constraint cons
@@ -501,8 +503,10 @@ class Model:
             slt = self._model.addConstr(expr <= 1, name = consName)
             self._selectRng.append(slt)
 
+    header = "C:\\Code\\ARP_CG\\LP\\PY\\"
+
     def solve(self) -> None:
-        name = "recovery_" + str(Model._count) + ".lp"
+        name = Model.header + "pp_" + str(Model._count) + ".lp"
         Model._count += 1
         """
         -1=automatic,
@@ -515,6 +519,7 @@ class Model:
         """
         self._model.setParam(GRB.param.Method, 2)
         # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
+        self._model.write(name)
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))
@@ -544,7 +549,7 @@ class Model:
                 sys.exit(0)
             self._aircraftList[i].setDual(aircraftDual[i])
 
-    def addColumns(self, _betterColumns: List[Lof]) -> None:
+    def addColumns(self, _betterColumns: list[Lof]) -> None:
         for _col in _betterColumns:
             obj = _col.getCost()
             OperLegList = _col.getLegList()
@@ -559,11 +564,11 @@ class Model:
             v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
             self._lofVar.append(v)
 
-    def solveIP(self) -> List[Lof]:
+    def solveIP(self) -> list[Lof]:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
-        self._model.write("recovery.lp")
+        self._model.write("recovery_pp.lp")
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))

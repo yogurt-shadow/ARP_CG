@@ -64,7 +64,7 @@ def firstChildElements(root: ET.Element, tag: str, reverse_map: dict[str, str]) 
             children.append(child)
     return children
 
-def importAircrafts(fullFileName: str) -> (bool, List[aircraftType], dict[str, str]):
+def importAircrafts(fullFileName: str) -> (bool, list[aircraftType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading aircrafts!")
         return False, []
@@ -86,7 +86,7 @@ def importAircrafts(fullFileName: str) -> (bool, List[aircraftType], dict[str, s
         input_aircrafts.append(acObj)
     return True, input_aircrafts, nmap
 
-def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType], dict[str, str]):
+def importAirportClosures(fullFileName: str) -> (bool, list[airportClosureType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading airport closures!")
         return False, []
@@ -106,7 +106,7 @@ def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType],
         input_airportClosures.append(apObj)
     return True, input_airportClosures, nmap
 
-def importSchedules(fullFileName: str) -> (bool, List[flightType], List[mtcType], dict[str, str]):
+def importSchedules(fullFileName: str) -> (bool, list[flightType], list[mtcType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading schedules!")
         return False, [], []

@@ -1,6 +1,7 @@
 program start...
 input_dir is C:\Code\ARP_CG\Scenarios\Scn2\input\
 output_dir is C:\Code\ARP_CG\Scenarios\Scn2\output_py\
+skip config
 ********************* Number of Aircraft Departured *********************
 number of aircraft departured from station LDG is 2
 number of aircraft departured from station XAL is 2
@@ -2389,10 +2390,10 @@ Number of Initial Lofs is 43
 ###### initial Lofs have been generated ######
  ********************* LP SOLUTION 0 *********************
 Set parameter Method to value 2
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11+.0 (22631.2))
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+CPU model: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
 
 Optimize a model with 711 rows, 710 columns and 1361 nonzeros
 Model fingerprint: 0xbc576190
@@ -2421,21 +2422,15 @@ size: 44
  ********************* END LP SOLUTION 0 *********************
 
 air size: 44
-time range1:  6.278080463409424
+time range1:  2.9796934127807617
 time range2:  0.0
 multi size: 2
-time range1:  15.455482006072998
+time range1:  4.799838304519653
+time range2:  0.015032291412353516
+multi size: 2
+time range1:  2.7185006141662598
 time range2:  0.0
 multi size: 2
-time range1:  6.403426885604858
-time range2:  0.0
-multi size: 2
-time range1:  11.42411494255066
-time range2:  0.0
-multi size: 2
-time range1:  38.65069270133972
-time range2:  0.0
-multi size: 2
-time range1:  68.40791130065918
-time range2:  0.0
+time range1:  4.119248151779175
+time range2:  0.01027536392211914
 multi size: 2
