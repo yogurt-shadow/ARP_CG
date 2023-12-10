@@ -499,9 +499,12 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 	vector<Leg* > arrLegList;
 	arrLegList = aircraft->getArrStation()->getArrLegList();
 
-	for (int i = 0; i < arrLegList.size(); i++)
+	for (int j = 0; j < arrLegList.size(); j++)
 	{
-		for (auto& subNode : arrLegList[i]->getSubNodeList())
+		if (i == 5) {
+			cout << "sub size: " << arrLegList[j]->getSubNodeList().size() << endl;
+		}
+		for (auto& subNode : arrLegList[j]->getSubNodeList())
 		{
 			tmpSubNodeList.push_back(subNode);
 		}
@@ -534,10 +537,14 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 
 	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
 	
-	// cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
-	// for(auto ele: tmpSubNodeList) {
-	// 	ele->print();
-	// }
+	if (i == 5) {
+		cout << "arr list: " << arrLegList.size() << endl;
+		cout << "maint list: " << arrMaintList.size() << endl;
+		cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
+		for(auto ele: tmpSubNodeList) {
+			ele->print();
+		}
+	}
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{

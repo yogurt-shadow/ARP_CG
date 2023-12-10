@@ -262,7 +262,8 @@ if __name__ == "__main__":
         if aircraft == None:
             print("Cannot Find Aircraft " + tail)
             sys.exit(0)
-        legList.append(Leg(flightNum, depStation, arrStation, depTime, arrTime, aircraft))
+        leg = Leg(flightNum, depStation, arrStation, depTime, arrTime, aircraft)
+        legList.append(leg)
     
     for _aircraft in aircraftList:
         depStation = _aircraft.getDepStation()
@@ -321,24 +322,26 @@ if __name__ == "__main__":
     startTime = time.time()
     schedule = Schedule(stationList, aircraftList, legList)
     schedule.computeTopOrder()
+
+
+    for i in aircraftList[5].getArrStation().getArrLegList():
+        print(len(i.getSubNodeList()))
+
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
-    print("top order")
-    for i in schedule.getTopOrderList():
-        i.print()
     
     lofListSoln = model.solveColGen()
-    finaLegList = updaInfo(lofListSoln, legList)
-    print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
-    endTime = time.time()
-    print("total run time is " + str(endTime - startTime) + " seconds")
+    # finaLegList = updaInfo(lofListSoln, legList)
+    # print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
+    # endTime = time.time()
+    # print("total run time is " + str(endTime - startTime) + " seconds")
 
-    if exportSolution(output_path, finaLegList, nmap):
-        print("Solution is printed.")
-    print()
-    print("Canceled flights are")
-    for _fina in finaLegList:
-        if not _fina.getAssigned():
-            _fina.print()
-            print("dual is " + str(_fina.getDual()))
-    print("program finish")
+    # if exportSolution(output_path, finaLegList, nmap):
+    #     print("Solution is printed.")
+    # print()
+    # print("Canceled flights are")
+    # for _fina in finaLegList:
+    #     if not _fina.getAssigned():
+    #         _fina.print()
+    #         print("dual is " + str(_fina.getDual()))
+    # print("program finish")
         

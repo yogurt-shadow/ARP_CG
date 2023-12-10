@@ -81,6 +81,8 @@ class Model:
         # print("time range1: ", time2 - time1, flush=True)
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
+            if i == 5:
+                print("sub size:", len(_arrLeg.getSubNodeList()))
             for _subNode in _arrLeg.getSubNodeList():
                 tmpSubNodeList.append(_subNode)
         arrMaintList = aircraft.getArrStation().getMainList()
@@ -94,9 +96,12 @@ class Model:
             return betterLof
         tmpSubNodeList.sort(key = lambda x: x.CostKey())
        
-        # print("tmpSubNodeList size: ", len(tmpSubNodeList))
-        # for ele in tmpSubNodeList:
-        #     ele.print()
+        if i == 5:
+            print("arr list:", len(arrLegList))
+            print("main list:", len(arrMaintList))
+            print("tmpSubNodeList size: ", len(tmpSubNodeList))
+            for ele in tmpSubNodeList:
+                ele.print()
 
 
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
