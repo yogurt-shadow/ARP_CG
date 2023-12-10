@@ -14,7 +14,7 @@ class util:
     w_cancelMtc          =            500
     w_cancelFlt          =            100
     w_violatedBalance    =            1
-    w_violatedPostion    =            1
+    w_violatedPosition    =            1
     w_fltDelay           =            1
     w_fltSwap            =            1
     maxRunTime           =            0

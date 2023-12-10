@@ -23,7 +23,7 @@ class paraSet:
     def __init__(self):
         self.turnTime = 0
         self.maxDelayTime = 0
-        self.w_cancelMtc, self.cancelFlt = 0, 0
+        self.w_cancelMtc, self.w_cancelFlt = 0, 0
         self.w_violatedBalance, self.w_violatedPosition = 0, 0
         self.w_fltDelay, self.w_fltSwap = 0, 0
         self.maxRunTime = 0

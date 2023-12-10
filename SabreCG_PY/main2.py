@@ -169,7 +169,10 @@ if __name__ == "__main__":
     print("program start...")
     succeed, input_path, output_path = processArguments(len(sys.argv), sys.argv)
     if not succeed:
+        print("read config")
         input_path, output_path = readConfigurationList()
+    else:
+        print("skip config")
     if len(input_path) == 0 and len(output_path) == 0:
         print("Either input directory or output directory is not specified.")
         sys.exit()
@@ -185,11 +188,12 @@ if __name__ == "__main__":
     succeed, parameters, nsmap4 = importParameters(input_path + "Parameters.xml")
     if not succeed:
         sys.exit()
+    # Generate namespace dictionary according to input XML files
     nmap = nsmap1.copy()
     nmap.update(nsmap2)
     nmap.update(nsmap3)
     nmap.update(nsmap4)
-
+    # Initialize the parameters
     ut.util.maxDelayTime = parameters.maxDelayTime
     ut.util.maxRunTime = parameters.maxRunTime
     ut.util.maxDelayTime = parameters.maxDelayTime
