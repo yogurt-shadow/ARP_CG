@@ -687,439 +687,428 @@ COLUMNS
     x_34      cover_lg_8  1
     x_34      cover_lg_52  1
     x_34      select_ac_1  1
-    x_35      OBJ       196
+    x_35      OBJ       43
     x_35      cover_lg_42  1
     x_35      cover_lg_43  1
     x_35      cover_lg_9  1
-    x_35      cover_lg_10  1
-    x_35      cover_lg_37  1
-    x_35      cover_lg_63  1
+    x_35      cover_lg_17  1
+    x_35      cover_lg_18  1
+    x_35      cover_lg_19  1
     x_35      cover_lg_20  1
     x_35      cover_lg_21  1
     x_35      cover_lg_22  1
     x_35      select_ac_2  1
-    x_36      OBJ       196
-    x_36      cover_lg_42  1
-    x_36      cover_lg_43  1
-    x_36      cover_lg_9  1
-    x_36      cover_lg_10  1
-    x_36      cover_lg_37  1
-    x_36      cover_lg_38  1
-    x_36      cover_lg_20  1
-    x_36      cover_lg_21  1
-    x_36      cover_lg_22  1
-    x_36      select_ac_2  1
-    x_37      OBJ       448
+    x_36      OBJ       448
+    x_36      cover_lg_23  1
+    x_36      cover_lg_60  1
+    x_36      cover_lg_61  1
+    x_36      cover_lg_69  1
+    x_36      cover_lg_70  1
+    x_36      cover_lg_4  1
+    x_36      cover_lg_5  1
+    x_36      cover_lg_39  1
+    x_36      cover_lg_40  1
+    x_36      cover_lg_32  1
+    x_36      cover_lg_33  1
+    x_36      select_ac_3  1
+    x_37      OBJ       8
     x_37      cover_lg_23  1
-    x_37      cover_lg_60  1
-    x_37      cover_lg_61  1
-    x_37      cover_lg_69  1
-    x_37      cover_lg_70  1
-    x_37      cover_lg_4  1
-    x_37      cover_lg_5  1
-    x_37      cover_lg_39  1
-    x_37      cover_lg_40  1
-    x_37      cover_lg_32  1
-    x_37      cover_lg_33  1
+    x_37      cover_lg_9  1
+    x_37      cover_lg_17  1
+    x_37      cover_lg_18  1
+    x_37      cover_lg_19  1
+    x_37      cover_lg_20  1
+    x_37      cover_lg_21  1
+    x_37      cover_lg_73  1
+    x_37      cover_lg_74  1
     x_37      select_ac_3  1
-    x_38      OBJ       610
-    x_38      cover_lg_23  1
-    x_38      cover_lg_60  1
-    x_38      cover_lg_61  1
+    x_38      OBJ       2034
+    x_38      cover_lg_34  1
+    x_38      cover_lg_35  1
+    x_38      cover_lg_36  1
     x_38      cover_lg_69  1
     x_38      cover_lg_70  1
     x_38      cover_lg_4  1
     x_38      cover_lg_5  1
-    x_38      cover_lg_20  1
-    x_38      cover_lg_21  1
-    x_38      cover_lg_73  1
-    x_38      cover_lg_74  1
-    x_38      select_ac_3  1
-    x_39      OBJ       2034
-    x_39      cover_lg_34  1
-    x_39      cover_lg_35  1
-    x_39      cover_lg_36  1
-    x_39      cover_lg_69  1
-    x_39      cover_lg_70  1
-    x_39      cover_lg_4  1
-    x_39      cover_lg_5  1
+    x_38      cover_lg_39  1
+    x_38      cover_lg_40  1
+    x_38      cover_lg_41  1
+    x_38      select_ac_4  1
+    x_39      OBJ       48
+    x_39      cover_lg_42  1
+    x_39      cover_lg_43  1
+    x_39      cover_lg_9  1
+    x_39      cover_lg_17  1
+    x_39      cover_lg_18  1
+    x_39      cover_lg_19  1
     x_39      cover_lg_39  1
     x_39      cover_lg_40  1
-    x_39      cover_lg_41  1
-    x_39      select_ac_4  1
-    x_40      OBJ       198
+    x_39      cover_lg_32  1
+    x_39      cover_lg_33  1
+    x_39      select_ac_5  1
+    x_40      OBJ       48
     x_40      cover_lg_42  1
     x_40      cover_lg_43  1
     x_40      cover_lg_9  1
-    x_40      cover_lg_10  1
-    x_40      cover_lg_37  1
-    x_40      cover_lg_63  1
-    x_40      cover_lg_64  1
-    x_40      cover_lg_65  1
+    x_40      cover_lg_17  1
+    x_40      cover_lg_18  1
+    x_40      cover_lg_19  1
+    x_40      cover_lg_20  1
+    x_40      cover_lg_21  1
     x_40      cover_lg_32  1
     x_40      cover_lg_33  1
     x_40      select_ac_5  1
-    x_41      OBJ       198
+    x_41      OBJ       48
     x_41      cover_lg_42  1
     x_41      cover_lg_43  1
     x_41      cover_lg_9  1
-    x_41      cover_lg_10  1
-    x_41      cover_lg_37  1
-    x_41      cover_lg_63  1
-    x_41      cover_lg_64  1
-    x_41      cover_lg_40  1
-    x_41      cover_lg_32  1
-    x_41      cover_lg_33  1
-    x_41      select_ac_5  1
-    x_42      OBJ       198
+    x_41      cover_lg_17  1
+    x_41      cover_lg_18  1
+    x_41      cover_lg_19  1
+    x_41      cover_lg_20  1
+    x_41      cover_lg_21  1
+    x_41      cover_lg_58  1
+    x_41      select_ac_6  1
+    x_42      OBJ       48
     x_42      cover_lg_42  1
     x_42      cover_lg_43  1
     x_42      cover_lg_9  1
-    x_42      cover_lg_10  1
-    x_42      cover_lg_37  1
-    x_42      cover_lg_63  1
-    x_42      cover_lg_20  1
-    x_42      cover_lg_21  1
+    x_42      cover_lg_17  1
+    x_42      cover_lg_18  1
+    x_42      cover_lg_19  1
+    x_42      cover_lg_39  1
+    x_42      cover_lg_40  1
     x_42      cover_lg_58  1
     x_42      select_ac_6  1
-    x_43      OBJ       198
-    x_43      cover_lg_42  1
-    x_43      cover_lg_43  1
+    x_43      OBJ       356
+    x_43      cover_lg_59  1
     x_43      cover_lg_9  1
-    x_43      cover_lg_10  1
-    x_43      cover_lg_37  1
-    x_43      cover_lg_38  1
+    x_43      cover_lg_17  1
+    x_43      cover_lg_18  1
+    x_43      cover_lg_19  1
     x_43      cover_lg_20  1
     x_43      cover_lg_21  1
-    x_43      cover_lg_58  1
-    x_43      select_ac_6  1
-    x_44      OBJ       456
+    x_43      cover_lg_66  1
+    x_43      select_ac_7  1
+    x_44      OBJ       356
     x_44      cover_lg_59  1
-    x_44      cover_lg_69  1
-    x_44      cover_lg_70  1
-    x_44      cover_lg_4  1
-    x_44      cover_lg_5  1
-    x_44      cover_lg_20  1
-    x_44      cover_lg_21  1
+    x_44      cover_lg_9  1
+    x_44      cover_lg_17  1
+    x_44      cover_lg_18  1
+    x_44      cover_lg_19  1
+    x_44      cover_lg_39  1
+    x_44      cover_lg_40  1
     x_44      cover_lg_66  1
     x_44      select_ac_7  1
-    x_45      OBJ       456
-    x_45      cover_lg_59  1
-    x_45      cover_lg_2  1
-    x_45      cover_lg_3  1
+    x_45      OBJ       1346
+    x_45      cover_lg_75  1
+    x_45      cover_lg_76  1
+    x_45      cover_lg_77  1
+    x_45      cover_lg_78  1
     x_45      cover_lg_4  1
     x_45      cover_lg_5  1
-    x_45      cover_lg_20  1
-    x_45      cover_lg_21  1
-    x_45      cover_lg_66  1
-    x_45      select_ac_7  1
-    x_46      OBJ       1346
+    x_45      cover_lg_39  1
+    x_45      cover_lg_40  1
+    x_45      cover_lg_32  1
+    x_45      cover_lg_33  1
+    x_45      cover_lg_83  1
+    x_45      select_ac_8  1
+    x_46      OBJ       1544
     x_46      cover_lg_75  1
     x_46      cover_lg_76  1
     x_46      cover_lg_77  1
     x_46      cover_lg_78  1
-    x_46      cover_lg_4  1
-    x_46      cover_lg_5  1
-    x_46      cover_lg_39  1
-    x_46      cover_lg_40  1
-    x_46      cover_lg_32  1
-    x_46      cover_lg_33  1
+    x_46      cover_lg_37  1
+    x_46      cover_lg_63  1
+    x_46      cover_lg_64  1
+    x_46      cover_lg_65  1
+    x_46      cover_lg_81  1
+    x_46      cover_lg_82  1
     x_46      cover_lg_83  1
     x_46      select_ac_8  1
-    x_47      OBJ       1544
-    x_47      cover_lg_75  1
-    x_47      cover_lg_76  1
-    x_47      cover_lg_77  1
-    x_47      cover_lg_78  1
-    x_47      cover_lg_37  1
-    x_47      cover_lg_63  1
-    x_47      cover_lg_64  1
-    x_47      cover_lg_65  1
-    x_47      cover_lg_81  1
-    x_47      cover_lg_82  1
+    x_47      OBJ       3391
+    x_47      cover_lg_84  1
+    x_47      cover_lg_35  1
+    x_47      cover_lg_36  1
+    x_47      cover_lg_69  1
+    x_47      cover_lg_70  1
+    x_47      cover_lg_4  1
+    x_47      cover_lg_5  1
+    x_47      cover_lg_39  1
+    x_47      cover_lg_40  1
+    x_47      cover_lg_32  1
+    x_47      cover_lg_33  1
     x_47      cover_lg_83  1
-    x_47      select_ac_8  1
-    x_48      OBJ       3391
+    x_47      select_ac_9  1
+    x_48      OBJ       1949
     x_48      cover_lg_84  1
-    x_48      cover_lg_35  1
-    x_48      cover_lg_36  1
-    x_48      cover_lg_69  1
-    x_48      cover_lg_70  1
-    x_48      cover_lg_4  1
-    x_48      cover_lg_5  1
-    x_48      cover_lg_39  1
-    x_48      cover_lg_40  1
-    x_48      cover_lg_32  1
-    x_48      cover_lg_33  1
+    x_48      cover_lg_9  1
+    x_48      cover_lg_10  1
+    x_48      cover_lg_37  1
+    x_48      cover_lg_63  1
+    x_48      cover_lg_64  1
+    x_48      cover_lg_65  1
+    x_48      cover_lg_81  1
+    x_48      cover_lg_82  1
     x_48      cover_lg_83  1
     x_48      select_ac_9  1
-    x_49      OBJ       1949
-    x_49      cover_lg_84  1
+    x_49      OBJ       9
+    x_49      cover_lg_8  1
     x_49      cover_lg_9  1
-    x_49      cover_lg_10  1
-    x_49      cover_lg_37  1
-    x_49      cover_lg_63  1
-    x_49      cover_lg_64  1
-    x_49      cover_lg_65  1
-    x_49      cover_lg_81  1
-    x_49      cover_lg_82  1
-    x_49      cover_lg_83  1
-    x_49      select_ac_9  1
-    x_50      OBJ       159
+    x_49      cover_lg_17  1
+    x_49      cover_lg_18  1
+    x_49      cover_lg_19  1
+    x_49      cover_lg_39  1
+    x_49      cover_lg_40  1
+    x_49      cover_lg_32  1
+    x_49      cover_lg_33  1
+    x_49      select_ac_10  1
+    x_50      OBJ       9
     x_50      cover_lg_8  1
     x_50      cover_lg_9  1
-    x_50      cover_lg_10  1
-    x_50      cover_lg_37  1
-    x_50      cover_lg_63  1
-    x_50      cover_lg_64  1
-    x_50      cover_lg_65  1
+    x_50      cover_lg_17  1
+    x_50      cover_lg_18  1
+    x_50      cover_lg_19  1
+    x_50      cover_lg_20  1
+    x_50      cover_lg_21  1
     x_50      cover_lg_32  1
     x_50      cover_lg_33  1
     x_50      select_ac_10  1
-    x_51      OBJ       159
-    x_51      cover_lg_8  1
-    x_51      cover_lg_9  1
-    x_51      cover_lg_10  1
-    x_51      cover_lg_37  1
-    x_51      cover_lg_63  1
-    x_51      cover_lg_64  1
+    x_51      OBJ       638
+    x_51      cover_lg_35  1
+    x_51      cover_lg_36  1
+    x_51      cover_lg_69  1
+    x_51      cover_lg_70  1
+    x_51      cover_lg_4  1
+    x_51      cover_lg_5  1
+    x_51      cover_lg_39  1
     x_51      cover_lg_40  1
     x_51      cover_lg_32  1
     x_51      cover_lg_33  1
-    x_51      select_ac_10  1
-    x_52      OBJ       638
+    x_51      select_ac_11  1
+    x_52      OBJ       796
     x_52      cover_lg_35  1
     x_52      cover_lg_36  1
     x_52      cover_lg_69  1
     x_52      cover_lg_70  1
     x_52      cover_lg_4  1
     x_52      cover_lg_5  1
-    x_52      cover_lg_39  1
-    x_52      cover_lg_40  1
-    x_52      cover_lg_32  1
-    x_52      cover_lg_33  1
+    x_52      cover_lg_20  1
+    x_52      cover_lg_21  1
+    x_52      cover_lg_73  1
+    x_52      cover_lg_74  1
     x_52      select_ac_11  1
-    x_53      OBJ       796
-    x_53      cover_lg_35  1
-    x_53      cover_lg_36  1
-    x_53      cover_lg_69  1
-    x_53      cover_lg_70  1
-    x_53      cover_lg_4  1
-    x_53      cover_lg_5  1
-    x_53      cover_lg_20  1
-    x_53      cover_lg_21  1
-    x_53      cover_lg_73  1
-    x_53      cover_lg_74  1
-    x_53      select_ac_11  1
-    x_54      OBJ       2
+    x_53      OBJ       6
+    x_53      cover_lg_0  1
+    x_53      cover_lg_1  1
+    x_53      cover_lg_2  1
+    x_53      cover_lg_3  1
+    x_53      cover_lg_54  1
+    x_53      cover_lg_55  1
+    x_53      cover_lg_56  1
+    x_53      cover_lg_57  1
+    x_53      cover_lg_32  1
+    x_53      cover_lg_33  1
+    x_53      select_ac_0  1
+    x_54      OBJ       4
     x_54      cover_lg_0  1
     x_54      cover_lg_1  1
     x_54      cover_lg_2  1
     x_54      cover_lg_3  1
-    x_54      cover_lg_28  1
-    x_54      cover_lg_29  1
-    x_54      cover_lg_6  1
-    x_54      cover_lg_7  1
+    x_54      cover_lg_46  1
+    x_54      cover_lg_47  1
+    x_54      cover_lg_48  1
+    x_54      cover_lg_49  1
     x_54      select_ac_0  1
-    x_55      OBJ       4
-    x_55      cover_lg_0  1
-    x_55      cover_lg_1  1
+    x_55      OBJ       698
+    x_55      cover_lg_8  1
+    x_55      cover_lg_60  1
+    x_55      cover_lg_61  1
     x_55      cover_lg_2  1
     x_55      cover_lg_3  1
     x_55      cover_lg_54  1
     x_55      cover_lg_55  1
     x_55      cover_lg_56  1
-    x_55      cover_lg_33  1
-    x_55      select_ac_0  1
-    x_56      OBJ       1327
-    x_56      cover_lg_1  1
-    x_56      cover_lg_69  1
-    x_56      cover_lg_70  1
-    x_56      cover_lg_28  1
-    x_56      cover_lg_29  1
-    x_56      cover_lg_39  1
-    x_56      cover_lg_40  1
-    x_56      cover_lg_13  1
+    x_55      cover_lg_57  1
+    x_55      cover_lg_13  1
+    x_55      select_ac_1  1
+    x_56      OBJ       892
+    x_56      cover_lg_8  1
+    x_56      cover_lg_9  1
+    x_56      cover_lg_36  1
+    x_56      cover_lg_79  1
     x_56      select_ac_1  1
-    x_57      OBJ       1327
-    x_57      cover_lg_1  1
-    x_57      cover_lg_26  1
-    x_57      cover_lg_27  1
-    x_57      cover_lg_28  1
-    x_57      cover_lg_29  1
-    x_57      cover_lg_39  1
-    x_57      cover_lg_40  1
-    x_57      cover_lg_13  1
-    x_57      select_ac_1  1
-    x_58      OBJ       1128
-    x_58      cover_lg_42  1
-    x_58      cover_lg_8  1
-    x_58      cover_lg_9  1
-    x_58      cover_lg_36  1
-    x_58      cover_lg_37  1
+    x_57      OBJ       806
+    x_57      cover_lg_14  1
+    x_57      cover_lg_15  1
+    x_57      cover_lg_2  1
+    x_57      cover_lg_3  1
+    x_57      cover_lg_54  1
+    x_57      cover_lg_55  1
+    x_57      cover_lg_56  1
+    x_57      cover_lg_57  1
+    x_57      cover_lg_22  1
+    x_57      select_ac_2  1
+    x_58      OBJ       4
+    x_58      cover_lg_14  1
+    x_58      cover_lg_15  1
+    x_58      cover_lg_62  1
     x_58      cover_lg_63  1
     x_58      cover_lg_64  1
     x_58      cover_lg_65  1
     x_58      cover_lg_22  1
     x_58      select_ac_2  1
-    x_59      OBJ       903
+    x_59      OBJ       6
     x_59      cover_lg_23  1
-    x_59      cover_lg_35  1
-    x_59      cover_lg_36  1
+    x_59      cover_lg_60  1
+    x_59      cover_lg_61  1
     x_59      cover_lg_26  1
     x_59      cover_lg_27  1
-    x_59      cover_lg_28  1
-    x_59      cover_lg_29  1
-    x_59      cover_lg_56  1
-    x_59      cover_lg_33  1
+    x_59      cover_lg_64  1
+    x_59      cover_lg_65  1
+    x_59      cover_lg_73  1
+    x_59      cover_lg_74  1
     x_59      select_ac_3  1
-    x_60      OBJ       904
+    x_60      OBJ       56
     x_60      cover_lg_23  1
-    x_60      cover_lg_35  1
-    x_60      cover_lg_36  1
+    x_60      cover_lg_60  1
+    x_60      cover_lg_61  1
     x_60      cover_lg_26  1
     x_60      cover_lg_27  1
-    x_60      cover_lg_28  1
-    x_60      cover_lg_29  1
-    x_60      cover_lg_6  1
-    x_60      cover_lg_7  1
+    x_60      cover_lg_46  1
+    x_60      cover_lg_47  1
+    x_60      cover_lg_48  1
+    x_60      cover_lg_49  1
     x_60      select_ac_3  1
-    x_61      OBJ       2295
+    x_61      OBJ       908
     x_61      cover_lg_34  1
-    x_61      cover_lg_35  1
-    x_61      cover_lg_36  1
-    x_61      cover_lg_26  1
-    x_61      cover_lg_27  1
-    x_61      cover_lg_28  1
-    x_61      cover_lg_29  1
-    x_61      cover_lg_39  1
-    x_61      cover_lg_94  1
+    x_61      cover_lg_60  1
+    x_61      cover_lg_61  1
+    x_61      cover_lg_2  1
+    x_61      cover_lg_3  1
+    x_61      cover_lg_54  1
+    x_61      cover_lg_55  1
+    x_61      cover_lg_56  1
+    x_61      cover_lg_57  1
     x_61      cover_lg_41  1
     x_61      select_ac_4  1
-    x_62      OBJ       2344
-    x_62      cover_lg_34  1
+    x_62      OBJ       58
     x_62      cover_lg_35  1
     x_62      cover_lg_36  1
-    x_62      cover_lg_26  1
-    x_62      cover_lg_27  1
-    x_62      cover_lg_28  1
-    x_62      cover_lg_29  1
-    x_62      cover_lg_39  1
-    x_62      cover_lg_40  1
-    x_62      cover_lg_41  1
-    x_62      select_ac_4  1
-    x_63      OBJ       1129
-    x_63      cover_lg_42  1
-    x_63      cover_lg_8  1
-    x_63      cover_lg_9  1
+    x_62      cover_lg_37  1
+    x_62      cover_lg_63  1
+    x_62      cover_lg_64  1
+    x_62      cover_lg_65  1
+    x_62      cover_lg_73  1
+    x_62      cover_lg_74  1
+    x_62      select_ac_5  1
+    x_63      OBJ       58
+    x_63      cover_lg_35  1
     x_63      cover_lg_36  1
-    x_63      cover_lg_37  1
-    x_63      cover_lg_63  1
+    x_63      cover_lg_26  1
+    x_63      cover_lg_27  1
     x_63      cover_lg_64  1
     x_63      cover_lg_65  1
     x_63      cover_lg_73  1
     x_63      cover_lg_74  1
     x_63      select_ac_5  1
-    x_64      OBJ       3
-    x_64      cover_lg_42  1
-    x_64      cover_lg_1  1
+    x_64      OBJ       194
+    x_64      cover_lg_35  1
+    x_64      cover_lg_36  1
     x_64      cover_lg_69  1
     x_64      cover_lg_70  1
-    x_64      cover_lg_46  1
-    x_64      cover_lg_47  1
-    x_64      cover_lg_48  1
-    x_64      cover_lg_49  1
-    x_64      select_ac_5  1
-    x_65      OBJ       1278
-    x_65      cover_lg_42  1
-    x_65      cover_lg_1  1
-    x_65      cover_lg_69  1
-    x_65      cover_lg_70  1
-    x_65      cover_lg_28  1
-    x_65      cover_lg_29  1
-    x_65      cover_lg_39  1
-    x_65      cover_lg_40  1
-    x_65      cover_lg_58  1
+    x_64      cover_lg_54  1
+    x_64      cover_lg_55  1
+    x_64      cover_lg_56  1
+    x_64      cover_lg_57  1
+    x_64      cover_lg_58  1
+    x_64      select_ac_6  1
+    x_65      OBJ       437
+    x_65      cover_lg_35  1
+    x_65      cover_lg_36  1
+    x_65      cover_lg_37  1
+    x_65      cover_lg_63  1
+    x_65      cover_lg_64  1
+    x_65      cover_lg_65  1
+    x_65      cover_lg_81  1
     x_65      select_ac_6  1
-    x_66      OBJ       1278
-    x_66      cover_lg_42  1
-    x_66      cover_lg_1  1
-    x_66      cover_lg_26  1
-    x_66      cover_lg_27  1
-    x_66      cover_lg_28  1
-    x_66      cover_lg_29  1
-    x_66      cover_lg_39  1
-    x_66      cover_lg_40  1
-    x_66      cover_lg_58  1
-    x_66      select_ac_6  1
-    x_67      OBJ       1576
+    x_66      OBJ       6
+    x_66      cover_lg_59  1
+    x_66      cover_lg_2  1
+    x_66      cover_lg_3  1
+    x_66      cover_lg_54  1
+    x_66      cover_lg_55  1
+    x_66      cover_lg_56  1
+    x_66      cover_lg_57  1
+    x_66      cover_lg_66  1
+    x_66      select_ac_7  1
+    x_67      OBJ       5
     x_67      cover_lg_59  1
-    x_67      cover_lg_69  1
-    x_67      cover_lg_70  1
-    x_67      cover_lg_28  1
-    x_67      cover_lg_29  1
-    x_67      cover_lg_39  1
-    x_67      cover_lg_40  1
-    x_67      cover_lg_66  1
+    x_67      cover_lg_2  1
+    x_67      cover_lg_3  1
+    x_67      cover_lg_46  1
+    x_67      cover_lg_47  1
+    x_67      cover_lg_48  1
     x_67      select_ac_7  1
-    x_68      OBJ       1576
-    x_68      cover_lg_59  1
+    x_68      OBJ       1069
+    x_68      cover_lg_8  1
+    x_68      cover_lg_60  1
+    x_68      cover_lg_61  1
     x_68      cover_lg_26  1
     x_68      cover_lg_27  1
-    x_68      cover_lg_28  1
-    x_68      cover_lg_29  1
-    x_68      cover_lg_39  1
-    x_68      cover_lg_40  1
-    x_68      cover_lg_66  1
-    x_68      select_ac_7  1
-    x_69      OBJ       557
-    x_69      cover_lg_1  1
-    x_69      cover_lg_69  1
-    x_69      cover_lg_70  1
-    x_69      cover_lg_28  1
-    x_69      cover_lg_29  1
-    x_69      cover_lg_6  1
-    x_69      cover_lg_7  1
-    x_69      cover_lg_83  1
+    x_68      cover_lg_46  1
+    x_68      cover_lg_47  1
+    x_68      cover_lg_48  1
+    x_68      cover_lg_49  1
+    x_68      cover_lg_83  1
+    x_68      select_ac_8  1
+    x_69      OBJ       348
+    x_69      cover_lg_8  1
+    x_69      cover_lg_60  1
+    x_69      cover_lg_61  1
+    x_69      cover_lg_62  1
+    x_69      cover_lg_63  1
+    x_69      cover_lg_64  1
+    x_69      cover_lg_65  1
+    x_69      cover_lg_89  1
     x_69      select_ac_8  1
-    x_70      OBJ       557
-    x_70      cover_lg_1  1
+    x_70      OBJ       2459
+    x_70      cover_lg_84  1
+    x_70      cover_lg_35  1
+    x_70      cover_lg_36  1
     x_70      cover_lg_26  1
     x_70      cover_lg_27  1
-    x_70      cover_lg_28  1
-    x_70      cover_lg_29  1
-    x_70      cover_lg_6  1
-    x_70      cover_lg_7  1
+    x_70      cover_lg_46  1
+    x_70      cover_lg_47  1
+    x_70      cover_lg_48  1
+    x_70      cover_lg_49  1
     x_70      cover_lg_83  1
-    x_70      select_ac_8  1
-    x_71      OBJ       2209
+    x_70      select_ac_9  1
+    x_71      OBJ       1736
     x_71      cover_lg_84  1
     x_71      cover_lg_35  1
     x_71      cover_lg_36  1
-    x_71      cover_lg_26  1
-    x_71      cover_lg_27  1
-    x_71      cover_lg_28  1
-    x_71      cover_lg_29  1
-    x_71      cover_lg_6  1
-    x_71      cover_lg_7  1
-    x_71      cover_lg_83  1
+    x_71      cover_lg_37  1
+    x_71      cover_lg_63  1
+    x_71      cover_lg_64  1
+    x_71      cover_lg_65  1
+    x_71      cover_lg_89  1
     x_71      select_ac_9  1
-    x_72      OBJ       2259
-    x_72      cover_lg_84  1
-    x_72      cover_lg_35  1
-    x_72      cover_lg_36  1
-    x_72      cover_lg_26  1
-    x_72      cover_lg_27  1
-    x_72      cover_lg_28  1
-    x_72      cover_lg_29  1
-    x_72      cover_lg_39  1
-    x_72      cover_lg_94  1
-    x_72      cover_lg_83  1
-    x_72      select_ac_9  1
-    x_73      OBJ       979
+    x_72      OBJ       269
+    x_72      cover_lg_8  1
+    x_72      cover_lg_60  1
+    x_72      cover_lg_61  1
+    x_72      cover_lg_62  1
+    x_72      cover_lg_63  1
+    x_72      cover_lg_64  1
+    x_72      cover_lg_65  1
+    x_72      cover_lg_73  1
+    x_72      cover_lg_74  1
+    x_72      select_ac_10  1
+    x_73      OBJ       269
     x_73      cover_lg_8  1
-    x_73      cover_lg_9  1
-    x_73      cover_lg_36  1
+    x_73      cover_lg_60  1
+    x_73      cover_lg_61  1
     x_73      cover_lg_37  1
     x_73      cover_lg_63  1
     x_73      cover_lg_64  1
@@ -1127,37 +1116,26 @@ COLUMNS
     x_73      cover_lg_73  1
     x_73      cover_lg_74  1
     x_73      select_ac_10  1
-    x_74      OBJ       1229
-    x_74      cover_lg_8  1
-    x_74      cover_lg_9  1
+    x_74      OBJ       56
+    x_74      cover_lg_35  1
     x_74      cover_lg_36  1
     x_74      cover_lg_37  1
     x_74      cover_lg_63  1
-    x_74      cover_lg_28  1
-    x_74      cover_lg_29  1
-    x_74      cover_lg_56  1
-    x_74      cover_lg_33  1
-    x_74      select_ac_10  1
+    x_74      cover_lg_64  1
+    x_74      cover_lg_65  1
+    x_74      cover_lg_73  1
+    x_74      cover_lg_74  1
+    x_74      select_ac_11  1
     x_75      OBJ       56
     x_75      cover_lg_35  1
     x_75      cover_lg_36  1
     x_75      cover_lg_26  1
     x_75      cover_lg_27  1
-    x_75      cover_lg_28  1
-    x_75      cover_lg_29  1
+    x_75      cover_lg_64  1
+    x_75      cover_lg_65  1
     x_75      cover_lg_73  1
     x_75      cover_lg_74  1
     x_75      select_ac_11  1
-    x_76      OBJ       56
-    x_76      cover_lg_35  1
-    x_76      cover_lg_36  1
-    x_76      cover_lg_37  1
-    x_76      cover_lg_63  1
-    x_76      cover_lg_64  1
-    x_76      cover_lg_65  1
-    x_76      cover_lg_73  1
-    x_76      cover_lg_74  1
-    x_76      select_ac_11  1
 RHS
     RHS1      cover_lg_0  1
     RHS1      cover_lg_1  1
@@ -1438,5 +1416,4 @@ BOUNDS
  UP BND1      x_73      1
  UP BND1      x_74      1
  UP BND1      x_75      1
- UP BND1      x_76      1
 ENDATA

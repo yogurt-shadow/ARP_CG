@@ -51,7 +51,7 @@ class Model:
             for ele in depLegList:
                 ele.print()
         for _depLeg in depLegList:
-            self.edgeProcessFlt(_depLeg, aircraft)
+            self.edgeProcessFlt(_depLeg, aircraft, i)
         depMaintList = aircraft.getDepStation().getMainList()
         for _depMaint in depMaintList:
             self.edgeProcessMaint(_depMaint, aircraft)
@@ -102,12 +102,16 @@ class Model:
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
                 _leg.resetLeg()
+            if i == 5:
+                print("just return")
             return betterLof
         tmp_count = 0
         # print("new amount", ut.util.newamount)
         for subNode in tmpSubNodeList:
             if tmp_count < ut.util.newamount:
-                # print("dual is", aircraft.getDual())
+                if i == 5:
+                    print("dual is", aircraft.getDual())
+                    print("sub cost is", subNode.getSubNodeCost())
                 if subNode.getSubNodeCost() - aircraft.getDual() < -0.0001:
                     subNodeSelect = Stack()
                     tempSubNode = subNode
@@ -153,83 +157,83 @@ class Model:
             _leg.resetLeg()
         return betterLof
     
-    def findNewOneColumn(self, aircraft: Aircraft) -> Lof:
-        depLegList = aircraft.getDepStation().getDepLegList()
-        for _depLeg in depLegList:
-            self.edgeProcessFlt(_depLeg, aircraft)
-        depMaintList = aircraft.getDepStation().getMainList()
-        for _depMaint in depLegList:
-            self.edgeProcessMaint(_depMaint, aircraft)
-        for thisLeg in self._topOrderList:
-            for nextLeg in thisLeg.getNextLegList():
-                if not thisLeg.isMaint() and not nextLeg.isMaint():
-                    self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
-                if not thisLeg.isMaint() and nextLeg.isMaint():
-                    self.edgeProcessFltMaint(thisLeg, nextLeg, aircraft)
-                if thisLeg.isMaint() and not nextLeg.isMaint():
-                    self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
-                if thisLeg.isMaint() and nextLeg.isMaint():
-                    self.edgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
-        minCostSubNode = None
-        minCost = float('inf')
-        arrLegList = aircraft.getArrStation().getArrLegList()
-        for _arrLeg in arrLegList:
-            for _subNode in _arrLeg.getSubNodeList():
-                if _subNode.getSubNodeCost() < minCost:
-                    minCost = _subNode.getSubNodeCost()
-                    minCostSubNode = _subNode
-        arrMaintList = aircraft.getArrStation().getMainList()
-        for _arrMaint in arrMaintList:
-            for _subNode in _arrMaint.getSubNodeList():
-                if _subNode.getSubNodeCost() < minCost:
-                    minCost = _subNode.getSubNodeCost()
-                    minCostSubNode = _subNode
-        if minCostSubNode == None:
-            print("Warning, subproblem found no feasible LoF.")
-            for _leg in self._legList:
-                _leg.resetLeg()
-            return None
-        print("reduced cost by subproblem aircraft %d is %d" % (aircraft.getId(), minCost - aircraft.getDual()))
-        if minCost - aircraft.getDual() >= -0.0001:
-            for _leg in self._legList:
-                _leg.resetLeg()
-            return None
-        subNodeSelect = Stack()
-        tempSubNode = minCostSubNode
-        while tempSubNode != None:
-            subNodeSelect.push(tempSubNode)
-            tempSubNode = tempSubNode.getParentSubNode()
-        tempLeg, tempOperLeg = None, None
-        newLof = Lof()
-        newLof.setAircraft(aircraft)
-        while len(subNodeSelect) > 0:
-            tempSubNode = subNodeSelect.peek()
-            tempLeg = tempSubNode.getLeg()
-            tempOperLeg = OperLeg(tempLeg, aircraft)
-            tempOperLeg.setOpDepTime(tempSubNode.getOperDepTime())
-            tempOperLeg.setOpArrTime(tempSubNode.getOperArrTime())
-            newLof.pushLeg(tempOperLeg)
-            subNodeSelect.pop()
-        newLof.computeLofCost()
-        newLof.computeReducedCost()
+    # def findNewOneColumn(self, aircraft: Aircraft) -> Lof:
+    #     depLegList = aircraft.getDepStation().getDepLegList()
+    #     for _depLeg in depLegList:
+    #         self.edgeProcessFlt(_depLeg, aircraft)
+    #     depMaintList = aircraft.getDepStation().getMainList()
+    #     for _depMaint in depLegList:
+    #         self.edgeProcessMaint(_depMaint, aircraft)
+    #     for thisLeg in self._topOrderList:
+    #         for nextLeg in thisLeg.getNextLegList():
+    #             if not thisLeg.isMaint() and not nextLeg.isMaint():
+    #                 self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
+    #             if not thisLeg.isMaint() and nextLeg.isMaint():
+    #                 self.edgeProcessFltMaint(thisLeg, nextLeg, aircraft)
+    #             if thisLeg.isMaint() and not nextLeg.isMaint():
+    #                 self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
+    #             if thisLeg.isMaint() and nextLeg.isMaint():
+    #                 self.edgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
+    #     minCostSubNode = None
+    #     minCost = float('inf')
+    #     arrLegList = aircraft.getArrStation().getArrLegList()
+    #     for _arrLeg in arrLegList:
+    #         for _subNode in _arrLeg.getSubNodeList():
+    #             if _subNode.getSubNodeCost() < minCost:
+    #                 minCost = _subNode.getSubNodeCost()
+    #                 minCostSubNode = _subNode
+    #     arrMaintList = aircraft.getArrStation().getMainList()
+    #     for _arrMaint in arrMaintList:
+    #         for _subNode in _arrMaint.getSubNodeList():
+    #             if _subNode.getSubNodeCost() < minCost:
+    #                 minCost = _subNode.getSubNodeCost()
+    #                 minCostSubNode = _subNode
+    #     if minCostSubNode == None:
+    #         print("Warning, subproblem found no feasible LoF.")
+    #         for _leg in self._legList:
+    #             _leg.resetLeg()
+    #         return None
+    #     print("reduced cost by subproblem aircraft %d is %d" % (aircraft.getId(), minCost - aircraft.getDual()))
+    #     if minCost - aircraft.getDual() >= -0.0001:
+    #         for _leg in self._legList:
+    #             _leg.resetLeg()
+    #         return None
+    #     subNodeSelect = Stack()
+    #     tempSubNode = minCostSubNode
+    #     while tempSubNode != None:
+    #         subNodeSelect.push(tempSubNode)
+    #         tempSubNode = tempSubNode.getParentSubNode()
+    #     tempLeg, tempOperLeg = None, None
+    #     newLof = Lof()
+    #     newLof.setAircraft(aircraft)
+    #     while len(subNodeSelect) > 0:
+    #         tempSubNode = subNodeSelect.peek()
+    #         tempLeg = tempSubNode.getLeg()
+    #         tempOperLeg = OperLeg(tempLeg, aircraft)
+    #         tempOperLeg.setOpDepTime(tempSubNode.getOperDepTime())
+    #         tempOperLeg.setOpArrTime(tempSubNode.getOperArrTime())
+    #         newLof.pushLeg(tempOperLeg)
+    #         subNodeSelect.pop()
+    #     newLof.computeLofCost()
+    #     newLof.computeReducedCost()
 
-        error = newLof.getReducedCost() - (minCost - aircraft.getDual())
-        error = abs(error) / min(abs(newLof.getReducedCost()), abs(minCost - aircraft.getDual()))
-        if error > 0.0001:
-            print("newLof->getReducedCost() = " + str(newLof.getReducedCost()))
-            print("minCost - aircraft->getDual() = " + str(minCost - aircraft.getDual()))
-            print("Error, subproblem reduced cost and minCost not match")
-            print("minCost is = " + str(minCost))
-            print("aircraft getDual = " + str(aircraft.getDual()))
-            newLof.print()
-            print("******* dual of legs are: *******")
-            lofOperLegList = newLof.getLegList()
-            for i in range(len(newLof.getSize())):
-                print("dual of leg %d  is %d" % (i, lofOperLegList[i].getLeg().getDual()))
-            sys.exit(0)
-        for _leg in self._legList:
-            _leg.resetLeg()
-        return newLof
+    #     error = newLof.getReducedCost() - (minCost - aircraft.getDual())
+    #     error = abs(error) / min(abs(newLof.getReducedCost()), abs(minCost - aircraft.getDual()))
+    #     if error > 0.0001:
+    #         print("newLof->getReducedCost() = " + str(newLof.getReducedCost()))
+    #         print("minCost - aircraft->getDual() = " + str(minCost - aircraft.getDual()))
+    #         print("Error, subproblem reduced cost and minCost not match")
+    #         print("minCost is = " + str(minCost))
+    #         print("aircraft getDual = " + str(aircraft.getDual()))
+    #         newLof.print()
+    #         print("******* dual of legs are: *******")
+    #         lofOperLegList = newLof.getLegList()
+    #         for i in range(len(newLof.getSize())):
+    #             print("dual of leg %d  is %d" % (i, lofOperLegList[i].getLeg().getDual()))
+    #         sys.exit(0)
+    #     for _leg in self._legList:
+    #         _leg.resetLeg()
+    #     return newLof
 
     def computeFlightDelay(self, subNode: SubNode, nextLeg: Leg) -> float:
         delay = 0
@@ -322,7 +326,7 @@ class Model:
                     print("Error, initial relaxation must happen")
                     sys.exit(0)
 
-    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft) -> None:
+    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft, i) -> None:
         if nextLeg.isMaint():
             print("Error, input of edgeProcessFlt must be flight.")
             sys.exit(0)
@@ -345,6 +349,10 @@ class Model:
         if not nextLeg.insertSubNode(newSubNode):
             print("Error, initial relaxation must happen")
             sys.exit(0)
+        if i == 5:
+            print("print insert node list")
+            for _ele in nextLeg.getSubNodeList():
+                _ele.print()
 
     def edgeProcessFltFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
         subNodeList = thisLeg.getSubNodeList()

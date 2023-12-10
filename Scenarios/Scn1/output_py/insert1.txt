@@ -1,0 +1,205 @@
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg2
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg4
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg6
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg9
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg11
+parent subNode is Null
+print insert node list
+subNodeCost is 4001.0
+subNode delay is 0
+hosting leg is lg13
+parent subNode is Null
+print insert node list
+subNodeCost is -349.0
+subNode delay is 2700
+hosting leg is lg14
+parent subNode is Null
+print insert node list
+subNodeCost is 6401.0
+subNode delay is 0
+hosting leg is lg16
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg20
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg22
+parent subNode is Null
+print insert node list
+subNodeCost is 647.0
+subNode delay is 0
+hosting leg is lg24
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg26
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg28
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg30
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg32
+parent subNode is Null
+print insert node list
+subNodeCost is -749.0
+subNode delay is 300
+hosting leg is lg35
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg37
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg39
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg41
+parent subNode is Null
+print insert node list
+subNodeCost is -800.0
+subNode delay is 0
+hosting leg is lg42
+parent subNode is Null
+print insert node list
+subNodeCost is 199.0
+subNode delay is 0
+hosting leg is lg44
+parent subNode is Null
+print insert node list
+subNodeCost is -800.0
+subNode delay is 0
+hosting leg is lg46
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg50
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg52
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg54
+parent subNode is Null
+print insert node list
+subNodeCost is 797.0
+subNode delay is 0
+hosting leg is lg56
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg58
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg60
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg62
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg64
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg66
+parent subNode is Null
+print insert node list
+subNodeCost is 1.0
+subNode delay is 4800
+hosting leg is lg67
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg69
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg71
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg73
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg79
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg81
+parent subNode is Null
+print insert node list
+subNodeCost is -434.0
+subNode delay is 0
+hosting leg is lg83
+parent subNode is Null
+print insert node list
+subNodeCost is -349.0
+subNode delay is 2700
+hosting leg is lg85
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg87
+parent subNode is Null
+print insert node list
+subNodeCost is -799.0
+subNode delay is 0
+hosting leg is lg89
+parent subNode is Null

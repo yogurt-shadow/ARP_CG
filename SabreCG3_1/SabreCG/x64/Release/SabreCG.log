@@ -1,86 +1,110 @@
 ﻿  Aircraft.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Aircraft.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(22,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(23,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Leg.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Leg.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(63,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(64,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(68,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(69,11): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(96,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(96,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Lof.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Lof.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Lof.cpp')
+  
   main2.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main2.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main2.cpp')
+  
   Model.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Model.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Model.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(122,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(177,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(190,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(202,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(229,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(300,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(962,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(941,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   OperLeg.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'OperLeg.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(64,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Schedule.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(116,56): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Schedule.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(116,56): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
   Station.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Station.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(33,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(34,27): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   SubNode.cpp
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SubNode.cpp')
+  
   tinyxml2.cpp
   Util.cpp
-  正在生成代码
+  Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 1634 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  已完成代码的生成
-concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloextractable.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloenv.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloalg.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloalg.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloexpression.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloexpression.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilotypes.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilotypes.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloconstraint.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloconstraint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloallocator.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloallocator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(evalexpand.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(evalexpand.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosimplecollection.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosimplecollection.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloset.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloset.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilostimei.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilostimei.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloiterator.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloiterator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(strtod.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(strtod.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilohash.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilohash.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilorandom.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilorandom.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(evaluator.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(evaluator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilothread.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilothread.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloanyexpr.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloanyexpr.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilocollectionstruct.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilocollectionstruct.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilocollection.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilocollection.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilocollectioniterator.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilocollectioniterator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilomap.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilomap.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilocollectionoperator.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilocollectionoperator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosbasic.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosbasic.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloparami.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloparami.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloskiplist.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloskiplist.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilonumfunci.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilonumfunci.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(evalkernel.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(evalkernel.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosdisplayi.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosdisplayi.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(iloserror.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloserror.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilointervalsi.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilointervalsi.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosatomi.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosatomi.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosmodel.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosmodel.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilossol.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilossol.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilossequencei.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilossequencei.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosolution.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosolution.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
-concert.lib(ilosstructi.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(ilosstructi.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  All 1651 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+concert.lib(iloextractable.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloextractable.obj)' or at ''; linking object as if no debug info
+concert.lib(iloenv.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloenv.obj)' or at ''; linking object as if no debug info
+concert.lib(iloalg.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloalg.obj)' or at ''; linking object as if no debug info
+concert.lib(iloexpression.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloexpression.obj)' or at ''; linking object as if no debug info
+concert.lib(ilotypes.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilotypes.obj)' or at ''; linking object as if no debug info
+concert.lib(iloconstraint.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloconstraint.obj)' or at ''; linking object as if no debug info
+concert.lib(iloallocator.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloallocator.obj)' or at ''; linking object as if no debug info
+concert.lib(evalexpand.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(evalexpand.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosimplecollection.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosimplecollection.obj)' or at ''; linking object as if no debug info
+concert.lib(iloset.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloset.obj)' or at ''; linking object as if no debug info
+concert.lib(ilostimei.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilostimei.obj)' or at ''; linking object as if no debug info
+concert.lib(iloiterator.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloiterator.obj)' or at ''; linking object as if no debug info
+concert.lib(strtod.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(strtod.obj)' or at ''; linking object as if no debug info
+concert.lib(ilohash.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilohash.obj)' or at ''; linking object as if no debug info
+concert.lib(ilorandom.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilorandom.obj)' or at ''; linking object as if no debug info
+concert.lib(evaluator.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(evaluator.obj)' or at ''; linking object as if no debug info
+concert.lib(ilothread.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilothread.obj)' or at ''; linking object as if no debug info
+concert.lib(iloanyexpr.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloanyexpr.obj)' or at ''; linking object as if no debug info
+concert.lib(ilocollectionstruct.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilocollectionstruct.obj)' or at ''; linking object as if no debug info
+concert.lib(ilocollection.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilocollection.obj)' or at ''; linking object as if no debug info
+concert.lib(ilocollectioniterator.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilocollectioniterator.obj)' or at ''; linking object as if no debug info
+concert.lib(ilomap.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilomap.obj)' or at ''; linking object as if no debug info
+concert.lib(ilocollectionoperator.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilocollectionoperator.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosbasic.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosbasic.obj)' or at ''; linking object as if no debug info
+concert.lib(iloparami.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloparami.obj)' or at ''; linking object as if no debug info
+concert.lib(iloskiplist.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloskiplist.obj)' or at ''; linking object as if no debug info
+concert.lib(ilonumfunci.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilonumfunci.obj)' or at ''; linking object as if no debug info
+concert.lib(evalkernel.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(evalkernel.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosdisplayi.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosdisplayi.obj)' or at ''; linking object as if no debug info
+concert.lib(iloserror.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloserror.obj)' or at ''; linking object as if no debug info
+concert.lib(ilointervalsi.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilointervalsi.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosatomi.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosatomi.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosmodel.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosmodel.obj)' or at ''; linking object as if no debug info
+concert.lib(ilossol.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilossol.obj)' or at ''; linking object as if no debug info
+concert.lib(ilossequencei.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilossequencei.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosolution.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosolution.obj)' or at ''; linking object as if no debug info
+concert.lib(ilosstructi.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(ilosstructi.obj)' or at ''; linking object as if no debug info
   SabreCG.vcxproj -> C:\Code\ARP_CG\SabreCG3_1\x64\Release\SabreCG.exe

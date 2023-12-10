@@ -63,7 +63,7 @@ public:
 	void edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
 	void edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
-	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int);
 	void edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft);
 
 	time_t computeFlightDelay (SubNode* subNode, Leg* nextLeg);
