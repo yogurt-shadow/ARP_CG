@@ -64,7 +64,7 @@ def firstChildElements(root: ET.Element, tag: str, reverse_map: dict[str, str]) 
             children.append(child)
     return children
 
-def importAircrafts(fullFileName: str) -> (bool, List[aircraftType]):
+def importAircrafts(fullFileName: str) -> (bool, List[aircraftType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading aircrafts!")
         return False, []
@@ -84,9 +84,9 @@ def importAircrafts(fullFileName: str) -> (bool, List[aircraftType]):
         acObj.startAvailableAirport = firstChildElement(eleChild1, "ns1:startAvailableAirport", reverse_map).text
         acObj.endAvailableAirport = firstChildElement(eleChild1, "ns1:endAvailableAirport", reverse_map).text
         input_aircrafts.append(acObj)
-    return True, input_aircrafts
+    return True, input_aircrafts, nmap
 
-def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType]):
+def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading airport closures!")
         return False, []
@@ -104,9 +104,9 @@ def importAirportClosures(fullFileName: str) -> (bool, List[airportClosureType])
         apObj.startTime = int(st.text)
         apObj.endTime = int(et.text)
         input_airportClosures.append(apObj)
-    return True, input_airportClosures
+    return True, input_airportClosures, nmap
 
-def importSchedules(fullFileName: str) -> (bool, List[flightType], List[mtcType]):
+def importSchedules(fullFileName: str) -> (bool, List[flightType], List[mtcType], dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading schedules!")
         return False, [], []
@@ -141,9 +141,9 @@ def importSchedules(fullFileName: str) -> (bool, List[flightType], List[mtcType]
             mtcObj.airport = firstChildElement(xml_mtc, "ns3:airport", reverse_map).text
             mtcObj.tailNumber = firstChildElement(xml_mtc, "ns3:tailNumber", reverse_map).text
             input_mtc.append(mtcObj)
-    return True, input_flights, input_mtc
+    return True, input_flights, input_mtc, nmap
 
-def importParameters(fullFileName: str) -> (bool, paraSet):
+def importParameters(fullFileName: str) -> (bool, paraSet, dict[str, str]):
     if not os.path.isfile(fullFileName):
         print("Error while reading parameters!")
         return False, None
@@ -171,5 +171,5 @@ def importParameters(fullFileName: str) -> (bool, paraSet):
     input_para.w_fltDelay = int(w_fltDelay.text)
     input_para.w_fltSwap = int(w_fltSwap.text)
     input_para.maxRunTime = int(maxRunTime.text)
-    return True, input_para
+    return True, input_para, nmap
 

@@ -10,7 +10,7 @@ from lxml import etree
 #创建一个annotion节点
 root = etree.Element('annotion')
 #创建一个子节点folder，一定要指定父节点
-child1 = etree.SubElement(root,'folder')
+child1 = etree.SubElement(root, 'ns3:flightInfoList')
 child1.text = 'VOCtype'
  
 child2 = etree.SubElement(root,'filename')

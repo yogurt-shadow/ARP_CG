@@ -10,7 +10,7 @@ import Util as ut
 from Model import Model
 from ReadXML import importAircrafts, importAirportClosures, importSchedules, importParameters
 from typing import List
-import xml.etree.ElementTree as et
+import lxml.etree as et
 import sys
 import os
 import time
@@ -80,41 +80,41 @@ def updaInfo(_LofListSoln: List[Lof], _InitLegList: List[Leg]) -> List[Leg]:
             legList.append(_initleg)
     return legList
 
-def exportSolution(output_path: str, _LegList: List[Leg]) -> bool:
+def exportSolution(output_path: str, _LegList: List[Leg], nmap: dict[str, str]) -> bool:
     try:
         if not os.path.exists(output_path):
             os.makedirs(output_path)
-        root = et.Element("exportAircrafts")
+        root = et.Element("exportAircrafts", nsmap=nmap)
         # Flight Info
-        xml_fltList = et.SubElement(root, "ns3:flightInfoList")
+        xml_fltList = et.SubElement(root, "{%s}flightInfoList" % nmap["ns3"])
         for _leg in _LegList:
             if not _leg.isMaint():
-                xml_fltType = et.SubElement(xml_fltList, "ns3:flightInfo")
-                xml_flt_id = et.SubElement(xml_fltType, "ns3:id")
+                xml_fltType = et.SubElement(xml_fltList, "{%s}flightInfo" % nmap["ns3"])
+                xml_flt_id = et.SubElement(xml_fltType, "{%s}id" % nmap["ns3"])
                 xml_value = _leg.getFlightNum()
                 xml_flt_id.text = str(xml_value)
 
-                xml_flt_depTime = et.SubElement(xml_fltType, "ns3:departureTime")
+                xml_flt_depTime = et.SubElement(xml_fltType, "{%s}departureTime" % nmap["ns3"])
                 xml_value = str(_leg.getDepTime())
                 xml_flt_depTime.text = xml_value
 
-                xml_flt_arrTime = et.SubElement(xml_fltType, "ns3:arrivalTime")
+                xml_flt_arrTime = et.SubElement(xml_fltType, "{%s}arrivalTime" % nmap["ns3"])
                 xml_value = str(_leg.getArrTime())
                 xml_flt_arrTime.text = xml_value
 
-                xml_flt_depArp = et.SubElement(xml_fltType, "ns3:departureAirport")
+                xml_flt_depArp = et.SubElement(xml_fltType, "{%s}departureAirport" % nmap["ns3"])
                 xml_value = _leg.getDepStation().getName()
                 xml_flt_depArp.text = xml_value
 
-                xml_flt_arrArp = et.SubElement(xml_fltType, "ns3:arrivalAirport")
+                xml_flt_arrArp = et.SubElement(xml_fltType, "{%s}arrivalAirport" % nmap["ns3"])
                 xml_value = _leg.getArrStation().getName()
                 xml_flt_arrArp.text = xml_value
 
-                xml_flt_tailNum = et.SubElement(xml_fltType, "ns3:tailNumber")
+                xml_flt_tailNum = et.SubElement(xml_fltType, "{%s}tailNumber" % nmap["ns3"])
                 xml_value = _leg.getAircraft().getTail()
                 xml_flt_tailNum.text = xml_value
 
-                xml_flt_status = et.SubElement(xml_fltType, "ns3:status")
+                xml_flt_status = et.SubElement(xml_fltType, "{%s}status" % nmap["ns3"])
                 if _leg.getAssigned():
                     xml_value = "Assigned"
                 else:
@@ -122,39 +122,43 @@ def exportSolution(output_path: str, _LegList: List[Leg]) -> bool:
                 xml_flt_status.text = xml_value
         
         # Maintenance Info
-        xml_mtcList = et.SubElement(root, "ns3:mtcInfoList")
+        xml_mtcList = et.SubElement(root, "{%s}mtcInfoList" % nmap["ns3"])
         for _leg in _LegList:
             if _leg.isMaint():
-                xml_mtcType = et.SubElement(xml_mtcList, "ns3:mtcInfo")
+                xml_mtcType = et.SubElement(xml_mtcList, "{%s}mtcInfo" % nmap["ns3"])
 
-                xml_mtc_id = et.SubElement(xml_mtcType, "ns3:id")
+                xml_mtc_id = et.SubElement(xml_mtcType, "{%s}id" % nmap["ns3"])
                 xml_value = _leg.getFlightNum()
                 xml_mtc_id.text = str(xml_value)
 
-                xml_mtc_startTime = et.SubElement(xml_mtcType, "ns3:startTime")
+                xml_mtc_startTime = et.SubElement(xml_mtcType, "{%s}startTime"  % nmap["ns3"])
                 xml_value = str(_leg.getDepTime())
                 xml_mtc_startTime.text = xml_value
 
-                xml_mtc_endTime = et.SubElement(xml_mtcType, "ns3:endTime")
+                xml_mtc_endTime = et.SubElement(xml_mtcType, "{%s}endTime" % nmap["ns3"])
                 xml_value = str(_leg.getArrTime())
                 xml_mtc_endTime.text = xml_value
 
-                xml_mtc_airport = et.SubElement(xml_mtcType, "ns3:airport")
+                xml_mtc_airport = et.SubElement(xml_mtcType, "{%s}airport" % nmap["ns3"])
                 xml_value = _leg.getDepStation().getName()
                 xml_mtc_airport.text = xml_value
 
-                xml_mtc_tailNum = et.SubElement(xml_mtcType, "ns3:tailNumber")
+                xml_mtc_tailNum = et.SubElement(xml_mtcType, "{%s}tailNumber" % nmap["ns3"])
                 xml_value = _leg.getAircraft().getTail()
                 xml_mtc_tailNum.text = xml_value
 
-                xml_mtc_status = et.SubElement(xml_mtcType, "ns3:status")
+                xml_mtc_status = et.SubElement(xml_mtcType, "{%s}status" % nmap["ns3"])
                 if _leg.getAssigned():
                     xml_value = "Assigned"
                 else:
                     xml_value = "Cancelled"
                 xml_mtc_status.text = xml_value
+        # lxml cannot generate tags with ':'
         tree = et.ElementTree(root)
-        if not tree.write(output_path + "Output.xml", xml_declaration=True, encoding='utf-8'):
+        if os.path.exists(output_path + "Output.xml"):
+            os.remove(output_path + "Output.xml")
+            print("remove previous output file")
+        if not tree.write(output_path + "Output.xml", encoding='utf-8', pretty_print=True):
             return False
     except Exception as e:
         print(e)
@@ -169,18 +173,23 @@ if __name__ == "__main__":
     if len(input_path) == 0 and len(output_path) == 0:
         print("Either input directory or output directory is not specified.")
         sys.exit()
-    succeed, aircrafts = importAircrafts(input_path + "Aircraft.xml")
+    succeed, aircrafts, nsmap1 = importAircrafts(input_path + "Aircraft.xml")
     if not succeed:
         sys.exit()
-    succeed, airportClosures = importAirportClosures(input_path + "AirportClosure.xml")
+    succeed, airportClosures, nsmap2 = importAirportClosures(input_path + "AirportClosure.xml")
     if not succeed:
         sys.exit()
-    succeed, flights, mtcs = importSchedules(input_path + "Schedule.xml")
+    succeed, flights, mtcs, nsmap3 = importSchedules(input_path + "Schedule.xml")
     if not succeed:
         sys.exit()
-    succeed, parameters = importParameters(input_path + "Parameters.xml")
+    succeed, parameters, nsmap4 = importParameters(input_path + "Parameters.xml")
     if not succeed:
         sys.exit()
+    nmap = nsmap1.copy()
+    nmap.update(nsmap2)
+    nmap.update(nsmap3)
+    nmap.update(nsmap4)
+
     ut.util.maxDelayTime = parameters.maxDelayTime
     ut.util.maxRunTime = parameters.maxRunTime
     ut.util.maxDelayTime = parameters.maxDelayTime
@@ -312,7 +321,7 @@ if __name__ == "__main__":
     endTime = time.time()
     print("total run time is " + str(endTime - startTime) + " seconds")
 
-    if exportSolution(output_path, finaLegList):
+    if exportSolution(output_path, finaLegList, nmap):
         print("Solution is printed.")
     print()
     print("Canceled flights are")
