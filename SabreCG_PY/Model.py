@@ -568,7 +568,7 @@ class Model:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
-        self._model.write("recovery_pp.mps")
+        self._model.write(Model.header + "recovery_pp.mps")
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))

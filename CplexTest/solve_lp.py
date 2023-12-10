@@ -1,40 +1,55 @@
-# This example formulates and solves the following simple MIP model:
-#  maximize
-#        x +   y + 2 z
-#  subject to
-#        x + 2 y + 3 z <= 4
-#        x +   y       >= 1
-#        x, y, z binary
+# Copyright 2023, Gurobi Optimization, LLC
 
-from gurobipy import *
-import os
+# This example reads an LP model from a file and solves it.
+# If the model is infeasible or unbounded, the example turns off
+# presolve and solves the model again. If the model is infeasible,
+# the example computes an Irreducible Inconsistent Subsystem (IIS),
+# and writes it to a file
 
-try:
+# Input: 
+# python3 input_path output_path cutoff
 
-    # Create a new model
-    m1 = Model("mip1")
-    if os.path.exists("../LP/PY/pp_0.lp"):
-        print("File exists")
-    m1.read("../LP/PY/pp_0.lp")
-    m1.optimize()
+import sys
+import gurobipy as gp
+from gurobipy import GRB
 
-    for v in m1.getVars():
-        print('%s %g' % (v.varName, v.x))
+choice = sys.argv[1]
 
-    print('Obj: %g' % m1.objVal)
+# Read and solve model
+if choice == "pp":
+    model = gp.read("../LP/PY/pp_%d.mps" % int(sys.argv[2]))
+    model.setParam(GRB.Param.Threads, 1)
+    # model.setParam("TimeLimit", int(sys.argv[3]))
+    model.optimize()
+elif choice == "cc":
+    model = gp.read("../LP/CPP/cc_%d.mps" % int(sys.argv[2]))
+    model.setParam(GRB.Param.Threads, 1)
+    # model.setParam("TimeLimit", int(sys.argv[3]))
+    model.optimize()
 
-    # Create a new model
-    m2 = Model("mip2")
-    m2.read("../LP/CPP/cc_0.lp")
-    m2.optimize()
 
-    for v in m2.getVars():
-        print('%s %g' % (v.varName, v.x))
+# if model.Status == GRB.INF_OR_UNBD:
+#     # Turn presolve off to determine whether model is infeasible
+#     # or unbounded
+#     model.setParam(GRB.Param.Presolve, 0)
+#     model.optimize()
 
-    print('Obj: %g' % m2.objVal)
+# if model.Status == GRB.OPTIMAL:
+#     print('Optimal objective: %g' % model.ObjVal)
+#     model.write('model.sol')
+#     sys.exit(0)
+# elif model.Status != GRB.INFEASIBLE:
+#     with open() as f:
+#         f.write('Optimization was stopped with status %d' % model.Status)
 
-except GurobiError as e:
-    print('Error code ' + str(e.errno) + ": " + str(e))
+# model.write(sys.argv[2])
+# with open(sys.argv[2], 'a') as f:
+#     f.write("#Time: %f" % model.Runtime)
 
-except AttributeError:
-    print('Encountered an attribute error')
+# # Model is infeasible - compute an Irreducible Inconsistent Subsystem (IIS)
+
+# print('')
+# print('Model is infeasible')
+# model.computeIIS()
+# model.write("model.ilp")
+# print("IIS written to file 'model.ilp'")
