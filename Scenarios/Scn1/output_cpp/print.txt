@@ -781,12 +781,12 @@ Summary statistics for Cholesky factor:
    8   2.3236625e+04   2.3213639e+04  8.32e-02  1.49e-02  2.98e-01  1.28e+01
    9   2.3218003e+04   2.3217998e+04  1.92e-05  3.44e-06  2.98e-05  3.48e+04
   10   2.3218000e+04   2.3218000e+04  4.54e-09  8.14e-10  3.05e-09  1.63e+08
-Barrier time = 0.00 sec. (0.31 ticks)
+Barrier time = 0.02 sec. (0.31 ticks)
 
-Total time on 8 threads = 0.00 sec. (0.44 ticks)
-Barrier time = 0.00 sec. (0.45 ticks)
+Total time on 8 threads = 0.02 sec. (0.44 ticks)
+Barrier time = 0.02 sec. (0.45 ticks)
 
-Total time on 8 threads = 0.00 sec. (0.45 ticks)
+Total time on 8 threads = 0.02 sec. (0.45 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 31
@@ -835,12 +835,12 @@ Summary statistics for Cholesky factor:
    8   1.7617687e+04   1.7613226e+04  6.79e-03  1.23e-03  6.68e-01  2.85e+01
    9   1.7616001e+04   1.7616000e+04  2.55e-06  4.61e-07  8.90e-05  2.38e+05
   10   1.7616000e+04   1.7616000e+04  6.34e-10  1.15e-10  9.63e-09  1.51e+09
-Barrier time = 0.02 sec. (0.55 ticks)
+Barrier time = 0.01 sec. (0.55 ticks)
 
-Total time on 8 threads = 0.02 sec. (0.73 ticks)
-Barrier time = 0.02 sec. (0.75 ticks)
+Total time on 8 threads = 0.01 sec. (0.73 ticks)
+Barrier time = 0.01 sec. (0.75 ticks)
 
-Total time on 8 threads = 0.02 sec. (0.75 ticks)
+Total time on 8 threads = 0.01 sec. (0.75 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 53
@@ -862,7 +862,7 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 19 rows and 20 columns.
 Reduced LP has 88 rows, 150 columns, and 792 nonzeros.
-Presolve time = 0.02 sec. (0.13 ticks)
+Presolve time = 0.00 sec. (0.13 ticks)
 Symmetry aggregator did 52 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
@@ -890,10 +890,10 @@ Summary statistics for Cholesky factor:
    9   1.1773000e+04   1.1773000e+04  7.05e-10  1.21e-10  1.58e-09  3.34e+09
 Barrier time = 0.00 sec. (0.64 ticks)
 
-Total time on 8 threads = 0.02 sec. (0.86 ticks)
-Barrier time = 0.02 sec. (0.88 ticks)
+Total time on 8 threads = 0.00 sec. (0.86 ticks)
+Barrier time = 0.00 sec. (0.88 ticks)
 
-Total time on 8 threads = 0.02 sec. (0.88 ticks)
+Total time on 8 threads = 0.00 sec. (0.88 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 75
@@ -946,10 +946,10 @@ Summary statistics for Cholesky factor:
   12   1.1773000e+04   1.1773000e+04  2.30e-09  3.81e-10  9.74e-11  2.90e+08
 Barrier time = 0.00 sec. (0.96 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.22 ticks)
-Barrier time = 0.02 sec. (1.25 ticks)
+Total time on 8 threads = 0.00 sec. (1.22 ticks)
+Barrier time = 0.00 sec. (1.25 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.25 ticks)
+Total time on 8 threads = 0.00 sec. (1.25 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 99
@@ -1001,12 +1001,12 @@ Summary statistics for Cholesky factor:
   11   1.0849891e+04   1.0849558e+04  9.88e-02  1.53e-02  9.91e-06  6.77e+01
   12   1.0852868e+04   1.0852888e+04  6.88e-04  1.07e-04  5.48e-09  3.11e+05
   13   1.0852889e+04   1.0852889e+04  1.28e-07  1.98e-08  3.58e-10  1.59e+08
-Barrier time = 0.01 sec. (0.99 ticks)
+Barrier time = 0.00 sec. (0.99 ticks)
 
-Total time on 8 threads = 0.01 sec. (1.42 ticks)
-Barrier time = 0.01 sec. (1.45 ticks)
+Total time on 8 threads = 0.00 sec. (1.42 ticks)
+Barrier time = 0.00 sec. (1.45 ticks)
 
-Total time on 8 threads = 0.01 sec. (1.45 ticks)
+Total time on 8 threads = 0.00 sec. (1.45 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 122
@@ -1058,12 +1058,12 @@ Summary statistics for Cholesky factor:
   11   5.6256043e+03   5.6242820e+03  1.27e-02  1.93e-03  1.73e-05  4.30e+02
   12   5.6248744e+03   5.6248427e+03  4.40e-04  6.70e-05  1.67e-07  2.90e+04
   13   5.6248519e+03   5.6248518e+03  7.22e-08  1.10e-08  5.75e-11  9.70e+07
-Barrier time = 0.02 sec. (1.11 ticks)
+Barrier time = 0.00 sec. (1.11 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.61 ticks)
-Barrier time = 0.02 sec. (1.64 ticks)
+Total time on 8 threads = 0.00 sec. (1.61 ticks)
+Barrier time = 0.00 sec. (1.64 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.64 ticks)
+Total time on 8 threads = 0.00 sec. (1.64 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 144
@@ -1114,12 +1114,12 @@ Summary statistics for Cholesky factor:
   10   5.5480232e+03   5.5470282e+03  1.37e-02  2.06e-03  1.11e-05  6.47e+02
   11   5.5474547e+03   5.5474545e+03  3.66e-06  5.50e-07  1.59e-09  3.74e+06
   12   5.5474545e+03   5.5474545e+03  4.41e-10  6.71e-11  6.00e-11  2.23e+10
-Barrier time = 0.02 sec. (1.14 ticks)
+Barrier time = 0.00 sec. (1.14 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.69 ticks)
-Barrier time = 0.02 sec. (1.72 ticks)
+Total time on 8 threads = 0.00 sec. (1.69 ticks)
+Barrier time = 0.00 sec. (1.72 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.72 ticks)
+Total time on 8 threads = 0.00 sec. (1.72 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 165
@@ -1145,7 +1145,7 @@ Presolve time = 0.00 sec. (0.44 ticks)
 Symmetry aggregator did 60 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
-Presolve time = 0.02 sec. (0.09 ticks)
+Presolve time = 0.00 sec. (0.09 ticks)
 Parallel mode: using up to 8 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1130
 Using Approximate Minimum Degree ordering
@@ -1220,12 +1220,12 @@ Summary statistics for Cholesky factor:
    7   5.2273462e+03   5.2048443e+03  1.61e-01  2.36e-02  2.90e-01  4.08e+01
    8   5.2126303e+03   5.2126123e+03  1.70e-04  2.49e-05  9.29e-05  1.07e+05
    9   5.2126154e+03   5.2126154e+03  2.70e-08  3.96e-09  9.61e-09  3.04e+08
-Barrier time = 0.02 sec. (1.05 ticks)
+Barrier time = 0.01 sec. (1.05 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.72 ticks)
-Barrier time = 0.02 sec. (1.75 ticks)
+Total time on 8 threads = 0.01 sec. (1.72 ticks)
+Barrier time = 0.01 sec. (1.75 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.75 ticks)
+Total time on 8 threads = 0.01 sec. (1.75 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 207
@@ -1276,12 +1276,12 @@ Summary statistics for Cholesky factor:
   10   5.1303535e+03   5.1301890e+03  2.07e-04  2.95e-05  6.20e-03  3.50e+03
   11   5.1302859e+03   5.1302857e+03  7.24e-07  1.03e-07  8.21e-07  2.62e+07
   12   5.1302857e+03   5.1302857e+03  1.11e-10  1.60e-11  1.48e-10  2.28e+10
-Barrier time = 0.00 sec. (1.40 ticks)
+Barrier time = 0.02 sec. (1.40 ticks)
 
-Total time on 8 threads = 0.00 sec. (1.88 ticks)
-Barrier time = 0.00 sec. (1.92 ticks)
+Total time on 8 threads = 0.02 sec. (1.88 ticks)
+Barrier time = 0.02 sec. (1.92 ticks)
 
-Total time on 8 threads = 0.00 sec. (1.92 ticks)
+Total time on 8 threads = 0.02 sec. (1.92 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 227
@@ -1329,12 +1329,12 @@ Summary statistics for Cholesky factor:
    7   4.4168303e+03   4.4138565e+03  5.24e-03  7.41e-04  6.20e-02  3.61e+02
    8   4.4150002e+03   4.4149998e+03  7.09e-07  1.00e-07  9.05e-06  1.60e+06
    9   4.4150000e+03   4.4150000e+03  6.92e-11  1.00e-11  1.32e-09  1.05e+10
-Barrier time = 0.00 sec. (1.19 ticks)
+Barrier time = 0.01 sec. (1.19 ticks)
 
-Total time on 8 threads = 0.00 sec. (1.70 ticks)
-Barrier time = 0.00 sec. (1.74 ticks)
+Total time on 8 threads = 0.01 sec. (1.70 ticks)
+Barrier time = 0.01 sec. (1.74 ticks)
 
-Total time on 8 threads = 0.00 sec. (1.74 ticks)
+Total time on 8 threads = 0.01 sec. (1.74 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 246
@@ -1381,12 +1381,12 @@ Summary statistics for Cholesky factor:
    6   4.4173249e+03   4.4053743e+03  1.35e-02  1.89e-03  3.76e-01  3.61e+01
    7   4.4150008e+03   4.4149992e+03  3.08e-06  4.31e-07  3.99e-05  4.50e+05
    8   4.4150000e+03   4.4150000e+03  4.05e-10  5.59e-11  4.93e-09  3.31e+09
-Barrier time = 0.02 sec. (1.15 ticks)
+Barrier time = 0.00 sec. (1.15 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.70 ticks)
-Barrier time = 0.02 sec. (1.74 ticks)
+Total time on 8 threads = 0.00 sec. (1.70 ticks)
+Barrier time = 0.00 sec. (1.74 ticks)
 
-Total time on 8 threads = 0.02 sec. (1.74 ticks)
+Total time on 8 threads = 0.00 sec. (1.74 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 264
@@ -1488,12 +1488,12 @@ Summary statistics for Cholesky factor:
    8   4.4155202e+03   4.4147743e+03  1.36e-03  1.87e-04  1.62e-02  1.74e+03
    9   4.4150005e+03   4.4149999e+03  1.36e-06  1.88e-07  1.62e-06  9.65e+06
   10   4.4150000e+03   4.4150000e+03  2.36e-10  2.63e-11  2.93e-10  1.25e+10
-Barrier time = 0.00 sec. (1.51 ticks)
+Barrier time = 0.02 sec. (1.51 ticks)
 
-Total time on 8 threads = 0.00 sec. (2.11 ticks)
-Barrier time = 0.00 sec. (2.16 ticks)
+Total time on 8 threads = 0.02 sec. (2.11 ticks)
+Barrier time = 0.02 sec. (2.16 ticks)
 
-Total time on 8 threads = 0.00 sec. (2.16 ticks)
+Total time on 8 threads = 0.02 sec. (2.16 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 300
@@ -1541,12 +1541,12 @@ Summary statistics for Cholesky factor:
    7   4.4023083e+03   4.3790342e+03  5.31e-02  7.31e-03  6.86e-01  2.70e+01
    8   4.3955731e+03   4.3954775e+03  5.84e-04  8.03e-05  8.64e-04  2.23e+04
    9   4.3955000e+03   4.3955000e+03  7.96e-08  1.09e-08  1.16e-07  7.06e+07
-Barrier time = 0.01 sec. (1.45 ticks)
+Barrier time = 0.02 sec. (1.45 ticks)
 
-Total time on 8 threads = 0.01 sec. (2.09 ticks)
-Barrier time = 0.01 sec. (2.14 ticks)
+Total time on 8 threads = 0.02 sec. (2.09 ticks)
+Barrier time = 0.02 sec. (2.14 ticks)
 
-Total time on 8 threads = 0.01 sec. (2.14 ticks)
+Total time on 8 threads = 0.02 sec. (2.14 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 317
@@ -1650,10 +1650,10 @@ Summary statistics for Cholesky factor:
   10   4.3700000e+03   4.3700000e+03  7.65e-11  1.03e-11  6.47e-10  2.89e+10
 Barrier time = 0.00 sec. (1.67 ticks)
 
-Total time on 8 threads = 0.02 sec. (2.35 ticks)
-Barrier time = 0.02 sec. (2.40 ticks)
+Total time on 8 threads = 0.00 sec. (2.35 ticks)
+Barrier time = 0.00 sec. (2.40 ticks)
 
-Total time on 8 threads = 0.02 sec. (2.40 ticks)
+Total time on 8 threads = 0.00 sec. (2.40 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 345
@@ -1729,7 +1729,7 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 2 rows and 12 columns.
 Reduced LP has 105 rows, 455 columns, and 3274 nonzeros.
-Presolve time = 0.02 sec. (0.44 ticks)
+Presolve time = 0.00 sec. (0.44 ticks)
 Symmetry aggregator did 46 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
@@ -1759,10 +1759,10 @@ Summary statistics for Cholesky factor:
   11   4.3680000e+03   4.3680000e+03  1.58e-10  1.32e-11  7.17e-10  3.09e+10
 Barrier time = 0.00 sec. (1.88 ticks)
 
-Total time on 8 threads = 0.02 sec. (2.62 ticks)
-Barrier time = 0.02 sec. (2.68 ticks)
+Total time on 8 threads = 0.00 sec. (2.62 ticks)
+Barrier time = 0.00 sec. (2.68 ticks)
 
-Total time on 8 threads = 0.02 sec. (2.68 ticks)
+Total time on 8 threads = 0.00 sec. (2.68 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372
@@ -1865,12 +1865,12 @@ Summary statistics for Cholesky factor:
    8   4.3875094e+03   4.3305479e+03  2.60e-01  3.40e-02  1.06e+00  1.46e+01
    9   4.3641445e+03   4.3639074e+03  1.64e-03  2.15e-04  2.79e-03  5.51e+03
   10   4.3640000e+03   4.3640000e+03  1.99e-07  2.61e-08  3.91e-07  2.91e+07
-Barrier time = 0.03 sec. (1.80 ticks)
+Barrier time = 0.00 sec. (1.80 ticks)
 
-Total time on 8 threads = 0.03 sec. (2.55 ticks)
-Barrier time = 0.03 sec. (2.61 ticks)
+Total time on 8 threads = 0.00 sec. (2.55 ticks)
+Barrier time = 0.00 sec. (2.61 ticks)
 
-Total time on 8 threads = 0.03 sec. (2.61 ticks)
+Total time on 8 threads = 0.00 sec. (2.61 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381
@@ -1894,7 +1894,7 @@ MIP Presolve eliminated 27 rows and 17 columns.
 Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
 Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
 Presolve time = 0.00 sec. (1.49 ticks)
-Probing time = 0.02 sec. (2.37 ticks)
+Probing time = 0.00 sec. (2.37 ticks)
 Tried aggregator 1 time.
 Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
 Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
@@ -1904,7 +1904,7 @@ Clique table members: 136.
 MIP emphasis: balance optimality and feasibility.
 MIP search method: dynamic search.
 Parallel mode: deterministic, using up to 8 threads.
-Root relaxation solution time = 0.02 sec. (1.59 ticks)
+Root relaxation solution time = 0.00 sec. (1.59 ticks)
 
         Nodes                                         Cuts/
    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
@@ -1912,16 +1912,16 @@ Root relaxation solution time = 0.02 sec. (1.59 ticks)
 *     0+    0                        76000.0000     1600.0000            97.89%
 *     0+    0                        12356.0000     1600.0000            87.05%
 *     0     0      integral     0     4364.0000     4364.0000       11   -0.00%
-Elapsed time = 0.06 sec. (11.04 ticks, tree = 0.00 MB, solutions = 3)
+Elapsed time = 0.03 sec. (11.04 ticks, tree = 0.00 MB, solutions = 3)
 
 Root node processing (before b&c):
-  Real time             =    0.06 sec. (11.06 ticks)
+  Real time             =    0.03 sec. (11.06 ticks)
 Parallel b&c, 8 threads:
   Real time             =    0.00 sec. (0.00 ticks)
   Sync time (average)   =    0.00 sec.
   Wait time (average)   =    0.00 sec.
                           ------------
-Total (root+branch&cut) =    0.06 sec. (11.06 ticks)
+Total (root+branch&cut) =    0.03 sec. (11.06 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 381

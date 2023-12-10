@@ -24,10 +24,10 @@ class Model:
 
     def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
-        print("air size:", len(self._aircraftList))
+        # print("air size:", len(self._aircraftList))
         for _aircraft in self._aircraftList:
             tempLof = self.findNewMultiColumns(_aircraft)
-            print("multi size:", len(tempLof), flush=True)
+            # print("multi size:", len(tempLof), flush=True)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
         print("Number of Better Lofs is " + str(len(betterLof)))
@@ -66,7 +66,7 @@ class Model:
                 caset2 = time.time()
                 # print("case time: ", caset2 - caset1)
         time2 = time.time()
-        print("time range1: ", time2 - time1, flush=True)
+        # print("time range1: ", time2 - time1, flush=True)
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
             for _subNode in _arrLeg.getSubNodeList():
@@ -127,7 +127,7 @@ class Model:
             else:
                 break
         time3 = time.time()
-        print("time range2: ", time3 - time2)
+        # print("time range2: ", time3 - time2)
         for _leg in self._legList:
             _leg.resetLeg()
         return betterLof
@@ -506,7 +506,7 @@ class Model:
     header = "C:\\Code\\ARP_CG\\LP\\PY\\"
 
     def solve(self) -> None:
-        name = Model.header + "pp_" + str(Model._count) + ".lp"
+        name = Model.header + "pp_" + str(Model._count) + ".mps"
         Model._count += 1
         """
         -1=automatic,
@@ -568,7 +568,7 @@ class Model:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
-        self._model.write("recovery_pp.lp")
+        self._model.write("recovery_pp.mps")
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))

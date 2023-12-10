@@ -737,12 +737,12 @@ Coefficient statistics:
   Bounds range     [1e+00, 1e+00]
   RHS range        [1e+00, 1e+00]
 Presolve removed 107 rows and 103 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolve: All rows and columns removed
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
        0    2.4000000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Solved in 0 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  2.400000000e+04
 
 Number of leg variables is: 95
@@ -755,43 +755,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 0 *********************
 
-air size: 12
-time range1:  0.009283065795898438
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01237940788269043
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01637434959411621
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01501011848449707
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 1 *********************
@@ -829,7 +792,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    5   2.28860001e+04  2.28859999e+04  1.33e-14 9.09e-13  9.92e-07     0s
    6   2.28860000e+04  2.28860000e+04  2.20e-14 1.82e-12  9.92e-10     0s
 
-Barrier solved model in 6 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 6 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 2.28860000e+04
 
 Crossover log...
@@ -844,7 +807,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       32    2.2886000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 32 iterations and 0.00 seconds (0.00 work units)
+Solved in 32 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  2.288600000e+04
 
 Number of leg variables is: 95
@@ -857,43 +820,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 1 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01598525047302246
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015844345092773438
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.02072596549987793
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.005481243133544922
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.010517358779907227
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 2 *********************
@@ -932,7 +858,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   2.28300000e+04  2.28300000e+04  1.87e-13 1.14e-12  1.02e-07     0s
    7   2.28300000e+04  2.28300000e+04  8.22e-15 6.82e-13  1.07e-13     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 2.28300000e+04
 
 Crossover log...
@@ -947,7 +873,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       40    2.2830000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 40 iterations and 0.00 seconds (0.00 work units)
+Solved in 40 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  2.283000000e+04
 
 Number of leg variables is: 95
@@ -960,43 +886,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 2 *********************
 
-air size: 12
-time range1:  0.010731935501098633
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015527486801147461
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016353845596313477
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015025615692138672
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016587495803833008
-time range2:  0.0
-multi size: 2
-time range1:  0.008805036544799805
-time range2:  0.0008368492126464844
-multi size: 2
-time range1:  0.0028040409088134766
-time range2:  0.0025339126586914062
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 3 *********************
@@ -1063,43 +952,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 3 *********************
 
-air size: 12
-time range1:  0.011124610900878906
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015097379684448242
-time range2:  0.0
-multi size: 1
-time range1:  0.005307674407958984
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.010535240173339844
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016074180603027344
-time range2:  0.0
-multi size: 2
-time range1:  0.015682697296142578
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016829490661621094
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 4 *********************
@@ -1154,7 +1006,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       60    1.1859000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 60 iterations and 0.01 seconds (0.00 work units)
+Solved in 60 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  1.185900000e+04
 
 Number of leg variables is: 95
@@ -1167,43 +1019,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 4 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01607990264892578
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.010031461715698242
-time range2:  0.0
-multi size: 1
-time range1:  0.006033897399902344
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015649080276489258
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01736164093017578
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 5 *********************
@@ -1270,43 +1085,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 5 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015650033950805664
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016405820846557617
-time range2:  0.0
-multi size: 1
-time range1:  0.007592678070068359
-time range2:  0.0
-multi size: 2
-time range1:  0.014497756958007812
-time range2:  0.0
-multi size: 2
-time range1:  0.009511470794677734
-time range2:  0.0
-multi size: 2
-time range1:  0.0014100074768066406
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015935659408569336
-time range2:  5.602836608886719e-05
-multi size: 2
-time range1:  0.0031337738037109375
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 6 *********************
@@ -1346,7 +1124,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   9.56483345e+03  9.56483318e+03  2.14e-10 1.82e-12  5.86e-07     0s
    8   9.56483333e+03  9.56483333e+03  4.04e-12 1.82e-12  7.29e-13     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 9.56483333e+03
 
 Crossover log...
@@ -1361,7 +1139,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       50    9.5648333e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 50 iterations and 0.01 seconds (0.00 work units)
+Solved in 50 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  9.564833333e+03
 
 Number of leg variables is: 95
@@ -1374,43 +1152,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 6 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01502084732055664
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016431093215942383
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016402482986450195
-time range2:  0.0
-multi size: 2
-time range1:  0.002515554428100586
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 7 *********************
@@ -1450,7 +1191,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   8.36880137e+03  8.36879952e+03  1.31e-09 1.14e-12  3.59e-06     0s
    8   8.36880000e+03  8.36880000e+03  3.08e-12 1.59e-12  4.67e-11     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 8.36880000e+03
 
 Crossover log...
@@ -1465,7 +1206,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       51    8.3688000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 51 iterations and 0.00 seconds (0.00 work units)
+Solved in 51 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  8.368800000e+03
 
 Number of leg variables is: 95
@@ -1478,43 +1219,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 7 *********************
 
-air size: 12
-time range1:  0.014036417007446289
-time range2:  0.0
-multi size: 2
-time range1:  0.005654096603393555
-time range2:  0.0
-multi size: 2
-time range1:  0.010017633438110352
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01566028594970703
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.01563119888305664
-multi size: 2
-time range1:  0.0007026195526123047
-time range2:  0.0
-multi size: 2
-time range1:  0.015022993087768555
-time range2:  0.0
-multi size: 2
-time range1:  0.009516000747680664
-time range2:  0.0
-multi size: 2
-time range1:  0.006541252136230469
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 8 *********************
@@ -1555,7 +1259,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    8   8.29965016e+03  8.29964457e+03  3.97e-09 1.36e-12  9.93e-06     0s
    9   8.29964828e+03  8.29964827e+03  2.09e-12 9.09e-13  9.93e-09     0s
 
-Barrier solved model in 9 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 9 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 8.29964828e+03
 
 Crossover log...
@@ -1570,7 +1274,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       32    8.2996483e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 32 iterations and 0.02 seconds (0.00 work units)
+Solved in 32 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  8.299648276e+03
 
 Number of leg variables is: 95
@@ -1583,43 +1287,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 8 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015619516372680664
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.018972158432006836
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.012379646301269531
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01501321792602539
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 24
 
  ********************* LP SOLUTION 9 *********************
@@ -1660,7 +1327,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    8   5.32684900e+03  5.32684722e+03  2.27e-09 1.82e-12  2.91e-06     0s
    9   5.32684849e+03  5.32684848e+03  3.57e-13 9.09e-13  2.91e-09     0s
 
-Barrier solved model in 9 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 9 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 5.32684849e+03
 
 Crossover log...
@@ -1675,7 +1342,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       45    5.3268485e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 45 iterations and 0.02 seconds (0.00 work units)
+Solved in 45 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  5.326848485e+03
 
 Number of leg variables is: 95
@@ -1688,43 +1355,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 9 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015541315078735352
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01566624641418457
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015629053115844727
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01563549041748047
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016222000122070312
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 10 *********************
@@ -1793,43 +1423,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 10 *********************
 
-air size: 12
-time range1:  0.011282682418823242
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.011534690856933594
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0010180473327636719
-time range2:  0.005194902420043945
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.009535074234008789
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 23
 
  ********************* LP SOLUTION 11 *********************
@@ -1883,7 +1476,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       73    4.7295000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 73 iterations and 0.01 seconds (0.00 work units)
+Solved in 73 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.729500000e+03
 
 Number of leg variables is: 95
@@ -1896,43 +1489,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 11 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015729665756225586
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.009747743606567383
-multi size: 2
-time range1:  0.0005125999450683594
-time range2:  0.0
-multi size: 2
-time range1:  0.00551605224609375
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015662670135498047
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 12 *********************
@@ -1999,43 +1555,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 12 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01565241813659668
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.015614032745361328
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015629291534423828
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 13 *********************
@@ -2102,43 +1621,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 13 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015970945358276367
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015793800354003906
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01569819450378418
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 14 *********************
@@ -2193,7 +1675,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       74    4.7295000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 74 iterations and 0.01 seconds (0.00 work units)
+Solved in 74 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.729500000e+03
 
 Number of leg variables is: 95
@@ -2206,42 +1688,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 14 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.015643835067749023
-time range2:  0.0
-multi size: 2
-time range1:  0.00545048713684082
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01051640510559082
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 15 *********************
@@ -2280,7 +1726,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.47450117e+03  4.47449901e+03  8.50e-13 6.82e-13  2.44e-06     0s
    7   4.47450000e+03  4.47450000e+03  2.26e-13 1.14e-12  1.08e-11     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 4.47450000e+03
 
 Crossover log...
@@ -2295,7 +1741,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       79    4.4745000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 79 iterations and 0.00 seconds (0.00 work units)
+Solved in 79 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  4.474500000e+03
 
 Number of leg variables is: 95
@@ -2308,43 +1754,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 15 *********************
 
-air size: 12
-time range1:  0.01356649398803711
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016073226928710938
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01610565185546875
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.010190963745117188
-time range2:  0.0
-multi size: 2
-time range1:  0.006407976150512695
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 16 *********************
@@ -2411,43 +1820,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 16 *********************
 
-air size: 12
-time range1:  0.016556978225708008
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01503300666809082
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015644073486328125
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015737533569335938
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 17 *********************
@@ -2501,7 +1873,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       68    4.4745000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 68 iterations and 0.00 seconds (0.00 work units)
+Solved in 68 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  4.474500000e+03
 
 Number of leg variables is: 95
@@ -2514,43 +1886,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 17 *********************
 
-air size: 12
-time range1:  0.015028238296508789
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016518115997314453
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01650524139404297
-time range2:  0.0
-multi size: 2
-time range1:  0.004132509231567383
-time range2:  0.0
-multi size: 2
-time range1:  0.004141330718994141
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0011289119720458984
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 18 *********************
@@ -2567,7 +1902,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 3 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 502 columns, 3647 nonzeros
 
 Ordering time: 0.00s
@@ -2589,7 +1924,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.45600545e+03  4.45599588e+03  1.44e-11 6.82e-13  9.43e-06     0s
    7   4.45600000e+03  4.45600000e+03  9.59e-13 6.82e-13  2.72e-10     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.45600000e+03
 
 Crossover log...
@@ -2605,7 +1940,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       71    4.4560000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 71 iterations and 0.01 seconds (0.00 work units)
+Solved in 71 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.456000000e+03
 
 Number of leg variables is: 95
@@ -2618,42 +1953,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 18 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016632080078125
-time range2:  0.0
-multi size: 1
-time range1:  0.004525184631347656
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.010538101196289062
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01565384864807129
-time range2:  0.0
-multi size: 2
-time range1:  0.006349086761474609
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 19
 
  ********************* LP SOLUTION 19 *********************
@@ -2722,43 +2021,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 19 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.014775753021240234
-time range2:  0.0
-multi size: 1
-time range1:  0.007153987884521484
-time range2:  0.0
-multi size: 1
-time range1:  0.009212255477905273
-time range2:  0.0010285377502441406
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.014344215393066406
-time range2:  0.0
-multi size: 2
-time range1:  0.009654521942138672
-time range2:  0.0
-multi size: 2
-time range1:  0.007221221923828125
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01495981216430664
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 20 *********************
@@ -2827,43 +2089,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 20 *********************
 
-air size: 12
-time range1:  0.014531850814819336
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.017052888870239258
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.014515876770019531
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01551675796508789
-time range2:  0.0
-multi size: 2
-time range1:  0.0011608600616455078
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.014520406723022461
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 21 *********************
@@ -2902,7 +2127,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.45600953e+03  4.45598002e+03  4.10e-13 7.96e-13  2.59e-05     0s
    7   4.45600001e+03  4.45600000e+03  1.35e-11 6.82e-13  7.06e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.45600001e+03
 
 Crossover log...
@@ -2919,7 +2144,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       77    4.4560000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 77 iterations and 0.01 seconds (0.00 work units)
+Solved in 77 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.456000000e+03
 
 Number of leg variables is: 95
@@ -2932,43 +2157,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 21 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015030860900878906
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01665353775024414
-time range2:  0.0
-multi size: 2
-time range1:  0.0053920745849609375
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 22 *********************
@@ -3024,7 +2212,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       81    4.4560000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 81 iterations and 0.01 seconds (0.00 work units)
+Solved in 81 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.456000000e+03
 
 Number of leg variables is: 95
@@ -3037,43 +2225,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 22 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01566338539123535
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015601158142089844
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015656709671020508
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015601873397827148
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 22
 
  ********************* LP SOLUTION 23 *********************
@@ -3090,7 +2241,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 4 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 606 columns, 4589 nonzeros
 
 Ordering time: 0.00s
@@ -3112,7 +2263,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.40322481e+03  4.40317109e+03  7.91e-09 9.09e-13  4.39e-05     0s
    7   4.40320000e+03  4.40320000e+03  6.28e-12 1.14e-12  2.73e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 4.40320000e+03
 
 Crossover log...
@@ -3128,7 +2279,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       66    4.4032000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 66 iterations and 0.01 seconds (0.00 work units)
+Solved in 66 iterations and 0.02 seconds (0.00 work units)
 Optimal objective  4.403200000e+03
 
 Number of leg variables is: 95
@@ -3141,42 +2292,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 23 *********************
 
-air size: 12
-time range1:  0.004603862762451172
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016440153121948242
-time range2:  0.0
-multi size: 1
-time range1:  0.01641988754272461
-time range2:  0.0
-multi size: 2
-time range1:  0.0015244483947753906
-time range2:  0.0
-multi size: 1
-time range1:  0.013833045959472656
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01563715934753418
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 18
 
  ********************* LP SOLUTION 24 *********************
@@ -3193,7 +2308,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 4 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 624 columns, 4744 nonzeros
 
 Ordering time: 0.00s
@@ -3234,7 +2349,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       72    4.4016000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 72 iterations and 0.03 seconds (0.01 work units)
+Solved in 72 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.401600000e+03
 
 Number of leg variables is: 95
@@ -3247,43 +2362,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 24 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015027761459350586
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.018395423889160156
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.013034343719482422
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01566147804260254
-time range2:  0.0
-multi size: 1
-time range1:  0.004387617111206055
-time range2:  0.0
-multi size: 2
-time range1:  0.0020096302032470703
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 18
 
  ********************* LP SOLUTION 25 *********************
@@ -3324,7 +2402,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    8   4.40160007e+03  4.40159991e+03  7.19e-11 9.09e-13  1.19e-07     0s
    9   4.40160000e+03  4.40160000e+03  7.66e-12 9.09e-13  1.19e-10     0s
 
-Barrier solved model in 9 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 9 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 4.40160000e+03
 
 Crossover log...
@@ -3340,7 +2418,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       67    4.4016000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 67 iterations and 0.02 seconds (0.01 work units)
+Solved in 67 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.401600000e+03
 
 Number of leg variables is: 95
@@ -3353,42 +2431,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 25 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.009001493453979492
-time range2:  0.0
-multi size: 1
-time range1:  0.008908987045288086
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.013756752014160156
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015748023986816406
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016785860061645508
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.010526180267333984
-multi size: 2
 Number of Better Lofs is 19
 
  ********************* LP SOLUTION 26 *********************
@@ -3458,42 +2500,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 26 *********************
 
-air size: 12
-time range1:  0.015735149383544922
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01587057113647461
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01594090461730957
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016838788986206055
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015209674835205078
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015368223190307617
-time range2:  0.0
-multi size: 1
-time range1:  0.007893085479736328
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 14
 
  ********************* LP SOLUTION 27 *********************
@@ -3510,7 +2516,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 4 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 675 columns, 5195 nonzeros
 
 Ordering time: 0.00s
@@ -3533,7 +2539,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.40168310e+03  4.40155916e+03  8.05e-07 9.09e-13  9.13e-05     0s
    8   4.40160001e+03  4.40160000e+03  2.28e-11 9.09e-13  7.01e-09     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.40160001e+03
 
 Crossover log...
@@ -3549,7 +2555,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       76    4.4016000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 76 iterations and 0.02 seconds (0.01 work units)
+Solved in 76 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.401600000e+03
 
 Number of leg variables is: 95
@@ -3562,42 +2568,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 27 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0006577968597412109
-time range2:  0.0
-multi size: 2
-time range1:  0.007597208023071289
-time range2:  0.0
-multi size: 1
-time range1:  0.01240086555480957
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.010990381240844727
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.00847935676574707
-time range2:  0.0
-multi size: 1
-time range1:  0.00722813606262207
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 16
 
  ********************* LP SOLUTION 28 *********************
@@ -3637,7 +2607,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.37800001e+03  4.37799999e+03  5.32e-12 6.82e-13  1.10e-08     0s
    8   4.37800000e+03  4.37800000e+03  1.19e-13 6.82e-13  3.04e-14     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
 Optimal objective 4.37800000e+03
 
 Crossover log...
@@ -3652,7 +2622,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       78    4.3780000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 78 iterations and 0.00 seconds (0.01 work units)
+Solved in 78 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.378000000e+03
 
 Number of leg variables is: 95
@@ -3665,43 +2635,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 28 *********************
 
-air size: 12
-time range1:  0.012563705444335938
-time range2:  0.0
-multi size: 2
-time range1:  0.009526491165161133
-time range2:  0.0
-multi size: 1
-time range1:  0.006512165069580078
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015645503997802734
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01578664779663086
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 29 *********************
@@ -3718,7 +2651,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 4 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 712 columns, 5507 nonzeros
 
 Ordering time: 0.00s
@@ -3741,7 +2674,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.37800486e+03  4.37799819e+03  2.75e-10 1.02e-12  4.64e-06     0s
    8   4.37800000e+03  4.37800000e+03  2.65e-12 7.96e-13  2.01e-10     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.37800000e+03
 
 Crossover log...
@@ -3769,39 +2702,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 29 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0156557559967041
-time range2:  0.0007350444793701172
-multi size: 1
-time range1:  0.0040225982666015625
-multi size: 0
-time range1:  0.013426780700683594
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.013018131256103516
-time range2:  0.0
-multi size: 2
-time range1:  0.016979455947875977
-time range2:  0.0
-multi size: 2
-time range1:  0.015084266662597656
-multi size: 0
-time range1:  0.025431394577026367
-multi size: 0
-time range1:  0.014714956283569336
-time range2:  0.0
-multi size: 2
-time range1:  0.015718460083007812
-multi size: 0
-time range1:  0.010230779647827148
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 13
 
  ********************* LP SOLUTION 30 *********************
@@ -3840,7 +2740,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36436237e+03  4.36398230e+03  4.20e-10 9.09e-13  2.60e-04     0s
    7   4.36400000e+03  4.36400000e+03  4.75e-14 5.68e-13  2.74e-09     0s
 
-Barrier solved model in 7 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3855,7 +2755,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       89    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 89 iterations and 0.02 seconds (0.01 work units)
+Solved in 89 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3868,40 +2768,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 30 *********************
 
-air size: 12
-time range1:  0.0040225982666015625
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0165863037109375
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015021800994873047
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016123533248901367
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015620708465576172
-multi size: 0
 Number of Better Lofs is 14
 
  ********************* LP SOLUTION 31 *********************
@@ -3941,7 +2807,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400006e+03  4.36399991e+03  2.72e-14 9.09e-13  9.85e-08     0s
    8   4.36400000e+03  4.36400000e+03  3.86e-13 9.09e-13  4.33e-13     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3956,7 +2822,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       81    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 81 iterations and 0.00 seconds (0.01 work units)
+Solved in 81 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3969,41 +2835,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 31 *********************
 
-air size: 12
-time range1:  0.015630722045898438
-time range2:  0.0013358592987060547
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.014515161514282227
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01868152618408203
-time range2:  0.0
-multi size: 2
-time range1:  0.0025115013122558594
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.01842474937438965
-time range2:  0.0005745887756347656
-multi size: 2
-time range1:  0.00677943229675293
-multi size: 0
-time range1:  0.01657557487487793
-time range2:  0.004749298095703125
-multi size: 1
 Number of Better Lofs is 15
 
  ********************* LP SOLUTION 32 *********************
@@ -4020,7 +2851,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 5 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 753 columns, 5878 nonzeros
 
 Ordering time: 0.00s
@@ -4072,42 +2903,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 32 *********************
 
-air size: 12
-time range1:  0.01501917839050293
-time range2:  0.0
-multi size: 2
-time range1:  0.002520322799682617
-time range2:  0.0
-multi size: 2
-time range1:  0.0050275325775146484
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015670299530029297
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.015624523162841797
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 33 *********************
@@ -4146,7 +2941,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36444066e+03  4.36394926e+03  1.93e-11 1.14e-12  3.15e-04     0s
    7   4.36400001e+03  4.36399999e+03  1.07e-13 9.09e-13  6.68e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 7 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400001e+03
 
 Crossover log...
@@ -4161,7 +2956,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       86    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 86 iterations and 0.01 seconds (0.01 work units)
+Solved in 86 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4174,43 +2969,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 33 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.017491579055786133
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015044689178466797
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01552128791809082
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016507387161254883
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 21
 
  ********************* LP SOLUTION 34 *********************
@@ -4250,7 +3008,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400023e+03  4.36399983e+03  2.03e-13 1.02e-12  2.48e-07     0s
    8   4.36400000e+03  4.36400000e+03  2.62e-13 7.96e-13  2.11e-12     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4265,7 +3023,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       82    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 82 iterations and 0.02 seconds (0.01 work units)
+Solved in 82 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4278,42 +3036,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 34 *********************
 
-air size: 12
-time range1:  0.0026922225952148438
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.020446062088012695
-time range2:  0.0
-multi size: 2
-time range1:  0.010519266128540039
-time range2:  0.0
-multi size: 2
-time range1:  0.019666194915771484
-time range2:  0.0
-multi size: 2
-time range1:  0.009518623352050781
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01571345329284668
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015658855438232422
-time range2:  0.0
-multi size: 1
-time range1:  0.016327619552612305
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 17
 
  ********************* LP SOLUTION 35 *********************
@@ -4330,7 +3052,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 6 columns
-Presolve time: 0.02s
+Presolve time: 0.00s
 Presolved: 105 rows, 811 columns, 6375 nonzeros
 
 Ordering time: 0.00s
@@ -4353,7 +3075,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400914e+03  4.36399971e+03  6.23e-11 9.09e-13  5.77e-06     0s
    8   4.36400000e+03  4.36400000e+03  1.48e-13 9.09e-13  2.28e-11     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4368,7 +3090,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       76    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 76 iterations and 0.02 seconds (0.01 work units)
+Solved in 76 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4381,38 +3103,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 35 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015017032623291016
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015667200088500977
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015645265579223633
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.015588521957397461
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 13
 
  ********************* LP SOLUTION 36 *********************
@@ -4479,37 +3169,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 36 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015851259231567383
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.015642404556274414
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.01741480827331543
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.014106512069702148
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 10
 
  ********************* LP SOLUTION 37 *********************
@@ -4529,7 +3188,7 @@ Presolve removed 2 rows and 6 columns
 Presolve time: 0.00s
 Presolved: 105 rows, 834 columns, 6560 nonzeros
 
-Ordering time: 0.00s
+Ordering time: 0.02s
 
 Barrier statistics:
  AA' NZ     : 3.101e+03
@@ -4550,7 +3209,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    8   4.36400003e+03  4.36399999e+03  1.28e-10 1.14e-12  2.81e-08     0s
    9   4.36400000e+03  4.36400000e+03  1.80e-14 1.14e-12  8.29e-14     0s
 
-Barrier solved model in 9 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 9 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4565,7 +3224,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       74    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 74 iterations and 0.01 seconds (0.01 work units)
+Solved in 74 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4578,41 +3237,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 37 *********************
 
-air size: 12
-time range1:  0.014531850814819336
-time range2:  0.0
-multi size: 2
-time range1:  0.005047798156738281
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.011042356491088867
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016051769256591797
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.015655517578125
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 15
 
  ********************* LP SOLUTION 38 *********************
@@ -4652,7 +3276,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36404297e+03  4.36398485e+03  4.69e-10 1.36e-12  3.40e-05     0s
    8   4.36400000e+03  4.36400000e+03  3.03e-12 1.14e-12  2.94e-09     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4668,7 +3292,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       80    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 80 iterations and 0.02 seconds (0.01 work units)
+Solved in 80 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4681,38 +3305,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 38 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.015664339065551758
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016138076782226562
-multi size: 0
-time range1:  0.0
-time range2:  0.0159604549407959
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016121625900268555
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.016177892684936523
-multi size: 0
 Number of Better Lofs is 12
 
  ********************* LP SOLUTION 39 *********************
@@ -4781,37 +3373,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 39 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.014517545700073242
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016717195510864258
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.016117095947265625
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.020372867584228516
-multi size: 0
-time range1:  0.010854482650756836
-multi size: 0
-time range1:  0.007463693618774414
-multi size: 0
-time range1:  0.011132478713989258
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 8
 
  ********************* LP SOLUTION 40 *********************
@@ -4880,40 +3441,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 40 *********************
 
-air size: 12
-time range1:  0.012034416198730469
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015675067901611328
-time range2:  0.0
-multi size: 2
-time range1:  0.009515047073364258
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.003792285919189453
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.012016057968139648
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.015661001205444336
-multi size: 0
 Number of Better Lofs is 13
 
  ********************* LP SOLUTION 41 *********************
@@ -4983,36 +3510,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 41 *********************
 
-air size: 12
-time range1:  0.01580667495727539
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.015665292739868164
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016207218170166016
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.01605057716369629
-multi size: 0
-time range1:  0.012042760848999023
-multi size: 0
 Number of Better Lofs is 9
 
  ********************* LP SOLUTION 42 *********************
@@ -5081,40 +3578,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 42 *********************
 
-air size: 12
-time range1:  0.014523983001708984
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.017765522003173828
-time range2:  0.0
-multi size: 1
-time range1:  0.002621889114379883
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.011092901229858398
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.015729427337646484
-multi size: 0
-time range1:  0.0020568370819091797
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 13
 
  ********************* LP SOLUTION 43 *********************
@@ -5131,7 +3594,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 9 columns
-Presolve time: 0.02s
+Presolve time: 0.00s
 Presolved: 105 rows, 901 columns, 7173 nonzeros
 
 Ordering time: 0.00s
@@ -5154,7 +3617,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36402495e+03  4.36399733e+03  1.56e-08 9.32e-13  1.52e-05     0s
    8   4.36400000e+03  4.36400000e+03  8.36e-13 9.09e-13  1.42e-10     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -5170,7 +3633,7 @@ Extra simplex iterations after uncrush: 6
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       83    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 83 iterations and 0.03 seconds (0.01 work units)
+Solved in 83 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5183,35 +3646,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 43 *********************
 
-air size: 12
-time range1:  0.0
-multi size: 0
-time range1:  0.01002049446105957
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.006012678146362305
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.023426294326782227
-time range2:  0.0008642673492431641
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0014600753784179688
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.014517784118652344
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 7
 
  ********************* LP SOLUTION 44 *********************
@@ -5228,7 +3662,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 9 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 908 columns, 7233 nonzeros
 
 Ordering time: 0.00s
@@ -5251,7 +3685,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36403319e+03  4.36398548e+03  1.16e-08 1.36e-12  2.61e-05     0s
    8   4.36400001e+03  4.36400000e+03  3.57e-11 9.09e-13  7.44e-09     0s
 
-Barrier solved model in 8 iterations and 0.03 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400001e+03
 
 Crossover log...
@@ -5267,7 +3701,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       80    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 80 iterations and 0.03 seconds (0.01 work units)
+Solved in 80 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5280,36 +3714,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 44 *********************
 
-air size: 12
-time range1:  0.0010328292846679688
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.016099214553833008
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.016719818115234375
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01594853401184082
-multi size: 0
-time range1:  0.012141227722167969
-multi size: 0
-time range1:  0.003031015396118164
-multi size: 0
-time range1:  0.015676498413085938
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 7
 
  ********************* LP SOLUTION 45 *********************
@@ -5326,7 +3730,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 10 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 914 columns, 7284 nonzeros
 
 Ordering time: 0.00s
@@ -5378,36 +3782,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 45 *********************
 
-air size: 12
-time range1:  0.015029430389404297
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.019792795181274414
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.012393474578857422
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.01903247833251953
-time range2:  0.0
-multi size: 2
-time range1:  0.009952545166015625
-time range2:  0.0
-multi size: 1
-time range1:  0.00870966911315918
-multi size: 0
-time range1:  0.00902414321899414
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 7
 
  ********************* LP SOLUTION 46 *********************
@@ -5424,7 +3798,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 11 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 920 columns, 7340 nonzeros
 
 Ordering time: 0.00s
@@ -5476,36 +3850,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 46 *********************
 
-air size: 12
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.015638351440429688
-time range2:  0.0
-multi size: 1
-time range1:  0.008300542831420898
-time range2:  0.0
-multi size: 2
-time range1:  0.007542133331298828
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.015646696090698242
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.016035079956054688
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 8
 
  ********************* LP SOLUTION 47 *********************
@@ -5545,7 +3889,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400204e+03  4.36399886e+03  2.74e-12 9.09e-13  1.71e-06     0s
    8   4.36400000e+03  4.36400000e+03  1.07e-10 1.08e-12  2.51e-09     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -5561,7 +3905,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       77    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 77 iterations and 0.02 seconds (0.01 work units)
+Solved in 77 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5574,37 +3918,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 47 *********************
 
-air size: 12
-time range1:  0.015631437301635742
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.016352176666259766
-time range2:  0.0
-multi size: 1
-time range1:  0.002521038055419922
-time range2:  0.0
-multi size: 2
-time range1:  0.007930994033813477
-multi size: 0
-time range1:  0.006883144378662109
-multi size: 0
-time range1:  0.00639796257019043
-time range2:  0.0
-multi size: 1
-time range1:  0.008823156356811523
-multi size: 0
-time range1:  0.008513927459716797
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 9
 
  ********************* LP SOLUTION 48 *********************
@@ -5673,37 +3986,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 48 *********************
 
-air size: 12
-time range1:  0.016031980514526367
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015640735626220703
-time range2:  0.0
-multi size: 1
-time range1:  0.006551265716552734
-time range2:  0.0
-multi size: 1
-time range1:  0.009538412094116211
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.015655994415283203
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 6
 
  ********************* LP SOLUTION 49 *********************
@@ -5759,7 +4041,7 @@ Extra simplex iterations after uncrush: 10
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       86    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 86 iterations and 0.02 seconds (0.01 work units)
+Solved in 86 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5772,35 +4054,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 49 *********************
 
-air size: 12
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.014099836349487305
-multi size: 0
-time range1:  0.0020966529846191406
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.016031980514526367
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.01666092872619629
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.016910552978515625
-time range2:  0.0
-multi size: 1
 Number of Better Lofs is 5
 
  ********************* LP SOLUTION 50 *********************
@@ -5840,7 +4093,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400024e+03  4.36399978e+03  7.36e-11 1.36e-12  2.38e-07     0s
    8   4.36400000e+03  4.36400000e+03  2.02e-12 1.42e-12  7.57e-13     0s
 
-Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -5856,7 +4109,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       78    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 78 iterations and 0.02 seconds (0.01 work units)
+Solved in 78 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5869,35 +4122,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 50 *********************
 
-air size: 12
-time range1:  0.0
-multi size: 0
-time range1:  0.01562976837158203
-multi size: 0
-time range1:  0.0035200119018554688
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.01259756088256836
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.016506671905517578
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.015044927597045898
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 6
 
  ********************* LP SOLUTION 51 *********************
@@ -5914,7 +4138,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 13 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 952 columns, 7617 nonzeros
 
 Ordering time: 0.00s
@@ -5937,7 +4161,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400298e+03  4.36399738e+03  1.75e-10 1.36e-12  2.92e-06     0s
    8   4.36400000e+03  4.36400000e+03  1.14e-13 5.68e-13  1.27e-11     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -5953,7 +4177,7 @@ Extra simplex iterations after uncrush: 7
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       83    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 83 iterations and 0.00 seconds (0.01 work units)
+Solved in 83 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -5966,37 +4190,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 51 *********************
 
-air size: 12
-time range1:  0.015645503997802734
-multi size: 0
-time range1:  0.00851893424987793
-time range2:  0.0
-multi size: 2
-time range1:  0.0
-multi size: 0
-time range1:  0.0075342655181884766
-multi size: 0
-time range1:  0.007304191589355469
-multi size: 0
-time range1:  0.009268522262573242
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 2
-time range1:  0.01596808433532715
-multi size: 0
-time range1:  0.007958412170410156
-time range2:  0.0
-multi size: 2
-time range1:  0.012280464172363281
-multi size: 0
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.010518312454223633
-time range2:  0.0
-multi size: 2
 Number of Better Lofs is 10
 
  ********************* LP SOLUTION 52 *********************
@@ -6013,7 +4206,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 13 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 105 rows, 962 columns, 7698 nonzeros
 
 Ordering time: 0.00s
@@ -6036,7 +4229,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400010e+03  4.36399993e+03  6.16e-12 1.59e-12  8.90e-08     0s
    8   4.36400000e+03  4.36400000e+03  7.18e-14 9.09e-13  1.26e-13     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -6052,7 +4245,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       75    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 75 iterations and 0.01 seconds (0.01 work units)
+Solved in 75 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -6065,35 +4258,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 52 *********************
 
-air size: 12
-time range1:  0.0
-multi size: 0
-time range1:  0.015735864639282227
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-time range2:  0.0
-multi size: 1
-time range1:  0.015770673751831055
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0156705379486084
-time range2:  0.0
-multi size: 1
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.01586437225341797
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 4
 
  ********************* LP SOLUTION 53 *********************
@@ -6110,7 +4274,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 2 rows and 13 columns
-Presolve time: 0.00s
+Presolve time: 0.02s
 Presolved: 105 rows, 966 columns, 7728 nonzeros
 
 Ordering time: 0.00s
@@ -6133,7 +4297,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400009e+03  4.36399996e+03  2.16e-11 9.09e-13  6.66e-08     0s
    8   4.36400000e+03  4.36400000e+03  6.55e-14 6.82e-13  7.17e-14     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.02 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -6149,7 +4313,7 @@ Extra simplex iterations after uncrush: 5
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       79    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 79 iterations and 0.01 seconds (0.01 work units)
+Solved in 79 iterations and 0.02 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -6162,31 +4326,6 @@ size: 95
 size: 12
  ********************* END LP SOLUTION 53 *********************
 
-air size: 12
-time range1:  0.0
-multi size: 0
-time range1:  0.012954950332641602
-multi size: 0
-time range1:  0.002028942108154297
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.015642642974853516
-multi size: 0
-time range1:  0.016402721405029297
-multi size: 0
-time range1:  0.005940437316894531
-multi size: 0
-time range1:  0.009603738784790039
-multi size: 0
-time range1:  0.0
-multi size: 0
-time range1:  0.01719951629638672
-multi size: 0
-time range1:  0.0
-multi size: 0
 Number of Better Lofs is 0
 
  ********************* FINAL IP SOLUTION *********************
@@ -6205,7 +4344,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 Found heuristic solution: objective 76000.000000
 Presolve removed 33 rows and 42 columns
-Presolve time: 0.02s
+Presolve time: 0.01s
 Presolved: 74 rows, 937 columns, 5795 nonzeros
 Variable types: 0 continuous, 937 integer (937 binary)
 Found heuristic solution: objective 36173.000000
@@ -8033,7 +6172,7 @@ ODp Wed Jul 25 05:05:00 2012
 OAr Wed Jul 25 08:15:00 2012
 
 Total number of connection of leg network: 1024
-total run time is 5.484598875045776 seconds
+total run time is 3.0764901638031006 seconds
 remove previous output file
 
 Canceled flights are

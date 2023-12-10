@@ -288,7 +288,7 @@ void Model::solve()
 	char str[16] ;
 	itoa(_count,str,10);
 	_count++;
-	string name = "cc_" + string(str) + ".lp";
+	string name = "cc_" + string(str) + ".mps";
 
 	//_solver.exportModel("test.lp");
 	//_solver.exportModel(name.c_str());
@@ -355,7 +355,7 @@ vector<Lof* > Model::solveIP()
 
 	//_solver = IloCplex(_model);
 
-	_solver.exportModel("recovery_cc.lp");
+	_solver.exportModel((header + "recovery_cc.mps").c_str());
 
 	_solver.solve();
 
