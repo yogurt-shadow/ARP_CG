@@ -28,9 +28,9 @@ class Model:
         i = 0
         for _aircraft in self._aircraftList:
             print("air i", i)
-            i += 1
             _aircraft.print()
-            tempLof = self.findNewMultiColumns(_aircraft)
+            tempLof = self.findNewMultiColumns(_aircraft, i)
+            i += 1
             # print("multi size:", len(tempLof), flush=True)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
@@ -43,8 +43,13 @@ class Model:
         #     _lof.print()
         return betterLof
     
-    def findNewMultiColumns(self, aircraft: Aircraft) -> list[Lof]:
+    def findNewMultiColumns(self, aircraft: Aircraft, i) -> list[Lof]:
         betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
+
+        if i == 5:
+            print("scan dep")
+            for ele in depLegList:
+                ele.print()
         for _depLeg in depLegList:
             self.edgeProcessFlt(_depLeg, aircraft)
         depMaintList = aircraft.getDepStation().getMainList()

@@ -48,7 +48,7 @@ private:
 public:
 	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
 	vector<Lof *> findNewColumns();
-	vector<Lof *> findNewMultiColumns(Aircraft* aircraft);
+	vector<Lof *> findNewMultiColumns(Aircraft* aircraft, int);
 
 	Lof* findNewOneColumn(Aircraft* aircraft);
 	void edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);

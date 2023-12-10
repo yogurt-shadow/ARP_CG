@@ -26,7 +26,7 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(190,3): warning C4996: 'itoa': The P
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(202,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(229,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(300,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(959,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(962,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   OperLeg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

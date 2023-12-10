@@ -3,7 +3,7 @@
 Leg::Leg(string flightNum)
 	:_flightNum(flightNum),_depStation(NULL), _arrStation(NULL), _depTime(0), _arrTime(0), _aircraft(NULL)
 {
-	_id = -1;										//* dummyNodeµÄid¼ÇÎª-1
+	_id = -1;										//* dummyNodeï¿½ï¿½idï¿½ï¿½Îª-1
 }
 
 Leg::Leg(string flightNum, Station * depStation, Station * arrStation, time_t depTime, time_t arrTime, Aircraft * aircraft)
@@ -14,20 +14,20 @@ Leg::Leg(string flightNum, Station * depStation, Station * arrStation, time_t de
 
 	_isVisited = false;			//*
 
-	_aircraft->pushPlanLeg(this);					//* flightºÍmaint¶¼pushÔÚplanLegListÀï
+	_aircraft->pushPlanLeg(this);					//* flightï¿½ï¿½maintï¿½ï¿½pushï¿½ï¿½planLegListï¿½ï¿½
 
 	if ( depStation != arrStation)                   // ordinary flight
 	{
 		_isMaint = false;
-		//* flightºÍmaint¶¼pushÔÚplanLegListÀï
-		//* _aircraft->pushPlanLeg(this);               // Initialize the PlanLegList assigned to aircraft by schedule¡ª¡ªaircrft
-		_depStation->pushDepLeg(this);              // Initialize _depLegList depart from the station¡ª¡ªstation
-		_arrStation->pushArrLeg(this);              // Initialize _arrLegList arriva at the station¡ª¡ªstation
+		//* flightï¿½ï¿½maintï¿½ï¿½pushï¿½ï¿½planLegListï¿½ï¿½
+		//* _aircraft->pushPlanLeg(this);               // Initialize the PlanLegList assigned to aircraft by scheduleï¿½ï¿½ï¿½ï¿½aircrft
+		_depStation->pushDepLeg(this);              // Initialize _depLegList depart from the stationï¿½ï¿½ï¿½ï¿½station
+		_arrStation->pushArrLeg(this);              // Initialize _arrLegList arriva at the stationï¿½ï¿½ï¿½ï¿½station
 	} else// maint
 	{
 		_isMaint = true;
-		//* _aircraft->pushMaint(this);                 // Initialize the MaintList the aircraft needs carry¡ª¡ªaircraft
-		_depStation->pushMaint(this);               // Initialize the MainList carried at the station¡ª¡ªstation
+		//* _aircraft->pushMaint(this);                 // Initialize the MaintList the aircraft needs carryï¿½ï¿½ï¿½ï¿½aircraft
+		_depStation->pushMaint(this);               // Initialize the MainList carried at the stationï¿½ï¿½ï¿½ï¿½station
 	}
 	_dual = 0;
 	//* _lp = 0;
@@ -35,10 +35,10 @@ Leg::Leg(string flightNum, Station * depStation, Station * arrStation, time_t de
 
 	//_parent = NULL;				//*
 	//* _delay = 0;				//*
-	//_nodeCost = DBL_MAX;		//* DBL_MAXÔÚ<cfloat>¶¨Òå£¬Maximum finite representable double number
+	//_nodeCost = DBL_MAX;		//* DBL_MAXï¿½ï¿½<cfloat>ï¿½ï¿½ï¿½å£¬Maximum finite representable double number
 
-	//_operDepTime = _depTime;	//* _operDepTimeÄ¬ÈÏµÈÓÚscheduled _depTime
-	//_operArrTime = _arrTime;	//* _operArrTimeÄ¬ÈÏµÈÓÚscheduled _arrTime
+	//_operDepTime = _depTime;	//* _operDepTimeÄ¬ï¿½Ïµï¿½ï¿½ï¿½scheduled _depTime
+	//_operArrTime = _arrTime;	//* _operArrTimeÄ¬ï¿½Ïµï¿½ï¿½ï¿½scheduled _arrTime
 
 	//_accDual = 0;				//*
 	//_accDelay = 0;				//*
@@ -69,7 +69,7 @@ void Leg::print()
 		cout << ctime(&arrTime);
 	}
 
-	// ´òÓ¡multi label DPÖÐsubNodeListµÄÐÅÏ¢
+	// ï¿½ï¿½Ó¡multi label DPï¿½ï¿½subNodeListï¿½ï¿½ï¿½ï¿½Ï¢
 	/*
 	cout << endl;
 	cout << "total number of subnodes is " << _subNodeList.size() << endl;
@@ -80,7 +80,7 @@ void Leg::print()
 
 }
 
-//bool Leg::resetLeg()	//* ÖØÖÃLegµÄ_nodeCost, _operDepTime, _operArrTime, _parent, _accDual, _accDelay
+//bool Leg::resetLeg()	//* ï¿½ï¿½ï¿½ï¿½Legï¿½ï¿½_nodeCost, _operDepTime, _operArrTime, _parent, _accDual, _accDelay
 bool Leg::resetLeg()
 {
 	bool flag = false;
@@ -94,7 +94,7 @@ bool Leg::resetLeg()
 	//_delay = 0;
 
 	int sizeBefore = _subNodeList.size();
-	// for(int i = 0; i < _subNodeList.size(); i++) //* BUG ÔÚÉ¾³ývectorÔªËØµÄ¹ý³ÌÖÐsubNodeListµÄ³¤¶È»á²»¶Ï¸Ä±ä 20170111
+	// for(int i = 0; i < _subNodeList.size(); i++) //* BUG ï¿½ï¿½É¾ï¿½ï¿½vectorÔªï¿½ØµÄ¹ï¿½ï¿½ï¿½ï¿½ï¿½subNodeListï¿½Ä³ï¿½ï¿½È»á²»ï¿½Ï¸Ä±ï¿½ 20170111
 	for(int i = 0; i < sizeBefore; i++)
 	{
 		popSubNode();
@@ -108,7 +108,7 @@ bool Leg::insertSubNode(SubNode* subNode)
 {
 	//bool isInserted = false;
 
-	// Èç¹û_subNodeListÊÇ¿ÕµÄ
+	// ï¿½ï¿½ï¿½_subNodeListï¿½Ç¿Õµï¿½
 	if (_subNodeList.empty())
 	{
 		_subNodeList.push_back(subNode);
@@ -118,12 +118,12 @@ bool Leg::insertSubNode(SubNode* subNode)
 	vector<SubNode* >::iterator itr;
 	for (itr = _subNodeList.begin(); itr != _subNodeList.end(); )
 	{
-		if (SubNode::lessSubNodePointer(*itr, subNode)) // Èç¹ûÐÂµÄsubNode±»ÒÑÓÐµÄsubNode dominate
+		if (SubNode::lessSubNodePointer(*itr, subNode)) // ï¿½ï¿½ï¿½ï¿½Âµï¿½subNodeï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½subNode dominate
 		{
 			return false;
 		}
 
-		if (SubNode::lessSubNodePointer(subNode, *itr)) // Èç¹ûÐÂµÄsubNode dominateÒÑÓÐµÄsubNode
+		if (SubNode::lessSubNodePointer(subNode, *itr)) // ï¿½ï¿½ï¿½ï¿½Âµï¿½subNode dominateï¿½ï¿½ï¿½Ðµï¿½subNode
 		{
 			delete *itr;
 			itr = _subNodeList.erase(itr);
@@ -135,7 +135,7 @@ bool Leg::insertSubNode(SubNode* subNode)
 		}
 	}
 
-	// Èç¹û³ÌÐò×ßµ½ÕâÀï£¬ËµÃ÷newSubNodeÃ»ÓÐ±»ÈÎºÎÒÑÓÐµÄsubNode dominate
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßµï¿½ï¿½ï¿½ï¿½ï£¬Ëµï¿½ï¿½newSubNodeÃ»ï¿½Ð±ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½Ðµï¿½subNode dominate
 	_subNodeList.push_back(subNode);
 
 	return true;

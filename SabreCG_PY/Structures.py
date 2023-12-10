@@ -262,18 +262,18 @@ class Leg:
         if len(self._subNodeList) == 0:
             self._subNodeList.append(subNode)
             return True
-        copied_list = []
+        deleted = []
+        i = 0
         for i in range(len(self._subNodeList)):
             _subNode = self._subNodeList[i]
             if _subNode.LessKey(subNode):
+                self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
                 return False
             if subNode.LessKey(_subNode):
-                pass
-            else:
-                copied_list.append(_subNode)
-        self._subNodeList = copied_list
+                deleted.append(i)
+        self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
         self._subNodeList.append(subNode)
-        return True
+        return True    
 
     def compareDepKey(self) -> float:
         return self.getDepTime()

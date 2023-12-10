@@ -141,7 +141,7 @@ vector<Lof *> Model::findNewColumns()
 		cout << "air i " << i << endl;
 		_aircraftList[i]->print();
 		//tempLof = findNewOneColumn(_aircraftList[i]);
-		tempLof = findNewMultiColumns(_aircraftList[i]);
+		tempLof = findNewMultiColumns(_aircraftList[i], i);
 		//if (tempLof != NULL)
 		// cout << "multi size: " << tempLof.size() << endl;
 		if (tempLof.size() > 0)
@@ -433,13 +433,20 @@ vector<Lof* > Model::solveIP()
 	return lofListSoln;
 }
 
-vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
+vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 {
 	vector<Lof* > betterLof;
 
 	//* ��ʼ����aircraft dep airport�ϵ�flight, i.e. nodeCost
 	vector<Leg*> depLegList;
 	depLegList = aircraft->getDepStation()->getDepLegList();
+	if (i == 5) {
+		cout << "scan dep" << endl;
+		for(auto ele: depLegList) {
+			ele->print();
+		}
+	}
+
 	for (int k = 0; k < depLegList.size(); k++)
 	{
 		edgeProcessFlt(depLegList[k], aircraft);
