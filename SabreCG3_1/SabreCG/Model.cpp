@@ -135,9 +135,11 @@ vector<Lof *> Model::findNewColumns()
 	vector<Lof* > betterLof;
 	//Lof* tempLof;
 	vector<Lof* > tempLof;
-	// cout << "air size: " << _aircraftList.size() << endl;
+	cout << "air size: " << _aircraftList.size() << endl;
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
+		cout << "air i " << i << endl;
+		_aircraftList[i]->print();
 		//tempLof = findNewOneColumn(_aircraftList[i]);
 		tempLof = findNewMultiColumns(_aircraftList[i]);
 		//if (tempLof != NULL)
@@ -147,16 +149,18 @@ vector<Lof *> Model::findNewColumns()
 			//betterLof.push_back(tempLof);
 			betterLof.insert(betterLof.end(), tempLof.begin(), tempLof.end());
 		}
+
+		for (auto ele: tempLof) {
+			ele->print();
+		}
 	}
 
 	cout << "Number of Better Lofs is " << betterLof.size() << endl << endl;
 
-	/*
-	for (int i = 0; i < betterLof.size(); i++)
-	{
-		betterLof[i]->print();
-	}
-	*/
+	// for (int i = 0; i < betterLof.size(); i++)
+	// {
+	// 	betterLof[i]->print();
+	// }
 
 	return betterLof;
 }
@@ -249,9 +253,9 @@ vector<Lof* > Model::solveColGen()
 
 	vector<Lof* > betterColumns;
 	betterColumns = findNewColumns();
-	for(auto ele: betterColumns) {
-		ele->print();
-	}
+	// for(auto ele: betterColumns) {
+	// 	ele->print();
+	// }
 	while (!betterColumns.empty())
 	{
 		cout<<" ********************* LP SOLUTION "<< count << " *********************"<<endl<<endl; 
@@ -522,10 +526,11 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	}
 
 	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
-	cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
-	for(auto ele: tmpSubNodeList) {
-		ele->print();
-	}
+	
+	// cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
+	// for(auto ele: tmpSubNodeList) {
+	// 	ele->print();
+	// }
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
@@ -539,10 +544,12 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	}
 
 	int tmp_count = 0;
+	// cout << "new amount " << Util::newamount << endl;
 	for (auto& subNode : tmpSubNodeList)
 	{
 		if (tmp_count < Util::newamount)
 		{
+			// cout <<"dual is " << aircraft->getDual() << endl;
 			//if (subNode->getSubNodeCost() - aircraft->getDual() < CPLEXERROR)
 			if (subNode->getSubNodeCost() - aircraft->getDual() < -0.0001)
 			{
@@ -575,7 +582,7 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 
 					subNodeSelect.pop();
 				}
-
+				// cout << "newLof aircraft id is " << newLof->getAircraft()->getId() << endl;
 				newLof->computeLofCost(); //* ����lof��cost (delay + swap), ������lof��_cost��
 				newLof->computeReducedCost(); //* ������Ӧ�ú�minCost - aircraft->getDual() һ����������lof��_reducedCost��
 
@@ -595,7 +602,7 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 					cout << "aircraft->getDual() = " << aircraft->getDual() << endl;
 
 
-					newLof->print();
+					// newLof->print();
 					cout << "******* dual of legs are: *******" << endl;
 					vector<OperLeg* > lofOperLegList = newLof->getLegList();
 					for (int i = 0; i < newLof->getSize(); i++)

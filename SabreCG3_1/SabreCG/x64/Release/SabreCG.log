@@ -21,12 +21,12 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(1,1): warning C4819: 该文件包含
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(122,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(173,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(186,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(198,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(225,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(296,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(962,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(177,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(190,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(202,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(229,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(300,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(959,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   OperLeg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -44,7 +44,7 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: “return”:
   Util.cpp
   正在生成代码
   Previous IPDB not found, fall back to full compilation.
-  All 1635 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 1634 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
 concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloextractable.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“”(使用“concert.lib(iloenv.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样

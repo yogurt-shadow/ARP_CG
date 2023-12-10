@@ -295,6 +295,7 @@ class Aircraft:
         print("Tail %s" % self._tail)
         print("%s %s" % (self._depStation.getName(), time.ctime(startT)))
         print("%s %s" % (self._arrStation.getName(), time.ctime(endT)))
+        print("dual %d" % self.getDual())
 
     def getTail(self) -> str:
         return self._tail

@@ -21,6 +21,7 @@ void Aircraft::print()
 	cout <<"Tail " << _tail <<  endl;
 	cout << _depStation->getName() << " " << ctime(&startT);
 	cout << _arrStation->getName() << " " << ctime(&endT); 
+	cout << "dual " << getDual() << endl;
 }
 
 void Aircraft::sortScheLegByDepTime()

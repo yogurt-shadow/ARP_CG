@@ -24,12 +24,19 @@ class Model:
 
     def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
-        # print("air size:", len(self._aircraftList))
+        print("air size:", len(self._aircraftList))
+        i = 0
         for _aircraft in self._aircraftList:
+            print("air i", i)
+            i += 1
+            _aircraft.print()
             tempLof = self.findNewMultiColumns(_aircraft)
             # print("multi size:", len(tempLof), flush=True)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
+
+            for ele in tempLof:
+                ele.print()
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
         # for _lof in betterLof:
@@ -81,9 +88,10 @@ class Model:
                 _leg.resetLeg()
             return betterLof
         tmpSubNodeList.sort(key = lambda x: x.CostKey())
-        print("tmpSubNodeList size: ", len(tmpSubNodeList))
-        for ele in tmpSubNodeList:
-            ele.print()
+       
+        # print("tmpSubNodeList size: ", len(tmpSubNodeList))
+        # for ele in tmpSubNodeList:
+        #     ele.print()
 
 
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
@@ -91,8 +99,10 @@ class Model:
                 _leg.resetLeg()
             return betterLof
         tmp_count = 0
+        # print("new amount", ut.util.newamount)
         for subNode in tmpSubNodeList:
             if tmp_count < ut.util.newamount:
+                # print("dual is", aircraft.getDual())
                 if subNode.getSubNodeCost() - aircraft.getDual() < -0.0001:
                     subNodeSelect = Stack()
                     tempSubNode = subNode
@@ -110,6 +120,7 @@ class Model:
                         tempOperLeg.setOpArrTime(tempSubNode.getOperArrTime())
                         newLof.pushLeg(tempOperLeg)
                         subNodeSelect.pop()
+                    # print("newLof aircraft id is", newLof.getAircraft().getId())
                     newLof.computeLofCost()
                     newLof.computeReducedCost()
                     error = newLof.getReducedCost() - (subNode.getSubNodeCost() - aircraft.getDual())
@@ -428,8 +439,8 @@ class Model:
         print()
         count = 1
         betterColumns = self.findNewColumns()
-        for i in betterColumns:
-            i.print()
+        # for i in betterColumns:
+        #     i.print()
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
             self.addColumns(betterColumns)
