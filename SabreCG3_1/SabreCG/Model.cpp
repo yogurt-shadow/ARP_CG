@@ -771,10 +771,6 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft)
 	else // ���nextLeg��aircraft��ƥ��
 	{
 		// do nothing
-		/*
-		nextLeg->setNodeCost(DBL_MAX);
-		nextLeg->setParent(NULL);
-		*/
 	}
 }
 
@@ -785,12 +781,12 @@ void Model::edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 	// cout << "case 1 len: " << subNodeList.size() << endl;
 	for(int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessFltFlt(subNodeList[i], nextLeg, aircraft);
+		edgeProcessFltFltSubNode(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
 //* helper function for edgeProcessFltFlt *//
-void Model::edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -823,12 +819,6 @@ void Model::edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft
 	// ���newSubNode dominate�κ�nextLeg���е�subNode, ɾ�������е�subNode, newSubNode����nextLeg��subNodeList
 	SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
 
-	/*
-	cout << "new subNode is " << endl;
-	subNode->print();
-	cout << "##### end of edgeProcess SubNode #####" << endl;
-	*/
-
 	if (!nextLeg->insertSubNode(newSubNode))
 	{
 		delete newSubNode;
@@ -841,13 +831,13 @@ void Model::edgeProcessFltMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessFltMaint(subNodeList[i], nextLeg, aircraft);
+		edgeProcessFltMaintSubNode(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
 
 // helper function for edgeProcessFltMaint
-void Model::edgeProcessFltMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessFltMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -884,11 +874,11 @@ void Model::edgeProcessMaintFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessMaintFlt(subNodeList[i], nextLeg, aircraft);
+		edgeProcessMaintFltSubNode(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
-void Model::edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessMaintFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -932,11 +922,11 @@ void Model::edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessMaintMaint(subNodeList[i], nextLeg, aircraft);
+		edgeProcessMaintMaintSubNode(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
-void Model::edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -975,11 +965,6 @@ void Model::edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* airc
 				cout << "Error, thisLeg maintenance and aircraft do not match!" << endl;
 				exit(0);
 			}
-
-			/*
-			nextLeg->setNodeCost(DBL_MAX);
-			nextLeg->setParent(NULL);
-			*/
 		}
 	}
 	else

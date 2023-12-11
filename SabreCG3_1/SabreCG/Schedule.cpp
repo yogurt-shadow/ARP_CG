@@ -42,8 +42,8 @@ Schedule::Schedule(vector<Station* > stationList, vector<Aircraft* > aircraftLis
 void Schedule::setAdjascentLeg()
 {
 	//* do it yourself
-	//* ±éÀúËùÓÐµÄleg pair (sequence matters)
-	//* Èç¹û¿ÉÒÔ×öneighbor (airport match, time match; Ò²Òª¿¼ÂÇmaintenanceµÄÇé¿ö)
+	//* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½leg pair (sequence matters)
+	//* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½neighbor (airport match, time match; Ò²Òªï¿½ï¿½ï¿½ï¿½maintenanceï¿½ï¿½ï¿½ï¿½ï¿½)
 		//* push previous
 		//* push next
 
@@ -54,7 +54,7 @@ void Schedule::setAdjascentLeg()
 			if (_legList[i]->isMaint() && _legList[j]->isMaint())	// both i and j are maintenance
 			{
 				if (_legList[i]->getArrStation() == _legList[j]->getDepStation()
-					&& _legList[i]->getArrTime() <= _legList[j]->getDepTime()	// maintenance²»¿ÉÄÜdelay
+					&& _legList[i]->getArrTime() <= _legList[j]->getDepTime()	// maintenanceï¿½ï¿½ï¿½ï¿½ï¿½ï¿½delay
 					//&& _legList[i]->getAircraft() == _legList[i]->getAircraft())	//BUG found here, corrected 20161226
 					&& _legList[i]->getAircraft() == _legList[j]->getAircraft())
 				{
@@ -66,8 +66,8 @@ void Schedule::setAdjascentLeg()
 			if (_legList[i]->isMaint() && !_legList[j]->isMaint())	// i is maintenance, j is flight
 			{
 				if (_legList[i]->getArrStation() == _legList[j]->getDepStation()
-					&& _legList[i]->getDepTime() <= _legList[j]->getDepTime()	//* flightÊÇ¿ÉÒÔ±»delayµÄ, Ö»ÒªÇóflightµÄ¿ªÊ¼Ê±¼äÔÚmaint¿ªÊ¼Ê±¼äÖ®ºó
-					&& _legList[i]->getArrTime() - _legList[j]->getDepTime() <= Util::maxDelayTime)		//* flightÊÇ¿ÉÒÔ±»delayµÄ, Ö»ÒªÇóflightµÄ¿ªÊ¼Ê±¼äÔÚmaint¿ªÊ¼Ê±¼äÖ®ºó
+					&& _legList[i]->getDepTime() <= _legList[j]->getDepTime()	//* flightï¿½Ç¿ï¿½ï¿½Ô±ï¿½delayï¿½ï¿½, Ö»Òªï¿½ï¿½flightï¿½Ä¿ï¿½Ê¼Ê±ï¿½ï¿½ï¿½ï¿½maintï¿½ï¿½Ê¼Ê±ï¿½ï¿½Ö®ï¿½ï¿½
+					&& _legList[i]->getArrTime() - _legList[j]->getDepTime() <= Util::maxDelayTime)		//* flightï¿½Ç¿ï¿½ï¿½Ô±ï¿½delayï¿½ï¿½, Ö»Òªï¿½ï¿½flightï¿½Ä¿ï¿½Ê¼Ê±ï¿½ï¿½ï¿½ï¿½maintï¿½ï¿½Ê¼Ê±ï¿½ï¿½Ö®ï¿½ï¿½
 				{
 					_legList[i]->pushNextLeg(_legList[j]);
 					_legList[j]->pushPrevLeg(_legList[i]);
@@ -77,7 +77,7 @@ void Schedule::setAdjascentLeg()
 			if (!_legList[i]->isMaint() && _legList[j]->isMaint())	// i is flight, j is maintenance
 			{
 				if (_legList[i]->getArrStation() == _legList[j]->getDepStation()
-					&& _legList[i]->getArrTime() <= _legList[j]->getDepTime())	// maintenance²»¿ÉÄÜdelay
+					&& _legList[i]->getArrTime() <= _legList[j]->getDepTime())	// maintenanceï¿½ï¿½ï¿½ï¿½ï¿½ï¿½delay
 				{
 					_legList[i]->pushNextLeg(_legList[j]);
 					_legList[j]->pushPrevLeg(_legList[i]);
@@ -117,23 +117,6 @@ void Schedule::setAdjascentLeg()
 	}
 
 	cout << "############## TOTAL CONNECTION " << _connectionSize << " ###############" << endl;
-
-	/*
-	cout <<"############## PRINTING CONNECTING LEGS ############### " << endl;
-	for(int i = 0; i < _legList.size(); i++)
-	{
-		_legList[i]->print();
-		cout <<"Connect with Legs: " << endl;
-		vector<Leg *> nextLegs = _legList[i]->getNextLegList();
-
-		for(int j = 0; j < nextLegs.size(); j++)
-		{
-			nextLegs[j]->print();
-		}
-		cout <<"************************************* " << endl;
-	}
-	cout <<"############ END PRINTING CONNECTING LEGS ############# " << endl;
-	*/
 }
 
 void Schedule::computeTopOrder()

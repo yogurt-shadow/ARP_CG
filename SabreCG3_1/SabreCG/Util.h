@@ -42,13 +42,28 @@ public :
 	static int w_fltSwap;
 	static int maxRunTime;
 
-	static int newamount;		// Ò»¸ösubproblemÃ¿´ÎÊä³ölofµÄ¸öÊý
+	static int newamount;		// Ò»ï¿½ï¿½subproblemÃ¿ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½Ä¸ï¿½ï¿½ï¿½
+
+	static void print() {
+		cout << "print parameters" << endl;
+		cout << "turnTime = " << turnTime << endl;
+		cout << "maxDelayTime = " << maxDelayTime << endl;
+		cout << "w_cancelMtc = " << w_cancelMtc << endl;
+		cout << "w_cancelFlt = " << w_cancelFlt << endl;
+		cout << "w_violatedBalance = " << w_violatedBalance << endl;
+		cout << "w_violatedPosition = " << w_violatedPosition << endl;
+		cout << "w_fltDelay = " << w_fltDelay << endl;
+		cout << "w_fltSwap = " << w_fltSwap << endl;
+		cout << "maxRunTime = " << maxRunTime << endl;
+		cout << "newamount = " << newamount << endl;
+	
+	}
 };
 
 /*
 int getDate(time_t t)
 {
-	return (t - DATECUTTIME)/DATEDURATION;        /// ÌìÊý²»ÊÇ´Ó0¿ªÊ¼¼ÆËãµÄ
+	return (t - DATECUTTIME)/DATEDURATION;        /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½0ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½
 }
 */
 

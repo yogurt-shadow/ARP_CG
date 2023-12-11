@@ -442,35 +442,47 @@ class Schedule:
         self.setAdjascentLeg()
 
     def setAdjascentLeg(self) -> None:
-        for _leg1 in self._legList:
-            for _leg2 in self._legList:
-                if _leg1.isMaint() and _leg2.isMaint():
-                    if _leg1.getArrStation() == _leg2.getDepStation() and _leg1.getArrTime() <= _leg2.getDepTime() \
-                    and _leg1.getAircraft() == _leg2.getAircraft():
-                        _leg1.pushNextLeg(_leg2)
-                        _leg2.pushPrevLeg(_leg1)
-                if _leg1.isMaint() and not _leg2.isMaint():
-                    if _leg1.getArrStation() == _leg2.getDepStation() and _leg1.getDepTime() <= _leg2.getDepTime() \
-                    and _leg1.getArrTime() - _leg2.getDepTime() <= ut.util.maxDelayTime:
-                        _leg1.pushNextLeg(_leg2)
-                        _leg2.pushPrevLeg(_leg1)
-                if not _leg1.isMaint() and _leg2.isMaint():
-                    if _leg1.getArrStation() == _leg2.getDepStation() and _leg1.getArrTime() <= _leg2.getDepTime():
-                        _leg1.pushNextLeg(_leg2)
-                        _leg2.pushPrevLeg(_leg1)
-                if not _leg1.isMaint() and not _leg2.isMaint():
-                    if _leg1.getArrStation() == _leg2.getDepStation() and _leg1.getArrTime() - _leg2.getDepTime() <= ut.util.maxDelayTime:
-                        if _leg1.getDepTime() < _leg2.getDepTime():
-                            _leg1.pushNextLeg(_leg2)
-                            _leg2.pushPrevLeg(_leg1)
-                        if _leg1.getDepTime() == _leg2.getDepTime():
-                            if _leg1.getId() < _leg2.getId():
-                                _leg1.pushNextLeg(_leg2)
-                                _leg2.pushPrevLeg(_leg1)
-        self._connectionSize = 0
-        for _leg in self._legList:
-            self._connectionSize += len(_leg.getNextLegList())
-        print("############## TOTAL CONNECTION " + str(self._connectionSize) + " ###############")
+        # Assuming _legList is a list of objects with the methods used in your code
+
+        for i in range(len(self._legList)):
+            for j in range(len(self._legList)):
+                if self._legList[i].isMaint() and self._legList[j].isMaint():  # both i and j are maintenance
+                    if (self._legList[i].getArrStation() == self._legList[j].getDepStation()
+                        and self._legList[i].getArrTime() <= self._legList[j].getDepTime()  # maintenance can delay
+                        and self._legList[i].getAircraft() == self._legList[j].getAircraft()):
+                        self._legList[i].pushNextLeg(self._legList[j])
+                        self._legList[j].pushPrevLeg(self._legList[i])
+
+                if self._legList[i].isMaint() and not self._legList[j].isMaint():  # i is maintenance, j is flight
+                    if (self._legList[i].getArrStation() == self._legList[j].getDepStation()
+                        and self._legList[i].getDepTime() <= self._legList[j].getDepTime()  # flight can delay, as long as the start time of flight is after the start time of maint
+                        and self._legList[i].getArrTime() - self._legList[j].getDepTime() <= ut.util.maxDelayTime):  # flight can delay, as long as the start time of flight is after the start time of maint
+                        self._legList[i].pushNextLeg(self._legList[j])
+                        self._legList[j].pushPrevLeg(self._legList[i])
+
+                if not self._legList[i].isMaint() and self._legList[j].isMaint():  # i is flight, j is maintenance
+                    if (self._legList[i].getArrStation() == self._legList[j].getDepStation()
+                        and self._legList[i].getArrTime() <= self._legList[j].getDepTime()):  # maintenance can delay
+                        self._legList[i].pushNextLeg(self._legList[j])
+                        self._legList[j].pushPrevLeg(self._legList[i])
+
+                if not self._legList[i].isMaint() and not self._legList[j].isMaint():  # both i and j are flight
+                    if (self._legList[i].getArrStation() == self._legList[j].getDepStation()
+                        and self._legList[i].getArrTime() - self._legList[j].getDepTime() <= ut.util.maxDelayTime):
+                        if self._legList[i].getDepTime() < self._legList[j].getDepTime():
+                            self._legList[i].pushNextLeg(self._legList[j])
+                            self._legList[j].pushPrevLeg(self._legList[i])
+
+                        if self._legList[i].getDepTime() == self._legList[j].getDepTime():
+                            if self._legList[i].getId() < self._legList[j].getId():  # use id to break tie
+                                self._legList[i].pushNextLeg(self._legList[j])
+                                self._legList[j].pushPrevLeg(self._legList[i])
+
+        # compute total number of connections
+        _connectionSize = 0
+        for i in range(len(self._legList)):
+            _connectionSize += len(self._legList[i].getNextLegList())
+        print("############## TOTAL CONNECTION " + str(_connectionSize) + " ###############")
 
     def computeTopOrder(self) -> None:
         for _leg in self._legList:

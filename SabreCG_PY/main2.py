@@ -208,7 +208,7 @@ if __name__ == "__main__":
     ut.util.w_fltSwap = parameters.w_fltSwap
     ut.util.w_violatedBalance = parameters.w_violatedBalance
     ut.util.w_violatedPosition = parameters.w_violatedPosition
-    
+    ut.util.print()
     stationList, aircraftList = [], []
     # Initialize the aircraft information and station Information
     for _aircraft in aircrafts:

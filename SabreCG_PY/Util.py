@@ -19,3 +19,17 @@ class util:
     w_fltSwap            =            1
     maxRunTime           =            0
     newamount            =            2
+
+    # @classmethod
+    def print():
+        print("print parameters")
+        print("turnTime = ", util.turnTime)
+        print("maxDelayTime = ", util.maxDelayTime)
+        print("w_cancelMtc = ", util.w_cancelMtc)
+        print("w_cancelFlt = ", util.w_cancelFlt)
+        print("w_violatedBalance = ", util.w_violatedBalance)
+        print("w_violatedPosition = ", util.w_violatedPosition)
+        print("w_fltDelay = ", util.w_fltDelay)
+        print("w_fltSwap = ", util.w_fltSwap)
+        print("maxRunTime = ", util.maxRunTime)
+        print("newamount = ", util.newamount)

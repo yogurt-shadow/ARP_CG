@@ -594,7 +594,7 @@ int main( int argc, char * argv[] )
 	Util::w_fltSwap = parameters.w_fltSwap;
 	Util::w_violatedBalance = parameters.w_violatedBalance;
 	Util::w_violatedPosition = parameters.w_violatedPosition;
-
+	Util::print();
 
 	vector<Station *> stationList;
 	vector<Aircraft *> aircraftList;

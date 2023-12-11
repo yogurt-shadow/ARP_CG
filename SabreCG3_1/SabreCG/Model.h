@@ -53,16 +53,16 @@ public:
 
 	Lof* findNewOneColumn(Aircraft* aircraft);
 	void edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessFltMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessFltMaint(SubNode* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltMaintSubNode(SubNode* thisLeg, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessMaintFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int);
 	void edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft);
