@@ -15,13 +15,13 @@ from gurobipy import GRB
 
 # Read and solve model
 if __name__ == "__main__":
-    model1 = gp.read("../LP/PY/pp_%d.mps" % int(sys.argv[1]))
+    model1 = gp.read("../LP/PY/pp_%d.lp" % int(sys.argv[1]))
     model1.setParam(GRB.Param.Threads, 1)
     model1.setParam("OutputFlag", 0)
     model1.optimize()
     print(model1.ObjVal)
 
-    model2 = gp.read("../LP/CPP/cc_%d.mps" % int(sys.argv[1]))
+    model2 = gp.read("../LP/CPP/cc_%d.lp" % int(sys.argv[1]))
     model2.setParam(GRB.Param.Threads, 1)
     model2.setParam("OutputFlag", 0)
     model2.optimize()

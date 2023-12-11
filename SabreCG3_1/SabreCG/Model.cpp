@@ -139,10 +139,10 @@ vector<Lof *> Model::findNewColumns()
 			betterLof.insert(betterLof.end(), tempLof.begin(), tempLof.end());
 		}
 
-		cout << "multi size: " << tempLof.size() << endl;
-		for (auto ele: tempLof) {
-			ele->print();
-		}
+		// cout << "multi size: " << tempLof.size() << endl;
+		// for (auto ele: tempLof) {
+		// 	ele->print();
+		// }
 	}
 
 	cout << "Number of Better Lofs is " << betterLof.size() << endl << endl;
@@ -289,7 +289,7 @@ void Model::solve()
 	char str[16] ;
 	itoa(_count,str,10);
 	_count++;
-	string name = "cc_" + string(str) + ".mps";
+	string name = "cc_" + string(str) + ".lp";
 
 	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
 	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
@@ -356,10 +356,10 @@ vector<Lof* > Model::solveIP()
 
 	//_solver = IloCplex(_model);
 
-	if(fileExist(header + "recovery_cc.mps")) {
-		remove((header + "recovery_cc.mps").c_str());
+	if(fileExist(header + "recovery_cc.lp")) {
+		remove((header + "recovery_cc.lp").c_str());
 	}
-	_solver.exportModel((header + "recovery_cc.mps").c_str());
+	_solver.exportModel((header + "recovery_cc.lp").c_str());
 
 	_solver.solve();
 

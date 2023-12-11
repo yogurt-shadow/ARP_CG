@@ -33,9 +33,9 @@ class Model:
             tempLof = self.findNewMultiColumns(_aircraft, i)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
-            print("multi size:", len(tempLof), flush=True)
-            for ele in tempLof:
-                ele.print()
+            # print("multi size:", len(tempLof), flush=True)
+            # for ele in tempLof:
+            #     ele.print()
             i += 1
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
@@ -496,7 +496,7 @@ class Model:
     header = "C:\\Code\\ARP_CG\\LP\\PY\\"
 
     def solve(self) -> None:
-        name = Model.header + "pp_" + str(Model._count) + ".mps"
+        name = Model.header + "pp_" + str(Model._count) + ".lp"
         Model._count += 1
         """
         -1=automatic,
@@ -564,9 +564,9 @@ class Model:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
-        if os.path.exists(Model.header + "recovery_pp.mps"):
-            os.remove(Model.header + "recovery_pp.mps")
-        self._model.write(Model.header + "recovery_pp.mps")
+        if os.path.exists(Model.header + "recovery_pp.lp"):
+            os.remove(Model.header + "recovery_pp.lp")
+        self._model.write(Model.header + "recovery_pp.lp")
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))

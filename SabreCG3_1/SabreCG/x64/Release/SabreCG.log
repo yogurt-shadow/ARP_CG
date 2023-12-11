@@ -49,13 +49,13 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': convers
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'main2.cpp')
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'main2.cpp')
   
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
