@@ -5,13 +5,22 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains 
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Aircraft.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'Aircraft.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(22,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(23,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Leg.cpp
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'Leg.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Leg.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Leg.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Leg.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(63,44): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -21,10 +30,16 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(69,11): warning C4996: 'ctime': This f
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.cpp(96,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Lof.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'Lof.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Lof.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Lof.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Lof.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
@@ -38,6 +53,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.3313
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'main2.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main2.cpp')
   
@@ -46,7 +64,13 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(1,1): warning C4819: The file contai
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Model.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'Model.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Model.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Model.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Lof.h(37,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
@@ -58,12 +82,18 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(180,3): warning C4996: 'itoa': The P
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(192,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(219,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(290,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(964,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(965,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   OperLeg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'OperLeg.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'OperLeg.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'OperLeg.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'OperLeg.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\OperLeg.cpp(63,19): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -73,7 +103,13 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(1,1): warning C4819: The file con
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Schedule.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'Schedule.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Schedule.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Schedule.cpp')
   
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Schedule.cpp(116,56): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
@@ -90,7 +126,13 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.cpp(34,27): warning C4996: 'ctime': Th
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'SubNode.cpp')
   
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file 'SubNode.cpp')
+  
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SubNode.cpp')
+  
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'SubNode.cpp')
   
   tinyxml2.cpp

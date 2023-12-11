@@ -494,6 +494,45 @@ Optimal value: 24000
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -715,6 +754,61 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -936,6 +1030,68 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 53
+ff: 45
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 1
 ************ LOF ************
@@ -1058,6 +1214,41 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -1299,6 +1490,93 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 88
+ff: 88
+ff: 80
+ff: 80
+ff: 80
+ff: 70
+ff: 70
+ff: 63
+ff: 63
+ff: 27
+ff: 27
+ff: 19
+ff: 12
+ff: 12
+ff: 12
+ff: 3
+ff: 72
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 29
+ff: 29
+ff: 5
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -1440,6 +1718,62 @@ OAr Tue Jul 24 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -1701,6 +2035,56 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -1942,6 +2326,40 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -2163,6 +2581,57 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 53
+ff: 45
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -2424,6 +2893,103 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 88
+ff: 88
+ff: 80
+ff: 80
+ff: 80
+ff: 70
+ff: 70
+ff: 63
+ff: 63
+ff: 63
+ff: 27
+ff: 27
+ff: 19
+ff: 12
+ff: 12
+ff: 12
+ff: 3
+ff: 72
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 38
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 29
+ff: 29
+ff: 5
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -3890,6 +4456,66 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 53
+ff: 45
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 88
+ff: 80
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -4131,6 +4757,79 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 88
+ff: 88
+ff: 80
+ff: 80
+ff: 80
+ff: 70
+ff: 70
+ff: 63
+ff: 63
+ff: 63
+ff: 27
+ff: 27
+ff: 19
+ff: 12
+ff: 12
+ff: 12
+ff: 3
+ff: 72
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 38
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 57
+ff: 7
+ff: 7
+ff: 7
+ff: 7
 air dual: 0
 multi size: 2
 ************ LOF ************
@@ -4675,12 +5374,12 @@ Summary statistics for Cholesky factor:
    7   2.3218607e+04   2.2949012e+04  4.90e-03  8.89e-04  2.11e+01  2.13e-01
    8   2.3218022e+04   2.3217977e+04  9.45e-05  1.72e-05  2.56e-03  2.39e+03
    9   2.3218000e+04   2.3218000e+04  2.06e-08  3.74e-09  2.56e-07  1.91e+07
-Barrier time = 0.00 sec. (0.28 ticks)
+Barrier time = 0.01 sec. (0.28 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.41 ticks)
-Barrier time = 0.00 sec. (0.42 ticks)
+Total time on 20 threads = 0.01 sec. (0.41 ticks)
+Barrier time = 0.01 sec. (0.42 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.42 ticks)
+Total time on 20 threads = 0.01 sec. (0.42 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 31
@@ -4693,6 +5392,42 @@ Optimal value: 23218
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -298.327
 multi size: 2
 ************ LOF ************
@@ -4874,6 +5609,54 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -274.648
 multi size: 2
 ************ LOF ************
@@ -5055,6 +5838,61 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -5.21168e-08
 multi size: 1
 ************ LOF ************
@@ -5157,6 +5995,47 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -1047.56
 multi size: 2
 ************ LOF ************
@@ -5358,6 +6237,41 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -5.19752e-08
 multi size: 1
 ************ LOF ************
@@ -5450,6 +6364,60 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -487.442
 multi size: 2
 ************ LOF ************
@@ -5671,6 +6639,60 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -230.655
 multi size: 2
 ************ LOF ************
@@ -5872,6 +6894,44 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -5.19711e-08
 multi size: 2
 ************ LOF ************
@@ -6053,6 +7113,53 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 57
+ff: 7
+ff: 7
 air dual: -233.095
 multi size: 2
 ************ LOF ************
@@ -6274,6 +7381,45 @@ OAr Wed Jul 25 13:20:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -6935,6 +8081,52 @@ OAr Wed Jul 25 13:00:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
+ff: 7
 air dual: -4000
 multi size: 2
 ************ LOF ************
@@ -7136,6 +8328,40 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -51.305
 multi size: 2
 ************ LOF ************
@@ -7609,6 +8835,41 @@ Optimal value: 17616
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -151.904
 multi size: 2
 ************ LOF ************
@@ -7770,6 +9031,42 @@ OAr Wed Jul 25 06:40:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -54.913
 multi size: 2
 ************ LOF ************
@@ -7911,6 +9208,46 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -30.3359
 multi size: 1
 ************ LOF ************
@@ -8013,6 +9350,39 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -1.17384e-09
 multi size: 2
 ************ LOF ************
@@ -8194,6 +9564,39 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -31.7817
 multi size: 1
 ************ LOF ************
@@ -8286,6 +9689,45 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -68.062
 multi size: 2
 ************ LOF ************
@@ -8487,6 +9929,45 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -142.265
 multi size: 2
 ************ LOF ************
@@ -8688,6 +10169,38 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 82
+ff: 31
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -1.17863e-09
 multi size: 2
 ************ LOF ************
@@ -8849,6 +10362,42 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -428.646
 multi size: 2
 ************ LOF ************
@@ -9050,6 +10599,39 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -9719,6 +11301,42 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -4000
 multi size: 2
 ************ LOF ************
@@ -9900,6 +11518,38 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 31
+ff: 57
+ff: 7
 air dual: -357.493
 multi size: 2
 ************ LOF ************
@@ -10336,6 +11986,43 @@ Optimal value: 12276
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -481.434
 multi size: 2
 ************ LOF ************
@@ -10477,6 +12164,44 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -8.46803e-10
 multi size: 2
 ************ LOF ************
@@ -10638,6 +12363,45 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -82.5833
 multi size: 1
 ************ LOF ************
@@ -10720,6 +12484,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -185.62
 multi size: 2
 ************ LOF ************
@@ -10881,6 +12677,38 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -23.7237
 multi size: 2
 ************ LOF ************
@@ -11062,6 +12890,45 @@ OAr Wed Jul 25 12:59:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -900.956
 multi size: 2
 ************ LOF ************
@@ -11243,6 +13110,44 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -68.8364
 multi size: 2
 ************ LOF ************
@@ -11424,6 +13329,36 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -53.3082
 multi size: 2
 ************ LOF ************
@@ -11585,6 +13520,44 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -449.925
 multi size: 2
 ************ LOF ************
@@ -11746,6 +13719,38 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -12271,6 +14276,44 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -4000
 multi size: 2
 ************ LOF ************
@@ -12432,6 +14475,37 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -178.422
 multi size: 2
 ************ LOF ************
@@ -12881,6 +14955,38 @@ Optimal value: 11800
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1439.29
 multi size: 2
 ************ LOF ************
@@ -13042,6 +15148,41 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -58.9699
 multi size: 2
 ************ LOF ************
@@ -13143,6 +15284,46 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -37.9307
 multi size: 2
 ************ LOF ************
@@ -13304,6 +15485,39 @@ OAr Wed Jul 25 08:32:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2.85768e-07
 multi size: 2
 ************ LOF ************
@@ -13465,6 +15679,38 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -30.7301
 multi size: 1
 ************ LOF ************
@@ -13537,6 +15783,45 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -811.74
 multi size: 2
 ************ LOF ************
@@ -13718,6 +16003,45 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -127.288
 multi size: 2
 ************ LOF ************
@@ -13879,6 +16203,37 @@ OAr Wed Jul 25 06:57:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1.58656e-07
 multi size: 2
 ************ LOF ************
@@ -14000,6 +16355,41 @@ OAr Wed Jul 25 01:49:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -344.885
 multi size: 2
 ************ LOF ************
@@ -14161,6 +16551,38 @@ OAr Wed Jul 25 09:04:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -14694,6 +17116,41 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -322.886
 multi size: 2
 ************ LOF ************
@@ -14855,6 +17312,37 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -563.199
 multi size: 2
 ************ LOF ************
@@ -15270,6 +17758,40 @@ Optimal value: 7648.5
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -977.614
 multi size: 2
 ************ LOF ************
@@ -15411,6 +17933,39 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -717.056
 multi size: 1
 ************ LOF ************
@@ -15503,6 +18058,49 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -229.002
 multi size: 1
 ************ LOF ************
@@ -15605,6 +18203,37 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -78.7366
 multi size: 2
 ************ LOF ************
@@ -15806,6 +18435,37 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -6.89769e-10
 multi size: 1
 ************ LOF ************
@@ -15918,6 +18578,48 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -155.079
 multi size: 2
 ************ LOF ************
@@ -16119,6 +18821,48 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -182.576
 multi size: 2
 ************ LOF ************
@@ -16320,6 +19064,35 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -120.587
 multi size: 2
 ************ LOF ************
@@ -16481,6 +19254,39 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -497.197
 multi size: 2
 ************ LOF ************
@@ -16662,6 +19468,37 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -17323,6 +20160,39 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -138.708
 multi size: 2
 ************ LOF ************
@@ -17504,6 +20374,36 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1066.36
 multi size: 2
 ************ LOF ************
@@ -17938,12 +20838,12 @@ Summary statistics for Cholesky factor:
    9   6.3951452e+03   6.3753627e+03  1.83e-01  2.82e-02  5.74e-04  1.68e+01
   10   6.3899343e+03   6.3895680e+03  7.36e-03  1.13e-03  5.95e-06  1.32e+03
   11   6.3897500e+03   6.3897500e+03  1.34e-06  2.06e-07  6.50e-10  5.24e+06
-Barrier time = 0.02 sec. (1.07 ticks)
+Barrier time = 0.00 sec. (1.07 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.55 ticks)
-Barrier time = 0.02 sec. (1.58 ticks)
+Total time on 20 threads = 0.00 sec. (1.55 ticks)
+Barrier time = 0.00 sec. (1.58 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.58 ticks)
+Total time on 20 threads = 0.00 sec. (1.58 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 142
@@ -17956,6 +20856,43 @@ Optimal value: 6389.75
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -3117.92
 multi size: 2
 ************ LOF ************
@@ -18157,6 +21094,43 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -781.049
 multi size: 2
 ************ LOF ************
@@ -18278,6 +21252,48 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -264.153
 multi size: 2
 ************ LOF ************
@@ -18479,6 +21495,41 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1.52777e-06
 multi size: 2
 ************ LOF ************
@@ -18660,6 +21711,41 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -53.4531
 multi size: 1
 ************ LOF ************
@@ -18752,6 +21838,47 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -652.106
 multi size: 2
 ************ LOF ************
@@ -18953,6 +22080,47 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -171.912
 multi size: 2
 ************ LOF ************
@@ -19134,6 +22302,39 @@ OAr Wed Jul 25 02:38:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -194.804
 multi size: 2
 ************ LOF ************
@@ -19295,6 +22496,43 @@ OAr Wed Jul 25 02:14:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -796.264
 multi size: 2
 ************ LOF ************
@@ -19476,6 +22714,41 @@ OAr Wed Jul 25 08:59:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -20077,6 +23350,43 @@ OAr Wed Jul 25 08:59:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -301.239
 multi size: 2
 ************ LOF ************
@@ -20258,6 +23568,40 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1300.87
 multi size: 2
 ************ LOF ************
@@ -20747,6 +24091,40 @@ Optimal value: 5689.75
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -1759.43
 multi size: 2
 ************ LOF ************
@@ -20888,6 +24266,43 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -1361.92
 multi size: 2
 ************ LOF ************
@@ -21019,6 +24434,47 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -859.153
 multi size: 1
 ************ LOF ************
@@ -21101,6 +24557,39 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -662.521
 multi size: 2
 ************ LOF ************
@@ -21242,6 +24731,39 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -409.971
 multi size: 1
 ************ LOF ************
@@ -21314,6 +24836,46 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -1008.47
 multi size: 2
 ************ LOF ************
@@ -21455,6 +25017,46 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -432.954
 multi size: 2
 ************ LOF ************
@@ -21596,6 +25198,37 @@ OAr Wed Jul 25 08:08:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -561.396
 multi size: 2
 ************ LOF ************
@@ -21737,6 +25370,43 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -1417.43
 multi size: 2
 ************ LOF ************
@@ -21858,6 +25528,39 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -22271,6 +25974,44 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 65
+ff: 94
+ff: 40
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -1111.25
 multi size: 2
 ************ LOF ************
@@ -22392,6 +26133,38 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 57
+ff: 7
 air dual: -395.657
 multi size: 2
 ************ LOF ************
@@ -22740,12 +26513,12 @@ Summary statistics for Cholesky factor:
    8   5.4847427e+03   5.4805063e+03  9.65e-03  1.45e-03  1.61e-01  1.13e+02
    9   5.4831846e+03   5.4831271e+03  1.62e-04  2.44e-05  1.88e-03  9.73e+03
   10   5.4831579e+03   5.4831579e+03  2.00e-08  3.02e-09  1.91e-07  8.21e+07
-Barrier time = 0.00 sec. (1.24 ticks)
+Barrier time = 0.01 sec. (1.24 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.84 ticks)
-Barrier time = 0.00 sec. (1.88 ticks)
+Total time on 20 threads = 0.01 sec. (1.84 ticks)
+Barrier time = 0.01 sec. (1.88 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.88 ticks)
+Total time on 20 threads = 0.01 sec. (1.88 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 187
@@ -22758,6 +26531,38 @@ Optimal value: 5483.16
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1735.29
 multi size: 2
 ************ LOF ************
@@ -22919,6 +26724,41 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1928.22
 multi size: 1
 ************ LOF ************
@@ -22991,6 +26831,44 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -882.782
 multi size: 1
 ************ LOF ************
@@ -23073,6 +26951,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1308.23
 multi size: 2
 ************ LOF ************
@@ -23254,6 +27164,38 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -567.824
 multi size: 1
 ************ LOF ************
@@ -23346,6 +27288,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -409.43
 multi size: 2
 ************ LOF ************
@@ -23507,6 +27486,43 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -760.189
 multi size: 2
 ************ LOF ************
@@ -23668,6 +27684,36 @@ OAr Wed Jul 25 05:16:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1055.44
 multi size: 1
 ************ LOF ************
@@ -23740,6 +27786,41 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -2262.83
 multi size: 2
 ************ LOF ************
@@ -23881,6 +27962,38 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -24474,6 +28587,40 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2145.62
 multi size: 2
 ************ LOF ************
@@ -24615,6 +28762,37 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1973.56
 multi size: 2
 ************ LOF ************
@@ -24991,12 +29169,12 @@ Summary statistics for Cholesky factor:
    7   4.9104211e+03   4.9061422e+03  2.89e-02  4.29e-03  1.54e-02  6.75e+02
    8   4.9070004e+03   4.9069997e+03  4.16e-06  6.18e-07  2.32e-06  1.13e+06
    9   4.9070000e+03   4.9070000e+03  4.36e-10  6.61e-11  3.90e-10  6.82e+09
-Barrier time = 0.01 sec. (1.23 ticks)
+Barrier time = 0.00 sec. (1.23 ticks)
 
-Total time on 20 threads = 0.01 sec. (1.66 ticks)
-Barrier time = 0.01 sec. (1.70 ticks)
+Total time on 20 threads = 0.00 sec. (1.66 ticks)
+Barrier time = 0.00 sec. (1.70 ticks)
 
-Total time on 20 threads = 0.01 sec. (1.70 ticks)
+Total time on 20 threads = 0.00 sec. (1.70 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 207
@@ -25009,6 +29187,38 @@ Optimal value: 4907
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2008.69
 multi size: 2
 ************ LOF ************
@@ -25170,6 +29380,39 @@ OAr Wed Jul 25 06:39:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1521.01
 multi size: 1
 ************ LOF ************
@@ -25242,6 +29485,45 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1370.87
 multi size: 1
 ************ LOF ************
@@ -25324,6 +29606,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2297.76
 multi size: 2
 ************ LOF ************
@@ -25525,6 +29839,38 @@ OAr Wed Jul 25 09:00:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -714.339
 multi size: 1
 ************ LOF ************
@@ -25617,6 +29963,44 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2345.55
 multi size: 2
 ************ LOF ************
@@ -25798,6 +30182,44 @@ OAr Wed Jul 25 09:00:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2154.06
 multi size: 2
 ************ LOF ************
@@ -25959,6 +30381,38 @@ OAr Wed Jul 25 04:38:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1122.86
 multi size: 2
 ************ LOF ************
@@ -26100,6 +30554,39 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1910.28
 multi size: 2
 ************ LOF ************
@@ -26281,6 +30768,38 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -26874,6 +31393,39 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2379.76
 multi size: 2
 ************ LOF ************
@@ -27015,6 +31567,36 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2104.37
 multi size: 2
 ************ LOF ************
@@ -27424,6 +32006,38 @@ Optimal value: 4498
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1697.88
 multi size: 2
 ************ LOF ************
@@ -27565,6 +32179,40 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1465.67
 multi size: 1
 ************ LOF ************
@@ -27637,6 +32285,46 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1058.81
 multi size: 1
 ************ LOF ************
@@ -27699,6 +32387,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1896.5
 multi size: 2
 ************ LOF ************
@@ -27860,6 +32580,38 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -523.312
 multi size: 1
 ************ LOF ************
@@ -27932,6 +32684,44 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -2271.63
 multi size: 2
 ************ LOF ************
@@ -28073,6 +32863,44 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1864.72
 multi size: 2
 ************ LOF ************
@@ -28194,6 +33022,37 @@ OAr Wed Jul 25 04:38:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -932.451
 multi size: 1
 ************ LOF ************
@@ -28266,6 +33125,40 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1559.22
 multi size: 2
 ************ LOF ************
@@ -28437,6 +33330,38 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -28962,6 +33887,40 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -2037.98
 multi size: 2
 ************ LOF ************
@@ -29123,6 +34082,38 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -2018.95
 multi size: 2
 ************ LOF ************
@@ -29483,6 +34474,37 @@ Optimal value: 4451
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2037.97
 multi size: 2
 ************ LOF ************
@@ -29664,6 +34686,39 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1432.54
 multi size: 1
 ************ LOF ************
@@ -29756,6 +34811,44 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1206.22
 multi size: 1
 ************ LOF ************
@@ -29838,6 +34931,37 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2086.71
 multi size: 2
 ************ LOF ************
@@ -29999,6 +35123,37 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -612.466
 multi size: 1
 ************ LOF ************
@@ -30091,6 +35246,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2653.28
 multi size: 2
 ************ LOF ************
@@ -30252,6 +35444,43 @@ OAr Wed Jul 25 06:39:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2353.98
 multi size: 1
 ************ LOF ************
@@ -30354,6 +35583,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1040.28
 multi size: 1
 ************ LOF ************
@@ -30446,6 +35706,39 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1965.75
 multi size: 1
 ************ LOF ************
@@ -30518,6 +35811,37 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -31043,6 +36367,39 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2319.82
 multi size: 2
 ************ LOF ************
@@ -31224,6 +36581,36 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2298.78
 multi size: 2
 ************ LOF ************
@@ -31609,6 +36996,37 @@ Optimal value: 4451
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1710.03
 multi size: 2
 ************ LOF ************
@@ -31750,6 +37168,41 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1323.11
 multi size: 1
 ************ LOF ************
@@ -31842,6 +37295,45 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1038.98
 multi size: 1
 ************ LOF ************
@@ -31944,6 +37436,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2029.04
 multi size: 2
 ************ LOF ************
@@ -32125,6 +37649,37 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -516.845
 multi size: 1
 ************ LOF ************
@@ -32217,6 +37772,44 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2341.3
 multi size: 2
 ************ LOF ************
@@ -32418,6 +38011,44 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2056.86
 multi size: 2
 ************ LOF ************
@@ -32599,6 +38230,37 @@ OAr Wed Jul 25 02:38:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -884.506
 multi size: 1
 ************ LOF ************
@@ -32691,6 +38353,41 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2019.36
 multi size: 1
 ************ LOF ************
@@ -32793,6 +38490,37 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -33326,6 +39054,41 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2001.15
 multi size: 2
 ************ LOF ************
@@ -33507,6 +39270,36 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1983.13
 multi size: 2
 ************ LOF ************
@@ -33930,6 +39723,37 @@ Optimal value: 4415
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2116.16
 multi size: 2
 ************ LOF ************
@@ -34111,6 +39935,40 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1468.2
 multi size: 1
 ************ LOF ************
@@ -34183,6 +40041,45 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1069.8
 multi size: 1
 ************ LOF ************
@@ -34265,6 +40162,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2137.04
 multi size: 2
 ************ LOF ************
@@ -34466,6 +40395,37 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -520.17
 multi size: 1
 ************ LOF ************
@@ -34558,6 +40518,44 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2476.33
 multi size: 2
 ************ LOF ************
@@ -34739,6 +40737,44 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2211.18
 multi size: 1
 ************ LOF ************
@@ -34821,6 +40857,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -925.971
 multi size: 2
 ************ LOF ************
@@ -34942,6 +41009,40 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2134.12
 multi size: 1
 ************ LOF ************
@@ -35044,6 +41145,37 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -35329,6 +41461,40 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2160.28
 multi size: 2
 ************ LOF ************
@@ -35490,6 +41656,36 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2108.28
 multi size: 2
 ************ LOF ************
@@ -35896,6 +42092,37 @@ Optimal value: 4415
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2186.22
 multi size: 2
 ************ LOF ************
@@ -36077,6 +42304,39 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1519.42
 multi size: 1
 ************ LOF ************
@@ -36149,6 +42409,44 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1062.68
 multi size: 1
 ************ LOF ************
@@ -36231,6 +42529,38 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2220.82
 multi size: 2
 ************ LOF ************
@@ -36432,6 +42762,37 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -510.769
 multi size: 1
 ************ LOF ************
@@ -36524,6 +42885,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2573.74
 multi size: 2
 ************ LOF ************
@@ -36705,6 +43103,43 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2306.3
 multi size: 1
 ************ LOF ************
@@ -36787,6 +43222,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -943.262
 multi size: 2
 ************ LOF ************
@@ -36928,9 +43394,73 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1928.37
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -37524,6 +44054,39 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2269.14
 multi size: 2
 ************ LOF ************
@@ -37685,6 +44248,36 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2206.6
 multi size: 1
 ************ LOF ************
@@ -37974,12 +44567,12 @@ Summary statistics for Cholesky factor:
    6   4.4229024e+03   4.3230037e+03  3.24e-01  4.53e-02  2.35e+00  9.28e+00
    7   4.3801277e+03   4.3796983e+03  7.32e-04  1.02e-04  1.37e-02  1.58e+03
    8   4.3800000e+03   4.3800000e+03  1.34e-07  1.88e-08  1.85e-06  1.24e+07
-Barrier time = 0.02 sec. (1.24 ticks)
+Barrier time = 0.00 sec. (1.24 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.87 ticks)
-Barrier time = 0.02 sec. (1.92 ticks)
+Total time on 20 threads = 0.00 sec. (1.87 ticks)
+Barrier time = 0.00 sec. (1.92 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.92 ticks)
+Total time on 20 threads = 0.00 sec. (1.92 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 321
@@ -37992,6 +44585,37 @@ Optimal value: 4380
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2048.25
 multi size: 2
 ************ LOF ************
@@ -38173,6 +44797,39 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1457.06
 multi size: 1
 ************ LOF ************
@@ -38245,6 +44902,44 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1038.58
 multi size: 1
 ************ LOF ************
@@ -38327,6 +45022,37 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2169.43
 multi size: 2
 ************ LOF ************
@@ -38528,6 +45254,37 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -480.978
 multi size: 1
 ************ LOF ************
@@ -38620,6 +45377,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2552.82
 multi size: 2
 ************ LOF ************
@@ -38801,6 +45595,43 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2283.68
 multi size: 1
 ************ LOF ************
@@ -38883,6 +45714,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -909.643
 multi size: 1
 ************ LOF ************
@@ -38915,6 +45777,39 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1786.61
 multi size: 1
 ************ LOF ************
@@ -38997,6 +45892,37 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -39522,6 +46448,39 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2203.04
 multi size: 2
 ************ LOF ************
@@ -39683,6 +46642,36 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2206.57
 multi size: 2
 ************ LOF ************
@@ -40041,6 +47030,37 @@ Optimal value: 4380
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2111.93
 multi size: 1
 ************ LOF ************
@@ -40133,6 +47153,39 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1578.33
 multi size: 1
 ************ LOF ************
@@ -40225,6 +47278,44 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1108
 multi size: 1
 ************ LOF ************
@@ -40327,6 +47418,37 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2221.88
 multi size: 2
 ************ LOF ************
@@ -40548,6 +47670,37 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -533.041
 multi size: 1
 ************ LOF ************
@@ -40640,6 +47793,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2555
 multi size: 2
 ************ LOF ************
@@ -40821,6 +48011,43 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2336.91
 multi size: 1
 ************ LOF ************
@@ -40903,6 +48130,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1559.29
 multi size: 1
 ************ LOF ************
@@ -40995,9 +48253,74 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1871.53
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -41255,6 +48578,39 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2245.4
 multi size: 1
 ************ LOF ************
@@ -41357,6 +48713,36 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2245.7
 multi size: 0
 Number of Better Lofs is 12
@@ -41519,12 +48905,12 @@ Summary statistics for Cholesky factor:
    7   4.3790371e+03   4.3668537e+03  1.30e-02  1.78e-03  4.06e-01  5.79e+01
    8   4.3760016e+03   4.3759987e+03  5.93e-06  8.12e-07  6.59e-05  3.83e+05
    9   4.3760000e+03   4.3760000e+03  7.69e-10  1.04e-10  9.16e-09  2.19e+09
-Barrier time = 0.00 sec. (1.42 ticks)
+Barrier time = 0.02 sec. (1.42 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.11 ticks)
-Barrier time = 0.00 sec. (2.16 ticks)
+Total time on 20 threads = 0.02 sec. (2.11 ticks)
+Barrier time = 0.02 sec. (2.16 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.16 ticks)
+Total time on 20 threads = 0.02 sec. (2.16 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 351
@@ -41537,6 +48923,37 @@ Optimal value: 4376
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2003.71
 multi size: 1
 ************ LOF ************
@@ -41629,6 +49046,39 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1492.17
 multi size: 1
 ************ LOF ************
@@ -41741,9 +49191,78 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1020.65
 multi size: 0
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2107.93
 multi size: 2
 ************ LOF ************
@@ -41965,6 +49484,37 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -490.419
 multi size: 1
 ************ LOF ************
@@ -42077,6 +49627,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2445.1
 multi size: 2
 ************ LOF ************
@@ -42258,6 +49845,43 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2218.65
 multi size: 1
 ************ LOF ************
@@ -42340,6 +49964,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1458.67
 multi size: 1
 ************ LOF ************
@@ -42412,9 +50067,73 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1798.21
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -42672,6 +50391,39 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2146.21
 multi size: 1
 ************ LOF ************
@@ -42774,6 +50526,36 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2141.53
 multi size: 0
 Number of Better Lofs is 11
@@ -42927,12 +50709,12 @@ Summary statistics for Cholesky factor:
    7   4.3733588e+03   4.3517143e+03  4.74e-02  6.42e-03  5.62e-01  3.75e+01
    8   4.3640195e+03   4.3639924e+03  1.01e-04  1.37e-05  3.29e-04  6.41e+04
    9   4.3640000e+03   4.3640000e+03  1.22e-08  1.65e-09  4.42e-08  2.67e+08
-Barrier time = 0.00 sec. (1.45 ticks)
+Barrier time = 0.01 sec. (1.45 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.15 ticks)
-Barrier time = 0.00 sec. (2.21 ticks)
+Total time on 20 threads = 0.01 sec. (2.15 ticks)
+Barrier time = 0.01 sec. (2.21 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.21 ticks)
+Total time on 20 threads = 0.01 sec. (2.21 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 362
@@ -42945,9 +50727,73 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2068.87
 multi size: 0
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1577.34
 multi size: 1
 ************ LOF ************
@@ -43060,9 +50906,78 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1137.78
 multi size: 0
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2210.08
 multi size: 1
 ************ LOF ************
@@ -43185,6 +51100,37 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -527.351
 multi size: 1
 ************ LOF ************
@@ -43277,6 +51223,43 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2530.75
 multi size: 1
 ************ LOF ************
@@ -43369,6 +51352,43 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2277.14
 multi size: 1
 ************ LOF ************
@@ -43471,6 +51491,37 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1524.79
 multi size: 1
 ************ LOF ************
@@ -43543,9 +51594,74 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1883.69
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -43594,9 +51710,72 @@ parent subnode's hosting leg is lg70
 air dual: -506.927
 multi size: 0
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2250.56
 multi size: 0
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2204.92
 multi size: 0
 Number of Better Lofs is 6
@@ -43701,12 +51880,12 @@ Summary statistics for Cholesky factor:
    8   4.3648754e+03   4.3630088e+03  4.68e-03  6.27e-04  4.27e-02  5.27e+02
    9   4.3640001e+03   4.3639999e+03  6.91e-07  9.25e-08  5.45e-06  3.62e+06
   10   4.3640000e+03   4.3640000e+03  1.07e-10  1.04e-11  7.50e-10  2.62e+10
-Barrier time = 0.02 sec. (1.57 ticks)
+Barrier time = 0.00 sec. (1.57 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.29 ticks)
-Barrier time = 0.02 sec. (2.34 ticks)
+Total time on 20 threads = 0.00 sec. (2.29 ticks)
+Barrier time = 0.00 sec. (2.34 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.34 ticks)
+Total time on 20 threads = 0.00 sec. (2.34 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 368
@@ -43719,9 +51898,73 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1954.63
 multi size: 0
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1468.49
 multi size: 1
 ************ LOF ************
@@ -43814,9 +52057,78 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1046.09
 multi size: 0
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2121.74
 multi size: 1
 ************ LOF ************
@@ -43919,12 +52231,117 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -485.144
 multi size: 0
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2446.94
 multi size: 0
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2172.62
 multi size: 1
 ************ LOF ************
@@ -44027,12 +52444,108 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1450.07
 multi size: 0
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1788.29
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -44081,9 +52594,72 @@ parent subnode's hosting leg is lg70
 air dual: -483.861
 multi size: 0
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2167.54
 multi size: 0
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2136.58
 multi size: 0
 Number of Better Lofs is 3
@@ -44174,24 +52750,262 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1910.57
 multi size: 0
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1426.6
 multi size: 0
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1012.97
 multi size: 0
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2088.9
 multi size: 0
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -468.944
 multi size: 0
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2416.52
 multi size: 0
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2134.39
 multi size: 1
 ************ LOF ************
@@ -44294,12 +53108,108 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1419.24
 multi size: 0
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1757.3
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -44348,9 +53258,72 @@ parent subnode's hosting leg is lg70
 air dual: -480.112
 multi size: 0
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2136.16
 multi size: 0
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2114.08
 multi size: 0
 Number of Better Lofs is 1
@@ -44420,33 +53393,367 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+ff: 78
+ff: 43
+ff: 8
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1922.2
 multi size: 0
 air i 1
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1435.33
 multi size: 0
 air i 2
+ff: 51
+ff: 23
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1015.56
 multi size: 0
 air i 3
+ff: 23
+ff: 15
+ff: 86
+ff: 68
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2097.72
 multi size: 0
 air i 4
+ff: 34
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -472.219
 multi size: 0
 air i 5
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2424.44
 multi size: 0
 air i 6
+ff: 51
+ff: 15
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2145.2
 multi size: 0
 air i 7
+ff: 59
+ff: 86
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 36
+ff: 10
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -1425.02
 multi size: 0
 air i 8
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 57
+ff: 7
 air dual: -1765.22
 multi size: 0
 air i 9
+ff: 84
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 station name: XAL
 station arr list: 4
 Leg 14 Flt 2929329 Tal MA953N
@@ -44495,9 +53802,72 @@ parent subnode's hosting leg is lg70
 air dual: -481.928
 multi size: 0
 air i 10
+ff: 78
+ff: 43
+ff: 8
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2144.64
 multi size: 0
 air i 11
+ff: 86
+ff: 68
+ff: 1
+ff: 61
+ff: 53
+ff: 45
+ff: 25
+ff: 36
+ff: 10
+ff: 88
+ff: 80
+ff: 70
+ff: 63
+ff: 27
+ff: 19
+ff: 12
+ff: 3
+ff: 72
+ff: 55
+ff: 38
+ff: 29
+ff: 5
+ff: 65
+ff: 94
+ff: 40
+ff: 21
+ff: 82
+ff: 31
+ff: 57
+ff: 7
 air dual: -2120.91
 multi size: 0
 Number of Better Lofs is 0
@@ -44512,12 +53882,12 @@ Tried aggregator 1 time.
 MIP Presolve eliminated 28 rows and 19 columns.
 Reduced MIP has 79 rows, 424 columns, and 2424 nonzeros.
 Reduced MIP has 424 binaries, 0 generals, 0 SOSs, and 0 indicators.
-Presolve time = 0.02 sec. (1.45 ticks)
+Presolve time = 0.00 sec. (1.45 ticks)
 Probing time = 0.00 sec. (2.34 ticks)
 Tried aggregator 1 time.
 Reduced MIP has 79 rows, 424 columns, and 2424 nonzeros.
 Reduced MIP has 424 binaries, 0 generals, 0 SOSs, and 0 indicators.
-Presolve time = 0.00 sec. (1.23 ticks)
+Presolve time = 0.01 sec. (1.23 ticks)
 Probing time = 0.00 sec. (2.34 ticks)
 Clique table members: 142.
 MIP emphasis: balance optimality and feasibility.
@@ -44532,16 +53902,16 @@ Root relaxation solution time = 0.00 sec. (1.41 ticks)
 *     0+    0                        21407.0000     1600.0000            92.53%
 *     0+    0                        13978.0000     1600.0000            88.55%
 *     0     0      integral     0     4364.0000     4364.0000       11    0.00%
-Elapsed time = 0.02 sec. (10.61 ticks, tree = 0.00 MB, solutions = 4)
+Elapsed time = 0.01 sec. (10.61 ticks, tree = 0.00 MB, solutions = 4)
 
 Root node processing (before b&c):
-  Real time             =    0.02 sec. (10.64 ticks)
+  Real time             =    0.01 sec. (10.64 ticks)
 Parallel b&c, 20 threads:
   Real time             =    0.00 sec. (0.00 ticks)
   Sync time (average)   =    0.00 sec.
   Wait time (average)   =    0.00 sec.
                           ------------
-Total (root+branch&cut) =    0.02 sec. (10.64 ticks)
+Total (root+branch&cut) =    0.01 sec. (10.64 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372

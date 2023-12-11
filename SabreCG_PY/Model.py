@@ -305,6 +305,7 @@ class Model:
     def edgeProcessFltFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
         subNodeList = thisLeg.getSubNodeList()
         for _subNode in subNodeList:
+            # print("leg id:", thisLeg.getId())
             self.edgeProcessFltFltSubNode(_subNode, nextLeg, aircraft)
 
     # helper function
@@ -319,6 +320,8 @@ class Model:
         if nextLeg.getAircraft() != aircraft:
             edgeCost += ut.util.w_fltSwap
         newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+        if newSubNode.getLeg().getId() == 32:
+            print("ff:", newSubNode.getParentSubNode().getLeg().getId())
         nextLeg.insertSubNode(newSubNode)
 
     def edgeProcessFltMaint(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
@@ -334,6 +337,8 @@ class Model:
                     return
                 edgeCost = 0 - nextLeg.getDual()
                 newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+                if newSubNode.getLeg().getId() == 32:
+                    print("fm:", newSubNode.getParentSubNode().getLeg().getId())
                 nextLeg.insertSubNode(newSubNode)
 
     def edgeProcessMaintFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
@@ -354,6 +359,8 @@ class Model:
             if nextLeg.getAircraft() != aircraft:
                 edgeCost += ut.util.w_fltSwap
             newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+            if newSubNode.getLeg().getId() == 32:
+                print("mf:", newSubNode.getParentSubNode().getLeg().getId())
             nextLeg.insertSubNode(newSubNode)
         else:
             if len(thisLeg.getSubNodeList) > 0:
@@ -381,6 +388,8 @@ class Model:
                     return
                 edgeCost = 0 - nextLeg.getDual()
                 newSubNode = SubNode(nextLeg, subNode, subNode.getSubNodeCost() + edgeCost, delay)
+                if newSubNode.getLeg().getId() == 32:
+                    print("mm:", newSubNode.getParentSubNode().getLeg().getId())
                 nextLeg.insertSubNode(newSubNode)
             else:
                 if len(thisLeg.getSubNodeList()) > 0:

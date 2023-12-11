@@ -781,6 +781,9 @@ void Model::edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 	// cout << "case 1 len: " << subNodeList.size() << endl;
 	for(int i = 0; i < subNodeList.size(); i++)
 	{
+		// if(thisLeg->getId() == ) {
+
+		// }
 		edgeProcessFltFltSubNode(subNodeList[i], nextLeg, aircraft);
 	}
 }
@@ -814,11 +817,11 @@ void Model::edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* a
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
 
-	// �½�SubNode, ����Ƿ��ܲ���nextLeg��subNodeList
-	// ���newSubNode�����κ�nextLeg���е�subNode dominate, ����
-	// ���newSubNode dominate�κ�nextLeg���е�subNode, ɾ�������е�subNode, newSubNode����nextLeg��subNodeList
+	
 	SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-
+	if(newSubNode->getLeg()->getId() == 32) {
+		cout << "ff: " << newSubNode->getParentSubNode()->getLeg()->getId() << endl;
+	}
 	if (!nextLeg->insertSubNode(newSubNode))
 	{
 		delete newSubNode;
@@ -857,7 +860,9 @@ void Model::edgeProcessFltMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft*
 			edgeCost = 0 - nextLeg->getDual();
 
 			SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-
+			if(newSubNode->getLeg()->getId() == 32) {
+				cout << "fm: " << newSubNode->getParentSubNode()->getLeg()->getId() << endl;
+			}
 			if (!nextLeg->insertSubNode(newSubNode))
 			{
 				delete newSubNode;
@@ -904,7 +909,9 @@ void Model::edgeProcessMaintFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft*
 			edgeCost += Util::w_fltSwap;
 
 		SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-
+		if (newSubNode->getLeg()->getId() == 32) {
+			cout << "mf: " << newSubNode->getParentSubNode()->getLeg()->getId() << endl;
+		}
 		if (!nextLeg->insertSubNode(newSubNode))
 		{
 			delete newSubNode;
@@ -954,7 +961,9 @@ void Model::edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraf
 			edgeCost = 0 - nextLeg->getDual();
 			
 			SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-
+			if(newSubNode->getLeg()->getId() == 32) {
+				cout << "mm: " << newSubNode->getParentSubNode()->getLeg()->getId() << endl;
+			}
 			if (!nextLeg->insertSubNode(newSubNode))
 			{
 				delete newSubNode;
