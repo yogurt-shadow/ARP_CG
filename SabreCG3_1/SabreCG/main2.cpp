@@ -885,9 +885,9 @@ int main( int argc, char * argv[] )
 	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
 	schedule->computeTopOrder();
 
-	for (auto i: aircraftList[5]->getArrStation()->getArrLegList()) {
-		cout << i->getSubNodeList().size() << endl;
-	}
+	// for (auto i: aircraftList[5]->getArrStation()->getArrLegList()) {
+	// 	cout << i->getSubNodeList().size() << endl;
+	// }
 
 	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList());
 

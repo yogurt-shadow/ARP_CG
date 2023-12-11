@@ -1,4 +1,12 @@
 #include "Model.h"
+#include <fstream>
+#include <cstdio>
+
+bool Model::fileExist(string fileName)
+{
+	ifstream infile(fileName);
+	return infile.good();
+}
 
 Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList):
 	_stationList(stationList), _aircraftList(aircraftList), _legList(legList), _topOrderList(topOrderList)
@@ -139,17 +147,17 @@ vector<Lof *> Model::findNewColumns()
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		cout << "air i " << i << endl;
-		_aircraftList[i]->print();
+		// _aircraftList[i]->print();
 		//tempLof = findNewOneColumn(_aircraftList[i]);
 		tempLof = findNewMultiColumns(_aircraftList[i], i);
 		//if (tempLof != NULL)
-		// cout << "multi size: " << tempLof.size() << endl;
 		if (tempLof.size() > 0)
 		{
 			//betterLof.push_back(tempLof);
 			betterLof.insert(betterLof.end(), tempLof.begin(), tempLof.end());
 		}
 
+		cout << "multi size: " << tempLof.size() << endl;
 		for (auto ele: tempLof) {
 			ele->print();
 		}
@@ -301,11 +309,11 @@ void Model::solve()
 	_count++;
 	string name = "cc_" + string(str) + ".mps";
 
-	//_solver.exportModel("test.lp");
-	//_solver.exportModel(name.c_str());
-
 	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
 	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
+	if (fileExist(name)) {
+		remove(name.c_str());
+	}
 	_solver.exportModel((header + name).c_str());
 	_solver.solve();
 
@@ -366,6 +374,9 @@ vector<Lof* > Model::solveIP()
 
 	//_solver = IloCplex(_model);
 
+	if(fileExist(header + "recovery_cc.mps")) {
+		remove((header + "recovery_cc.mps").c_str());
+	}
 	_solver.exportModel((header + "recovery_cc.mps").c_str());
 
 	_solver.solve();
@@ -440,12 +451,12 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 	//* ��ʼ����aircraft dep airport�ϵ�flight, i.e. nodeCost
 	vector<Leg*> depLegList;
 	depLegList = aircraft->getDepStation()->getDepLegList();
-	if (i == 5) {
-		cout << "scan dep" << endl;
-		for(auto ele: depLegList) {
-			ele->print();
-		}
-	}
+	// if (i == 5) {
+	// 	cout << "scan dep" << endl;
+	// 	for(auto ele: depLegList) {
+	// 		ele->print();
+	// 	}
+	// }
 
 	for (int k = 0; k < depLegList.size(); k++)
 	{
@@ -501,9 +512,9 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 
 	for (int j = 0; j < arrLegList.size(); j++)
 	{
-		if (i == 5) {
-			cout << "sub size: " << arrLegList[j]->getSubNodeList().size() << endl;
-		}
+		// if (i == 5 && _count == 1) {
+		// 	cout << "sub size: " << arrLegList[j]->getSubNodeList().size() << endl;
+		// }
 		for (auto& subNode : arrLegList[j]->getSubNodeList())
 		{
 			tmpSubNodeList.push_back(subNode);
@@ -537,14 +548,14 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 
 	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
 	
-	if (i == 5) {
-		cout << "arr list: " << arrLegList.size() << endl;
-		cout << "maint list: " << arrMaintList.size() << endl;
-		cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
-		for(auto ele: tmpSubNodeList) {
-			ele->print();
-		}
-	}
+	// if (i == 5) {
+	// 	cout << "arr list: " << arrLegList.size() << endl;
+	// 	cout << "maint list: " << arrMaintList.size() << endl;
+	// 	cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
+	// 	for(auto ele: tmpSubNodeList) {
+	// 		ele->print();
+	// 	}
+	// }
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
@@ -552,9 +563,6 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 		for (int i = 0; i < _legList.size(); i++)
 		{
 			_legList[i]->resetLeg();//##��һ��aircraftǰҪ�����ʷ��¼
-		}
-		if(i == 5) {
-			cout << "just return" << endl;
 		}
 		// cout << "reduced cost >= 0! " << endl;
 		return betterLof;
@@ -566,10 +574,10 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 	{
 		if (tmp_count < Util::newamount)
 		{	
-			if (i == 5) {
-				cout <<"dual is " << aircraft->getDual() << endl;
-				cout << "sub cost is " << subNode->getSubNodeCost() << endl;
-			}
+			// if (i == 5) {
+			// 	cout <<"dual is " << aircraft->getDual() << endl;
+			// 	cout << "sub cost is " << subNode->getSubNodeCost() << endl;
+			// }
 			//if (subNode->getSubNodeCost() - aircraft->getDual() < CPLEXERROR)
 			if (subNode->getSubNodeCost() - aircraft->getDual() < -0.0001)
 			{
@@ -965,12 +973,6 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int i)
 	{
 		cout << "Error, initial relaxation must happen" << endl;
 		exit(0);
-	}
-	if (i == 5) {
-		cout << "print insert node list" << endl;
-		for (auto ele: nextLeg->getSubNodeList()) {
-			ele->print();
-		}
 	}
 }
 

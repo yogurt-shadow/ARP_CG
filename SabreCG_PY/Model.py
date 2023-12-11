@@ -6,6 +6,7 @@ import sys
 import gurobipy as gp
 from gurobipy import GRB
 import time
+import os
 
 class Model:
     _count = 0
@@ -28,15 +29,14 @@ class Model:
         i = 0
         for _aircraft in self._aircraftList:
             print("air i", i)
-            _aircraft.print()
+            # _aircraft.print()
             tempLof = self.findNewMultiColumns(_aircraft, i)
-            i += 1
-            # print("multi size:", len(tempLof), flush=True)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
-
+            print("multi size:", len(tempLof), flush=True)
             for ele in tempLof:
                 ele.print()
+            i += 1
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
         # for _lof in betterLof:
@@ -46,10 +46,10 @@ class Model:
     def findNewMultiColumns(self, aircraft: Aircraft, i) -> list[Lof]:
         betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
 
-        if i == 5:
-            print("scan dep")
-            for ele in depLegList:
-                ele.print()
+        # if i == 5:
+        #     print("scan dep")
+        #     for ele in depLegList:
+        #         ele.print()
         for _depLeg in depLegList:
             self.edgeProcessFlt(_depLeg, aircraft, i)
         depMaintList = aircraft.getDepStation().getMainList()
@@ -81,8 +81,8 @@ class Model:
         # print("time range1: ", time2 - time1, flush=True)
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
-            if i == 5:
-                print("sub size:", len(_arrLeg.getSubNodeList()))
+            # if i == 5 and Model._count == 1:
+            #     print("sub size:", len(_arrLeg.getSubNodeList()))
             for _subNode in _arrLeg.getSubNodeList():
                 tmpSubNodeList.append(_subNode)
         arrMaintList = aircraft.getArrStation().getMainList()
@@ -96,27 +96,25 @@ class Model:
             return betterLof
         tmpSubNodeList.sort(key = lambda x: x.CostKey())
        
-        if i == 5:
-            print("arr list:", len(arrLegList))
-            print("main list:", len(arrMaintList))
-            print("tmpSubNodeList size: ", len(tmpSubNodeList))
-            for ele in tmpSubNodeList:
-                ele.print()
+        # if i == 5:
+        #     print("arr list:", len(arrLegList))
+        #     print("main list:", len(arrMaintList))
+        #     print("tmpSubNodeList size: ", len(tmpSubNodeList))
+        #     for ele in tmpSubNodeList:
+        #         ele.print()
 
 
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
                 _leg.resetLeg()
-            if i == 5:
-                print("just return")
             return betterLof
         tmp_count = 0
         # print("new amount", ut.util.newamount)
         for subNode in tmpSubNodeList:
             if tmp_count < ut.util.newamount:
-                if i == 5:
-                    print("dual is", aircraft.getDual())
-                    print("sub cost is", subNode.getSubNodeCost())
+                # if i == 5:
+                #     print("dual is", aircraft.getDual())
+                #     print("sub cost is", subNode.getSubNodeCost())
                 if subNode.getSubNodeCost() - aircraft.getDual() < -0.0001:
                     subNodeSelect = Stack()
                     tempSubNode = subNode
@@ -354,10 +352,6 @@ class Model:
         if not nextLeg.insertSubNode(newSubNode):
             print("Error, initial relaxation must happen")
             sys.exit(0)
-        if i == 5:
-            print("print insert node list")
-            for _ele in nextLeg.getSubNodeList():
-                _ele.print()
 
     def edgeProcessFltFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
         subNodeList = thisLeg.getSubNodeList()
@@ -557,6 +551,8 @@ class Model:
         """
         self._model.setParam(GRB.param.Method, 2)
         # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
+        if os.path.exists(name):
+            os.remove(name)
         self._model.write(name)
         self._model.optimize()
         print()
@@ -610,6 +606,8 @@ class Model:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
+        if os.path.exists(Model.header + "recovery_pp.mps"):
+            os.remove(Model.header + "recovery_pp.mps")
         self._model.write(Model.header + "recovery_pp.mps")
         self._model.optimize()
         print()

@@ -44,6 +44,7 @@ private:
 
 	vector<Leg *> _topOrderList;			//* leg topological order
 
+	bool fileExist(string fileName);
 	//Leg _dummySource;						//* dummy source node connecting starting nodes // ʹ��findNewOneColumn��debug�ȽϷ���
 public:
 	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);

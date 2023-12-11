@@ -324,8 +324,8 @@ if __name__ == "__main__":
     schedule.computeTopOrder()
 
 
-    for i in aircraftList[5].getArrStation().getArrLegList():
-        print(len(i.getSubNodeList()))
+    # for i in aircraftList[5].getArrStation().getArrLegList():
+    #     print(len(i.getSubNodeList()))
 
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
     
