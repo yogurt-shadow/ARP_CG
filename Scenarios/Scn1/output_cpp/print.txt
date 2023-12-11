@@ -2404,6 +2404,806 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 2
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 53
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg21
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 10
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg19
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -6392
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 65
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg21
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+subNodeCost is -6392
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg19
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -5344
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 25
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 12 cost 1961
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 26
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 12 cost 1961
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 25
@@ -5037,6 +5837,266 @@ OAr Wed Jul 25 13:20:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -3586.41
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 2
+subNodeCost is -4327.63
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -4655.9
+subNode delay is 4500
+hosting leg is lg83
+parent subnode's hosting leg is lg49
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 2
+subNodeCost is -3978.01
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -5344.01
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 5
+subNodeCost is -5344.01
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -4655.9
+subNode delay is 4500
+hosting leg is lg83
+parent subnode's hosting leg is lg49
+subNodeCost is -4327.63
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -3978.01
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -3586.41
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 47
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg List Size is 8 cost 1286
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:15:00 2012
+OAr Tue Jul 24 12:52:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 48
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg List Size is 10 cost 1859
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 23:04:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:05:00 2012
+OAr Wed Jul 25 13:00:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 47
@@ -5891,12 +6951,12 @@ Summary statistics for Cholesky factor:
    8   1.7621164e+04   1.7609046e+04  2.81e-02  5.11e-03  1.32e+00  1.00e+01
    9   1.7616001e+04   1.7615999e+04  5.79e-06  1.05e-06  1.44e-04  1.09e+05
   10   1.7616000e+04   1.7616000e+04  9.82e-10  1.79e-10  1.45e-08  8.40e+08
-Barrier time = 0.02 sec. (0.53 ticks)
+Barrier time = 0.00 sec. (0.53 ticks)
 
-Total time on 20 threads = 0.02 sec. (0.71 ticks)
-Barrier time = 0.02 sec. (0.72 ticks)
+Total time on 20 threads = 0.00 sec. (0.71 ticks)
+Barrier time = 0.00 sec. (0.72 ticks)
 
-Total time on 20 threads = 0.02 sec. (0.72 ticks)
+Total time on 20 threads = 0.00 sec. (0.72 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 53
@@ -7341,6 +8401,274 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -2242.59
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg61
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 2
+subNodeCost is -4287.55
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg21
+subNodeCost is -5003.53
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 3
+subNodeCost is -3929.49
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg63
+subNodeCost is -4447.32
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -4761.69
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 6
+subNodeCost is -5003.53
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -4761.69
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -4447.32
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -4287.55
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg21
+subNodeCost is -3929.49
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg63
+subNodeCost is -2242.59
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg61
+better size: 2
+************ LOF ************
+Lof ID is 69
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg List Size is 10 cost 1959
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 70
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg List Size is 8 cost 1606
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 04:25:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 69
@@ -8138,12 +9466,12 @@ Summary statistics for Cholesky factor:
    9   1.2283395e+04   1.2270577e+04  9.66e-02  1.63e-02  2.80e-01  2.01e+01
   10   1.2276001e+04   1.2275999e+04  1.39e-05  2.34e-06  2.80e-05  1.48e+05
   11   1.2276000e+04   1.2276000e+04  1.58e-09  2.66e-10  2.86e-09  1.18e+09
-Barrier time = 0.02 sec. (0.71 ticks)
+Barrier time = 0.00 sec. (0.71 ticks)
 
-Total time on 20 threads = 0.02 sec. (0.93 ticks)
-Barrier time = 0.02 sec. (0.95 ticks)
+Total time on 20 threads = 0.00 sec. (0.93 ticks)
+Barrier time = 0.00 sec. (0.95 ticks)
 
-Total time on 20 threads = 0.02 sec. (0.95 ticks)
+Total time on 20 threads = 0.00 sec. (0.95 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 75
@@ -9557,6 +10885,210 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -1324.4
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg86
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -3740.97
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -3586.46
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -3740.97
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -3586.46
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg29
+subNodeCost is -1324.4
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg86
+better size: 2
+************ LOF ************
+Lof ID is 92
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg List Size is 8 cost 1307
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:30:00 2012
+OAr Tue Jul 24 22:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:10:00 2012
+OAr Wed Jul 25 00:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 93
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg List Size is 6 cost 1304
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:30:00 2012
+OAr Tue Jul 24 22:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:10:00 2012
+OAr Wed Jul 25 00:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 92
@@ -11596,6 +13128,218 @@ OAr Wed Jul 25 09:04:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -1625.66
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg86
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 2
+subNodeCost is -3115.77
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -3598.31
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -3724.23
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -3724.23
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -3598.31
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+subNodeCost is -3115.77
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -1625.66
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg86
+better size: 2
+************ LOF ************
+Lof ID is 115
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg List Size is 6 cost 2150
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 07:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:05:00 2012
+OAr Tue Jul 24 11:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 116
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg List Size is 8 cost 1957
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 115
@@ -13713,6 +15457,266 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -2689.66
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg3
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -4640.59
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 3
+subNodeCost is -3864.36
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -4051.85
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -4182.72
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 5
+subNodeCost is -4640.59
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg57
+subNodeCost is -4182.72
+subNode delay is 3300
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -4051.85
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -3864.36
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -2689.66
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg3
+better size: 2
+************ LOF ************
+Lof ID is 136
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg List Size is 10 cost 1359
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 12:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 137
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg List Size is 8 cost 1606
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 04:25:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 136
@@ -16055,6 +18059,246 @@ OAr Wed Jul 25 08:59:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -2062.51
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -4634.36
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 3
+subNodeCost is -3547.29
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -3875.66
+subNode delay is 4500
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -4039.66
+subNode delay is 6240
+hosting leg is lg89
+parent subnode's hosting leg is lg31
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 5
+subNodeCost is -4634.36
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg31
+subNodeCost is -4039.66
+subNode delay is 6240
+hosting leg is lg89
+parent subnode's hosting leg is lg31
+subNodeCost is -3875.66
+subNode delay is 4500
+hosting leg is lg89
+parent subnode's hosting leg is lg21
+subNodeCost is -3547.29
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg5
+subNodeCost is -2062.51
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 159
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 160
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg List Size is 8 cost 2096
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 05:14:00 2012
+OAr Wed Jul 25 08:59:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 159
@@ -18005,6 +20249,178 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 2
+subNodeCost is -369.901
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg84
+subNodeCost is -373.932
+subNode delay is 1500
+hosting leg is lg71
+parent subnode's hosting leg is lg45
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -1768.64
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -1772.87
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -1772.87
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -1768.64
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg40
+subNodeCost is -373.932
+subNode delay is 1500
+hosting leg is lg71
+parent subnode's hosting leg is lg45
+subNodeCost is -369.901
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg84
+better size: 2
+************ LOF ************
+Lof ID is 181
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg List Size is 4 cost 1050
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 182
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg List Size is 6 cost 1055
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 181
@@ -19724,6 +22140,238 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -539.195
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg36
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -1961.46
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg65
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 2
+subNodeCost is -946.273
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -1523.43
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -1961.46
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg65
+subNodeCost is -1523.43
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -946.273
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -539.195
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg36
+better size: 2
+************ LOF ************
+Lof ID is 201
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg List Size is 8 cost 1657
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 202
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg List Size is 8 cost 1736
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 201
@@ -21700,6 +24348,238 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -564.254
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -734.262
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 2
+subNodeCost is -844.825
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -924.956
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -924.956
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -844.825
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg55
+subNodeCost is -734.262
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+subNodeCost is -564.254
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 222
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg List Size is 8 cost 1136
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 223
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg List Size is 8 cost 1056
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 222
@@ -22385,7 +25265,7 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 2 rows and 4 columns.
 Reduced LP has 105 rows, 319 columns, and 2071 nonzeros.
-Presolve time = 0.00 sec. (0.27 ticks)
+Presolve time = 0.02 sec. (0.27 ticks)
 Symmetry aggregator did 58 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
@@ -22412,10 +25292,10 @@ Summary statistics for Cholesky factor:
    8   4.4980000e+03   4.4980000e+03  2.82e-10  4.16e-11  4.49e-10  1.34e+10
 Barrier time = 0.00 sec. (1.20 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.67 ticks)
-Barrier time = 0.00 sec. (1.71 ticks)
+Total time on 20 threads = 0.02 sec. (1.67 ticks)
+Barrier time = 0.02 sec. (1.71 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.71 ticks)
+Total time on 20 threads = 0.02 sec. (1.71 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 228
@@ -23432,6 +26312,210 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -146.781
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -677.342
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -734.401
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg80
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -734.401
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg80
+subNodeCost is -677.342
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg94
+subNodeCost is -146.781
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 242
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg List Size is 6 cost 2152
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 07:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:05:00 2012
+OAr Tue Jul 24 11:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 243
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg List Size is 8 cost 1157
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 10:48:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 242
@@ -25137,6 +28221,210 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -175.523
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -651.137
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -576.285
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -651.137
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -576.285
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -175.523
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 260
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg List Size is 8 cost 1405
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 261
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg List Size is 6 cost 1402
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 260
@@ -27036,6 +30324,218 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is 36.5687
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -769.882
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 2
+subNodeCost is -580.812
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -656.053
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -769.882
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -656.053
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -580.812
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is 36.5687
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 279
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 280
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg List Size is 6 cost 1134
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 279
@@ -27780,12 +31280,12 @@ Summary statistics for Cholesky factor:
    7   4.4158568e+03   4.4144562e+03  4.06e-03  5.76e-04  3.21e-02  6.91e+02
    8   4.4150001e+03   4.4149999e+03  4.32e-07  6.13e-08  4.41e-06  3.91e+06
    9   4.4150000e+03   4.4150000e+03  4.45e-11  6.15e-12  5.88e-10  3.38e+10
-Barrier time = 0.00 sec. (1.55 ticks)
+Barrier time = 0.01 sec. (1.55 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.12 ticks)
-Barrier time = 0.00 sec. (2.16 ticks)
+Total time on 20 threads = 0.01 sec. (2.12 ticks)
+Barrier time = 0.01 sec. (2.16 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.16 ticks)
+Total time on 20 threads = 0.01 sec. (2.16 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 285
@@ -28903,6 +32403,130 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is 26.0478
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -628.53
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -566.271
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -628.53
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -566.271
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is 26.0478
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 298
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg List Size is 4 cost 3
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 299
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg List Size is 2 cost 0
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 298
@@ -30574,6 +34198,238 @@ OAr Wed Jul 25 05:10:00 2012
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -364.935
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -641.834
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 2
+subNodeCost is -584.133
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -692.683
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 4
+subNodeCost is -692.683
+subNode delay is 480
+hosting leg is lg89
+parent subnode's hosting leg is lg65
+subNodeCost is -641.834
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -584.133
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -364.935
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 316
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg List Size is 8 cost 1236
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 11:22:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 317
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg List Size is 8 cost 1055
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 316
@@ -32216,6 +36072,210 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -340.61
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -442.702
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -449.886
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg80
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -449.886
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg80
+subNodeCost is -442.702
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -340.61
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 2
+************ LOF ************
+Lof ID is 333
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg List Size is 6 cost 1054
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 334
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 multi size: 2
 ************ LOF ************
 Lof ID is 333
@@ -33841,6 +37901,121 @@ OAr Wed Jul 25 07:43:00 2012
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -324.628
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -499.552
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -503.552
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -503.552
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -499.552
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -324.628
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 1
+************ LOF ************
+Lof ID is 349
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 1
 ************ LOF ************
 Lof ID is 349
@@ -35061,6 +39236,121 @@ OAr Wed Jul 25 07:43:00 2012
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -252.239
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -452.639
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -454.346
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -454.346
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -452.639
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -252.239
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+better size: 1
+************ LOF ************
+Lof ID is 360
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 multi size: 1
 ************ LOF ************
 Lof ID is 360
@@ -35363,7 +39653,7 @@ Presolve time = 0.00 sec. (0.42 ticks)
 Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
-Presolve time = 0.00 sec. (0.15 ticks)
+Presolve time = 0.02 sec. (0.15 ticks)
 Parallel mode: using up to 20 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1580
 Using Approximate Minimum Degree ordering
@@ -35385,12 +39675,12 @@ Summary statistics for Cholesky factor:
    7   4.3733588e+03   4.3517143e+03  4.74e-02  6.42e-03  5.62e-01  3.75e+01
    8   4.3640195e+03   4.3639924e+03  1.01e-04  1.37e-05  3.29e-04  6.41e+04
    9   4.3640000e+03   4.3640000e+03  1.22e-08  1.65e-09  4.42e-08  2.67e+08
-Barrier time = 0.00 sec. (1.45 ticks)
+Barrier time = 0.02 sec. (1.45 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.15 ticks)
-Barrier time = 0.00 sec. (2.21 ticks)
+Total time on 20 threads = 0.02 sec. (2.15 ticks)
+Barrier time = 0.02 sec. (2.21 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.21 ticks)
+Total time on 20 threads = 0.02 sec. (2.21 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 362
@@ -35995,6 +40285,51 @@ OAr Wed Jul 25 07:43:00 2012
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -296.395
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -505.837
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -506.927
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -506.927
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -505.837
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -296.395
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
 multi size: 0
 air i 10
 multi size: 0
@@ -36102,12 +40437,12 @@ Summary statistics for Cholesky factor:
    8   4.3648754e+03   4.3630088e+03  4.68e-03  6.27e-04  4.27e-02  5.27e+02
    9   4.3640001e+03   4.3639999e+03  6.91e-07  9.25e-08  5.45e-06  3.62e+06
   10   4.3640000e+03   4.3640000e+03  1.07e-10  1.04e-11  7.50e-10  2.62e+10
-Barrier time = 0.00 sec. (1.57 ticks)
+Barrier time = 0.02 sec. (1.57 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.29 ticks)
-Barrier time = 0.00 sec. (2.34 ticks)
+Total time on 20 threads = 0.02 sec. (2.29 ticks)
+Barrier time = 0.02 sec. (2.34 ticks)
 
-Total time on 20 threads = 0.00 sec. (2.34 ticks)
+Total time on 20 threads = 0.02 sec. (2.34 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 368
@@ -36425,6 +40760,51 @@ multi size: 0
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -266.711
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -481.75
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -483.861
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -483.861
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -481.75
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -266.711
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
 multi size: 0
 air i 10
 multi size: 0
@@ -36635,6 +41015,51 @@ multi size: 0
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -257.423
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -476.796
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -480.112
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -480.112
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -476.796
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -257.423
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
 multi size: 0
 air i 10
 multi size: 0
@@ -36689,12 +41114,12 @@ Summary statistics for Cholesky factor:
    8   4.3644493e+03   4.3629367e+03  3.03e-03  4.03e-04  3.97e-02  5.10e+02
    9   4.3640001e+03   4.3639999e+03  3.54e-07  4.71e-08  5.83e-06  3.63e+06
   10   4.3640000e+03   4.3640000e+03  2.38e-10  1.04e-11  9.59e-10  3.30e+10
-Barrier time = 0.02 sec. (1.58 ticks)
+Barrier time = 0.00 sec. (1.58 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.30 ticks)
-Barrier time = 0.02 sec. (2.36 ticks)
+Total time on 20 threads = 0.00 sec. (2.30 ticks)
+Barrier time = 0.00 sec. (2.36 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.36 ticks)
+Total time on 20 threads = 0.00 sec. (2.36 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372
@@ -36725,6 +41150,51 @@ multi size: 0
 air i 8
 multi size: 0
 air i 9
+station name: XAL
+station arr list: 4
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+sub size: 0
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+sub size: 1
+subNodeCost is -259.862
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+sub size: 1
+subNodeCost is -478.675
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+sub size: 1
+subNodeCost is -481.928
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+arr list: 4
+maint list: 0
+tmpSubNodeList size: 3
+subNodeCost is -481.928
+subNode delay is 0
+hosting leg is lg89
+parent subnode's hosting leg is lg88
+subNodeCost is -478.675
+subNode delay is 0
+hosting leg is lg83
+parent subnode's hosting leg is lg82
+subNodeCost is -259.862
+subNode delay is 0
+hosting leg is lg71
+parent subnode's hosting leg is lg70
 multi size: 0
 air i 10
 multi size: 0
@@ -36762,16 +41232,16 @@ Root relaxation solution time = 0.00 sec. (1.41 ticks)
 *     0+    0                        21407.0000     1600.0000            92.53%
 *     0+    0                        13978.0000     1600.0000            88.55%
 *     0     0      integral     0     4364.0000     4364.0000       11    0.00%
-Elapsed time = 0.01 sec. (10.61 ticks, tree = 0.00 MB, solutions = 4)
+Elapsed time = 0.00 sec. (10.61 ticks, tree = 0.00 MB, solutions = 4)
 
 Root node processing (before b&c):
-  Real time             =    0.01 sec. (10.64 ticks)
+  Real time             =    0.00 sec. (10.64 ticks)
 Parallel b&c, 20 threads:
   Real time             =    0.00 sec. (0.00 ticks)
   Sync time (average)   =    0.00 sec.
   Wait time (average)   =    0.00 sec.
                           ------------
-Total (root+branch&cut) =    0.01 sec. (10.64 ticks)
+Total (root+branch&cut) =    0.00 sec. (10.64 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 372

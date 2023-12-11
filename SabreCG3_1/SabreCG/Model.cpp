@@ -506,17 +506,27 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 	}
 
 	vector<SubNode* > tmpSubNodeList;
-
+	if (i == 9) {
+		cout << "station name: " << aircraft->getArrStation()->getName() << endl;
+		cout << "station arr list: " << aircraft->getArrStation()->getArrLegList().size() << endl;
+	}
 	vector<Leg* > arrLegList;
 	arrLegList = aircraft->getArrStation()->getArrLegList();
 
 	for (int j = 0; j < arrLegList.size(); j++)
 	{
+		if(i == 9) {
+			arrLegList[j]->print();
+			cout << "sub size: " << arrLegList[j]->getSubNodeList().size() << endl;
+		}
 		// if (i == 5 && _count == 1) {
 		// 	cout << "sub size: " << arrLegList[j]->getSubNodeList().size() << endl;
 		// }
 		for (auto& subNode : arrLegList[j]->getSubNodeList())
 		{
+			if(i == 9) {
+				subNode->print();
+			}
 			tmpSubNodeList.push_back(subNode);
 		}
 	}
@@ -548,14 +558,14 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 
 	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
 	
-	// if (i == 5) {
-	// 	cout << "arr list: " << arrLegList.size() << endl;
-	// 	cout << "maint list: " << arrMaintList.size() << endl;
-	// 	cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
-	// 	for(auto ele: tmpSubNodeList) {
-	// 		ele->print();
-	// 	}
-	// }
+	if (i == 9) {
+		cout << "arr list: " << arrLegList.size() << endl;
+		cout << "maint list: " << arrMaintList.size() << endl;
+		cout << "tmpSubNodeList size: " << tmpSubNodeList.size() << endl;
+		for(auto ele: tmpSubNodeList) {
+			ele->print();
+		}
+	}
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
@@ -658,6 +668,13 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 	for (int i = 0; i < _legList.size(); i++)
 	{
 		_legList[i]->resetLeg();
+	}
+
+	if(i == 9) {
+		cout << "better size: " << betterLof.size() << endl;
+		for(auto ele: betterLof) {
+			ele->print();
+		}
 	}
 
 	return betterLof;

@@ -79,12 +79,20 @@ class Model:
                 # print("case time: ", caset2 - caset1)
         time2 = time.time()
         # print("time range1: ", time2 - time1, flush=True)
+        if i == 9:
+            station = aircraft.getArrStation()
+            print("station name:", station.getName())
+            print("station arr list:", len(station.getArrLegList()))
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
-            # if i == 5 and Model._count == 1:
+            if i == 9:
+                _arrLeg.print()
+                print("sub size:", len(_arrLeg.getSubNodeList()))
             #     print("sub size:", len(_arrLeg.getSubNodeList()))
             for _subNode in _arrLeg.getSubNodeList():
                 tmpSubNodeList.append(_subNode)
+                if i == 9:
+                    _subNode.print()
         arrMaintList = aircraft.getArrStation().getMainList()
         for _arrMaint in arrMaintList:
             for _subNode in _arrMaint.getSubNodeList():
@@ -96,12 +104,12 @@ class Model:
             return betterLof
         tmpSubNodeList.sort(key = lambda x: x.CostKey())
        
-        # if i == 5:
-        #     print("arr list:", len(arrLegList))
-        #     print("main list:", len(arrMaintList))
-        #     print("tmpSubNodeList size: ", len(tmpSubNodeList))
-        #     for ele in tmpSubNodeList:
-        #         ele.print()
+        if i == 9:
+            print("arr list:", len(arrLegList))
+            print("main list:", len(arrMaintList))
+            print("tmpSubNodeList size: ", len(tmpSubNodeList))
+            for ele in tmpSubNodeList:
+                ele.print()
 
 
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
@@ -158,6 +166,11 @@ class Model:
         # print("time range2: ", time3 - time2)
         for _leg in self._legList:
             _leg.resetLeg()
+
+        if i == 9:
+            print("better size:", len(betterLof))
+            for ele in betterLof:
+                ele.print()
         return betterLof
     
     # def findNewOneColumn(self, aircraft: Aircraft) -> Lof:
