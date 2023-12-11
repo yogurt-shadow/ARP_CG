@@ -22,25 +22,6 @@ void Lof::pushLeg(OperLeg * leg)
 
 int Lof::_count = 0;		//*
 
-/*
-//* duplicate Lof and assign aircraft
-Lof * Lof::clone()
-{
-	Lof * lof = new Lof();
-
-	for(int i = 0; i < _legList.size(); i++)
-	{
-		OperLeg * newLeg = _legList[i]->clone();     // ScheduledLeg + depTime + arrTime + OpeAircraft
-		lof->pushLeg(newLeg);
-	}
-
-	//	lof->setLegList(_legList);
-	lof->setAircraft(_aircraft);
-	lof->setCost(_cost);
-	lof->setPurity(_purity);
-	return lof;
-}
-*/
 
 Lof::~Lof()
 {
@@ -69,106 +50,9 @@ void Lof::print()
 	{
 		_legList[i]->print();
 	}
-
-/*	if (_depNode!=NULL)
-	{
-		cout<<"ID of depNode "<<_depNode->getId()<<endl;
-			cout<<"departure station is "<<_depNode->getStation()->getName()<<endl;
-		if (_depNode->getAirctaft() != NULL)
-		{
-		cout<<"aircraft is "<<_depNode->getAirctaft()->getTail()<<endl;
-		}
-		time_t depTime = _depNode->getTime() - TIMEDIFF;
-		cout<<"Node time is "<< ctime(&depTime)<<endl;
-	/*	if (_depNode->getNextNode()!=NULL)
-		{
-		cout<<"ID of next node "<<_depNode->getNextNode()->getId()<<endl;
-		cout<<"station of next node is "<<_depNode->getNextNode()->getStation()->getName()<<endl;
-		cout<<"aircraft is "<<_depNode->getNextNode()->getAirctaft()->getTail()<<endl;
-		time_t Time = _depNode->getNextNode()->getTime() - TIMEDIFF;
-		cout<<"departure time is "<< ctime(&Time)<<endl;
-		}*/
-//	}
-/*	if (_arrNode!=NULL)
-	{
-		cout<<"ID of arrNode "<<_arrNode->getId()<<endl;
-			cout<<"arrival station is "<<_arrNode->getStation()->getName()<<endl;
-		if (_arrNode->getAirctaft() != NULL)
-		{
-		cout<<"aircraft is "<< _arrNode->getAirctaft()->getTail()<<endl;
-		}
-		time_t arrTime = _arrNode->getTime() - TIMEDIFF;
-		cout<<"Node time is "<< ctime(&arrTime)<<endl;
-	/*	if (_arrNode->getNextNode()!=NULL)
-		{
-		cout<<"ID of next node "<<_arrNode->getNextNode()->getId()<<endl;
-		cout<<"station of next node is "<<_arrNode->getNextNode()->getStation()->getName()<<endl;
-		cout<<"aircraft is "<<_arrNode->getNextNode()->getAirctaft()->getTail()<<endl;
-		time_t Time = _arrNode->getNextNode()->getTime() - TIMEDIFF;
-		cout<<"arrival time is "<< ctime(&Time)<<endl;
-		}*/
-
-//	}
 	cout <<"*****************************"  << endl;
 
 }
-
-/*
-void Lof::compPurity()
-{
-	vector<Aircraft *> usedAircraftList;
-	for(int i = 0; i < _legList.size(); i++)
-	{
-		bool found = false;
-		for(int j = 0; j < usedAircraftList.size(); j++)
-		{
-			if ( _legList[i]->getLeg()->getAircraft() == usedAircraftList[j])
-			{
-				found = true;
-				break;
-			}
-		}
-
-		if ( found == false)
-		{
-			usedAircraftList.push_back( _legList[i]->getLeg()->getAircraft());
-		}
-	}
-	_purity = usedAircraftList.size();
-}
-*/
-
-/*
-bool Lof::compatible(Aircraft * aircraft)
-*/
-
-/*
-	bool rescheduleTime(time_t t);                         /// ????????????????????????????????????? ¶¼ÊÇ´¦Àísequential delayµÄ?
-	bool rescheduleTime();
-	bool rescheduleTimeWithMaint();
-	bool rescheduleTimeWithoutMaint();
-	bool rescheduleTimeWithMaint(time_t prevEndTime);
-	bool rescheduleTimeWithoutMaint(time_t prevEndTime);
-	void rescheduleTimeWithoutMaintAirportClose();
-	void rescheduleTimeWithMaintAirportClose();
-	*/
-
-/* compute the cost of the lof = delay + swap */
-/*
-void Lof::compCostWithoutPopulate()
-{
-	_cost = 0;
-	for(int i = 0; i < _legList.size(); i++)
-	{
-		if ( !_legList[i]->getLeg()->isMaint() )
-		{
-			_cost = _cost + (_legList[i]->getOpDepTime() - _legList[i]->getScheDepTime())/60 * Util::w_fltDelay;
-		}
-	}
-	compPurity();
-	_cost = _cost + _purity * Util::w_fltSwap;
-}
-*/
 
 void Lof::computeLofCost()
 {
@@ -177,8 +61,8 @@ void Lof::computeLofCost()
 	{
 		if ( !_legList[i]->getLeg()->isMaint() )
 		{
-			_cost = _cost + (_legList[i]->getOpDepTime() - _legList[i]->getScheDepTime())/60.0 * Util::w_fltDelay; /* ×¢ÒâÕâÀï³ýÒÔ60 */
-			//_cost = _cost + (_legList[i]->getOpDepTime() - _legList[i]->getScheDepTime()) * Util::w_fltDelay; // Ð¡case debugÓÃ
+			_cost = _cost + (_legList[i]->getOpDepTime() - _legList[i]->getScheDepTime())/60.0 * Util::w_fltDelay; /* ×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½60 */
+			//_cost = _cost + (_legList[i]->getOpDepTime() - _legList[i]->getScheDepTime()) * Util::w_fltDelay; // Ð¡case debugï¿½ï¿½
 		}
 
 		if ( _legList[i]->getScheAircraft() != _aircraft)
@@ -228,7 +112,7 @@ void Lof::computeReducedCost()
 	double sumLegDual = 0;		//*
 
 	/* flow balance constraint */
-	//* _reducedCost = _depNode->getDual() - _arrNode->getDual();     ///********×¢ÒâdepNodeÊÇÕý£¬arrNodeÊÇ¸º /// flow balance constraintµÄdualÊÇÊ²Ã´Ê±ºò±»setµÄ£¿
+	//* _reducedCost = _depNode->getDual() - _arrNode->getDual();     ///********×¢ï¿½ï¿½depNodeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½arrNodeï¿½Ç¸ï¿½ /// flow balance constraintï¿½ï¿½dualï¿½ï¿½Ê²Ã´Ê±ï¿½ï¿½setï¿½Ä£ï¿½
 
 	/* cover constraint */
 

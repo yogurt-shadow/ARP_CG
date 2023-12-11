@@ -483,6 +483,7 @@ Optimal value: 24000
 
 air size: 12
 air i 0
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 8
@@ -703,6 +704,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 10
@@ -923,6 +925,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: 0
 multi size: 1
 ************ LOF ************
 Lof ID is 12
@@ -1044,6 +1047,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 13
@@ -1284,6 +1288,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 15
@@ -1424,6 +1429,7 @@ OAr Tue Jul 24 12:10:00 2012
 
 *****************************
 air i 5
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 17
@@ -1684,6 +1690,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 19
@@ -1924,6 +1931,7 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 21
@@ -2144,6 +2152,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 23
@@ -2945,6 +2954,412 @@ subNodeCost is -3745
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: 0
+better lof: 0
+************ LOF ************
+Lof ID is 25
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 12 cost 1961
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
+push subnode: 
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+push subnode: 
+subNodeCost is -7740
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+push subnode: 
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg32
+parent subnode's hosting leg is lg57
+push subnode: 
+subNodeCost is -6142
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+push subnode: 
+subNodeCost is -5343
+subNode delay is 0
+hosting leg is lg56
+parent subnode's hosting leg is lg5
+push subnode: 
+subNodeCost is -4544
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+push subnode: 
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg4
+parent subnode's hosting leg is lg70
+push subnode: 
+subNodeCost is -2946
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+push subnode: 
+subNodeCost is -2147
+subNode delay is 0
+hosting leg is lg69
+parent subnode's hosting leg is lg25
+push subnode: 
+subNodeCost is -1348
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+push subnode: 
+subNodeCost is -549
+subNode delay is 0
+hosting leg is lg24
+parent subnode's hosting leg is lg84
+push subnode: 
+subNodeCost is 250
+subNode delay is 6300
+hosting leg is lg84
+parent subnode is NULL
+Stack: 
+subNodeCost is 250
+subNode delay is 6300
+hosting leg is lg84
+parent subnode is NULL
+subNodeCost is -549
+subNode delay is 0
+hosting leg is lg24
+parent subnode's hosting leg is lg84
+subNodeCost is -1348
+subNode delay is 0
+hosting leg is lg25
+parent subnode's hosting leg is lg24
+subNodeCost is -2147
+subNode delay is 0
+hosting leg is lg69
+parent subnode's hosting leg is lg25
+subNodeCost is -2946
+subNode delay is 0
+hosting leg is lg70
+parent subnode's hosting leg is lg69
+subNodeCost is -3745
+subNode delay is 0
+hosting leg is lg4
+parent subnode's hosting leg is lg70
+subNodeCost is -4544
+subNode delay is 0
+hosting leg is lg5
+parent subnode's hosting leg is lg4
+subNodeCost is -5343
+subNode delay is 0
+hosting leg is lg56
+parent subnode's hosting leg is lg5
+subNodeCost is -6142
+subNode delay is 0
+hosting leg is lg57
+parent subnode's hosting leg is lg56
+subNodeCost is -6941
+subNode delay is 0
+hosting leg is lg32
+parent subnode's hosting leg is lg57
+subNodeCost is -7740
+subNode delay is 0
+hosting leg is lg33
+parent subnode's hosting leg is lg32
+subNodeCost is -7639
+subNode delay is 5400
+hosting leg is lg83
+parent subnode's hosting leg is lg33
+tempLeg: 84
+aircraft: 9
+insert leg1: 84
+tempLeg: 24
+aircraft: 9
+insert leg1: 24
+tempLeg: 25
+aircraft: 9
+insert leg1: 25
+tempLeg: 69
+aircraft: 9
+insert leg1: 69
+tempLeg: 70
+aircraft: 9
+insert leg1: 70
+tempLeg: 4
+aircraft: 9
+insert leg1: 4
+tempLeg: 5
+aircraft: 9
+insert leg1: 5
+tempLeg: 56
+aircraft: 9
+insert leg1: 56
+tempLeg: 57
+aircraft: 9
+insert leg1: 57
+tempLeg: 32
+aircraft: 9
+insert leg1: 32
+tempLeg: 33
+aircraft: 9
+insert leg1: 33
+tempLeg: 83
+aircraft: 9
+insert leg1: 83
+better lof: 1
+************ LOF ************
+Lof ID is 26
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 12 cost 1961
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 25
@@ -3464,6 +3879,7 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 10
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 27
@@ -3704,6 +4120,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: 0
 multi size: 2
 ************ LOF ************
 Lof ID is 29
@@ -4249,10 +4666,10 @@ Summary statistics for Cholesky factor:
    9   2.3218000e+04   2.3218000e+04  2.06e-08  3.74e-09  2.56e-07  1.91e+07
 Barrier time = 0.00 sec. (0.28 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.41 ticks)
-Barrier time = 0.00 sec. (0.42 ticks)
+Total time on 20 threads = 0.02 sec. (0.41 ticks)
+Barrier time = 0.02 sec. (0.42 ticks)
 
-Total time on 20 threads = 0.00 sec. (0.42 ticks)
+Total time on 20 threads = 0.02 sec. (0.42 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 31
@@ -4265,6 +4682,7 @@ Optimal value: 23218
 
 air size: 12
 air i 0
+air dual: -298.327
 multi size: 2
 ************ LOF ************
 Lof ID is 31
@@ -4445,6 +4863,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 1
+air dual: -274.648
 multi size: 2
 ************ LOF ************
 Lof ID is 33
@@ -4625,6 +5044,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -5.21168e-08
 multi size: 1
 ************ LOF ************
 Lof ID is 35
@@ -4726,6 +5146,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -1047.56
 multi size: 2
 ************ LOF ************
 Lof ID is 36
@@ -4926,6 +5347,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 4
+air dual: -5.19752e-08
 multi size: 1
 ************ LOF ************
 Lof ID is 38
@@ -5017,6 +5439,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -487.442
 multi size: 2
 ************ LOF ************
 Lof ID is 39
@@ -5237,6 +5660,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+air dual: -230.655
 multi size: 2
 ************ LOF ************
 Lof ID is 41
@@ -5437,6 +5861,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -5.19711e-08
 multi size: 2
 ************ LOF ************
 Lof ID is 43
@@ -5617,6 +6042,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -233.095
 multi size: 2
 ************ LOF ************
 Lof ID is 45
@@ -5898,6 +6324,207 @@ subNodeCost is -3586.41
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -5.20692e-08
+better lof: 0
+************ LOF ************
+Lof ID is 47
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg List Size is 8 cost 1286
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:15:00 2012
+OAr Tue Jul 24 12:52:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 48
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg List Size is 10 cost 1859
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 23:04:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -5.20692e-08
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:05:00 2012
+OAr Wed Jul 25 13:00:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 47
@@ -6297,6 +6924,7 @@ OAr Wed Jul 25 13:00:00 2012
 
 *****************************
 air i 10
+air dual: -4000
 multi size: 2
 ************ LOF ************
 Lof ID is 49
@@ -6497,6 +7125,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 11
+air dual: -51.305
 multi size: 2
 ************ LOF ************
 Lof ID is 51
@@ -6969,6 +7598,7 @@ Optimal value: 17616
 
 air size: 12
 air i 0
+air dual: -151.904
 multi size: 2
 ************ LOF ************
 Lof ID is 53
@@ -7129,6 +7759,7 @@ OAr Wed Jul 25 06:40:00 2012
 
 *****************************
 air i 1
+air dual: -54.913
 multi size: 2
 ************ LOF ************
 Lof ID is 55
@@ -7269,6 +7900,7 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+air dual: -30.3359
 multi size: 1
 ************ LOF ************
 Lof ID is 57
@@ -7370,6 +8002,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -1.17384e-09
 multi size: 2
 ************ LOF ************
 Lof ID is 58
@@ -7550,6 +8183,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+air dual: -31.7817
 multi size: 1
 ************ LOF ************
 Lof ID is 60
@@ -7641,6 +8275,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -68.062
 multi size: 2
 ************ LOF ************
 Lof ID is 61
@@ -7841,6 +8476,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+air dual: -142.265
 multi size: 2
 ************ LOF ************
 Lof ID is 63
@@ -8041,6 +8677,7 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+air dual: -1.17863e-09
 multi size: 2
 ************ LOF ************
 Lof ID is 65
@@ -8201,6 +8838,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -428.646
 multi size: 2
 ************ LOF ************
 Lof ID is 67
@@ -8470,6 +9108,207 @@ subNodeCost is -2242.59
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg61
+air dual: -1.18376e-09
+better lof: 0
+************ LOF ************
+Lof ID is 69
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg List Size is 10 cost 1959
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 70
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg List Size is 8 cost 1606
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1.18376e-09
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 04:25:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 69
@@ -8869,6 +9708,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 10
+air dual: -4000
 multi size: 2
 ************ LOF ************
 Lof ID is 71
@@ -9049,6 +9889,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+air dual: -357.493
 multi size: 2
 ************ LOF ************
 Lof ID is 73
@@ -9484,6 +10325,7 @@ Optimal value: 12276
 
 air size: 12
 air i 0
+air dual: -481.434
 multi size: 2
 ************ LOF ************
 Lof ID is 75
@@ -9624,6 +10466,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 1
+air dual: -8.46803e-10
 multi size: 2
 ************ LOF ************
 Lof ID is 77
@@ -9784,6 +10627,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -82.5833
 multi size: 1
 ************ LOF ************
 Lof ID is 79
@@ -9865,6 +10709,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -185.62
 multi size: 2
 ************ LOF ************
 Lof ID is 80
@@ -10025,6 +10870,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -23.7237
 multi size: 2
 ************ LOF ************
 Lof ID is 82
@@ -10205,6 +11051,7 @@ OAr Wed Jul 25 12:59:00 2012
 
 *****************************
 air i 5
+air dual: -900.956
 multi size: 2
 ************ LOF ************
 Lof ID is 84
@@ -10385,6 +11232,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: -68.8364
 multi size: 2
 ************ LOF ************
 Lof ID is 86
@@ -10565,6 +11413,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -53.3082
 multi size: 2
 ************ LOF ************
 Lof ID is 88
@@ -10725,6 +11574,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -449.925
 multi size: 2
 ************ LOF ************
 Lof ID is 90
@@ -10930,6 +11780,167 @@ subNodeCost is -1324.4
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg86
+air dual: -8.47173e-10
+better lof: 0
+************ LOF ************
+Lof ID is 92
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg List Size is 8 cost 1307
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:30:00 2012
+OAr Tue Jul 24 22:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:10:00 2012
+OAr Wed Jul 25 00:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 93
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg List Size is 6 cost 1304
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:30:00 2012
+OAr Tue Jul 24 22:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:10:00 2012
+OAr Wed Jul 25 00:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -8.47173e-10
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 92
@@ -11249,6 +12260,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -4000
 multi size: 2
 ************ LOF ************
 Lof ID is 94
@@ -11409,6 +12421,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: -178.422
 multi size: 2
 ************ LOF ************
 Lof ID is 96
@@ -11839,12 +12852,12 @@ Summary statistics for Cholesky factor:
    8   1.1833021e+04   1.1753788e+04  7.75e-01  1.29e-01  1.96e-03  4.81e+00
    9   1.1800090e+04   1.1799980e+04  2.19e-03  3.65e-04  6.83e-07  2.15e+04
   10   1.1800000e+04   1.1800000e+04  4.49e-07  7.47e-08  1.46e-10  1.33e+07
-Barrier time = 0.00 sec. (0.79 ticks)
+Barrier time = 0.01 sec. (0.79 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.05 ticks)
-Barrier time = 0.00 sec. (1.08 ticks)
+Total time on 20 threads = 0.01 sec. (1.05 ticks)
+Barrier time = 0.01 sec. (1.08 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.08 ticks)
+Total time on 20 threads = 0.01 sec. (1.08 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 98
@@ -11857,6 +12870,7 @@ Optimal value: 11800
 
 air size: 12
 air i 0
+air dual: -1439.29
 multi size: 2
 ************ LOF ************
 Lof ID is 98
@@ -12017,6 +13031,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -58.9699
 multi size: 2
 ************ LOF ************
 Lof ID is 100
@@ -12117,6 +13132,7 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+air dual: -37.9307
 multi size: 2
 ************ LOF ************
 Lof ID is 102
@@ -12277,6 +13293,7 @@ OAr Wed Jul 25 08:32:00 2012
 
 *****************************
 air i 3
+air dual: -2.85768e-07
 multi size: 2
 ************ LOF ************
 Lof ID is 104
@@ -12437,6 +13454,7 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 4
+air dual: -30.7301
 multi size: 1
 ************ LOF ************
 Lof ID is 106
@@ -12508,6 +13526,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -811.74
 multi size: 2
 ************ LOF ************
 Lof ID is 107
@@ -12688,6 +13707,7 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 6
+air dual: -127.288
 multi size: 2
 ************ LOF ************
 Lof ID is 109
@@ -12848,6 +13868,7 @@ OAr Wed Jul 25 06:57:00 2012
 
 *****************************
 air i 7
+air dual: -1.58656e-07
 multi size: 2
 ************ LOF ************
 Lof ID is 111
@@ -12968,6 +13989,7 @@ OAr Wed Jul 25 01:49:00 2012
 
 *****************************
 air i 8
+air dual: -344.885
 multi size: 2
 ************ LOF ************
 Lof ID is 113
@@ -13181,6 +14203,167 @@ subNodeCost is -1625.66
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg86
+air dual: -7.53278e-08
+better lof: 0
+************ LOF ************
+Lof ID is 115
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg List Size is 6 cost 2150
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 07:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:05:00 2012
+OAr Tue Jul 24 11:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 116
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg List Size is 8 cost 1957
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -7.53278e-08
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 09:20:00 2012
+OAr Wed Jul 25 13:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 115
@@ -13500,6 +14683,7 @@ OAr Wed Jul 25 13:15:00 2012
 
 *****************************
 air i 10
+air dual: -322.886
 multi size: 2
 ************ LOF ************
 Lof ID is 117
@@ -13660,6 +14844,7 @@ OAr Wed Jul 25 09:34:00 2012
 
 *****************************
 air i 11
+air dual: -563.199
 multi size: 2
 ************ LOF ************
 Lof ID is 119
@@ -14074,6 +15259,7 @@ Optimal value: 7648.5
 
 air size: 12
 air i 0
+air dual: -977.614
 multi size: 2
 ************ LOF ************
 Lof ID is 121
@@ -14214,6 +15400,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -717.056
 multi size: 1
 ************ LOF ************
 Lof ID is 123
@@ -14305,6 +15492,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -229.002
 multi size: 1
 ************ LOF ************
 Lof ID is 124
@@ -14406,6 +15594,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -78.7366
 multi size: 2
 ************ LOF ************
 Lof ID is 125
@@ -14606,6 +15795,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+air dual: -6.89769e-10
 multi size: 1
 ************ LOF ************
 Lof ID is 127
@@ -14717,6 +15907,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -155.079
 multi size: 2
 ************ LOF ************
 Lof ID is 128
@@ -14917,6 +16108,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+air dual: -182.576
 multi size: 2
 ************ LOF ************
 Lof ID is 130
@@ -15117,6 +16309,7 @@ OAr Wed Jul 25 06:03:00 2012
 
 *****************************
 air i 7
+air dual: -120.587
 multi size: 2
 ************ LOF ************
 Lof ID is 132
@@ -15277,6 +16470,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -497.197
 multi size: 2
 ************ LOF ************
 Lof ID is 134
@@ -15518,6 +16712,207 @@ subNodeCost is -2689.66
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg3
+air dual: -29.537
+better lof: 0
+************ LOF ************
+Lof ID is 136
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg List Size is 10 cost 1359
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 12:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 137
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg List Size is 8 cost 1606
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -29.537
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 04:25:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 136
@@ -15917,6 +17312,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 10
+air dual: -138.708
 multi size: 2
 ************ LOF ************
 Lof ID is 138
@@ -16097,6 +17493,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+air dual: -1066.36
 multi size: 2
 ************ LOF ************
 Lof ID is 140
@@ -16548,6 +17945,7 @@ Optimal value: 6389.75
 
 air size: 12
 air i 0
+air dual: -3117.92
 multi size: 2
 ************ LOF ************
 Lof ID is 142
@@ -16748,6 +18146,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -781.049
 multi size: 2
 ************ LOF ************
 Lof ID is 144
@@ -16868,6 +18267,7 @@ OAr Tue Jul 24 19:20:00 2012
 
 *****************************
 air i 2
+air dual: -264.153
 multi size: 2
 ************ LOF ************
 Lof ID is 146
@@ -17068,6 +18468,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -1.52777e-06
 multi size: 2
 ************ LOF ************
 Lof ID is 148
@@ -17248,6 +18649,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+air dual: -53.4531
 multi size: 1
 ************ LOF ************
 Lof ID is 150
@@ -17339,6 +18741,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -652.106
 multi size: 2
 ************ LOF ************
 Lof ID is 151
@@ -17539,6 +18942,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 6
+air dual: -171.912
 multi size: 2
 ************ LOF ************
 Lof ID is 153
@@ -17719,6 +19123,7 @@ OAr Wed Jul 25 02:38:00 2012
 
 *****************************
 air i 7
+air dual: -194.804
 multi size: 2
 ************ LOF ************
 Lof ID is 155
@@ -17879,6 +19284,7 @@ OAr Wed Jul 25 02:14:00 2012
 
 *****************************
 air i 8
+air dual: -796.264
 multi size: 2
 ************ LOF ************
 Lof ID is 157
@@ -18120,6 +19526,187 @@ subNodeCost is -2062.51
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -52.47
+better lof: 0
+************ LOF ************
+Lof ID is 159
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 160
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg List Size is 8 cost 2096
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -52.47
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 05:14:00 2012
+OAr Wed Jul 25 08:59:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 159
@@ -18479,6 +20066,7 @@ OAr Wed Jul 25 08:59:00 2012
 
 *****************************
 air i 10
+air dual: -301.239
 multi size: 2
 ************ LOF ************
 Lof ID is 161
@@ -18659,6 +20247,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+air dual: -1300.87
 multi size: 2
 ************ LOF ************
 Lof ID is 163
@@ -19099,7 +20688,7 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 12 rows and 13 columns.
 Reduced LP has 95 rows, 247 columns, and 1576 nonzeros.
-Presolve time = 0.00 sec. (0.39 ticks)
+Presolve time = 0.01 sec. (0.39 ticks)
 Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
@@ -19129,12 +20718,12 @@ Summary statistics for Cholesky factor:
   11   5.6904286e+03   5.6803294e+03  1.13e-02  1.67e-03  3.63e-05  2.80e+01
   12   5.6897511e+03   5.6897100e+03  5.47e-06  8.14e-07  1.57e-07  6.51e+03
   13   5.6897500e+03   5.6897500e+03  1.29e-08  1.91e-09  8.66e-10  6.56e+07
-Barrier time = 0.02 sec. (1.36 ticks)
+Barrier time = 0.00 sec. (1.36 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.91 ticks)
-Barrier time = 0.02 sec. (1.94 ticks)
+Total time on 20 threads = 0.01 sec. (1.91 ticks)
+Barrier time = 0.01 sec. (1.94 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.94 ticks)
+Total time on 20 threads = 0.01 sec. (1.94 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 165
@@ -19147,6 +20736,7 @@ Optimal value: 5689.75
 
 air size: 12
 air i 0
+air dual: -1759.43
 multi size: 2
 ************ LOF ************
 Lof ID is 165
@@ -19287,6 +20877,7 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 1
+air dual: -1361.92
 multi size: 2
 ************ LOF ************
 Lof ID is 167
@@ -19417,6 +21008,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -859.153
 multi size: 1
 ************ LOF ************
 Lof ID is 169
@@ -19498,6 +21090,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -662.521
 multi size: 2
 ************ LOF ************
 Lof ID is 170
@@ -19638,6 +21231,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+air dual: -409.971
 multi size: 1
 ************ LOF ************
 Lof ID is 172
@@ -19709,6 +21303,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -1008.47
 multi size: 2
 ************ LOF ************
 Lof ID is 173
@@ -19849,6 +21444,7 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 6
+air dual: -432.954
 multi size: 2
 ************ LOF ************
 Lof ID is 175
@@ -19989,6 +21585,7 @@ OAr Wed Jul 25 08:08:00 2012
 
 *****************************
 air i 7
+air dual: -561.396
 multi size: 2
 ************ LOF ************
 Lof ID is 177
@@ -20129,6 +21726,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -1417.43
 multi size: 2
 ************ LOF ************
 Lof ID is 179
@@ -20302,6 +21900,127 @@ subNodeCost is -369.901
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg84
+air dual: -207.476
+better lof: 0
+************ LOF ************
+Lof ID is 181
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg List Size is 4 cost 1050
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 182
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg List Size is 6 cost 1055
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -207.476
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 181
@@ -20541,6 +22260,7 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+air dual: -1111.25
 multi size: 2
 ************ LOF ************
 Lof ID is 183
@@ -20661,6 +22381,7 @@ OAr Wed Jul 25 06:04:00 2012
 
 *****************************
 air i 11
+air dual: -395.657
 multi size: 2
 ************ LOF ************
 Lof ID is 185
@@ -21026,6 +22747,7 @@ Optimal value: 5483.16
 
 air size: 12
 air i 0
+air dual: -1735.29
 multi size: 2
 ************ LOF ************
 Lof ID is 187
@@ -21186,6 +22908,7 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 1
+air dual: -1928.22
 multi size: 1
 ************ LOF ************
 Lof ID is 189
@@ -21257,6 +22980,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -882.782
 multi size: 1
 ************ LOF ************
 Lof ID is 190
@@ -21338,6 +23062,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -1308.23
 multi size: 2
 ************ LOF ************
 Lof ID is 191
@@ -21518,6 +23243,7 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 4
+air dual: -567.824
 multi size: 1
 ************ LOF ************
 Lof ID is 193
@@ -21609,6 +23335,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -409.43
 multi size: 2
 ************ LOF ************
 Lof ID is 194
@@ -21769,6 +23496,7 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 6
+air dual: -760.189
 multi size: 2
 ************ LOF ************
 Lof ID is 196
@@ -21929,6 +23657,7 @@ OAr Wed Jul 25 05:16:00 2012
 
 *****************************
 air i 7
+air dual: -1055.44
 multi size: 1
 ************ LOF ************
 Lof ID is 198
@@ -22000,6 +23729,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -2262.83
 multi size: 2
 ************ LOF ************
 Lof ID is 199
@@ -22193,6 +23923,187 @@ subNodeCost is -539.195
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg36
+air dual: -456.668
+better lof: 0
+************ LOF ************
+Lof ID is 201
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg List Size is 8 cost 1657
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 202
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg List Size is 8 cost 1736
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -456.668
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 201
@@ -22552,6 +24463,7 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 10
+air dual: -2145.62
 multi size: 2
 ************ LOF ************
 Lof ID is 203
@@ -22692,6 +24604,7 @@ OAr Wed Jul 25 03:08:00 2012
 
 *****************************
 air i 11
+air dual: -1973.56
 multi size: 2
 ************ LOF ************
 Lof ID is 205
@@ -23085,6 +24998,7 @@ Optimal value: 4907
 
 air size: 12
 air i 0
+air dual: -2008.69
 multi size: 2
 ************ LOF ************
 Lof ID is 207
@@ -23245,6 +25159,7 @@ OAr Wed Jul 25 06:39:00 2012
 
 *****************************
 air i 1
+air dual: -1521.01
 multi size: 1
 ************ LOF ************
 Lof ID is 209
@@ -23316,6 +25231,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1370.87
 multi size: 1
 ************ LOF ************
 Lof ID is 210
@@ -23397,6 +25313,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2297.76
 multi size: 2
 ************ LOF ************
 Lof ID is 211
@@ -23597,6 +25514,7 @@ OAr Wed Jul 25 09:00:00 2012
 
 *****************************
 air i 4
+air dual: -714.339
 multi size: 1
 ************ LOF ************
 Lof ID is 213
@@ -23688,6 +25606,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2345.55
 multi size: 2
 ************ LOF ************
 Lof ID is 214
@@ -23868,6 +25787,7 @@ OAr Wed Jul 25 09:00:00 2012
 
 *****************************
 air i 6
+air dual: -2154.06
 multi size: 2
 ************ LOF ************
 Lof ID is 216
@@ -24028,6 +25948,7 @@ OAr Wed Jul 25 04:38:00 2012
 
 *****************************
 air i 7
+air dual: -1122.86
 multi size: 2
 ************ LOF ************
 Lof ID is 218
@@ -24168,6 +26089,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -1910.28
 multi size: 2
 ************ LOF ************
 Lof ID is 220
@@ -24401,6 +26323,187 @@ subNodeCost is -564.254
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -527.036
+better lof: 0
+************ LOF ************
+Lof ID is 222
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg List Size is 8 cost 1136
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 223
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg List Size is 8 cost 1056
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -527.036
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 222
@@ -24760,6 +26863,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -2379.76
 multi size: 2
 ************ LOF ************
 Lof ID is 224
@@ -24900,6 +27004,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: -2104.37
 multi size: 2
 ************ LOF ************
 Lof ID is 226
@@ -25265,7 +27370,7 @@ CPXPARAM_Barrier_Crossover                       -1
 Tried aggregator 1 time.
 LP Presolve eliminated 2 rows and 4 columns.
 Reduced LP has 105 rows, 319 columns, and 2071 nonzeros.
-Presolve time = 0.02 sec. (0.27 ticks)
+Presolve time = 0.00 sec. (0.27 ticks)
 Symmetry aggregator did 58 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
@@ -25292,10 +27397,10 @@ Summary statistics for Cholesky factor:
    8   4.4980000e+03   4.4980000e+03  2.82e-10  4.16e-11  4.49e-10  1.34e+10
 Barrier time = 0.00 sec. (1.20 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.67 ticks)
-Barrier time = 0.02 sec. (1.71 ticks)
+Total time on 20 threads = 0.00 sec. (1.67 ticks)
+Barrier time = 0.00 sec. (1.71 ticks)
 
-Total time on 20 threads = 0.02 sec. (1.71 ticks)
+Total time on 20 threads = 0.00 sec. (1.71 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 228
@@ -25308,6 +27413,7 @@ Optimal value: 4498
 
 air size: 12
 air i 0
+air dual: -1697.88
 multi size: 2
 ************ LOF ************
 Lof ID is 228
@@ -25448,6 +27554,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+air dual: -1465.67
 multi size: 1
 ************ LOF ************
 Lof ID is 230
@@ -25519,6 +27626,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1058.81
 multi size: 1
 ************ LOF ************
 Lof ID is 231
@@ -25580,6 +27688,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -1896.5
 multi size: 2
 ************ LOF ************
 Lof ID is 232
@@ -25740,6 +27849,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -523.312
 multi size: 1
 ************ LOF ************
 Lof ID is 234
@@ -25811,6 +27921,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2271.63
 multi size: 2
 ************ LOF ************
 Lof ID is 235
@@ -25951,6 +28062,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: -1864.72
 multi size: 2
 ************ LOF ************
 Lof ID is 237
@@ -26071,6 +28183,7 @@ OAr Wed Jul 25 04:38:00 2012
 
 *****************************
 air i 7
+air dual: -932.451
 multi size: 1
 ************ LOF ************
 Lof ID is 239
@@ -26142,6 +28255,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1559.22
 multi size: 2
 ************ LOF ************
 Lof ID is 240
@@ -26357,6 +28471,167 @@ subNodeCost is -146.781
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -380.937
+better lof: 0
+************ LOF ************
+Lof ID is 242
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg List Size is 6 cost 2152
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 07:35:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:05:00 2012
+OAr Tue Jul 24 11:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 243
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg List Size is 8 cost 1157
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 10:48:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -380.937
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 242
@@ -26676,6 +28951,7 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+air dual: -2037.98
 multi size: 2
 ************ LOF ************
 Lof ID is 244
@@ -26836,6 +29112,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: -2018.95
 multi size: 2
 ************ LOF ************
 Lof ID is 246
@@ -27195,6 +29472,7 @@ Optimal value: 4451
 
 air size: 12
 air i 0
+air dual: -2037.97
 multi size: 2
 ************ LOF ************
 Lof ID is 248
@@ -27375,6 +29653,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -1432.54
 multi size: 1
 ************ LOF ************
 Lof ID is 250
@@ -27466,6 +29745,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1206.22
 multi size: 1
 ************ LOF ************
 Lof ID is 251
@@ -27547,6 +29827,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2086.71
 multi size: 2
 ************ LOF ************
 Lof ID is 252
@@ -27707,6 +29988,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+air dual: -612.466
 multi size: 1
 ************ LOF ************
 Lof ID is 254
@@ -27798,6 +30080,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2653.28
 multi size: 2
 ************ LOF ************
 Lof ID is 255
@@ -27958,6 +30241,7 @@ OAr Wed Jul 25 06:39:00 2012
 
 *****************************
 air i 6
+air dual: -2353.98
 multi size: 1
 ************ LOF ************
 Lof ID is 257
@@ -28059,6 +30343,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1040.28
 multi size: 1
 ************ LOF ************
 Lof ID is 258
@@ -28150,6 +30435,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1965.75
 multi size: 1
 ************ LOF ************
 Lof ID is 259
@@ -28266,6 +30552,167 @@ subNodeCost is -175.523
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -447.057
+better lof: 0
+************ LOF ************
+Lof ID is 260
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg List Size is 8 cost 1405
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 261
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg List Size is 6 cost 1402
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -447.057
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 260
@@ -28585,6 +31032,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -2319.82
 multi size: 2
 ************ LOF ************
 Lof ID is 262
@@ -28765,6 +31213,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+air dual: -2298.78
 multi size: 2
 ************ LOF ************
 Lof ID is 264
@@ -29149,6 +31598,7 @@ Optimal value: 4451
 
 air size: 12
 air i 0
+air dual: -1710.03
 multi size: 2
 ************ LOF ************
 Lof ID is 266
@@ -29289,6 +31739,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -1323.11
 multi size: 1
 ************ LOF ************
 Lof ID is 268
@@ -29380,6 +31831,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1038.98
 multi size: 1
 ************ LOF ************
 Lof ID is 269
@@ -29481,6 +31933,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2029.04
 multi size: 2
 ************ LOF ************
 Lof ID is 270
@@ -29661,6 +32114,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+air dual: -516.845
 multi size: 1
 ************ LOF ************
 Lof ID is 272
@@ -29752,6 +32206,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2341.3
 multi size: 2
 ************ LOF ************
 Lof ID is 273
@@ -29952,6 +32407,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 6
+air dual: -2056.86
 multi size: 2
 ************ LOF ************
 Lof ID is 275
@@ -30132,6 +32588,7 @@ OAr Wed Jul 25 02:38:00 2012
 
 *****************************
 air i 7
+air dual: -884.506
 multi size: 1
 ************ LOF ************
 Lof ID is 277
@@ -30223,6 +32680,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -2019.36
 multi size: 1
 ************ LOF ************
 Lof ID is 278
@@ -30377,6 +32835,167 @@ subNodeCost is 36.5687
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -327.964
+better lof: 0
+************ LOF ************
+Lof ID is 279
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 280
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg List Size is 6 cost 1134
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -327.964
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 279
@@ -30696,6 +33315,7 @@ OAr Wed Jul 25 07:23:00 2012
 
 *****************************
 air i 10
+air dual: -2001.15
 multi size: 2
 ************ LOF ************
 Lof ID is 281
@@ -30876,6 +33496,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+air dual: -1983.13
 multi size: 2
 ************ LOF ************
 Lof ID is 283
@@ -31280,12 +33901,12 @@ Summary statistics for Cholesky factor:
    7   4.4158568e+03   4.4144562e+03  4.06e-03  5.76e-04  3.21e-02  6.91e+02
    8   4.4150001e+03   4.4149999e+03  4.32e-07  6.13e-08  4.41e-06  3.91e+06
    9   4.4150000e+03   4.4150000e+03  4.45e-11  6.15e-12  5.88e-10  3.38e+10
-Barrier time = 0.01 sec. (1.55 ticks)
+Barrier time = 0.00 sec. (1.55 ticks)
 
-Total time on 20 threads = 0.01 sec. (2.12 ticks)
-Barrier time = 0.01 sec. (2.16 ticks)
+Total time on 20 threads = 0.00 sec. (2.12 ticks)
+Barrier time = 0.00 sec. (2.16 ticks)
 
-Total time on 20 threads = 0.01 sec. (2.16 ticks)
+Total time on 20 threads = 0.00 sec. (2.16 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 285
@@ -31298,6 +33919,7 @@ Optimal value: 4415
 
 air size: 12
 air i 0
+air dual: -2116.16
 multi size: 2
 ************ LOF ************
 Lof ID is 285
@@ -31478,6 +34100,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 1
+air dual: -1468.2
 multi size: 1
 ************ LOF ************
 Lof ID is 287
@@ -31549,6 +34172,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1069.8
 multi size: 1
 ************ LOF ************
 Lof ID is 288
@@ -31630,6 +34254,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2137.04
 multi size: 2
 ************ LOF ************
 Lof ID is 289
@@ -31830,6 +34455,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -520.17
 multi size: 1
 ************ LOF ************
 Lof ID is 291
@@ -31921,6 +34547,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2476.33
 multi size: 2
 ************ LOF ************
 Lof ID is 292
@@ -32101,6 +34728,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: -2211.18
 multi size: 1
 ************ LOF ************
 Lof ID is 294
@@ -32182,6 +34810,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -925.971
 multi size: 2
 ************ LOF ************
 Lof ID is 295
@@ -32302,6 +34931,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -2134.12
 multi size: 1
 ************ LOF ************
 Lof ID is 297
@@ -32448,6 +35078,87 @@ subNodeCost is 26.0478
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -349.194
+better lof: 0
+************ LOF ************
+Lof ID is 298
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg List Size is 4 cost 3
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 299
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg List Size is 2 cost 0
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -349.194
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 298
@@ -32607,6 +35318,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -2160.28
 multi size: 2
 ************ LOF ************
 Lof ID is 300
@@ -32767,6 +35479,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: -2108.28
 multi size: 2
 ************ LOF ************
 Lof ID is 302
@@ -33154,12 +35867,12 @@ Summary statistics for Cholesky factor:
    7   4.4165863e+03   4.4144589e+03  1.00e-02  1.42e-03  2.55e-02  7.69e+02
    8   4.4150001e+03   4.4149999e+03  1.20e-06  1.69e-07  3.42e-06  2.97e+06
    9   4.4150000e+03   4.4150000e+03  1.21e-10  1.69e-11  4.49e-10  2.43e+10
-Barrier time = 0.00 sec. (1.29 ticks)
+Barrier time = 0.02 sec. (1.29 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.89 ticks)
-Barrier time = 0.00 sec. (1.94 ticks)
+Total time on 20 threads = 0.02 sec. (1.89 ticks)
+Barrier time = 0.02 sec. (1.94 ticks)
 
-Total time on 20 threads = 0.00 sec. (1.94 ticks)
+Total time on 20 threads = 0.02 sec. (1.94 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 304
@@ -33172,6 +35885,7 @@ Optimal value: 4415
 
 air size: 12
 air i 0
+air dual: -2186.22
 multi size: 2
 ************ LOF ************
 Lof ID is 304
@@ -33352,6 +36066,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 1
+air dual: -1519.42
 multi size: 1
 ************ LOF ************
 Lof ID is 306
@@ -33423,6 +36138,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1062.68
 multi size: 1
 ************ LOF ************
 Lof ID is 307
@@ -33504,6 +36220,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2220.82
 multi size: 2
 ************ LOF ************
 Lof ID is 308
@@ -33704,6 +36421,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+air dual: -510.769
 multi size: 1
 ************ LOF ************
 Lof ID is 310
@@ -33795,6 +36513,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2573.74
 multi size: 2
 ************ LOF ************
 Lof ID is 311
@@ -33975,6 +36694,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 6
+air dual: -2306.3
 multi size: 1
 ************ LOF ************
 Lof ID is 313
@@ -34056,6 +36776,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -943.262
 multi size: 2
 ************ LOF ************
 Lof ID is 314
@@ -34196,6 +36917,7 @@ OAr Wed Jul 25 05:10:00 2012
 
 *****************************
 air i 8
+air dual: -1928.37
 multi size: 0
 air i 9
 station name: XAL
@@ -34251,6 +36973,187 @@ subNodeCost is -364.935
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -458.618
+better lof: 0
+************ LOF ************
+Lof ID is 316
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg List Size is 8 cost 1236
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 11:22:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:38:00 2012
+OAr Wed Jul 25 07:23:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 317
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg List Size is 8 cost 1055
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -458.618
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 316
@@ -34610,6 +37513,7 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+air dual: -2269.14
 multi size: 2
 ************ LOF ************
 Lof ID is 318
@@ -34770,6 +37674,7 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 11
+air dual: -2206.6
 multi size: 1
 ************ LOF ************
 Lof ID is 320
@@ -35076,6 +37981,7 @@ Optimal value: 4380
 
 air size: 12
 air i 0
+air dual: -2048.25
 multi size: 2
 ************ LOF ************
 Lof ID is 321
@@ -35256,6 +38162,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -1457.06
 multi size: 1
 ************ LOF ************
 Lof ID is 323
@@ -35327,6 +38234,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1038.58
 multi size: 1
 ************ LOF ************
 Lof ID is 324
@@ -35408,6 +38316,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2169.43
 multi size: 2
 ************ LOF ************
 Lof ID is 325
@@ -35608,6 +38517,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 4
+air dual: -480.978
 multi size: 1
 ************ LOF ************
 Lof ID is 327
@@ -35699,6 +38609,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2552.82
 multi size: 2
 ************ LOF ************
 Lof ID is 328
@@ -35879,6 +38790,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: -2283.68
 multi size: 1
 ************ LOF ************
 Lof ID is 330
@@ -35960,6 +38872,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -909.643
 multi size: 1
 ************ LOF ************
 Lof ID is 331
@@ -35991,6 +38904,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1786.61
 multi size: 1
 ************ LOF ************
 Lof ID is 332
@@ -36117,6 +39031,167 @@ subNodeCost is -340.61
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -438.054
+better lof: 0
+************ LOF ************
+Lof ID is 333
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg List Size is 6 cost 1054
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+better lof: 1
+************ LOF ************
+Lof ID is 334
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg List Size is 8 cost 1057
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -438.054
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
 better size: 2
 ************ LOF ************
 Lof ID is 333
@@ -36436,6 +39511,7 @@ OAr Wed Jul 25 11:45:00 2012
 
 *****************************
 air i 10
+air dual: -2203.04
 multi size: 2
 ************ LOF ************
 Lof ID is 335
@@ -36596,6 +39672,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 11
+air dual: -2206.57
 multi size: 2
 ************ LOF ************
 Lof ID is 337
@@ -36953,6 +40030,7 @@ Optimal value: 4380
 
 air size: 12
 air i 0
+air dual: -2111.93
 multi size: 1
 ************ LOF ************
 Lof ID is 339
@@ -37044,6 +40122,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 1
+air dual: -1578.33
 multi size: 1
 ************ LOF ************
 Lof ID is 340
@@ -37135,6 +40214,7 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1108
 multi size: 1
 ************ LOF ************
 Lof ID is 341
@@ -37236,6 +40316,7 @@ OAr Wed Jul 25 08:10:00 2012
 
 *****************************
 air i 3
+air dual: -2221.88
 multi size: 2
 ************ LOF ************
 Lof ID is 342
@@ -37456,6 +40537,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -533.041
 multi size: 1
 ************ LOF ************
 Lof ID is 344
@@ -37547,6 +40629,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2555
 multi size: 2
 ************ LOF ************
 Lof ID is 345
@@ -37727,6 +40810,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 6
+air dual: -2336.91
 multi size: 1
 ************ LOF ************
 Lof ID is 347
@@ -37808,6 +40892,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1559.29
 multi size: 1
 ************ LOF ************
 Lof ID is 348
@@ -37899,6 +40984,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1871.53
 multi size: 0
 air i 9
 station name: XAL
@@ -37946,6 +41032,77 @@ subNodeCost is -324.628
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -499.552
+better lof: 0
+************ LOF ************
+Lof ID is 349
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -499.552
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 1
 ************ LOF ************
 Lof ID is 349
@@ -38087,6 +41244,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -2245.4
 multi size: 1
 ************ LOF ************
 Lof ID is 350
@@ -38188,6 +41346,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 11
+air dual: -2245.7
 multi size: 0
 Number of Better Lofs is 12
 
@@ -38367,6 +41526,7 @@ Optimal value: 4376
 
 air size: 12
 air i 0
+air dual: -2003.71
 multi size: 1
 ************ LOF ************
 Lof ID is 351
@@ -38458,6 +41618,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 1
+air dual: -1492.17
 multi size: 1
 ************ LOF ************
 Lof ID is 352
@@ -38569,8 +41730,10 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1020.65
 multi size: 0
 air i 3
+air dual: -2107.93
 multi size: 2
 ************ LOF ************
 Lof ID is 353
@@ -38791,6 +41954,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -490.419
 multi size: 1
 ************ LOF ************
 Lof ID is 355
@@ -38902,6 +42066,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2445.1
 multi size: 2
 ************ LOF ************
 Lof ID is 356
@@ -39082,6 +42247,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+air dual: -2218.65
 multi size: 1
 ************ LOF ************
 Lof ID is 358
@@ -39163,6 +42329,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1458.67
 multi size: 1
 ************ LOF ************
 Lof ID is 359
@@ -39234,6 +42401,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1798.21
 multi size: 0
 air i 9
 station name: XAL
@@ -39281,6 +42449,77 @@ subNodeCost is -252.239
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -453.963
+better lof: 0
+************ LOF ************
+Lof ID is 360
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -453.963
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
 better size: 1
 ************ LOF ************
 Lof ID is 360
@@ -39422,6 +42661,7 @@ OAr Wed Jul 25 07:15:00 2012
 
 *****************************
 air i 10
+air dual: -2146.21
 multi size: 1
 ************ LOF ************
 Lof ID is 361
@@ -39523,6 +42763,7 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 air i 11
+air dual: -2141.53
 multi size: 0
 Number of Better Lofs is 11
 
@@ -39653,7 +42894,7 @@ Presolve time = 0.00 sec. (0.42 ticks)
 Symmetry aggregator did 48 additional substitutions.
 Tried aggregator 0 times.
 No LP presolve or aggregator reductions.
-Presolve time = 0.02 sec. (0.15 ticks)
+Presolve time = 0.00 sec. (0.15 ticks)
 Parallel mode: using up to 20 threads for barrier.
 Number of nonzeros in lower triangle of A*A' = 1580
 Using Approximate Minimum Degree ordering
@@ -39675,12 +42916,12 @@ Summary statistics for Cholesky factor:
    7   4.3733588e+03   4.3517143e+03  4.74e-02  6.42e-03  5.62e-01  3.75e+01
    8   4.3640195e+03   4.3639924e+03  1.01e-04  1.37e-05  3.29e-04  6.41e+04
    9   4.3640000e+03   4.3640000e+03  1.22e-08  1.65e-09  4.42e-08  2.67e+08
-Barrier time = 0.02 sec. (1.45 ticks)
+Barrier time = 0.01 sec. (1.45 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.15 ticks)
-Barrier time = 0.02 sec. (2.21 ticks)
+Total time on 20 threads = 0.01 sec. (2.15 ticks)
+Barrier time = 0.01 sec. (2.21 ticks)
 
-Total time on 20 threads = 0.02 sec. (2.21 ticks)
+Total time on 20 threads = 0.01 sec. (2.21 ticks)
 
 Number of leg variables is: 95
 Number of lof variables is: 362
@@ -39693,8 +42934,10 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+air dual: -2068.87
 multi size: 0
 air i 1
+air dual: -1577.34
 multi size: 1
 ************ LOF ************
 Lof ID is 362
@@ -39806,8 +43049,10 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1137.78
 multi size: 0
 air i 3
+air dual: -2210.08
 multi size: 1
 ************ LOF ************
 Lof ID is 363
@@ -39929,6 +43174,7 @@ OAr Wed Jul 25 08:50:00 2012
 
 *****************************
 air i 4
+air dual: -527.351
 multi size: 1
 ************ LOF ************
 Lof ID is 364
@@ -40020,6 +43266,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 air i 5
+air dual: -2530.75
 multi size: 1
 ************ LOF ************
 Lof ID is 365
@@ -40111,6 +43358,7 @@ OAr Wed Jul 25 08:35:00 2012
 
 *****************************
 air i 6
+air dual: -2277.14
 multi size: 1
 ************ LOF ************
 Lof ID is 366
@@ -40212,6 +43460,7 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1524.79
 multi size: 1
 ************ LOF ************
 Lof ID is 367
@@ -40283,6 +43532,7 @@ OAr Wed Jul 25 07:43:00 2012
 
 *****************************
 air i 8
+air dual: -1883.69
 multi size: 0
 air i 9
 station name: XAL
@@ -40330,10 +43580,13 @@ subNodeCost is -296.395
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -506.927
 multi size: 0
 air i 10
+air dual: -2250.56
 multi size: 0
 air i 11
+air dual: -2204.92
 multi size: 0
 Number of Better Lofs is 6
 
@@ -40455,8 +43708,10 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+air dual: -1954.63
 multi size: 0
 air i 1
+air dual: -1468.49
 multi size: 1
 ************ LOF ************
 Lof ID is 368
@@ -40548,8 +43803,10 @@ OAr Wed Jul 25 10:45:00 2012
 
 *****************************
 air i 2
+air dual: -1046.09
 multi size: 0
 air i 3
+air dual: -2121.74
 multi size: 1
 ************ LOF ************
 Lof ID is 369
@@ -40651,10 +43908,13 @@ OAr Wed Jul 25 08:55:00 2012
 
 *****************************
 air i 4
+air dual: -485.144
 multi size: 0
 air i 5
+air dual: -2446.94
 multi size: 0
 air i 6
+air dual: -2172.62
 multi size: 1
 ************ LOF ************
 Lof ID is 370
@@ -40756,8 +44016,10 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1450.07
 multi size: 0
 air i 8
+air dual: -1788.29
 multi size: 0
 air i 9
 station name: XAL
@@ -40805,10 +44067,13 @@ subNodeCost is -266.711
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -483.861
 multi size: 0
 air i 10
+air dual: -2167.54
 multi size: 0
 air i 11
+air dual: -2136.58
 multi size: 0
 Number of Better Lofs is 3
 
@@ -40898,18 +44163,25 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+air dual: -1910.57
 multi size: 0
 air i 1
+air dual: -1426.6
 multi size: 0
 air i 2
+air dual: -1012.97
 multi size: 0
 air i 3
+air dual: -2088.9
 multi size: 0
 air i 4
+air dual: -468.944
 multi size: 0
 air i 5
+air dual: -2416.52
 multi size: 0
 air i 6
+air dual: -2134.39
 multi size: 1
 ************ LOF ************
 Lof ID is 371
@@ -41011,8 +44283,10 @@ OAr Wed Jul 25 07:34:00 2012
 
 *****************************
 air i 7
+air dual: -1419.24
 multi size: 0
 air i 8
+air dual: -1757.3
 multi size: 0
 air i 9
 station name: XAL
@@ -41060,10 +44334,13 @@ subNodeCost is -257.423
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -480.112
 multi size: 0
 air i 10
+air dual: -2136.16
 multi size: 0
 air i 11
+air dual: -2114.08
 multi size: 0
 Number of Better Lofs is 1
 
@@ -41132,22 +44409,31 @@ Optimal value: 4364
 
 air size: 12
 air i 0
+air dual: -1922.2
 multi size: 0
 air i 1
+air dual: -1435.33
 multi size: 0
 air i 2
+air dual: -1015.56
 multi size: 0
 air i 3
+air dual: -2097.72
 multi size: 0
 air i 4
+air dual: -472.219
 multi size: 0
 air i 5
+air dual: -2424.44
 multi size: 0
 air i 6
+air dual: -2145.2
 multi size: 0
 air i 7
+air dual: -1425.02
 multi size: 0
 air i 8
+air dual: -1765.22
 multi size: 0
 air i 9
 station name: XAL
@@ -41195,10 +44481,13 @@ subNodeCost is -259.862
 subNode delay is 0
 hosting leg is lg71
 parent subnode's hosting leg is lg70
+air dual: -481.928
 multi size: 0
 air i 10
+air dual: -2144.64
 multi size: 0
 air i 11
+air dual: -2120.91
 multi size: 0
 Number of Better Lofs is 0
 
@@ -42290,3 +45579,949 @@ OAr Wed Jul 25 10:45:00 2012
 *****************************
 
  ********************* END FINAL IP SOLUTION *********************
+test for upda
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -1922.2
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual -1015.56
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+ODp Tue Jul 24 00:20:00 2012
+OAr Tue Jul 24 02:20:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+ODp Tue Jul 24 02:55:00 2012
+OAr Tue Jul 24 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 05:55:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+ODp Tue Jul 24 12:45:00 2012
+OAr Tue Jul 24 17:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+dual -2145.2
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:34:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+ODp Tue Jul 24 01:35:00 2012
+OAr Tue Jul 24 04:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+ODp Tue Jul 24 05:35:00 2012
+OAr Tue Jul 24 06:55:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+ODp Tue Jul 24 07:45:00 2012
+OAr Tue Jul 24 09:05:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+ODp Tue Jul 24 09:45:00 2012
+OAr Tue Jul 24 11:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -1765.22
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+dual -2144.64
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+ODp Tue Jul 24 02:50:00 2012
+OAr Tue Jul 24 08:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+dual -2144.64
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 13:55:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+dual -2144.64
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+ODp Tue Jul 24 15:10:00 2012
+OAr Tue Jul 24 20:25:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+dual -2144.64
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+ODp Tue Jul 24 21:40:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+dual -2144.64
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2120.91
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+dual -472.219
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+ODp Wed Jul 25 06:20:00 2012
+OAr Wed Jul 25 12:10:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual -481.928
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2097.72
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+ODp Mon Jul 23 23:55:00 2012
+OAr Tue Jul 24 02:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+ODp Tue Jul 24 02:40:00 2012
+OAr Tue Jul 24 05:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 20:55:00 2012
+OAr Tue Jul 24 22:59:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2424.44
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -1425.02
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1435.33
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+Total number of connection of leg network: 1024
+total run time is 0 seconds
+Solution is printed.
+output path: C:\Code\ARP_CG\Scenarios\Scn1\output_cpp\
+
+Canceled flights are
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+dual is 800
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+dual is 800
+Press any key to continue . . . 

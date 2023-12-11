@@ -23,3 +23,8 @@ class Stack(object):
     
     def __len__(self) -> int:
         return len(self.stack)
+    
+    def print(self):
+        print("Stack: ")
+        for ele in self.stack:
+            ele.print()

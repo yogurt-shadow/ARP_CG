@@ -2,6 +2,15 @@
 #include <fstream>
 #include <cstdio>
 
+void print_stack(stack<SubNode *> const& stk) {
+	cout << "Stack: " << endl;
+	stack<SubNode*> s2 = stk;
+	while(!s2.empty()) {
+		s2.top()->print();
+		s2.pop();
+	}
+}
+
 bool Model::fileExist(string fileName)
 {
 	ifstream infile(fileName);
@@ -45,36 +54,6 @@ vector<Lof* > Model::findInitColumns()
 	cout << "Number of Initial Lofs is " << initColumns.size() << endl << endl;
 
 	return initColumns;
-
-	/* ��ʵû��initial LofҲ������
-
-	/*
-	Lof* tempLof = new Lof();
-	
-	// ���ֹ�����һ�³�ʼ��LoF, ����debug
-	// һ�ܷɻ�
-	// ��test case (12)derived from(3), or (13) or (14) Ϊ������ʼ��Lof�� lg0 -> lg2 -> lg3 (��Ȼlg0 -> lg1 -> lg4 -> lg3 Ӧ�ø���)
-	tempLof->setAircraft( _aircraftList[0]);
-	OperLeg* tempOperLeg = new OperLeg(_legList[0], _aircraftList[0]);
-	tempLof->pushLeg(tempOperLeg);
-
-	tempOperLeg = new OperLeg(_legList[2], _aircraftList[0]);
-	tempOperLeg->setOpDepTime(25);
-	tempOperLeg->setOpArrTime(35);
-	tempLof->pushLeg(tempOperLeg);
-
-	tempOperLeg = new OperLeg(_legList[3], _aircraftList[0]);
-	tempOperLeg->setOpDepTime(45);
-	tempOperLeg->setOpArrTime(55);
-	tempLof->pushLeg(tempOperLeg);
-
-	tempLof->computeLofCost();
-
-	//tempLof->print();
-
-	initColumns.push_back(tempLof);
-	return initColumns;
-	*/
 }
 
 Lof* Model::findInitOneColumn(Aircraft* aircraft)
@@ -92,6 +71,9 @@ Lof* Model::findInitOneColumn(Aircraft* aircraft)
 		{
 			tempOperLeg = new OperLeg(planLegList[i], aircraft);
 			newLof->pushLeg(tempOperLeg);
+			if(newLof->getId() == 26) {
+				cout << "insert leg2: " << tempOperLeg->getLeg()->getId() << endl;
+			}
 		}
 		
 		newLof->computeLofCost();
@@ -566,7 +548,7 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 			ele->print();
 		}
 	}
-
+	cout << "air dual: " << aircraft->getDual() << endl;
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
 		// reset����leg��subNode
@@ -593,19 +575,27 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 			{
 
 				// ѡ����subNode����stack�� //
+				Lof* newLof = new Lof();
 				stack<SubNode*> subNodeSelect;
 				SubNode* tempSubNode = subNode;
 				while (tempSubNode != NULL)
 				{
 					subNodeSelect.push(tempSubNode);
+					if(newLof->getId() == 26) {
+						cout << "push subnode: " << endl;
+						tempSubNode->print();
+					}
 					tempSubNode = tempSubNode->getParentSubNode();
 				}
 
 				/* ����LoF, ��������OperLeg */
 				Leg* tempLeg = NULL;
 				OperLeg * tempOperLeg = NULL;
-				Lof* newLof = new Lof();
 				newLof->setAircraft(aircraft); //* ����lof��aircraft
+
+				if(newLof->getId() == 26) {
+					print_stack(subNodeSelect);
+				}
 
 				while (subNodeSelect.size() > 0)
 				{
@@ -617,7 +607,11 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 					tempOperLeg->setOpArrTime(tempSubNode->getOperArrTime()); //* set operational arr time for operLeg
 
 					newLof->pushLeg(tempOperLeg);
-
+					if(newLof->getId() == 26) {
+						cout << "tempLeg: " << tempLeg->getId() << endl;
+						cout << "aircraft: " << aircraft->getId() << endl;
+						cout << "insert leg1: " << tempOperLeg->getLeg()->getId() << endl;
+					}
 					subNodeSelect.pop();
 				}
 				// cout << "newLof aircraft id is " << newLof->getAircraft()->getId() << endl;
@@ -651,7 +645,10 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 					break;
 					//exit(0);
 				}
-
+				if(i == 9) {
+					cout << "better lof: " << tmp_count << endl;
+					newLof->print();
+				}
 				//*_betterColumns.push_back(newLof);
 				betterLof.push_back(newLof);
 				++tmp_count;
@@ -679,269 +676,6 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft, int i)
 
 	return betterLof;
 }
-
-// Lof* Model::findNewOneColumn(Aircraft* aircraft)
-// {
-// 	// ����_legList[0]�ǳ�ʼleg // ����multi label
-// 	// �ֹ�����_legList[0]��subNodeList
-// 	/*
-// 	SubNode* subNode = new SubNode(_legList[0], NULL, 15, 10);
-// 	//SubNode* subNode = new SubNode(_legList[0], NULL, 100, 1);
-// 	_legList[0]->pushSubNode(subNode);
-
-// 	subNode = new SubNode(_legList[0], NULL, 14, 11);
-// 	//subNode = new SubNode(_legList[0], NULL, 50, 5);
-// 	_legList[0]->pushSubNode(subNode);
-
-// 	subNode = new SubNode(_legList[0], NULL, 13, 12);
-// 	//subNode = new SubNode(_legList[0], NULL, 10, 10);
-// 	_legList[0]->pushSubNode(subNode);
-// 	*/
-
-// 	//* ��ʼ����aircraft dep airport�ϵ�flight, i.e. nodeCost
-// 	vector<Leg*> depLegList;
-// 	depLegList = aircraft->getDepStation()->getDepLegList();
-// 	for (int k = 0; k < depLegList.size(); k++)
-// 	{
-// 		edgeProcessFlt(depLegList[k], aircraft);
-// 	}
-
-// 	//* ��ʼ����aircraft dep airport�ϵ�maint, i.e. nodeCost
-// 	vector<Leg*> depMaintList;
-// 	depMaintList = aircraft->getDepStation()->getMaintList();
-// 	for (int k = 0; k < depMaintList.size(); k++)
-// 	{
-// 		edgeProcessMaint(depMaintList[k], aircraft);
-// 	}
-
-// 	for(int i = 0; i < _topOrderList.size(); i++)
-// 	{ //* check each node in topological order, to do relax operation
-// 		for(int j = 0; j  < _topOrderList[i]->getNextLegList().size(); j++)
-// 		{
-// 			Leg * thisLeg = _topOrderList[i];
-// 			Leg * nextLeg = _topOrderList[i]->getNextLegList()[j];
-
-// 			// ����insertSubNode
-// 			// ����edgeProcessFltFlt
-			
-// 			/*
-// 			cout << "before edgeProcessFlt" << endl;
-// 			cout << "lg0 is " << endl;
-// 			thisLeg->print();
-// 			cout << "lg1 is " << endl;
-// 			nextLeg->print();
-// 			*/
-
-// 			if (!thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is flight; nextLeg is flight
-// 			{
-// 				edgeProcessFltFlt(thisLeg, nextLeg, aircraft);
-// 			}
-
-// 			if (!thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is flight; nextLeg is maintenance
-// 			{
-// 				edgeProcessFltMaint(thisLeg, nextLeg, aircraft);
-// 			}
-			
-// 			if (thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is maint; nextLeg is flight
-// 			{
-// 				edgeProcessMaintFlt(thisLeg, nextLeg, aircraft);
-// 			}
-
-// 			if (thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is maint; nextLeg is maint
-// 			{
-// 				edgeProcessMaintMaint(thisLeg, nextLeg, aircraft);
-// 			}
-
-// 			/*
-// 			cout << "after edgeProcessFlt" << endl;
-// 			cout << "lg0 is " << endl;
-// 			thisLeg->print();
-// 			cout << "lg1 is " << endl;
-// 			nextLeg->print();
-// 			*/
-// 		}
-// 	}
-
-// 	/*
-// 	cout << "****** information of all legs ******" << endl;
-// 	for (int i = 0; i < _topOrderList.size(); i++) // ��ӡ���
-// 	{
-// 		_topOrderList[i]->print();
-// 		cout << endl;
-// 	}
-// 	*/
-
-// 	//* ������а���aircraft�յ������flight/maint
-// 	//* �ҳ�flight/maint��subNodeList
-// 	//* �ҳ�����subNodeList��subNodeCost��С��
-
-// 	SubNode* minCostSubNode= NULL;
-// 	double minCost = DBL_MAX;
-
-// 	vector<Leg* > arrLegList;
-// 	arrLegList = aircraft->getArrStation()->getArrLegList();
-
-// 	for (int i = 0; i < arrLegList.size(); i++)
-// 	{
-// 		vector<SubNode* > subNodeList = arrLegList[i]->getSubNodeList();
-// 		for (int j = 0; j < subNodeList.size(); j++)
-// 		{
-// 			if (subNodeList[j]->getSubNodeCost() < minCost)
-// 			{
-// 				minCostSubNode = subNodeList[j];
-// 				minCost = subNodeList[j]->getSubNodeCost();
-// 			}
-// 		}
-// 	}
-
-// 	vector<Leg* > arrMaintList;
-// 	arrMaintList = aircraft->getArrStation()->getMaintList();
-
-// 	for (int i = 0; i < arrMaintList.size(); i++)
-// 	{
-// 		vector<SubNode* > subNodeList = arrMaintList[i]->getSubNodeList();
-// 		for (int j = 0; j < subNodeList.size(); j++)
-// 		{
-// 			if (subNodeList[j]->getSubNodeCost() < minCost)
-// 			{
-// 				minCostSubNode = subNodeList[j];
-// 				minCost = subNodeList[j]->getSubNodeCost();
-// 			}
-// 		}
-// 	}
-
-// 	/* ���ǵ�max delay��Լ������Ҫ����Ƿ���feasible LoF����aircraft��dep��arr airport */
-// 	if (minCostSubNode == NULL)
-// 	{
-// 		cout << "Warning, subproblem found no feasible LoF." << endl;
-
-// 		// reset����leg��parent, nodeCost, operDepTime, operArrTime
-// 		for (int i = 0; i < _legList.size(); i++)
-// 		{
-// 			_legList[i]->resetLeg();
-// 		}
-
-// 		/* cout << "****** information of all legs ******" << endl;
-// 		for (int i = 0; i < _topOrderList.size(); i++) // ��ӡ���
-// 		{
-// 			_topOrderList[i]->print();
-// 			cout << endl;
-// 		}*/
-
-// 		return NULL;
-// 	}
-
-// 	// ���reduced cost�Ƿ�С����
-// 	cout << "reduced cost by subproblem aircraft " << aircraft->getId() << " is: " << minCost - aircraft->getDual() << endl;
-	
-// 	if (minCost - aircraft->getDual() >= -0.0001)
-// 	{
-// 		// reset����leg��parent, nodeCost, operDepTime, operArrTime
-// 		for (int i = 0; i < _legList.size(); i++)
-// 		{
-// 			_legList[i]->resetLeg();
-// 		}
-// 		// cout << "reduced cost >= 0! " << endl;
-// 		return NULL;
-// 	}
-
-// 	// ѡ����subNode����stack�� //
-// 	stack<SubNode*> subNodeSelect;
-// 	SubNode* tempSubNode = minCostSubNode;
-
-// 	while (tempSubNode != NULL)
-// 	{
-// 		subNodeSelect.push(tempSubNode);
-// 		tempSubNode = tempSubNode->getParentSubNode();
-// 	}
-
-// 	/* ����LoF, ��������OperLeg */
-// 	Leg* tempLeg = NULL;
-// 	OperLeg * tempOperLeg = NULL;
-// 	Lof* newLof = new Lof();
-// 	newLof->setAircraft(aircraft); //* ����lof��aircraft
-
-// 	while (subNodeSelect.size() > 0)
-// 	{
-// 		tempSubNode = subNodeSelect.top();
-// 		tempLeg = tempSubNode->getLeg();
-// 		tempOperLeg = new OperLeg(tempLeg, aircraft);
-
-// 		tempOperLeg->setOpDepTime(tempSubNode->getOperDepTime()); //* set operational dep time for operLeg
-// 		tempOperLeg->setOpArrTime(tempSubNode->getOperArrTime()); //* set operational arr time for operLeg
-
-// 		newLof->pushLeg(tempOperLeg);
-
-// 		subNodeSelect.pop();
-// 	}
-
-// 	newLof->computeLofCost(); //* ����lof��cost (delay + swap), ������lof��_cost��
-// 	newLof->computeReducedCost(); //* ������Ӧ�ú�minCost - aircraft->getDual() һ����������lof��_reducedCost��
-
-// 	//* ���ǵ�CPLEX���������Բ�ֵ �����Ǿ��Բ�ֵ
-// 	double error = (newLof->getReducedCost()) - (minCost - aircraft->getDual());
-// 	error = abs(error) / min(abs(newLof->getReducedCost()), abs(minCost - aircraft->getDual()));
-// 	if (error > 0.0001)
-// 	{
-// 		cout << "newLof->getReducedCost() = " << newLof->getReducedCost() << endl;
-// 		cout << "minCost - aircraft->getDual() = " << minCost - aircraft->getDual() << endl << endl;
-
-// 		cout << "Error, subproblem reduced cost and minCost not match" << endl;
-
-// 		//cout << "newLof->getCost = " << newLof->getCost() << endl;
-// 		cout << "minCost is = " << minCost << endl;
-// 		cout << "aircraft->getDual() = " << aircraft->getDual() << endl;
-
-// 		//cout << "accumulated delay is " << minCostLeg->getAccDelay() / 60.0 << " mins" << endl;
-// 		//cout << "accumulated dual is " << minCostLeg->getAccDual() << endl;
-
-// 		newLof->print();
-// 		cout << "******* dual of legs are: *******" << endl;
-// 		vector<OperLeg* > lofOperLegList = newLof->getLegList();
-// 		for (int i = 0; i < newLof->getSize(); i++)
-// 		{
-// 			cout << "dual of leg " << i << " is " << lofOperLegList[i]->getLeg()->getDual() << endl;
-// 		}
-
-// 		exit(0);
-// 	}
-
-// 	//newLof->print();
-// 	/* 
-// 	cout << "****** number of subNodes of all legs ******" << endl;
-// 	for (int i = 0; i < _legList.size(); i++)
-// 	{
-// 		cout << "leg " << i << " has " << _legList[i]->getSubNodeList().size() << " subNodes" << endl;
-// 	}
-// 	*/ 
-
-// 	/* �����Ҫ����leg��parent, nodeCost, operDepTime, operArrTime */
-// 	for (int i = 0; i < _legList.size(); i++)
-// 	{
-// 		_legList[i]->resetLeg();
-// 	}
-
-// 	//newLof->print();
-
-// 	/*
-// 	cout << "****** number of subNodes of all legs ******" << endl;
-// 	for (int i = 0; i < _legList.size(); i++)
-// 	{
-// 		cout << "leg " << i << " has " << _legList[i]->getSubNodeList().size() << " subNodes" << endl;
-// 	}
-// 	*/
-
-// 	return newLof;
-
-// 	/*
-// 	cout << "****** information of all legs ******" << endl;
-// 	for (int i = 0; i < _topOrderList.size(); i++) // ��ӡ���
-// 	{
-// 		_topOrderList[i]->print();
-// 		cout << endl;
-// 	}
-// 	*/
-// }
 
 void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int i)
 {

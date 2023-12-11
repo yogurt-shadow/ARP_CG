@@ -644,13 +644,6 @@ int main( int argc, char * argv[] )
 		aircraftList.push_back(aircraft);
 	}
 
-	//	for(int i = 0; i < aircraftList.size(); i++)
-	//	{
-	//		aircraftList[i]->print();
-	//	}
-
-
-
 	/*Initialize the LegList, flights+maint*/
 	vector<Leg *> legList;
 	/*for ordinary flights*/
@@ -741,10 +734,6 @@ int main( int argc, char * argv[] )
 		stationList[i]->setLegNum(legList.size()); // ��Ȼ����station��legNum����һ���ģ����ﲻ��legNum��Ϊstatic?
 	}
 
-	// for(int i = 0; i < legList.size(); i++)
-	// {
-	//	 legList[i]->print();
-	// }
 
 	/*Initialize maintList,only includes maintenance*/
 	vector<Leg *> maintList;
@@ -829,102 +818,50 @@ int main( int argc, char * argv[] )
 		station->pushCloseTime(closeTime);
 	}
 
-	//	for(int i = 0; i < maintList.size(); i++)
-	//	{
-	//		maintList[i]->print();
-	//	}
-
-
 	/*Data Reading has done!*/
 	std::cout << "Ready to go!" << std::endl;
-
-	/*
-	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
-
-	/// change some sequences
-
-	//* generate feasible lofs by scheduledLegs 
-	schedule->createLof();
-
-	schedule->setOperLofList(); /// added Ȼ����û��ʲô��
-
-	//* Init time node related to aircraft and station
-	schedule->initAircraftNodes();
-
-	//* delay cross day lofs
-	schedule->delayLofsCrossDay();
-
-	//* compute lof cost
-	schedule->computeLofCost();
-
-//	schedule->print();
-
-	//	schedule->printBriefLofs();
-
-	schedule->computeTerminalAircraftCount();
-
-	Model * model = new Model(stationList, aircraftList, legList, schedule->getLofList(),schedule->getNodeList());
-
-	//	model->populateByColumn();
-
-	//	model->solve();
-
-	model->populateLofByAircraft();  /// agg model��col enumeration���ģ�ͣ�����ѡ������lof���Ƹ�aircraft��ÿ��aircraft��һ��������lofList
-	model->delayLofsCrossDay();  /// ÿ��aircraft��lofList��cross day delay, ÿ�ܷɻ���lofList����һ�����getOperLofList, ������modelIP��
-	model->computeLofCost(); /// ÿ��aircraft��lofList��lof ����cost
-
-	Model * modelIP = new Model(stationList,model->getAircraftList(),legList,model->getOperLofList());
-	modelIP->populateByColumn();
-
-	vector<Lof *> lofListSoln;
-	lofListSoln = modelIP->solveIP();
-	*/
 
 	clock_t startTime = clock();
 
 	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
 	schedule->computeTopOrder();
 
-	// for (auto i: aircraftList[5]->getArrStation()->getArrLegList()) {
-	// 	cout << i->getSubNodeList().size() << endl;
-	// }
-
 	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList());
 
 	vector<Lof *> lofListSoln;
 	lofListSoln = model->solveColGen();
 
-// 	vector<Leg *> finaLegList;
-// 	finaLegList = updaInfo(lofListSoln,legList);
+	vector<Leg *> finaLegList;
+	finaLegList = updaInfo(lofListSoln,legList);
 
-// 	cout << "Total number of connection of leg network: " << schedule->getConnectionSize() << endl;
+	cout << "Total number of connection of leg network: " << schedule->getConnectionSize() << endl;
 
-// 	clock_t endTime = clock();
-// 	cout << "total run time is " << (endTime - startTime)/CLK_TCK << " seconds" << endl;
+	clock_t endTime = clock();
+	cout << "total run time is " << (endTime - startTime)/CLK_TCK << " seconds" << endl;
 
-// 	if (exportSolution(output_path, finaLegList)) {
-// 		std::cout << "Solution is printed." << std::endl;
-// 		cout << "output path: " << output_path << endl;
-// 	}
-// 	else {
-// 		std::cout << "Solution not printed" << endl;
-// 		cout << "output path: " << output_path << endl;
-// 	}
+	if (exportSolution(output_path, finaLegList)) {
+		std::cout << "Solution is printed." << std::endl;
+		cout << "output path: " << output_path << endl;
+	}
+	else {
+		std::cout << "Solution not printed" << endl;
+		cout << "output path: " << output_path << endl;
+	}
 	
 	
-// 	cout << endl;
-// 	cout << "Canceled flights are" << endl;
-// 	for (int i = 0; i < finaLegList.size(); i++)
-// 	{
-// 		if (!finaLegList[i]->getAssigned())
-// 		{
-// 			// �����cancel, ��ʾ������Ϣ����dual
-// 			finaLegList[i]->print();
-// 			cout << "dual is " << finaLegList[i]->getDual() << endl;
-// 		}
-// 	}
+	cout << endl;
+	cout << "Canceled flights are" << endl;
+	for (int i = 0; i < finaLegList.size(); i++)
+	{
+		if (!finaLegList[i]->getAssigned())
+		{
+			// �����cancel, ��ʾ������Ϣ����dual
+			finaLegList[i]->print();
+			cout << "dual is " << finaLegList[i]->getDual() << endl;
+		}
+	}
 
-// 	system("pause");
-// 	return 0;
+	system("pause");
+	return 0;
 
 } 

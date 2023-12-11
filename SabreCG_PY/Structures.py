@@ -368,7 +368,7 @@ class Aircraft:
         return True
 
 class OperLeg:
-    def __init__(self, leg: Leg, aircraft: Aircraft = None):
+    def __init__(self, leg: Leg, aircraft: Aircraft):
         self._leg = leg
         self._depTime = leg.getDepTime()
         self._arrTime = leg.getArrTime()
