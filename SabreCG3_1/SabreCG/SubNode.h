@@ -13,8 +13,6 @@ private:
 	double _subNodeCost;
 	time_t _delay;						// ��¼��DP�е�����delay
 
-	int getLegId();
-	int getParentLegId();
 	//time_t _operDepTime;				//* ��¼��DP�е������flight departure time
 	//time_t _operArrTime;				//* ��¼��DP�е������flight arrival time
 
@@ -22,6 +20,8 @@ public:
 	SubNode(Leg* leg, SubNode* parentSubNode, double subNodeCost, time_t delay);
 	~SubNode(){}
 
+	int getLegId();
+	int getParentLegId();
 	Leg* getLeg() {return _leg;}
 	void setLeg(Leg* leg) {_leg = leg;}
 

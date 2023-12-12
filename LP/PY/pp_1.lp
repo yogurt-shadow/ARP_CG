@@ -15,75 +15,72 @@ Minimize
    + 800 y_73 + 800 y_74 + 800 y_75 + 800 y_76 + 800 y_77 + 800 y_78
    + 800 y_79 + 800 y_80 + 800 y_81 + 800 y_82 + 800 y_83 + 800 y_84
    + 800 y_85 + 800 y_86 + 800 y_87 + 800 y_88 + 800 y_89 + 800 y_90
-   + 800 y_91 + 800 y_92 + 800 y_93 + 800 y_94 + 8 x_10 + 8 x_11 + 304 x_12
-   + 304 x_13 + 4 x_14 + 606 x_15 + 601 x_16 + x_17 + 1056 x_18 + 155 x_19
-   + 157 x_20 + 351 x_21 + x_22 + 6 x_23 + 7 x_24 + 1055 x_25 + 1055 x_26
-   + x_27 + 695 x_28 + 1542 x_29 + 304 x_30
+   + 800 y_91 + 800 y_92 + 800 y_93 + 800 y_94 + 8 x_8 + 8 x_9 + 304 x_10
+   + 606 x_11 + 601 x_12 + 351 x_13 + x_14 + 1055 x_15 + 1055 x_16
+   + 1542 x_17 + 304 x_18
 Subject To
- cover_lg_0: y_0 + x_0 + x_8 + x_9 = 1
- cover_lg_1: y_1 + x_0 + x_8 + x_9 + x_17 + x_27 + x_29 = 1
- cover_lg_2: y_2 + x_0 + x_9 + x_13 + x_18 + x_28 + x_30 = 1
- cover_lg_3: y_3 + x_0 + x_9 + x_13 + x_18 + x_28 + x_30 = 1
- cover_lg_4: y_4 + x_0 + x_14 + x_19 = 1
- cover_lg_5: y_5 + x_0 + x_14 = 1
+ cover_lg_0: y_0 + x_0 = 1
+ cover_lg_1: y_1 + x_0 + x_17 = 1
+ cover_lg_2: y_2 + x_0 + x_18 = 1
+ cover_lg_3: y_3 + x_0 + x_18 = 1
+ cover_lg_4: y_4 + x_0 = 1
+ cover_lg_5: y_5 + x_0 = 1
  cover_lg_6: y_6 + x_0 = 1
  cover_lg_7: y_7 + x_0 = 1
- cover_lg_8: y_8 + x_1 + x_10 + x_11 + x_23 + x_24 + x_28 = 1
- cover_lg_9: y_9 + x_1 + x_21 = 1
+ cover_lg_8: y_8 + x_1 + x_8 + x_9 = 1
+ cover_lg_9: y_9 + x_1 + x_13 = 1
  cover_lg_10: y_10 + x_1 = 1
  cover_lg_11: y_11 + x_1 = 1
  cover_lg_12: y_12 + x_1 = 1
- cover_lg_13: y_13 + x_1 + x_10 + x_11 = 1
+ cover_lg_13: y_13 + x_1 + x_8 + x_9 = 1
  cover_lg_14: y_14 + x_2 = 1
  cover_lg_15: y_15 + x_2 = 1
- cover_lg_16: y_16 + x_2 + x_12 + x_15 + x_22 = 1
- cover_lg_17: y_17 + x_2 + x_12 + x_15 = 1
- cover_lg_18: y_18 + x_2 + x_12 + x_15 = 1
- cover_lg_19: y_19 + x_2 + x_12 + x_15 = 1
- cover_lg_20: y_20 + x_2 + x_12 = 1
- cover_lg_21: y_21 + x_2 + x_12 = 1
- cover_lg_22: y_22 + x_2 + x_12 = 1
- cover_lg_23: y_23 + x_3 + x_13 + x_14 = 1
- cover_lg_24: y_24 + x_3 + x_10 + x_11 + x_12 + x_14 + x_19 + x_20 + x_23
-   + x_24 + x_26 = 1
- cover_lg_25: y_25 + x_3 + x_10 + x_11 + x_12 + x_14 + x_19 + x_20 + x_23
-   + x_24 + x_26 = 1
- cover_lg_26: y_26 + x_3 + x_11 = 1
- cover_lg_27: y_27 + x_3 + x_11 = 1
- cover_lg_28: y_28 + x_3 + x_10 + x_11 + x_20 = 1
- cover_lg_29: y_29 + x_3 + x_10 + x_11 + x_20 = 1
- cover_lg_30: y_30 + x_3 + x_10 + x_11 + x_20 = 1
- cover_lg_31: y_31 + x_3 + x_10 + x_11 = 1
+ cover_lg_16: y_16 + x_2 + x_10 + x_11 + x_14 = 1
+ cover_lg_17: y_17 + x_2 + x_10 + x_11 = 1
+ cover_lg_18: y_18 + x_2 + x_10 + x_11 = 1
+ cover_lg_19: y_19 + x_2 + x_10 + x_11 = 1
+ cover_lg_20: y_20 + x_2 + x_10 = 1
+ cover_lg_21: y_21 + x_2 + x_10 = 1
+ cover_lg_22: y_22 + x_2 + x_10 = 1
+ cover_lg_23: y_23 + x_3 = 1
+ cover_lg_24: y_24 + x_3 + x_8 + x_9 + x_10 + x_16 = 1
+ cover_lg_25: y_25 + x_3 + x_8 + x_9 + x_10 + x_16 = 1
+ cover_lg_26: y_26 + x_3 + x_9 = 1
+ cover_lg_27: y_27 + x_3 + x_9 = 1
+ cover_lg_28: y_28 + x_3 + x_8 + x_9 = 1
+ cover_lg_29: y_29 + x_3 + x_8 + x_9 = 1
+ cover_lg_30: y_30 + x_3 + x_8 + x_9 = 1
+ cover_lg_31: y_31 + x_3 + x_8 + x_9 = 1
  cover_lg_32: y_32 + x_3 = 1
  cover_lg_33: y_33 + x_3 = 1
- cover_lg_34: y_34 + x_15 + x_16 = 1
- cover_lg_35: y_35 + x_29 = 1
+ cover_lg_34: y_34 + x_11 + x_12 = 1
+ cover_lg_35: y_35 + x_17 = 1
  cover_lg_36: y_36 = 1
  cover_lg_37: y_37 = 1
  cover_lg_38: y_38 = 1
- cover_lg_39: y_39 + x_15 = 1
- cover_lg_40: y_40 + x_15 = 1
- cover_lg_41: y_41 + x_15 = 1
- cover_lg_42: y_42 + x_4 + x_17 = 1
+ cover_lg_39: y_39 + x_11 = 1
+ cover_lg_40: y_40 + x_11 = 1
+ cover_lg_41: y_41 + x_11 = 1
+ cover_lg_42: y_42 + x_4 = 1
  cover_lg_43: y_43 + x_4 = 1
- cover_lg_44: y_44 + x_4 + x_16 = 1
+ cover_lg_44: y_44 + x_4 + x_12 = 1
  cover_lg_45: y_45 + x_4 = 1
  cover_lg_46: y_46 + x_4 = 1
  cover_lg_47: y_47 + x_4 = 1
  cover_lg_48: y_48 + x_4 = 1
  cover_lg_49: y_49 + x_4 = 1
- cover_lg_50: y_50 + x_5 + x_12 + x_18 + x_19 + x_20 = 1
- cover_lg_51: y_51 + x_5 + x_12 + x_18 + x_19 + x_20 = 1
+ cover_lg_50: y_50 + x_5 + x_10 = 1
+ cover_lg_51: y_51 + x_5 + x_10 = 1
  cover_lg_52: y_52 + x_5 = 1
  cover_lg_53: y_53 + x_5 = 1
- cover_lg_54: y_54 + x_5 + x_24 = 1
- cover_lg_55: y_55 + x_5 + x_24 = 1
+ cover_lg_54: y_54 + x_5 = 1
+ cover_lg_55: y_55 + x_5 = 1
  cover_lg_56: y_56 + x_5 = 1
  cover_lg_57: y_57 + x_5 = 1
  cover_lg_58: y_58 + x_5 = 1
- cover_lg_59: y_59 + x_21 + x_22 = 1
- cover_lg_60: y_60 + x_13 + x_15 + x_18 + x_25 + x_28 + x_30 = 1
- cover_lg_61: y_61 + x_13 + x_15 + x_18 + x_25 + x_28 + x_30 = 1
+ cover_lg_59: y_59 + x_13 + x_14 = 1
+ cover_lg_60: y_60 + x_11 + x_15 + x_18 = 1
+ cover_lg_61: y_61 + x_11 + x_15 + x_18 = 1
  cover_lg_62: y_62 = 1
  cover_lg_63: y_63 = 1
  cover_lg_64: y_64 = 1
@@ -91,11 +88,9 @@ Subject To
  cover_lg_66: y_66 = 1
  cover_lg_67: y_67 = 1
  cover_lg_68: y_68 = 1
- cover_lg_69: y_69 + x_10 + x_14 + x_19 + x_20 + x_23 + x_24 + x_25 + x_26
-   = 1
- cover_lg_70: y_70 + x_10 + x_14 + x_19 + x_20 + x_23 + x_24 + x_25 + x_26
-   = 1
- cover_lg_71: y_71 + x_23 + x_25 + x_26 = 1
+ cover_lg_69: y_69 + x_8 + x_15 + x_16 = 1
+ cover_lg_70: y_70 + x_8 + x_15 + x_16 = 1
+ cover_lg_71: y_71 + x_15 + x_16 = 1
  cover_lg_72: y_72 = 1
  cover_lg_73: y_73 = 1
  cover_lg_74: y_74 = 1
@@ -105,10 +100,10 @@ Subject To
  cover_lg_78: y_78 + x_6 = 1
  cover_lg_79: y_79 + x_6 = 1
  cover_lg_80: y_80 + x_6 = 1
- cover_lg_81: y_81 + x_6 + x_24 = 1
- cover_lg_82: y_82 + x_6 + x_24 = 1
- cover_lg_83: y_83 + x_6 + x_24 = 1
- cover_lg_84: y_84 + x_25 + x_26 = 1
+ cover_lg_81: y_81 + x_6 = 1
+ cover_lg_82: y_82 + x_6 = 1
+ cover_lg_83: y_83 + x_6 = 1
+ cover_lg_84: y_84 + x_15 + x_16 = 1
  cover_lg_85: y_85 = 1
  cover_lg_86: y_86 = 1
  cover_lg_87: y_87 = 1
@@ -119,18 +114,18 @@ Subject To
  cover_lg_92: y_92 + x_7 = 1
  cover_lg_93: y_93 + x_7 = 1
  cover_lg_94: y_94 + x_7 = 1
- select_ac_0: x_0 + x_8 + x_9 <= 1
- select_ac_1: x_1 + x_10 + x_11 <= 1
- select_ac_2: x_2 + x_12 <= 1
- select_ac_3: x_3 + x_13 + x_14 <= 1
- select_ac_4: x_15 + x_16 <= 1
- select_ac_5: x_4 + x_17 + x_18 <= 1
- select_ac_6: x_5 + x_19 + x_20 <= 1
- select_ac_7: x_21 + x_22 <= 1
- select_ac_8: x_6 + x_23 + x_24 <= 1
- select_ac_9: x_25 + x_26 <= 1
- select_ac_10: x_7 + x_27 + x_28 <= 1
- select_ac_11: x_29 + x_30 <= 1
+ select_ac_0: x_0 <= 1
+ select_ac_1: x_1 + x_8 + x_9 <= 1
+ select_ac_2: x_2 + x_10 <= 1
+ select_ac_3: x_3 <= 1
+ select_ac_4: x_11 + x_12 <= 1
+ select_ac_5: x_4 <= 1
+ select_ac_6: x_5 <= 1
+ select_ac_7: x_13 + x_14 <= 1
+ select_ac_8: x_6 <= 1
+ select_ac_9: x_15 + x_16 <= 1
+ select_ac_10: x_7 <= 1
+ select_ac_11: x_17 + x_18 <= 1
 Bounds
  y_0 <= 1
  y_1 <= 1
@@ -246,16 +241,4 @@ Bounds
  x_16 <= 1
  x_17 <= 1
  x_18 <= 1
- x_19 <= 1
- x_20 <= 1
- x_21 <= 1
- x_22 <= 1
- x_23 <= 1
- x_24 <= 1
- x_25 <= 1
- x_26 <= 1
- x_27 <= 1
- x_28 <= 1
- x_29 <= 1
- x_30 <= 1
 End

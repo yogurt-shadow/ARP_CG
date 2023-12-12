@@ -128,13 +128,14 @@ class SubNode:
             return True
         return False
 
-    def CostKey(self) -> (float, int, int):
-        id1, id2 = -1, -1
-        if self._leg != None:
-            id1 = self._leg.getId()
-        if self._parentSubNode != None:
-            id2 = self._parentSubNode.getLeg().getId()
-        return (self.getSubNodeCost(), id1, id2)
+    def cmpByCost(a: 'SubNode', b: 'SubNode') -> int:
+        if a.getSubNodeCost() < b.getSubNodeCost():
+            return -1
+        if a.getSubNodeCost() == b.getSubNodeCost() and a.getLegId() < b.getLegId():
+            return -1
+        if a.getSubNodeCost() == b.getSubNodeCost() and a.getLegId() == b.getLegId() and a.getParentLegId() < b.getParentLegId():
+            return -1
+        return 1
 
 class Leg:
     _count = 0

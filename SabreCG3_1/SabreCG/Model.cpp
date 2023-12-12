@@ -283,8 +283,8 @@ void Model::solve()
 	_count++;
 	string name = "cc_" + string(str) + ".lp";
 
-	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
-	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
+	// _solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
+	// _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
 	if (fileExist(name)) {
 		remove(name.c_str());
 	}
@@ -313,7 +313,7 @@ void Model::solve()
 			cout << "Error, leg index mismatch when get dual" << endl;
 			exit(0);
 		}
-		//cout << "leg " << i << " dual equals " << legDual[i] << endl;
+		cout << "setDual: " << legDual[i] << endl;
 		_legList[i]->setDual(legDual[i]);
 	}
 
@@ -330,6 +330,7 @@ void Model::solve()
 			exit(0);
 		}
 		//cout << "aircraft " << i << " dual equals " << aircraftDual[i] << endl;
+		cout << "setDual: " << aircraftDual[i] << endl;
 		_aircraftList[i]->setDual(aircraftDual[i]);
 	}
 }
@@ -373,6 +374,10 @@ vector<Lof* > Model::solveIP()
 	cout<<endl<<" ********************* END FINAL IP SOLUTION *********************"<<endl;
 
 	return lofListSoln;
+}
+
+bool cost(SubNode *a, SubNode *b) {
+	return a->getSubNodeCost() < b->getSubNodeCost();
 }
 
 vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
@@ -476,7 +481,13 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 		return betterLof;
 	}
 
-	// sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
+	cout << "show tmp list" << endl;
+	for (auto const& ele: tmpSubNodeList) {
+		cout << ele->getSubNodeCost() << " " << ele->getLegId() << " " << ele->getParentLegId() << endl;
+	}
+	cout << "show tmp list done" << endl;
+
+	// sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), cost);
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
 		// reset����leg��subNode

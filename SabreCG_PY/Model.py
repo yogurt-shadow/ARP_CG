@@ -7,6 +7,7 @@ import gurobipy as gp
 from gurobipy import GRB
 import time
 import os
+from functools import cmp_to_key
 
 class Model:
     _count = 0
@@ -73,7 +74,14 @@ class Model:
             for _leg in self._legList:
                 _leg.resetLeg()
             return betterLof
-        # tmpSubNodeList.sort(key = lambda x: x.CostKey())
+        
+        print("show tmp list")
+        for ele in tmpSubNodeList:
+            print("%d %d %d" % (ele.getSubNodeCost(), ele.getLegId(), ele.getParentLegId()))
+        print("show tmp list done")
+        
+        # tmpSubNodeList = sorted(tmpSubNodeList, key = cmp_to_key(SubNode.cmpByCost))
+        # tmpSubNodeList = sorted(tmpSubNodeList, key = lambda x: x.getSubNodeCost())
        
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
@@ -453,7 +461,7 @@ class Model:
         4=deterministic concurrent, and
         5=deterministic concurrent simplex (deprecated; see ConcurrentMethod).
         """
-        self._model.setParam(GRB.param.Method, 2)
+        # self._model.setParam(GRB.param.Method, 2)
         # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
         if os.path.exists(name):
             os.remove(name)
@@ -474,6 +482,7 @@ class Model:
             if i != self._legList[i].getId():
                 print("Error, leg index mismatch when get dual")
                 sys.exit(0)
+            print("setDual:", legDual[i])
             self._legList[i].setDual(legDual[i])
         
         # get aircraft dual
@@ -484,6 +493,7 @@ class Model:
             if i != self._aircraftList[i].getId():
                 print("Error, aircraft index mismatch when get dual")
                 sys.exit(0)
+            print("setDual:", aircraftDual[i])
             self._aircraftList[i].setDual(aircraftDual[i])
 
     def addColumns(self, _betterColumns: list[Lof]) -> None:
