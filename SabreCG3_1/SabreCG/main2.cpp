@@ -820,16 +820,12 @@ int main( int argc, char * argv[] )
 
 	/*Data Reading has done!*/
 	std::cout << "Ready to go!" << std::endl;
-
 	clock_t startTime = clock();
-
 	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
 	schedule->computeTopOrder();
-
 	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList());
-
-	// vector<Lof *> lofListSoln;
-	// lofListSoln = model->solveColGen();
+	vector<Lof *> lofListSoln;
+	lofListSoln = model->solveColGen();
 
 	// vector<Leg *> finaLegList;
 	// finaLegList = updaInfo(lofListSoln,legList);

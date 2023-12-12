@@ -49,7 +49,7 @@ private:
 public:
 	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
 	vector<Lof *> findNewColumns();
-	vector<Lof *> findNewMultiColumns(Aircraft* aircraft, int);
+	vector<Lof *> findNewMultiColumns(Aircraft* aircraft);
 
 	Lof* findNewOneColumn(Aircraft* aircraft);
 	void edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
@@ -64,7 +64,7 @@ public:
 	void edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
 	void edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
-	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int);
+	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft);
 	void edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft);
 
 	time_t computeFlightDelay (SubNode* subNode, Leg* nextLeg);

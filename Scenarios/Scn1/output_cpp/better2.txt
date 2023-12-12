@@ -1,6 +1,4 @@
-air size: 12
-air i 0
-multi size: 2
+print better after 0
 ************ LOF ************
 Lof ID is 8
 Tail ARDIE
@@ -219,8 +217,6 @@ ODp Wed Jul 25 07:40:00 2012
 OAr Wed Jul 25 08:50:00 2012
 
 *****************************
-air i 1
-multi size: 2
 ************ LOF ************
 Lof ID is 10
 Tail CRDIE
@@ -439,8 +435,6 @@ ODp Wed Jul 25 05:55:00 2012
 OAr Wed Jul 25 10:45:00 2012
 
 *****************************
-air i 2
-multi size: 1
 ************ LOF ************
 Lof ID is 12
 Tail MA953N
@@ -560,8 +554,6 @@ ODp Wed Jul 25 04:50:00 2012
 OAr Wed Jul 25 08:10:00 2012
 
 *****************************
-air i 3
-multi size: 2
 ************ LOF ************
 Lof ID is 13
 Tail MA025N
@@ -800,8 +792,6 @@ ODp Wed Jul 25 07:05:00 2012
 OAr Wed Jul 25 08:55:00 2012
 
 *****************************
-air i 4
-multi size: 2
 ************ LOF ************
 Lof ID is 15
 Tail MA858N
@@ -940,8 +930,6 @@ ODp Tue Jul 24 06:20:00 2012
 OAr Tue Jul 24 12:10:00 2012
 
 *****************************
-air i 5
-multi size: 2
 ************ LOF ************
 Lof ID is 17
 Tail MA958N
@@ -1200,8 +1188,6 @@ ODp Wed Jul 25 07:40:00 2012
 OAr Wed Jul 25 08:50:00 2012
 
 *****************************
-air i 6
-multi size: 2
 ************ LOF ************
 Lof ID is 19
 Tail MA068N
@@ -1440,8 +1426,6 @@ ODp Wed Jul 25 04:25:00 2012
 OAr Wed Jul 25 06:03:00 2012
 
 *****************************
-air i 7
-multi size: 2
 ************ LOF ************
 Lof ID is 21
 Tail MA168N
@@ -1660,8 +1644,6 @@ ODp Wed Jul 25 05:30:00 2012
 OAr Wed Jul 25 07:43:00 2012
 
 *****************************
-air i 8
-multi size: 2
 ************ LOF ************
 Lof ID is 23
 Tail YOJAX
@@ -1920,8 +1902,6 @@ ODp Wed Jul 25 09:20:00 2012
 OAr Wed Jul 25 13:15:00 2012
 
 *****************************
-air i 9
-multi size: 2
 ************ LOF ************
 Lof ID is 25
 Tail AIMAX
@@ -2180,8 +2160,6 @@ ODp Wed Jul 25 09:20:00 2012
 OAr Wed Jul 25 13:15:00 2012
 
 *****************************
-air i 10
-multi size: 2
 ************ LOF ************
 Lof ID is 27
 Tail MAZAX
@@ -2420,8 +2398,6 @@ ODp Wed Jul 25 07:40:00 2012
 OAr Wed Jul 25 08:50:00 2012
 
 *****************************
-air i 11
-multi size: 2
 ************ LOF ************
 Lof ID is 29
 Tail MA059N
@@ -2628,3 +2604,15 @@ XEM Wed Jul 25 06:00:00 2012
 LDG Wed Jul 25 07:10:00 2012
 ODp Wed Jul 25 06:00:00 2012
 OAr Wed Jul 25 07:10:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual 0
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+*****************************
