@@ -77,6 +77,7 @@ public:
 	void solve();
 	void addColumns(vector<Lof* > _betterColumns);	//*
 	vector<Lof* > solveIP();
+	void print();
 };
 
 #endif

@@ -29,7 +29,23 @@ Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vec
 	_coverRng = IloRangeArray(_env);
 	_selectRng = IloRangeArray(_env);
 	_solver = IloCplex(_model);
-	
+	print();
+}
+
+void Model::print() {
+	cout << "print model" << endl;
+	for(auto ele: _stationList) {
+		ele->print();
+	}
+	for(auto ele: _aircraftList) {
+		ele->print();
+	}
+	for(auto ele: _legList) {
+		ele->print();
+	}
+	for(auto ele: _topOrderList) {
+		ele->print();
+	}
 }
 
 int Model::_count = 0;
