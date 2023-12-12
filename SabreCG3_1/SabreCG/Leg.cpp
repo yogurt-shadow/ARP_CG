@@ -106,12 +106,14 @@ bool Leg::resetLeg()
 
 bool Leg::insertSubNode(SubNode* subNode)
 {
-	//bool isInserted = false;
-
-	// ���_subNodeList�ǿյ�
+	// cout << "insert node" << endl;
+	// cout << "id " << getId() << endl;
 	if (_subNodeList.empty())
 	{
 		_subNodeList.push_back(subNode);
+		// for(auto ele: _subNodeList) {
+		// 	ele->print();
+		// }
 		return true;
 	}
 
@@ -120,6 +122,9 @@ bool Leg::insertSubNode(SubNode* subNode)
 	{
 		if (SubNode::lessSubNodePointer(*itr, subNode)) // ����µ�subNode�����е�subNode dominate
 		{
+			// for(auto ele: _subNodeList) {
+			// 	ele->print();
+			// }
 			return false;
 		}
 
@@ -137,7 +142,9 @@ bool Leg::insertSubNode(SubNode* subNode)
 
 	// ��������ߵ����˵��newSubNodeû�б��κ����е�subNode dominate
 	_subNodeList.push_back(subNode);
-
+	// for(auto ele: _subNodeList) {
+	// 	ele->print();
+	// }
 	return true;
 }
 

@@ -1,7 +1,7 @@
 #include "SubNode.h"
 #include "Leg.h"
 
-SubNode::SubNode(Leg* leg = NULL, SubNode* parentSubNode = NULL, double subNodeCost = 0, time_t delay = 0):
+SubNode::SubNode(Leg* leg, SubNode* parentSubNode, double subNodeCost, time_t delay):
 	_leg(leg), _parentSubNode(parentSubNode), _subNodeCost(subNodeCost), _delay(delay)
 {
 }
@@ -17,9 +17,9 @@ void SubNode::print()
 		cout << "hosting leg is NULL" << endl;
 
 	if (_parentSubNode != NULL)
-		cout << "parent subnode's hosting leg is lg" << _parentSubNode->getLeg()->getId() << endl;
+		cout << "parent subNode's hosting leg is lg" << _parentSubNode->getLeg()->getId() << endl;
 	else
-		cout << "parent subnode is NULL" << endl;
+		cout << "parent subNode is NULL" << endl;
 
 }
 

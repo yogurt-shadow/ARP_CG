@@ -232,18 +232,29 @@ vector<Lof* > Model::solveColGen()
 
 	int count = 1;
 
-	cout << "print duals" << endl;
+	cout << "print airs" << endl;
 	for(auto _air: _aircraftList) {
-		cout << _air->getDual() << endl;
+		_air->print();
+	}
+	cout << "print legs subnode" << endl;
+	for(auto _leg: _legList) {
+		for(auto subnode: _leg->getSubNodeList()) {
+			while(subnode) {
+				subnode->print();
+				subnode = subnode->getParentSubNode();
+			}
+		}
 	}
 
+	cout << "find new cols" << endl;
 	vector<Lof* > betterColumns;
 	betterColumns = findNewColumns();
 	cout << "print better after 0" << endl;
 	for(auto ele: betterColumns) {
 		ele->print();
 	}
-	return lofListSoln;
+	cout << "done after 0" << endl;
+	// return lofListSoln;
 
 
 	while (!betterColumns.empty())
@@ -417,6 +428,17 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 		}
 	}
 
+	cout << "print legs subnode here" << endl;
+	for(auto _leg: _legList) {
+		for(auto subnode: _leg->getSubNodeList()) {
+			while(subnode) {
+				subnode->print();
+				subnode = subnode->getParentSubNode();
+			}
+		}
+	}
+	cout << "print legs done" << endl;
+
 	vector<SubNode* > tmpSubNodeList;
 	vector<Leg* > arrLegList;
 	arrLegList = aircraft->getArrStation()->getArrLegList();
@@ -454,7 +476,7 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 		return betterLof;
 	}
 
-	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
+	// sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
 		// reset����leg��subNode
@@ -482,7 +504,8 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 					subNodeSelect.push(tempSubNode);
 					tempSubNode = tempSubNode->getParentSubNode();
 				}
-
+				print_stack(subNodeSelect);
+				cout << "stack done" << endl;
 				Leg* tempLeg = NULL;
 				OperLeg * tempOperLeg = NULL;
 				newLof->setAircraft(aircraft); //* ����lof��aircraft
@@ -521,7 +544,6 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 				}
 				betterLof.push_back(newLof);
 				++tmp_count;
-
 			}
 		}
 		else

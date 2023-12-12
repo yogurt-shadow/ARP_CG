@@ -25,27 +25,23 @@ class Model:
 
     def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
-        i = 0
         for _aircraft in self._aircraftList:
-            tempLof = self.findNewMultiColumns(_aircraft, i)
+            tempLof = self.findNewMultiColumns(_aircraft)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
-            i += 1
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
         return betterLof
     
-    def findNewMultiColumns(self, aircraft: Aircraft, i) -> list[Lof]:
+    def findNewMultiColumns(self, aircraft: Aircraft) -> list[Lof]:
         betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
         for _depLeg in depLegList:
-            self.edgeProcessFlt(_depLeg, aircraft, i)
+            self.edgeProcessFlt(_depLeg, aircraft)
         depMaintList = aircraft.getDepStation().getMainList()
         for _depMaint in depMaintList:
             self.edgeProcessMaint(_depMaint, aircraft)
         # check each node in topological order, to do relax operation
-        index = 0
         for thisLeg in self._topOrderList:
-            index += 1
             for nextLeg in thisLeg.getNextLegList():
                 if not thisLeg.isMaint() and not nextLeg.isMaint():
                     self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
@@ -55,6 +51,15 @@ class Model:
                     self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
                 if thisLeg.isMaint() and nextLeg.isMaint():
                     self.exgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
+
+        print("print legs subnode here")
+        for _leg in self._legList:
+            for subnode in _leg.getSubNodeList():
+                while subnode != None:
+                    subnode.print()
+                    subnode = subnode.getParentSubNode()
+        print("print legs done")
+
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
             for _subNode in _arrLeg.getSubNodeList():
@@ -68,7 +73,7 @@ class Model:
             for _leg in self._legList:
                 _leg.resetLeg()
             return betterLof
-        tmpSubNodeList.sort(key = lambda x: x.CostKey())
+        # tmpSubNodeList.sort(key = lambda x: x.CostKey())
        
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
@@ -84,6 +89,8 @@ class Model:
                     while tempSubNode != None:
                         subNodeSelect.push(tempSubNode)
                         tempSubNode = tempSubNode.getParentSubNode()
+                    subNodeSelect.print()
+                    print("stack done")
                     tempLeg, tempOperLeg = None, None
                     newLof.setAircraft(aircraft)
                     while subNodeSelect.size() > 0:
@@ -94,7 +101,6 @@ class Model:
                         tempOperLeg.setOpArrTime(tempSubNode.getOperArrTime())
                         newLof.pushLeg(tempOperLeg)
                         subNodeSelect.pop()
-                    # print("newLof aircraft id is", newLof.getAircraft().getId())
                     newLof.computeLofCost()
                     newLof.computeReducedCost()
                     error = newLof.getReducedCost() - (subNode.getSubNodeCost() - aircraft.getDual())
@@ -211,7 +217,7 @@ class Model:
                     print("Error, initial relaxation must happen")
                     sys.exit(0)
 
-    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft, i) -> None:
+    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft) -> None:
         if nextLeg.isMaint():
             print("Error, input of edgeProcessFlt must be flight.")
             sys.exit(0)
@@ -333,15 +339,23 @@ class Model:
         print(" ********************* END LP SOLUTION 0 *********************")
         print()
         count = 1
-        print("print duals")
+        print("print airs")
         for _air in self._aircraftList:
-            print(_air.getDual())
+            _air.print()
+        
+        print("print legs subnode")
+        for _leg in self._legList:
+            for subnode in _leg.getSubNodeList():
+                while subnode != None:
+                    subnode.print()
+                    subnode = subnode.getParentSubNode()
+
+        print("find new cols")
         betterColumns = self.findNewColumns()
         print("print better after 0")
         for ele in betterColumns:
             ele.print()
-        return None
-    
+        print("done after 0")
 
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
@@ -486,6 +500,7 @@ class Model:
             varName = "x_" + str(_col.getId())
             v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
             self._lofVar.append(v)
+            self._model.update()
             print("add column: " + varName)
             for cons in constrs:
                 print("add to constraint: " + cons.getAttr('ConstrName'))

@@ -67,6 +67,18 @@ class SubNode:
 
     def getLeg(self):
         return self._leg
+    
+    def getLegId(self):
+        if self.getLeg() == None:
+            return -1
+        else:
+            return self.getLeg().getId()
+        
+    def getParentLegId(self):
+        if self.getParentSubNode() == None:
+            return -1
+        else:
+            return self.getParentSubNode().getLeg().getId()
 
     def setLeg(self, leg) -> None:
         self._leg = leg
@@ -95,11 +107,11 @@ class SubNode:
         if self._leg != None:
             print("hosting leg is lg" + str(self._leg.getId()))
         else:
-            print("hosting leg is Null")
+            print("hosting leg is NULL")
         if self._parentSubNode != None:
-            print("parent subnode's hosting leg is lg" + str(self._parentSubNode.getLeg().getId()))
+            print("parent subNode's hosting leg is lg" + str(self._parentSubNode.getLeg().getId()))
         else:
-            print("parent subNode is Null")
+            print("parent subNode is NULL")
 
     def getOperDepTime(self) -> float:
         return self._leg.getDepTime() + self._delay
@@ -259,8 +271,12 @@ class Leg:
         self._subNodeList.pop()
 
     def insertSubNode(self, subNode: SubNode) -> bool:
+        # print("insert node")
+        # print("id:", self.getId())
         if len(self._subNodeList) == 0:
             self._subNodeList.append(subNode)
+            # for ele in self._subNodeList:
+            #     ele.print()
             return True
         deleted = []
         i = 0
@@ -268,11 +284,15 @@ class Leg:
             _subNode = self._subNodeList[i]
             if _subNode.LessKey(subNode):
                 self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
+                # for ele in self._subNodeList:
+                #     ele.print()
                 return False
             if subNode.LessKey(_subNode):
                 deleted.append(i)
         self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
         self._subNodeList.append(subNode)
+        # for ele in self._subNodeList:
+        #     ele.print()
         return True    
 
     def compareDepKey(self) -> float:

@@ -8,8 +8,8 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Station.h(51,53): warning C4267: 'return': con
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Aircraft.cpp')
   
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(22,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(23,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(20,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Aircraft.cpp(21,43): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Leg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Leg.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'Leg.cpp')
@@ -81,7 +81,7 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(158,3): warning C4996: 'itoa': The P
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(171,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(183,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(210,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(271,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Code\ARP_CG\SabreCG3_1\SabreCG\Model.cpp(282,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
   OperLeg.cpp
 C:\Code\ARP_CG\SabreCG3_1\SabreCG\util.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   (compiling source file 'OperLeg.cpp')
@@ -141,7 +141,7 @@ C:\Code\ARP_CG\SabreCG3_1\SabreCG\Util.h(1,1): warning C4819: The file contains 
   
   Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 1612 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 1607 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
 concert.lib(iloextractable.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloextractable.obj)' or at ''; linking object as if no debug info
 concert.lib(iloenv.obj) : warning LNK4099: PDB '' was not found with 'concert.lib(iloenv.obj)' or at ''; linking object as if no debug info

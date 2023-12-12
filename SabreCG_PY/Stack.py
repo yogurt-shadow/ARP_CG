@@ -26,5 +26,5 @@ class Stack(object):
     
     def print(self):
         print("Stack: ")
-        for ele in self.stack:
+        for ele in list(reversed(self.stack)):
             ele.print()

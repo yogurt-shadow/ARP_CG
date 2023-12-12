@@ -14,8 +14,6 @@ int Aircraft::_count = 0;
 
 void Aircraft::print()
 {
-	//* time_t startT = _startT - TIMEDIFF;
-	//* time_t endT = _endT - TIMEDIFF;
 	time_t startT = _startT;
 	time_t endT = _endT;
 	cout <<"Tail " << _tail <<  endl;
