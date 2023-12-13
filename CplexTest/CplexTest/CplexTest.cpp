@@ -35,9 +35,8 @@ ILOSTLBEGIN
 
 static void usage(const char* progname);
 
-int
-main(int argc, char** argv)
-{
+
+void process_cc() {
     IloEnv env;
     try {
         IloModel model(env);
@@ -84,6 +83,62 @@ main(int argc, char** argv)
     }
 
     env.end();
+}
+
+void process_pp() {
+    IloEnv env;
+    try {
+        IloModel model(env);
+        IloCplex cplex(env);
+
+        IloObjective   obj;
+        IloNumVarArray var(env);
+        IloRangeArray  rng(env);
+        cplex.importModel(model, "C:\\Code\\ARP_CG\\LP\\PY\\pp_0.lp", obj, var, rng);
+
+        cplex.extract(model);
+        if (!cplex.solve()) {
+            env.error() << "Failed to optimize LP" << endl;
+            throw(-1);
+        }
+
+        IloNumArray vals(env);
+        cplex.getValues(vals, var);
+        env.out() << "Solution status = " << cplex.getStatus() << endl;
+        env.out() << "Solution value  = " << cplex.getObjValue() << endl;
+        env.out() << "Solution vector = " << vals << endl;
+
+        try {     // basis may not exist
+            IloCplex::BasisStatusArray cstat(env);
+            cplex.getBasisStatuses(cstat, var);
+            env.out() << "Basis statuses  = " << cstat << endl;
+        }
+        catch (...) {
+        }
+
+        env.out() << "Maximum bound violation = "
+            << cplex.getQuality(IloCplex::MaxPrimalInfeas) << endl;
+
+        IloNumArray Dual(env);
+        cplex.getDuals(Dual, rng);
+        cout << Dual << endl;
+
+    }
+    catch (IloException& e) {
+        cerr << "Concert exception caught: " << e << endl;
+    }
+    catch (...) {
+        cerr << "Unknown exception caught" << endl;
+    }
+
+    env.end();
+}
+
+int
+main(int argc, char** argv)
+{
+    process_cc();
+    process_pp();
     return 0;
 }  // END main
 
