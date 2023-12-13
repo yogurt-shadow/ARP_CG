@@ -365,6 +365,8 @@ class Model:
             ele.print()
         print("done after 0")
 
+        return None
+
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
             self.addColumns(betterColumns)
@@ -474,7 +476,22 @@ class Model:
         print("Number of cover constraint is: " + str(len(self._coverRng)))
         print("Solution status: " + str(self._model.Status))
         print("Optimal value: " + str(self._model.ObjVal))
+        print("Duals:", self._model.getAttr('Pi', self._model.getConstrs()))
 
+        print("leg values")
+        leg_values = [v.x for v in self._legVar]
+        print(leg_values)
+        print("lof values")
+        lof_values = [v.x for v in self._lofVar]
+        print(lof_values)
+
+        for v in self._model.getVars():
+            print(v.varName, v.x)
+
+        print("duals")
+        dual = self._model.getAttr('Pi', self._coverRng)
+        print(dual)
+        
         # get leg dual
         legDual = self._model.getAttr('Pi', self._coverRng)
         # set leg dual

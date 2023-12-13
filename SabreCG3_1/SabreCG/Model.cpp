@@ -254,7 +254,7 @@ vector<Lof* > Model::solveColGen()
 		ele->print();
 	}
 	cout << "done after 0" << endl;
-	// return lofListSoln;
+	return lofListSoln;
 
 
 	while (!betterColumns.empty())
@@ -283,7 +283,7 @@ void Model::solve()
 	_count++;
 	string name = "cc_" + string(str) + ".lp";
 
-	// _solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
+	// _solver.setParam(IloCplex::RootAlg, IloCplex::Barrier);
 	// _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
 	if (fileExist(name)) {
 		remove(name.c_str());
@@ -300,7 +300,22 @@ void Model::solve()
 
 	cout << "Solution status: " << _solver.getStatus() << endl;
 	cout << "Optimal value: " << _solver.getObjValue() << endl;
-	
+
+	IloNumArray val1(_env), val2(_env);
+	_solver.getValues(_legVar, val1);
+	_solver.getValues(_lofVar, val2);
+	cout << "leg values: " << endl;
+	cout << val1 << endl;
+	cout << "lof values: " << endl;
+	cout << val2 << endl;
+
+	// cout << "duals" << endl;
+	// IloNumArray Duals(_env);
+	// _solver.getDuals(Duals, _solver.getConstraints());
+	// cout << Duals << endl;
+
+
+
 	//* get leg dual
 	IloNumArray legDual(_env);
 	_solver.getDuals(legDual, _coverRng);

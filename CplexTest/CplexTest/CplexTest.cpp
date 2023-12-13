@@ -1,61 +1,106 @@
-﻿//给大家一个测试代码
+﻿// -------------------------------------------------------------- -*- C++ -*-
+// File: ilolpex2.cpp
+// Version 12.8.0  
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+// Copyright IBM Corporation 2000, 2017. All Rights Reserved.
+//
+// US Government Users Restricted Rights - Use, duplication or
+// disclosure restricted by GSA ADP Schedule Contract with
+// IBM Corp.
+// --------------------------------------------------------------------------
+//
+// ilolpex2.cpp - Reading in and optimizing a problem
+//
+// To run this example, command line arguments are required.
+// i.e.,   ilolpex2   filename   method
+// where 
+//     filename is the name of the file, with .mps, .lp, or .sav extension
+//     method   is the optimization method
+//                 o          default
+//                 p          primal simplex
+//                 d          dual   simplex
+//                 h          barrier with crossover
+//                 b          barrier without crossover
+//                 n          network with dual simplex cleanup
+//                 s          sifting
+//                 c          concurrent
+// Example:
+//     ilolpex2  example.mps  o
+//
 
 #include <ilcplex/ilocplex.h>
-#include <iostream>
-#include <string>
+ILOSTLBEGIN
 
-using namespace std;
+static void usage(const char* progname);
 
-
-int main() {
-
-    IloEnv _env;
-
+int
+main(int argc, char** argv)
+{
+    IloEnv env;
     try {
-        IloModel _model;
-        IloCplex _solver;
-        IloObjective _obj;
-        IloNumVarArray _Var;
-        IloRangeArray _Rng;
+        IloModel model(env);
+        IloCplex cplex(env);
 
-        _model = IloModel(_env, "Minimize");
-        _obj = IloMinimize(_env);
-        _Var = IloNumVarArray(_env);
-        _Rng = IloRangeArray(_env);
-        _solver = IloCplex(_model);
+        IloObjective   obj;
+        IloNumVarArray var(env);
+        IloRangeArray  rng(env);
+        cplex.importModel(model, "C:\\Code\\ARP_CG\\LP\\CPP\\cc_0.lp", obj, var, rng);
 
-        _obj = IloAdd(_model, IloMinimize(_env));
-        for (int i = 0; i < 5; i++) {
-            string cons_name = "cover_lg_" + to_string(i);
-            cout << "here " << i << endl;
-            _Rng.add(IloRange(_env, 1, 1, cons_name.c_str()));
+        cplex.extract(model);
+        if (!cplex.solve()) {
+            env.error() << "Failed to optimize LP" << endl;
+            throw(-1);
         }
-        _model.add(_Rng);
 
-        int rr[] = {1, 4, 0, 3, 2};
+        IloNumArray vals(env);
+        cplex.getValues(vals, var);
+        env.out() << "Solution status = " << cplex.getStatus() << endl;
+        env.out() << "Solution value  = " << cplex.getObjValue() << endl;
+        env.out() << "Solution vector = " << vals << endl;
 
-        for (int i = 0; i < 5; i++) {
-            string varName = "y_" + to_string(i);
-            _Var.add(IloNumVar(_obj(100) + _Rng[rr[i]](1), 0, 1, ILOFLOAT, varName.c_str()));
+        try {     // basis may not exist
+            IloCplex::BasisStatusArray cstat(env);
+            cplex.getBasisStatuses(cstat, var);
+            env.out() << "Basis statuses  = " << cstat << endl;
         }
-        _solver.solve();
-        _solver.exportModel("recovery.lp");
+        catch (...) {
+        }
+
+        env.out() << "Maximum bound violation = "
+            << cplex.getQuality(IloCplex::MaxPrimalInfeas) << endl;
+
+        IloNumArray Dual(env);
+        cplex.getDuals(Dual, rng);
+        cout << Dual << endl;
+
     }
     catch (IloException& e) {
-
-        std::cerr << "Concert exception caught: " << e << std::endl;
-
+        cerr << "Concert exception caught: " << e << endl;
     }
     catch (...) {
-
-        std::cerr << "Unknown exception caught" << std::endl;
-
+        cerr << "Unknown exception caught" << endl;
     }
 
-
-
-    _env.end();
-
+    env.end();
     return 0;
+}  // END main
 
-}
+
+static void usage(const char* progname)
+{
+    cerr << "Usage: " << progname << " filename algorithm" << endl;
+    cerr << "   where filename is a file with extension " << endl;
+    cerr << "      MPS, SAV, or LP (lower case is allowed)" << endl;
+    cerr << "   and algorithm is one of the letters" << endl;
+    cerr << "      o          default" << endl;
+    cerr << "      p          primal simplex" << endl;
+    cerr << "      d          dual simplex  " << endl;
+    cerr << "      b          barrier       " << endl;
+    cerr << "      h          barrier with crossover" << endl;
+    cerr << "      n          network simplex" << endl;
+    cerr << "      s          sifting" << endl;
+    cerr << "      c          concurrent" << endl;
+    cerr << " Exiting..." << endl;
+} // END usage
