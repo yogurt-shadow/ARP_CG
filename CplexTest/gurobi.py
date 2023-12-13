@@ -20,16 +20,18 @@ if __name__ == "__main__":
     model1.setParam("OutputFlag", 0)
     model1.optimize()
     print(model1.ObjVal)
-    duals1 = model1.getAttr(GRB.Attr.Pi, model1.getConstrs())
-    print(duals1)
+    model1.write("../LP/PY/pp_%d.mps" % int(sys.argv[1]))
+    for cons in model1.getConstrs():
+        print("%s: %d" % (cons.ConstrName, cons.Pi))
 
     model2 = gp.read("../LP/CPP/cc_%d.lp" % int(sys.argv[1]))
     model2.setParam(GRB.Param.Threads, 1)
     model2.setParam("OutputFlag", 0)
     model2.optimize()
     print(model2.ObjVal)
-    duals2 = model2.getAttr('Pi', model2.getConstrs())
-    print(duals2)
+    model2.write("../LP/CPP/cc_%d.mps" % int(sys.argv[1]))
+    for cons in model2.getConstrs():
+        print("%s: %d" % (cons.ConstrName, cons.Pi))
 
 
 # if model.Status == GRB.INF_OR_UNBD:
