@@ -827,37 +827,37 @@ int main( int argc, char * argv[] )
 	vector<Lof *> lofListSoln;
 	lofListSoln = model->solveColGen();
 
-	// vector<Leg *> finaLegList;
-	// finaLegList = updaInfo(lofListSoln,legList);
+	vector<Leg *> finaLegList;
+	finaLegList = updaInfo(lofListSoln,legList);
 
-	// cout << "Total number of connection of leg network: " << schedule->getConnectionSize() << endl;
+	cout << "Total number of connection of leg network: " << schedule->getConnectionSize() << endl;
 
-	// clock_t endTime = clock();
-	// cout << "total run time is " << (endTime - startTime)/CLK_TCK << " seconds" << endl;
+	clock_t endTime = clock();
+	cout << "total run time is " << (endTime - startTime)/CLK_TCK << " seconds" << endl;
 
-	// if (exportSolution(output_path, finaLegList)) {
-	// 	std::cout << "Solution is printed." << std::endl;
-	// 	cout << "output path: " << output_path << endl;
-	// }
-	// else {
-	// 	std::cout << "Solution not printed" << endl;
-	// 	cout << "output path: " << output_path << endl;
-	// }
+	if (exportSolution(output_path, finaLegList)) {
+		std::cout << "Solution is printed." << std::endl;
+		cout << "output path: " << output_path << endl;
+	}
+	else {
+		std::cout << "Solution not printed" << endl;
+		cout << "output path: " << output_path << endl;
+	}
 	
 	
-	// cout << endl;
-	// cout << "Canceled flights are" << endl;
-	// for (int i = 0; i < finaLegList.size(); i++)
-	// {
-	// 	if (!finaLegList[i]->getAssigned())
-	// 	{
-	// 		// �����cancel, ��ʾ������Ϣ����dual
-	// 		finaLegList[i]->print();
-	// 		cout << "dual is " << finaLegList[i]->getDual() << endl;
-	// 	}
-	// }
+	cout << endl;
+	cout << "Canceled flights are" << endl;
+	for (int i = 0; i < finaLegList.size(); i++)
+	{
+		if (!finaLegList[i]->getAssigned())
+		{
+			// �����cancel, ��ʾ������Ϣ����dual
+			finaLegList[i]->print();
+			cout << "dual is " << finaLegList[i]->getDual() << endl;
+		}
+	}
 
-	// system("pause");
-	// return 0;
+	system("pause");
+	return 0;
 
 } 

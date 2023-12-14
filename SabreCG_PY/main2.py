@@ -329,18 +329,18 @@ if __name__ == "__main__":
 
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
     lofListSoln = model.solveColGen()
-    # finaLegList = updaInfo(lofListSoln, legList)
-    # print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
-    # endTime = time.time()
-    # print("total run time is " + str(endTime - startTime) + " seconds")
+    finaLegList = updaInfo(lofListSoln, legList)
+    print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
+    endTime = time.time()
+    print("total run time is " + str(endTime - startTime) + " seconds")
 
-    # if exportSolution(output_path, finaLegList, nmap):
-    #     print("Solution is printed.")
-    # print()
-    # print("Canceled flights are")
-    # for _fina in finaLegList:
-    #     if not _fina.getAssigned():
-    #         _fina.print()
-    #         print("dual is " + str(_fina.getDual()))
-    # print("program finish")
+    if exportSolution(output_path, finaLegList, nmap):
+        print("Solution is printed.")
+    print()
+    print("Canceled flights are")
+    for _fina in finaLegList:
+        if not _fina.getAssigned():
+            _fina.print()
+            print("dual is " + str(_fina.getDual()))
+    print("program finish")
         

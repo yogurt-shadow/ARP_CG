@@ -448,6 +448,7 @@ class Schedule:
         self._stationList, self._aircraftList, self._legList = stationList, aircraftList, legList
         self._maintList = [_leg for _leg in legList if _leg.isMaint()]
         self._flightList = [_leg for _leg in legList if not _leg.isMaint()]
+        self._connectionSize = 0
         print("****** Total Number of Airports is " + str(len(stationList)) + " ******")
         for _station in self._stationList:
             _station.print()
@@ -500,10 +501,10 @@ class Schedule:
                                 self._legList[j].pushPrevLeg(self._legList[i])
 
         # compute total number of connections
-        _connectionSize = 0
+        self._connectionSize = 0
         for i in range(len(self._legList)):
-            _connectionSize += len(self._legList[i].getNextLegList())
-        print("############## TOTAL CONNECTION " + str(_connectionSize) + " ###############")
+            self._connectionSize += len(self._legList[i].getNextLegList())
+        print("############## TOTAL CONNECTION " + str(self._connectionSize) + " ###############")
 
     def computeTopOrder(self) -> None:
         for _leg in self._legList:

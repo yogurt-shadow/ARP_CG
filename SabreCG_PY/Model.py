@@ -52,15 +52,6 @@ class Model:
                     self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
                 if thisLeg.isMaint() and nextLeg.isMaint():
                     self.exgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
-
-        print("print legs subnode here")
-        for _leg in self._legList:
-            for subnode in _leg.getSubNodeList():
-                while subnode != None:
-                    subnode.print()
-                    subnode = subnode.getParentSubNode()
-        print("print legs done")
-
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
             for _subNode in _arrLeg.getSubNodeList():
@@ -75,13 +66,7 @@ class Model:
                 _leg.resetLeg()
             return betterLof
         
-        print("show tmp list")
-        for ele in tmpSubNodeList:
-            print("%d %d %d" % (ele.getSubNodeCost(), ele.getLegId(), ele.getParentLegId()))
-        print("show tmp list done")
-        
-        # tmpSubNodeList = sorted(tmpSubNodeList, key = cmp_to_key(SubNode.cmpByCost))
-        # tmpSubNodeList = sorted(tmpSubNodeList, key = lambda x: x.getSubNodeCost())
+        tmpSubNodeList = sorted(tmpSubNodeList, key = cmp_to_key(SubNode.cmpByCost))
        
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
@@ -97,8 +82,6 @@ class Model:
                     while tempSubNode != None:
                         subNodeSelect.push(tempSubNode)
                         tempSubNode = tempSubNode.getParentSubNode()
-                    subNodeSelect.print()
-                    print("stack done")
                     tempLeg, tempOperLeg = None, None
                     newLof.setAircraft(aircraft)
                     while subNodeSelect.size() > 0:
@@ -120,7 +103,6 @@ class Model:
                         print("Error, subproblem reduced cost and minCost not match")
                         print("minCost is = " + str(subNode.getSubNodeCost()))
                         print("aircraft getDual = " + str(aircraft.getDual()))
-                        newLof.print()
                         print("******* dual of legs are: *******")
                         lofOperLegList = newLof.getLegList()
                         for i in newLof.getSize():
@@ -195,8 +177,6 @@ class Model:
     def findInitColumns(self):
         initColumns = []
         print("List size:", len(self._aircraftList))
-        for _aircraft in self._aircraftList:
-            _aircraft.print()
         for _aircraft in self._aircraftList:
             tempLof = self.findInitOneColumn(_aircraft)
             if tempLof != None:
@@ -347,25 +327,9 @@ class Model:
         print(" ********************* END LP SOLUTION 0 *********************")
         print()
         count = 1
-        print("print airs")
-        for _air in self._aircraftList:
-            _air.print()
-        
-        print("print legs subnode")
-        for _leg in self._legList:
-            for subnode in _leg.getSubNodeList():
-                while subnode != None:
-                    subnode.print()
-                    subnode = subnode.getParentSubNode()
-
         print("find new cols")
         betterColumns = self.findNewColumns()
-        print("print better after 0")
-        for ele in betterColumns:
-            ele.print()
-        print("done after 0")
 
-        return None
 
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
@@ -499,8 +463,8 @@ class Model:
             if i != self._legList[i].getId():
                 print("Error, leg index mismatch when get dual")
                 sys.exit(0)
-            print("setDual:", legDual[i])
-            self._legList[i].setDual(legDual[i])
+            # print("setDual:", legDual[i])
+            # self._legList[i].setDual(legDual[i])
         
         # get aircraft dual
         aircraftDual = self._model.getAttr('Pi', self._selectRng)
@@ -510,8 +474,8 @@ class Model:
             if i != self._aircraftList[i].getId():
                 print("Error, aircraft index mismatch when get dual")
                 sys.exit(0)
-            print("setDual:", aircraftDual[i])
-            self._aircraftList[i].setDual(aircraftDual[i])
+            # print("setDual:", aircraftDual[i])
+            # self._aircraftList[i].setDual(aircraftDual[i])
 
     def addColumns(self, _betterColumns: list[Lof]) -> None:
         for _col in _betterColumns:
@@ -547,8 +511,8 @@ class Model:
         print("Number of selection constraint is: " + str(len(self._selectRng)))
         print("Number of cover constraint is: " + str(len(self._coverRng)))
         print()
-        print("Solution status: " + str(self._model.Status))
-        print("Optimal value: " + str(self._model.ObjVal))
+        print("Final Solution status: " + str(self._model.Status))
+        print("Final Optimal value: " + str(self._model.ObjVal))
         lofVarSoln = [v.x for v in self._lofVar]
         lofListSoln = []
         if len(self._initColumns) > 0:
@@ -556,7 +520,6 @@ class Model:
                 _sln = lofVarSoln[i]
                 if _sln <= 1.0001 and _sln >= 0.9999:
                     lofListSoln.append(self._initColumns[i])
-                    self._initColumns[i].print()
         legVarSoln = [v.x for v in self._legVar]
         print()
         print(" ********************* END FINAL IP SOLUTION *********************")
