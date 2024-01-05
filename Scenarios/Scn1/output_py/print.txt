@@ -491,7 +491,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    5   2.28860001e+04  2.28859999e+04  1.27e-14 6.82e-13  9.92e-07     0s
    6   2.28860000e+04  2.28860000e+04  8.88e-15 1.82e-12  9.92e-10     0s
 
-Barrier solved model in 6 iterations and 0.02 seconds (0.00 work units)
+Barrier solved model in 6 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 2.28860000e+04
 
 Crossover log...
@@ -506,7 +506,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       32    2.2886000e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 32 iterations and 0.02 seconds (0.00 work units)
+Solved in 32 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  2.288600000e+04
 
 Number of leg variables is: 95
@@ -751,7 +751,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    8   1.42647779e+04  1.42647774e+04  2.87e-10 0.00e+00  1.25e-06     0s
    9   1.42647778e+04  1.42647778e+04  1.87e-12 9.09e-13  1.25e-09     0s
 
-Barrier solved model in 9 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 9 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 1.42647778e+04
 
 Crossover log...
@@ -767,7 +767,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       39    1.4264778e+04   0.000000e+00   0.000000e+00      0s
 
-Solved in 39 iterations and 0.00 seconds (0.00 work units)
+Solved in 39 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  1.426477778e+04
 
 Number of leg variables is: 95
@@ -881,7 +881,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   7.06800007e+03  7.06799995e+03  1.67e-13 9.09e-13  2.27e-07     0s
    7   7.06800000e+03  7.06800000e+03  7.77e-16 9.09e-13  2.27e-10     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 7.06800000e+03
 
 Crossover log...
@@ -896,7 +896,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       65    7.0680000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 65 iterations and 0.00 seconds (0.00 work units)
+Solved in 65 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  7.068000000e+03
 
 Number of leg variables is: 95
@@ -1025,7 +1025,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       78    7.0680000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 78 iterations and 0.00 seconds (0.00 work units)
+Solved in 78 iterations and 0.01 seconds (0.00 work units)
 Optimal objective  7.068000000e+03
 
 Number of leg variables is: 95
@@ -2241,7 +2241,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.37704231e+03  4.37697528e+03  3.59e-12 1.14e-12  4.79e-05     0s
    7   4.37700001e+03  4.37700000e+03  1.26e-11 9.09e-13  7.96e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.00 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.00 work units)
 Optimal objective 4.37700001e+03
 
 Crossover log...
@@ -2257,7 +2257,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       82    4.3770000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 82 iterations and 0.01 seconds (0.00 work units)
+Solved in 82 iterations and 0.00 seconds (0.00 work units)
 Optimal objective  4.377000000e+03
 
 Number of leg variables is: 95
@@ -2437,7 +2437,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.37000678e+03  4.36999759e+03  3.63e-12 9.09e-13  6.12e-06     0s
    8   4.37000000e+03  4.37000000e+03  5.08e-14 9.09e-13  8.39e-11     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.00 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.00 work units)
 Optimal objective 4.37000000e+03
 
 Crossover log...
@@ -2452,7 +2452,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       81    4.3700000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 81 iterations and 0.00 seconds (0.01 work units)
+Solved in 81 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.370000000e+03
 
 Number of leg variables is: 95
@@ -2762,7 +2762,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36409322e+03  4.36389417e+03  6.48e-13 1.08e-12  1.21e-04     0s
    7   4.36400000e+03  4.36400000e+03  1.33e-12 9.09e-13  4.19e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -2841,7 +2841,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       90    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 90 iterations and 0.00 seconds (0.01 work units)
+Solved in 90 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3022,7 +3022,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400002e+03  4.36399997e+03  2.34e-13 9.09e-13  2.90e-08     0s
    8   4.36400000e+03  4.36400000e+03  5.51e-13 2.27e-12  4.48e-14     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3038,7 +3038,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       81    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 81 iterations and 0.01 seconds (0.01 work units)
+Solved in 81 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3087,7 +3087,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36402616e+03  4.36399572e+03  8.40e-08 1.36e-12  1.74e-05     0s
    7   4.36400000e+03  4.36400000e+03  1.03e-12 1.14e-12  7.49e-11     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 7 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3103,7 +3103,7 @@ Extra simplex iterations after uncrush: 12
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       89    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 89 iterations and 0.00 seconds (0.01 work units)
+Solved in 89 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3233,7 +3233,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       85    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 85 iterations and 0.01 seconds (0.01 work units)
+Solved in 85 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3298,7 +3298,7 @@ Crossover log...
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       80    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 80 iterations and 0.01 seconds (0.01 work units)
+Solved in 80 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3363,7 +3363,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       88    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 88 iterations and 0.01 seconds (0.01 work units)
+Solved in 88 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3479,7 +3479,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36403147e+03  4.36399475e+03  4.90e-09 1.14e-12  2.00e-05     0s
    8   4.36400002e+03  4.36400000e+03  5.34e-11 1.19e-12  8.71e-09     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400002e+03
 
 Crossover log...
@@ -3495,7 +3495,7 @@ Extra simplex iterations after uncrush: 1
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       84    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 84 iterations and 0.01 seconds (0.01 work units)
+Solved in 84 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3561,7 +3561,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       81    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 81 iterations and 0.01 seconds (0.01 work units)
+Solved in 81 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3677,7 +3677,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400139e+03  4.36399978e+03  2.16e-11 9.09e-13  8.53e-07     0s
    8   4.36400000e+03  4.36400000e+03  2.59e-12 6.82e-13  5.55e-12     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3693,7 +3693,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       83    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 83 iterations and 0.00 seconds (0.01 work units)
+Solved in 83 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -3786,7 +3786,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 LP warm-start: discard basis
 Presolve removed 0 rows and 11 columns
-Presolve time: 0.00s
+Presolve time: 0.01s
 Presolved: 107 rows, 947 columns, 7166 nonzeros
 
 Ordering time: 0.00s
@@ -3809,7 +3809,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400004e+03  4.36399997e+03  7.27e-12 9.09e-13  3.67e-08     0s
    8   4.36400000e+03  4.36400000e+03  4.64e-12 9.09e-13  1.10e-13     0s
 
-Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3874,7 +3874,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36422655e+03  4.36393289e+03  1.79e-13 1.14e-12  1.53e-04     0s
    7   4.36400000e+03  4.36399999e+03  8.10e-12 7.96e-13  6.49e-09     0s
 
-Barrier solved model in 7 iterations and 0.00 seconds (0.01 work units)
+Barrier solved model in 7 iterations and 0.01 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -3956,7 +3956,7 @@ Extra simplex iterations after uncrush: 5
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       87    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 87 iterations and 0.00 seconds (0.01 work units)
+Solved in 87 iterations and 0.01 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4006,7 +4006,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400329e+03  4.36398524e+03  7.17e-10 1.82e-12  9.30e-06     0s
    8   4.36400000e+03  4.36400000e+03  7.72e-12 1.02e-12  6.75e-10     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4022,7 +4022,7 @@ Extra simplex iterations after uncrush: 2
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       84    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 84 iterations and 0.01 seconds (0.01 work units)
+Solved in 84 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4138,7 +4138,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400190e+03  4.36399996e+03  2.83e-09 1.02e-12  9.87e-07     0s
    8   4.36400000e+03  4.36400000e+03  2.03e-12 4.55e-13  6.24e-12     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4154,7 +4154,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       79    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 79 iterations and 0.01 seconds (0.01 work units)
+Solved in 79 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -4335,7 +4335,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    6   4.36439354e+03  4.36397837e+03  1.18e-07 6.82e-13  2.08e-04     0s
    7   4.36400001e+03  4.36399999e+03  4.78e-12 1.02e-12  8.03e-09     0s
 
-Barrier solved model in 7 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 7 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400001e+03
 
 Crossover log...
@@ -4467,7 +4467,7 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
    7   4.36400001e+03  4.36399999e+03  7.27e-12 1.02e-12  1.18e-08     0s
    8   4.36400000e+03  4.36400000e+03  5.90e-14 9.09e-13  2.74e-14     0s
 
-Barrier solved model in 8 iterations and 0.01 seconds (0.01 work units)
+Barrier solved model in 8 iterations and 0.00 seconds (0.01 work units)
 Optimal objective 4.36400000e+03
 
 Crossover log...
@@ -4483,7 +4483,7 @@ Extra simplex iterations after uncrush: 3
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
       88    4.3640000e+03   0.000000e+00   0.000000e+00      0s
 
-Solved in 88 iterations and 0.01 seconds (0.01 work units)
+Solved in 88 iterations and 0.00 seconds (0.01 work units)
 Optimal objective  4.364000000e+03
 
 Number of leg variables is: 95
@@ -6537,7 +6537,7 @@ ODp Wed Jul 25 05:30:00 2012
 OAr Wed Jul 25 07:43:00 2012
 
 Total number of connection of leg network: 1024
-total run time is 2.0340158939361572 seconds
+total run time is 1.9355685710906982 seconds
 remove previous output file
 
 Canceled flights are

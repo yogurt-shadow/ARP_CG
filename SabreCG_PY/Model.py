@@ -11,7 +11,7 @@ import os
 class Model:
     _count = 0
 
-    def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg], topOrderList: list[Leg]):
+    def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg], topOrderList: list[Leg], _header: str):
         self._stationList, self._aircraftList = stationList, aircraftList
         self._legList, self._topOrderList = legList, topOrderList
         self._tolerance = 0
@@ -22,6 +22,7 @@ class Model:
         self._tolerance = 0
         # initialize gurobi
         self._model = gp.Model()
+        self.header = _header
 
     def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
@@ -415,10 +416,8 @@ class Model:
             slt = self._model.addConstr(expr <= 1, name = consName)
             self._selectRng.append(slt)
 
-    header = "C:\\Code\\ARP_CG\\LP\\PY\\"
-
     def solve(self) -> None:
-        name = Model.header + "pp_" + str(Model._count) + ".lp"
+        name = self.header + "pp_" + str(Model._count) + ".lp"
         Model._count += 1
         """
         -1=automatic,
@@ -480,9 +479,9 @@ class Model:
         print(" ********************* FINAL IP SOLUTION *********************")
         for v in self._model.getVars():
             v.setAttr('VType', GRB.BINARY)
-        if os.path.exists(Model.header + "recovery_pp.lp"):
-            os.remove(Model.header + "recovery_pp.lp")
-        self._model.write(Model.header + "recovery_pp.lp")
+        if os.path.exists(self.header + "recovery_pp.lp"):
+            os.remove(self.header + "recovery_pp.lp")
+        self._model.write(self.header + "recovery_pp.lp")
         self._model.optimize()
         print()
         print("Number of leg variables is: " + str(len(self._legVar)))

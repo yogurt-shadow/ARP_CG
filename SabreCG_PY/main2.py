@@ -18,16 +18,18 @@ import time
 
 def processArguments(argc, argv):
     isCheck = False
-    input_dir, output_dir = "", ""
+    input_dir, output_dir, header = "", "", ""
     for i in range(1, argc):
         if i == 1:
             input_dir += (argv[i] + "\\")
         elif i == 2:
             output_dir += (argv[i] + "\\")
             isCheck = True
+        elif i == 3:
+            header += (argv[i] + "\\")
     print("input_dir is %s" % input_dir)
     print("output_dir is %s" % output_dir)
-    return isCheck, input_dir, output_dir
+    return isCheck, input_dir, output_dir, header
 
 def readConfigurationList() -> (str, str):
     configFile = "./Config.txt"
@@ -168,7 +170,7 @@ def exportSolution(output_path: str, _LegList: list[Leg], nmap: dict[str, str]) 
 
 if __name__ == "__main__":
     print("program start...")
-    succeed, input_path, output_path = processArguments(len(sys.argv), sys.argv)
+    succeed, input_path, output_path, header = processArguments(len(sys.argv), sys.argv)
     if not succeed:
         print("read config")
         input_path, output_path = readConfigurationList()
@@ -323,11 +325,7 @@ if __name__ == "__main__":
     schedule = Schedule(stationList, aircraftList, legList)
     schedule.computeTopOrder()
 
-
-    # for i in aircraftList[5].getArrStation().getArrLegList():
-    #     print(len(i.getSubNodeList()))
-
-    model = Model(stationList, aircraftList, legList, schedule.getTopOrderList())
+    model = Model(stationList, aircraftList, legList, schedule.getTopOrderList(), header)
     lofListSoln = model.solveColGen()
     finaLegList = updaInfo(lofListSoln, legList)
     print("Total number of connection of leg network: " + str(schedule.getConnectionSize()))
