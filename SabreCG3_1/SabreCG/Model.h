@@ -35,7 +35,7 @@ private:
 
 	static int _count;						// column generation�ĵ�������
 	
-	static string header;
+
 	vector<Leg *> _legList;                 // flight + maint
 	vector<Aircraft *> _aircraftList;		// aircraft
 	vector<Station *> _stationList;			// airport
@@ -44,7 +44,6 @@ private:
 
 	vector<Leg *> _topOrderList;			//* leg topological order
 
-	bool fileExist(string fileName);
 	//Leg _dummySource;						//* dummy source node connecting starting nodes // ʹ��findNewOneColumn��debug�ȽϷ���
 public:
 	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
@@ -53,16 +52,16 @@ public:
 
 	Lof* findNewOneColumn(Aircraft* aircraft);
 	void edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessFltMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessFltMaintSubNode(SubNode* thisLeg, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessFltMaint(SubNode* thisLeg, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessMaintFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessMaintFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft);
-	void edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
+	void edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft);
 
 	void edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft);
 	void edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft);
@@ -77,7 +76,6 @@ public:
 	void solve();
 	void addColumns(vector<Lof* > _betterColumns);	//*
 	vector<Lof* > solveIP();
-	void print();
 };
 
 #endif

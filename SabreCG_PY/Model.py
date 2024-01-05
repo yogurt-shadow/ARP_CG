@@ -7,7 +7,6 @@ import gurobipy as gp
 from gurobipy import GRB
 import time
 import os
-from functools import cmp_to_key
 
 class Model:
     _count = 0
@@ -26,24 +25,30 @@ class Model:
 
     def findNewColumns(self) -> list[Lof]:
         betterLof, tempLof = [], []
+        i = 0
         for _aircraft in self._aircraftList:
-            tempLof = self.findNewMultiColumns(_aircraft)
+            tempLof = self.findNewMultiColumns(_aircraft, i)
             if len(tempLof) > 0:
                 betterLof.extend(tempLof)
+            i += 1
         print("Number of Better Lofs is " + str(len(betterLof)))
         print()
         return betterLof
     
-    def findNewMultiColumns(self, aircraft: Aircraft) -> list[Lof]:
+    def findNewMultiColumns(self, aircraft: Aircraft, i) -> list[Lof]:
         betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
         for _depLeg in depLegList:
-            self.edgeProcessFlt(_depLeg, aircraft)
+            self.edgeProcessFlt(_depLeg, aircraft, i)
         depMaintList = aircraft.getDepStation().getMainList()
         for _depMaint in depMaintList:
             self.edgeProcessMaint(_depMaint, aircraft)
         # check each node in topological order, to do relax operation
+        index = 0
+        time1 = time.time()
         for thisLeg in self._topOrderList:
+            index += 1
             for nextLeg in thisLeg.getNextLegList():
+                caset1 = time.time()
                 if not thisLeg.isMaint() and not nextLeg.isMaint():
                     self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
                 if not thisLeg.isMaint() and nextLeg.isMaint():
@@ -52,6 +57,8 @@ class Model:
                     self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
                 if thisLeg.isMaint() and nextLeg.isMaint():
                     self.exgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
+                caset2 = time.time()
+        time2 = time.time()
         tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
         for _arrLeg in arrLegList:
             for _subNode in _arrLeg.getSubNodeList():
@@ -65,9 +72,7 @@ class Model:
             for _leg in self._legList:
                 _leg.resetLeg()
             return betterLof
-        
-        tmpSubNodeList = sorted(tmpSubNodeList, key = cmp_to_key(SubNode.cmpByCost))
-       
+        tmpSubNodeList.sort(key = lambda x: x.CostKey())
         if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
             for _leg in self._legList:
                 _leg.resetLeg()
@@ -112,6 +117,7 @@ class Model:
                     tmp_count += 1
             else:
                 break
+        time3 = time.time()
         for _leg in self._legList:
             _leg.resetLeg()
         return betterLof
@@ -205,7 +211,7 @@ class Model:
                     print("Error, initial relaxation must happen")
                     sys.exit(0)
 
-    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft) -> None:
+    def edgeProcessFlt(self, nextLeg: Leg, aircraft: Aircraft, i) -> None:
         if nextLeg.isMaint():
             print("Error, input of edgeProcessFlt must be flight.")
             sys.exit(0)
@@ -232,7 +238,6 @@ class Model:
     def edgeProcessFltFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft) -> None:
         subNodeList = thisLeg.getSubNodeList()
         for _subNode in subNodeList:
-            # print("leg id:", thisLeg.getId())
             self.edgeProcessFltFltSubNode(_subNode, nextLeg, aircraft)
 
     # helper function
@@ -327,10 +332,7 @@ class Model:
         print(" ********************* END LP SOLUTION 0 *********************")
         print()
         count = 1
-        print("find new cols")
         betterColumns = self.findNewColumns()
-
-
         while len(betterColumns) > 0:
             print(" ********************* LP SOLUTION " + str(count) + " *********************")
             self.addColumns(betterColumns)
@@ -427,7 +429,7 @@ class Model:
         4=deterministic concurrent, and
         5=deterministic concurrent simplex (deprecated; see ConcurrentMethod).
         """
-        # self._model.setParam(GRB.param.Method, 2)
+        self._model.setParam(GRB.param.Method, 2)
         # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
         if os.path.exists(name):
             os.remove(name)
@@ -440,22 +442,7 @@ class Model:
         print("Number of cover constraint is: " + str(len(self._coverRng)))
         print("Solution status: " + str(self._model.Status))
         print("Optimal value: " + str(self._model.ObjVal))
-        print("Duals:", self._model.getAttr('Pi', self._model.getConstrs()))
 
-        print("leg values")
-        leg_values = [v.x for v in self._legVar]
-        print(leg_values)
-        print("lof values")
-        lof_values = [v.x for v in self._lofVar]
-        print(lof_values)
-
-        for v in self._model.getVars():
-            print(v.varName, v.x)
-
-        print("duals")
-        dual = self._model.getAttr('Pi', self._coverRng)
-        print(dual)
-        
         # get leg dual
         legDual = self._model.getAttr('Pi', self._coverRng)
         # set leg dual
@@ -463,19 +450,16 @@ class Model:
             if i != self._legList[i].getId():
                 print("Error, leg index mismatch when get dual")
                 sys.exit(0)
-            # print("setDual:", legDual[i])
-            # self._legList[i].setDual(legDual[i])
+            self._legList[i].setDual(legDual[i])
         
         # get aircraft dual
         aircraftDual = self._model.getAttr('Pi', self._selectRng)
-        print("size: " + str(len(self._aircraftList)))
         # set aircraft dual
         for i in range(len(self._aircraftList)):
             if i != self._aircraftList[i].getId():
                 print("Error, aircraft index mismatch when get dual")
                 sys.exit(0)
-            # print("setDual:", aircraftDual[i])
-            # self._aircraftList[i].setDual(aircraftDual[i])
+            self._aircraftList[i].setDual(aircraftDual[i])
 
     def addColumns(self, _betterColumns: list[Lof]) -> None:
         for _col in _betterColumns:
@@ -491,11 +475,6 @@ class Model:
             varName = "x_" + str(_col.getId())
             v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
             self._lofVar.append(v)
-            self._model.update()
-            print("add column: " + varName)
-            for cons in constrs:
-                print("add to constraint: " + cons.getAttr('ConstrName'))
-
 
     def solveIP(self) -> list[Lof]:
         print(" ********************* FINAL IP SOLUTION *********************")
@@ -520,6 +499,7 @@ class Model:
                 _sln = lofVarSoln[i]
                 if _sln <= 1.0001 and _sln >= 0.9999:
                     lofListSoln.append(self._initColumns[i])
+                    self._initColumns[i].print()
         legVarSoln = [v.x for v in self._legVar]
         print()
         print(" ********************* END FINAL IP SOLUTION *********************")

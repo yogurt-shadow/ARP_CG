@@ -1,0 +1,2453 @@
+input_dir is E:\Sabre\Scenarios\Scn1\input\
+output_dir is E:\Sabre\Scenarios\Scn1\output\
+********************* Number of Aircraft Departured *********************
+number of aircraft departured from station MIL is 1
+number of aircraft departured from station XEM is 4
+number of aircraft departured from station NUC is 3
+number of aircraft departured from station KFJ is 0
+number of aircraft departured from station JIT is 1
+number of aircraft departured from station XAL is 1
+number of aircraft departured from station YTM is 0
+number of aircraft departured from station LUY is 1
+number of aircraft departured from station SCC is 1
+number of aircraft departured from station GOB is 0
+number of aircraft departured from station OCM is 0
+number of aircraft departured from station VAH is 0
+number of aircraft departured from station DIM is 0
+number of aircraft departured from station RVP is 0
+number of aircraft departured from station ASV is 0
+number of aircraft departured from station LDG is 0
+number of aircraft departured from station OJS is 0
+number of aircraft departured from station DJS is 0
+number of aircraft departured from station OMH is 0
+number of aircraft departured from station SAL is 0
+number of aircraft departured from station LUC is 0
+number of aircraft departured from station UUC is 0
+number of aircraft departured from station TZM is 0
+number of aircraft departured from station AIM is 0
+number of aircraft departured from station URG is 0
+********************* END PRINTING *********************
+Ready to go!
+****** Total Number of Airports is 25 ******
+Station MIL Id 0
+Station XEM Id 1
+Bgn Close Tue Jul 24 02:00:00 2012
+End Close Tue Jul 24 04:00:00 2012
+Station NUC Id 2
+Station KFJ Id 3
+Station JIT Id 4
+Station XAL Id 5
+Station YTM Id 6
+Station LUY Id 7
+Station SCC Id 8
+Station GOB Id 9
+Station OCM Id 10
+Station VAH Id 11
+Station DIM Id 12
+Station RVP Id 13
+Station ASV Id 14
+Station LDG Id 15
+Station OJS Id 16
+Station DJS Id 17
+Station OMH Id 18
+Station SAL Id 19
+Station LUC Id 20
+Station UUC Id 21
+Station TZM Id 22
+Station AIM Id 23
+Station URG Id 24
+****** Total Number of Aircraft is 12 ******
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+******* Total Number of Maints is 0 *******
+******* Total Number of Flights is 95 ******* 
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+############## TOTAL CONNECTION 1024 ###############
+Number of Initial Lofs is 8
+
+###### initial Lofs have been generated ######
+ ********************* LP SOLUTION 0 *********************
+Tried aggregator 1 time.
+LP Presolve eliminated 107 rows and 103 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.03 ticks)
+Barrier time = 0.00 sec. (0.04 ticks)
+
+Total time on 8 threads = 0.00 sec. (0.04 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 8
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 24000
+ ********************* END LP SOLUTION 0 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 1 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 51 rows and 52 columns.
+Reduced LP has 56 rows, 74 columns, and 335 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Symmetry aggregator did 40 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.02 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 191
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.01 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 36
+  Integer space required    = 73
+  Total non-zeros in factor = 332
+  Total FP ops to factor    = 4050
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  5.9680000e+004  1.7913600e+004 2.90e+002 5.20e+001 8.06e+003 1.00e+000
+   1  4.4091182e+004  1.8237903e+004 1.80e+002 3.24e+001 3.29e+003 3.38e-002
+   2  4.1861627e+004  1.8551277e+004 1.58e+002 2.84e+001 3.16e+003 3.86e-002
+   3  4.2662353e+004  1.8435301e+004 1.66e+002 2.97e+001 3.22e+003 3.62e-002
+   4  3.7020388e+004  1.6167205e+004 1.32e+002 2.37e+001 1.05e+003 1.18e-002
+   5  2.6530494e+004  1.8057425e+004 5.68e+001 1.02e+001 2.64e+002 1.18e-002
+   6  2.3877139e+004  1.8162882e+004 7.46e+000 1.34e+000 2.59e+002 1.25e-002
+   7  2.3432285e+004  2.2589601e+004 9.82e-001 1.76e-001 3.85e+001 8.40e-002
+   8  2.3236625e+004  2.3213639e+004 8.32e-002 1.49e-002 2.98e-001 1.28e+001
+   9  2.3218003e+004  2.3217998e+004 1.92e-005 3.44e-006 2.98e-005 3.48e+004
+  10  2.3218000e+004  2.3218000e+004 4.54e-009 8.14e-010 3.05e-009 1.63e+008
+Barrier time = 0.11 sec. (0.31 ticks)
+
+Total time on 8 threads = 0.11 sec. (0.42 ticks)
+Barrier time = 0.11 sec. (0.43 ticks)
+
+Total time on 8 threads = 0.11 sec. (0.43 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 31
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 23218
+ ********************* END LP SOLUTION 1 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 2 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 25 rows and 26 columns.
+Reduced LP has 82 rows, 122 columns, and 590 nonzeros.
+Presolve time = 0.00 sec. (0.10 ticks)
+Symmetry aggregator did 52 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.03 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 473
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.03 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 56
+  Integer space required    = 155
+  Total non-zeros in factor = 882
+  Total FP ops to factor    = 16820
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  8.4108000e+004  1.1568000e+004 5.19e+002 9.40e+001 8.04e+003 1.00e+000
+   1  5.0951526e+004  1.0523061e+004 2.88e+002 5.21e+001 3.41e+003 3.32e-002
+   2  4.7303123e+004  1.1136876e+004 2.54e+002 4.61e+001 3.18e+003 3.89e-002
+   3  3.8310880e+004  1.1199672e+004 1.81e+002 3.27e+001 3.14e+003 3.84e-002
+   4  3.1881793e+004  1.0573388e+004 1.42e+002 2.57e+001 2.41e+003 2.92e-002
+   5  2.5956161e+004  1.2780842e+004 9.20e+001 1.67e+001 1.21e+003 2.92e-002
+   6  2.0130744e+004  1.6438894e+004 3.09e+001 5.59e+000 2.08e+002 1.05e-001
+   7  1.7932076e+004  1.7236049e+004 4.09e+000 7.41e-001 6.47e+001 2.90e-001
+   8  1.7617687e+004  1.7613226e+004 6.79e-003 1.23e-003 6.68e-001 2.85e+001
+   9  1.7616001e+004  1.7616000e+004 2.55e-006 4.61e-007 8.90e-005 2.38e+005
+  10  1.7616000e+004  1.7616000e+004 6.34e-010 1.15e-010 9.58e-009 1.51e+009
+Barrier time = 0.00 sec. (0.55 ticks)
+
+Total time on 8 threads = 0.00 sec. (0.71 ticks)
+Barrier time = 0.00 sec. (0.73 ticks)
+
+Total time on 8 threads = 0.00 sec. (0.73 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 53
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 17616
+ ********************* END LP SOLUTION 2 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 3 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 19 rows and 20 columns.
+Reduced LP has 88 rows, 150 columns, and 792 nonzeros.
+Presolve time = 0.00 sec. (0.12 ticks)
+Symmetry aggregator did 52 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.04 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 637
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.04 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 62
+  Integer space required    = 169
+  Total non-zeros in factor = 1281
+  Total FP ops to factor    = 32999
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  9.8261000e+004  7.5650000e+003 7.15e+002 1.22e+002 8.04e+003 1.00e+000
+   1  6.1462849e+004  5.8048153e+003 4.35e+002 7.42e+001 3.60e+003 4.84e-002
+   2  4.7026566e+004  4.2844629e+003 3.30e+002 5.62e+001 2.20e+003 2.92e-002
+   3  3.0099785e+004  4.3296042e+003 1.91e+002 3.26e+001 2.16e+003 2.76e-002
+   4  2.4192667e+004  6.9068152e+003 1.37e+002 2.33e+001 1.05e+003 3.03e-002
+   5  1.3791855e+004  9.7999394e+003 2.74e+001 4.67e+000 3.40e+002 7.02e-002
+   6  1.2058901e+004  1.1435414e+004 3.83e+000 6.54e-001 5.87e+001 3.88e-001
+   7  1.1775793e+004  1.1772047e+004 4.04e-002 6.88e-003 1.28e-001 1.83e+002
+   8  1.1773000e+004  1.1773000e+004 5.85e-006 9.98e-007 1.54e-005 4.57e+005
+   9  1.1773000e+004  1.1773000e+004 6.86e-010 1.20e-010 2.22e-009 3.38e+009
+Barrier time = 0.09 sec. (0.64 ticks)
+
+Total time on 8 threads = 0.09 sec. (0.84 ticks)
+Barrier time = 0.09 sec. (0.86 ticks)
+
+Total time on 8 threads = 0.09 sec. (0.86 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 75
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 11773
+ ********************* END LP SOLUTION 3 *********************
+
+Number of Better Lofs is 24
+
+ ********************* LP SOLUTION 4 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 13 rows and 14 columns.
+Reduced LP has 94 rows, 180 columns, and 1001 nonzeros.
+Presolve time = 0.00 sec. (0.14 ticks)
+Symmetry aggregator did 54 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.05 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 746
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.06 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 67
+  Integer space required    = 221
+  Total non-zeros in factor = 1388
+  Total FP ops to factor    = 35034
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.1288500e+005  1.8450000e+003 9.19e+002 1.52e+002 4.80e+001 1.00e+000
+   1  4.8258327e+004  3.0892952e+001 3.94e+002 6.51e+001 3.61e+000 3.50e-002
+   2  3.4640063e+004  1.3060732e+003 2.77e+002 4.58e+001 1.70e+000 2.62e-002
+   3  1.6502126e+004  3.8951958e+003 9.88e+001 1.63e+001 8.48e-001 2.94e-002
+   4  1.3965144e+004  7.3448461e+003 5.74e+001 9.50e+000 4.01e-001 5.52e-002
+   5  1.2466304e+004  8.8349398e+003 2.88e+001 4.76e+000 2.36e-001 7.24e-002
+   6  1.2218385e+004  1.0520789e+004 2.27e+001 3.76e+000 7.41e-002 2.20e-001
+   7  1.1979097e+004  1.0955597e+004 1.02e+001 1.69e+000 4.86e-002 2.80e-001
+   8  1.1853600e+004  1.1383476e+004 3.61e+000 5.97e-001 2.35e-002 5.43e-001
+   9  1.1782528e+004  1.1725769e+004 3.88e-001 6.41e-002 2.91e-003 4.05e+000
+  10  1.1773578e+004  1.1766401e+004 5.72e-002 9.46e-003 3.54e-004 2.92e+001
+  11  1.1773000e+004  1.1772994e+004 2.30e-005 3.81e-006 3.03e-007 3.38e+004
+  12  1.1773000e+004  1.1773000e+004 2.30e-009 3.81e-010 1.11e-010 2.90e+008
+Barrier time = 0.02 sec. (0.96 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.20 ticks)
+Barrier time = 0.02 sec. (1.22 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.22 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 99
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 11773
+ ********************* END LP SOLUTION 4 *********************
+
+Number of Better Lofs is 23
+
+ ********************* LP SOLUTION 5 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 8 rows and 9 columns.
+Reduced LP has 99 rows, 208 columns, and 1241 nonzeros.
+Presolve time = 0.08 sec. (0.29 ticks)
+Symmetry aggregator did 56 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.06 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 850
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.06 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 71
+  Integer space required    = 206
+  Total non-zeros in factor = 1591
+  Total FP ops to factor    = 44991
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.3258100e+005  1.1298000e+003 1.15e+003 1.79e+002 3.84e+001 1.00e+000
+   1  5.7446421e+004 -2.4327166e+003 5.14e+002 7.97e+001 3.55e+000 2.92e-002
+   2  4.0302401e+004 -7.0306790e+002 3.60e+002 5.58e+001 1.29e+000 2.39e-002
+   3  1.5609560e+004  2.0918339e+003 1.06e+002 1.64e+001 6.89e-001 2.79e-002
+   4  1.3056689e+004  5.2467192e+003 6.00e+001 9.30e+000 4.05e-001 4.43e-002
+   5  1.2050483e+004  7.9051924e+003 3.74e+001 5.80e+000 1.95e-001 8.58e-002
+   6  1.1494199e+004  9.1758706e+003 2.36e+001 3.67e+000 1.01e-001 1.47e-001
+   7  1.1185889e+004  1.0147897e+004 1.31e+001 2.03e+000 4.08e-002 3.57e-001
+   8  1.0854007e+004  1.0522806e+004 3.36e+000 5.22e-001 1.49e-002 7.20e-001
+   9  1.0852197e+004  1.0836997e+004 1.25e+000 1.93e-001 6.43e-004 1.60e+001
+  10  1.0852059e+004  1.0850657e+004 4.67e-001 7.24e-002 5.68e-005 1.16e+002
+  11  1.0849891e+004  1.0849558e+004 9.88e-002 1.53e-002 9.91e-006 6.77e+001
+  12  1.0852868e+004  1.0852888e+004 6.88e-004 1.07e-004 4.30e-009 3.11e+005
+  13  1.0852889e+004  1.0852889e+004 1.28e-007 1.98e-008 1.03e-009 1.59e+008
+Barrier time = 0.02 sec. (0.99 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.39 ticks)
+Barrier time = 0.09 sec. (1.42 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.42 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 122
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 10852.9
+ ********************* END LP SOLUTION 5 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 6 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 5 columns.
+Reduced LP has 103 rows, 234 columns, and 1423 nonzeros.
+Presolve time = 0.00 sec. (0.34 ticks)
+Symmetry aggregator did 60 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.07 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 934
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.06 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 73
+  Integer space required    = 201
+  Total non-zeros in factor = 1905
+  Total FP ops to factor    = 65201
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5158900e+005  1.0480000e+003 1.33e+003 2.03e+002 3.84e+001 1.00e+000
+   1  6.2381837e+004 -8.9457606e+002 5.53e+002 8.43e+001 1.95e+000 5.34e-002
+   2  3.5725967e+004 -1.6345215e+003 3.26e+002 4.97e+001 1.06e+000 3.63e-002
+   3  1.7367125e+004  1.1158406e+002 1.47e+002 2.25e+001 5.86e-001 4.40e-002
+   4  8.7729346e+003  3.5063940e+003 4.45e+001 6.78e+000 1.84e-001 1.34e-001
+   5  7.5170551e+003  4.5149414e+003 2.81e+001 4.28e+000 8.41e-002 2.61e-001
+   6  6.5866212e+003  4.9478573e+003 1.51e+001 2.30e+000 4.73e-002 3.93e-001
+   7  6.1790433e+003  5.2388974e+003 9.19e+000 1.40e+000 2.43e-002 6.65e-001
+   8  5.8744829e+003  5.5057264e+003 4.67e+000 7.12e-001 4.13e-003 2.73e+000
+   9  5.6908668e+003  5.5687512e+003 1.40e+000 2.13e-001 1.69e-003 4.78e+000
+  10  5.6488847e+003  5.6064660e+003 5.94e-001 9.05e-002 3.94e-004 2.14e+001
+  11  5.6256043e+003  5.6242820e+003 1.27e-002 1.93e-003 1.73e-005 4.30e+002
+  12  5.6248744e+003  5.6248427e+003 4.40e-004 6.70e-005 1.67e-007 2.90e+004
+  13  5.6248519e+003  5.6248518e+003 7.22e-008 1.10e-008 6.03e-011 9.70e+007
+Barrier time = 0.09 sec. (1.10 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.57 ticks)
+Barrier time = 0.09 sec. (1.60 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.60 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 144
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5624.85
+ ********************* END LP SOLUTION 6 *********************
+
+Number of Better Lofs is 21
+
+ ********************* LP SOLUTION 7 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 5 columns.
+Reduced LP has 103 rows, 255 columns, and 1587 nonzeros.
+Presolve time = 0.00 sec. (0.38 ticks)
+Symmetry aggregator did 58 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.08 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1056
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.07 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 74
+  Integer space required    = 218
+  Total non-zeros in factor = 1883
+  Total FP ops to factor    = 63917
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5566100e+005  9.7760000e+002 1.50e+003 2.25e+002 3.84e+001 1.00e+000
+   1  6.9140055e+004 -5.6421038e+002 6.68e+002 1.00e+002 1.67e+000 6.70e-002
+   2  3.8623190e+004 -1.7785812e+003 3.86e+002 5.81e+001 8.87e-001 4.13e-002
+   3  2.6076264e+004 -2.1730311e+002 2.55e+002 3.83e+001 4.96e-001 4.59e-002
+   4  1.0052833e+004  3.0904795e+003 6.58e+001 9.90e+000 1.46e-001 1.21e-001
+   5  7.1669470e+003  4.3011889e+003 2.71e+001 4.08e+000 6.02e-002 2.60e-001
+   6  6.7560284e+003  4.8312017e+003 2.01e+001 3.03e+000 3.50e-002 3.82e-001
+   7  6.3221616e+003  5.2215593e+003 1.36e+001 2.05e+000 1.18e-002 8.97e-001
+   8  5.8166683e+003  5.4554807e+003 4.98e+000 7.49e-001 2.71e-003 3.10e+000
+   9  5.5734451e+003  5.5039844e+003 6.30e-001 9.48e-002 1.12e-003 6.16e+000
+  10  5.5480232e+003  5.5470282e+003 1.37e-002 2.06e-003 1.11e-005 6.47e+002
+  11  5.5474547e+003  5.5474545e+003 3.66e-006 5.50e-007 1.59e-009 3.74e+006
+  12  5.5474545e+003  5.5474545e+003 4.42e-010 6.54e-011 6.16e-011 2.28e+010
+Barrier time = 0.02 sec. (1.13 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.65 ticks)
+Barrier time = 0.02 sec. (1.68 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.68 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 165
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5547.45
+ ********************* END LP SOLUTION 7 *********************
+
+Number of Better Lofs is 22
+
+ ********************* LP SOLUTION 8 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 3 columns.
+Reduced LP has 105 rows, 279 columns, and 1742 nonzeros.
+Presolve time = 0.00 sec. (0.42 ticks)
+Symmetry aggregator did 60 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.08 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1130
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.07 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 75
+  Integer space required    = 225
+  Total non-zeros in factor = 2028
+  Total FP ops to factor    = 71872
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6376800e+005 -1.6121928e+005 1.65e+003 2.48e+002 7.82e+003 1.00e+000
+   1  3.2279222e+004 -2.0224810e+004 2.64e+002 3.97e+001 1.27e+003 4.50e-002
+   2  1.1755426e+004 -1.6573571e+003 6.43e+001 9.67e+000 3.42e+002 1.16e-001
+   3  7.5059235e+003  1.2685974e+003 2.24e+001 3.36e+000 1.97e+002 1.61e-001
+   4  6.4096118e+003  3.3559969e+003 1.06e+001 1.59e+000 9.80e+001 2.79e-001
+   5  5.7537676e+003  4.6367237e+003 3.61e+000 5.42e-001 3.71e+001 5.98e-001
+   6  5.4652502e+003  5.1050921e+003 8.69e-001 1.31e-001 1.35e+001 1.57e+000
+   7  5.3651390e+003  5.3159442e+003 9.28e-002 1.40e-002 2.03e+000 9.41e+000
+   8  5.3496396e+003  5.3494588e+003 2.29e-004 3.44e-005 8.58e-003 2.21e+003
+   9  5.3496000e+003  5.3496000e+003 2.86e-008 4.31e-009 1.10e-006 1.99e+007
+Barrier time = 0.11 sec. (0.99 ticks)
+
+Total time on 8 threads = 0.11 sec. (1.56 ticks)
+Barrier time = 0.11 sec. (1.59 ticks)
+
+Total time on 8 threads = 0.11 sec. (1.59 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 187
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5349.6
+ ********************* END LP SOLUTION 8 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 9 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 3 columns.
+Reduced LP has 105 rows, 299 columns, and 1925 nonzeros.
+Presolve time = 0.00 sec. (0.46 ticks)
+Symmetry aggregator did 60 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.09 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1181
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.08 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 75
+  Integer space required    = 231
+  Total non-zeros in factor = 2072
+  Total FP ops to factor    = 75124
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6903900e+005 -1.6646145e+005 1.83e+003 2.68e+002 7.47e+003 1.00e+000
+   1  3.2504605e+004 -2.0033310e+004 2.86e+002 4.19e+001 1.17e+003 5.24e-002
+   2  1.2266162e+004 -2.5096893e+003 7.53e+001 1.10e+001 3.53e+002 1.20e-001
+   3  7.6296858e+003  1.5055415e+003 2.68e+001 3.92e+000 1.66e+002 2.04e-001
+   4  6.3506748e+003  3.3528796e+003 1.20e+001 1.76e+000 8.56e+001 2.97e-001
+   5  5.6522662e+003  4.5715215e+003 4.31e+000 6.31e-001 3.09e+001 7.04e-001
+   6  5.4119853e+003  5.0435509e+003 1.96e+000 2.86e-001 8.15e+000 2.32e+000
+   7  5.2273462e+003  5.2048443e+003 1.61e-001 2.36e-002 2.90e-001 4.08e+001
+   8  5.2126303e+003  5.2126123e+003 1.70e-004 2.49e-005 9.29e-005 1.07e+005
+   9  5.2126154e+003  5.2126154e+003 2.70e-008 3.95e-009 9.61e-009 3.04e+008
+Barrier time = 0.02 sec. (1.05 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.67 ticks)
+Barrier time = 0.02 sec. (1.71 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.71 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 207
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5212.62
+ ********************* END LP SOLUTION 9 *********************
+
+Number of Better Lofs is 20
+
+ ********************* LP SOLUTION 10 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 3 columns.
+Reduced LP has 105 rows, 319 columns, and 2108 nonzeros.
+Presolve time = 0.00 sec. (0.26 ticks)
+Symmetry aggregator did 60 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.10 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1220
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.08 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 75
+  Integer space required    = 241
+  Total non-zeros in factor = 2091
+  Total FP ops to factor    = 76023
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.7295900e+005 -1.7035194e+005 2.02e+003 2.88e+002 7.12e+003 1.00e+000
+   1  2.4606213e+004 -1.9280285e+004 2.16e+002 3.09e+001 1.05e+003 6.19e-002
+   2  1.0694770e+004 -3.4216575e+003 6.13e+001 8.76e+000 3.69e+002 1.20e-001
+   3  7.0338651e+003  4.4862259e+002 2.15e+001 3.07e+000 2.00e+002 1.77e-001
+   4  6.0675748e+003  3.2395048e+003 9.41e+000 1.35e+000 8.55e+001 3.03e-001
+   5  5.7665109e+003  4.5772906e+003 6.31e+000 9.02e-001 2.58e+001 7.35e-001
+   6  5.2705358e+003  4.9127306e+003 1.43e+000 2.05e-001 9.98e+000 1.82e+000
+   7  5.1498458e+003  5.0995797e+003 1.96e-001 2.80e-002 1.43e+000 1.21e+001
+   8  5.1313419e+003  5.1243646e+003 8.81e-003 1.26e-003 2.82e-001 6.07e+001
+   9  5.1305342e+003  5.1297103e+003 8.44e-004 1.21e-004 3.42e-002 5.86e+002
+  10  5.1303535e+003  5.1301890e+003 2.07e-004 2.95e-005 6.20e-003 3.50e+003
+  11  5.1302859e+003  5.1302857e+003 7.24e-007 1.03e-007 8.21e-007 2.62e+007
+  12  5.1302857e+003  5.1302857e+003 1.16e-010 1.60e-011 1.43e-010 2.28e+010
+Barrier time = 0.11 sec. (1.40 ticks)
+
+Total time on 8 threads = 0.11 sec. (1.83 ticks)
+Barrier time = 0.11 sec. (1.87 ticks)
+
+Total time on 8 threads = 0.11 sec. (1.87 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 227
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5130.29
+ ********************* END LP SOLUTION 10 *********************
+
+Number of Better Lofs is 19
+
+ ********************* LP SOLUTION 11 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 3 columns.
+Reduced LP has 105 rows, 338 columns, and 2271 nonzeros.
+Presolve time = 0.00 sec. (0.27 ticks)
+Symmetry aggregator did 58 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.11 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1287
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.08 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 76
+  Integer space required    = 266
+  Total non-zeros in factor = 2229
+  Total FP ops to factor    = 85611
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.7660500e+005 -1.7397136e+005 2.18e+003 3.08e+002 6.80e+003 1.00e+000
+   1  1.9034393e+004 -1.9439699e+004 1.60e+002 2.26e+001 9.79e+002 7.35e-002
+   2  9.2034469e+003 -5.4297963e+003 4.58e+001 6.48e+000 4.24e+002 1.16e-001
+   3  6.4003978e+003  5.6868387e+002 1.68e+001 2.37e+000 1.75e+002 1.48e-001
+   4  5.5358163e+003  5.8731504e+002 9.22e+000 1.30e+000 1.74e+002 1.50e-001
+   5  4.7833271e+003  3.0896890e+003 1.70e+000 2.40e-001 6.59e+001 3.69e-001
+   6  4.5461540e+003  4.2602528e+003 3.31e-001 4.68e-002 1.08e+001 2.12e+000
+   7  4.4168303e+003  4.4138565e+003 5.24e-003 7.41e-004 6.20e-002 3.61e+002
+   8  4.4150002e+003  4.4149998e+003 7.09e-007 1.00e-007 9.05e-006 1.60e+006
+   9  4.4150000e+003  4.4150000e+003 6.38e-011 1.00e-011 1.32e-009 1.05e+010
+Barrier time = 0.02 sec. (1.18 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.65 ticks)
+Barrier time = 0.02 sec. (1.69 ticks)
+
+Total time on 8 threads = 0.02 sec. (1.69 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 246
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4415
+ ********************* END LP SOLUTION 11 *********************
+
+Number of Better Lofs is 18
+
+ ********************* LP SOLUTION 12 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 355 columns, and 2410 nonzeros.
+Presolve time = 0.00 sec. (0.30 ticks)
+Symmetry aggregator did 56 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.09 sec. (0.11 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1368
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.09 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 77
+  Integer space required    = 275
+  Total non-zeros in factor = 2326
+  Total FP ops to factor    = 91114
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.8199300e+005 -1.7989632e+005 2.32e+003 3.25e+002 6.62e+003 1.00e+000
+   1  1.9916532e+004 -2.1578956e+004 1.73e+002 2.43e+001 1.01e+003 8.41e-002
+   2  9.6981088e+003 -6.1177428e+003 5.35e+001 7.50e+000 4.24e+002 1.31e-001
+   3  7.0963270e+003 -4.1145352e+001 2.48e+001 3.48e+000 1.89e+002 1.50e-001
+   4  5.8093628e+003  3.3127477e+003 1.26e+001 1.76e+000 4.91e+001 3.94e-001
+   5  4.6349816e+003  4.1136552e+003 2.58e+000 3.62e-001 1.05e+001 1.30e+000
+   6  4.4173249e+003  4.4053743e+003 1.35e-002 1.89e-003 3.76e-001 3.61e+001
+   7  4.4150008e+003  4.4149992e+003 3.08e-006 4.31e-007 3.99e-005 4.50e+005
+   8  4.4150000e+003  4.4150000e+003 4.09e-010 5.57e-011 4.91e-009 3.31e+009
+Barrier time = 0.09 sec. (1.15 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.64 ticks)
+Barrier time = 0.09 sec. (1.69 ticks)
+
+Total time on 8 threads = 0.09 sec. (1.69 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 264
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4415
+ ********************* END LP SOLUTION 12 *********************
+
+Number of Better Lofs is 19
+
+ ********************* LP SOLUTION 13 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 374 columns, and 2571 nonzeros.
+Presolve time = 0.00 sec. (0.31 ticks)
+Symmetry aggregator did 50 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.12 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1458
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.09 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 80
+  Integer space required    = 268
+  Total non-zeros in factor = 2476
+  Total FP ops to factor    = 99416
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.8406200e+005 -1.8190763e+005 2.48e+003 3.47e+002 6.27e+003 1.00e+000
+   1  2.0209184e+004 -1.9847643e+004 1.88e+002 2.63e+001 8.86e+002 8.86e-002
+   2  9.7968579e+003 -5.4763630e+003 6.01e+001 8.42e+000 3.71e+002 1.43e-001
+   3  7.6745452e+003 -1.0027939e+003 3.24e+001 4.54e+000 2.16e+002 1.57e-001
+   4  5.7551969e+003  2.0834847e+003 1.27e+001 1.78e+000 9.50e+001 2.64e-001
+   5  4.7909804e+003  3.4366742e+003 2.90e+000 4.07e-001 4.20e+001 5.53e-001
+   6  4.5550700e+003  4.2126629e+003 7.34e-001 1.03e-001 1.06e+001 1.93e+000
+   7  4.4159027e+003  4.4130689e+003 4.38e-003 6.13e-004 1.05e-001 1.92e+002
+   8  4.4150002e+003  4.4149998e+003 6.58e-007 9.21e-008 1.43e-005 1.62e+006
+   9  4.4150000e+003  4.4150000e+003 9.06e-011 1.19e-011 1.95e-009 1.24e+010
+Barrier time = 0.00 sec. (1.32 ticks)
+
+Total time on 8 threads = 0.00 sec. (1.85 ticks)
+Barrier time = 0.00 sec. (1.90 ticks)
+
+Total time on 8 threads = 0.00 sec. (1.90 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 283
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4415
+ ********************* END LP SOLUTION 13 *********************
+
+Number of Better Lofs is 17
+
+ ********************* LP SOLUTION 14 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 391 columns, and 2730 nonzeros.
+Presolve time = 0.00 sec. (0.33 ticks)
+Symmetry aggregator did 50 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.13 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1474
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.09 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 80
+  Integer space required    = 269
+  Total non-zeros in factor = 2479
+  Total FP ops to factor    = 99641
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.8939400e+005 -1.8722020e+005 2.64e+003 3.64e+002 6.16e+003 1.00e+000
+   1  2.0086840e+004 -2.0158688e+004 1.92e+002 2.65e+001 8.55e+002 9.46e-002
+   2  9.4652472e+003 -4.9384321e+003 5.94e+001 8.19e+000 3.32e+002 1.69e-001
+   3  7.4066485e+003 -1.8083789e+002 3.37e+001 4.65e+000 1.68e+002 1.83e-001
+   4  5.1326992e+003  2.8748067e+003 7.35e+000 1.01e+000 5.84e+001 4.08e-001
+   5  4.6387040e+003  3.9279041e+003 1.81e+000 2.49e-001 2.00e+001 1.07e+000
+   6  4.4477701e+003  4.3079588e+003 1.88e-001 2.60e-002 4.74e+000 4.41e+000
+   7  4.4171085e+003  4.4032130e+003 6.73e-003 9.28e-004 5.60e-001 3.80e+001
+   8  4.4155202e+003  4.4147743e+003 1.36e-003 1.87e-004 1.62e-002 1.74e+003
+   9  4.4150005e+003  4.4149999e+003 1.36e-006 1.88e-007 1.62e-006 9.65e+006
+  10  4.4150000e+003  4.4150000e+003 2.23e-010 2.63e-011 2.96e-010 1.25e+010
+Barrier time = 0.00 sec. (1.50 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.05 ticks)
+Barrier time = 0.09 sec. (2.10 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.10 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 300
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4415
+ ********************* END LP SOLUTION 14 *********************
+
+Number of Better Lofs is 17
+
+ ********************* LP SOLUTION 15 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Reduced LP has 105 rows, 407 columns, and 2856 nonzeros.
+Presolve time = 0.00 sec. (0.35 ticks)
+Symmetry aggregator did 48 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.13 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1547
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.10 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 81
+  Integer space required    = 247
+  Total non-zeros in factor = 2606
+  Total FP ops to factor    = 109504
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.9266900e+005 -1.9096562e+005 2.76e+003 3.80e+002 5.99e+003 1.00e+000
+   1  2.1633167e+004 -2.1265374e+004 2.19e+002 3.02e+001 8.52e+002 1.04e-001
+   2  9.7393436e+003 -1.9757269e+003 6.65e+001 9.15e+000 2.16e+002 2.03e-001
+   3  7.0135616e+003  8.3410817e+002 3.21e+001 4.42e+000 1.22e+002 2.30e-001
+   4  4.9609004e+003  3.2329009e+003 6.41e+000 8.82e-001 4.10e+001 5.82e-001
+   5  4.6051712e+003  4.0874433e+003 2.12e+000 2.92e-001 1.17e+001 1.80e+000
+   6  4.4787066e+003  4.2542768e+003 8.17e-001 1.12e-001 5.45e+000 3.51e+000
+   7  4.4023083e+003  4.3790342e+003 5.31e-002 7.31e-003 6.86e-001 2.70e+001
+   8  4.3955731e+003  4.3954775e+003 5.84e-004 8.03e-005 8.64e-004 2.23e+004
+   9  4.3955000e+003  4.3955000e+003 7.96e-008 1.09e-008 1.16e-007 7.06e+007
+Barrier time = 0.01 sec. (1.45 ticks)
+
+Total time on 8 threads = 0.01 sec. (2.03 ticks)
+Barrier time = 0.01 sec. (2.08 ticks)
+
+Total time on 8 threads = 0.01 sec. (2.08 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 317
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4395.5
+ ********************* END LP SOLUTION 15 *********************
+
+Number of Better Lofs is 15
+
+ ********************* LP SOLUTION 16 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Reduced LP has 105 rows, 422 columns, and 2983 nonzeros.
+Presolve time = 0.00 sec. (0.36 ticks)
+Symmetry aggregator did 48 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.14 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1565
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 81
+  Integer space required    = 249
+  Total non-zeros in factor = 2612
+  Total FP ops to factor    = 109912
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.9448400e+005 -1.9273790e+005 2.89e+003 3.95e+002 5.82e+003 1.00e+000
+   1  2.1300306e+004 -2.0666497e+004 2.24e+002 3.06e+001 7.99e+002 1.11e-001
+   2  9.8417370e+003 -3.8437110e+003 7.00e+001 9.57e+000 2.68e+002 2.02e-001
+   3  7.0658123e+003 -2.4957246e+000 3.13e+001 4.28e+000 1.49e+002 2.18e-001
+   4  5.0934263e+003  2.9702990e+003 7.59e+000 1.04e+000 4.99e+001 5.25e-001
+   5  4.6008961e+003  3.8795488e+003 1.95e+000 2.66e-001 1.88e+001 1.30e+000
+   6  4.4789766e+003  4.1769283e+003 4.92e-001 6.73e-002 8.80e+000 2.54e+000
+   7  4.4077371e+003  4.3655145e+003 5.33e-002 7.29e-003 1.33e+000 1.67e+001
+   8  4.3956722e+003  4.3952700e+003 7.44e-004 1.02e-004 1.03e-002 2.18e+003
+   9  4.3955000e+003  4.3955000e+003 1.47e-007 2.01e-008 1.32e-006 1.54e+007
+Barrier time = 0.00 sec. (1.50 ticks)
+
+Total time on 8 threads = 0.00 sec. (2.10 ticks)
+Barrier time = 0.00 sec. (2.15 ticks)
+
+Total time on 8 threads = 0.00 sec. (2.15 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 332
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4395.5
+ ********************* END LP SOLUTION 16 *********************
+
+Number of Better Lofs is 13
+
+ ********************* LP SOLUTION 17 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Reduced LP has 105 rows, 435 columns, and 3091 nonzeros.
+Presolve time = 0.00 sec. (0.37 ticks)
+Symmetry aggregator did 48 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.14 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1590
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.10 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 81
+  Integer space required    = 263
+  Total non-zeros in factor = 2667
+  Total FP ops to factor    = 114473
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.9739000e+005 -1.9561912e+005 3.00e+003 4.08e+002 5.72e+003 1.00e+000
+   1  2.2462525e+004 -2.0206300e+004 2.48e+002 3.38e+001 7.60e+002 1.15e-001
+   2  9.7746762e+003 -4.4988817e+003 7.33e+001 9.97e+000 2.76e+002 2.08e-001
+   3  7.3490007e+003  1.1533510e+002 3.68e+001 5.01e+000 1.41e+002 2.74e-001
+   4  5.1779992e+003  3.0854019e+003 9.41e+000 1.28e+000 4.39e+001 5.92e-001
+   5  4.6513548e+003  3.8690216e+003 2.91e+000 3.96e-001 1.80e+001 1.26e+000
+   6  4.5517724e+003  4.1512984e+003 1.81e+000 2.46e-001 8.24e+000 2.51e+000
+   7  4.4237222e+003  4.3392802e+003 5.30e-001 7.21e-002 1.17e+000 1.44e+001
+   8  4.3706894e+003  4.3691772e+003 7.56e-003 1.03e-003 2.86e-002 5.79e+002
+   9  4.3700001e+003  4.3699999e+003 7.56e-007 1.03e-007 4.28e-006 3.64e+006
+  10  4.3700000e+003  4.3700000e+003 7.98e-011 1.03e-011 6.63e-010 2.89e+010
+Barrier time = 0.02 sec. (1.66 ticks)
+
+Total time on 8 threads = 0.02 sec. (2.28 ticks)
+Barrier time = 0.11 sec. (2.34 ticks)
+
+Total time on 8 threads = 0.11 sec. (2.34 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 345
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4370
+ ********************* END LP SOLUTION 17 *********************
+
+Number of Better Lofs is 16
+
+ ********************* LP SOLUTION 18 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 8 columns.
+Reduced LP has 105 rows, 448 columns, and 3203 nonzeros.
+Presolve time = 0.00 sec. (0.39 ticks)
+Symmetry aggregator did 46 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.15 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1618
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 82
+  Integer space required    = 271
+  Total non-zeros in factor = 2693
+  Total FP ops to factor    = 115037
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.9855900e+005 -1.9813960e+005 3.11e+003 4.19e+002 5.56e+003 1.00e+000
+   1  3.2964518e+004 -2.2116863e+004 4.29e+002 5.78e+001 7.78e+002 1.01e-001
+   2  1.1958599e+004 -4.3762697e+003 1.18e+002 1.59e+001 2.49e+002 2.33e-001
+   3  7.5656698e+003  6.4512807e+002 4.70e+001 6.34e+000 1.11e+002 3.10e-001
+   4  5.3902108e+003  2.8445283e+003 1.49e+001 2.01e+000 4.55e+001 5.58e-001
+   5  5.1259247e+003  3.6146813e+003 1.09e+001 1.47e+000 2.31e+001 1.00e+000
+   6  4.5377010e+003  4.0908228e+003 2.31e+000 3.12e-001 8.71e+000 2.20e+000
+   7  4.4174463e+003  4.2906085e+003 6.14e-001 8.27e-002 2.57e+000 6.82e+000
+   8  4.3725806e+003  4.3658319e+003 2.87e-002 3.87e-003 1.46e-001 1.19e+002
+   9  4.3700014e+003  4.3699995e+003 1.58e-005 2.12e-006 1.46e-005 1.21e+006
+  10  4.3700000e+003  4.3700000e+003 2.06e-009 2.78e-010 2.25e-009 3.93e+009
+Barrier time = 0.00 sec. (1.75 ticks)
+
+Total time on 8 threads = 0.00 sec. (2.40 ticks)
+Barrier time = 0.00 sec. (2.46 ticks)
+
+Total time on 8 threads = 0.00 sec. (2.46 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 361
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4370
+ ********************* END LP SOLUTION 18 *********************
+
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 19 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 12 columns.
+Reduced LP has 105 rows, 455 columns, and 3274 nonzeros.
+Presolve time = 0.00 sec. (0.41 ticks)
+Symmetry aggregator did 46 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.15 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1625
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 82
+  Integer space required    = 262
+  Total non-zeros in factor = 2714
+  Total FP ops to factor    = 117636
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.9860900e+005 -1.9996939e+005 3.18e+003 4.22e+002 5.47e+003 1.00e+000
+   1  3.8283868e+004 -2.4004238e+004 5.24e+002 6.95e+001 8.13e+002 1.08e-001
+   2  1.2458926e+004 -2.6119301e+003 1.32e+002 1.76e+001 1.86e+002 2.98e-001
+   3  7.6816291e+003  1.2229737e+003 5.27e+001 6.99e+000 8.60e+001 3.52e-001
+   4  7.0728644e+003  2.0517676e+003 4.39e+001 5.82e+000 6.06e+001 4.07e-001
+   5  6.0844870e+003  3.2785531e+003 2.85e+001 3.79e+000 2.67e+001 6.17e-001
+   6  4.6977351e+003  3.9405033e+003 5.18e+000 6.87e-001 1.08e+001 1.47e+000
+   7  4.4379509e+003  4.2211597e+003 9.62e-001 1.28e-001 3.89e+000 3.83e+000
+   8  4.3888188e+003  4.3393168e+003 2.20e-001 2.91e-002 8.87e-001 1.67e+001
+   9  4.3681467e+003  4.3669503e+003 1.11e-003 1.48e-004 3.37e-002 4.39e+002
+  10  4.3680001e+003  4.3679999e+003 3.79e-007 5.02e-008 4.58e-006 4.23e+006
+  11  4.3680000e+003  4.3680000e+003 1.05e-010 7.08e-012 7.24e-010 3.09e+010
+Barrier time = 0.09 sec. (1.88 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.55 ticks)
+Barrier time = 0.09 sec. (2.61 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.61 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 372
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4368
+ ********************* END LP SOLUTION 19 *********************
+
+Number of Better Lofs is 8
+
+ ********************* LP SOLUTION 20 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 16 columns.
+Reduced LP has 105 rows, 459 columns, and 3310 nonzeros.
+Presolve time = 0.00 sec. (0.42 ticks)
+Symmetry aggregator did 46 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.15 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1626
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 82
+  Integer space required    = 263
+  Total non-zeros in factor = 2715
+  Total FP ops to factor    = 117697
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0087700e+005 -2.0407580e+005 3.22e+003 4.22e+002 5.48e+003 1.00e+000
+   1  3.7934746e+004 -2.9161432e+004 5.09e+002 6.68e+001 9.47e+002 1.28e-001
+   2  1.2430522e+004 -3.5438482e+003 1.28e+002 1.68e+001 2.12e+002 3.32e-001
+   3  7.7176888e+003  9.9707716e+002 5.18e+001 6.79e+000 9.27e+001 3.50e-001
+   4  7.0694767e+003  1.9950796e+003 4.27e+001 5.60e+000 6.21e+001 4.09e-001
+   5  4.9628560e+003  3.7723343e+003 9.50e+000 1.25e+000 1.54e+001 1.11e+000
+   6  4.7854626e+003  3.9592243e+003 6.68e+000 8.76e-001 1.06e+001 1.58e+000
+   7  4.4399730e+003  4.1892769e+003 1.12e+000 1.47e-001 4.66e+000 3.26e+000
+   8  4.3882514e+003  4.3294165e+003 2.64e-001 3.46e-002 1.09e+000 1.41e+001
+   9  4.3641513e+003  4.3638723e+003 1.67e-003 2.19e-004 3.96e-003 3.90e+003
+  10  4.3640000e+003  4.3640000e+003 2.04e-007 2.67e-008 5.51e-007 2.36e+007
+Barrier time = 0.02 sec. (1.79 ticks)
+
+Total time on 8 threads = 0.02 sec. (2.48 ticks)
+Barrier time = 0.02 sec. (2.54 ticks)
+
+Total time on 8 threads = 0.02 sec. (2.54 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 380
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+ ********************* END LP SOLUTION 20 *********************
+
+Number of Better Lofs is 1
+
+ ********************* LP SOLUTION 21 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 17 columns.
+Reduced LP has 105 rows, 459 columns, and 3310 nonzeros.
+Presolve time = 0.00 sec. (0.43 ticks)
+Symmetry aggregator did 46 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.15 ticks)
+Parallel mode: using up to 8 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1626
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 8
+  Rows in Factor            = 82
+  Integer space required    = 263
+  Total non-zeros in factor = 2715
+  Total FP ops to factor    = 117697
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0087700e+005 -2.0453286e+005 3.22e+003 4.21e+002 5.48e+003 1.00e+000
+   1  3.7738920e+004 -2.8425827e+004 5.04e+002 6.60e+001 9.28e+002 1.31e-001
+   2  1.2439917e+004 -3.5568202e+003 1.28e+002 1.67e+001 2.13e+002 3.28e-001
+   3  7.7210207e+003  1.0013253e+003 5.17e+001 6.76e+000 9.28e+001 3.51e-001
+   4  7.0751513e+003  1.9962083e+003 4.27e+001 5.58e+000 6.22e+001 4.10e-001
+   5  4.9680214e+003  3.7783680e+003 9.51e+000 1.24e+000 1.54e+001 1.13e+000
+   6  4.7924014e+003  3.9625403e+003 6.74e+000 8.82e-001 1.05e+001 1.61e+000
+   7  4.4405502e+003  4.1896371e+003 1.14e+000 1.50e-001 4.65e+000 3.28e+000
+   8  4.3875094e+003  4.3305479e+003 2.60e-001 3.40e-002 1.06e+000 1.46e+001
+   9  4.3641445e+003  4.3639074e+003 1.64e-003 2.15e-004 2.79e-003 5.51e+003
+  10  4.3640000e+003  4.3640000e+003 1.99e-007 2.61e-008 3.91e-007 2.91e+007
+Barrier time = 0.09 sec. (1.79 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.48 ticks)
+Barrier time = 0.09 sec. (2.54 ticks)
+
+Total time on 8 threads = 0.09 sec. (2.54 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 381
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+ ********************* END LP SOLUTION 21 *********************
+
+Number of Better Lofs is 0
+
+ ********************* FINAL IP SOLUTION *********************
+Found incumbent of value 76000.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 27 rows and 17 columns.
+Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
+Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.45 ticks)
+Probing time = 0.00 sec. (2.37 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 80 rows, 436 columns, and 2558 nonzeros.
+Reduced MIP has 436 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.10 ticks)
+Probing time = 0.00 sec. (2.37 ticks)
+Clique table members: 136.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (1.71 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        76000.0000     1600.0000            97.89%
+*     0+    0                        12356.0000     1600.0000            87.05%
+*     0     0      integral     0     4364.0000     4364.0000       11   -0.00%
+Elapsed time = 0.03 sec. (10.79 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (10.82 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (10.82 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 381
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+************ LOF ************
+Lof ID is 0
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 2
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 4
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+ODp Mon Jul 23 23:55:00 2012
+OAr Tue Jul 24 02:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+ODp Tue Jul 24 02:40:00 2012
+OAr Tue Jul 24 05:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 20:55:00 2012
+OAr Tue Jul 24 22:59:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 5
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+ODp Tue Jul 24 00:20:00 2012
+OAr Tue Jul 24 02:20:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+ODp Tue Jul 24 02:55:00 2012
+OAr Tue Jul 24 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 05:55:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+ODp Tue Jul 24 12:45:00 2012
+OAr Tue Jul 24 17:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:34:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 6
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+ODp Tue Jul 24 01:35:00 2012
+OAr Tue Jul 24 04:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+ODp Tue Jul 24 05:35:00 2012
+OAr Tue Jul 24 06:55:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+ODp Tue Jul 24 07:45:00 2012
+OAr Tue Jul 24 09:05:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+ODp Tue Jul 24 09:45:00 2012
+OAr Tue Jul 24 11:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 7
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg List Size is 5 cost 0
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+ODp Tue Jul 24 02:50:00 2012
+OAr Tue Jul 24 08:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 13:55:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+ODp Tue Jul 24 15:10:00 2012
+OAr Tue Jul 24 20:25:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+ODp Tue Jul 24 21:40:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 218
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 0
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 356
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 359
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg List Size is 6 cost 504
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 366
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 1200
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+ODp Wed Jul 25 06:20:00 2012
+OAr Wed Jul 25 12:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 374
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 11 cost 2
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 380
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 6
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+*****************************
+
+ ********************* END FINAL IP SOLUTION *********************
+Total number of connection of leg network: 1024
+total run time is 2 seconds
+Solution is printed.
+
+Canceled flights are
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+dual is 800
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+dual is 800
+
+Tool completed successfully

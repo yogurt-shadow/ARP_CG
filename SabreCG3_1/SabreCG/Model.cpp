@@ -1,21 +1,4 @@
 #include "Model.h"
-#include <fstream>
-#include <cstdio>
-
-void print_stack(stack<SubNode *> const& stk) {
-	cout << "Stack: " << endl;
-	stack<SubNode*> s2 = stk;
-	while(!s2.empty()) {
-		s2.top()->print();
-		s2.pop();
-	}
-}
-
-bool Model::fileExist(string fileName)
-{
-	ifstream infile(fileName);
-	return infile.good();
-}
 
 Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList):
 	_stationList(stationList), _aircraftList(aircraftList), _legList(legList), _topOrderList(topOrderList)
@@ -29,23 +12,7 @@ Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vec
 	_coverRng = IloRangeArray(_env);
 	_selectRng = IloRangeArray(_env);
 	_solver = IloCplex(_model);
-	print();
-}
-
-void Model::print() {
-	cout << "print model" << endl;
-	for(auto ele: _stationList) {
-		ele->print();
-	}
-	for(auto ele: _aircraftList) {
-		ele->print();
-	}
-	for(auto ele: _legList) {
-		ele->print();
-	}
-	for(auto ele: _topOrderList) {
-		ele->print();
-	}
+	
 }
 
 int Model::_count = 0;
@@ -54,6 +21,7 @@ vector<Lof* > Model::findInitColumns()
 {
 	vector<Lof* > initColumns;
 	Lof* tempLof;
+
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		tempLof = findInitOneColumn(_aircraftList[i]);
@@ -66,6 +34,36 @@ vector<Lof* > Model::findInitColumns()
 	cout << "Number of Initial Lofs is " << initColumns.size() << endl << endl;
 
 	return initColumns;
+
+	/* ��ʵû��initial LofҲ������
+
+	/*
+	Lof* tempLof = new Lof();
+	
+	// ���ֹ�����һ�³�ʼ��LoF, ����debug
+	// һ�ܷɻ�
+	// ��test case (12)derived from(3), or (13) or (14) Ϊ������ʼ��Lof�� lg0 -> lg2 -> lg3 (��Ȼlg0 -> lg1 -> lg4 -> lg3 Ӧ�ø���)
+	tempLof->setAircraft( _aircraftList[0]);
+	OperLeg* tempOperLeg = new OperLeg(_legList[0], _aircraftList[0]);
+	tempLof->pushLeg(tempOperLeg);
+
+	tempOperLeg = new OperLeg(_legList[2], _aircraftList[0]);
+	tempOperLeg->setOpDepTime(25);
+	tempOperLeg->setOpArrTime(35);
+	tempLof->pushLeg(tempOperLeg);
+
+	tempOperLeg = new OperLeg(_legList[3], _aircraftList[0]);
+	tempOperLeg->setOpDepTime(45);
+	tempOperLeg->setOpArrTime(55);
+	tempLof->pushLeg(tempOperLeg);
+
+	tempLof->computeLofCost();
+
+	//tempLof->print();
+
+	initColumns.push_back(tempLof);
+	return initColumns;
+	*/
 }
 
 Lof* Model::findInitOneColumn(Aircraft* aircraft)
@@ -108,41 +106,48 @@ void Model::addColumns(vector<Lof* > _betterColumns)		//*
 	{
 		IloNumColumn col(_env);
 		col = _obj(_betterColumns[j]->getCost());
-		vector<string> tempnames;
+
 		vector<OperLeg* > operLegList = _betterColumns[j]->getLegList();
 		for (int k = 0; k < operLegList.size(); k++)
 		{
 			col += _coverRng[operLegList[k]->getLeg()->getId()](1);
-			tempnames.push_back(_coverRng[operLegList[k]->getLeg()->getId()].getName());
 		}
 
 		col += _selectRng[_betterColumns[j]->getAircraft()->getId()](1);
-		tempnames.push_back(_selectRng[_betterColumns[j]->getAircraft()->getId()].getName());
+
 		itoa( _betterColumns[j]->getId(), str, 10);
 		string varName = string("x_") + string(str);
 		_lofVar.add(IloNumVar(col, 0, 1, ILOFLOAT, varName.c_str()));
 		col.end();
-		cout << "add column: " << varName << endl;
-		for(auto ele: tempnames) {
-			cout << "add to constraint: " << ele << endl;
-		}
 	}
 }
 
 vector<Lof *> Model::findNewColumns()
 {
 	vector<Lof* > betterLof;
+	//Lof* tempLof;
 	vector<Lof* > tempLof;
+
 	for (int i = 0; i < _aircraftList.size(); i++)
 	{
 		tempLof = findNewMultiColumns(_aircraftList[i]);
+		//if (tempLof != NULL)
 		if (tempLof.size() > 0)
 		{
+			//betterLof.push_back(tempLof);
 			betterLof.insert(betterLof.end(), tempLof.begin(), tempLof.end());
 		}
 	}
 
 	cout << "Number of Better Lofs is " << betterLof.size() << endl << endl;
+
+	/*
+	for (int i = 0; i < betterLof.size(); i++)
+	{
+		betterLof[i]->print();
+	}
+	*/
+
 	return betterLof;
 }
 
@@ -232,7 +237,6 @@ vector<Lof* > Model::solveColGen()
 
 	int count = 1;
 
-	cout << "find new cols" << endl;
 	vector<Lof* > betterColumns;
 	betterColumns = findNewColumns();
 
@@ -242,9 +246,25 @@ vector<Lof* > Model::solveColGen()
 
 		addColumns(betterColumns);
 		_initColumns.insert(_initColumns.end(),betterColumns.begin(),betterColumns.end());
+
+		/*
+		cout << "############### MEMORY TEST ###############" << endl;
+		cout << "_initColumns.size() is " << _initColumns.size() << endl;
+
+		if (_initColumns.size() > 120000)
+		{
+			cout << "############### MEMORY TEST ENDS ###############" << endl;
+			exit(0);
+		}
+		*/
+
 		solve();
 		cout<<" ********************* END LP SOLUTION "<< count << " *********************"<<endl<<endl;
+
 		count++;
+
+		//if (count > 2) exit(0); //*DEBUG dual by CPLEX
+
 		betterColumns = findNewColumns();
 	}
 
@@ -253,21 +273,21 @@ vector<Lof* > Model::solveColGen()
 	return lofListSoln;
 }
 
-string Model::header = "C:\\Code\\ARP_CG\\LP\\CPP\\";
-
 void Model::solve()
 {
+	//_solver.end();
+	//_solver = IloCplex(_model);
+
 	char str[16] ;
 	itoa(_count,str,10);
 	_count++;
-	string name = "cc_" + string(str) + ".lp";
+	string name = "recovery_" + string(str) + ".lp";
 
-	// _solver.setParam(IloCplex::RootAlg, IloCplex::Barrier);
-	// _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
-	if (fileExist(name)) {
-		remove(name.c_str());
-	}
-	_solver.exportModel((header + name).c_str());
+	//_solver.exportModel("test.lp");
+	//_solver.exportModel(name.c_str());
+
+	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
+	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
 	_solver.solve();
 
 	cout << endl;
@@ -280,7 +300,8 @@ void Model::solve()
 	cout << "Solution status: " << _solver.getStatus() << endl;
 	cout << "Optimal value: " << _solver.getObjValue() << endl;
 
-
+	_tolerance = _solver.getParam(IloCplex::Param::MIP::Tolerances::Integrality);  /// GET parameter, tolerance
+	// cout << "_tolerance" << _tolerance << endl;
 
 	//* get leg dual
 	IloNumArray legDual(_env);
@@ -294,8 +315,8 @@ void Model::solve()
 			cout << "Error, leg index mismatch when get dual" << endl;
 			exit(0);
 		}
-		// cout << "setDual: " << legDual[i] << endl;
-		// _legList[i]->setDual(legDual[i]);
+		//cout << "leg " << i << " dual equals " << legDual[i] << endl;
+		_legList[i]->setDual(legDual[i]);
 	}
 
 	//* get aircraft dual
@@ -311,20 +332,22 @@ void Model::solve()
 			exit(0);
 		}
 		//cout << "aircraft " << i << " dual equals " << aircraftDual[i] << endl;
-		// cout << "setDual: " << aircraftDual[i] << endl;
-		// _aircraftList[i]->setDual(aircraftDual[i]);
+		_aircraftList[i]->setDual(aircraftDual[i]);
 	}
 }
 
 vector<Lof* > Model::solveIP()
 {
 	cout<<" ********************* FINAL IP SOLUTION *********************"<<endl;
+
 	_model.add(IloConversion(_env, _lofVar, ILOBOOL));
 	_model.add(IloConversion(_env, _legVar, ILOBOOL));
-	if(fileExist(header + "recovery_cc.lp")) {
-		remove((header + "recovery_cc.lp").c_str());
-	}
-	_solver.exportModel((header + "recovery_cc.lp").c_str());
+	//* _model.add(IloConversion(_env, _grdArcVar, ILOINT));
+	//* _model.add(IloConversion(_env, _terminalVar, ILOINT));
+
+	//_solver = IloCplex(_model);
+
+	_solver.exportModel("recovery.lp");
 
 	_solver.solve();
 
@@ -334,44 +357,76 @@ vector<Lof* > Model::solveIP()
 	cout << "Number of selection constraints is: " << _selectRng.getSize() << endl;
 	cout << "Number of cover constraints is: " << _coverRng.getSize() << endl;
 	cout << endl;
+
 	cout << "Final Solution status: " << _solver.getStatus() << endl;
 	cout << "Final Optimal value: " << _solver.getObjValue() << endl;
+
 	IloNumArray lofVarSoln = IloNumArray(_env);                 /// IloNumArray lofVarSoln(_env)?
+
 	_solver.getValues(lofVarSoln, _lofVar);
+	//cout << "_lofVar solution is " << lofVarSoln << endl;		//*
 	vector<Lof *> lofListSoln;
+
 	if (_initColumns.size() != 0)		//*
 	{
 		for (int i = 0; i < lofVarSoln.getSize(); i++)
 		{
+			//* if (lofVarSoln[i] == 1 )
 			if (lofVarSoln[i] <= 1.0001 && lofVarSoln[i] >= 0.9999 )	//*
 			{
+				//	InitColums[i]->print();
 				lofListSoln.push_back(_initColumns[i]);		//*
+				_initColumns[i]->print();					//*
 			}
 		}
 	}
+	/*
+	else
+	{
+		for (int i = 0; i < lofVarSoln.getSize(); i++)    /// ΪʲôInitColums.size()�п��ܵ���0�أ�duplicated model IP
+		{
+			if (lofVarSoln[i] == 1)
+			{
+				lofListSoln.push_back(_lofList[i]);
+				_lofList[i]->print();
+			}
+		}
+	}
+	*/
+
+	/*
+	IloNumArray grdArcVarSoln = IloNumArray(_env);
+	_solver.getValues(grdArcVarSoln, _grdArcVar);
+	*/
+
 	IloNumArray legVarSoln = IloNumArray(_env);
 	_solver.getValues(legVarSoln, _legVar);
+	//cout << "_legVar solution is " << legVarSoln << endl;		//*
+	//cout << "_lofVar solution is " << lofVarSoln << endl;		//*
+
+	/*
+	IloNumArray terminalVarSoln = IloNumArray(_env);
+	_solver.getValues(terminalVarSoln, _terminalVar);
+	*/
+
 	cout<<endl<<" ********************* END FINAL IP SOLUTION *********************"<<endl;
 
 	return lofListSoln;
-}
-
-bool cost(SubNode *a, SubNode *b) {
-	return a->getSubNodeCost() < b->getSubNodeCost();
 }
 
 vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 {
 	vector<Lof* > betterLof;
 
+	//* ��ʼ����aircraft dep airport�ϵ�flight, i.e. nodeCost
 	vector<Leg*> depLegList;
 	depLegList = aircraft->getDepStation()->getDepLegList();
-
 	for (int k = 0; k < depLegList.size(); k++)
 	{
 		edgeProcessFlt(depLegList[k], aircraft);
 	}
 
+	//* ��ʼ����aircraft dep airport�ϵ�maint, i.e. nodeCost
 	vector<Leg*> depMaintList;
 	depMaintList = aircraft->getDepStation()->getMaintList();
 	for (int k = 0; k < depMaintList.size(); k++)
@@ -382,31 +437,27 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	for (int i = 0; i < _topOrderList.size(); i++)
 	{ //* check each node in topological order, to do relax operation
 		Leg * thisLeg = _topOrderList[i];
-		// cout << "next leg size: " << thisLeg->getNextLegList().size() << endl;
 		for (int j = 0; j < thisLeg->getNextLegList().size(); j++)
 		{
 			Leg * nextLeg = thisLeg->getNextLegList()[j];
+
 			if (!thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is flight; nextLeg is flight
 			{
-				// cout << "case 1" << endl;
 				edgeProcessFltFlt(thisLeg, nextLeg, aircraft);//##Ѱ��·��ʱʹ�õ�edge cost ����delay,swap,flight dual
 			}
 
 			if (!thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is flight; nextLeg is maintenance
 			{
-				// cout << "case 2" << endl;
 				edgeProcessFltMaint(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is maint; nextLeg is flight
 			{
-				// cout << "case 3" << endl;
 				edgeProcessMaintFlt(thisLeg, nextLeg, aircraft);
 			}
 
 			if (thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is maint; nextLeg is maint
 			{
-				// cout << "case 4" << endl;
 				edgeProcessMaintMaint(thisLeg, nextLeg, aircraft);
 			}
 
@@ -414,12 +465,13 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	}
 
 	vector<SubNode* > tmpSubNodeList;
+
 	vector<Leg* > arrLegList;
 	arrLegList = aircraft->getArrStation()->getArrLegList();
 
-	for (int j = 0; j < arrLegList.size(); j++)
+	for (int i = 0; i < arrLegList.size(); i++)
 	{
-		for (auto& subNode : arrLegList[j]->getSubNodeList())
+		for (auto& subNode : arrLegList[i]->getSubNodeList())
 		{
 			tmpSubNodeList.push_back(subNode);
 		}
@@ -449,7 +501,9 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 
 		return betterLof;
 	}
-	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), cost);
+
+	sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
+
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
 		// reset����leg��subNode
@@ -462,14 +516,15 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 	}
 
 	int tmp_count = 0;
-	// cout << "new amount " << Util::newamount << endl;
 	for (auto& subNode : tmpSubNodeList)
 	{
 		if (tmp_count < Util::newamount)
-		{	
+		{
+			//if (subNode->getSubNodeCost() - aircraft->getDual() < CPLEXERROR)
 			if (subNode->getSubNodeCost() - aircraft->getDual() < -0.0001)
 			{
-				Lof* newLof = new Lof();
+
+				// ѡ����subNode����stack�� //
 				stack<SubNode*> subNodeSelect;
 				SubNode* tempSubNode = subNode;
 				while (tempSubNode != NULL)
@@ -477,8 +532,11 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 					subNodeSelect.push(tempSubNode);
 					tempSubNode = tempSubNode->getParentSubNode();
 				}
+
+				/* ����LoF, ��������OperLeg */
 				Leg* tempLeg = NULL;
 				OperLeg * tempOperLeg = NULL;
+				Lof* newLof = new Lof();
 				newLof->setAircraft(aircraft); //* ����lof��aircraft
 
 				while (subNodeSelect.size() > 0)
@@ -491,19 +549,30 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 					tempOperLeg->setOpArrTime(tempSubNode->getOperArrTime()); //* set operational arr time for operLeg
 
 					newLof->pushLeg(tempOperLeg);
+
 					subNodeSelect.pop();
 				}
+
 				newLof->computeLofCost(); //* ����lof��cost (delay + swap), ������lof��_cost��
 				newLof->computeReducedCost(); //* ������Ӧ�ú�minCost - aircraft->getDual() һ����������lof��_reducedCost��
+
+
+				//* ���ǵ�CPLEX���������Բ�ֵ �����Ǿ��Բ�ֵ
 				double error = (newLof->getReducedCost()) - (subNode->getSubNodeCost() - aircraft->getDual());
 				error = abs(error) / min(abs(newLof->getReducedCost()), abs(subNode->getSubNodeCost() - aircraft->getDual()));
 				if (error > 0.0001)
 				{
 					cout << "newLof->getReducedCost() = " << newLof->getReducedCost() << endl;
 					cout << "minCost - aircraft->getDual() = " << subNode->getSubNodeCost() - aircraft->getDual() << endl << endl;
+
 					cout << "Error, subproblem reduced cost and minCost not match" << endl;
+
+
 					cout << "minCost is = " << subNode->getSubNodeCost() << endl;
 					cout << "aircraft->getDual() = " << aircraft->getDual() << endl;
+
+
+					newLof->print();
 					cout << "******* dual of legs are: *******" << endl;
 					vector<OperLeg* > lofOperLegList = newLof->getLegList();
 					for (int i = 0; i < newLof->getSize(); i++)
@@ -512,9 +581,13 @@ vector<Lof *> Model::findNewMultiColumns(Aircraft* aircraft)
 					}
 
 					break;
+					//exit(0);
 				}
+
+				//*_betterColumns.push_back(newLof);
 				betterLof.push_back(newLof);
 				++tmp_count;
+
 			}
 		}
 		else
@@ -551,6 +624,7 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft)
 	time_t delay2 = delayByAirportClose(nextLeg, delay); // compute delay by airport closure
 
 	delay = delay + delay2; // overall delay
+
 	//* check maximum delay satisfied
 	if (delay > Util::maxDelayTime)
 		return;
@@ -561,6 +635,7 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft)
 
 	//edgeCost = delay * Util::w_fltDelay - nextLeg->getDual();
 	edgeCost = delay /60.0 * Util::w_fltDelay - nextLeg->getDual();
+
 	//* swap cost
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
@@ -626,28 +701,34 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft)
 	else // ���nextLeg��aircraft��ƥ��
 	{
 		// do nothing
+		/*
+		nextLeg->setNodeCost(DBL_MAX);
+		nextLeg->setParent(NULL);
+		*/
 	}
 }
 
-//* helper function for findNewOneColumn *//
 void Model::edgeProcessFltFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 {
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
-	// cout << "case 1 len: " << subNodeList.size() << endl;
 	for(int i = 0; i < subNodeList.size(); i++)
 	{
-		// if(thisLeg->getId() == ) {
-
-		// }
-		edgeProcessFltFltSubNode(subNodeList[i], nextLeg, aircraft);
+		edgeProcessFltFlt(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
 //* helper function for edgeProcessFltFlt *//
-void Model::edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
+
+	/*
+	cout << "##### begin of edgeProcess SubNode #####" << endl;
+	cout << "previous subNode is " << endl;
+	subNode->print();
+	*/
+
 	delay = computeFlightDelay(subNode, nextLeg);
 
 	//edgeCost = delay * Util::w_fltDelay - nextLeg->getDual();
@@ -665,27 +746,35 @@ void Model::edgeProcessFltFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* a
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
 
-	
+	// �½�SubNode, ����Ƿ��ܲ���nextLeg��subNodeList
+	// ���newSubNode�����κ�nextLeg���е�subNode dominate, ����
+	// ���newSubNode dominate�κ�nextLeg���е�subNode, ɾ�������е�subNode, newSubNode����nextLeg��subNodeList
 	SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
+
+	/*
+	cout << "new subNode is " << endl;
+	subNode->print();
+	cout << "##### end of edgeProcess SubNode #####" << endl;
+	*/
+
 	if (!nextLeg->insertSubNode(newSubNode))
 	{
 		delete newSubNode;
 	}
 }
 
-//* helper function for findNewOneColumn *//
 void Model::edgeProcessFltMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 {
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessFltMaintSubNode(subNodeList[i], nextLeg, aircraft);
+		edgeProcessFltMaint(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
 
 // helper function for edgeProcessFltMaint
-void Model::edgeProcessFltMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessFltMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -705,7 +794,7 @@ void Model::edgeProcessFltMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft*
 			edgeCost = 0 - nextLeg->getDual();
 
 			SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-			
+
 			if (!nextLeg->insertSubNode(newSubNode))
 			{
 				delete newSubNode;
@@ -722,11 +811,11 @@ void Model::edgeProcessMaintFlt(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft)
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessMaintFltSubNode(subNodeList[i], nextLeg, aircraft);
+		edgeProcessMaintFlt(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
-void Model::edgeProcessMaintFltSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -770,11 +859,11 @@ void Model::edgeProcessMaintMaint(Leg* thisLeg, Leg* nextLeg, Aircraft* aircraft
 	vector<SubNode*> subNodeList = thisLeg->getSubNodeList();
 	for (int i = 0; i < subNodeList.size(); i++)
 	{
-		edgeProcessMaintMaintSubNode(subNodeList[i], nextLeg, aircraft);
+		edgeProcessMaintMaint(subNodeList[i], nextLeg, aircraft);
 	}
 }
 
-void Model::edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
+void Model::edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft)
 {
 	time_t delay = 0;
 	double edgeCost = 0;
@@ -802,7 +891,7 @@ void Model::edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraf
 			edgeCost = 0 - nextLeg->getDual();
 			
 			SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
-	
+
 			if (!nextLeg->insertSubNode(newSubNode))
 			{
 				delete newSubNode;
@@ -813,6 +902,11 @@ void Model::edgeProcessMaintMaintSubNode(SubNode* subNode, Leg* nextLeg, Aircraf
 				cout << "Error, thisLeg maintenance and aircraft do not match!" << endl;
 				exit(0);
 			}
+
+			/*
+			nextLeg->setNodeCost(DBL_MAX);
+			nextLeg->setParent(NULL);
+			*/
 		}
 	}
 	else

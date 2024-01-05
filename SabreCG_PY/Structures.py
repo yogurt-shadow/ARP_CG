@@ -136,6 +136,14 @@ class SubNode:
         if a.getSubNodeCost() == b.getSubNodeCost() and a.getLegId() == b.getLegId() and a.getParentLegId() < b.getParentLegId():
             return -1
         return 1
+    
+    def CostKey(self) -> (float, int, int):
+        id1, id2 = -1, -1
+        if self._leg != None:
+            id1 = self._leg.getId()
+        if self._parentSubNode != None:
+            id2 = self._parentSubNode.getLeg().getId()
+        return (self.getSubNodeCost(), id1, id2)
 
 class Leg:
     _count = 0
