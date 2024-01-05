@@ -1,7 +1,12 @@
 #include "Model.h"
 
-Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList):
-	_stationList(stationList), _aircraftList(aircraftList), _legList(legList), _topOrderList(topOrderList)
+bool Model::fileExist(string fileName) {
+	ifstream infile(fileName);
+	return infile.good();
+}
+
+Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList, string _header):
+	_stationList(stationList), _aircraftList(aircraftList), _legList(legList), _topOrderList(topOrderList), header(_header)
 {
 	//* initialize CPLEX objects
 	
@@ -281,13 +286,13 @@ void Model::solve()
 	char str[16] ;
 	itoa(_count,str,10);
 	_count++;
-	string name = "recovery_" + string(str) + ".lp";
-
-	//_solver.exportModel("test.lp");
-	//_solver.exportModel(name.c_str());
-
+	string name = "cc_" + string(str) + ".lp";
 	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* �������LP���㷨����Barrier Scenario1����������CG��������
 	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
+	if (fileExist(name)) {
+		remove(name.c_str());
+	}
+	_solver.exportModel((header + name).c_str());
 	_solver.solve();
 
 	cout << endl;
@@ -342,13 +347,10 @@ vector<Lof* > Model::solveIP()
 
 	_model.add(IloConversion(_env, _lofVar, ILOBOOL));
 	_model.add(IloConversion(_env, _legVar, ILOBOOL));
-	//* _model.add(IloConversion(_env, _grdArcVar, ILOINT));
-	//* _model.add(IloConversion(_env, _terminalVar, ILOINT));
-
-	//_solver = IloCplex(_model);
-
-	_solver.exportModel("recovery.lp");
-
+	if(fileExist(header + "recovery_cc.lp")) {
+		remove((header + "recovery_cc.lp").c_str());
+	}
+	_solver.exportModel((header + "recovery_cc.lp").c_str());
 	_solver.solve();
 
 	cout << endl;

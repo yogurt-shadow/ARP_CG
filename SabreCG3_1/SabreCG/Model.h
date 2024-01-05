@@ -45,8 +45,12 @@ private:
 	vector<Leg *> _topOrderList;			//* leg topological order
 
 	//Leg _dummySource;						//* dummy source node connecting starting nodes // ʹ��findNewOneColumn��debug�ȽϷ���
+
+	string header;
+
+	bool fileExist(string);
 public:
-	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList);
+	Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vector<Leg *> legList, vector<Leg *> topOrderList, string header);
 	vector<Lof *> findNewColumns();
 	vector<Lof *> findNewMultiColumns(Aircraft* aircraft);
 

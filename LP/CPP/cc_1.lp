@@ -26,8 +26,8 @@ Subject To
  cover_lg_1:   y_1 + x_0 + x_8 + x_9  = 1
  cover_lg_2:   y_2 + x_0 + x_8 + x_9  = 1
  cover_lg_3:   y_3 + x_0 + x_8 + x_9  = 1
- cover_lg_4:   y_4 + x_0 + x_8 + x_9  = 1
- cover_lg_5:   y_5 + x_0 + x_8 + x_9  = 1
+ cover_lg_4:   y_4 + x_0 + x_8 + x_9 + x_17 + x_26 + x_27 + x_30  = 1
+ cover_lg_5:   y_5 + x_0 + x_8 + x_9 + x_17 + x_26 + x_27 + x_30  = 1
  cover_lg_6:   y_6 + x_0  = 1
  cover_lg_7:   y_7 + x_0  = 1
  cover_lg_8:   y_8 + x_1 + x_10 + x_11 + x_23 + x_24 + x_27 + x_28  = 1
@@ -38,30 +38,30 @@ Subject To
  cover_lg_13:  y_13 + x_1 + x_10 + x_11  = 1
  cover_lg_14:  y_14 + x_2  = 1
  cover_lg_15:  y_15 + x_2  = 1
- cover_lg_16:  y_16 + x_2 + x_12 + x_14 + x_15 + x_20 + x_26  = 1
- cover_lg_17:  y_17 + x_2 + x_12 + x_14 + x_15 + x_20 + x_26  = 1
- cover_lg_18:  y_18 + x_2 + x_12 + x_14 + x_15 + x_20 + x_26  = 1
- cover_lg_19:  y_19 + x_2 + x_12 + x_14 + x_15 + x_20 + x_26  = 1
- cover_lg_20:  y_20 + x_2 + x_12 + x_14 + x_20 + x_26  = 1
- cover_lg_21:  y_21 + x_2 + x_12 + x_14 + x_20 + x_26  = 1
+ cover_lg_16:  y_16 + x_2 + x_12 + x_14 + x_15 + x_20 + x_25  = 1
+ cover_lg_17:  y_17 + x_2 + x_12 + x_14 + x_15 + x_20 + x_25  = 1
+ cover_lg_18:  y_18 + x_2 + x_12 + x_14 + x_15 + x_20 + x_25  = 1
+ cover_lg_19:  y_19 + x_2 + x_12 + x_14 + x_15 + x_20 + x_25  = 1
+ cover_lg_20:  y_20 + x_2 + x_12 + x_14 + x_20  = 1
+ cover_lg_21:  y_21 + x_2 + x_12 + x_14 + x_20  = 1
  cover_lg_22:  y_22 + x_2 + x_12  = 1
  cover_lg_23:  y_23 + x_3 + x_13 + x_14  = 1
  cover_lg_24:  y_24 + x_3 + x_10 + x_11 + x_12 + x_13 + x_17 + x_18 + x_19
-               + x_20 + x_21 + x_22 + x_23 + x_24 + x_27 + x_28 + x_29 + x_30
-                = 1
+               + x_20 + x_21 + x_22 + x_23 + x_24 + x_26 + x_27 + x_28 + x_29
+               + x_30  = 1
  cover_lg_25:  y_25 + x_3 + x_10 + x_11 + x_12 + x_13 + x_17 + x_18 + x_19
-               + x_20 + x_21 + x_22 + x_23 + x_24 + x_27 + x_28 + x_29 + x_30
-                = 1
+               + x_20 + x_21 + x_22 + x_23 + x_24 + x_26 + x_27 + x_28 + x_29
+               + x_30  = 1
  cover_lg_26:  y_26 + x_3 + x_11 + x_13 + x_18 + x_21 + x_22 + x_24 + x_28  = 1
  cover_lg_27:  y_27 + x_3 + x_11 + x_13 + x_18 + x_21 + x_22 + x_24 + x_28  = 1
- cover_lg_28:  y_28 + x_3 + x_10 + x_11 + x_13 + x_17 + x_18 + x_21 + x_22
-               + x_23 + x_24 + x_25 + x_27 + x_28 + x_29  = 1
- cover_lg_29:  y_29 + x_3 + x_10 + x_11 + x_13 + x_17 + x_18 + x_21 + x_22
-               + x_23 + x_24 + x_25 + x_27 + x_28 + x_29  = 1
- cover_lg_30:  y_30 + x_3 + x_8 + x_10 + x_11 + x_13 + x_17 + x_18 + x_21
-               + x_23 + x_24 + x_25 + x_27 + x_28 + x_29  = 1
- cover_lg_31:  y_31 + x_3 + x_8 + x_10 + x_11 + x_13 + x_17 + x_18 + x_21
-               + x_23 + x_24 + x_25 + x_27 + x_28 + x_29  = 1
+ cover_lg_28:  y_28 + x_3 + x_10 + x_11 + x_13 + x_18 + x_21 + x_22 + x_23
+               + x_24 + x_28 + x_29  = 1
+ cover_lg_29:  y_29 + x_3 + x_10 + x_11 + x_13 + x_18 + x_21 + x_22 + x_23
+               + x_24 + x_28 + x_29  = 1
+ cover_lg_30:  y_30 + x_3 + x_8 + x_10 + x_11 + x_13 + x_21 + x_23 + x_24
+               + x_29  = 1
+ cover_lg_31:  y_31 + x_3 + x_8 + x_10 + x_11 + x_13 + x_21 + x_23 + x_24
+               + x_29  = 1
  cover_lg_32:  y_32 + x_3 + x_8 + x_9 + x_13 + x_17 + x_18 + x_23 + x_24 + x_25
                + x_26 + x_27 + x_28 + x_29 + x_30  = 1
  cover_lg_33:  y_33 + x_3 + x_8 + x_9 + x_13 + x_17 + x_18 + x_23 + x_24 + x_25
@@ -71,8 +71,8 @@ Subject To
  cover_lg_36:  y_36  = 1
  cover_lg_37:  y_37  = 1
  cover_lg_38:  y_38  = 1
- cover_lg_39:  y_39 + x_15  = 1
- cover_lg_40:  y_40 + x_15  = 1
+ cover_lg_39:  y_39 + x_15 + x_25  = 1
+ cover_lg_40:  y_40 + x_15 + x_25  = 1
  cover_lg_41:  y_41 + x_15  = 1
  cover_lg_42:  y_42 + x_4  = 1
  cover_lg_43:  y_43 + x_4  = 1
@@ -86,14 +86,16 @@ Subject To
  cover_lg_51:  y_51 + x_5 + x_12 + x_17 + x_18 + x_19 + x_20  = 1
  cover_lg_52:  y_52 + x_5  = 1
  cover_lg_53:  y_53 + x_5  = 1
- cover_lg_54:  y_54 + x_5 + x_19 + x_30  = 1
- cover_lg_55:  y_55 + x_5 + x_19 + x_30  = 1
- cover_lg_56:  y_56 + x_5 + x_9 + x_19 + x_22 + x_30  = 1
- cover_lg_57:  y_57 + x_5 + x_9 + x_19 + x_22 + x_30  = 1
+ cover_lg_54:  y_54 + x_5 + x_19  = 1
+ cover_lg_55:  y_55 + x_5 + x_19  = 1
+ cover_lg_56:  y_56 + x_5 + x_9 + x_17 + x_18 + x_19 + x_22 + x_26 + x_27
+               + x_28 + x_30  = 1
+ cover_lg_57:  y_57 + x_5 + x_9 + x_17 + x_18 + x_19 + x_22 + x_26 + x_27
+               + x_28 + x_30  = 1
  cover_lg_58:  y_58 + x_5 + x_19  = 1
  cover_lg_59:  y_59 + x_21 + x_22  = 1
- cover_lg_60:  y_60 + x_14 + x_15 + x_25 + x_26  = 1
- cover_lg_61:  y_61 + x_14 + x_15 + x_25 + x_26  = 1
+ cover_lg_60:  y_60 + x_14 + x_15 + x_25  = 1
+ cover_lg_61:  y_61 + x_14 + x_15 + x_25  = 1
  cover_lg_62:  y_62  = 1
  cover_lg_63:  y_63  = 1
  cover_lg_64:  y_64  = 1
@@ -101,9 +103,9 @@ Subject To
  cover_lg_66:  y_66 + x_21 + x_22  = 1
  cover_lg_67:  y_67  = 1
  cover_lg_68:  y_68  = 1
- cover_lg_69:  y_69 + x_10 + x_17 + x_19 + x_23 + x_25 + x_27 + x_29 + x_30
+ cover_lg_69:  y_69 + x_10 + x_17 + x_19 + x_23 + x_26 + x_27 + x_29 + x_30
                 = 1
- cover_lg_70:  y_70 + x_10 + x_17 + x_19 + x_23 + x_25 + x_27 + x_29 + x_30
+ cover_lg_70:  y_70 + x_10 + x_17 + x_19 + x_23 + x_26 + x_27 + x_29 + x_30
                 = 1
  cover_lg_71:  y_71  = 1
  cover_lg_72:  y_72  = 1

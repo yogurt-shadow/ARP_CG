@@ -452,7 +452,7 @@ void readConfiguarationFile(std::string& input_dir, std::string& output_dir)
 	return;
 }
 
-bool processArguments(int argc, char** argv, std::string& input_dir, std::string& output_dir)
+bool processArguments(int argc, char** argv, std::string& input_dir, std::string& output_dir, std::string& header)
 {
 	bool isCheck = false;
 	for (int i = 1; i < argc; i++)
@@ -467,6 +467,10 @@ bool processArguments(int argc, char** argv, std::string& input_dir, std::string
 			output_dir += (argv[i]);
 			isCheck = true;
 			output_dir += "\\";
+		} 
+		else if (i == 3) {
+			header += (argv[i]);
+			header += "\\";
 		}
 	}
 	cout <<"input_dir is " << input_dir << endl;
@@ -562,8 +566,8 @@ int main( int argc, char * argv[] )
 		TIXMLASSERT( true ); 
 	} 
 
-	std::string input_path, output_path;
-	if (!processArguments(argc, argv, input_path, output_path)) {
+	std::string input_path, output_path, header;
+	if (!processArguments(argc, argv, input_path, output_path, header)) {
 		cout << "read config" << endl;
 		readConfiguarationFile(input_path, output_path);
 	}
@@ -785,11 +789,6 @@ int main( int argc, char * argv[] )
 		legList.push_back(maint);        // flights+maint
 	}
 
-	 //for(int i = 0; i < maintList.size(); i++)
-	 //{
-		// maintList[i]->print();
-	 //}
-
 	/* set the closure time of station */
 	for(int i = 0; i < airportClosures.size(); i++)
 	{
@@ -823,7 +822,7 @@ int main( int argc, char * argv[] )
 	clock_t startTime = clock();
 	Schedule * schedule = new Schedule(stationList, aircraftList, legList);
 	schedule->computeTopOrder();
-	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList());
+	Model * model = new Model(stationList, aircraftList, legList, schedule->getTopOrderList(), header);
 	vector<Lof *> lofListSoln;
 	lofListSoln = model->solveColGen();
 
