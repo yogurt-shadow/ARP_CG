@@ -43,7 +43,7 @@ bool Aircraft::isPlanLegFeasible()
 
 	Leg* thisLeg = NULL;
 	Leg* nextLeg = NULL;
-	cout << "planLegList size: " << _planLegList.size() << endl;
+	// cout << "planLegList size: " << _planLegList.size() << endl;
 	// ���airport match, time mismatch
 	for (int i = 0; i < _planLegList.size() - 1; i++)
 	{

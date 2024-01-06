@@ -369,7 +369,7 @@ class Aircraft:
         if len(self._planLegList) > 0 and self._planLegList[-1].getArrStation() != self._arrStation:
             return False
         thisLeg, nextLeg = None, None
-        print("planLegList size is ", len(self._planLegList))
+        # print("planLegList size is ", len(self._planLegList))
         for i in range(len(self._planLegList) - 1):
             thisLeg, nextLeg = self._planLegList[i], self._planLegList[i+1]
             if thisLeg.getArrStation() != nextLeg.getDepStation():
