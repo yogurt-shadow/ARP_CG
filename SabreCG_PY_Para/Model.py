@@ -7,13 +7,11 @@ import gurobipy as gp
 from gurobipy import GRB
 import time
 import os
-import multiprocessing
 import threading
 
 class Model:
     _count = 0
     sequential = False
-    cpu_count = multiprocessing.cpu_count()
 
     def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg], topOrderList: list[Leg], _header: str):
         self._stationList, self._aircraftList = stationList, aircraftList
@@ -31,8 +29,6 @@ class Model:
         self._spTime = 0
         self._ipTime = 0
         self._betterColumns = [[] for i in range(ut.THREADSIZE)]
-        # cpu number
-        print("cpu number is: " + str(self.cpu_count))
 
     def findNewColumnsParallel(self, start: int, end: int, threadIndex: int) -> None:
         for i in range(start, end):
@@ -143,95 +139,6 @@ class Model:
         betterCounter = sum([len(self._betterColumns[i]) for i in range(ut.util.threadSize)])
         print("Number of Better Lofs is: " + str(betterCounter))
     
-    def findNewMultiColumns(self, aircraft: Aircraft) -> list[Lof]:
-        betterLof, depLegList = [], aircraft.getDepStation().getDepLegList()
-        for _depLeg in depLegList:
-            self.edgeProcessFlt(_depLeg, aircraft)
-        depMaintList = aircraft.getDepStation().getMainList()
-        for _depMaint in depMaintList:
-            self.edgeProcessMaint(_depMaint, aircraft)
-        # check each node in topological order, to do relax operation
-        index = 0
-        for thisLeg in self._topOrderList:
-            index += 1
-            for nextLeg in thisLeg.getNextLegList():
-                if not thisLeg.isMaint() and not nextLeg.isMaint():
-                    self.edgeProcessFltFlt(thisLeg, nextLeg, aircraft)
-                if not thisLeg.isMaint() and nextLeg.isMaint():
-                    self.edgeProcessFltMaint(thisLeg, nextLeg, aircraft)
-                if thisLeg.isMaint() and not nextLeg.isMaint():
-                    self.edgeProcessMaintFlt(thisLeg, nextLeg, aircraft)
-                if thisLeg.isMaint() and nextLeg.isMaint():
-                    self.edgeProcessMaintMaint(thisLeg, nextLeg, aircraft)
-        tmpSubNodeList, arrLegList = [], aircraft.getArrStation().getArrLegList()
-        for _arrLeg in arrLegList:
-            _subNodeList = _arrLeg.getSubNodeList()
-            with _subNodeList.lock:
-                tmpSubNodeList.extend(_subNodeList.content)
-        arrMaintList = aircraft.getArrStation().getMainList()
-        for _arrMaint in arrMaintList:
-            _subNodeList = _arrMaint.getSubNodeList()
-            with _subNodeList.lock:
-                tmpSubNodeList.extend(_subNodeList.content)
-        if len(tmpSubNodeList) == 0:
-            print("Warning, subproblem found no feasible LoF.")
-            for _leg in self._legList:
-                _leg.resetLeg()
-            return betterLof
-        tmpSubNodeList.sort(key = lambda x: x.CostKey())
-        if tmpSubNodeList[0].getSubNodeCost() - aircraft.getDual() >= -0.0001:
-            for _leg in self._legList:
-                _leg.resetLeg()
-            return betterLof
-        tmp_count = 0
-        for subNode in tmpSubNodeList:
-            if tmp_count < ut.util.newamount:
-                if subNode.getSubNodeCost() - aircraft.getDual() < -0.0001:
-                    subNodeSelect = Stack()
-                    tempSubNode = subNode
-                    newLof = Lof()
-                    while tempSubNode != None:
-                        subNodeSelect.push(tempSubNode)
-                        tempSubNode = tempSubNode.getParentSubNode()
-                    tempLeg, tempOperLeg = None, None
-                    newLof.setAircraft(aircraft)
-                    while subNodeSelect.size() > 0:
-                        tempSubNode = subNodeSelect.peek()
-                        tempLeg = tempSubNode.getLeg()
-                        tempOperLeg = OperLeg(tempLeg, aircraft)
-                        tempOperLeg.setOpDepTime(tempSubNode.getOperDepTime())
-                        tempOperLeg.setOpArrTime(tempSubNode.getOperArrTime())
-                        newLof.pushLeg(tempOperLeg)
-                        subNodeSelect.pop()
-                    newLof.computeLofCost()
-                    newLof.computeReducedCost()
-                    error = newLof.getReducedCost() - (subNode.getSubNodeCost() - aircraft.getDual())
-
-                    denominator = min(abs(newLof.getReducedCost()), abs(subNode.getSubNodeCost() - aircraft.getDual()))
-                    if denominator == 0:
-                        error = sys.maxsize
-                    else:
-                        error = abs(error) / denominator
-                    if error > 0.0001:
-                        print("newLof->getReducedCost() = " + str(newLof.getReducedCost()))
-                        print("minCost - aircraft->getDual() = " + str(subNode.getSubNodeCost() - aircraft.getDual()))
-                        print()
-                        print("Error, subproblem reduced cost and minCost not match")
-                        print("minCost is = " + str(subNode.getSubNodeCost()))
-                        print("aircraft getDual = " + str(aircraft.getDual()))
-                        print("******* dual of legs are: *******")
-                        lofOperLegList = newLof.getLegList()
-                        for i in range(newLof.getSize()):
-                            print("dual of leg %d  is %d" % (i, lofOperLegList[i].getLeg().getDual()))
-                        break
-                    betterLof.append(newLof)
-                    tmp_count += 1
-            else:
-                break
-        for _leg in self._legList:
-            _leg.resetLeg()
-        return betterLof
-    
     def computeFlightDelay(self, subNode: SubNode, nextLeg: Leg) -> float:
         delay = 0
         thisLeg = subNode.getLeg()
@@ -313,7 +220,7 @@ class Model:
                 if nextLeg.getArrTime() > aircraft.getEndTime():
                     return
                 edgeCost = 0 - nextLeg.getDual()
-                _subNodeList = nextLeg.getSubNodeList()
+                _subNodeList = nextLeg.getSubNodeList(threadIndex)
                 if len(_subNodeList) > 0:
                     print("Error, initial leg's subNodeList must be empty!")
                     sys.exit(0)
@@ -382,7 +289,7 @@ class Model:
                 nextLeg.insertSubNode(newSubNode, threadIndex)
 
     def edgeProcessMaintFlt(self, thisLeg: Leg, nextLeg: Leg, aircraft: Aircraft, threadIndex: int) -> None:
-        subNodeList = thisLeg.getSubNodeList()
+        subNodeList = thisLeg.getSubNodeList(threadIndex)
         for _subNode in subNodeList:
             self.edgeProcessMaintFltSubNode(_subNode, nextLeg, aircraft, threadIndex)
     

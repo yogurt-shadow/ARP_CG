@@ -7,7 +7,7 @@ TIMEDIFF                 =            0
 INITLOFNUM               =            10000
 SELECTNUM                =            100
 SEED                     =            1
-THREADSIZE               =            8
+THREADSIZE               =            100
 
 class util:
     turnTime             =            10

@@ -8,6 +8,7 @@ import lxml.etree as et
 import sys
 import os
 import time
+import multiprocessing
 
 def processArguments(argc, argv):
     isCheck = False
@@ -317,7 +318,13 @@ if __name__ == "__main__":
     startTime = time.time()
     schedule = Schedule(stationList, aircraftList, legList)
     schedule.computeTopOrder()
-
+    
+    # thread number
+    cpu_count = multiprocessing.cpu_count()
+    print("cpu count is " + str(cpu_count))
+    ut.util.threadSize = max(1, cpu_count - 2)
+    print("#thread: ", ut.util.threadSize)
+    
     model = Model(stationList, aircraftList, legList, schedule.getTopOrderList(), header)
     lofListSoln = model.solveColGen()
     finaLegList = updaInfo(lofListSoln, legList)

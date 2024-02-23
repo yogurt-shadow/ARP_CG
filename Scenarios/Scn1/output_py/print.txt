@@ -440,11 +440,11 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 24000.0
-Time for LP_0: 0.0024509429931640625 seconds
+Time for LP_0: 0.002997875213623047 seconds
  ********************* END LP SOLUTION 0 *********************
 
 Number of Better Lofs is: 21
-Time for SP_0: 0.03334617614746094 seconds
+Time for SP_0: 0.031002521514892578 seconds
  ********************* LP SOLUTION 1 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -471,12 +471,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 23584.0
-Time for MP_1: 0.0016338825225830078 seconds
+Time for MP_1: 0.0010008811950683594 seconds
  ********************* END LP SOLUTION 1 *********************
 Number of Better Lofs is: 23
-Time for SP_2: 0.02483677864074707 seconds
-# Total time for LP: 0.0016338825225830078 seconds
-# Total time for SP: 0.02483677864074707 seconds
+Time for SP_2: 0.02458810806274414 seconds
+# Total time for LP: 0.0010008811950683594 seconds
+# Total time for SP: 0.02458810806274414 seconds
  ********************* LP SOLUTION 2 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -503,12 +503,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 22810.0
-Time for MP_2: 0.002122640609741211 seconds
+Time for MP_2: 0.002009868621826172 seconds
  ********************* END LP SOLUTION 2 *********************
 Number of Better Lofs is: 22
-Time for SP_3: 0.026043415069580078 seconds
-# Total time for LP: 0.0037565231323242188 seconds
-# Total time for SP: 0.05088019371032715 seconds
+Time for SP_3: 0.026007652282714844 seconds
+# Total time for LP: 0.0030107498168945312 seconds
+# Total time for SP: 0.050595760345458984 seconds
  ********************* LP SOLUTION 3 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -535,12 +535,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 22565.0
-Time for MP_3: 0.002140045166015625 seconds
+Time for MP_3: 0.0019931793212890625 seconds
  ********************* END LP SOLUTION 3 *********************
 Number of Better Lofs is: 22
-Time for SP_4: 0.05185270309448242 seconds
-# Total time for LP: 0.005896568298339844 seconds
-# Total time for SP: 0.10273289680480957 seconds
+Time for SP_4: 0.05099797248840332 seconds
+# Total time for LP: 0.005003929138183594 seconds
+# Total time for SP: 0.1015937328338623 seconds
  ********************* LP SOLUTION 4 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -567,12 +567,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 12414.0
-Time for MP_4: 0.002912282943725586 seconds
+Time for MP_4: 0.0030105113983154297 seconds
  ********************* END LP SOLUTION 4 *********************
 Number of Better Lofs is: 22
-Time for SP_5: 0.022088289260864258 seconds
-# Total time for LP: 0.00880885124206543 seconds
-# Total time for SP: 0.12482118606567383 seconds
+Time for SP_5: 0.02271866798400879 seconds
+# Total time for LP: 0.008014440536499023 seconds
+# Total time for SP: 0.1243124008178711 seconds
  ********************* LP SOLUTION 5 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -599,12 +599,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 11191.0
-Time for MP_5: 0.0028519630432128906 seconds
+Time for MP_5: 0.0029985904693603516 seconds
  ********************* END LP SOLUTION 5 *********************
 Number of Better Lofs is: 23
-Time for SP_6: 0.030275583267211914 seconds
-# Total time for LP: 0.01166081428527832 seconds
-# Total time for SP: 0.15509676933288574 seconds
+Time for SP_6: 0.029110193252563477 seconds
+# Total time for LP: 0.011013031005859375 seconds
+# Total time for SP: 0.15342259407043457 seconds
  ********************* LP SOLUTION 6 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -631,12 +631,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 9741.0
-Time for MP_6: 0.003551006317138672 seconds
+Time for MP_6: 0.0028901100158691406 seconds
  ********************* END LP SOLUTION 6 *********************
 Number of Better Lofs is: 23
-Time for SP_7: 0.020590782165527344 seconds
-# Total time for LP: 0.015211820602416992 seconds
-# Total time for SP: 0.17568755149841309 seconds
+Time for SP_7: 0.020075082778930664 seconds
+# Total time for LP: 0.013903141021728516 seconds
+# Total time for SP: 0.17349767684936523 seconds
  ********************* LP SOLUTION 7 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -663,12 +663,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 8768.210526315786
-Time for MP_7: 0.0034677982330322266 seconds
+Time for MP_7: 0.0 seconds
  ********************* END LP SOLUTION 7 *********************
 Number of Better Lofs is: 24
-Time for SP_8: 0.025454282760620117 seconds
-# Total time for LP: 0.01867961883544922 seconds
-# Total time for SP: 0.2011418342590332 seconds
+Time for SP_8: 0.031120777130126953 seconds
+# Total time for LP: 0.013903141021728516 seconds
+# Total time for SP: 0.2046184539794922 seconds
  ********************* LP SOLUTION 8 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -695,12 +695,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 7204.5
-Time for MP_8: 0.003839731216430664 seconds
+Time for MP_8: 0.003975868225097656 seconds
  ********************* END LP SOLUTION 8 *********************
 Number of Better Lofs is: 22
-Time for SP_9: 0.020758390426635742 seconds
-# Total time for LP: 0.022519350051879883 seconds
-# Total time for SP: 0.22190022468566895 seconds
+Time for SP_9: 0.019847393035888672 seconds
+# Total time for LP: 0.017879009246826172 seconds
+# Total time for SP: 0.22446584701538086 seconds
  ********************* LP SOLUTION 9 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -727,12 +727,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 6943.0
-Time for MP_9: 0.0040209293365478516 seconds
+Time for MP_9: 0.003893136978149414 seconds
  ********************* END LP SOLUTION 9 *********************
 Number of Better Lofs is: 23
-Time for SP_10: 0.02044391632080078 seconds
-# Total time for LP: 0.026540279388427734 seconds
-# Total time for SP: 0.24234414100646973 seconds
+Time for SP_10: 0.021000146865844727 seconds
+# Total time for LP: 0.021772146224975586 seconds
+# Total time for SP: 0.24546599388122559 seconds
  ********************* LP SOLUTION 10 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -759,12 +759,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5591.666666666668
-Time for MP_10: 0.004373788833618164 seconds
+Time for MP_10: 0.004098415374755859 seconds
  ********************* END LP SOLUTION 10 *********************
 Number of Better Lofs is: 23
-Time for SP_11: 0.021605491638183594 seconds
-# Total time for LP: 0.0309140682220459 seconds
-# Total time for SP: 0.2639496326446533 seconds
+Time for SP_11: 0.020900249481201172 seconds
+# Total time for LP: 0.025870561599731445 seconds
+# Total time for SP: 0.26636624336242676 seconds
  ********************* LP SOLUTION 11 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -791,12 +791,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 5455.700000000002
-Time for MP_11: 0.0044307708740234375 seconds
+Time for MP_11: 0.006001949310302734 seconds
  ********************* END LP SOLUTION 11 *********************
 Number of Better Lofs is: 21
-Time for SP_12: 0.020986080169677734 seconds
-# Total time for LP: 0.035344839096069336 seconds
-# Total time for SP: 0.28493571281433105 seconds
+Time for SP_12: 0.02002549171447754 seconds
+# Total time for LP: 0.03187251091003418 seconds
+# Total time for SP: 0.2863917350769043 seconds
  ********************* LP SOLUTION 12 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -823,12 +823,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4997.526315789473
-Time for MP_12: 0.0046803951263427734 seconds
+Time for MP_12: 0.0049991607666015625 seconds
  ********************* END LP SOLUTION 12 *********************
 Number of Better Lofs is: 21
-Time for SP_13: 0.021190643310546875 seconds
-# Total time for LP: 0.04002523422241211 seconds
-# Total time for SP: 0.30612635612487793 seconds
+Time for SP_13: 0.020511627197265625 seconds
+# Total time for LP: 0.03687167167663574 seconds
+# Total time for SP: 0.3069033622741699 seconds
  ********************* LP SOLUTION 13 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -855,12 +855,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4923.052631578947
-Time for MP_13: 0.004072904586791992 seconds
+Time for MP_13: 0.004998683929443359 seconds
  ********************* END LP SOLUTION 13 *********************
 Number of Better Lofs is: 21
-Time for SP_14: 0.01917886734008789 seconds
-# Total time for LP: 0.0440981388092041 seconds
-# Total time for SP: 0.3253052234649658 seconds
+Time for SP_14: 0.020000696182250977 seconds
+# Total time for LP: 0.0418703556060791 seconds
+# Total time for SP: 0.3269040584564209 seconds
  ********************* LP SOLUTION 14 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -887,12 +887,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4783.333333333334
-Time for MP_14: 0.004335641860961914 seconds
+Time for MP_14: 0.005001544952392578 seconds
  ********************* END LP SOLUTION 14 *********************
 Number of Better Lofs is: 22
-Time for SP_15: 0.019786357879638672 seconds
-# Total time for LP: 0.048433780670166016 seconds
-# Total time for SP: 0.3450915813446045 seconds
+Time for SP_15: 0.020350933074951172 seconds
+# Total time for LP: 0.04687190055847168 seconds
+# Total time for SP: 0.34725499153137207 seconds
  ********************* LP SOLUTION 15 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -919,12 +919,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4573.0
-Time for MP_15: 0.004003047943115234 seconds
+Time for MP_15: 0.00417327880859375 seconds
  ********************* END LP SOLUTION 15 *********************
 Number of Better Lofs is: 21
-Time for SP_16: 0.021364927291870117 seconds
-# Total time for LP: 0.05243682861328125 seconds
-# Total time for SP: 0.3664565086364746 seconds
+Time for SP_16: 0.022422313690185547 seconds
+# Total time for LP: 0.05104517936706543 seconds
+# Total time for SP: 0.3696773052215576 seconds
  ********************* LP SOLUTION 16 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -951,12 +951,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4423.0
-Time for MP_16: 0.005280733108520508 seconds
+Time for MP_16: 0.005099058151245117 seconds
  ********************* END LP SOLUTION 16 *********************
 Number of Better Lofs is: 20
-Time for SP_17: 0.023232221603393555 seconds
-# Total time for LP: 0.05771756172180176 seconds
-# Total time for SP: 0.38968873023986816 seconds
+Time for SP_17: 0.02428293228149414 seconds
+# Total time for LP: 0.05614423751831055 seconds
+# Total time for SP: 0.39396023750305176 seconds
  ********************* LP SOLUTION 17 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -983,12 +983,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4399.0
-Time for MP_17: 0.004477739334106445 seconds
+Time for MP_17: 0.007023334503173828 seconds
  ********************* END LP SOLUTION 17 *********************
 Number of Better Lofs is: 19
-Time for SP_18: 0.021930694580078125 seconds
-# Total time for LP: 0.0621953010559082 seconds
-# Total time for SP: 0.4116194248199463 seconds
+Time for SP_18: 0.019639015197753906 seconds
+# Total time for LP: 0.06316757202148438 seconds
+# Total time for SP: 0.41359925270080566 seconds
  ********************* LP SOLUTION 18 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1015,12 +1015,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4399.0
-Time for MP_18: 0.005175113677978516 seconds
+Time for MP_18: 0.004536867141723633 seconds
  ********************* END LP SOLUTION 18 *********************
 Number of Better Lofs is: 16
-Time for SP_19: 0.02165079116821289 seconds
-# Total time for LP: 0.06737041473388672 seconds
-# Total time for SP: 0.4332702159881592 seconds
+Time for SP_19: 0.022002696990966797 seconds
+# Total time for LP: 0.06770443916320801 seconds
+# Total time for SP: 0.43560194969177246 seconds
  ********************* LP SOLUTION 19 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1047,12 +1047,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_19: 0.004572629928588867 seconds
+Time for MP_19: 0.003999471664428711 seconds
  ********************* END LP SOLUTION 19 *********************
 Number of Better Lofs is: 16
-Time for SP_20: 0.022145509719848633 seconds
-# Total time for LP: 0.07194304466247559 seconds
-# Total time for SP: 0.4554157257080078 seconds
+Time for SP_20: 0.023540496826171875 seconds
+# Total time for LP: 0.07170391082763672 seconds
+# Total time for SP: 0.45914244651794434 seconds
  ********************* LP SOLUTION 20 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1079,12 +1079,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_20: 0.004809856414794922 seconds
+Time for MP_20: 0.004999637603759766 seconds
  ********************* END LP SOLUTION 20 *********************
 Number of Better Lofs is: 13
-Time for SP_21: 0.024062395095825195 seconds
-# Total time for LP: 0.07675290107727051 seconds
-# Total time for SP: 0.479478120803833 seconds
+Time for SP_21: 0.022999286651611328 seconds
+# Total time for LP: 0.07670354843139648 seconds
+# Total time for SP: 0.48214173316955566 seconds
  ********************* LP SOLUTION 21 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1111,12 +1111,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_21: 0.004405021667480469 seconds
+Time for MP_21: 0.005000114440917969 seconds
  ********************* END LP SOLUTION 21 *********************
 Number of Better Lofs is: 6
-Time for SP_22: 0.023684263229370117 seconds
-# Total time for LP: 0.08115792274475098 seconds
-# Total time for SP: 0.5031623840332031 seconds
+Time for SP_22: 0.023946046829223633 seconds
+# Total time for LP: 0.08170366287231445 seconds
+# Total time for SP: 0.5060877799987793 seconds
  ********************* LP SOLUTION 22 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1143,12 +1143,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_22: 0.0047338008880615234 seconds
+Time for MP_22: 0.00473475456237793 seconds
  ********************* END LP SOLUTION 22 *********************
 Number of Better Lofs is: 4
-Time for SP_23: 0.023104190826416016 seconds
-# Total time for LP: 0.0858917236328125 seconds
-# Total time for SP: 0.5262665748596191 seconds
+Time for SP_23: 0.023209333419799805 seconds
+# Total time for LP: 0.08643841743469238 seconds
+# Total time for SP: 0.5292971134185791 seconds
  ********************* LP SOLUTION 23 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1175,12 +1175,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_23: 0.004956960678100586 seconds
+Time for MP_23: 0.005005598068237305 seconds
  ********************* END LP SOLUTION 23 *********************
 Number of Better Lofs is: 2
-Time for SP_24: 0.02603912353515625 seconds
-# Total time for LP: 0.09084868431091309 seconds
-# Total time for SP: 0.5523056983947754 seconds
+Time for SP_24: 0.026485681533813477 seconds
+# Total time for LP: 0.09144401550292969 seconds
+# Total time for SP: 0.5557827949523926 seconds
  ********************* LP SOLUTION 24 *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1207,12 +1207,12 @@ Number of selection constraint is: 12
 Number of cover constraint is: 95
 Solution status: 2
 Optimal value: 4364.0
-Time for MP_24: 0.004801273345947266 seconds
+Time for MP_24: 0.0044138431549072266 seconds
  ********************* END LP SOLUTION 24 *********************
 Number of Better Lofs is: 0
-Time for SP_25: 0.026518583297729492 seconds
-# Total time for LP: 0.09564995765686035 seconds
-# Total time for SP: 0.5788242816925049 seconds
+Time for SP_25: 0.026512622833251953 seconds
+# Total time for LP: 0.09585785865783691 seconds
+# Total time for SP: 0.5822954177856445 seconds
  ********************* FINAL IP SOLUTION *********************
 Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
@@ -1781,7 +1781,7 @@ OAr Wed Jul 25 12:10:00 2012
 
 *****************************
 ************ LOF ************
-Lof ID is 84
+Lof ID is 86
 Tail MA168N
 LUY Mon Jul 23 20:40:00 2012
 NUC Wed Jul 25 19:59:00 2012
@@ -2296,7 +2296,7 @@ OAr Wed Jul 25 08:10:00 2012
 *****************************
 
  ********************* END FINAL IP SOLUTION *********************
-Time for IP_: 0.015317201614379883 seconds
+Time for IP_: 0.01482534408569336 seconds
 test for upda
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
@@ -3229,7 +3229,7 @@ ODp Wed Jul 25 04:50:00 2012
 OAr Wed Jul 25 08:10:00 2012
 
 Total number of connection of leg network: 1024
-total run time is 0.7380506992340088 seconds
+total run time is 0.741330623626709 seconds
 remove previous output file
 
 Canceled flights are
