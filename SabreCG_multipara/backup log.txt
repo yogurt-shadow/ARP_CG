@@ -1,0 +1,35 @@
+20160311
+把newaount改成Util的静态成员变量
+写文件记录不同newamount的结果
+
+多线程
+backup before写文件记录不同newamount, thread number
+
+20161228
+backup after fix possible cycle problem
+before remove _accDelay, _accDual, _delay to Leg, for efficiency
+
+20161227
+add _accDelay, _accDual, _delay to Leg, for debuging
+backup before fix the big hole: possible cycle
+
+20161226
+backup after testing on 'real' data
+BUG found, in Schedule.cpp, connecting neiboring maint and maint
+	//&& _legList[i]->getAircraft() == _legList[i]->getAircraft())	//BUG found here, corrected 20161226
+	&& _legList[i]->getAircraft() == _legList[j]->getAircraft())
+UPDATED, Model.cpp, edgeProcessMaintMaint
+
+20161222
+backup before adding class schedule
+after complete column generation cycle
+
+20161221
+backup before complete column generation cycle
+after adding master problem
+
+20161220
+backup before adding master problem
+
+20161219
+backup before saving lofs

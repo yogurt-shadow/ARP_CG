@@ -1,0 +1,4 @@
+E:\Sabre\Scenarios\Scn5\Input\
+threadSize	newamount	LP Obj Val	IP Obj Val	LP Time		SP Time		IP Time		Run Time	#CG Iteration	#Lof Var
+2		1		1010		1010		0		0		0		0		13		119
+2		2		1010		1010		0		0		0		0		8		145

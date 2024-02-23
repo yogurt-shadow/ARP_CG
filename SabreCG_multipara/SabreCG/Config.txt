@@ -1,0 +1,4 @@
+INPUT_DIRECTORY  E:\Sabre\Scenarios\Scn2\Input
+OUTPUT_DIRECTORY  E:\Sabre\Scenarios\Scn2\Output
+TEAM_NAME TOBUv2
+END

@@ -1,0 +1,2791 @@
+threshold -0.0001
+LP by barrier
+Ò»Ìå»ú
+SubNode by vector
+initialized by original plan
+display dual of canceled flight
+
+input_dir is E:\QXW_file\Sabre\Scenarios\Scn1\input\
+output_dir is E:\QXW_file\Sabre\Scenarios\Scn1\output\
+********************* Number of Aircraft Departured *********************
+number of aircraft departured from station MIL is 1
+number of aircraft departured from station XEM is 4
+number of aircraft departured from station NUC is 3
+number of aircraft departured from station KFJ is 0
+number of aircraft departured from station JIT is 1
+number of aircraft departured from station XAL is 1
+number of aircraft departured from station YTM is 0
+number of aircraft departured from station LUY is 1
+number of aircraft departured from station SCC is 1
+number of aircraft departured from station GOB is 0
+number of aircraft departured from station OCM is 0
+number of aircraft departured from station VAH is 0
+number of aircraft departured from station DIM is 0
+number of aircraft departured from station RVP is 0
+number of aircraft departured from station ASV is 0
+number of aircraft departured from station LDG is 0
+number of aircraft departured from station OJS is 0
+number of aircraft departured from station DJS is 0
+number of aircraft departured from station OMH is 0
+number of aircraft departured from station SAL is 0
+number of aircraft departured from station LUC is 0
+number of aircraft departured from station UUC is 0
+number of aircraft departured from station TZM is 0
+number of aircraft departured from station AIM is 0
+number of aircraft departured from station URG is 0
+********************* END PRINTING *********************
+Ready to go!
+****** Total Number of Airports is 25 ******
+Station MIL Id 0
+Station XEM Id 1
+Station NUC Id 2
+Station KFJ Id 3
+Station JIT Id 4
+Station XAL Id 5
+Station YTM Id 6
+Station LUY Id 7
+Station SCC Id 8
+Station GOB Id 9
+Station OCM Id 10
+Station VAH Id 11
+Station DIM Id 12
+Station RVP Id 13
+Station ASV Id 14
+Station LDG Id 15
+Station OJS Id 16
+Station DJS Id 17
+Station OMH Id 18
+Station SAL Id 19
+Station LUC Id 20
+Station UUC Id 21
+Station TZM Id 22
+Station AIM Id 23
+Station URG Id 24
+****** Total Number of Aircraft is 12 ******
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+******* Total Number of Maints is 0 *******
+******* Total Number of Flights is 95 ******* 
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+############## TOTAL CONNECTION 1024 ###############
+Number of Initial Lofs is 8
+
+###### initial Lofs have been generated ######
+ ********************* LP SOLUTION 0 *********************
+Tried aggregator 1 time.
+LP Presolve eliminated 107 rows and 104 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.03 ticks)
+Barrier time = 0.00 sec. (0.04 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.04 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 8
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 24000
+ ********************* END LP SOLUTION 0 *********************
+
+reduced cost by subproblem aircraft 0 is: -7996
+reduced cost by subproblem aircraft 1 is: -7992
+reduced cost by subproblem aircraft 2 is: -8496
+reduced cost by subproblem aircraft 3 is: -8800
+reduced cost by subproblem aircraft 4 is: -7394
+reduced cost by subproblem aircraft 5 is: -9438
+reduced cost by subproblem aircraft 6 is: -8646
+reduced cost by subproblem aircraft 7 is: -7042
+reduced cost by subproblem aircraft 8 is: -8689
+reduced cost by subproblem aircraft 9 is: -7639
+reduced cost by subproblem aircraft 10 is: -8789
+reduced cost by subproblem aircraft 11 is: -7992
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 1 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 63 rows and 60 columns.
+Reduced LP has 44 rows, 56 columns, and 196 nonzeros.
+Presolve time = 0.00 sec. (0.06 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 353
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.02 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 44
+  Integer space required    = 79
+  Total non-zeros in factor = 439
+  Total FP ops to factor    = 5087
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  3.0927000e+005  1.7196528e+004 1.97e+003 1.06e+003 3.28e+001 1.00e+000
+   1  2.6669528e+004  1.7649333e+004 6.08e+001 3.29e+001 3.25e-003 1.94e+000
+   2  2.4498023e+004  2.2140969e+004 1.65e+001 8.92e+000 8.39e-004 1.05e-001
+   3  2.3784515e+004  2.3215850e+004 5.59e+000 3.03e+000 1.36e-004 1.66e-001
+   4  2.3591154e+004  2.3578005e+004 2.48e-001 1.34e-001 1.55e-006 1.43e+001
+   5  2.3583999e+004  2.3583997e+004 4.21e-005 2.28e-005 1.68e-010 2.33e+004
+   6  2.3584000e+004  2.3584000e+004 5.67e-009 3.07e-009 5.19e-011 1.47e+008
+Barrier time = 0.01 sec. (0.29 ticks)
+
+Total time on 4 threads = 0.01 sec. (0.29 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 20
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 23584
+ ********************* END LP SOLUTION 1 *********************
+
+reduced cost by subproblem aircraft 0 is: -5527.35
+reduced cost by subproblem aircraft 1 is: -5356.58
+reduced cost by subproblem aircraft 2 is: -7004
+reduced cost by subproblem aircraft 3 is: -7042
+reduced cost by subproblem aircraft 4 is: -5648
+reduced cost by subproblem aircraft 5 is: -1402
+reduced cost by subproblem aircraft 6 is: -6450.93
+reduced cost by subproblem aircraft 7 is: -5337
+reduced cost by subproblem aircraft 8 is: -6683.77
+reduced cost by subproblem aircraft 9 is: -5580.14
+reduced cost by subproblem aircraft 10 is: -3001
+reduced cost by subproblem aircraft 11 is: -6344
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 2 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 33 rows and 35 columns.
+Reduced LP has 74 rows, 93 columns, and 361 nonzeros.
+Presolve time = 0.02 sec. (0.08 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 756
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.04 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 74
+  Integer space required    = 193
+  Total non-zeros in factor = 1248
+  Total FP ops to factor    = 25726
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  4.5823000e+005  1.2361600e+004 3.65e+003 1.75e+003 8.05e+003 1.00e+000
+   1  3.3335579e+005  3.9038357e+003 2.65e+003 1.27e+003 2.36e+003 2.11e-003
+   2  2.0648604e+005 -5.2492998e+003 1.67e+003 8.01e+002 6.39e+002 1.07e-003
+   3  4.0667700e+004 -4.3354141e+003 2.94e+002 1.41e+002 5.83e+002 1.34e-003
+   4  2.3779922e+004  5.6952375e+003 1.08e+002 5.18e+001 2.64e+002 3.01e-003
+   5  1.9473337e+004  1.3743687e+004 1.94e+001 9.29e+000 9.84e+001 8.46e-003
+   6  1.7536316e+004  1.7316089e+004 5.46e-001 2.61e-001 4.29e+000 2.64e-001
+   7  1.7462019e+004  1.7461985e+004 1.36e-004 6.50e-005 4.40e-004 5.28e+003
+   8  1.7462000e+004  1.7462000e+004 1.75e-008 8.39e-009 4.41e-008 4.19e+007
+Barrier time = 0.02 sec. (0.60 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.60 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 32
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 17462
+ ********************* END LP SOLUTION 2 *********************
+
+reduced cost by subproblem aircraft 0 is: -4168.28
+reduced cost by subproblem aircraft 1 is: -4748.84
+reduced cost by subproblem aircraft 2 is: -5908.56
+reduced cost by subproblem aircraft 3 is: -6299.69
+reduced cost by subproblem aircraft 4 is: -4945.67
+reduced cost by subproblem aircraft 5 is: -5962.3
+reduced cost by subproblem aircraft 6 is: -4093.12
+reduced cost by subproblem aircraft 7 is: -5158.72
+reduced cost by subproblem aircraft 8 is: -5258.14
+reduced cost by subproblem aircraft 9 is: -4992.51
+reduced cost by subproblem aircraft 10 is: -2213.48
+reduced cost by subproblem aircraft 11 is: -4505.24
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 3 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 25 rows and 27 columns.
+Reduced LP has 82 rows, 113 columns, and 486 nonzeros.
+Presolve time = 0.00 sec. (0.09 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 957
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 82
+  Integer space required    = 238
+  Total non-zeros in factor = 1530
+  Total FP ops to factor    = 35062
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  6.2228000e+005  1.1500000e+004 4.89e+003 2.13e+003 8.04e+003 1.00e+000
+   1  4.3097166e+005  5.7206595e+003 3.38e+003 1.47e+003 2.88e+003 3.36e-003
+   2  3.2265652e+005 -5.1088006e+003 2.55e+003 1.11e+003 7.24e+002 1.45e-003
+   3  3.8556540e+004 -4.2754131e+003 2.89e+002 1.26e+002 6.41e+002 1.79e-003
+   4  1.8174307e+004  7.7935769e+003 7.94e+001 3.46e+001 1.16e+002 1.15e-002
+   5  1.2306877e+004  1.0697609e+004 5.69e+000 2.47e+000 3.29e+001 4.16e-002
+   6  1.1867218e+004  1.1864306e+004 1.43e-002 6.23e-003 5.07e-002 2.85e+001
+   7  1.1866000e+004  1.1866000e+004 2.34e-006 1.02e-006 6.12e-006 4.12e+005
+   8  1.1866000e+004  1.1866000e+004 2.76e-010 1.19e-010 1.41e-009 4.32e+009
+Barrier time = 0.00 sec. (0.65 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.65 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 44
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 11866
+ ********************* END LP SOLUTION 3 *********************
+
+reduced cost by subproblem aircraft 0 is: -3771.93
+reduced cost by subproblem aircraft 1 is: -3948.53
+reduced cost by subproblem aircraft 2 is: -4453.84
+reduced cost by subproblem aircraft 3 is: -4199.3
+reduced cost by subproblem aircraft 4 is: -3506.24
+reduced cost by subproblem aircraft 5 is: -4432.71
+reduced cost by subproblem aircraft 6 is: -3718.47
+reduced cost by subproblem aircraft 7 is: -4762.51
+reduced cost by subproblem aircraft 8 is: -3743.19
+reduced cost by subproblem aircraft 9 is: -3137.27
+reduced cost by subproblem aircraft 10 is: -762.589
+reduced cost by subproblem aircraft 11 is: -3942.81
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 4 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 21 rows and 23 columns.
+Reduced LP has 86 rows, 129 columns, and 584 nonzeros.
+Presolve time = 0.00 sec. (0.10 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1093
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 86
+  Integer space required    = 284
+  Total non-zeros in factor = 1763
+  Total FP ops to factor    = 44277
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  7.0708000e+005  9.8360000e+003 5.86e+003 2.43e+003 8.04e+003 1.00e+000
+   1  4.8397705e+005  4.4282987e+003 4.01e+003 1.66e+003 3.29e+003 3.67e-003
+   2  4.1568427e+005  4.2086429e+003 3.45e+003 1.43e+003 3.11e+003 3.90e-003
+   3  3.4515541e+005  4.1094877e+003 2.87e+003 1.19e+003 3.07e+003 3.89e-003
+   4  4.4349205e+005  2.3548946e+003 3.75e+003 1.55e+003 3.35e+003 2.71e-003
+   5  3.5001741e+005 -1.1536423e+004 2.99e+003 1.24e+003 8.54e+002 1.53e-003
+   6  3.8111730e+004 -6.0101267e+003 3.50e+002 1.45e+002 2.78e+002 5.22e-003
+   7  3.1231182e+004  1.1236676e+003 2.63e+002 1.09e+002 1.57e+002 8.07e-003
+   8  1.5885137e+004  6.6035315e+003 6.93e+001 2.87e+001 6.44e+001 1.60e-002
+   9  1.3558911e+004  9.3198822e+003 2.74e+001 1.14e+001 3.22e+001 3.07e-002
+  10  1.1969189e+004  1.1699265e+004 2.25e+000 9.33e-001 1.63e+000 9.74e-001
+  11  1.1866072e+004  1.1865858e+004 9.37e-004 3.89e-004 1.68e-003 8.97e+002
+  12  1.1866000e+004  1.1866000e+004 1.32e-007 5.47e-008 1.68e-007 9.24e+006
+Barrier time = 0.02 sec. (1.01 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.01 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 56
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 11866
+ ********************* END LP SOLUTION 4 *********************
+
+reduced cost by subproblem aircraft 0 is: -4319.28
+reduced cost by subproblem aircraft 1 is: -4518.61
+reduced cost by subproblem aircraft 2 is: -4959.24
+reduced cost by subproblem aircraft 3 is: -4627.6
+reduced cost by subproblem aircraft 4 is: -4016.76
+reduced cost by subproblem aircraft 5 is: -5308.76
+reduced cost by subproblem aircraft 6 is: -5128.36
+reduced cost by subproblem aircraft 7 is: -5136.34
+reduced cost by subproblem aircraft 8 is: -4018.04
+reduced cost by subproblem aircraft 9 is: -3482.12
+reduced cost by subproblem aircraft 10 is: -1334.27
+reduced cost by subproblem aircraft 11 is: -4040.92
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 5 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 19 rows and 21 columns.
+Reduced LP has 88 rows, 143 columns, and 700 nonzeros.
+Presolve time = 0.00 sec. (0.11 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1242
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.06 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 88
+  Integer space required    = 331
+  Total non-zeros in factor = 1994
+  Total FP ops to factor    = 56678
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  7.6276000e+005  9.7800000e+003 7.02e+003 2.70e+003 8.04e+003 1.00e+000
+   1  5.2664969e+005  4.7817937e+003 4.85e+003 1.86e+003 3.36e+003 4.34e-003
+   2  4.1109081e+005 -1.2590801e+004 3.82e+003 1.47e+003 8.57e+002 1.71e-003
+   3  5.4875600e+004 -8.0863665e+003 5.73e+002 2.20e+002 3.02e+001 1.44e-002
+   4  1.8885250e+004 -1.9164079e+003 1.36e+002 5.23e+001 1.84e+001 1.93e-002
+   5  1.6693148e+004  4.4422898e+003 7.42e+001 2.85e+001 1.11e+001 2.40e-002
+   6  1.3618648e+004  9.1109851e+003 2.72e+001 1.04e+001 4.10e+000 5.47e-002
+   7  1.2216367e+004  1.1396323e+004 6.28e+000 2.41e+000 6.09e-001 3.32e-001
+   8  1.1867395e+004  1.1864844e+004 2.11e-002 8.12e-003 1.78e-003 1.22e+002
+   9  1.1866000e+004  1.1866000e+004 3.25e-006 1.25e-006 2.32e-007 6.65e+005
+  10  1.1866000e+004  1.1866000e+004 3.69e-010 1.43e-010 2.42e-010 5.40e+009
+Barrier time = 0.01 sec. (0.97 ticks)
+
+Total time on 4 threads = 0.01 sec. (0.97 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 68
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 11866
+ ********************* END LP SOLUTION 5 *********************
+
+reduced cost by subproblem aircraft 0 is: -3215.87
+reduced cost by subproblem aircraft 1 is: -3741.71
+reduced cost by subproblem aircraft 2 is: -3736.76
+reduced cost by subproblem aircraft 3 is: -3829.47
+reduced cost by subproblem aircraft 4 is: -3033.81
+reduced cost by subproblem aircraft 5 is: -3868.13
+reduced cost by subproblem aircraft 6 is: -4093.28
+reduced cost by subproblem aircraft 7 is: -3903.59
+reduced cost by subproblem aircraft 8 is: -3298.54
+reduced cost by subproblem aircraft 9 is: -3051.33
+reduced cost by subproblem aircraft 10 is: -145.684
+reduced cost by subproblem aircraft 11 is: -3768.39
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 6 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 12 columns.
+Reduced LP has 97 rows, 164 columns, and 811 nonzeros.
+Presolve time = 0.02 sec. (0.13 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1405
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.07 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 97
+  Integer space required    = 327
+  Total non-zeros in factor = 2380
+  Total FP ops to factor    = 76066
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  9.1990000e+005  2.8764350e+003 8.13e+003 3.12e+003 2.35e+001 1.00e+000
+   1  4.0872689e+004  3.0862210e+003 3.35e+002 1.28e+002 2.34e-003 3.43e+000
+   2  3.7461113e+004  2.6283749e+003 3.06e+002 1.17e+002 7.48e-004 3.56e-002
+   3  1.5317517e+004  5.4223635e+003 9.13e+001 3.50e+001 1.09e-004 5.60e-002
+   4  1.1307355e+004  7.0905217e+003 3.77e+001 1.45e+001 4.95e-005 8.87e-002
+   5  1.0516808e+004  8.2892069e+003 2.39e+001 9.14e+000 2.08e-005 1.70e-001
+   6  1.0116961e+004  8.5740070e+003 1.82e+001 6.97e+000 9.88e-006 3.66e-001
+   7  9.7186832e+003  8.8063555e+003 1.07e+001 4.11e+000 5.89e-006 5.22e-001
+   8  9.2735732e+003  9.1252966e+003 1.88e+000 7.20e-001 8.52e-007 1.88e+000
+   9  9.2160390e+003  9.2159620e+003 1.52e-003 5.82e-004 3.28e-010 7.23e+003
+  10  9.2160000e+003  9.2160000e+003 1.94e-007 7.43e-008 7.58e-011 2.18e+007
+Barrier time = 0.02 sec. (1.09 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.09 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 80
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 9216
+ ********************* END LP SOLUTION 6 *********************
+
+reduced cost by subproblem aircraft 0 is: -4495.8
+reduced cost by subproblem aircraft 1 is: -4441.49
+reduced cost by subproblem aircraft 2 is: -4647.27
+reduced cost by subproblem aircraft 3 is: -4976.12
+reduced cost by subproblem aircraft 4 is: -4592.44
+reduced cost by subproblem aircraft 5 is: -5279.83
+reduced cost by subproblem aircraft 6 is: -4778.67
+reduced cost by subproblem aircraft 7 is: -4700.28
+reduced cost by subproblem aircraft 8 is: -2753.14
+reduced cost by subproblem aircraft 9 is: -3949.04
+reduced cost by subproblem aircraft 10 is: -4783.37
+reduced cost by subproblem aircraft 11 is: -4687.5
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 7 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 12 columns.
+Reduced LP has 97 rows, 176 columns, and 939 nonzeros.
+Presolve time = 0.00 sec. (0.14 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1545
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.08 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 97
+  Integer space required    = 377
+  Total non-zeros in factor = 2483
+  Total FP ops to factor    = 86029
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.0115000e+006  2.8529030e+003 9.41e+003 3.34e+003 2.35e+001 1.00e+000
+   1  4.1148874e+004  3.0315571e+003 3.56e+002 1.26e+002 2.34e-003 3.36e+000
+   2  3.9189590e+004  1.7157841e+003 3.38e+002 1.20e+002 7.92e-004 4.07e-002
+   3  1.5618989e+004  4.7415189e+003 1.05e+002 3.73e+001 6.18e-005 1.44e-001
+   4  1.3742513e+004  5.6287637e+003 7.90e+001 2.81e+001 4.54e-005 1.19e-001
+   5  1.1778026e+004  6.4104150e+003 5.39e+001 1.92e+001 2.70e-005 1.24e-001
+   6  1.0695221e+004  7.1836020e+003 3.03e+001 1.08e+001 1.98e-005 1.19e-001
+   7  1.0248676e+004  7.8627153e+003 2.16e+001 7.68e+000 1.30e-005 1.54e-001
+   8  9.7720538e+003  8.7527118e+003 1.12e+001 3.99e+000 4.69e-006 3.87e-001
+   9  9.2873337e+003  9.1552410e+003 2.16e+000 7.67e-001 1.86e-007 6.72e+000
+  10  9.2166271e+003  9.2152449e+003 2.81e-002 9.97e-003 1.52e-009 2.35e+002
+  11  9.2160000e+003  9.2159998e+003 3.97e-006 1.41e-006 4.80e-011 1.18e+006
+  12  9.2160000e+003  9.2160000e+003 4.84e-010 1.72e-010 2.36e-009 8.73e+009
+Barrier time = 0.00 sec. (1.34 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.34 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 92
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 9216
+ ********************* END LP SOLUTION 7 *********************
+
+reduced cost by subproblem aircraft 0 is: -5133.2
+reduced cost by subproblem aircraft 1 is: -4493.71
+reduced cost by subproblem aircraft 2 is: -4777.24
+reduced cost by subproblem aircraft 3 is: -5400.22
+reduced cost by subproblem aircraft 4 is: -4710.8
+reduced cost by subproblem aircraft 5 is: -5695.91
+reduced cost by subproblem aircraft 6 is: -4799.34
+reduced cost by subproblem aircraft 7 is: -4444.99
+reduced cost by subproblem aircraft 8 is: -1266.9
+reduced cost by subproblem aircraft 9 is: -5007.45
+reduced cost by subproblem aircraft 10 is: -5319.63
+reduced cost by subproblem aircraft 11 is: -5357.48
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 8 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 8 rows and 10 columns.
+Reduced LP has 99 rows, 190 columns, and 1055 nonzeros.
+Presolve time = 0.00 sec. (0.15 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1676
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.08 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 99
+  Integer space required    = 366
+  Total non-zeros in factor = 2729
+  Total FP ops to factor    = 103023
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.1154800e+006  2.6927040e+003 1.06e+004 3.61e+003 3.19e+001 1.00e+000
+   1  5.5797151e+004  2.8980575e+003 5.03e+002 1.72e+002 3.16e-003 3.38e+000
+   2  4.2499951e+004  2.8485527e+003 3.77e+002 1.29e+002 2.08e-003 1.70e-001
+   3  3.1951454e+004  1.7524856e+003 2.81e+002 9.58e+001 7.36e-004 4.37e-002
+   4  1.4158870e+004  5.4430329e+003 9.11e+001 3.11e+001 3.20e-005 4.49e-001
+   5  1.0066898e+004  5.5189260e+003 4.74e+001 1.62e+001 1.94e-005 2.43e-001
+   6  8.7643971e+003  5.7753539e+003 3.08e+001 1.05e+001 1.34e-005 2.60e-001
+   7  8.2161186e+003  6.0233900e+003 2.19e+001 7.49e+000 1.03e-005 2.83e-001
+   8  7.8096203e+003  6.4366363e+003 1.49e+001 5.07e+000 5.77e-006 3.89e-001
+   9  7.2715678e+003  6.6822510e+003 3.95e+000 1.35e+000 3.55e-006 5.61e-001
+  10  7.1607119e+003  6.9966211e+003 1.11e+000 3.78e-001 9.88e-007 2.02e+000
+  11  7.1133471e+003  7.1049733e+003 9.78e-002 3.34e-002 3.34e-008 6.02e+001
+  12  7.1090347e+003  7.1089680e+003 1.05e-003 3.59e-004 1.99e-010 7.21e+003
+  13  7.1090000e+003  7.1090000e+003 1.39e-007 4.73e-008 4.25e-011 4.17e+007
+Barrier time = 0.02 sec. (1.56 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.56 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 104
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 7109
+ ********************* END LP SOLUTION 8 *********************
+
+reduced cost by subproblem aircraft 0 is: -3953.5
+reduced cost by subproblem aircraft 1 is: -4617.74
+reduced cost by subproblem aircraft 2 is: -4857
+reduced cost by subproblem aircraft 3 is: -5021.52
+reduced cost by subproblem aircraft 4 is: -4930.52
+reduced cost by subproblem aircraft 5 is: -4829.97
+reduced cost by subproblem aircraft 6 is: -4595.52
+reduced cost by subproblem aircraft 7 is: -3925
+reduced cost by subproblem aircraft 8 is: -1241.8
+reduced cost by subproblem aircraft 9 is: -4480.52
+reduced cost by subproblem aircraft 10 is: -4967.69
+reduced cost by subproblem aircraft 11 is: -4613.05
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 9 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 8 rows and 10 columns.
+Reduced LP has 99 rows, 202 columns, and 1165 nonzeros.
+Presolve time = 0.00 sec. (0.26 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1736
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.09 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 99
+  Integer space required    = 355
+  Total non-zeros in factor = 2729
+  Total FP ops to factor    = 100207
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.1796300e+006  2.6608320e+003 1.17e+004 3.84e+003 3.19e+001 1.00e+000
+   1  5.1461161e+004  2.8617303e+003 4.82e+002 1.58e+002 3.16e-003 3.41e+000
+   2  4.0160495e+004  2.9092075e+003 3.70e+002 1.22e+002 1.90e-003 2.01e-001
+   3  3.0047084e+004  1.8000000e+003 2.74e+002 9.02e+001 7.84e-004 5.48e-002
+   4  1.1788997e+004  4.3572388e+003 7.40e+001 2.43e+001 1.66e-004 2.29e-001
+   5  8.6118663e+003  4.7714564e+003 3.87e+001 1.27e+001 7.68e-005 2.58e-001
+   6  7.1605196e+003  5.1044361e+003 2.14e+001 7.03e+000 3.40e-005 4.16e-001
+   7  5.7891023e+003  5.4883076e+003 2.41e+000 7.93e-001 8.43e-006 1.42e+000
+   8  5.6443177e+003  5.6210301e+003 2.60e-002 8.55e-003 1.19e-006 1.01e+001
+   9  5.6427191e+003  5.6426788e+003 3.94e-005 1.30e-005 2.10e-009 5.94e+003
+  10  5.6427143e+003  5.6427143e+003 5.76e-008 1.89e-008 2.91e-010 6.12e+007
+Barrier time = 0.02 sec. (1.45 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.45 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 116
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5642.71
+ ********************* END LP SOLUTION 9 *********************
+
+reduced cost by subproblem aircraft 0 is: -1621.21
+reduced cost by subproblem aircraft 1 is: -1428.47
+reduced cost by subproblem aircraft 2 is: -1542.91
+reduced cost by subproblem aircraft 3 is: -1957.46
+reduced cost by subproblem aircraft 4 is: -1433.44
+reduced cost by subproblem aircraft 5 is: -1727.51
+reduced cost by subproblem aircraft 6 is: -1559.71
+reduced cost by subproblem aircraft 7 is: -1351.62
+reduced cost by subproblem aircraft 8 is: -1842.93
+reduced cost by subproblem aircraft 9 is: -1574.85
+reduced cost by subproblem aircraft 10 is: -1790.21
+reduced cost by subproblem aircraft 11 is: -1892.17
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 10 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 6 columns.
+Reduced LP has 103 rows, 218 columns, and 1256 nonzeros.
+Presolve time = 0.00 sec. (0.29 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1844
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.02 sec. (0.09 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 103
+  Integer space required    = 316
+  Total non-zeros in factor = 3169
+  Total FP ops to factor    = 131809
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.2643700e+006  1.0183360e+003 1.26e+004 4.14e+003 3.19e+001 1.00e+000
+   1  5.0516791e+004  1.2640288e+003 4.90e+002 1.61e+002 3.16e-003 3.52e+000
+   2  3.8812967e+004  7.9925238e+002 3.78e+002 1.25e+002 2.37e-003 1.16e-001
+   3  2.2681392e+004  2.3007640e+003 2.10e+002 6.92e+001 3.08e-004 8.75e-002
+   4  1.2384753e+004  3.3021157e+003 9.44e+001 3.11e+001 1.26e-004 1.18e-001
+   5  8.5982470e+003  4.1187200e+003 4.43e+001 1.46e+001 7.29e-005 1.77e-001
+   6  7.3360769e+003  4.7786874e+003 2.60e+001 8.55e+000 3.94e-005 2.89e-001
+   7  6.3953848e+003  4.9878537e+003 1.27e+001 4.19e+000 2.78e-005 3.87e-001
+   8  5.8248681e+003  5.3225695e+003 3.47e+000 1.14e+000 1.29e-005 8.09e-001
+   9  5.6578143e+003  5.5441024e+003 7.00e-001 2.31e-001 3.14e-006 3.48e+000
+  10  5.6133977e+003  5.5992797e+003 1.44e-002 4.73e-003 6.06e-007 1.82e+001
+  11  5.6123603e+003  5.6116605e+003 2.38e-003 7.84e-004 2.32e-008 7.43e+002
+  12  5.6120001e+003  5.6119999e+003 9.90e-007 3.26e-007 3.66e-011 6.42e+006
+  13  5.6120000e+003  5.6120000e+003 1.30e-010 4.06e-011 6.32e-011 2.21e+010
+Barrier time = 0.02 sec. (1.89 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.89 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 128
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5612
+ ********************* END LP SOLUTION 10 *********************
+
+reduced cost by subproblem aircraft 0 is: -1783.85
+reduced cost by subproblem aircraft 1 is: -1004.03
+reduced cost by subproblem aircraft 2 is: -938.513
+reduced cost by subproblem aircraft 3 is: -1880.37
+reduced cost by subproblem aircraft 4 is: -722.873
+reduced cost by subproblem aircraft 5 is: -1659.37
+reduced cost by subproblem aircraft 6 is: -1137.05
+reduced cost by subproblem aircraft 7 is: -1163.22
+reduced cost by subproblem aircraft 8 is: -576.574
+reduced cost by subproblem aircraft 9 is: -993.496
+reduced cost by subproblem aircraft 10 is: -1647.03
+reduced cost by subproblem aircraft 11 is: -1365.72
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 11 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 6 columns.
+Reduced LP has 103 rows, 230 columns, and 1357 nonzeros.
+Presolve time = 0.00 sec. (0.31 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 1932
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.10 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 103
+  Integer space required    = 407
+  Total non-zeros in factor = 3277
+  Total FP ops to factor    = 138741
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.2935700e+006  9.8646400e+002 1.36e+004 4.37e+003 3.19e+001 1.00e+000
+   1  5.3357054e+004  1.2148174e+003 5.48e+002 1.76e+002 3.16e-003 3.63e+000
+   2  4.7576005e+004  1.6343358e+003 4.86e+002 1.56e+002 1.51e-003 1.85e-001
+   3  2.9309244e+004  1.1537616e+002 3.01e+002 9.69e+001 3.59e-004 4.38e-002
+   4  1.2720665e+004  2.8838796e+003 1.02e+002 3.28e+001 1.16e-004 1.13e-001
+   5  8.8293840e+003  3.5845587e+003 5.48e+001 1.76e+001 5.97e-005 1.64e-001
+   6  6.9968616e+003  4.4363697e+003 2.73e+001 8.78e+000 2.78e-005 3.08e-001
+   7  6.3301431e+003  4.7019394e+003 1.76e+001 5.67e+000 1.70e-005 4.60e-001
+   8  5.6605663e+003  4.8855230e+003 7.03e+000 2.26e+000 1.09e-005 6.67e-001
+   9  5.2849387e+003  5.1945689e+003 8.82e-001 2.84e-001 1.15e-006 6.63e+000
+  10  5.2360876e+003  5.2359449e+003 1.52e-003 4.88e-004 1.68e-009 4.63e+003
+  11  5.2360000e+003  5.2360000e+003 2.13e-007 6.85e-008 5.55e-011 3.65e+007
+Barrier time = 0.00 sec. (1.83 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.83 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 140
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 5236
+ ********************* END LP SOLUTION 11 *********************
+
+reduced cost by subproblem aircraft 0 is: -831.879
+reduced cost by subproblem aircraft 1 is: -278.965
+reduced cost by subproblem aircraft 2 is: -201.677
+reduced cost by subproblem aircraft 3 is: -879.025
+reduced cost by subproblem aircraft 4 is: -268.224
+reduced cost by subproblem aircraft 5 is: -880.165
+reduced cost by subproblem aircraft 6 is: -251.056
+reduced cost by subproblem aircraft 7 is: -267.346
+reduced cost by subproblem aircraft 8 is: -452.151
+reduced cost by subproblem aircraft 9 is: -371.219
+reduced cost by subproblem aircraft 10 is: -822.066
+reduced cost by subproblem aircraft 11 is: -909.398
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 12 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 6 columns.
+Reduced LP has 103 rows, 242 columns, and 1464 nonzeros.
+Presolve time = 0.00 sec. (0.34 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2005
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 103
+  Integer space required    = 350
+  Total non-zeros in factor = 3504
+  Total FP ops to factor    = 160972
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.3265500e+006  9.5459200e+002 1.47e+004 4.60e+003 3.19e+001 1.00e+000
+   1  4.9411285e+004  1.1719081e+003 5.33e+002 1.67e+002 3.16e-003 3.72e+000
+   2  4.3663109e+004  1.7816148e+003 4.68e+002 1.47e+002 1.53e-003 3.01e-001
+   3  3.2766803e+004  2.4075854e+002 3.52e+002 1.10e+002 3.62e-004 5.03e-002
+   4  1.3482657e+004  3.5489124e+003 1.17e+002 3.67e+001 3.26e-005 2.50e-001
+   5  9.4831063e+003  3.6914139e+003 6.76e+001 2.12e+001 2.29e-005 2.73e-001
+   6  7.2462266e+003  3.9637537e+003 3.82e+001 1.20e+001 1.33e-005 3.31e-001
+   7  5.8099202e+003  4.4200815e+003 1.61e+001 5.05e+000 5.73e-006 5.12e-001
+   8  5.3760419e+003  4.6007338e+003 8.24e+000 2.58e+000 3.67e-006 7.60e-001
+   9  5.0105141e+003  4.9003902e+003 1.06e+000 3.31e-001 5.80e-007 4.82e+000
+  10  4.9554890e+003  4.9535406e+003 9.09e-003 2.85e-003 1.57e-008 1.78e+002
+  11  4.9550001e+003  4.9549999e+003 2.13e-006 6.69e-007 4.71e-011 2.06e+006
+  12  4.9550000e+003  4.9550000e+003 3.21e-010 9.73e-011 4.26e-011 1.98e+010
+Barrier time = 0.02 sec. (2.05 ticks)
+
+Total time on 4 threads = 0.02 sec. (2.05 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 152
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4955
+ ********************* END LP SOLUTION 12 *********************
+
+reduced cost by subproblem aircraft 0 is: -787
+reduced cost by subproblem aircraft 1 is: -678.973
+reduced cost by subproblem aircraft 2 is: -525.82
+reduced cost by subproblem aircraft 3 is: -887
+reduced cost by subproblem aircraft 4 is: -786.756
+reduced cost by subproblem aircraft 5 is: -781.478
+reduced cost by subproblem aircraft 6 is: -635.201
+reduced cost by subproblem aircraft 7 is: -559.973
+reduced cost by subproblem aircraft 8 is: -618.922
+reduced cost by subproblem aircraft 9 is: -838.503
+reduced cost by subproblem aircraft 10 is: -842.745
+reduced cost by subproblem aircraft 11 is: -899
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 13 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 6 columns.
+Reduced LP has 103 rows, 254 columns, and 1568 nonzeros.
+Presolve time = 0.00 sec. (0.36 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2057
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.11 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 103
+  Integer space required    = 406
+  Total non-zeros in factor = 3405
+  Total FP ops to factor    = 148929
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.3562100e+006  9.2272000e+002 1.57e+004 4.83e+003 3.19e+001 1.00e+000
+   1  4.8675352e+004  1.1429662e+003 5.51e+002 1.69e+002 3.16e-003 3.81e+000
+   2  3.2940313e+004  2.4651925e+002 3.77e+002 1.16e+002 1.89e-003 8.79e-002
+   3  2.0093423e+004  8.6831585e+002 2.19e+002 6.73e+001 1.31e-003 9.34e-002
+   4  1.2794882e+004  2.7893838e+003 1.21e+002 3.72e+001 4.53e-004 1.42e-001
+   5  7.7918596e+003  3.3860151e+003 5.02e+001 1.54e+001 2.67e-004 2.16e-001
+   6  5.2690079e+003  3.8869286e+003 1.32e+001 4.07e+000 1.30e-004 3.86e-001
+   7  4.5178644e+003  4.4430977e+003 2.00e-001 6.14e-002 1.33e-005 3.78e+000
+   8  4.5058765e+003  4.5052366e+003 4.89e-003 1.50e-003 7.22e-008 1.08e+003
+   9  4.5055001e+003  4.5055000e+003 9.70e-007 2.98e-007 3.42e-011 7.38e+006
+  10  4.5055000e+003  4.5055000e+003 1.84e-010 4.82e-011 4.05e-010 5.66e+010
+Barrier time = 0.02 sec. (1.87 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.87 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 164
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4505.5
+ ********************* END LP SOLUTION 13 *********************
+
+reduced cost by subproblem aircraft 0 is: -1066.13
+reduced cost by subproblem aircraft 1 is: -896.506
+reduced cost by subproblem aircraft 2 is: -1055.88
+reduced cost by subproblem aircraft 3 is: -1100.52
+reduced cost by subproblem aircraft 4 is: -923.709
+reduced cost by subproblem aircraft 5 is: -1224.6
+reduced cost by subproblem aircraft 6 is: -995.944
+reduced cost by subproblem aircraft 7 is: -950.914
+reduced cost by subproblem aircraft 8 is: -975.746
+reduced cost by subproblem aircraft 9 is: -894.121
+reduced cost by subproblem aircraft 10 is: -1068.44
+reduced cost by subproblem aircraft 11 is: -1254.87
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 14 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 268 columns, and 1644 nonzeros.
+Presolve time = 0.00 sec. (0.38 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2130
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.12 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 406
+  Total non-zeros in factor = 3502
+  Total FP ops to factor    = 153926
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.4235400e+006 -1.4112457e+005 1.65e+004 5.09e+003 6.37e+003 1.00e+000
+   1  1.0997035e+005 -4.8699012e+004 1.75e+003 5.43e+002 1.44e+002 5.23e-003
+   2  2.3692797e+004 -5.1726404e+003 3.13e+002 9.68e+001 2.73e+001 1.45e-002
+   3  1.1205509e+004  1.5726448e+003 1.08e+002 3.35e+001 8.44e+000 4.82e-002
+   4  7.0334841e+003  3.4134124e+003 4.12e+001 1.28e+001 3.08e+000 1.35e-001
+   5  4.7123677e+003  4.3368571e+003 3.60e+000 1.11e+000 4.38e-001 9.80e-001
+   6  4.5323612e+003  4.5046292e+003 4.71e-001 1.46e-001 1.69e-003 4.16e+002
+   7  4.5055036e+003  4.5054989e+003 8.12e-005 2.51e-005 1.69e-007 2.66e+005
+   8  4.5055000e+003  4.5055000e+003 8.99e-009 2.78e-009 5.94e-011 1.66e+009
+Barrier time = 0.02 sec. (1.72 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.72 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 176
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4505.5
+ ********************* END LP SOLUTION 14 *********************
+
+reduced cost by subproblem aircraft 0 is: -386.19
+reduced cost by subproblem aircraft 1 is: -246.311
+reduced cost by subproblem aircraft 2 is: -228.446
+reduced cost by subproblem aircraft 3 is: -388.042
+reduced cost by subproblem aircraft 4 is: -188.152
+reduced cost by subproblem aircraft 5 is: -410.196
+reduced cost by subproblem aircraft 6 is: -489.805
+reduced cost by subproblem aircraft 7 is: -224.079
+reduced cost by subproblem aircraft 8 is: -460.636
+reduced cost by subproblem aircraft 9 is: -389.087
+reduced cost by subproblem aircraft 10 is: -345.32
+reduced cost by subproblem aircraft 11 is: -383.71
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 15 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 280 columns, and 1736 nonzeros.
+Presolve time = 0.00 sec. (0.40 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2200
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.12 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 399
+  Total non-zeros in factor = 3700
+  Total FP ops to factor    = 170318
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.4351500e+006 -1.4226698e+005 1.74e+004 5.32e+003 6.14e+003 1.00e+000
+   1  1.1101358e+005 -5.0018557e+004 1.86e+003 5.71e+002 1.33e+002 5.65e-003
+   2  2.4846446e+004 -4.9207832e+003 3.56e+002 1.09e+002 2.32e+001 1.58e-002
+   3  1.1105556e+004  1.9692396e+003 1.17e+002 3.59e+001 5.93e+000 6.37e-002
+   4  6.4376491e+003  2.9096845e+003 3.72e+001 1.14e+001 3.50e+000 1.09e-001
+   5  4.9306948e+003  4.0432418e+003 8.15e+000 2.49e+000 1.02e+000 3.96e-001
+   6  4.6427443e+003  4.3501978e+003 2.73e+000 8.35e-001 3.31e-001 1.42e+000
+   7  4.5166398e+003  4.4827679e+003 3.81e-001 1.17e-001 3.03e-002 1.55e+001
+   8  4.4971467e+003  4.4958332e+003 2.18e-002 6.67e-003 3.02e-004 1.96e+003
+   9  4.4960001e+003  4.4959999e+003 3.28e-006 1.00e-006 3.43e-008 5.38e+006
+  10  4.4960000e+003  4.4960000e+003 4.06e-010 1.34e-010 4.48e-011 3.87e+010
+Barrier time = 0.02 sec. (2.05 ticks)
+
+Total time on 4 threads = 0.02 sec. (2.05 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 188
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4496
+ ********************* END LP SOLUTION 15 *********************
+
+reduced cost by subproblem aircraft 0 is: -206.784
+reduced cost by subproblem aircraft 1 is: -458.374
+reduced cost by subproblem aircraft 2 is: -216.632
+reduced cost by subproblem aircraft 3 is: -259.611
+reduced cost by subproblem aircraft 4 is: -321.482
+reduced cost by subproblem aircraft 5 is: -479.083
+reduced cost by subproblem aircraft 6 is: -456.791
+reduced cost by subproblem aircraft 7 is: -204.557
+reduced cost by subproblem aircraft 8 is: -252.658
+reduced cost by subproblem aircraft 9 is: -272.147
+reduced cost by subproblem aircraft 10 is: -357.358
+reduced cost by subproblem aircraft 11 is: -251.811
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 16 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 292 columns, and 1845 nonzeros.
+Presolve time = 0.00 sec. (0.43 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2256
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.13 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 401
+  Total non-zeros in factor = 3850
+  Total FP ops to factor    = 182730
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.4573900e+006 -1.4447756e+005 1.85e+004 5.55e+003 5.98e+003 1.00e+000
+   1  1.1605991e+005 -5.1225247e+004 2.03e+003 6.09e+002 1.27e+002 5.90e-003
+   2  2.6337064e+004 -4.8883481e+003 3.98e+002 1.20e+002 2.13e+001 1.64e-002
+   3  1.1648462e+004  2.0345515e+003 1.33e+002 4.01e+001 5.16e+000 6.94e-002
+   4  7.2302481e+003  2.9204615e+003 5.43e+001 1.63e+001 3.05e+000 1.18e-001
+   5  5.4360599e+003  4.0108626e+003 1.92e+001 5.78e+000 8.79e-001 4.16e-001
+   6  4.8201937e+003  4.2690791e+003 6.78e+000 2.04e+000 4.00e-001 9.16e-001
+   7  4.6399019e+003  4.4651594e+003 3.06e+000 9.20e-001 4.72e-002 1.06e+001
+   8  4.5432265e+003  4.4939682e+003 1.01e+000 3.03e-001 2.57e-003 1.77e+002
+   9  4.4961576e+003  4.4959556e+003 4.23e-003 1.27e-003 5.45e-006 7.29e+003
+  10  4.4960000e+003  4.4960000e+003 4.86e-007 1.46e-007 6.81e-010 3.63e+007
+Barrier time = 0.00 sec. (2.12 ticks)
+
+Total time on 4 threads = 0.00 sec. (2.12 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 200
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4496
+ ********************* END LP SOLUTION 16 *********************
+
+reduced cost by subproblem aircraft 0 is: -327.592
+reduced cost by subproblem aircraft 1 is: -125.577
+reduced cost by subproblem aircraft 2 is: -158.073
+reduced cost by subproblem aircraft 3 is: -141.023
+reduced cost by subproblem aircraft 4 is: -152
+reduced cost by subproblem aircraft 5 is: -563.401
+reduced cost by subproblem aircraft 6 is: -49.1996
+reduced cost by subproblem aircraft 7 is: -49.0058
+reduced cost by subproblem aircraft 8 is: -232.566
+reduced cost by subproblem aircraft 9 is: -102.866
+reduced cost by subproblem aircraft 10 is: -506.859
+reduced cost by subproblem aircraft 11 is: -147.797
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 17 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 304 columns, and 1939 nonzeros.
+Presolve time = 0.00 sec. (0.24 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2298
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.13 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 402
+  Total non-zeros in factor = 3959
+  Total FP ops to factor    = 195053
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.4794400e+006 -1.4667013e+005 1.94e+004 5.78e+003 5.83e+003 1.00e+000
+   1  1.1742865e+005 -5.2663958e+004 2.13e+003 6.35e+002 1.21e+002 6.23e-003
+   2  2.6186119e+004 -5.4750185e+003 4.14e+002 1.23e+002 2.06e+001 1.75e-002
+   3  1.2047109e+004  1.9730805e+003 1.48e+002 4.42e+001 4.66e+000 7.83e-002
+   4  7.2808254e+003  3.1561773e+003 5.82e+001 1.73e+001 2.19e+000 1.65e-001
+   5  5.0500995e+003  3.9713461e+003 1.34e+001 3.98e+000 7.38e-001 4.95e-001
+   6  4.5585234e+003  4.2518632e+003 2.67e+000 7.93e-001 2.92e-001 1.28e+000
+   7  4.4428886e+003  4.4059319e+003 2.09e-001 6.22e-002 4.38e-002 8.74e+000
+   8  4.4333886e+003  4.4308197e+003 1.48e-002 4.41e-003 3.02e-003 1.55e+002
+   9  4.4325004e+003  4.4324997e+003 6.27e-006 1.87e-006 5.93e-007 9.46e+005
+  10  4.4325000e+003  4.4325000e+003 6.34e-010 1.87e-010 1.07e-010 7.84e+009
+Barrier time = 0.00 sec. (1.78 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.78 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 212
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4432.5
+ ********************* END LP SOLUTION 17 *********************
+
+reduced cost by subproblem aircraft 0 is: -109.6
+reduced cost by subproblem aircraft 1 is: -78.8531
+reduced cost by subproblem aircraft 2 is: -54.5887
+reduced cost by subproblem aircraft 3 is: -205.6
+reduced cost by subproblem aircraft 4 is: -97.8588
+reduced cost by subproblem aircraft 5 is: -222.863
+reduced cost by subproblem aircraft 6 is: -118.888
+reduced cost by subproblem aircraft 7 is: -90.1635
+reduced cost by subproblem aircraft 8 is: 1.36424e-010
+reduced cost by subproblem aircraft 9 is: -155.373
+reduced cost by subproblem aircraft 10 is: -143.208
+reduced cost by subproblem aircraft 11 is: -69.2893
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 18 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 315 columns, and 2022 nonzeros.
+Presolve time = 0.00 sec. (0.25 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2336
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.13 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 409
+  Total non-zeros in factor = 3975
+  Total FP ops to factor    = 196077
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5089000e+006 -1.4960851e+005 2.02e+004 5.98e+003 5.74e+003 1.00e+000
+   1  1.3084670e+005 -5.3882265e+004 2.37e+003 7.01e+002 1.18e+002 6.31e-003
+   2  2.7078574e+004 -5.6254277e+003 4.39e+002 1.30e+002 1.88e+001 1.84e-002
+   3  1.1977680e+004  1.5139806e+003 1.50e+002 4.43e+001 5.11e+000 6.89e-002
+   4  7.4312454e+003  3.2366523e+003 6.16e+001 1.82e+001 1.90e+000 1.83e-001
+   5  4.9148359e+003  3.9595699e+003 1.11e+001 3.29e+000 6.77e-001 5.15e-001
+   6  4.5495997e+003  4.2360302e+003 2.55e+000 7.55e-001 2.88e-001 1.25e+000
+   7  4.4386048e+003  4.4047406e+003 1.17e-001 3.46e-002 4.16e-002 8.84e+000
+   8  4.4333034e+003  4.4316515e+003 1.07e-002 3.17e-003 1.66e-003 3.87e+002
+   9  4.4325002e+003  4.4324997e+003 2.18e-006 6.44e-007 5.57e-007 1.16e+006
+  10  4.4325000e+003  4.4325000e+003 2.55e-010 6.45e-011 1.08e-010 1.14e+010
+Barrier time = 0.00 sec. (1.82 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.82 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 223
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4432.5
+ ********************* END LP SOLUTION 18 *********************
+
+reduced cost by subproblem aircraft 0 is: -3.31966e-011
+reduced cost by subproblem aircraft 1 is: -62.6095
+reduced cost by subproblem aircraft 2 is: -52.5
+reduced cost by subproblem aircraft 3 is: -96
+reduced cost by subproblem aircraft 4 is: -58.5
+reduced cost by subproblem aircraft 5 is: -131.316
+reduced cost by subproblem aircraft 6 is: -102.688
+reduced cost by subproblem aircraft 7 is: -59.1053
+reduced cost by subproblem aircraft 8 is: 1.14824e-010
+reduced cost by subproblem aircraft 9 is: -34.773
+reduced cost by subproblem aircraft 10 is: -29.1338
+reduced cost by subproblem aircraft 11 is: -59.5
+Number of Better Lofs is 10
+
+ ********************* LP SOLUTION 19 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 325 columns, and 2110 nonzeros.
+Presolve time = 0.00 sec. (0.26 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2346
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.14 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 412
+  Total non-zeros in factor = 3981
+  Total FP ops to factor    = 196557
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5392900e+006 -1.5264214e+005 2.11e+004 6.17e+003 5.68e+003 1.00e+000
+   1  1.3768270e+005 -5.5112126e+004 2.53e+003 7.40e+002 1.16e+002 6.40e-003
+   2  2.9475490e+004 -6.3196113e+003 4.97e+002 1.45e+002 1.88e+001 1.88e-002
+   3  1.1386676e+004  9.7533161e+002 1.43e+002 4.17e+001 5.65e+000 6.45e-002
+   4  7.3369417e+003  2.8197896e+003 5.99e+001 1.75e+001 2.61e+000 1.41e-001
+   5  5.0693828e+003  3.9261502e+003 1.42e+001 4.16e+000 7.38e-001 5.20e-001
+   6  4.4866534e+003  4.3108631e+003 1.66e+000 4.87e-001 1.51e-001 2.75e+000
+   7  4.4337982e+003  4.3616172e+003 5.42e-001 1.58e-001 7.21e-002 6.13e+000
+   8  4.4099699e+003  4.3999748e+003 8.71e-002 2.55e-002 8.93e-003 6.56e+001
+   9  4.4050088e+003  4.4049887e+003 1.45e-004 4.23e-005 2.11e-005 2.79e+004
+  10  4.4050000e+003  4.4050000e+003 1.61e-008 4.71e-009 2.63e-009 2.65e+008
+Barrier time = 0.02 sec. (1.87 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.87 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 233
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4405
+ ********************* END LP SOLUTION 19 *********************
+
+reduced cost by subproblem aircraft 0 is: -43.0218
+reduced cost by subproblem aircraft 1 is: -10.7283
+reduced cost by subproblem aircraft 2 is: -6.31519e-009
+reduced cost by subproblem aircraft 3 is: -45.3964
+reduced cost by subproblem aircraft 4 is: -4.33583
+reduced cost by subproblem aircraft 5 is: -32.7572
+reduced cost by subproblem aircraft 6 is: -11.6104
+reduced cost by subproblem aircraft 7 is: -12.1171
+reduced cost by subproblem aircraft 8 is: -2.17752
+reduced cost by subproblem aircraft 9 is: -12.355
+reduced cost by subproblem aircraft 10 is: -28.1389
+reduced cost by subproblem aircraft 11 is: -24.1226
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 20 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Reduced LP has 105 rows, 336 columns, and 2195 nonzeros.
+Presolve time = 0.00 sec. (0.27 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2385
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.14 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 414
+  Total non-zeros in factor = 3987
+  Total FP ops to factor    = 196965
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5612300e+006 -1.5482718e+005 2.20e+004 6.38e+003 5.57e+003 1.00e+000
+   1  1.4285945e+005 -5.6290163e+004 2.68e+003 7.79e+002 1.12e+002 6.63e-003
+   2  3.1389815e+004 -6.6654070e+003 5.47e+002 1.59e+002 1.81e+001 1.92e-002
+   3  1.1457363e+004  7.1124134e+002 1.49e+002 4.33e+001 5.58e+000 6.39e-002
+   4  6.1821119e+003  2.7302970e+003 3.65e+001 1.06e+001 2.58e+000 1.42e-001
+   5  4.9000953e+003  3.7673906e+003 1.03e+001 3.00e+000 9.73e-001 4.51e-001
+   6  4.4910655e+003  4.2668138e+003 1.68e+000 4.90e-001 2.18e-001 2.16e+000
+   7  4.4384547e+003  4.3592248e+003 6.63e-001 1.93e-001 7.15e-002 7.39e+000
+   8  4.4043077e+003  4.3942088e+003 5.70e-002 1.66e-002 1.18e-002 4.67e+001
+   9  4.4010346e+003  4.4009772e+003 5.78e-004 1.68e-004 4.13e-005 1.48e+004
+  10  4.4010000e+003  4.4010000e+003 7.00e-008 2.03e-008 5.43e-009 1.05e+008
+Barrier time = 0.02 sec. (1.91 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.91 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 244
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4401
+ ********************* END LP SOLUTION 20 *********************
+
+reduced cost by subproblem aircraft 0 is: -23
+reduced cost by subproblem aircraft 1 is: -6.96698
+reduced cost by subproblem aircraft 2 is: -4.45577e-008
+reduced cost by subproblem aircraft 3 is: -31
+reduced cost by subproblem aircraft 4 is: -2.0298
+reduced cost by subproblem aircraft 5 is: -11.4695
+reduced cost by subproblem aircraft 6 is: -10.0745
+reduced cost by subproblem aircraft 7 is: -9.14427
+reduced cost by subproblem aircraft 8 is: -0.870914
+reduced cost by subproblem aircraft 9 is: -27.2643
+reduced cost by subproblem aircraft 10 is: -5.6255
+reduced cost by subproblem aircraft 11 is: -13.3778
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 21 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Reduced LP has 105 rows, 346 columns, and 2290 nonzeros.
+Presolve time = 0.00 sec. (0.29 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2413
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.14 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 418
+  Total non-zeros in factor = 3997
+  Total FP ops to factor    = 197697
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.5897800e+006 -1.5813602e+005 2.29e+004 6.57e+003 5.51e+003 1.00e+000
+   1  1.4879923e+005 -5.7519039e+004 2.85e+003 8.16e+002 1.11e+002 6.70e-003
+   2  3.4789506e+004 -7.4680959e+003 6.27e+002 1.80e+002 1.86e+001 1.92e-002
+   3  1.0234100e+004  2.9297837e+002 1.28e+002 3.68e+001 5.93e+000 6.28e-002
+   4  6.4293888e+003  2.7174639e+003 4.23e+001 1.21e+001 2.56e+000 1.49e-001
+   5  4.8717558e+003  3.9195170e+003 1.03e+001 2.96e+000 6.94e-001 6.53e-001
+   6  4.4555018e+003  4.1997650e+003 1.60e+000 4.60e-001 2.71e-001 1.74e+000
+   7  4.3721766e+003  4.3601291e+003 2.77e-002 7.93e-003 1.68e-002 2.96e+001
+   8  4.3700019e+003  4.3699987e+003 2.09e-005 5.99e-006 2.60e-006 2.61e+005
+   9  4.3700000e+003  4.3700000e+003 2.33e-009 6.68e-010 4.02e-010 1.74e+009
+Barrier time = 0.02 sec. (1.85 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.85 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 255
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4370
+ ********************* END LP SOLUTION 21 *********************
+
+reduced cost by subproblem aircraft 0 is: -24.3148
+reduced cost by subproblem aircraft 1 is: -21.0285
+reduced cost by subproblem aircraft 2 is: -1.33497
+reduced cost by subproblem aircraft 3 is: -24.1673
+reduced cost by subproblem aircraft 4 is: -25.7833
+reduced cost by subproblem aircraft 5 is: -9.91031
+reduced cost by subproblem aircraft 6 is: -3.10119
+reduced cost by subproblem aircraft 7 is: -10.6873
+reduced cost by subproblem aircraft 8 is: -2.42517e-009
+reduced cost by subproblem aircraft 9 is: -0.760643
+reduced cost by subproblem aircraft 10 is: -16.9961
+reduced cost by subproblem aircraft 11 is: -15.1967
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 22 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 7 columns.
+Reduced LP has 105 rows, 355 columns, and 2380 nonzeros.
+Presolve time = 0.00 sec. (0.30 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2442
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.15 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 420
+  Total non-zeros in factor = 4001
+  Total FP ops to factor    = 198077
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6028100e+006 -1.6032518e+005 2.38e+004 6.74e+003 5.41e+003 1.00e+000
+   1  1.5032621e+005 -5.8527962e+004 2.97e+003 8.41e+002 1.07e+002 6.93e-003
+   2  3.3970381e+004 -7.8270096e+003 6.31e+002 1.79e+002 1.82e+001 2.01e-002
+   3  9.6667548e+003  2.9646067e+002 1.21e+002 3.41e+001 5.63e+000 6.81e-002
+   4  6.4842514e+003  2.7831764e+003 4.53e+001 1.28e+001 2.35e+000 1.66e-001
+   5  4.6971687e+003  3.8909440e+003 6.67e+000 1.89e+000 7.30e-001 5.67e-001
+   6  4.4588631e+003  4.1897080e+003 1.45e+000 4.11e-001 2.95e-001 1.49e+000
+   7  4.4007611e+003  4.3322345e+003 3.70e-001 1.05e-001 7.50e-002 9.95e+000
+   8  4.3702165e+003  4.3696531e+003 2.21e-003 6.24e-004 7.54e-004 9.90e+002
+   9  4.3700000e+003  4.3700000e+003 2.97e-007 8.40e-008 9.22e-008 9.73e+006
+Barrier time = 0.02 sec. (1.89 ticks)
+
+Total time on 4 threads = 0.02 sec. (1.89 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 266
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4370
+ ********************* END LP SOLUTION 22 *********************
+
+reduced cost by subproblem aircraft 0 is: -0.831945
+reduced cost by subproblem aircraft 1 is: -3.82632
+reduced cost by subproblem aircraft 2 is: -1.35954e-008
+reduced cost by subproblem aircraft 3 is: -6.79951
+reduced cost by subproblem aircraft 4 is: -0.477682
+reduced cost by subproblem aircraft 5 is: -15.5435
+reduced cost by subproblem aircraft 6 is: -1.36907
+reduced cost by subproblem aircraft 7 is: -9.53578
+reduced cost by subproblem aircraft 8 is: -1.05083e-008
+reduced cost by subproblem aircraft 9 is: 5.161e-008
+reduced cost by subproblem aircraft 10 is: -6.09026
+reduced cost by subproblem aircraft 11 is: -0.674868
+Number of Better Lofs is 9
+
+ ********************* LP SOLUTION 23 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 11 columns.
+Reduced LP has 105 rows, 360 columns, and 2421 nonzeros.
+Presolve time = 0.00 sec. (0.32 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2460
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.01 sec. (0.14 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 391
+  Total non-zeros in factor = 4103
+  Total FP ops to factor    = 209449
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6030100e+006 -1.6209969e+005 2.42e+004 6.83e+003 5.34e+003 1.00e+000
+   1  1.5116255e+005 -5.9272046e+004 3.04e+003 8.58e+002 1.04e+002 7.13e-003
+   2  3.4244430e+004 -8.4736635e+003 6.50e+002 1.83e+002 1.85e+001 2.05e-002
+   3  9.4959826e+003  1.5928329e+002 1.19e+002 3.37e+001 5.62e+000 7.02e-002
+   4  6.5767117e+003  2.7524744e+003 4.87e+001 1.37e+001 2.31e+000 1.72e-001
+   5  4.6709071e+003  3.9691425e+003 6.50e+000 1.83e+000 5.81e-001 7.42e-001
+   6  4.5183766e+003  4.1863164e+003 3.04e+000 8.58e-001 2.77e-001 1.68e+000
+   7  4.4169368e+003  4.3351868e+003 1.02e+000 2.87e-001 4.72e-002 1.38e+001
+   8  4.3644662e+003  4.3637331e+003 9.74e-003 2.75e-003 3.72e-004 1.66e+003
+   9  4.3640001e+003  4.3640000e+003 1.20e-006 3.39e-007 5.58e-008 8.90e+006
+  10  4.3640000e+003  4.3640000e+003 1.44e-010 3.75e-011 6.01e-011 6.25e+010
+Barrier time = 0.01 sec. (2.06 ticks)
+
+Total time on 4 threads = 0.01 sec. (2.06 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 275
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+ ********************* END LP SOLUTION 23 *********************
+
+reduced cost by subproblem aircraft 0 is: -3.21185
+reduced cost by subproblem aircraft 1 is: -0.94172
+reduced cost by subproblem aircraft 2 is: -2.16005e-012
+reduced cost by subproblem aircraft 3 is: -0.430086
+reduced cost by subproblem aircraft 4 is: -0.570412
+reduced cost by subproblem aircraft 5 is: -2.06689
+reduced cost by subproblem aircraft 6 is: 1.13687e-012
+reduced cost by subproblem aircraft 7 is: -0.629044
+reduced cost by subproblem aircraft 8 is: -9.09495e-013
+reduced cost by subproblem aircraft 9 is: 4.20641e-012
+reduced cost by subproblem aircraft 10 is: -2.55204
+reduced cost by subproblem aircraft 11 is: -1.36424e-012
+Number of Better Lofs is 7
+
+ ********************* LP SOLUTION 24 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 16 columns.
+Reduced LP has 105 rows, 362 columns, and 2439 nonzeros.
+Presolve time = 0.00 sec. (0.33 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2469
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.15 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 399
+  Total non-zeros in factor = 4121
+  Total FP ops to factor    = 211213
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6030700e+006 -1.6429814e+005 2.44e+004 6.87e+003 5.31e+003 1.00e+000
+   1  1.4987879e+005 -5.9756017e+004 3.05e+003 8.58e+002 1.04e+002 7.16e-003
+   2  3.4079332e+004 -8.2344926e+003 6.53e+002 1.84e+002 1.80e+001 2.09e-002
+   3  9.6019142e+003  1.7922970e+002 1.24e+002 3.48e+001 5.50e+000 7.08e-002
+   4  6.5652573e+003  2.7642972e+003 4.93e+001 1.39e+001 2.25e+000 1.75e-001
+   5  4.6794777e+003  3.9435098e+003 6.79e+000 1.91e+000 6.06e-001 6.99e-001
+   6  4.4656763e+003  4.1703721e+003 1.91e+000 5.36e-001 2.93e-001 1.51e+000
+   7  4.3958902e+003  4.3262080e+003 4.49e-001 1.26e-001 6.90e-002 1.03e+001
+   8  4.3641037e+003  4.3638087e+003 1.48e-003 4.15e-004 3.47e-004 2.04e+003
+   9  4.3640000e+003  4.3640000e+003 1.65e-007 4.63e-008 4.73e-008 1.72e+007
+Barrier time = 0.00 sec. (1.94 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.94 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 282
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+ ********************* END LP SOLUTION 24 *********************
+
+reduced cost by subproblem aircraft 0 is: 7.80801e-010
+reduced cost by subproblem aircraft 1 is: -2.71363
+reduced cost by subproblem aircraft 2 is: -1.18921e-008
+reduced cost by subproblem aircraft 3 is: 1.04495e-007
+reduced cost by subproblem aircraft 4 is: -9.06641e-009
+reduced cost by subproblem aircraft 5 is: -0.709735
+reduced cost by subproblem aircraft 6 is: -4.18875e-008
+reduced cost by subproblem aircraft 7 is: 3.81413e-008
+reduced cost by subproblem aircraft 8 is: -1.6523e-008
+reduced cost by subproblem aircraft 9 is: 1.4947e-008
+reduced cost by subproblem aircraft 10 is: -4.27417e-009
+reduced cost by subproblem aircraft 11 is: -1.64421e-008
+Number of Better Lofs is 2
+
+ ********************* LP SOLUTION 25 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 17 columns.
+Reduced LP has 105 rows, 363 columns, and 2450 nonzeros.
+Presolve time = 0.00 sec. (0.33 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2475
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.15 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 105
+  Integer space required    = 399
+  Total non-zeros in factor = 4121
+  Total FP ops to factor    = 211213
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.6031500e+006 -1.6473178e+005 2.45e+004 6.88e+003 5.29e+003 1.00e+000
+   1  1.4960362e+005 -5.9882750e+004 3.06e+003 8.60e+002 1.03e+002 7.19e-003
+   2  3.4144219e+004 -8.2235063e+003 6.57e+002 1.85e+002 1.79e+001 2.10e-002
+   3  9.5732963e+003  1.7340475e+002 1.24e+002 3.48e+001 5.47e+000 7.11e-002
+   4  6.4938127e+003  2.7717183e+003 4.80e+001 1.35e+001 2.22e+000 1.77e-001
+   5  4.6708428e+003  3.9486094e+003 6.56e+000 1.84e+000 5.98e-001 7.11e-001
+   6  4.4706878e+003  4.1690839e+003 2.03e+000 5.71e-001 2.93e-001 1.50e+000
+   7  4.3921664e+003  4.3309788e+003 4.12e-001 1.16e-001 5.94e-002 1.18e+001
+   8  4.3640669e+003  4.3638967e+003 1.03e-003 2.88e-004 1.80e-004 3.89e+003
+   9  4.3640000e+003  4.3640000e+003 1.14e-007 3.21e-008 2.44e-008 3.14e+007
+Barrier time = 0.00 sec. (1.96 ticks)
+
+Total time on 4 threads = 0.00 sec. (1.96 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 284
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+ ********************* END LP SOLUTION 25 *********************
+
+reduced cost by subproblem aircraft 0 is: -6.04246e-009
+reduced cost by subproblem aircraft 1 is: 4.40025e-009
+reduced cost by subproblem aircraft 2 is: -8.68999e-009
+reduced cost by subproblem aircraft 3 is: 3.74164e-008
+reduced cost by subproblem aircraft 4 is: -1.19419e-008
+reduced cost by subproblem aircraft 5 is: -2.77978e-008
+reduced cost by subproblem aircraft 6 is: -2.04636e-008
+reduced cost by subproblem aircraft 7 is: 1.0366e-008
+reduced cost by subproblem aircraft 8 is: -1.37354e-008
+reduced cost by subproblem aircraft 9 is: 7.54898e-009
+reduced cost by subproblem aircraft 10 is: -3.72484e-009
+reduced cost by subproblem aircraft 11 is: -1.26436e-008
+Number of Better Lofs is 0
+
+ ********************* FINAL IP SOLUTION *********************
+Found incumbent of value 76000.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 17 columns.
+Reduced MIP has 103 rows, 363 columns, and 2408 nonzeros.
+Reduced MIP has 363 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.20 ticks)
+Probing time = 0.00 sec. (2.05 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 25 rows and 25 columns.
+Reduced MIP has 78 rows, 338 columns, and 1854 nonzeros.
+Reduced MIP has 338 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.92 ticks)
+Probing time = 0.00 sec. (1.77 ticks)
+Clique table members: 169.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (1.35 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        76000.0000     1600.0000       10   97.89%
+*     0+    0                        18060.0000     1600.0000       10   91.14%
+*     0+    0                        12593.0000     1600.0000       10   87.29%
+*     0     0      integral     0     4364.0000     4364.0000       10   -0.00%
+Elapsed time = 0.02 sec. (8.92 ticks, tree = 0.00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (8.94 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (8.94 ticks)
+
+Number of leg variables is: 95
+Number of lof variables is: 284
+Number of selection constraints is: 12
+Number of cover constraints is: 95
+
+Solution status: Optimal
+Optimal value: 4364
+************ LOF ************
+Lof ID is 0
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 2 Flt 2929470 Tal ARDIE
+XEM Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Tue Jul 24 23:35:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
+
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 2
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 4
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 0
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 42 Flt 2929606 Tal MA958N
+XEM Mon Jul 23 23:55:00 2012
+NUC Tue Jul 24 02:04:00 2012
+ODp Mon Jul 23 23:55:00 2012
+OAr Tue Jul 24 02:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 43 Flt 2929593 Tal MA958N
+NUC Tue Jul 24 02:40:00 2012
+XEM Tue Jul 24 05:04:00 2012
+ODp Tue Jul 24 02:40:00 2012
+OAr Tue Jul 24 05:04:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 44 Flt 2929557 Tal MA958N
+XEM Tue Jul 24 06:20:00 2012
+MIL Tue Jul 24 12:10:00 2012
+ODp Tue Jul 24 06:20:00 2012
+OAr Tue Jul 24 12:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 45 Flt 2931898 Tal MA958N
+MIL Tue Jul 24 13:20:00 2012
+XEM Tue Jul 24 19:10:00 2012
+ODp Tue Jul 24 13:20:00 2012
+OAr Tue Jul 24 19:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 46 Flt 2931659 Tal MA958N
+XEM Tue Jul 24 20:55:00 2012
+NUC Tue Jul 24 22:59:00 2012
+ODp Tue Jul 24 20:55:00 2012
+OAr Tue Jul 24 22:59:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 47 Flt 2931660 Tal MA958N
+NUC Tue Jul 24 23:55:00 2012
+OJS Wed Jul 25 02:05:00 2012
+ODp Tue Jul 24 23:55:00 2012
+OAr Wed Jul 25 02:05:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 48 Flt 2931553 Tal MA958N
+OJS Wed Jul 25 03:05:00 2012
+NUC Wed Jul 25 05:10:00 2012
+ODp Wed Jul 25 03:05:00 2012
+OAr Wed Jul 25 05:10:00 2012
+
+Tail MA958N
+XEM Mon Jul 23 23:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 49 Flt 2931554 Tal MA958N
+NUC Wed Jul 25 06:10:00 2012
+XEM Wed Jul 25 08:35:00 2012
+ODp Wed Jul 25 06:10:00 2012
+OAr Wed Jul 25 08:35:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 6
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 75 Flt 2929015 Tal YOJAX
+NUC Tue Jul 24 01:35:00 2012
+UUC Tue Jul 24 04:50:00 2012
+ODp Tue Jul 24 01:35:00 2012
+OAr Tue Jul 24 04:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 76 Flt 2929423 Tal YOJAX
+UUC Tue Jul 24 05:35:00 2012
+TZM Tue Jul 24 06:55:00 2012
+ODp Tue Jul 24 05:35:00 2012
+OAr Tue Jul 24 06:55:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 77 Flt 2928965 Tal YOJAX
+TZM Tue Jul 24 07:45:00 2012
+UUC Tue Jul 24 09:05:00 2012
+ODp Tue Jul 24 07:45:00 2012
+OAr Tue Jul 24 09:05:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 78 Flt 2931835 Tal YOJAX
+UUC Tue Jul 24 09:45:00 2012
+XEM Tue Jul 24 11:50:00 2012
+ODp Tue Jul 24 09:45:00 2012
+OAr Tue Jul 24 11:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 79 Flt 2931512 Tal YOJAX
+XEM Tue Jul 24 14:30:00 2012
+KFJ Tue Jul 24 19:20:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 19:20:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 80 Flt 2931974 Tal YOJAX
+KFJ Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 01:50:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 01:50:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 81 Flt 2932377 Tal YOJAX
+XEM Wed Jul 25 03:00:00 2012
+YTM Wed Jul 25 04:38:00 2012
+ODp Wed Jul 25 03:00:00 2012
+OAr Wed Jul 25 04:38:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 82 Flt 2932425 Tal YOJAX
+YTM Wed Jul 25 05:10:00 2012
+XEM Wed Jul 25 06:40:00 2012
+ODp Wed Jul 25 05:10:00 2012
+OAr Wed Jul 25 06:40:00 2012
+
+Tail YOJAX
+NUC Tue Jul 24 01:25:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 83 Flt 2932499 Tal YOJAX
+XEM Wed Jul 25 07:50:00 2012
+XAL Wed Jul 25 11:45:00 2012
+ODp Wed Jul 25 07:50:00 2012
+OAr Wed Jul 25 11:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 7
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg List Size is 5 cost 0
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 90 Flt 2929718 Tal MAZAX
+NUC Tue Jul 24 02:50:00 2012
+MIL Tue Jul 24 08:10:00 2012
+ODp Tue Jul 24 02:50:00 2012
+OAr Tue Jul 24 08:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 91 Flt 2929719 Tal MAZAX
+MIL Tue Jul 24 09:10:00 2012
+URG Tue Jul 24 13:55:00 2012
+ODp Tue Jul 24 09:10:00 2012
+OAr Tue Jul 24 13:55:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 92 Flt 2932150 Tal MAZAX
+URG Tue Jul 24 15:10:00 2012
+MIL Tue Jul 24 20:25:00 2012
+ODp Tue Jul 24 15:10:00 2012
+OAr Tue Jul 24 20:25:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 93 Flt 2932151 Tal MAZAX
+MIL Tue Jul 24 21:40:00 2012
+NUC Wed Jul 25 03:10:00 2012
+ODp Tue Jul 24 21:40:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MAZAX
+NUC Tue Jul 24 02:19:00 2012
+XEM Wed Jul 25 11:00:00 2012
+Leg 94 Flt 2932555 Tal MAZAX
+NUC Wed Jul 25 04:15:00 2012
+XEM Wed Jul 25 06:39:00 2012
+ODp Wed Jul 25 04:15:00 2012
+OAr Wed Jul 25 06:39:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 211
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg List Size is 6 cost 504
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 241
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 246
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg List Size is 11 cost 2
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 259
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 1200
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 34 Flt 2929042 Tal MA858N
+JIT Mon Jul 23 23:35:00 2012
+XEM Tue Jul 24 03:00:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 35 Flt 2930114 Tal MA858N
+XEM Tue Jul 24 03:55:00 2012
+NUC Tue Jul 24 06:04:00 2012
+ODp Tue Jul 24 04:30:00 2012
+OAr Tue Jul 24 06:39:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 36 Flt 2929429 Tal MA858N
+NUC Tue Jul 24 06:44:00 2012
+XEM Tue Jul 24 09:09:00 2012
+ODp Tue Jul 24 07:09:00 2012
+OAr Tue Jul 24 09:34:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 37 Flt 2929430 Tal MA858N
+XEM Tue Jul 24 11:00:00 2012
+YTM Tue Jul 24 12:37:00 2012
+ODp Tue Jul 24 11:00:00 2012
+OAr Tue Jul 24 12:37:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 38 Flt 2931800 Tal MA858N
+YTM Tue Jul 24 21:00:00 2012
+XEM Tue Jul 24 22:30:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Tue Jul 24 22:30:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 39 Flt 2932435 Tal MA858N
+XEM Tue Jul 24 23:40:00 2012
+NUC Wed Jul 25 01:49:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 40 Flt 2932619 Tal MA858N
+NUC Wed Jul 25 02:25:00 2012
+XEM Wed Jul 25 04:49:00 2012
+ODp Wed Jul 25 02:25:00 2012
+OAr Wed Jul 25 04:49:00 2012
+
+Tail MA858N
+JIT Mon Jul 23 23:25:00 2012
+MIL Wed Jul 25 19:59:00 2012
+Leg 41 Flt 2932105 Tal MA858N
+XEM Wed Jul 25 06:20:00 2012
+MIL Wed Jul 25 12:10:00 2012
+ODp Wed Jul 25 06:20:00 2012
+OAr Wed Jul 25 12:10:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 271
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg List Size is 9 cost 0
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 50 Flt 2929060 Tal MA068N
+XEM Tue Jul 24 00:20:00 2012
+DJS Tue Jul 24 02:20:00 2012
+ODp Tue Jul 24 00:20:00 2012
+OAr Tue Jul 24 02:20:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 51 Flt 2930028 Tal MA068N
+DJS Tue Jul 24 02:55:00 2012
+XEM Tue Jul 24 04:55:00 2012
+ODp Tue Jul 24 02:55:00 2012
+OAr Tue Jul 24 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 52 Flt 2929541 Tal MA068N
+XEM Tue Jul 24 05:55:00 2012
+KFJ Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 05:55:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 53 Flt 2931936 Tal MA068N
+KFJ Tue Jul 24 12:45:00 2012
+XEM Tue Jul 24 17:35:00 2012
+ODp Tue Jul 24 12:45:00 2012
+OAr Tue Jul 24 17:35:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 54 Flt 2932016 Tal MA068N
+XEM Tue Jul 24 19:20:00 2012
+OMH Tue Jul 24 21:50:00 2012
+ODp Tue Jul 24 19:20:00 2012
+OAr Tue Jul 24 21:50:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 55 Flt 2932579 Tal MA068N
+OMH Tue Jul 24 22:25:00 2012
+XEM Wed Jul 25 00:55:00 2012
+ODp Tue Jul 24 22:25:00 2012
+OAr Wed Jul 25 00:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 56 Flt 2931458 Tal MA068N
+XEM Wed Jul 25 02:00:00 2012
+LDG Wed Jul 25 03:10:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:10:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 57 Flt 2932636 Tal MA068N
+LDG Wed Jul 25 03:45:00 2012
+XEM Wed Jul 25 04:55:00 2012
+ODp Wed Jul 25 03:45:00 2012
+OAr Wed Jul 25 04:55:00 2012
+
+Tail MA068N
+XEM Mon Jul 23 23:55:00 2012
+YTM Wed Jul 25 19:59:00 2012
+Leg 58 Flt 2931504 Tal MA068N
+XEM Wed Jul 25 06:00:00 2012
+YTM Wed Jul 25 07:34:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:34:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 276
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg List Size is 8 cost 6
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 280
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg List Size is 6 cost 0
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+*****************************
+
+ ********************* END FINAL IP SOLUTION *********************
+Total number of connection of leg network: 1024
+total run time is 0 seconds
+##### Canceled flights are #####: 
+Leg 67 Flt 2928907 Tal MA059N
+XEM Tue Jul 24 02:40:00 2012
+DIM Tue Jul 24 04:25:00 2012
+dual is 800
+Leg 68 Flt 2929377 Tal MA059N
+DIM Tue Jul 24 05:00:00 2012
+XEM Tue Jul 24 06:50:00 2012
+dual is 800
+Solution is printed.
+
+Tool completed successfully

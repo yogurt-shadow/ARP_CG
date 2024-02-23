@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/12/13 13:34:58。
+     1>项目“E:\NTU study\CplusplusLearn64\SabreCG\SabreCG\SabreCG.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Model.cpp Util.cpp main.cpp
+         main.cpp
+         Util.cpp
+         Model.cpp
+     1>e:\ntu study\cpluspluslearn64\sabrecg\sabrecg\model.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\ntu study\cpluspluslearn64\sabrecg\sabrecg\model.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\ntu study\cpluspluslearn64\sabrecg\sabrecg\model.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\NTU study\CplusplusLearn64\SabreCG\Debug\SabreCG.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\NTU study\CplusplusLearn64\SabreCG\Debug\SabreCG.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\NTU study\CplusplusLearn64\SabreCG\Debug\SabreCG.lib" /MACHINE:X86 Debug\Aircraft.obj
+         Debug\Leg.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\Station.obj
+         Debug\Util.obj
+         SabreCG.vcxproj -> E:\NTU study\CplusplusLearn64\SabreCG\Debug\SabreCG.exe
+     1>已完成生成项目“E:\NTU study\CplusplusLearn64\SabreCG\SabreCG\SabreCG.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.22

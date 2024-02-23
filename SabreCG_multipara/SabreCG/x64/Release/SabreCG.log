@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/3/15 23:40:50。
+     1>项目“E:\Sabre\SabreCG4_multipara\SabreCG\SabreCG.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="14.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\include" /I"D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSULE /D IL_STD /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt main2.cpp
+         main2.cpp
+     1>e:\sabre\sabrecg4_multipara\sabrecg\Station.h(51): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\sabre\sabrecg4_multipara\sabrecg\Lof.h(37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Sabre\SabreCG4_multipara\x64\Release\SabreCG.exe" /NOLOGO "D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\lib\x64_windows_vs2012\stat_mda\cplex1260.lib" "D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\lib\x64_windows_vs2012\stat_mda\ilocplex.lib" "D:\Program Files\IBM\ILOG\CPLEX_Studio126\concert\lib\x64_windows_vs2012\stat_mda\concert.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Sabre\SabreCG4_multipara\x64\Release\SabreCG.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Sabre\SabreCG4_multipara\x64\Release\SabreCG.lib" /MACHINE:X64 x64\Release\Aircraft.obj
+         x64\Release\Leg.obj
+         x64\Release\Lof.obj
+         x64\Release\main2.obj
+         x64\Release\Model.obj
+         x64\Release\OperLeg.obj
+         x64\Release\Schedule.obj
+         x64\Release\Station.obj
+         x64\Release\SubNode.obj
+         x64\Release\tinyxml2.obj
+         x64\Release\Util.obj
+         正在生成代码
+         已完成代码的生成
+     1>concert.lib(iloalg.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloalg.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloallocator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloallocator.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloanyexpr.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloanyexpr.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloconstraint.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloconstraint.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloenv.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloexpression.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloexpression.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloextractable.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilohash.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilohash.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloiterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloiterator.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilomap.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilomap.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilorandom.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilorandom.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosatomi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosatomi.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosbasic.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosbasic.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosdisplayi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosdisplayi.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloserror.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloserror.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloset.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloset.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosmodel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosmodel.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosolution.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosolution.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossequencei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossequencei.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossol.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossol.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosstructi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosstructi.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilostimei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilostimei.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilothread.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilothread.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilotypes.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilotypes.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollection.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectioniterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectioniterator.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionoperator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionoperator.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionstruct.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionstruct.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosimplecollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosimplecollection.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilointervalsi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilointervalsi.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilonumfunci.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilonumfunci.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloparami.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloparami.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloskiplist.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloskiplist.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalexpand.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalexpand.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalkernel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalkernel.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evaluator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evaluator.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(strtod.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(strtod.obj)”或在“E:\Sabre\SabreCG4_multipara\x64\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         SabreCG.vcxproj -> E:\Sabre\SabreCG4_multipara\x64\Release\SabreCG.exe
+     1>已完成生成项目“E:\Sabre\SabreCG4_multipara\SabreCG\SabreCG.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.47

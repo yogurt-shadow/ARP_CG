@@ -1,0 +1,1956 @@
+threshold -0.0001
+LP by barrier
+Ò»Ìå»ú
+SubNode by vector
+initialized by original plan
+display dual of canceled flight
+
+input_dir is E:\QXW_file\Sabre\Scenarios\Scn5\input\
+output_dir is E:\QXW_file\Sabre\Scenarios\Scn5\output\
+********************* Number of Aircraft Departured *********************
+number of aircraft departured from station LCS is 9
+number of aircraft departured from station MIL is 2
+number of aircraft departured from station KFJ is 1
+number of aircraft departured from station AIM is 1
+number of aircraft departured from station XEM is 1
+number of aircraft departured from station XAL is 1
+number of aircraft departured from station SCC is 1
+number of aircraft departured from station EZE is 0
+number of aircraft departured from station CPI is 0
+number of aircraft departured from station TPP is 0
+number of aircraft departured from station URG is 0
+number of aircraft departured from station EYG is 0
+********************* END PRINTING *********************
+Ready to go!
+****** Total Number of Airports is 12 ******
+Station LCS Id 0
+Station MIL Id 1
+Station KFJ Id 2
+Station AIM Id 3
+Station XEM Id 4
+Station XAL Id 5
+Station SCC Id 6
+Station EZE Id 7
+Station CPI Id 8
+Station TPP Id 9
+Station URG Id 10
+Station EYG Id 11
+****** Total Number of Aircraft is 16 ******
+Tail DDBCC
+LCS Tue May 14 09:05:00 2013
+LCS Wed May 15 20:03:00 2013
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Tail FDBCC
+LCS Mon May 13 18:44:00 2013
+LCS Wed May 15 20:03:00 2013
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+******* Total Number of Maints is 23 *******
+Maint 59 Flt 13539089 Sta LCS Tal KDBCC
+Mon May 13 22:00:00 2013
+Tue May 14 08:50:00 2013
+Maint 60 Flt 13549483 Sta AIM Tal IDBCC
+Tue May 14 03:55:00 2013
+Tue May 14 12:59:00 2013
+Maint 61 Flt 13542740 Sta LCS Tal JDBCC
+Wed May 15 13:10:00 2013
+Thu May 16 09:15:00 2013
+Maint 62 Flt 13535684 Sta LCS Tal NWCCC
+Tue May 14 08:35:00 2013
+Tue May 14 10:05:00 2013
+Maint 63 Flt 13547201 Sta LCS Tal MDBCC
+Tue May 14 13:10:00 2013
+Wed May 15 11:45:00 2013
+Maint 64 Flt 13538446 Sta LCS Tal LMCCC
+Tue May 14 17:51:00 2013
+Wed May 15 09:04:00 2013
+Maint 65 Flt 13365876 Sta LCS Tal VRCCC
+Tue May 14 18:01:00 2013
+Wed May 15 09:14:00 2013
+Maint 66 Flt 13538976 Sta LCS Tal GDBCC
+Tue May 14 18:55:00 2013
+Wed May 15 08:10:00 2013
+Maint 67 Flt 13542814 Sta LCS Tal JBCCC
+Tue May 14 18:55:00 2013
+Wed May 15 01:59:00 2013
+Maint 68 Flt 13543522 Sta LCS Tal WZCCC
+Tue May 14 20:40:00 2013
+Wed May 15 02:00:00 2013
+Maint 69 Flt 13549104 Sta LCS Tal GRCCC
+Wed May 15 16:50:00 2013
+Thu May 16 11:45:00 2013
+Maint 70 Flt 13535484 Sta LCS Tal HDBCC
+Wed May 15 17:50:00 2013
+Thu May 16 09:05:00 2013
+Maint 71 Flt 13549886 Sta LCS Tal LDBCC
+Wed May 15 17:50:00 2013
+Thu May 16 03:24:00 2013
+Maint 72 Flt 13549786 Sta MIL Tal EDBCC
+Tue May 14 12:10:00 2013
+Tue May 14 21:55:00 2013
+Maint 73 Flt 13550641 Sta MIL Tal JBCCC
+Wed May 15 12:10:00 2013
+Wed May 15 21:55:00 2013
+Maint 74 Flt 13549785 Sta XEM Tal HDBCC
+Tue May 14 20:35:00 2013
+Wed May 15 09:24:00 2013
+Maint 75 Flt 13552863 Sta AIM Tal JBCCC
+Tue May 14 08:11:00 2013
+Tue May 14 10:29:00 2013
+Maint 76 Flt 13547200 Sta AIM Tal DDBCC
+Tue May 14 17:50:00 2013
+Wed May 15 10:03:00 2013
+Maint 77 Flt 13542420 Sta AIM Tal LDBCC
+Tue May 14 19:30:00 2013
+Wed May 15 09:25:00 2013
+Maint 78 Flt 13550639 Sta XAL Tal KDBCC
+Tue May 14 23:25:00 2013
+Wed May 15 04:45:00 2013
+Maint 79 Flt 13550638 Sta AIM Tal IDBCC
+Wed May 15 03:55:00 2013
+Wed May 15 13:00:00 2013
+Maint 80 Flt 13550643 Sta AIM Tal LMCCC
+Wed May 15 17:50:00 2013
+Thu May 16 10:30:00 2013
+Maint 81 Flt 13543636 Sta KFJ Tal FDBCC
+Tue May 14 19:40:00 2013
+Wed May 15 08:00:00 2013
+******* Total Number of Flights is 59 ******* 
+Leg 0 Flt 13477034 Tal DDBCC
+LCS Tue May 14 09:05:00 2013
+AIM Tue May 14 17:50:00 2013
+Leg 1 Flt 13479970 Tal DDBCC
+AIM Wed May 15 10:30:00 2013
+LCS Wed May 15 18:55:00 2013
+Leg 2 Flt 13473553 Tal EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Tue May 14 04:13:00 2013
+Leg 3 Flt 13476971 Tal EDBCC
+LCS Tue May 14 08:15:00 2013
+MIL Tue May 14 12:10:00 2013
+Leg 4 Flt 13477368 Tal EDBCC
+MIL Tue May 14 21:55:00 2013
+XEM Wed May 15 04:00:00 2013
+Leg 5 Flt 13477140 Tal EDBCC
+XEM Wed May 15 05:35:00 2013
+MIL Wed May 15 11:15:00 2013
+Leg 6 Flt 13480265 Tal EDBCC
+MIL Wed May 15 12:50:00 2013
+EZE Wed May 15 17:15:00 2013
+Leg 7 Flt 13480266 Tal EDBCC
+EZE Wed May 15 18:20:00 2013
+LCS Wed May 15 20:40:00 2013
+Leg 8 Flt 13474185 Tal FDBCC
+LCS Tue May 14 08:50:00 2013
+KFJ Tue May 14 19:40:00 2013
+Leg 9 Flt 13479865 Tal FDBCC
+KFJ Wed May 15 08:00:00 2013
+LCS Wed May 15 18:55:00 2013
+Leg 10 Flt 13476930 Tal GDBCC
+KFJ Tue May 14 08:00:00 2013
+LCS Tue May 14 18:55:00 2013
+Leg 11 Flt 13480288 Tal GDBCC
+LCS Wed May 15 08:10:00 2013
+EZE Wed May 15 10:10:00 2013
+Leg 12 Flt 13480289 Tal GDBCC
+EZE Wed May 15 15:10:00 2013
+MIL Wed May 15 20:20:00 2013
+Leg 13 Flt 13476291 Tal HDBCC
+LCS Tue May 14 11:45:00 2013
+XEM Tue May 14 20:35:00 2013
+Leg 14 Flt 13479674 Tal HDBCC
+XEM Wed May 15 09:25:00 2013
+LCS Wed May 15 17:50:00 2013
+Leg 15 Flt 13476782 Tal IDBCC
+AIM Tue May 14 13:00:00 2013
+MIL Tue May 14 18:40:00 2013
+Leg 16 Flt 13476638 Tal IDBCC
+MIL Tue May 14 22:10:00 2013
+AIM Wed May 15 03:55:00 2013
+Leg 17 Flt 13479709 Tal IDBCC
+AIM Wed May 15 13:00:00 2013
+MIL Wed May 15 18:40:00 2013
+Leg 18 Flt 13473878 Tal JDBCC
+LCS Tue May 14 11:30:00 2013
+CPI Tue May 14 17:25:00 2013
+Leg 19 Flt 13473879 Tal JDBCC
+CPI Tue May 14 12:45:00 2013
+TPP Tue May 14 18:55:00 2013
+Leg 20 Flt 13476535 Tal JDBCC
+TPP Tue May 14 20:00:00 2013
+CPI Wed May 15 01:25:00 2013
+Leg 21 Flt 13476536 Tal JDBCC
+CPI Wed May 15 02:35:00 2013
+LCS Wed May 15 07:20:00 2013
+Leg 22 Flt 13476749 Tal KDBCC
+LCS Tue May 14 09:15:00 2013
+MIL Tue May 14 13:10:00 2013
+Leg 23 Flt 13476750 Tal KDBCC
+MIL Tue May 14 14:30:00 2013
+XAL Tue May 14 23:25:00 2013
+Leg 24 Flt 13476738 Tal KDBCC
+XAL Wed May 15 04:45:00 2013
+MIL Wed May 15 13:20:00 2013
+Leg 25 Flt 13476739 Tal KDBCC
+MIL Wed May 15 14:35:00 2013
+LCS Wed May 15 18:00:00 2013
+Leg 26 Flt 13474087 Tal LDBCC
+LCS Tue May 14 04:15:00 2013
+CPI Tue May 14 10:10:00 2013
+Leg 27 Flt 13474097 Tal LDBCC
+CPI Tue May 14 03:10:00 2013
+LCS Tue May 14 07:55:00 2013
+Leg 28 Flt 13477378 Tal LDBCC
+LCS Tue May 14 10:45:00 2013
+AIM Tue May 14 19:30:00 2013
+Leg 29 Flt 13480273 Tal LDBCC
+AIM Wed May 15 09:25:00 2013
+LCS Wed May 15 17:50:00 2013
+Leg 30 Flt 13473721 Tal MDBCC
+LCS Tue May 14 03:25:00 2013
+URG Tue May 14 07:25:00 2013
+Leg 31 Flt 13476542 Tal MDBCC
+URG Tue May 14 08:40:00 2013
+LCS Tue May 14 13:10:00 2013
+Leg 32 Flt 13479208 Tal MDBCC
+LCS Wed May 15 11:45:00 2013
+XEM Wed May 15 20:35:00 2013
+Leg 33 Flt 13473311 Tal JBCCC
+LCS Mon May 13 20:22:00 2013
+SCC Tue May 14 03:18:00 2013
+Leg 34 Flt 13473312 Tal JBCCC
+SCC Tue May 14 04:30:00 2013
+AIM Tue May 14 08:10:00 2013
+Leg 35 Flt 13477036 Tal JBCCC
+AIM Tue May 14 10:30:00 2013
+LCS Tue May 14 18:55:00 2013
+Leg 36 Flt 13479909 Tal JBCCC
+LCS Wed May 15 08:15:00 2013
+MIL Wed May 15 12:10:00 2013
+Leg 37 Flt 13476745 Tal LMCCC
+XEM Tue May 14 09:25:00 2013
+LCS Tue May 14 17:50:00 2013
+Leg 38 Flt 13479966 Tal LMCCC
+LCS Wed May 15 09:05:00 2013
+AIM Wed May 15 17:50:00 2013
+Leg 39 Flt 13477374 Tal GRCCC
+LCS Tue May 14 08:10:00 2013
+EZE Tue May 14 10:10:00 2013
+Leg 40 Flt 13477375 Tal GRCCC
+EZE Tue May 14 15:10:00 2013
+MIL Tue May 14 20:20:00 2013
+Leg 41 Flt 13477228 Tal GRCCC
+MIL Wed May 15 01:35:00 2013
+SCC Wed May 15 05:45:00 2013
+Leg 42 Flt 13477077 Tal GRCCC
+SCC Wed May 15 07:00:00 2013
+MIL Wed May 15 11:20:00 2013
+Leg 43 Flt 13479919 Tal GRCCC
+MIL Wed May 15 13:25:00 2013
+LCS Wed May 15 16:50:00 2013
+Leg 44 Flt 13473585 Tal VRCCC
+XAL Tue May 14 04:45:00 2013
+MIL Tue May 14 13:20:00 2013
+Leg 45 Flt 13473586 Tal VRCCC
+MIL Tue May 14 14:35:00 2013
+LCS Tue May 14 18:00:00 2013
+Leg 46 Flt 13479678 Tal VRCCC
+LCS Wed May 15 09:15:00 2013
+MIL Wed May 15 13:10:00 2013
+Leg 47 Flt 13479679 Tal VRCCC
+MIL Wed May 15 14:30:00 2013
+XAL Wed May 15 23:25:00 2013
+Leg 48 Flt 13473468 Tal NWCCC
+SCC Mon May 13 23:56:00 2013
+EYG Tue May 14 02:51:00 2013
+Leg 49 Flt 13473469 Tal NWCCC
+EYG Tue May 14 03:50:00 2013
+LCS Tue May 14 08:35:00 2013
+Leg 50 Flt 13476866 Tal NWCCC
+LCS Wed May 15 03:25:00 2013
+URG Wed May 15 07:25:00 2013
+Leg 51 Flt 13479460 Tal NWCCC
+URG Wed May 15 08:40:00 2013
+LCS Wed May 15 13:10:00 2013
+Leg 52 Flt 13474221 Tal WZCCC
+MIL Mon May 13 21:54:00 2013
+XEM Tue May 14 03:58:00 2013
+Leg 53 Flt 13473992 Tal WZCCC
+XEM Tue May 14 05:35:00 2013
+MIL Tue May 14 11:15:00 2013
+Leg 54 Flt 13477352 Tal WZCCC
+MIL Tue May 14 12:50:00 2013
+EZE Tue May 14 17:15:00 2013
+Leg 55 Flt 13477353 Tal WZCCC
+EZE Tue May 14 18:20:00 2013
+LCS Tue May 14 20:40:00 2013
+Leg 56 Flt 13476937 Tal WZCCC
+LCS Wed May 15 02:00:00 2013
+EZE Wed May 15 04:00:00 2013
+Leg 57 Flt 13477333 Tal WZCCC
+EZE Wed May 15 05:00:00 2013
+LCS Wed May 15 07:20:00 2013
+Leg 58 Flt 13477334 Tal WZCCC
+LCS Wed May 15 08:50:00 2013
+KFJ Wed May 15 19:40:00 2013
+############## TOTAL CONNECTION 466 ###############
+Number of Initial Lofs is 14
+
+###### initial Lofs have been generated ######
+ ********************* LP SOLUTION 0 *********************
+Tried aggregator 1 time.
+LP Presolve eliminated 98 rows and 97 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.03 ticks)
+Barrier time = 0.00 sec. (0.04 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.04 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 14
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 34000
+ ********************* END LP SOLUTION 0 *********************
+
+reduced cost by subproblem aircraft 0 is: -11000
+reduced cost by subproblem aircraft 1 is: -13000
+reduced cost by subproblem aircraft 2 is: -11000
+reduced cost by subproblem aircraft 3 is: -11500
+reduced cost by subproblem aircraft 4 is: -21000
+reduced cost by subproblem aircraft 5 is: -21500
+reduced cost by subproblem aircraft 6 is: -12450
+reduced cost by subproblem aircraft 7 is: -22140
+reduced cost by subproblem aircraft 8 is: -21480
+reduced cost by subproblem aircraft 9 is: -11500
+reduced cost by subproblem aircraft 10 is: -32980
+reduced cost by subproblem aircraft 11 is: -21000
+reduced cost by subproblem aircraft 12 is: -13440
+reduced cost by subproblem aircraft 13 is: -12000
+reduced cost by subproblem aircraft 14 is: -14230
+reduced cost by subproblem aircraft 15 is: -13500
+Number of Better Lofs is 16
+
+ ********************* LP SOLUTION 1 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 70 rows and 77 columns.
+Reduced LP has 28 rows, 36 columns, and 96 nonzeros.
+Presolve time = 0.00 sec. (0.06 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 147
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.01 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 28
+  Integer space required    = 38
+  Total non-zeros in factor = 180
+  Total FP ops to factor    = 1322
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  3.9830000e+005  2.8327200e+003 9.72e+002 6.84e+002 8.19e+001 1.00e+000
+   1  3.7808340e+004  3.3528774e+003 8.48e+001 5.97e+001 5.62e-002 7.52e-002
+   2  4.0075129e+004  2.3872581e+004 5.44e+001 3.83e+001 2.82e-002 4.18e-003
+   3  3.6471745e+004  2.8531895e+004 1.97e+001 1.38e+001 1.61e-002 3.84e-003
+   4  3.3986005e+004  3.1753251e+004 1.73e-001 1.22e-001 6.55e-003 9.73e-003
+   5  3.4000174e+004  3.3999580e+004 6.41e-005 4.51e-005 1.73e-006 4.49e+001
+   6  3.4000000e+004  3.4000000e+004 2.20e-008 1.55e-008 2.16e-010 8.98e+005
+Barrier time = 0.02 sec. (0.19 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.19 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 30
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 34000
+ ********************* END LP SOLUTION 1 *********************
+
+reduced cost by subproblem aircraft 0 is: 0
+reduced cost by subproblem aircraft 1 is: -4723.46
+reduced cost by subproblem aircraft 2 is: 0
+reduced cost by subproblem aircraft 3 is: 0
+reduced cost by subproblem aircraft 4 is: 0
+reduced cost by subproblem aircraft 5 is: 0
+reduced cost by subproblem aircraft 6 is: -11990
+reduced cost by subproblem aircraft 7 is: -2720.59
+reduced cost by subproblem aircraft 8 is: -21000
+reduced cost by subproblem aircraft 9 is: 0
+reduced cost by subproblem aircraft 10 is: -15119.3
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -7577.72
+reduced cost by subproblem aircraft 13 is: -1980
+reduced cost by subproblem aircraft 14 is: -2754.25
+reduced cost by subproblem aircraft 15 is: -5893.66
+Number of Better Lofs is 9
+
+ ********************* LP SOLUTION 2 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 37 rows and 47 columns.
+Aggregator did 3 substitutions.
+Reduced LP has 58 rows, 72 columns, and 200 nonzeros.
+Presolve time = 0.02 sec. (0.08 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 335
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.02 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 58
+  Integer space required    = 110
+  Total non-zeros in factor = 541
+  Total FP ops to factor    = 5989
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.1899400e+006 -2.2650000e+002 2.03e+003 1.37e+003 9.45e+001 1.00e+000
+   1  2.3099762e+004 -1.3873787e+001 3.95e+001 2.66e+001 9.43e-003 9.36e-001
+   2  2.8015653e+003  2.2831387e+002 4.44e+000 2.99e+000 5.65e-004 8.03e-002
+   3  1.0251506e+003  1.0048247e+003 4.47e-002 3.00e-002 1.67e-006 1.37e+001
+   4  1.0100021e+003  1.0099985e+003 9.15e-006 6.15e-006 1.92e-010 4.95e+004
+   5  1.0100000e+003  1.0100000e+003 2.05e-009 1.38e-009 1.14e-009 2.61e+008
+Barrier time = 0.02 sec. (0.32 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.32 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 39
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 2 *********************
+
+reduced cost by subproblem aircraft 0 is: 0
+reduced cost by subproblem aircraft 1 is: -1198.72
+reduced cost by subproblem aircraft 2 is: 0
+reduced cost by subproblem aircraft 3 is: 0
+reduced cost by subproblem aircraft 4 is: 0
+reduced cost by subproblem aircraft 5 is: 0
+reduced cost by subproblem aircraft 6 is: -1198.83
+reduced cost by subproblem aircraft 7 is: -1222.61
+reduced cost by subproblem aircraft 8 is: -1220.64
+reduced cost by subproblem aircraft 9 is: -287.455
+reduced cost by subproblem aircraft 10 is: -1334.65
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -1061.83
+reduced cost by subproblem aircraft 13 is: -252.461
+reduced cost by subproblem aircraft 14 is: -1302.76
+reduced cost by subproblem aircraft 15 is: -443.289
+Number of Better Lofs is 10
+
+ ********************* LP SOLUTION 3 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 26 rows and 35 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 70 rows, 95 columns, and 273 nonzeros.
+Presolve time = 0.00 sec. (0.09 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 424
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.03 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 70
+  Integer space required    = 153
+  Total non-zeros in factor = 858
+  Total FP ops to factor    = 12956
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  1.3649000e+006  9.0115000e+003 2.76e+003 1.78e+003 2.12e+004 1.00e+000
+   1  1.1236399e+006 -1.0651545e+004 2.29e+003 1.48e+003 1.35e+004 6.28e-004
+   2  5.1216507e+005 -6.4950697e+004 1.14e+003 7.35e+002 4.05e+003 2.98e-004
+   3  1.3230733e+005 -5.7019034e+004 3.48e+002 2.25e+002 3.03e+003 3.67e-004
+   4  2.7054362e+004 -5.2014644e+004 9.18e+001 5.93e+001 2.71e+003 4.79e-004
+   5  2.0711129e+004 -3.3182241e+004 7.28e+001 4.70e+001 1.65e+003 7.79e-004
+   6  5.3000749e+003 -2.3473348e+004 1.73e+001 1.12e+001 1.18e+003 1.17e-003
+   7  1.9590979e+003 -9.4242345e+002 1.41e+000 9.08e-001 1.21e+002 1.43e-002
+   8  1.0141192e+003  1.0069079e+003 8.04e-003 5.20e-003 1.09e-001 2.21e+001
+   9  1.0100004e+003  1.0099993e+003 1.20e-006 7.75e-007 1.48e-005 1.36e+005
+Barrier time = 0.02 sec. (0.59 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.59 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 49
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 3 *********************
+
+reduced cost by subproblem aircraft 0 is: -9074.14
+reduced cost by subproblem aircraft 1 is: -5711.47
+reduced cost by subproblem aircraft 2 is: -1015.03
+reduced cost by subproblem aircraft 3 is: -770.124
+reduced cost by subproblem aircraft 4 is: 0
+reduced cost by subproblem aircraft 5 is: -649.393
+reduced cost by subproblem aircraft 6 is: -1325.42
+reduced cost by subproblem aircraft 7 is: -3480.27
+reduced cost by subproblem aircraft 8 is: -1811.06
+reduced cost by subproblem aircraft 9 is: -1.82595e-005
+reduced cost by subproblem aircraft 10 is: -1647.58
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -789.833
+reduced cost by subproblem aircraft 13 is: -2.65081e-007
+reduced cost by subproblem aircraft 14 is: -3095.9
+reduced cost by subproblem aircraft 15 is: -761.88
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 4 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 12 rows and 23 columns.
+Aggregator did 3 substitutions.
+Reduced LP has 83 rows, 118 columns, and 356 nonzeros.
+Presolve time = 0.00 sec. (0.10 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 515
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.03 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 83
+  Integer space required    = 190
+  Total non-zeros in factor = 1035
+  Total FP ops to factor    = 16793
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.1842200e+006 -2.0432400e+003 3.62e+003 2.24e+003 2.87e+002 1.00e+000
+   1  7.9253002e+004 -1.5229548e+003 1.34e+002 8.26e+001 2.86e-002 1.03e+000
+   2  3.4659162e+004 -2.5630318e+003 6.10e+001 3.77e+001 3.80e-003 2.80e-002
+   3  3.5271795e+003  6.3859942e+002 5.08e+000 3.14e+000 7.19e-005 3.04e-001
+   4  1.0111873e+003  1.0098094e+003 2.71e-003 1.67e-003 7.21e-009 7.73e+002
+   5  1.0100005e+003  1.0099999e+003 1.18e-006 7.30e-007 3.30e-011 1.57e+006
+   6  1.0100000e+003  1.0100000e+003 3.65e-010 2.33e-010 1.92e-008 4.27e+009
+Barrier time = 0.01 sec. (0.55 ticks)
+
+Total time on 4 threads = 0.01 sec. (0.55 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 61
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 4 *********************
+
+reduced cost by subproblem aircraft 0 is: -840.221
+reduced cost by subproblem aircraft 1 is: -884.462
+reduced cost by subproblem aircraft 2 is: -827.461
+reduced cost by subproblem aircraft 3 is: -5.68434e-014
+reduced cost by subproblem aircraft 4 is: 0
+reduced cost by subproblem aircraft 5 is: -63.8093
+reduced cost by subproblem aircraft 6 is: -838.857
+reduced cost by subproblem aircraft 7 is: -852.021
+reduced cost by subproblem aircraft 8 is: -933.065
+reduced cost by subproblem aircraft 9 is: -348.858
+reduced cost by subproblem aircraft 10 is: -600.109
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -837.723
+reduced cost by subproblem aircraft 13 is: 1.7053e-013
+reduced cost by subproblem aircraft 14 is: -984.579
+reduced cost by subproblem aircraft 15 is: -177.611
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 5 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 20 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 86 rows, 134 columns, and 413 nonzeros.
+Presolve time = 0.00 sec. (0.10 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 567
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.02 sec. (0.04 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 86
+  Integer space required    = 203
+  Total non-zeros in factor = 1213
+  Total FP ops to factor    = 21001
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0258200e+006 -2.3919100e+003 4.18e+003 2.54e+003 2.87e+002 1.00e+000
+   1  7.3203168e+004 -1.8086399e+003 1.55e+002 9.39e+001 2.86e-002 1.07e+000
+   2  1.9498090e+004 -2.9026716e+003 4.59e+001 2.78e+001 3.79e-003 2.93e-002
+   3  1.8172271e+003  6.6295894e+002 2.11e+000 1.28e+000 2.96e-004 3.29e-001
+   4  1.0150136e+003  9.8138252e+002 1.20e-002 7.27e-003 2.47e-005 3.92e+000
+   5  1.0100201e+003  1.0099976e+003 4.68e-005 2.84e-005 2.52e-009 6.11e+004
+   6  1.0100000e+003  1.0100000e+003 2.94e-008 1.79e-008 1.14e-009 9.41e+007
+Barrier time = 0.02 sec. (0.55 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.55 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 73
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 5 *********************
+
+reduced cost by subproblem aircraft 0 is: -337.194
+reduced cost by subproblem aircraft 1 is: -349.75
+reduced cost by subproblem aircraft 2 is: -308.681
+reduced cost by subproblem aircraft 3 is: -1.12408e-011
+reduced cost by subproblem aircraft 4 is: -4.98403e-010
+reduced cost by subproblem aircraft 5 is: -44.9328
+reduced cost by subproblem aircraft 6 is: -326.181
+reduced cost by subproblem aircraft 7 is: -334.345
+reduced cost by subproblem aircraft 8 is: -572.132
+reduced cost by subproblem aircraft 9 is: -89.9399
+reduced cost by subproblem aircraft 10 is: -176.769
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -325.704
+reduced cost by subproblem aircraft 13 is: -1.59162e-011
+reduced cost by subproblem aircraft 14 is: -350.397
+reduced cost by subproblem aircraft 15 is: -87.1146
+Number of Better Lofs is 12
+
+ ********************* LP SOLUTION 6 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 19 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 147 columns, and 464 nonzeros.
+Presolve time = 0.00 sec. (0.11 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 608
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.04 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 227
+  Total non-zeros in factor = 1308
+  Total FP ops to factor    = 25712
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0374200e+006 -2.6585400e+003 4.69e+003 2.79e+003 2.87e+002 1.00e+000
+   1  7.4724997e+004 -2.0252183e+003 1.77e+002 1.05e+002 2.86e-002 1.16e+000
+   2  1.8112637e+004 -3.0013462e+003 4.83e+001 2.87e+001 3.91e-003 3.14e-002
+   3  1.6707537e+003  6.8448911e+002 2.07e+000 1.23e+000 2.48e-004 3.85e-001
+   4  1.0119517e+003  9.9263468e+002 6.29e-003 3.74e-003 1.32e-005 7.19e+000
+   5  1.0100052e+003  1.0099974e+003 1.55e-005 9.22e-006 2.33e-009 5.25e+004
+   6  1.0100000e+003  1.0100000e+003 1.26e-008 7.48e-009 6.07e-009 2.83e+008
+Barrier time = 0.00 sec. (0.59 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.59 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 85
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 6 *********************
+
+reduced cost by subproblem aircraft 0 is: -32.7421
+reduced cost by subproblem aircraft 1 is: -144.234
+reduced cost by subproblem aircraft 2 is: -72.8917
+reduced cost by subproblem aircraft 3 is: -4.37268e-011
+reduced cost by subproblem aircraft 4 is: -5.04951e-009
+reduced cost by subproblem aircraft 5 is: -8.91589e-011
+reduced cost by subproblem aircraft 6 is: -162.532
+reduced cost by subproblem aircraft 7 is: -205.766
+reduced cost by subproblem aircraft 8 is: -125.026
+reduced cost by subproblem aircraft 9 is: -1.09708e-010
+reduced cost by subproblem aircraft 10 is: -72.8072
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -129.761
+reduced cost by subproblem aircraft 13 is: -6.49862e-011
+reduced cost by subproblem aircraft 14 is: -115.316
+reduced cost by subproblem aircraft 15 is: -8.36593e-011
+Number of Better Lofs is 9
+
+ ********************* LP SOLUTION 7 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 19 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 156 columns, and 510 nonzeros.
+Presolve time = 0.00 sec. (0.11 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 648
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 238
+  Total non-zeros in factor = 1395
+  Total FP ops to factor    = 28819
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0396200e+006 -2.8431300e+003 5.15e+003 2.96e+003 2.87e+002 1.00e+000
+   1  7.5550377e+004 -2.1779008e+003 1.96e+002 1.13e+002 2.86e-002 1.23e+000
+   2  1.6016523e+004 -3.0941192e+003 4.80e+001 2.76e+001 3.98e-003 3.28e-002
+   3  3.5029565e+003  1.6617361e+002 8.70e+000 4.99e+000 5.91e-004 1.60e-001
+   4  1.0266007e+003  9.1435234e+002 5.04e-002 2.89e-002 6.83e-005 1.38e+000
+   5  1.0106319e+003  1.0098130e+003 1.84e-003 1.05e-003 1.53e-007 9.04e+002
+   6  1.0100002e+003  1.0099999e+003 7.67e-007 4.40e-007 1.06e-010 2.94e+006
+Barrier time = 0.00 sec. (0.62 ticks)
+
+Total time on 4 threads = 0.00 sec. (0.62 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 94
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 7 *********************
+
+reduced cost by subproblem aircraft 0 is: -249.148
+reduced cost by subproblem aircraft 1 is: -289.883
+reduced cost by subproblem aircraft 2 is: -251.981
+reduced cost by subproblem aircraft 3 is: -7.77334e-011
+reduced cost by subproblem aircraft 4 is: 3.63798e-011
+reduced cost by subproblem aircraft 5 is: -8.28265e-010
+reduced cost by subproblem aircraft 6 is: -273.58
+reduced cost by subproblem aircraft 7 is: -386.563
+reduced cost by subproblem aircraft 8 is: -273.159
+reduced cost by subproblem aircraft 9 is: -5.34374e-009
+reduced cost by subproblem aircraft 10 is: -179.892
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -280.5
+reduced cost by subproblem aircraft 13 is: -1.4154e-011
+reduced cost by subproblem aircraft 14 is: -233.667
+reduced cost by subproblem aircraft 15 is: -9.1935
+Number of Better Lofs is 10
+
+ ********************* LP SOLUTION 8 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 19 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 166 columns, and 569 nonzeros.
+Presolve time = 0.00 sec. (0.12 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 708
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 244
+  Total non-zeros in factor = 1493
+  Total FP ops to factor    = 34839
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0429200e+006 -3.0482300e+003 5.74e+003 3.15e+003 2.87e+002 1.00e+000
+   1  7.5994397e+004 -2.3491226e+003 2.20e+002 1.21e+002 3.82e-002 9.69e-001
+   2  1.5192240e+004 -3.1730482e+003 5.14e+001 2.82e+001 5.40e-003 3.43e-002
+   3  3.1996248e+003  1.2277786e+002 8.40e+000 4.60e+000 9.83e-004 1.58e-001
+   4  1.0262110e+003  9.1170971e+002 5.63e-002 3.09e-002 1.10e-004 1.40e+000
+   5  1.0104598e+003  1.0098377e+003 1.52e-003 8.34e-004 2.07e-007 1.09e+003
+   6  1.0100002e+003  1.0100000e+003 6.21e-007 3.40e-007 9.45e-011 4.03e+006
+Barrier time = 0.02 sec. (0.66 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.66 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 104
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 8 *********************
+
+reduced cost by subproblem aircraft 0 is: -3.91978e-010
+reduced cost by subproblem aircraft 1 is: -13.756
+reduced cost by subproblem aircraft 2 is: 4.66116e-012
+reduced cost by subproblem aircraft 3 is: -1.26818e-010
+reduced cost by subproblem aircraft 4 is: 2.91038e-011
+reduced cost by subproblem aircraft 5 is: -4.69953e-010
+reduced cost by subproblem aircraft 6 is: -28.8075
+reduced cost by subproblem aircraft 7 is: -36.3695
+reduced cost by subproblem aircraft 8 is: -57.9113
+reduced cost by subproblem aircraft 9 is: -5.47811e-009
+reduced cost by subproblem aircraft 10 is: -6.8684
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -35.3593
+reduced cost by subproblem aircraft 13 is: -1.69464e-010
+reduced cost by subproblem aircraft 14 is: -24.7435
+reduced cost by subproblem aircraft 15 is: -2.81104e-007
+Number of Better Lofs is 7
+
+ ********************* LP SOLUTION 9 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 25 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 167 columns, and 575 nonzeros.
+Presolve time = 0.00 sec. (0.13 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 712
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 244
+  Total non-zeros in factor = 1493
+  Total FP ops to factor    = 34839
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0431200e+006 -3.1918000e+003 5.80e+003 3.16e+003 2.87e+002 1.00e+000
+   1  7.5684172e+004 -2.4472219e+003 2.22e+002 1.21e+002 3.00e-002 1.24e+000
+   2  1.5751093e+004 -3.1923108e+003 5.36e+001 2.92e+001 4.27e-003 3.51e-002
+   3  2.8986913e+003  2.1661605e+002 7.88e+000 4.29e+000 5.15e-004 1.89e-001
+   4  1.0237904e+003  9.3340190e+002 5.50e-002 3.00e-002 5.01e-005 1.94e+000
+   5  1.0100643e+003  1.0099802e+003 2.44e-004 1.33e-004 1.51e-008 8.85e+003
+   6  1.0100000e+003  1.0100000e+003 5.76e-008 3.14e-008 1.97e-010 2.94e+007
+Barrier time = 0.01 sec. (0.67 ticks)
+
+Total time on 4 threads = 0.01 sec. (0.67 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 111
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 9 *********************
+
+reduced cost by subproblem aircraft 0 is: -8.14708e-011
+reduced cost by subproblem aircraft 1 is: -2.00259e-010
+reduced cost by subproblem aircraft 2 is: 1.50919e-011
+reduced cost by subproblem aircraft 3 is: -3.30829e-011
+reduced cost by subproblem aircraft 4 is: -1.45519e-010
+reduced cost by subproblem aircraft 5 is: -8.2423e-011
+reduced cost by subproblem aircraft 6 is: -1.65841e-010
+reduced cost by subproblem aircraft 7 is: -1.21446e-010
+reduced cost by subproblem aircraft 8 is: -8.62315e-011
+reduced cost by subproblem aircraft 9 is: -5.93275e-010
+reduced cost by subproblem aircraft 10 is: 5.81332e-009
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -6.06409
+reduced cost by subproblem aircraft 13 is: -4.54747e-011
+reduced cost by subproblem aircraft 14 is: -5.7409e-010
+reduced cost by subproblem aircraft 15 is: 3.97088e-009
+Number of Better Lofs is 1
+
+ ********************* LP SOLUTION 10 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 25 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 168 columns, and 582 nonzeros.
+Presolve time = 0.02 sec. (0.13 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 714
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 244
+  Total non-zeros in factor = 1493
+  Total FP ops to factor    = 34839
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0433200e+006 -3.2123100e+003 5.87e+003 3.18e+003 2.87e+002 1.00e+000
+   1  7.5686149e+004 -2.4632365e+003 2.24e+002 1.21e+002 2.86e-002 1.31e+000
+   2  1.1885623e+004 -3.1965727e+003 4.33e+001 2.34e+001 4.06e-003 3.53e-002
+   3  2.6247524e+003  1.8396554e+002 7.09e+000 3.84e+000 6.35e-004 1.78e-001
+   4  1.0230222e+003  9.2855991e+002 5.47e-002 2.96e-002 6.30e-005 1.79e+000
+   5  1.0100702e+003  1.0099610e+003 2.77e-004 1.50e-004 3.35e-008 4.09e+003
+   6  1.0100000e+003  1.0100000e+003 6.99e-008 3.78e-008 1.35e-010 2.25e+007
+Barrier time = 0.02 sec. (0.68 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.68 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 112
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 10 *********************
+
+reduced cost by subproblem aircraft 0 is: -3.31113e-010
+reduced cost by subproblem aircraft 1 is: -42.7878
+reduced cost by subproblem aircraft 2 is: 8.61604e-011
+reduced cost by subproblem aircraft 3 is: -1.75987e-010
+reduced cost by subproblem aircraft 4 is: 1.09139e-011
+reduced cost by subproblem aircraft 5 is: -2.13163e-010
+reduced cost by subproblem aircraft 6 is: -36.3804
+reduced cost by subproblem aircraft 7 is: -5.44219e-010
+reduced cost by subproblem aircraft 8 is: -3.27248e-010
+reduced cost by subproblem aircraft 9 is: -3.16069e-009
+reduced cost by subproblem aircraft 10 is: 5.46174e-009
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -21.4187
+reduced cost by subproblem aircraft 13 is: -2.78405e-010
+reduced cost by subproblem aircraft 14 is: -2.32998
+reduced cost by subproblem aircraft 15 is: -5.17709
+Number of Better Lofs is 5
+
+ ********************* LP SOLUTION 11 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 25 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 173 columns, and 613 nonzeros.
+Presolve time = 0.00 sec. (0.13 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 718
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 245
+  Total non-zeros in factor = 1487
+  Total FP ops to factor    = 34343
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0446200e+006 -3.3148600e+003 6.18e+003 3.27e+003 2.87e+002 1.00e+000
+   1  7.5485246e+004 -2.5462014e+003 2.36e+002 1.25e+002 3.25e-002 1.19e+000
+   2  1.2688046e+004 -3.1898677e+003 4.79e+001 2.54e+001 4.63e-003 3.65e-002
+   3  2.6006896e+003  1.2649278e+002 7.23e+000 3.83e+000 7.90e-004 1.72e-001
+   4  1.0261249e+003  9.2279925e+002 7.13e-002 3.77e-002 7.84e-005 1.73e+000
+   5  1.0100946e+003  1.0099689e+003 4.03e-004 2.13e-004 3.10e-008 5.99e+003
+   6  1.0100000e+003  1.0100000e+003 8.58e-008 4.54e-008 1.92e-010 2.01e+007
+Barrier time = 0.02 sec. (0.69 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.69 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 117
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 11 *********************
+
+reduced cost by subproblem aircraft 0 is: -8.09735e-011
+reduced cost by subproblem aircraft 1 is: -6.44997
+reduced cost by subproblem aircraft 2 is: 1.03597e-011
+reduced cost by subproblem aircraft 3 is: -4.2192e-011
+reduced cost by subproblem aircraft 4 is: -1.34605e-010
+reduced cost by subproblem aircraft 5 is: -8.25651e-011
+reduced cost by subproblem aircraft 6 is: -1.38627e-010
+reduced cost by subproblem aircraft 7 is: -4.41958e-011
+reduced cost by subproblem aircraft 8 is: -6.16751e-011
+reduced cost by subproblem aircraft 9 is: -6.53216e-010
+reduced cost by subproblem aircraft 10 is: 5.83015e-010
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -8.37758e-010
+reduced cost by subproblem aircraft 13 is: -4.06573e-011
+reduced cost by subproblem aircraft 14 is: -6.19281e-010
+reduced cost by subproblem aircraft 15 is: -6.06233
+Number of Better Lofs is 2
+
+ ********************* LP SOLUTION 12 *********************
+
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 25 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 87 rows, 175 columns, and 627 nonzeros.
+Presolve time = 0.00 sec. (0.13 ticks)
+Parallel mode: using up to 4 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 718
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.02 sec. (0.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 4
+  Rows in Factor            = 87
+  Integer space required    = 245
+  Total non-zeros in factor = 1487
+  Total FP ops to factor    = 34343
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.0448200e+006 -3.3558800e+003 6.32e+003 3.31e+003 2.87e+002 1.00e+000
+   1  7.5469251e+004 -2.5805802e+003 2.41e+002 1.26e+002 3.56e-002 1.09e+000
+   2  1.4873407e+004 -3.1921725e+003 5.57e+001 2.92e+001 5.09e-003 3.69e-002
+   3  2.6708462e+003  2.2098570e+002 7.56e+000 3.96e+000 6.87e-004 1.96e-001
+   4  1.1272021e+003  9.3386174e+002 5.38e-001 2.82e-001 6.55e-005 2.04e+000
+   5  1.0101858e+003  1.0099583e+003 9.49e-004 4.97e-004 1.80e-008 4.72e+003
+   6  1.0100000e+003  1.0100000e+003 1.23e-007 6.47e-008 9.87e-011 1.08e+007
+Barrier time = 0.02 sec. (0.69 ticks)
+
+Total time on 4 threads = 0.02 sec. (0.69 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 119
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+ ********************* END LP SOLUTION 12 *********************
+
+reduced cost by subproblem aircraft 0 is: -6.06377e-011
+reduced cost by subproblem aircraft 1 is: -3.33358e-010
+reduced cost by subproblem aircraft 2 is: 1.99947e-011
+reduced cost by subproblem aircraft 3 is: -4.61569e-011
+reduced cost by subproblem aircraft 4 is: 0
+reduced cost by subproblem aircraft 5 is: -8.19398e-011
+reduced cost by subproblem aircraft 6 is: -1.79611e-010
+reduced cost by subproblem aircraft 7 is: -8.90168e-011
+reduced cost by subproblem aircraft 8 is: -6.20446e-011
+reduced cost by subproblem aircraft 9 is: -8.36337e-010
+reduced cost by subproblem aircraft 10 is: -4.72758e-009
+reduced cost by subproblem aircraft 11 is: 0
+reduced cost by subproblem aircraft 12 is: -6.39375e-010
+reduced cost by subproblem aircraft 13 is: -4.6029e-011
+reduced cost by subproblem aircraft 14 is: -7.29699e-010
+reduced cost by subproblem aircraft 15 is: -3.19051e-009
+Number of Better Lofs is 0
+
+ ********************* FINAL IP SOLUTION *********************
+Found incumbent of value 259500.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 3 times.
+MIP Presolve eliminated 5 rows and 24 columns.
+Aggregator did 8 substitutions.
+Reduced MIP has 85 rows, 170 columns, and 607 nonzeros.
+Reduced MIP has 170 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.45 ticks)
+Probing time = 0.00 sec. (0.37 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 14 rows and 14 columns.
+Reduced MIP has 71 rows, 156 columns, and 529 nonzeros.
+Reduced MIP has 156 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.26 ticks)
+Probing time = 0.00 sec. (0.32 ticks)
+Clique table members: 195.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.54 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       238500.0000      500.0000        7   99.79%
+*     0+    0                        34080.0000      500.0000        7   98.53%
+*     0     0      integral     0     1010.0000     1010.0002        7   -0.00%
+Elapsed time = 0.00 sec. (2.56 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (2.57 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (2.57 ticks)
+
+Number of leg variables is: 82
+Number of lof variables is: 119
+Number of selection constraints is: 16
+Number of cover constraints is: 82
+
+Solution status: Optimal
+Optimal value: 1010
+************ LOF ************
+Lof ID is 0
+Tail DDBCC
+LCS Tue May 14 09:05:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg List Size is 3 cost 0
+
+Tail DDBCC
+LCS Tue May 14 09:05:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg 0 Flt 13477034 Tal DDBCC
+LCS Tue May 14 09:05:00 2013
+AIM Tue May 14 17:50:00 2013
+ODp Tue May 14 09:05:00 2013
+OAr Tue May 14 17:50:00 2013
+
+Tail DDBCC
+LCS Tue May 14 09:05:00 2013
+LCS Wed May 15 20:03:00 2013
+Maint 76 Flt 13547200 Sta AIM Tal DDBCC
+Tue May 14 17:50:00 2013
+Wed May 15 10:03:00 2013
+ODp Tue May 14 17:50:00 2013
+OAr Wed May 15 10:03:00 2013
+
+Tail DDBCC
+LCS Tue May 14 09:05:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg 1 Flt 13479970 Tal DDBCC
+AIM Wed May 15 10:30:00 2013
+LCS Wed May 15 18:55:00 2013
+ODp Wed May 15 10:30:00 2013
+OAr Wed May 15 18:55:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 1
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg List Size is 7 cost 0
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 2 Flt 13473553 Tal EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Tue May 14 04:13:00 2013
+ODp Tue May 14 01:00:00 2013
+OAr Tue May 14 04:13:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 3 Flt 13476971 Tal EDBCC
+LCS Tue May 14 08:15:00 2013
+MIL Tue May 14 12:10:00 2013
+ODp Tue May 14 08:15:00 2013
+OAr Tue May 14 12:10:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Maint 72 Flt 13549786 Sta MIL Tal EDBCC
+Tue May 14 12:10:00 2013
+Tue May 14 21:55:00 2013
+ODp Tue May 14 12:10:00 2013
+OAr Tue May 14 21:55:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 4 Flt 13477368 Tal EDBCC
+MIL Tue May 14 21:55:00 2013
+XEM Wed May 15 04:00:00 2013
+ODp Tue May 14 21:55:00 2013
+OAr Wed May 15 04:00:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 5 Flt 13477140 Tal EDBCC
+XEM Wed May 15 05:35:00 2013
+MIL Wed May 15 11:15:00 2013
+ODp Wed May 15 05:35:00 2013
+OAr Wed May 15 11:15:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 6 Flt 13480265 Tal EDBCC
+MIL Wed May 15 12:50:00 2013
+EZE Wed May 15 17:15:00 2013
+ODp Wed May 15 12:50:00 2013
+OAr Wed May 15 17:15:00 2013
+
+Tail EDBCC
+MIL Tue May 14 01:00:00 2013
+LCS Wed May 15 21:48:00 2013
+Leg 7 Flt 13480266 Tal EDBCC
+EZE Wed May 15 18:20:00 2013
+LCS Wed May 15 20:40:00 2013
+ODp Wed May 15 18:20:00 2013
+OAr Wed May 15 20:40:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 2
+Tail FDBCC
+LCS Mon May 13 18:44:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg List Size is 3 cost 0
+
+Tail FDBCC
+LCS Mon May 13 18:44:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg 8 Flt 13474185 Tal FDBCC
+LCS Tue May 14 08:50:00 2013
+KFJ Tue May 14 19:40:00 2013
+ODp Tue May 14 08:50:00 2013
+OAr Tue May 14 19:40:00 2013
+
+Tail FDBCC
+LCS Mon May 13 18:44:00 2013
+LCS Wed May 15 20:03:00 2013
+Maint 81 Flt 13543636 Sta KFJ Tal FDBCC
+Tue May 14 19:40:00 2013
+Wed May 15 08:00:00 2013
+ODp Tue May 14 19:40:00 2013
+OAr Wed May 15 08:00:00 2013
+
+Tail FDBCC
+LCS Mon May 13 18:44:00 2013
+LCS Wed May 15 20:03:00 2013
+Leg 9 Flt 13479865 Tal FDBCC
+KFJ Wed May 15 08:00:00 2013
+LCS Wed May 15 18:55:00 2013
+ODp Wed May 15 08:00:00 2013
+OAr Wed May 15 18:55:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 4
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Leg List Size is 4 cost 0
+
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Leg 13 Flt 13476291 Tal HDBCC
+LCS Tue May 14 11:45:00 2013
+XEM Tue May 14 20:35:00 2013
+ODp Tue May 14 11:45:00 2013
+OAr Tue May 14 20:35:00 2013
+
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Maint 74 Flt 13549785 Sta XEM Tal HDBCC
+Tue May 14 20:35:00 2013
+Wed May 15 09:24:00 2013
+ODp Tue May 14 20:35:00 2013
+OAr Wed May 15 09:24:00 2013
+
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Leg 14 Flt 13479674 Tal HDBCC
+XEM Wed May 15 09:25:00 2013
+LCS Wed May 15 17:50:00 2013
+ODp Wed May 15 09:25:00 2013
+OAr Wed May 15 17:50:00 2013
+
+Tail HDBCC
+LCS Tue May 14 11:45:00 2013
+LCS Thu May 16 09:05:00 2013
+Maint 70 Flt 13535484 Sta LCS Tal HDBCC
+Wed May 15 17:50:00 2013
+Thu May 16 09:05:00 2013
+ODp Wed May 15 17:50:00 2013
+OAr Thu May 16 09:05:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 6
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Leg List Size is 6 cost 0
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Maint 59 Flt 13539089 Sta LCS Tal KDBCC
+Mon May 13 22:00:00 2013
+Tue May 14 08:50:00 2013
+ODp Mon May 13 22:00:00 2013
+OAr Tue May 14 08:50:00 2013
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Leg 22 Flt 13476749 Tal KDBCC
+LCS Tue May 14 09:15:00 2013
+MIL Tue May 14 13:10:00 2013
+ODp Tue May 14 09:15:00 2013
+OAr Tue May 14 13:10:00 2013
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Leg 23 Flt 13476750 Tal KDBCC
+MIL Tue May 14 14:30:00 2013
+XAL Tue May 14 23:25:00 2013
+ODp Tue May 14 14:30:00 2013
+OAr Tue May 14 23:25:00 2013
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Maint 78 Flt 13550639 Sta XAL Tal KDBCC
+Tue May 14 23:25:00 2013
+Wed May 15 04:45:00 2013
+ODp Tue May 14 23:25:00 2013
+OAr Wed May 15 04:45:00 2013
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Leg 24 Flt 13476738 Tal KDBCC
+XAL Wed May 15 04:45:00 2013
+MIL Wed May 15 13:20:00 2013
+ODp Wed May 15 04:45:00 2013
+OAr Wed May 15 13:20:00 2013
+
+Tail KDBCC
+LCS Mon May 13 18:13:00 2013
+LCS Thu May 16 10:45:00 2013
+Leg 25 Flt 13476739 Tal KDBCC
+MIL Wed May 15 14:35:00 2013
+LCS Wed May 15 18:00:00 2013
+ODp Wed May 15 14:35:00 2013
+OAr Wed May 15 18:00:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 9
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Leg List Size is 4 cost 0
+
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Leg 37 Flt 13476745 Tal LMCCC
+XEM Tue May 14 09:25:00 2013
+LCS Tue May 14 17:50:00 2013
+ODp Tue May 14 09:25:00 2013
+OAr Tue May 14 17:50:00 2013
+
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Maint 64 Flt 13538446 Sta LCS Tal LMCCC
+Tue May 14 17:51:00 2013
+Wed May 15 09:04:00 2013
+ODp Tue May 14 17:51:00 2013
+OAr Wed May 15 09:04:00 2013
+
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Leg 38 Flt 13479966 Tal LMCCC
+LCS Wed May 15 09:05:00 2013
+AIM Wed May 15 17:50:00 2013
+ODp Wed May 15 09:05:00 2013
+OAr Wed May 15 17:50:00 2013
+
+Tail LMCCC
+XEM Tue May 14 09:25:00 2013
+AIM Thu May 16 10:30:00 2013
+Maint 80 Flt 13550643 Sta AIM Tal LMCCC
+Wed May 15 17:50:00 2013
+Thu May 16 10:30:00 2013
+ODp Wed May 15 17:50:00 2013
+OAr Thu May 16 10:30:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 11
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Leg List Size is 5 cost 0
+
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Leg 44 Flt 13473585 Tal VRCCC
+XAL Tue May 14 04:45:00 2013
+MIL Tue May 14 13:20:00 2013
+ODp Tue May 14 04:45:00 2013
+OAr Tue May 14 13:20:00 2013
+
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Leg 45 Flt 13473586 Tal VRCCC
+MIL Tue May 14 14:35:00 2013
+LCS Tue May 14 18:00:00 2013
+ODp Tue May 14 14:35:00 2013
+OAr Tue May 14 18:00:00 2013
+
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Maint 65 Flt 13365876 Sta LCS Tal VRCCC
+Tue May 14 18:01:00 2013
+Wed May 15 09:14:00 2013
+ODp Tue May 14 18:01:00 2013
+OAr Wed May 15 09:14:00 2013
+
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Leg 46 Flt 13479678 Tal VRCCC
+LCS Wed May 15 09:15:00 2013
+MIL Wed May 15 13:10:00 2013
+ODp Wed May 15 09:15:00 2013
+OAr Wed May 15 13:10:00 2013
+
+Tail VRCCC
+XAL Tue May 14 01:13:00 2013
+XAL Thu May 16 04:45:00 2013
+Leg 47 Flt 13479679 Tal VRCCC
+MIL Wed May 15 14:30:00 2013
+XAL Wed May 15 23:25:00 2013
+ODp Wed May 15 14:30:00 2013
+OAr Wed May 15 23:25:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 12
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Leg List Size is 5 cost 0
+
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Leg 48 Flt 13473468 Tal NWCCC
+SCC Mon May 13 23:56:00 2013
+EYG Tue May 14 02:51:00 2013
+ODp Mon May 13 23:56:00 2013
+OAr Tue May 14 02:51:00 2013
+
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Leg 49 Flt 13473469 Tal NWCCC
+EYG Tue May 14 03:50:00 2013
+LCS Tue May 14 08:35:00 2013
+ODp Tue May 14 03:50:00 2013
+OAr Tue May 14 08:35:00 2013
+
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Maint 62 Flt 13535684 Sta LCS Tal NWCCC
+Tue May 14 08:35:00 2013
+Tue May 14 10:05:00 2013
+ODp Tue May 14 08:35:00 2013
+OAr Tue May 14 10:05:00 2013
+
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Leg 50 Flt 13476866 Tal NWCCC
+LCS Wed May 15 03:25:00 2013
+URG Wed May 15 07:25:00 2013
+ODp Wed May 15 03:25:00 2013
+OAr Wed May 15 07:25:00 2013
+
+Tail NWCCC
+SCC Mon May 13 23:56:00 2013
+LCS Thu May 16 02:00:00 2013
+Leg 51 Flt 13479460 Tal NWCCC
+URG Wed May 15 08:40:00 2013
+LCS Wed May 15 13:10:00 2013
+ODp Wed May 15 08:40:00 2013
+OAr Wed May 15 13:10:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 13
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg List Size is 8 cost 0
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 52 Flt 13474221 Tal WZCCC
+MIL Mon May 13 21:54:00 2013
+XEM Tue May 14 03:58:00 2013
+ODp Mon May 13 21:54:00 2013
+OAr Tue May 14 03:58:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 53 Flt 13473992 Tal WZCCC
+XEM Tue May 14 05:35:00 2013
+MIL Tue May 14 11:15:00 2013
+ODp Tue May 14 05:35:00 2013
+OAr Tue May 14 11:15:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 54 Flt 13477352 Tal WZCCC
+MIL Tue May 14 12:50:00 2013
+EZE Tue May 14 17:15:00 2013
+ODp Tue May 14 12:50:00 2013
+OAr Tue May 14 17:15:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 55 Flt 13477353 Tal WZCCC
+EZE Tue May 14 18:20:00 2013
+LCS Tue May 14 20:40:00 2013
+ODp Tue May 14 18:20:00 2013
+OAr Tue May 14 20:40:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Maint 68 Flt 13543522 Sta LCS Tal WZCCC
+Tue May 14 20:40:00 2013
+Wed May 15 02:00:00 2013
+ODp Tue May 14 20:40:00 2013
+OAr Wed May 15 02:00:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 56 Flt 13476937 Tal WZCCC
+LCS Wed May 15 02:00:00 2013
+EZE Wed May 15 04:00:00 2013
+ODp Wed May 15 02:00:00 2013
+OAr Wed May 15 04:00:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 57 Flt 13477333 Tal WZCCC
+EZE Wed May 15 05:00:00 2013
+LCS Wed May 15 07:20:00 2013
+ODp Wed May 15 05:00:00 2013
+OAr Wed May 15 07:20:00 2013
+
+Tail WZCCC
+MIL Mon May 13 21:54:00 2013
+KFJ Wed May 15 21:50:00 2013
+Leg 58 Flt 13477334 Tal WZCCC
+LCS Wed May 15 08:50:00 2013
+KFJ Wed May 15 19:40:00 2013
+ODp Wed May 15 08:50:00 2013
+OAr Wed May 15 19:40:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 17
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Leg List Size is 4 cost 0
+
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Leg 10 Flt 13476930 Tal GDBCC
+KFJ Tue May 14 08:00:00 2013
+LCS Tue May 14 18:55:00 2013
+ODp Tue May 14 08:00:00 2013
+OAr Tue May 14 18:55:00 2013
+
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Maint 66 Flt 13538976 Sta LCS Tal GDBCC
+Tue May 14 18:55:00 2013
+Wed May 15 08:10:00 2013
+ODp Tue May 14 18:55:00 2013
+OAr Wed May 15 08:10:00 2013
+
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Leg 11 Flt 13480288 Tal GDBCC
+LCS Wed May 15 08:10:00 2013
+EZE Wed May 15 10:10:00 2013
+ODp Wed May 15 08:10:00 2013
+OAr Wed May 15 10:10:00 2013
+
+Tail GDBCC
+KFJ Tue May 14 06:37:00 2013
+MIL Wed May 15 22:10:00 2013
+Leg 12 Flt 13480289 Tal GDBCC
+EZE Wed May 15 15:10:00 2013
+MIL Wed May 15 20:20:00 2013
+ODp Wed May 15 15:10:00 2013
+OAr Wed May 15 20:20:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 19
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Leg List Size is 5 cost 0
+
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Maint 60 Flt 13549483 Sta AIM Tal IDBCC
+Tue May 14 03:55:00 2013
+Tue May 14 12:59:00 2013
+ODp Tue May 14 03:55:00 2013
+OAr Tue May 14 12:59:00 2013
+
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Leg 15 Flt 13476782 Tal IDBCC
+AIM Tue May 14 13:00:00 2013
+MIL Tue May 14 18:40:00 2013
+ODp Tue May 14 13:00:00 2013
+OAr Tue May 14 18:40:00 2013
+
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Leg 16 Flt 13476638 Tal IDBCC
+MIL Tue May 14 22:10:00 2013
+AIM Wed May 15 03:55:00 2013
+ODp Tue May 14 22:10:00 2013
+OAr Wed May 15 03:55:00 2013
+
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Maint 79 Flt 13550638 Sta AIM Tal IDBCC
+Wed May 15 03:55:00 2013
+Wed May 15 13:00:00 2013
+ODp Wed May 15 03:55:00 2013
+OAr Wed May 15 13:00:00 2013
+
+Tail IDBCC
+AIM Tue May 14 03:00:00 2013
+MIL Wed May 15 21:35:00 2013
+Leg 17 Flt 13479709 Tal IDBCC
+AIM Wed May 15 13:00:00 2013
+MIL Wed May 15 18:40:00 2013
+ODp Wed May 15 13:00:00 2013
+OAr Wed May 15 18:40:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 23
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Leg List Size is 4 cost 0
+
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Leg 30 Flt 13473721 Tal MDBCC
+LCS Tue May 14 03:25:00 2013
+URG Tue May 14 07:25:00 2013
+ODp Tue May 14 03:25:00 2013
+OAr Tue May 14 07:25:00 2013
+
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Leg 31 Flt 13476542 Tal MDBCC
+URG Tue May 14 08:40:00 2013
+LCS Tue May 14 13:10:00 2013
+ODp Tue May 14 08:40:00 2013
+OAr Tue May 14 13:10:00 2013
+
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Maint 63 Flt 13547201 Sta LCS Tal MDBCC
+Tue May 14 13:10:00 2013
+Wed May 15 11:45:00 2013
+ODp Tue May 14 13:10:00 2013
+OAr Wed May 15 11:45:00 2013
+
+Tail MDBCC
+LCS Mon May 13 12:45:00 2013
+XEM Wed May 15 21:55:00 2013
+Leg 32 Flt 13479208 Tal MDBCC
+LCS Wed May 15 11:45:00 2013
+XEM Wed May 15 20:35:00 2013
+ODp Wed May 15 11:45:00 2013
+OAr Wed May 15 20:35:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 33
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Leg List Size is 4 cost 0
+
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Leg 28 Flt 13477378 Tal LDBCC
+LCS Tue May 14 10:45:00 2013
+AIM Tue May 14 19:30:00 2013
+ODp Tue May 14 10:45:00 2013
+OAr Tue May 14 19:30:00 2013
+
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Maint 77 Flt 13542420 Sta AIM Tal LDBCC
+Tue May 14 19:30:00 2013
+Wed May 15 09:25:00 2013
+ODp Tue May 14 19:30:00 2013
+OAr Wed May 15 09:25:00 2013
+
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Leg 29 Flt 13480273 Tal LDBCC
+AIM Wed May 15 09:25:00 2013
+LCS Wed May 15 17:50:00 2013
+ODp Wed May 15 09:25:00 2013
+OAr Wed May 15 17:50:00 2013
+
+Tail LDBCC
+LCS Mon May 13 03:55:00 2013
+LCS Thu May 16 03:25:00 2013
+Maint 71 Flt 13549886 Sta LCS Tal LDBCC
+Wed May 15 17:50:00 2013
+Thu May 16 03:24:00 2013
+ODp Wed May 15 17:50:00 2013
+OAr Thu May 16 03:24:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 105
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Leg List Size is 5 cost 10
+
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Leg 26 Flt 13474087 Tal LDBCC
+LCS Tue May 14 04:15:00 2013
+CPI Tue May 14 10:10:00 2013
+ODp Tue May 14 04:15:00 2013
+OAr Tue May 14 10:10:00 2013
+
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Leg 19 Flt 13473879 Tal JDBCC
+CPI Tue May 14 12:45:00 2013
+TPP Tue May 14 18:55:00 2013
+ODp Tue May 14 12:45:00 2013
+OAr Tue May 14 18:55:00 2013
+
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Leg 20 Flt 13476535 Tal JDBCC
+TPP Tue May 14 20:00:00 2013
+CPI Wed May 15 01:25:00 2013
+ODp Tue May 14 20:00:00 2013
+OAr Wed May 15 01:25:00 2013
+
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Leg 21 Flt 13476536 Tal JDBCC
+CPI Wed May 15 02:35:00 2013
+LCS Wed May 15 07:20:00 2013
+ODp Wed May 15 02:35:00 2013
+OAr Wed May 15 07:20:00 2013
+
+Tail JDBCC
+LCS Mon May 13 21:20:00 2013
+LCS Thu May 16 09:15:00 2013
+Maint 61 Flt 13542740 Sta LCS Tal JDBCC
+Wed May 15 13:10:00 2013
+Thu May 16 09:15:00 2013
+ODp Wed May 15 13:10:00 2013
+OAr Thu May 16 09:15:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 108
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Leg List Size is 7 cost 0
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Leg 33 Flt 13473311 Tal JBCCC
+LCS Mon May 13 20:22:00 2013
+SCC Tue May 14 03:18:00 2013
+ODp Mon May 13 20:22:00 2013
+OAr Tue May 14 03:18:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Leg 34 Flt 13473312 Tal JBCCC
+SCC Tue May 14 04:30:00 2013
+AIM Tue May 14 08:10:00 2013
+ODp Tue May 14 04:30:00 2013
+OAr Tue May 14 08:10:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Maint 75 Flt 13552863 Sta AIM Tal JBCCC
+Tue May 14 08:11:00 2013
+Tue May 14 10:29:00 2013
+ODp Tue May 14 08:11:00 2013
+OAr Tue May 14 10:29:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Leg 35 Flt 13477036 Tal JBCCC
+AIM Tue May 14 10:30:00 2013
+LCS Tue May 14 18:55:00 2013
+ODp Tue May 14 10:30:00 2013
+OAr Tue May 14 18:55:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Maint 67 Flt 13542814 Sta LCS Tal JBCCC
+Tue May 14 18:55:00 2013
+Wed May 15 01:59:00 2013
+ODp Tue May 14 18:55:00 2013
+OAr Wed May 15 01:59:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Leg 36 Flt 13479909 Tal JBCCC
+LCS Wed May 15 08:15:00 2013
+MIL Wed May 15 12:10:00 2013
+ODp Wed May 15 08:15:00 2013
+OAr Wed May 15 12:10:00 2013
+
+Tail JBCCC
+LCS Mon May 13 20:22:00 2013
+MIL Wed May 15 21:55:00 2013
+Maint 73 Flt 13550641 Sta MIL Tal JBCCC
+Wed May 15 12:10:00 2013
+Wed May 15 21:55:00 2013
+ODp Wed May 15 12:10:00 2013
+OAr Wed May 15 21:55:00 2013
+
+*****************************
+************ LOF ************
+Lof ID is 109
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg List Size is 6 cost 0
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg 39 Flt 13477374 Tal GRCCC
+LCS Tue May 14 08:10:00 2013
+EZE Tue May 14 10:10:00 2013
+ODp Tue May 14 08:10:00 2013
+OAr Tue May 14 10:10:00 2013
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg 40 Flt 13477375 Tal GRCCC
+EZE Tue May 14 15:10:00 2013
+MIL Tue May 14 20:20:00 2013
+ODp Tue May 14 15:10:00 2013
+OAr Tue May 14 20:20:00 2013
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg 41 Flt 13477228 Tal GRCCC
+MIL Wed May 15 01:35:00 2013
+SCC Wed May 15 05:45:00 2013
+ODp Wed May 15 01:35:00 2013
+OAr Wed May 15 05:45:00 2013
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg 42 Flt 13477077 Tal GRCCC
+SCC Wed May 15 07:00:00 2013
+MIL Wed May 15 11:20:00 2013
+ODp Wed May 15 07:00:00 2013
+OAr Wed May 15 11:20:00 2013
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Leg 43 Flt 13479919 Tal GRCCC
+MIL Wed May 15 13:25:00 2013
+LCS Wed May 15 16:50:00 2013
+ODp Wed May 15 13:25:00 2013
+OAr Wed May 15 16:50:00 2013
+
+Tail GRCCC
+LCS Tue May 14 02:00:00 2013
+LCS Thu May 16 11:45:00 2013
+Maint 69 Flt 13549104 Sta LCS Tal GRCCC
+Wed May 15 16:50:00 2013
+Thu May 16 11:45:00 2013
+ODp Wed May 15 16:50:00 2013
+OAr Thu May 16 11:45:00 2013
+
+*****************************
+
+ ********************* END FINAL IP SOLUTION *********************
+Total number of connection of leg network: 466
+total run time is 0 seconds
+##### Canceled flights are #####: 
+Leg 18 Flt 13473878 Tal JDBCC
+LCS Tue May 14 11:30:00 2013
+CPI Tue May 14 17:25:00 2013
+dual is 546.08
+Leg 27 Flt 13474097 Tal LDBCC
+CPI Tue May 14 03:10:00 2013
+LCS Tue May 14 07:55:00 2013
+dual is 500
+Solution is printed.
+
+Tool completed successfully
