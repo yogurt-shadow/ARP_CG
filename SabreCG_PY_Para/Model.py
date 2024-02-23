@@ -36,9 +36,9 @@ class Model:
 
     def findNewColumnsParallel(self, start: int, end: int, threadIndex: int) -> None:
         for i in range(start, end):
-            self.findNewColumns(self._aircraftList[i], threadIndex)
+            self.findNewColumnsInner(self._aircraftList[i], threadIndex)
 
-    def findNewColumns(self, aircraft: Aircraft, threadIndex: int) -> None:
+    def findNewColumnsInner(self, aircraft: Aircraft, threadIndex: int) -> None:
         depLegList = aircraft.getDepStation().getDepLegList()
         for _depLeg in depLegList:
             self.edgeProcessFlt(_depLeg, aircraft, threadIndex)
@@ -127,12 +127,12 @@ class Model:
 
     def findNewColumns(self) -> None:
         indexList = [[0, 0] for i in range(ut.util.threadSize)]
-        unitSize = len(self._aircraftList) / ut.util.threadSize + 1
+        unitSize = len(self._aircraftList) // ut.util.threadSize + 1
         threads = []
         for j in range(ut.util.threadSize):
             indexList[j][0] = unitSize * j
-            indexList[j][1] = unitSize * (j + 1)
-            worker = threading.Thread(target=self.findNewColumnsParallel, args=(self, indexList[j][0], indexList[j][1], j))
+            indexList[j][1] = min(unitSize * (j + 1), len(self._aircraftList))
+            worker = threading.Thread(target=self.findNewColumnsParallel, args=(indexList[j][0], indexList[j][1], j))
             # Setting daemon to True will let the main thread exit even though the workers are blocking
             worker.daemon = True
             worker.start()
@@ -486,7 +486,7 @@ class Model:
             self._betterColumns[i].clear()
 
     def hasBetterColumn(self) -> bool:
-        return any([self._betterColumns[i] > 0 for i in range(ut.util.threadSize)])
+        return any([len(self._betterColumns[i]) > 0 for i in range(ut.util.threadSize)])
 
     def populateByColumn(self, _initColumns: list[Lof]) -> None:
         # init constraint - var coefficient matrix

@@ -73,84 +73,75 @@
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929329</ns3:id>
-      <ns3:departureTime>1343056200</ns3:departureTime>
-      <ns3:arrivalTime>1343069700</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>XAL</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929923</ns3:id>
-      <ns3:departureTime>1343075100</ns3:departureTime>
-      <ns3:arrivalTime>1343088300</ns3:arrivalTime>
-      <ns3:departureAirport>XAL</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932553</ns3:id>
-      <ns3:departureTime>1343091600</ns3:departureTime>
-      <ns3:arrivalTime>1343099520</ns3:arrivalTime>
+      <ns3:id>2929606</ns3:id>
+      <ns3:departureTime>1343058900</ns3:departureTime>
+      <ns3:arrivalTime>1343066640</ns3:arrivalTime>
       <ns3:departureAirport>XEM</ns3:departureAirport>
       <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2931720</ns3:id>
-      <ns3:departureTime>1343103300</ns3:departureTime>
-      <ns3:arrivalTime>1343107200</ns3:arrivalTime>
+      <ns3:id>2929593</ns3:id>
+      <ns3:departureTime>1343068800</ns3:departureTime>
+      <ns3:arrivalTime>1343077440</ns3:arrivalTime>
       <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>VAH</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2932383</ns3:id>
-      <ns3:departureTime>1343110800</ns3:departureTime>
-      <ns3:arrivalTime>1343115000</ns3:arrivalTime>
-      <ns3:departureAirport>VAH</ns3:departureAirport>
+      <ns3:id>2929557</ns3:id>
+      <ns3:departureTime>1343082000</ns3:departureTime>
+      <ns3:arrivalTime>1343103000</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2931898</ns3:id>
+      <ns3:departureTime>1343107200</ns3:departureTime>
+      <ns3:arrivalTime>1343128200</ns3:arrivalTime>
+      <ns3:departureAirport>MIL</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2931659</ns3:id>
+      <ns3:departureTime>1343134500</ns3:departureTime>
+      <ns3:arrivalTime>1343141940</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
       <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2932478</ns3:id>
-      <ns3:departureTime>1343131200</ns3:departureTime>
-      <ns3:arrivalTime>1343139780</ns3:arrivalTime>
+      <ns3:id>2931660</ns3:id>
+      <ns3:departureTime>1343145300</ns3:departureTime>
+      <ns3:arrivalTime>1343153100</ns3:arrivalTime>
+      <ns3:departureAirport>NUC</ns3:departureAirport>
+      <ns3:arrivalAirport>OJS</ns3:arrivalAirport>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2931553</ns3:id>
+      <ns3:departureTime>1343156700</ns3:departureTime>
+      <ns3:arrivalTime>1343164200</ns3:arrivalTime>
+      <ns3:departureAirport>OJS</ns3:departureAirport>
+      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2931554</ns3:id>
+      <ns3:departureTime>1343167800</ns3:departureTime>
+      <ns3:arrivalTime>1343176500</ns3:arrivalTime>
       <ns3:departureAirport>NUC</ns3:departureAirport>
       <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932326</ns3:id>
-      <ns3:departureTime>1343144400</ns3:departureTime>
-      <ns3:arrivalTime>1343150700</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>DIM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932099</ns3:id>
-      <ns3:departureTime>1343152800</ns3:departureTime>
-      <ns3:arrivalTime>1343159700</ns3:arrivalTime>
-      <ns3:departureAirport>DIM</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932585</ns3:id>
-      <ns3:departureTime>1343163000</ns3:departureTime>
-      <ns3:arrivalTime>1343175000</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>JIT</ns3:arrivalAirport>
-      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:tailNumber>MA958N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
@@ -235,51 +226,6 @@
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929718</ns3:id>
-      <ns3:departureTime>1343069400</ns3:departureTime>
-      <ns3:arrivalTime>1343088600</ns3:arrivalTime>
-      <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
-      <ns3:tailNumber>MAZAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929719</ns3:id>
-      <ns3:departureTime>1343092200</ns3:departureTime>
-      <ns3:arrivalTime>1343109300</ns3:arrivalTime>
-      <ns3:departureAirport>MIL</ns3:departureAirport>
-      <ns3:arrivalAirport>URG</ns3:arrivalAirport>
-      <ns3:tailNumber>MAZAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932150</ns3:id>
-      <ns3:departureTime>1343113800</ns3:departureTime>
-      <ns3:arrivalTime>1343132700</ns3:arrivalTime>
-      <ns3:departureAirport>URG</ns3:departureAirport>
-      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
-      <ns3:tailNumber>MAZAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932151</ns3:id>
-      <ns3:departureTime>1343137200</ns3:departureTime>
-      <ns3:arrivalTime>1343157000</ns3:arrivalTime>
-      <ns3:departureAirport>MIL</ns3:departureAirport>
-      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MAZAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932555</ns3:id>
-      <ns3:departureTime>1343160900</ns3:departureTime>
-      <ns3:arrivalTime>1343169540</ns3:arrivalTime>
-      <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MAZAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
       <ns3:id>2929015</ns3:id>
       <ns3:departureTime>1343064900</ns3:departureTime>
       <ns3:arrivalTime>1343076600</ns3:arrivalTime>
@@ -361,57 +307,48 @@
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929572</ns3:id>
-      <ns3:departureTime>1343054700</ns3:departureTime>
-      <ns3:arrivalTime>1343073600</ns3:arrivalTime>
-      <ns3:departureAirport>SCC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:id>2929718</ns3:id>
+      <ns3:departureTime>1343069400</ns3:departureTime>
+      <ns3:arrivalTime>1343088600</ns3:arrivalTime>
+      <ns3:departureAirport>NUC</ns3:departureAirport>
+      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
+      <ns3:tailNumber>MAZAX</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929894</ns3:id>
-      <ns3:departureTime>1343079000</ns3:departureTime>
-      <ns3:arrivalTime>1343086980</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:id>2929719</ns3:id>
+      <ns3:departureTime>1343092200</ns3:departureTime>
+      <ns3:arrivalTime>1343109300</ns3:arrivalTime>
+      <ns3:departureAirport>MIL</ns3:departureAirport>
+      <ns3:arrivalAirport>URG</ns3:arrivalAirport>
+      <ns3:tailNumber>MAZAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932150</ns3:id>
+      <ns3:departureTime>1343113800</ns3:departureTime>
+      <ns3:arrivalTime>1343132700</ns3:arrivalTime>
+      <ns3:departureAirport>URG</ns3:departureAirport>
+      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
+      <ns3:tailNumber>MAZAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932151</ns3:id>
+      <ns3:departureTime>1343137200</ns3:departureTime>
+      <ns3:arrivalTime>1343157000</ns3:arrivalTime>
+      <ns3:departureAirport>MIL</ns3:departureAirport>
       <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:tailNumber>MAZAX</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2931668</ns3:id>
-      <ns3:departureTime>1343089200</ns3:departureTime>
-      <ns3:arrivalTime>1343097900</ns3:arrivalTime>
+      <ns3:id>2932555</ns3:id>
+      <ns3:departureTime>1343160900</ns3:departureTime>
+      <ns3:arrivalTime>1343169540</ns3:arrivalTime>
       <ns3:departureAirport>NUC</ns3:departureAirport>
       <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932272</ns3:id>
-      <ns3:departureTime>1343112000</ns3:departureTime>
-      <ns3:arrivalTime>1343130300</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>SCC</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932120</ns3:id>
-      <ns3:departureTime>1343134800</ns3:departureTime>
-      <ns3:arrivalTime>1343153700</ns3:arrivalTime>
-      <ns3:departureAirport>SCC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932621</ns3:id>
-      <ns3:departureTime>1343158200</ns3:departureTime>
-      <ns3:arrivalTime>1343171700</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>XAL</ns3:arrivalAirport>
-      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:tailNumber>MAZAX</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
@@ -484,6 +421,114 @@
       <ns3:departureAirport>XEM</ns3:departureAirport>
       <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
       <ns3:tailNumber>MA858N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2929850</ns3:id>
+      <ns3:departureTime>1343059500</ns3:departureTime>
+      <ns3:arrivalTime>1343079300</ns3:arrivalTime>
+      <ns3:departureAirport>LUY</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932153</ns3:id>
+      <ns3:departureTime>1343091600</ns3:departureTime>
+      <ns3:arrivalTime>1343097480</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>YTM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932179</ns3:id>
+      <ns3:departureTime>1343129400</ns3:departureTime>
+      <ns3:arrivalTime>1343134800</ns3:arrivalTime>
+      <ns3:departureAirport>YTM</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932097</ns3:id>
+      <ns3:departureTime>1343137560</ns3:departureTime>
+      <ns3:arrivalTime>1343145300</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932216</ns3:id>
+      <ns3:departureTime>1343148300</ns3:departureTime>
+      <ns3:arrivalTime>1343156880</ns3:arrivalTime>
+      <ns3:departureAirport>NUC</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932443</ns3:id>
+      <ns3:departureTime>1343165400</ns3:departureTime>
+      <ns3:arrivalTime>1343173380</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
+      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2929572</ns3:id>
+      <ns3:departureTime>1343054700</ns3:departureTime>
+      <ns3:arrivalTime>1343073600</ns3:arrivalTime>
+      <ns3:departureAirport>SCC</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2929894</ns3:id>
+      <ns3:departureTime>1343079000</ns3:departureTime>
+      <ns3:arrivalTime>1343086980</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2931668</ns3:id>
+      <ns3:departureTime>1343089200</ns3:departureTime>
+      <ns3:arrivalTime>1343097900</ns3:arrivalTime>
+      <ns3:departureAirport>NUC</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932272</ns3:id>
+      <ns3:departureTime>1343112000</ns3:departureTime>
+      <ns3:arrivalTime>1343130300</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>SCC</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932120</ns3:id>
+      <ns3:departureTime>1343134800</ns3:departureTime>
+      <ns3:arrivalTime>1343153700</ns3:arrivalTime>
+      <ns3:departureAirport>SCC</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932621</ns3:id>
+      <ns3:departureTime>1343158200</ns3:departureTime>
+      <ns3:arrivalTime>1343171700</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>XAL</ns3:arrivalAirport>
+      <ns3:tailNumber>AIMAX</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
@@ -586,6 +631,60 @@
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
+      <ns3:id>2929712</ns3:id>
+      <ns3:departureTime>1343073600</ns3:departureTime>
+      <ns3:arrivalTime>1343084700</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>AIM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2929806</ns3:id>
+      <ns3:departureTime>1343086500</ns3:departureTime>
+      <ns3:arrivalTime>1343098200</ns3:arrivalTime>
+      <ns3:departureAirport>AIM</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932399</ns3:id>
+      <ns3:departureTime>1343111100</ns3:departureTime>
+      <ns3:arrivalTime>1343130000</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>LUY</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932397</ns3:id>
+      <ns3:departureTime>1343138700</ns3:departureTime>
+      <ns3:arrivalTime>1343158500</ns3:arrivalTime>
+      <ns3:departureAirport>LUY</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932495</ns3:id>
+      <ns3:departureTime>1343162100</ns3:departureTime>
+      <ns3:arrivalTime>1343169000</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>LUC</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932314</ns3:id>
+      <ns3:departureTime>1343171100</ns3:departureTime>
+      <ns3:arrivalTime>1343177700</ns3:arrivalTime>
+      <ns3:departureAirport>LUC</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
       <ns3:id>2930060</ns3:id>
       <ns3:departureTime>1343067540</ns3:departureTime>
       <ns3:arrivalTime>1343076180</ns3:arrivalTime>
@@ -658,183 +757,84 @@
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929712</ns3:id>
-      <ns3:departureTime>1343073600</ns3:departureTime>
-      <ns3:arrivalTime>1343084700</ns3:arrivalTime>
+      <ns3:id>2929329</ns3:id>
+      <ns3:departureTime>1343056200</ns3:departureTime>
+      <ns3:arrivalTime>1343069700</ns3:arrivalTime>
       <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>AIM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:arrivalAirport>XAL</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2929806</ns3:id>
-      <ns3:departureTime>1343086500</ns3:departureTime>
-      <ns3:arrivalTime>1343098200</ns3:arrivalTime>
-      <ns3:departureAirport>AIM</ns3:departureAirport>
+      <ns3:id>2929923</ns3:id>
+      <ns3:departureTime>1343075100</ns3:departureTime>
+      <ns3:arrivalTime>1343088300</ns3:arrivalTime>
+      <ns3:departureAirport>XAL</ns3:departureAirport>
       <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2932399</ns3:id>
-      <ns3:departureTime>1343111100</ns3:departureTime>
-      <ns3:arrivalTime>1343130000</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>LUY</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932397</ns3:id>
-      <ns3:departureTime>1343138700</ns3:departureTime>
-      <ns3:arrivalTime>1343158500</ns3:arrivalTime>
-      <ns3:departureAirport>LUY</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932495</ns3:id>
-      <ns3:departureTime>1343162100</ns3:departureTime>
-      <ns3:arrivalTime>1343169000</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>LUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932314</ns3:id>
-      <ns3:departureTime>1343171100</ns3:departureTime>
-      <ns3:arrivalTime>1343177700</ns3:arrivalTime>
-      <ns3:departureAirport>LUC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA059N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929606</ns3:id>
-      <ns3:departureTime>1343058900</ns3:departureTime>
-      <ns3:arrivalTime>1343066640</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929593</ns3:id>
-      <ns3:departureTime>1343068800</ns3:departureTime>
-      <ns3:arrivalTime>1343077440</ns3:arrivalTime>
-      <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929557</ns3:id>
-      <ns3:departureTime>1343082000</ns3:departureTime>
-      <ns3:arrivalTime>1343103000</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>MIL</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2931898</ns3:id>
-      <ns3:departureTime>1343107200</ns3:departureTime>
-      <ns3:arrivalTime>1343128200</ns3:arrivalTime>
-      <ns3:departureAirport>MIL</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2931659</ns3:id>
-      <ns3:departureTime>1343134500</ns3:departureTime>
-      <ns3:arrivalTime>1343141940</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2931660</ns3:id>
-      <ns3:departureTime>1343145300</ns3:departureTime>
-      <ns3:arrivalTime>1343153100</ns3:arrivalTime>
-      <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>OJS</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2931553</ns3:id>
-      <ns3:departureTime>1343156700</ns3:departureTime>
-      <ns3:arrivalTime>1343164200</ns3:arrivalTime>
-      <ns3:departureAirport>OJS</ns3:departureAirport>
-      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2931554</ns3:id>
-      <ns3:departureTime>1343167800</ns3:departureTime>
-      <ns3:arrivalTime>1343176500</ns3:arrivalTime>
-      <ns3:departureAirport>NUC</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA958N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2929850</ns3:id>
-      <ns3:departureTime>1343059500</ns3:departureTime>
-      <ns3:arrivalTime>1343079300</ns3:arrivalTime>
-      <ns3:departureAirport>LUY</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932153</ns3:id>
+      <ns3:id>2932553</ns3:id>
       <ns3:departureTime>1343091600</ns3:departureTime>
-      <ns3:arrivalTime>1343097480</ns3:arrivalTime>
-      <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>YTM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932179</ns3:id>
-      <ns3:departureTime>1343129400</ns3:departureTime>
-      <ns3:arrivalTime>1343134800</ns3:arrivalTime>
-      <ns3:departureAirport>YTM</ns3:departureAirport>
-      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
-      <ns3:status>Assigned</ns3:status>
-    </ns3:flightInfo>
-    <ns3:flightInfo>
-      <ns3:id>2932097</ns3:id>
-      <ns3:departureTime>1343137560</ns3:departureTime>
-      <ns3:arrivalTime>1343145300</ns3:arrivalTime>
+      <ns3:arrivalTime>1343099520</ns3:arrivalTime>
       <ns3:departureAirport>XEM</ns3:departureAirport>
       <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2932216</ns3:id>
-      <ns3:departureTime>1343148300</ns3:departureTime>
-      <ns3:arrivalTime>1343156880</ns3:arrivalTime>
+      <ns3:id>2931720</ns3:id>
+      <ns3:departureTime>1343103300</ns3:departureTime>
+      <ns3:arrivalTime>1343107200</ns3:arrivalTime>
+      <ns3:departureAirport>NUC</ns3:departureAirport>
+      <ns3:arrivalAirport>VAH</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932383</ns3:id>
+      <ns3:departureTime>1343110800</ns3:departureTime>
+      <ns3:arrivalTime>1343115000</ns3:arrivalTime>
+      <ns3:departureAirport>VAH</ns3:departureAirport>
+      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932478</ns3:id>
+      <ns3:departureTime>1343131200</ns3:departureTime>
+      <ns3:arrivalTime>1343139780</ns3:arrivalTime>
       <ns3:departureAirport>NUC</ns3:departureAirport>
       <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>
-      <ns3:id>2932443</ns3:id>
-      <ns3:departureTime>1343165400</ns3:departureTime>
-      <ns3:arrivalTime>1343173380</ns3:arrivalTime>
+      <ns3:id>2932326</ns3:id>
+      <ns3:departureTime>1343144400</ns3:departureTime>
+      <ns3:arrivalTime>1343150700</ns3:arrivalTime>
       <ns3:departureAirport>XEM</ns3:departureAirport>
-      <ns3:arrivalAirport>NUC</ns3:arrivalAirport>
-      <ns3:tailNumber>MA168N</ns3:tailNumber>
+      <ns3:arrivalAirport>DIM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932099</ns3:id>
+      <ns3:departureTime>1343152800</ns3:departureTime>
+      <ns3:arrivalTime>1343159700</ns3:arrivalTime>
+      <ns3:departureAirport>DIM</ns3:departureAirport>
+      <ns3:arrivalAirport>XEM</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
+      <ns3:status>Assigned</ns3:status>
+    </ns3:flightInfo>
+    <ns3:flightInfo>
+      <ns3:id>2932585</ns3:id>
+      <ns3:departureTime>1343163000</ns3:departureTime>
+      <ns3:arrivalTime>1343175000</ns3:arrivalTime>
+      <ns3:departureAirport>XEM</ns3:departureAirport>
+      <ns3:arrivalAirport>JIT</ns3:arrivalAirport>
+      <ns3:tailNumber>MA953N</ns3:tailNumber>
       <ns3:status>Assigned</ns3:status>
     </ns3:flightInfo>
     <ns3:flightInfo>

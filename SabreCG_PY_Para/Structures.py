@@ -168,7 +168,7 @@ class Leg:
         self._dual = 0
         self._isAssigned = False
         self._nextLegList, self._prevLegList = [], []
-        self._subNodeList = [[] for _ in range(ut.THREADSIZE)]
+        self._subNodeList = [list() for _ in range(ut.THREADSIZE)]
 
     @classmethod
     def initFlighytNum(self, flightNum: str) -> 'Leg':
@@ -178,7 +178,7 @@ class Leg:
         self._aircraft = None
         self._id = -1
         self._nextLegList, self._prevLegList = [], []
-        self._subNodeList = ThreadingList()
+        self._subNodeList = [list() for _ in range(ut.THREADSIZE)]
         return self
     
     def print(self) -> None:
@@ -277,19 +277,19 @@ class Leg:
         self._subNodeList[threadIndex].pop()
 
     def insertSubNode(self, subNode: SubNode, threadIndex: int) -> bool:
-        if len(self._subNodeList[threadIndex]) == 0:
+        if self._subNodeList[threadIndex] == []:
             self._subNodeList[threadIndex].append(subNode)
             return True
         deleted = []
-        for i in range(len(self._subNodeList)):
+        for i in range(len(self._subNodeList[threadIndex])):
             _subNode = self._subNodeList[threadIndex][i]
             if _subNode.LessKey(subNode):
-                self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
+                self._subNodeList[threadIndex] = [self._subNodeList[threadIndex][k] for k in range(len(self._subNodeList[threadIndex])) if k not in deleted]
                 return False
             if subNode.LessKey(_subNode):
                 deleted.append(i)
-        self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
-        self._subNodeList.append(subNode)
+        self._subNodeList[threadIndex] = [self._subNodeList[threadIndex][k] for k in range(len(self._subNodeList[threadIndex])) if k not in deleted]
+        self._subNodeList[threadIndex].append(subNode)
         return True  
                 
     def compareDepKey(self) -> float:
