@@ -6,8 +6,8 @@
 #include"Aircraft.h"
 #include"SubNode.h"
 
-/*Ô­Ê¼º½°àÐÅÏ¢*/
-/*leg°üÀ¨flightºÍmaitenance*/
+/*Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢*/
+/*legï¿½ï¿½ï¿½ï¿½flightï¿½ï¿½maitenance*/
 class Leg {
 private:
 
@@ -33,16 +33,16 @@ private:
 
 	double _dual;						// dual variable from master problem
 
-	vector<SubNode* > _subNodeList[THREADSIZE];		// ±£´æmulti label
+	vector<SubNode* > _subNodeList[THREADSIZE];		// ï¿½ï¿½ï¿½ï¿½multi label
 
 	//Leg * _topOrderPrev;				//* previous leg in topological order
 	//Leg * _topOrderNext;				//* next leg in topological order
 
-	//time_t _operDepTime;				//* multi-lable²»ÔÚlegÖÐ¼ÇÂ¼operDepTime //* ¼ÇÂ¼ÔÚDPÖÐµ÷ÕûºóµÄflight departure time
-	//time_t _operArrTime;				//* multi lable²»ÔÚlegÖÐ¼ÇÂ¼operArrTime //* ¼ÇÂ¼ÔÚDPÖÐµ÷ÕûºóµÄflight arrival time
+	//time_t _operDepTime;				//* multi-lableï¿½ï¿½ï¿½ï¿½legï¿½Ð¼ï¿½Â¼operDepTime //* ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flight departure time
+	//time_t _operArrTime;				//* multi lableï¿½ï¿½ï¿½ï¿½legï¿½Ð¼ï¿½Â¼operArrTime //* ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flight arrival time
 
 	//Leg * _parent;						//* save preceding node of in dynamic programming of shortest path
-	//time_t _delay;						//* the operational delay of this flight //* ±»_operDepTime, _operArrTimeÌæ´ú
+	//time_t _delay;						//* the operational delay of this flight //* ï¿½ï¿½_operDepTime, _operArrTimeï¿½ï¿½ï¿½
 	//double _nodeCost;					//* node cost of DP
 	//time_t _accDelay;					//* accumulated delay in DP
 	//double _accDual;					//* accumulated dual in DP
@@ -50,7 +50,7 @@ private:
 
 public:
 	Leg(string flightNum, Station * depStation, Station * arrStation, time_t depTime, time_t arrTime, Aircraft * aircraft);
-	Leg(string flightNum);				//* Îªdummy nodeµ¥¶ÀÐ´constructor, ²»¸Ä±älegµÄ¼ÆÊý
+	Leg(string flightNum);				//* Îªdummy nodeï¿½ï¿½ï¿½ï¿½Ð´constructor, ï¿½ï¿½ï¿½Ä±ï¿½legï¿½Ä¼ï¿½ï¿½ï¿½
 
 	void print();
 
@@ -112,15 +112,14 @@ public:
 	//void setParent(Leg* leg){ _parent = leg;}		//*
 	//Leg* getParent(){return _parent;}					//*
 
-	//bool resetLeg(); //* ÖØÖÃLegµÄ_nodeCost, _operDepTime, _operArrTime, _parent, _accDual, _accDelay
-	bool resetLeg(int threadIndex); //* É¾³ý_subNodeListÀïËùÓÐÖ¸ÕëÖ¸ÏòµÄsubNode, ²¢É¾³ý_subNodeListËùÓÐµÄÖ¸Õë
+	//bool resetLeg(); //* ï¿½ï¿½ï¿½ï¿½Legï¿½ï¿½_nodeCost, _operDepTime, _operArrTime, _parent, _accDual, _accDelay
+	bool resetLeg(int threadIndex); //* É¾ï¿½ï¿½_subNodeListï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½subNode, ï¿½ï¿½É¾ï¿½ï¿½_subNodeListï¿½ï¿½ï¿½Ðµï¿½Ö¸ï¿½ï¿½
 
 	vector<SubNode* > getSubNodeList(int threadIndex) {return _subNodeList[threadIndex];}
-	void setSubList(vector<SubNode *> subNodeList, int threadIndex) {_subNodeList[threadIndex] = subNodeList;}
 
 	void pushSubNode(SubNode* subNode, int threadIndex) {_subNodeList[threadIndex].push_back(subNode);}
 	void popSubNode(int threadIndex) {delete _subNodeList[threadIndex].back(); _subNodeList[threadIndex].pop_back();}
-	bool insertSubNode(SubNode* subNode, int threadIndex);	//* ½«subNodeÓësubNodeListÖÐµÄsubNodeÒ»Ò»±È½ÏÊÇ·ñ±»dominate£¬²åÈësubNodeList
+	bool insertSubNode(SubNode* subNode, int threadIndex);	//* ï¿½ï¿½subNodeï¿½ï¿½subNodeListï¿½Ðµï¿½subNodeÒ»Ò»ï¿½È½ï¿½ï¿½Ç·ï¿½dominateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½subNodeList
 
 	//void setAccDual(double accDual){_accDual = accDual;}			//*
 	//double getAccDual() {return _accDual;}							//*

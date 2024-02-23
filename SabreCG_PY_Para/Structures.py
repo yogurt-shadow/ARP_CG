@@ -2,7 +2,6 @@ import Util as ut
 from typing import List
 from Stack import Stack
 import time
-import ThreadingList
 
 class Station:
     count = 0
@@ -169,7 +168,7 @@ class Leg:
         self._dual = 0
         self._isAssigned = False
         self._nextLegList, self._prevLegList = [], []
-        self._subNodeList = ThreadingList.ThreadingList()
+        self._subNodeList = [[] for _ in range(ut.THREADSIZE)]
 
     @classmethod
     def initFlighytNum(self, flightNum: str) -> 'Leg':
@@ -260,21 +259,39 @@ class Leg:
     def getAssigned(self) -> bool:
         return self._isAssigned
 
-    def resetLeg(self) -> None:
+    def resetLeg(self, threadIndex: int) -> bool:
         flag = False
-        self._subNodeList.reset()
+        sizeBefore = len(self._subNodeList[threadIndex])
+        for i in range(sizeBefore):
+            self.popSubNode(threadIndex)
         flag = True
         return flag
     
-    def getSubNodeList(self) -> ThreadingList:
-        return self._subNodeList
+    def getSubNodeList(self, threadIndex: int) -> list[SubNode]:
+        return self._subNodeList[threadIndex]
 
-    def pushSubNode(self, subNode: SubNode) -> None:
+    def pushSubNode(self, subNode: SubNode, threadIndex: int) -> None:
+        self._subNodeList[threadIndex].append(subNode)
+
+    def popSubNode(self, threadIndex: int) -> None:
+        self._subNodeList[threadIndex].pop()
+
+    def insertSubNode(self, subNode: SubNode, threadIndex: int) -> bool:
+        if len(self._subNodeList[threadIndex]) == 0:
+            self._subNodeList[threadIndex].append(subNode)
+            return True
+        deleted = []
+        for i in range(len(self._subNodeList)):
+            _subNode = self._subNodeList[threadIndex][i]
+            if _subNode.LessKey(subNode):
+                self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
+                return False
+            if subNode.LessKey(_subNode):
+                deleted.append(i)
+        self._subNodeList = [self._subNodeList[k] for k in range(len(self._subNodeList)) if k not in deleted]
         self._subNodeList.append(subNode)
-
-    def insertSubNode(self, subNode: SubNode) -> bool:
-        return self._subNodeList.insertSubNode(subNode)
-
+        return True  
+                
     def compareDepKey(self) -> float:
         return self.getDepTime()
     
@@ -608,3 +625,6 @@ class Lof:
     
     def compareDepTimeKey(self) -> float:
         return self.getOperDepTime()
+    
+    def compareAircraftKey(self) -> tuple[int, int]:
+        return (self.getAircraft().getId(), self.getId())

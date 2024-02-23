@@ -26,17 +26,17 @@ Model::Model(vector<Station *> stationList, vector<Aircraft *> aircraftList, vec
 
 Model::~Model()
 {
-	_env.end();		// É¾³ýIlogµÄÏà¹Ø¶ÔÏó
-	//cout << "~Model::_env.end() executed" << endl;//²âÊÔ~Model
+	_env.end();		// É¾ï¿½ï¿½Ilogï¿½ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½
+	//cout << "~Model::_env.end() executed" << endl;//ï¿½ï¿½ï¿½ï¿½~Model
 	
 	try
 	{
-		for (int i = 0; i < _initColumns.size(); i++)		// É¾³ýËùÓÐÉú³É¹ýµÄLof
+		for (int i = 0; i < _initColumns.size(); i++)		// É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½Lof
 		{
 			if(_initColumns[i] != NULL)
 				delete _initColumns[i];
 		}
-		//cout << "~Model::initColunns deleted" << endl;//²âÊÔ~Model
+		//cout << "~Model::initColunns deleted" << endl;//ï¿½ï¿½ï¿½ï¿½~Model
 	}
 	catch(...)
 	{
@@ -44,12 +44,12 @@ Model::~Model()
 	}
 
 	_initColumns.clear();
-	//_betterColumns.clear();		// Çå¿Õstatic³ÉÔ±
+	//_betterColumns.clear();		// ï¿½ï¿½ï¿½staticï¿½ï¿½Ô±
 	clearBetterColumnsAll();
-	_topOrderList.clear();		// Çå¿Õstatic³ÉÔ±
+	_topOrderList.clear();		// ï¿½ï¿½ï¿½staticï¿½ï¿½Ô±
 }
 
-//³õÊ¼»¯¾²Ì¬±äÁ¿
+//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½
 //int Model::_count = 0;
 vector<Aircraft *> Model::_aircraftList;
 vector<Leg *> Model::_legList;
@@ -74,14 +74,14 @@ vector<Lof* > Model::findInitColumns()
 
 	return initColumns;
 
-	/* ÆäÊµÃ»ÓÐinitial LofÒ²ÄÜÔËÐÐ
+	/* ï¿½ï¿½ÊµÃ»ï¿½ï¿½initial LofÒ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	/*
 	Lof* tempLof = new Lof();
 	
-	// ÏÈÊÖ¹¤ÉèÖÃÒ»ÏÂ³õÊ¼µÄLoF, ·½±ãdebug
-	// Ò»¼Ü·É»ú
-	// ÒÔtest case (12)derived from(3), or (13) or (14) ÎªÀý£¬³õÊ¼µÄLofÊÇ lg0 -> lg2 -> lg3 (ÏÔÈ»lg0 -> lg1 -> lg4 -> lg3 Ó¦¸Ã¸üºÃ)
+	// ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Â³ï¿½Ê¼ï¿½ï¿½LoF, ï¿½ï¿½ï¿½ï¿½debug
+	// Ò»ï¿½Ü·É»ï¿½
+	// ï¿½ï¿½test case (12)derived from(3), or (13) or (14) Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Lofï¿½ï¿½ lg0 -> lg2 -> lg3 (ï¿½ï¿½È»lg0 -> lg1 -> lg4 -> lg3 Ó¦ï¿½Ã¸ï¿½ï¿½ï¿½)
 	tempLof->setAircraft( _aircraftList[0]);
 	OperLeg* tempOperLeg = new OperLeg(_legList[0], _aircraftList[0]);
 	tempLof->pushLeg(tempOperLeg);
@@ -170,7 +170,7 @@ void Model::findNewColumns()
 	//int unit_size = _aircraftList.size() / THREADSIZE + 1;
 	int unit_size = _aircraftList.size() / Util::threadSize + 1;
 
-	// ³õÊ¼»¯ghEvent, ÖÃÎªNULL
+	// ï¿½ï¿½Ê¼ï¿½ï¿½ghEvent, ï¿½ï¿½ÎªNULL
 	for (int i = 0; i < THREADSIZE; i++)
 	{
 		ghEvent[i] = NULL;
@@ -183,7 +183,6 @@ void Model::findNewColumns()
 		indexList[j].second = min(_aircraftList.size(), unit_size * (j + 1));
 		ghEvent[j] = (HANDLE)_beginthreadex(NULL, 0, Model::findNewColumnsParallel, (void *)&indexList[j], 0, NULL);
 	}
-	//WaitForMultipleObjects(THREADSIZE, ghEvent, TRUE, INFINITE);
 	WaitForMultipleObjects(Util::threadSize, ghEvent, TRUE, INFINITE);
 
 	int betterCounter = 0;
@@ -228,13 +227,13 @@ void Model::populateByColumn(vector<Lof* > _initColumns)
 	_model.add(_selectRng);
 
 	//* add decision variable _legVar
-	//* ¼´Ä£ÐÍÀïµÄy
+	//* ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½y
 	for (int j = 0; j < _legList.size(); j++)
 	{
 		itoa(_legList[j]->getId(), str, 10);
 		string varName = string("y_") + string(str);
 
-		double cancelCost = Util::w_cancelFlt; // cancel flightºÍmaintµÄcost²»Ò»Ñù
+		double cancelCost = Util::w_cancelFlt; // cancel flightï¿½ï¿½maintï¿½ï¿½costï¿½ï¿½Ò»ï¿½ï¿½
 		if (_legList[j]->isMaint())
 		{
 			cancelCost = Util::w_cancelMtc;
@@ -244,7 +243,7 @@ void Model::populateByColumn(vector<Lof* > _initColumns)
 	}
 
 	//* add decision variable _lofVar
-	//* ¼´Ä£ÐÍÀïµÄx
+	//* ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½x
 	for (int j = 0; j < _initColumns.size(); j++)
 	{
 		IloNumColumn col(_env);
@@ -271,7 +270,7 @@ vector<Lof* > Model::solveColGen()
 {
 	vector<Lof* > lofListSoln;
 
-	_initColumns = findInitColumns();//##Ô­±¾¾ÍfeasibleµÄcolumn
+	_initColumns = findInitColumns();//##Ô­ï¿½ï¿½ï¿½ï¿½feasibleï¿½ï¿½column
 
 	cout<<"###### initial Lofs have been generated ######"<<endl;
 
@@ -299,53 +298,15 @@ vector<Lof* > Model::solveColGen()
 	while (hasBetterColumn())
 	{
 		cout<<" ********************* LP SOLUTION "<< count << " *********************"<<endl<<endl;
-
-		/*
-		//²âÊÔ¶ÔLofÅÅÐò
-		cout << "before sort _betterColumns: " << endl;
-		for(int i = 0; i < _betterColumns.size(); i++)
-		{
-			cout << "aircraft id " << _betterColumns[i]->getAircraft()->getId()
-				<< " lof id " << _betterColumns[i]->getId() << endl;
-		}
-		*/
-
-		//stable_sort(_betterColumns.begin(), _betterColumns.end(), Lof::compareByAircraft);		//* È·±£multi-threadÃ¿´Î¼Ó½ømaster problemµÄlofË³ÐòÒ»ÖÂ
-		//sort(_betterColumns.begin(), _betterColumns.end(), Lof::compareByAircraft);
 		for (int i = 0; i < Util::threadSize; i++)
 		{
 			sort(_betterColumns[i].begin(), _betterColumns[i].end(), Lof::compareByAircraft);
 		}
-
-		/*
-		//²âÊÔ¶ÔLofÅÅÐò
-		cout << "after sort _betterColumns: " << endl;
-		for(int i = 0; i < _betterColumns.size(); i++)
-		{
-			cout << "aircraft id " << _betterColumns[i]->getAircraft()->getId()
-				<< " lof id " << _betterColumns[i]->getId() << endl;
-		}
-		*/
-
-		//addColumns(_betterColumns);
-		//_initColumns.insert(_initColumns.end(), _betterColumns.begin(), _betterColumns.end());
 		for (int i = 0; i < Util::threadSize; i++)
 		{
 			addColumns(_betterColumns[i]);
 			_initColumns.insert(_initColumns.end(), _betterColumns[i].begin(), _betterColumns[i].end());
 		}
-
-		/*
-		cout << "############### MEMORY TEST ###############" << endl;
-		cout << "_initColumns.size() is " << _initColumns.size() << endl;
-
-		if (_initColumns.size() > 120000)
-		{
-			cout << "############### MEMORY TEST ENDS ###############" << endl;
-			exit(0);
-		}
-		*/
-
 		st = clock();
 		solve();
 		et = clock();
@@ -354,10 +315,6 @@ vector<Lof* > Model::solveColGen()
 		cout<<" ********************* END LP SOLUTION "<< count << " *********************"<<endl<<endl;
 
 		count++;
-
-		//if (count > 5) exit(0); //*DEBUG dual by CPLEX
-
-		//_betterColumns.clear();
 		clearBetterColumnsAll();
 		st = clock();
 		findNewColumns();
@@ -409,7 +366,7 @@ void Model::solve()
 	//_solver.exportModel("test.lp");
 	//_solver.exportModel(name.c_str());
 
-	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* ÉèÖÃÇó½âLPµÄËã·¨£¬ÓÃBarrier Scenario1ÄÜÏÔÖø¼õÉÙCGµü´ú´ÎÊý
+	_solver.setParam(IloCplex::RootAlg, IloCplex::Barrier); //* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½LPï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½Barrier Scenario1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½CGï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	_solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg);
 	_solver.solve();
 
@@ -511,7 +468,7 @@ vector<Lof* > Model::solveIP()
 	/*
 	else
 	{
-		for (int i = 0; i < lofVarSoln.getSize(); i++)    /// ÎªÊ²Ã´InitColums.size()ÓÐ¿ÉÄÜµÈÓÚ0ÄØ£¿duplicated model IP
+		for (int i = 0; i < lofVarSoln.getSize(); i++)    /// ÎªÊ²Ã´InitColums.size()ï¿½Ð¿ï¿½ï¿½Üµï¿½ï¿½ï¿½0ï¿½Ø£ï¿½duplicated model IP
 		{
 			if (lofVarSoln[i] == 1)
 			{
@@ -544,8 +501,8 @@ vector<Lof* > Model::solveIP()
 
 //Lof* Model::findNewOneColumn(Aircraft* aircraft)
 //{
-//	// ¼ÙÉè_legList[0]ÊÇ³õÊ¼leg // ²âÊÔmulti label
-//	// ÊÖ¹¤ÉèÖÃ_legList[0]µÄsubNodeList
+//	// ï¿½ï¿½ï¿½ï¿½_legList[0]ï¿½Ç³ï¿½Ê¼leg // ï¿½ï¿½ï¿½ï¿½multi label
+//	// ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½_legList[0]ï¿½ï¿½subNodeList
 //	/*
 //	SubNode* subNode = new SubNode(_legList[0], NULL, 15, 10);
 //	//SubNode* subNode = new SubNode(_legList[0], NULL, 100, 1);
@@ -560,7 +517,7 @@ vector<Lof* > Model::solveIP()
 //	_legList[0]->pushSubNode(subNode);
 //	*/
 //
-//	//* ³õÊ¼»¯ÔÚaircraft dep airportÉÏµÄflight, i.e. nodeCost
+//	//* ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½aircraft dep airportï¿½Ïµï¿½flight, i.e. nodeCost
 //	vector<Leg*> depLegList;
 //	depLegList = aircraft->getDepStation()->getDepLegList();
 //	for (int k = 0; k < depLegList.size(); k++)
@@ -568,7 +525,7 @@ vector<Lof* > Model::solveIP()
 //		edgeProcessFlt(depLegList[k], aircraft);
 //	}
 //
-//	//* ³õÊ¼»¯ÔÚaircraft dep airportÉÏµÄmaint, i.e. nodeCost
+//	//* ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½aircraft dep airportï¿½Ïµï¿½maint, i.e. nodeCost
 //	vector<Leg*> depMaintList;
 //	depMaintList = aircraft->getDepStation()->getMaintList();
 //	for (int k = 0; k < depMaintList.size(); k++)
@@ -583,8 +540,8 @@ vector<Lof* > Model::solveIP()
 //			Leg * thisLeg = _topOrderList[i];
 //			Leg * nextLeg = _topOrderList[i]->getNextLegList()[j];
 //
-//			// ²âÊÔinsertSubNode
-//			// ²âÊÔedgeProcessFltFlt
+//			// ï¿½ï¿½ï¿½ï¿½insertSubNode
+//			// ï¿½ï¿½ï¿½ï¿½edgeProcessFltFlt
 //			
 //			/*
 //			cout << "before edgeProcessFlt" << endl;
@@ -626,16 +583,16 @@ vector<Lof* > Model::solveIP()
 //
 //	/*
 //	cout << "****** information of all legs ******" << endl;
-//	for (int i = 0; i < _topOrderList.size(); i++) // ´òÓ¡¼ì²é
+//	for (int i = 0; i < _topOrderList.size(); i++) // ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½
 //	{
 //		_topOrderList[i]->print();
 //		cout << endl;
 //	}
 //	*/
 //
-//	//* ¼ì²éËùÓÐ°üº¬aircraftÖÕµã»ú³¡µÄflight/maint
-//	//* ÕÒ³öflight/maintµÄsubNodeList
-//	//* ÕÒ³öËùÓÐsubNodeListÖÐsubNodeCost×îÐ¡µÄ
+//	//* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð°ï¿½ï¿½ï¿½aircraftï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flight/maint
+//	//* ï¿½Ò³ï¿½flight/maintï¿½ï¿½subNodeList
+//	//* ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½subNodeListï¿½ï¿½subNodeCostï¿½ï¿½Ð¡ï¿½ï¿½
 //
 //	SubNode* minCostSubNode= NULL;
 //	double minCost = DBL_MAX;
@@ -664,7 +621,7 @@ vector<Lof* > Model::solveIP()
 //		vector<SubNode* > subNodeList = arrMaintList[i]->getSubNodeList();
 //		for (int j = 0; j < subNodeList.size(); j++)
 //		{
-//			if (subNodeList[j]->getSubNodeCost() < minCost)//##Ê²Ã´Ê±ºòsetµÄ£¿£¿
+//			if (subNodeList[j]->getSubNodeCost() < minCost)//##Ê²Ã´Ê±ï¿½ï¿½setï¿½Ä£ï¿½ï¿½ï¿½
 //			{
 //				minCostSubNode = subNodeList[j];
 //				minCost = subNodeList[j]->getSubNodeCost();
@@ -672,19 +629,19 @@ vector<Lof* > Model::solveIP()
 //		}
 //	}
 //
-//	/* ¿¼ÂÇµ½max delayµÄÔ¼Êø£¬ÐèÒª¼ì²éÊÇ·ñÓÐfeasible LoFÁ¬½ÓaircraftµÄdepºÍarr airport */
+//	/* ï¿½ï¿½ï¿½Çµï¿½max delayï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½feasible LoFï¿½ï¿½ï¿½ï¿½aircraftï¿½ï¿½depï¿½ï¿½arr airport */
 //	if (minCostSubNode == NULL)
 //	{
 //		cout << "Warning, subproblem found no feasible LoF." << endl;
 //
-//		// resetËùÓÐlegµÄparent, nodeCost, operDepTime, operArrTime
+//		// resetï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime
 //		for (int i = 0; i < _legList.size(); i++)
 //		{
 //			_legList[i]->resetLeg();
 //		}
 //
 //		/* cout << "****** information of all legs ******" << endl;
-//		for (int i = 0; i < _topOrderList.size(); i++) // ´òÓ¡¼ì²é
+//		for (int i = 0; i < _topOrderList.size(); i++) // ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½
 //		{
 //			_topOrderList[i]->print();
 //			cout << endl;
@@ -693,21 +650,21 @@ vector<Lof* > Model::solveIP()
 //		return NULL;
 //	}
 //
-//	// ¼ì²éreduced costÊÇ·ñÐ¡ÓÚÁã
+//	// ï¿½ï¿½ï¿½reduced costï¿½Ç·ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½
 //	cout << "reduced cost by subproblem aircraft " << aircraft->getId() << " is: " << minCost - aircraft->getDual() << endl;
 //	
 //	if (minCost - aircraft->getDual() >= -0.0001)
 //	{
-//		// resetËùÓÐlegµÄparent, nodeCost, operDepTime, operArrTime
+//		// resetï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime
 //		for (int i = 0; i < _legList.size(); i++)
 //		{
-//			_legList[i]->resetLeg();//##ÏÂÒ»¸öaircraftÇ°ÒªÇå¿ÕÀúÊ·¼ÍÂ¼
+//			_legList[i]->resetLeg();//##ï¿½ï¿½Ò»ï¿½ï¿½aircraftÇ°Òªï¿½ï¿½ï¿½ï¿½ï¿½Ê·ï¿½ï¿½Â¼
 //		}
 //		// cout << "reduced cost >= 0! " << endl;
 //		return NULL;
 //	}
 //
-//	// Ñ¡³öµÄsubNode´æÔÚstackÀï //
+//	// Ñ¡ï¿½ï¿½ï¿½ï¿½subNodeï¿½ï¿½ï¿½ï¿½stackï¿½ï¿½ //
 //	stack<SubNode*> subNodeSelect;
 //	SubNode* tempSubNode = minCostSubNode;
 //
@@ -717,11 +674,11 @@ vector<Lof* > Model::solveIP()
 //		tempSubNode = tempSubNode->getParentSubNode();
 //	}
 //
-//	/* ´´½¨LoF, ´´½¨Ìí¼ÓOperLeg */
+//	/* ï¿½ï¿½ï¿½ï¿½LoF, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½OperLeg */
 //	Leg* tempLeg = NULL;
 //	OperLeg * tempOperLeg = NULL;
 //	Lof* newLof = new Lof();
-//	newLof->setAircraft(aircraft); //* ÉèÖÃlofµÄaircraft
+//	newLof->setAircraft(aircraft); //* ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½aircraft
 //
 //	while (subNodeSelect.size() > 0)
 //	{
@@ -737,10 +694,10 @@ vector<Lof* > Model::solveIP()
 //		subNodeSelect.pop();
 //	}
 //
-//	newLof->computeLofCost(); //* ¼ÆËãlofµÄcost (delay + swap), ¸üÐÂÔÚlofµÄ_costÀï
-//	newLof->computeReducedCost(); //* ¼ÆËã½á¹ûÓ¦¸ÃºÍminCost - aircraft->getDual() Ò»Ñù£¬¸üÐÂÔÚlofµÄ_reducedCostÀï
+//	newLof->computeLofCost(); //* ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½cost (delay + swap), ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½_costï¿½ï¿½
+//	newLof->computeReducedCost(); //* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ãºï¿½minCost - aircraft->getDual() Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½_reducedCostï¿½ï¿½
 //
-//	//* ¿¼ÂÇµ½CPLEXµÄÎó²î£¬¼ì²éÏà¶Ô²îÖµ ¶ø²»ÊÇ¾ø¶Ô²îÖµ
+//	//* ï¿½ï¿½ï¿½Çµï¿½CPLEXï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½Öµ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½Ô²ï¿½Öµ
 //	double error = (newLof->getReducedCost()) - (minCost - aircraft->getDual());
 //	error = abs(error) / min(abs(newLof->getReducedCost()), abs(minCost - aircraft->getDual()));
 //	if (error > 0.0001)
@@ -777,7 +734,7 @@ vector<Lof* > Model::solveIP()
 //	}
 //	*/ 
 //
-//	/* ×îºóÐèÒªÖØÖÃlegµÄparent, nodeCost, operDepTime, operArrTime */
+//	/* ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime */
 //	for (int i = 0; i < _legList.size(); i++)
 //	{
 //		_legList[i]->resetLeg();
@@ -797,7 +754,7 @@ vector<Lof* > Model::solveIP()
 //
 //	/*
 //	cout << "****** information of all legs ******" << endl;
-//	for (int i = 0; i < _topOrderList.size(); i++) // ´òÓ¡¼ì²é
+//	for (int i = 0; i < _topOrderList.size(); i++) // ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½
 //	{
 //		_topOrderList[i]->print();
 //		cout << endl;
@@ -807,8 +764,6 @@ vector<Lof* > Model::solveIP()
 
 void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 {
-
-	//* ³õÊ¼»¯ÔÚaircraft dep airportÉÏµÄflight, i.e. nodeCost
 	vector<Leg*> depLegList;
 	depLegList = aircraft->getDepStation()->getDepLegList();
 	for (int k = 0; k < depLegList.size(); k++)
@@ -816,7 +771,7 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 		edgeProcessFlt(depLegList[k], aircraft, threadIndex);
 	}
 
-	//* ³õÊ¼»¯ÔÚaircraft dep airportÉÏµÄmaint, i.e. nodeCost
+	//* ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½aircraft dep airportï¿½Ïµï¿½maint, i.e. nodeCost
 	vector<Leg*> depMaintList;
 	depMaintList = aircraft->getDepStation()->getMaintList();
 	for (int k = 0; k < depMaintList.size(); k++)
@@ -833,7 +788,7 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 
 			if (!thisLeg->isMaint() && !nextLeg->isMaint())			// thisLeg is flight; nextLeg is flight
 			{
-				edgeProcessFltFlt(thisLeg, nextLeg, aircraft, threadIndex);//##Ñ°ÕÒÂ·¾¶Ê±Ê¹ÓÃµÄedge cost °üÀ¨delay,swap,flight dual
+				edgeProcessFltFlt(thisLeg, nextLeg, aircraft, threadIndex);//##Ñ°ï¿½ï¿½Â·ï¿½ï¿½Ê±Ê¹ï¿½Ãµï¿½edge cost ï¿½ï¿½ï¿½ï¿½delay,swap,flight dual
 			}
 
 			if (!thisLeg->isMaint() && nextLeg->isMaint())			// thisLeg is flight; nextLeg is maintenance
@@ -883,7 +838,7 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 	{
 		cout << "Warning, subproblem found no feasible LoF." << endl;
 
-		// resetËùÓÐlegµÄparent, nodeCost, operDepTime, operArrTime
+		// resetï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime
 		for (int i = 0; i < _legList.size(); i++)
 		{
 			_legList[i]->resetLeg(threadIndex);
@@ -896,16 +851,16 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 	//stable_sort(tmpSubNodeList.begin(),tmpSubNodeList.end(), SubNode::cmpByCost);
 
 
-	/* ¿¼ÂÇµ½max delayµÄÔ¼Êø£¬ÐèÒª¼ì²éÊÇ·ñÓÐfeasible LoFÁ¬½ÓaircraftµÄdepºÍarr airport */
+	/* ï¿½ï¿½ï¿½Çµï¿½max delayï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½feasible LoFï¿½ï¿½ï¿½ï¿½aircraftï¿½ï¿½depï¿½ï¿½arr airport */
 
 
 	if (tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() >= -0.0001)
 	{
 		//cout << "reduced cost by subproblem aircraft " << aircraft->getId() << " is: " << tmpSubNodeList.front()->getSubNodeCost() - aircraft->getDual() << endl;
-		// resetËùÓÐlegµÄparent, nodeCost, operDepTime, operArrTime
+		// resetï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime
 		for (int i = 0; i < _legList.size(); i++)
 		{
-			_legList[i]->resetLeg(threadIndex);//##ÏÂÒ»¸öaircraftÇ°ÒªÇå¿ÕÀúÊ·¼ÍÂ¼
+			_legList[i]->resetLeg(threadIndex);//##ï¿½ï¿½Ò»ï¿½ï¿½aircraftÇ°Òªï¿½ï¿½ï¿½ï¿½ï¿½Ê·ï¿½ï¿½Â¼
 		}
 		// cout << "reduced cost >= 0! " << endl;
 		return ;
@@ -921,7 +876,7 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 			if (subNode->getSubNodeCost() - aircraft->getDual() < -0.0001)
 			{
 				//cout << "reduced cost by subproblem aircraft " << aircraft->getId() << " is: " << subNode->getSubNodeCost() - aircraft->getDual() << endl;
-				// Ñ¡³öµÄsubNode´æÔÚstackÀï //
+				// Ñ¡ï¿½ï¿½ï¿½ï¿½subNodeï¿½ï¿½ï¿½ï¿½stackï¿½ï¿½ //
 				stack<SubNode*> subNodeSelect;
 				SubNode* tempSubNode = subNode;
 				while (tempSubNode != NULL)
@@ -930,11 +885,11 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 					tempSubNode = tempSubNode->getParentSubNode();
 				}
 
-				/* ´´½¨LoF, ´´½¨Ìí¼ÓOperLeg */
+				/* ï¿½ï¿½ï¿½ï¿½LoF, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½OperLeg */
 				Leg* tempLeg = NULL;
 				OperLeg * tempOperLeg = NULL;
 				Lof* newLof = new Lof();
-				newLof->setAircraft(aircraft); //* ÉèÖÃlofµÄaircraft
+				newLof->setAircraft(aircraft); //* ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½aircraft
 
 				while (subNodeSelect.size() > 0)
 				{
@@ -950,11 +905,11 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 					subNodeSelect.pop();
 				}
 
-				newLof->computeLofCost(); //* ¼ÆËãlofµÄcost (delay + swap), ¸üÐÂÔÚlofµÄ_costÀï
-				newLof->computeReducedCost(); //* ¼ÆËã½á¹ûÓ¦¸ÃºÍminCost - aircraft->getDual() Ò»Ñù£¬¸üÐÂÔÚlofµÄ_reducedCostÀï
+				newLof->computeLofCost(); //* ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½cost (delay + swap), ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½_costï¿½ï¿½
+				newLof->computeReducedCost(); //* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ãºï¿½minCost - aircraft->getDual() Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lofï¿½ï¿½_reducedCostï¿½ï¿½
 
 
-				//* ¿¼ÂÇµ½CPLEXµÄÎó²î£¬¼ì²éÏà¶Ô²îÖµ ¶ø²»ÊÇ¾ø¶Ô²îÖµ
+				//* ï¿½ï¿½ï¿½Çµï¿½CPLEXï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½Öµ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½Ô²ï¿½Öµ
 				double error = (newLof->getReducedCost()) - (subNode->getSubNodeCost() - aircraft->getDual());
 				error = abs(error) / min(abs(newLof->getReducedCost()), abs(subNode->getSubNodeCost() - aircraft->getDual()));
 				if (error > 0.0001)
@@ -994,7 +949,7 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 	}
 
 
-	/* ×îºóÐèÒªÖØÖÃlegµÄparent, nodeCost, operDepTime, operArrTime */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½legï¿½ï¿½parent, nodeCost, operDepTime, operArrTime */
 	for (int i = 0; i < _legList.size(); i++)
 	{
 		_legList[i]->resetLeg(threadIndex);
@@ -1006,8 +961,8 @@ void Model::findNewColumns(Aircraft * aircraft,int threadIndex)
 unsigned int Model::findNewColumnsParallel(void * theNr)
 {
 	pair<int, int> index = *(pair<long, long> *)(theNr);
-	//int threadIndex = index.first / (_aircraftList.size() / THREADSIZE + 1);//Ïß³Ì±àºÅ
-	int threadIndex = index.first / (_aircraftList.size() / Util::threadSize + 1);//Ïß³Ì±àºÅ
+	//int threadIndex = index.first / (_aircraftList.size() / THREADSIZE + 1);//ï¿½ß³Ì±ï¿½ï¿½
+	int threadIndex = index.first / (_aircraftList.size() / Util::threadSize + 1);//ï¿½ß³Ì±ï¿½ï¿½
 
 	for (int i = index.first; i < index.second; ++i)
 	{
@@ -1026,7 +981,7 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int threadIndex)
 
 	time_t delay = 0;
 	double edgeCost = 0;
-	// ¼ì²éÊÇ·ñ»áÓÉÓÚaircraftµÄavailabe timeÔì³Édelay
+	// ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½aircraftï¿½ï¿½availabe timeï¿½ï¿½ï¿½delay
 	if (aircraft->getStartTime() > nextLeg->getDepTime())
 	{
 		delay = aircraft->getStartTime() - nextLeg->getDepTime();
@@ -1040,7 +995,7 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int threadIndex)
 	if (delay > Util::maxDelayTime)
 		return;
 
-	//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+	//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 	if (nextLeg->getArrTime() + delay > aircraft->getEndTime())
 		return;
 
@@ -1051,8 +1006,8 @@ void Model::edgeProcessFlt(Leg* nextLeg, Aircraft* aircraft, int threadIndex)
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
 
-	// ¼ì²énextLegµÄsubNodeListÊÇ·ñÎª¿Õ
-	// ³õÊ¼»¯starting legÊ±legµÄsubNodeList±ØÈ»Îª¿Õ
+	// ï¿½ï¿½ï¿½nextLegï¿½ï¿½subNodeListï¿½Ç·ï¿½Îªï¿½ï¿½
+	// ï¿½ï¿½Ê¼ï¿½ï¿½starting legÊ±legï¿½ï¿½subNodeListï¿½ï¿½È»Îªï¿½ï¿½
 	if (!nextLeg->getSubNodeList(threadIndex).empty())
 	{
 		cout << "Error, initial leg's subNodeList must be empty" << endl;
@@ -1077,23 +1032,23 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft,int threadIndex)
 	}
 
 	double edgeCost = 0;
-	if (nextLeg->getAircraft() == aircraft) // Èç¹ûnextLegÓëaircraftÆ¥Åä
+	if (nextLeg->getAircraft() == aircraft) // ï¿½ï¿½ï¿½nextLegï¿½ï¿½aircraftÆ¥ï¿½ï¿½
 	{ 
-		if (aircraft->getStartTime() > nextLeg->getDepTime()) // Èç¹ûnextLegµÄmaintenanceÐèÒª±»delay
+		if (aircraft->getStartTime() > nextLeg->getDepTime()) // ï¿½ï¿½ï¿½nextLegï¿½ï¿½maintenanceï¿½ï¿½Òªï¿½ï¿½delay
 		{ 
 			/* do nothing, since maintenance cannot be delayed */
 		}
 		else
 		{
-			//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+			//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 			if (nextLeg->getArrTime() > aircraft->getEndTime())
 				return;
 
 			//edgeCost += 0 - nextLeg->getDual();
 			edgeCost = 0 - nextLeg->getDual();
 
-			// ¼ì²énextLegµÄsubNodeListÊÇ·ñÎª¿Õ
-			// ³õÊ¼»¯starting legÊ±legµÄsubNodeList±ØÈ»Îª¿Õ
+			// ï¿½ï¿½ï¿½nextLegï¿½ï¿½subNodeListï¿½Ç·ï¿½Îªï¿½ï¿½
+			// ï¿½ï¿½Ê¼ï¿½ï¿½starting legÊ±legï¿½ï¿½subNodeListï¿½ï¿½È»Îªï¿½ï¿½
 			if (!nextLeg->getSubNodeList(threadIndex).empty())
 			{
 				cout << "Error, initial leg's subNodeList must be empty" << endl;
@@ -1109,7 +1064,7 @@ void Model::edgeProcessMaint(Leg* nextLeg, Aircraft* aircraft,int threadIndex)
 			}
 		}
 	}
-	else // Èç¹ûnextLegÓëaircraft²»Æ¥Åä
+	else // ï¿½ï¿½ï¿½nextLegï¿½ï¿½aircraftï¿½ï¿½Æ¥ï¿½ï¿½
 	{
 		// do nothing
 		/*
@@ -1144,13 +1099,13 @@ void Model::edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft
 	delay = computeFlightDelay(subNode, nextLeg);
 
 	//edgeCost = delay * Util::w_fltDelay - nextLeg->getDual();
-	edgeCost = delay / 60.0 * Util::w_fltDelay - nextLeg->getDual(); //* delay×ª»»³É·ÖÖÓ
+	edgeCost = delay / 60.0 * Util::w_fltDelay - nextLeg->getDual(); //* delay×ªï¿½ï¿½ï¿½É·ï¿½ï¿½ï¿½
 
 	//* check maximum delay satisfied
 	if (delay > Util::maxDelayTime)
 		return;
 
-	//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+	//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 	if (nextLeg->getArrTime() + delay > aircraft->getEndTime())
 		return;
 
@@ -1158,9 +1113,9 @@ void Model::edgeProcessFltFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircraft
 	if (nextLeg->getAircraft() != aircraft)
 		edgeCost += Util::w_fltSwap;
 
-	// ÐÂ½¨SubNode, ¼ì²éÊÇ·ñÄÜ²åÈënextLegµÄsubNodeList
-	// Èç¹ûnewSubNode²»±»ÈÎºÎnextLegÒÑÓÐµÄsubNode dominate, ²åÈë
-	// Èç¹ûnewSubNode dominateÈÎºÎnextLegÒÑÓÐµÄsubNode, É¾³ý¸ÃÒÑÓÐµÄsubNode, newSubNode²åÈënextLegµÄsubNodeList
+	// ï¿½Â½ï¿½SubNode, ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Ü²ï¿½ï¿½ï¿½nextLegï¿½ï¿½subNodeList
+	// ï¿½ï¿½ï¿½newSubNodeï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½nextLegï¿½ï¿½ï¿½Ðµï¿½subNode dominate, ï¿½ï¿½ï¿½ï¿½
+	// ï¿½ï¿½ï¿½newSubNode dominateï¿½Îºï¿½nextLegï¿½ï¿½ï¿½Ðµï¿½subNode, É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½subNode, newSubNodeï¿½ï¿½ï¿½ï¿½nextLegï¿½ï¿½subNodeList
 	SubNode* newSubNode = new SubNode(nextLeg, subNode, subNode->getSubNodeCost() + edgeCost, delay);
 
 	/*
@@ -1193,14 +1148,14 @@ void Model::edgeProcessFltMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircra
 	double edgeCost = 0;
 	
 	if (nextLeg->getAircraft() == aircraft)
-	{ // Èç¹ûnextLegÓëaircraftÆ¥Åä
+	{ // ï¿½ï¿½ï¿½nextLegï¿½ï¿½aircraftÆ¥ï¿½ï¿½
 		if (subNode->getOperArrTime() > nextLeg->getDepTime())
-		{ // Èç¹ûnextLegµÄmaintenanceÐèÒª±»delay
+		{ // ï¿½ï¿½ï¿½nextLegï¿½ï¿½maintenanceï¿½ï¿½Òªï¿½ï¿½delay
 			/* do nothing, since maintenance cannot be delayed*/
 		}
 		else
 		{
-			//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+			//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 			if (nextLeg->getArrTime() > aircraft->getEndTime())
 				return;
 
@@ -1213,9 +1168,9 @@ void Model::edgeProcessFltMaint(SubNode* subNode, Leg* nextLeg, Aircraft* aircra
 				delete newSubNode;
 			}
 		}
-	}else { // Èç¹ûnextLegÓëaircraft²»Æ¥Åä
+	}else { // ï¿½ï¿½ï¿½nextLegï¿½ï¿½aircraftï¿½ï¿½Æ¥ï¿½ï¿½
 		// do nothing
-		// ²»ÏònextLegµÄsubNodeListÌí¼ÓsubNode
+		// ï¿½ï¿½ï¿½ï¿½nextLegï¿½ï¿½subNodeListï¿½ï¿½ï¿½ï¿½subNode
 	}
 }
 
@@ -1235,7 +1190,7 @@ void Model::edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircra
 
 	Leg* thisLeg = subNode->getLeg();
 
-	if (thisLeg->getAircraft() == aircraft) { // Èç¹ûthisLegµÄmaitenanceÓëaircraftÆ¥Åä
+	if (thisLeg->getAircraft() == aircraft) { // ï¿½ï¿½ï¿½thisLegï¿½ï¿½maitenanceï¿½ï¿½aircraftÆ¥ï¿½ï¿½
 		
 		delay = computeFlightDelay(subNode, nextLeg);
 		//edgeCost = delay * Util::w_fltDelay - nextLeg->getDual();
@@ -1245,7 +1200,7 @@ void Model::edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircra
 		if (delay > Util::maxDelayTime)
 			return;
 
-		//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+		//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 		if (nextLeg->getArrTime() + delay > aircraft->getEndTime())
 			return;
 
@@ -1259,8 +1214,8 @@ void Model::edgeProcessMaintFlt(SubNode* subNode, Leg* nextLeg, Aircraft* aircra
 		{
 			delete newSubNode;
 		}
-	}else { // Èç¹ûthisLegµÄmaitenanceÓëaircraft²»Æ¥Åä
-		if (!thisLeg->getSubNodeList(threadIndex).empty()) { // Èç¹ûthisLegµÄmaitenanceÓëaircraft²»Æ¥Åä£¬µ«subNodeList·Ç¿Õ
+	}else { // ï¿½ï¿½ï¿½thisLegï¿½ï¿½maitenanceï¿½ï¿½aircraftï¿½ï¿½Æ¥ï¿½ï¿½
+		if (!thisLeg->getSubNodeList(threadIndex).empty()) { // ï¿½ï¿½ï¿½thisLegï¿½ï¿½maitenanceï¿½ï¿½aircraftï¿½ï¿½Æ¥ï¿½ä£¬ï¿½ï¿½subNodeListï¿½Ç¿ï¿½
 			cout << "Error, maintenance and aircraft mismatch; subNodeList of maintenance must be empty!" << endl;
 			exit(0);
 		}
@@ -1289,15 +1244,15 @@ void Model::edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* airc
 		exit(0);
 	}
 
-	if (nextLeg->isMaint()) { // Èç¹ûnextLegÒ²ÊÇmaitenance
-		if (nextLeg->getAircraft() == aircraft) { // Èç¹ûaircraftÓëmaintenanceÆ¥Åä
-			// ¼ì²énextLegÊÇ·ñ»á±»delay, scheduleÀï²éÕÒneighborµÄÊ±ºòÓ¦¸ÃÒÑ¾­±£Ö¤
+	if (nextLeg->isMaint()) { // ï¿½ï¿½ï¿½nextLegÒ²ï¿½ï¿½maitenance
+		if (nextLeg->getAircraft() == aircraft) { // ï¿½ï¿½ï¿½aircraftï¿½ï¿½maintenanceÆ¥ï¿½ï¿½
+			// ï¿½ï¿½ï¿½nextLegï¿½Ç·ï¿½á±»delay, scheduleï¿½ï¿½ï¿½ï¿½ï¿½neighborï¿½ï¿½Ê±ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ö¤
 			if (subNode->getOperArrTime() > nextLeg->getDepTime()) {
 				cout << "Error, maintenance cannot be delayed!" << endl;
 				exit(0);
 			}
 
-			//* ¼ì²éÊÇ·ñ»á³¬¹ýaircraft endTime
+			//* ï¿½ï¿½ï¿½ï¿½Ç·ï¿½á³¬ï¿½ï¿½aircraft endTime
 			if (nextLeg->getArrTime() > aircraft->getEndTime())
 				return;
 
@@ -1310,8 +1265,8 @@ void Model::edgeProcessMaintMaint(SubNode* subNode, Leg* nextLeg, Aircraft* airc
 				delete newSubNode;
 			}
 
-		}else { // Èç¹ûaircraftÓëmaintenance²»Æ¥Åä
-			if (!thisLeg->getSubNodeList(threadIndex).empty()) { // thisLegÊÇmaint, aircraft²»Æ¥Åä£¬node cost²»¿ÉÄÜ²»±»ÐÞ¸Ä¹ý
+		}else { // ï¿½ï¿½ï¿½aircraftï¿½ï¿½maintenanceï¿½ï¿½Æ¥ï¿½ï¿½
+			if (!thisLeg->getSubNodeList(threadIndex).empty()) { // thisLegï¿½ï¿½maint, aircraftï¿½ï¿½Æ¥ï¿½ä£¬node costï¿½ï¿½ï¿½ï¿½ï¿½Ü²ï¿½ï¿½ï¿½ï¿½Þ¸Ä¹ï¿½
 				cout << "Error, thisLeg maintenance and aircraft do not match!" << endl;
 				exit(0);
 			}
@@ -1341,9 +1296,9 @@ time_t Model::computeFlightDelay (SubNode* subNode, Leg* nextLeg)
 		exit(0);
 	}
 
-	//* ÏÈ²»¿¼ÂÇairport closure£¬¼ì²éÊÇ·ñÐèÒªdelay
-	//* ·ÖÁ½ÖÖÇé¿ö£¬thisLegÊÇ·ñÎªflight
-	if (thisLeg->isMaint()) // edgeProcessÀï»áÅÐ¶ÏÊÇ·ñÓëaircraftÆ¥Åä£¬ËùÒÔÕâÀï²»ÅÐ¶Ï
+	//* ï¿½È²ï¿½ï¿½ï¿½ï¿½ï¿½airport closureï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Òªdelay
+	//* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½thisLegï¿½Ç·ï¿½Îªflight
+	if (thisLeg->isMaint()) // edgeProcessï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½aircraftÆ¥ï¿½ä£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï²»ï¿½Ð¶ï¿½
 	{
 		if (subNode->getOperArrTime() > nextLeg->getDepTime())
 		{
@@ -1358,7 +1313,7 @@ time_t Model::computeFlightDelay (SubNode* subNode, Leg* nextLeg)
 		}
 	}
 
-	//* ÔÙ¿¼ÂÇairport closure
+	//* ï¿½Ù¿ï¿½ï¿½ï¿½airport closure
 	time_t delay2 = delayByAirportClose(nextLeg, delay);
 
 	return delay + delay2;
@@ -1376,16 +1331,16 @@ time_t Model::delayByAirportClose (Leg* nextLeg, time_t delay)
 	time_t nextLegDepTime = nextLeg->getDepTime() + delay;
 	time_t nextLegArrTime = nextLeg->getArrTime() + delay;
 
-	//* nextLegÊÇflight, ¼ì²énextLeg operDepTime and operArrTimeÊÇ·ñÊÜµ½ÌìÆø»ú³¡¹Ø±ÕµÄÓ°Ïì
-	//* Èç¹ûÊÜµ½Ó°Ïì£¬¼Ódelay
+	//* nextLegï¿½ï¿½flight, ï¿½ï¿½ï¿½nextLeg operDepTime and operArrTimeï¿½Ç·ï¿½ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø±Õµï¿½Ó°ï¿½ï¿½
+	//* ï¿½ï¿½ï¿½ï¿½Üµï¿½Ó°ï¿½ì£¬ï¿½ï¿½delay
 	time_t delay2 = 0;
 	vector<pair<time_t, time_t>> depCloseList;
 	depCloseList = nextLeg->getDepStation()->getCloseTimeList();
 	vector<pair<time_t, time_t>> arrCloseList;
 	arrCloseList = nextLeg->getArrStation()->getCloseTimeList();
 
-	//* ¿ÉÄÜ»áÓÐ¼ÓÁËdepDelayËäÈ»±ÜÃâÁËdep stationµÄclose, µ«ÓÖÔì³É½øÈëarr stationµÄcloseµÄÇé¿ö; ·´Ö®ÒàÈ»
-	//* ËùÒÔÐèÒªµü´ú
+	//* ï¿½ï¿½ï¿½Ü»ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½depDelayï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dep stationï¿½ï¿½close, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½arr stationï¿½ï¿½closeï¿½ï¿½ï¿½ï¿½ï¿½; ï¿½ï¿½Ö®ï¿½ï¿½È»
+	//* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½
 	bool stopFlag1 = 0;
 	bool stopFlag2 = 0;
 
@@ -1399,7 +1354,7 @@ time_t Model::delayByAirportClose (Leg* nextLeg, time_t delay)
 			{
 				delay2 = depCloseList[k].second - nextLegDepTime;
 				stopFlag1 = 0;
-				break; // airport closureÊ±¶Î²»ÖØµþ
+				break; // airport closureÊ±ï¿½Î²ï¿½ï¿½Øµï¿½
 			}
 		}
 
@@ -1414,7 +1369,7 @@ time_t Model::delayByAirportClose (Leg* nextLeg, time_t delay)
 			{
 				delay2 = arrCloseList[k].second - nextLegArrTime;
 				stopFlag2 = 0;
-				break; // airport closureÊ±¶Î²»ÖØµþ
+				break; // airport closureÊ±ï¿½Î²ï¿½ï¿½Øµï¿½
 			}
 		}
 

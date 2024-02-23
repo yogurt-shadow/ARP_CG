@@ -7,6 +7,7 @@ TIMEDIFF                 =            0
 INITLOFNUM               =            10000
 SELECTNUM                =            100
 SEED                     =            1
+THREADSIZE               =            8
 
 class util:
     turnTime             =            10
@@ -14,11 +15,12 @@ class util:
     w_cancelMtc          =            500
     w_cancelFlt          =            100
     w_violatedBalance    =            1
-    w_violatedPosition    =            1
+    w_violatedPosition   =            1
     w_fltDelay           =            1
     w_fltSwap            =            1
     maxRunTime           =            0
     newamount            =            2
+    threadSize           =            2
 
     # @classmethod
     def print():
@@ -33,3 +35,4 @@ class util:
         print("w_fltSwap = ", util.w_fltSwap)
         print("maxRunTime = ", util.maxRunTime)
         print("newamount = ", util.newamount)
+        print("threadSize = ", util.threadSize)
