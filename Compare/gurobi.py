@@ -15,18 +15,8 @@ from gurobipy import GRB
 
 # Read and solve model
 if __name__ == "__main__":
-    model1 = gp.read("../LP/PY/pp_%d.lp" % int(sys.argv[1]))
+    model1 = gp.read("pp_0.lp")
     model1.setParam(GRB.Param.Threads, 1)
     model1.setParam("OutputFlag", 0)
     model1.optimize()
     print(model1.ObjVal)
-    # for cons in model1.getConstrs():
-    #     print("%s: %d" % (cons.ConstrName, cons.Pi))
-
-    model2 = gp.read("../LP/CPP/cc_%d.lp" % int(sys.argv[1]))
-    model2.setParam(GRB.Param.Threads, 1)
-    model2.setParam("OutputFlag", 0)
-    model2.optimize()
-    print(model2.ObjVal)
-    # for cons in model2.getConstrs():
-    #     print("%s: %d" % (cons.ConstrName, cons.Pi))

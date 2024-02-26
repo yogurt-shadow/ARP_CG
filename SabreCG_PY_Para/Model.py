@@ -5,13 +5,14 @@ import Util as ut
 import sys
 import gurobipy as gp
 from gurobipy import GRB
+import coptpy as cpt
 import time
 import os
 import threading
 
 class Model:
     _count = 0
-    sequential = False
+    use_copt = True
 
     def __init__(self, stationList: list[Station], aircraftList: list[Aircraft], legList: list[Leg], topOrderList: list[Leg], _header: str):
         self._stationList, self._aircraftList = stationList, aircraftList
@@ -22,8 +23,13 @@ class Model:
         self._finalLofList , self._cancelLegList = [], [] # final solution
         self._initColumns = []
         self._tolerance = 0
-        # initialize gurobi
-        self._model = gp.Model()
+        self._model = None
+        if not Model.use_copt:
+            # initialize gurobi
+            self._model = gp.Model()
+        else:
+            # initialize copt
+            self._model = cpt.Envr().createModel()
         self.header = _header
         self._lpTime = 0
         self._spTime = 0
@@ -417,7 +423,10 @@ class Model:
             cancelCost = ut.util.w_cancelFlt
             if _leg.isMaint():
                 cancelCost = ut.util.w_cancelMtc
-            v = self._model.addVar(lb = 0, ub = 1, obj = cancelCost, name = varName, vtype = GRB.CONTINUOUS)
+            if not Model.use_copt:
+                v = self._model.addVar(lb = 0, ub = 1, obj = cancelCost, name = varName, vtype = GRB.CONTINUOUS)
+            else:
+                v = self._model.addVar(lb = 0, ub = 1, obj = cancelCost, name = varName, vtype = cpt.COPT.CONTINUOUS)
             self._legVar.append(v)
             cover_leg_mat[_leg.getId()][i] = 1
 
@@ -425,7 +434,10 @@ class Model:
         for i in range(len(self._initColumns)):
             _col = self._initColumns[i]
             varName = "x_" + str(_col.getId())
-            v = self._model.addVar(lb = 0, ub = 1, obj = _col.getCost(), name = varName, vtype = GRB.CONTINUOUS)
+            if not Model.use_copt:
+                v = self._model.addVar(lb = 0, ub = 1, obj = _col.getCost(), name = varName, vtype = GRB.CONTINUOUS)
+            else:
+                v = self._model.addVar(lb = 0, ub = 1, obj = _col.getCost(), name = varName, vtype = cpt.COPT.CONTINUOUS)
             self._lofVar.append(v)
             operLegList = _col.getLegList()
             for j in range(len(operLegList)):
@@ -436,78 +448,132 @@ class Model:
         # cover constraint
         for i in range(len(self._legList)):
             consName = "cover_lg_" + str(self._legList[i].getId())
-            expr = gp.LinExpr()
-            # add cover-leg terms
-            for j in range(len(self._legVar)):
-                if cover_leg_mat[i][j] > 0:
-                    expr.addTerms(cover_leg_mat[i][j], self._legVar[j])
-            # add cover-lof terms
-            for j in range(len(self._lofVar)):
-                if cover_lof_mat[i][j] > 0:
-                    expr.addTerms(cover_lof_mat[i][j], self._lofVar[j])
-            # add constraint
-            rng = self._model.addConstr(expr == 1, name = consName)
-            self._coverRng.append(rng)
+            if not Model.use_copt:
+                expr = gp.LinExpr()
+                # add cover-leg terms
+                for j in range(len(self._legVar)):
+                    if cover_leg_mat[i][j] > 0:
+                        expr.addTerms(cover_leg_mat[i][j], self._legVar[j])
+                # add cover-lof terms
+                for j in range(len(self._lofVar)):
+                    if cover_lof_mat[i][j] > 0:
+                        expr.addTerms(cover_lof_mat[i][j], self._lofVar[j])
+                # add constraint
+                rng = self._model.addConstr(expr == 1, name = consName)
+                self._coverRng.append(rng)
+            else:
+                expr = cpt.LinExpr()
+                # add cover-leg terms
+                for j in range(len(self._legVar)):
+                    if cover_leg_mat[i][j] > 0:
+                        expr.addTerm(coeff = cover_leg_mat[i][j], var = self._legVar[j])
+                # add cover-lof terms
+                for j in range(len(self._lofVar)):
+                    if cover_lof_mat[i][j] > 0:
+                        expr.addTerm(coeff = cover_lof_mat[i][j], var = self._lofVar[j])
+                # add constraint
+                rng = self._model.addConstr(lhs = expr, sense = cpt.COPT.EQUAL, rhs = 1, name = consName)
+                self._coverRng.append(rng)
 
         # select constraint
         for i in range(len(self._aircraftList)):
             consName = "select_ac_" + str(self._aircraftList[i].getId())
-            expr = gp.LinExpr()
-            # add select-leg terms
-            for j in range(len(self._legVar)):
-                if select_leg_mat[i][j] > 0:
-                    expr.addTerms(select_leg_mat[i][j], self._legVar[j])
-            # add select-lof terms
-            for j in range(len(self._lofVar)):
-                if select_lof_mat[i][j] > 0:
-                    expr.addTerms(select_lof_mat[i][j], self._lofVar[j])
-            # add constraint
-            slt = self._model.addConstr(expr <= 1, name = consName)
-            self._selectRng.append(slt)
+            if not Model.use_copt:
+                expr = gp.LinExpr()
+                # add select-leg terms
+                for j in range(len(self._legVar)):
+                    if select_leg_mat[i][j] > 0:
+                        expr.addTerms(select_leg_mat[i][j], self._legVar[j])
+                # add select-lof terms
+                for j in range(len(self._lofVar)):
+                    if select_lof_mat[i][j] > 0:
+                        expr.addTerms(select_lof_mat[i][j], self._lofVar[j])
+                # add constraint
+                slt = self._model.addConstr(expr <= 1, name = consName)
+                self._selectRng.append(slt)
+            else:
+                expr = cpt.LinExpr()
+                # add select-leg terms
+                for j in range(len(self._legVar)):
+                    if select_leg_mat[i][j] > 0:
+                        expr.addTerm(coeff = select_leg_mat[i][j], var = self._legVar[j])
+                # add select-lof terms
+                for j in range(len(self._lofVar)):
+                    if select_lof_mat[i][j] > 0:
+                        expr.addTerm(coeff = select_lof_mat[i][j], var = self._lofVar[j])
+                # add constraint
+                slt = self._model.addConstr(lhs = expr, sense = cpt.COPT.LESS_EQUAL, rhs = 1, name = consName)
+                self._selectRng.append(slt)
 
     def solve(self) -> None:
         name = self.header + "pp_" + str(Model._count) + ".lp"
         Model._count += 1
-        """
-        -1=automatic,
-        0=primal simplex,
-        1=dual simplex,
-        2=barrier,
-        3=concurrent,
-        4=deterministic concurrent, and
-        5=deterministic concurrent simplex (deprecated; see ConcurrentMethod).
-        """
-        self._model.setParam(GRB.param.Method, -1)
-        # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
-        if os.path.exists(name):
-            os.remove(name)
-        self._model.write(name)
-        self._model.optimize()
-        print()
-        print("Number of leg variables is: " + str(len(self._legVar)))
-        print("Number of lof variables is: " + str(len(self._lofVar)))
-        print("Number of selection constraint is: " + str(len(self._selectRng)))
-        print("Number of cover constraint is: " + str(len(self._coverRng)))
-        print("Solution status: " + str(self._model.Status))
-        print("Optimal value: " + str(self._model.ObjVal))
+        if not Model.use_copt:
+            """
+            -1=automatic,
+            0=primal simplex,
+            1=dual simplex,
+            2=barrier,
+            3=concurrent,
+            4=deterministic concurrent, and
+            5=deterministic concurrent simplex (deprecated; see ConcurrentMethod).
+            """
+            self._model.setParam(GRB.param.Method, -1)
+            # _solver.setParam(IloCplex::BarCrossAlg, IloCplex::NoAlg)
+            if os.path.exists(name):
+                os.remove(name)
+            self._model.write(name)
+            self._model.optimize()
+            print()
+            print("Number of leg variables is: " + str(len(self._legVar)))
+            print("Number of lof variables is: " + str(len(self._lofVar)))
+            print("Number of selection constraint is: " + str(len(self._selectRng)))
+            print("Number of cover constraint is: " + str(len(self._coverRng)))
+            print("Solution status: " + str(self._model.Status))
+            print("Optimal value: " + str(self._model.ObjVal))
 
-        # get leg dual
-        legDual = self._model.getAttr('Pi', self._coverRng)
-        # set leg dual
-        for i in range(len(self._legList)):
-            if i != self._legList[i].getId():
-                print("Error, leg index mismatch when get dual")
-                sys.exit(0)
-            self._legList[i].setDual(legDual[i])
-        
-        # get aircraft dual
-        aircraftDual = self._model.getAttr('Pi', self._selectRng)
-        # set aircraft dual
-        for i in range(len(self._aircraftList)):
-            if i != self._aircraftList[i].getId():
-                print("Error, aircraft index mismatch when get dual")
-                sys.exit(0)
-            self._aircraftList[i].setDual(aircraftDual[i])
+            # get leg dual
+            legDual = self._model.getAttr('Pi', self._coverRng)
+            # set leg dual
+            for i in range(len(self._legList)):
+                if i != self._legList[i].getId():
+                    print("Error, leg index mismatch when get dual")
+                    sys.exit(0)
+                self._legList[i].setDual(legDual[i])
+            
+            # get aircraft dual
+            aircraftDual = self._model.getAttr('Pi', self._selectRng)
+            # set aircraft dual
+            for i in range(len(self._aircraftList)):
+                if i != self._aircraftList[i].getId():
+                    print("Error, aircraft index mismatch when get dual")
+                    sys.exit(0)
+                self._aircraftList[i].setDual(aircraftDual[i])
+        else: # COPT
+            if os.path.exists(name):
+                os.remove(name)
+            self._model.writeLp(name)
+            self._model.solve()
+            print()
+            print("Number of leg variables is: " + str(len(self._legVar)))
+            print("Number of lof variables is: " + str(len(self._lofVar)))
+            print("Number of selection constraint is: " + str(len(self._selectRng)))
+            print("Number of cover constraint is: " + str(len(self._coverRng)))
+            print("Optimal value: " + str(self._model.objval))
+            # set leg dual
+            for i in range(len(self._legList)):
+                if i != self._legList[i].getId():
+                    print("Error, leg index mismatch when get dual")
+                    sys.exit(0)
+                dual = self._coverRng[i].getInfo("Dual")
+                self._legList[i].setDual(dual)
+            # set aircraft dual
+            for i in range(len(self._aircraftList)):
+                if i != self._aircraftList[i].getId():
+                    print("Error, aircraft index mismatch when get dual")
+                    sys.exit(0)
+                dual = self._selectRng[i].getInfo("Dual")
+                self._aircraftList[i].setDual(dual)
 
     def addColumns(self, _betterColumns: list[Lof]) -> None:
         for _col in _betterColumns:
@@ -521,35 +587,65 @@ class Model:
             coeffs.append(1)
             constrs.append(self._selectRng[_col.getAircraft().getId()])
             varName = "x_" + str(_col.getId())
-            v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
+            if not Model.use_copt:
+                v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = GRB.CONTINUOUS, column = gp.Column(coeffs, constrs))
+            else:
+                v = self._model.addVar(lb = 0, ub = 1, obj = obj, name = varName, vtype = cpt.COPT.CONTINUOUS, column = cpt.Column(constrs = constrs, coeffs = coeffs))
             self._lofVar.append(v)
 
     def solveIP(self) -> list[Lof]:
         print(" ********************* FINAL IP SOLUTION *********************")
-        for v in self._model.getVars():
-            v.setAttr('VType', GRB.BINARY)
-        if os.path.exists(self.header + "recovery_pp.lp"):
-            os.remove(self.header + "recovery_pp.lp")
-        self._model.write(self.header + "recovery_pp.lp")
-        self._model.optimize()
-        print()
-        print("Number of leg variables is: " + str(len(self._legVar)))
-        print("Number of lof variables is: " + str(len(self._lofVar)))
-        print("Number of selection constraint is: " + str(len(self._selectRng)))
-        print("Number of cover constraint is: " + str(len(self._coverRng)))
-        print()
-        print("Final Solution status: " + str(self._model.Status))
-        print("Final Optimal value: " + str(self._model.ObjVal))
-        lofVarSoln = [v.x for v in self._lofVar]
-        lofListSoln = []
-        if len(self._initColumns) > 0:
-            for i in range(0, len(lofVarSoln)):
-                _sln = lofVarSoln[i]
-                if _sln <= 1.0001 and _sln >= 0.9999:
-                    lofListSoln.append(self._initColumns[i])
-                    self._initColumns[i].print()
-        legVarSoln = [v.x for v in self._legVar]
-        print()
-        print(" ********************* END FINAL IP SOLUTION *********************")
-        return lofListSoln
+        if not Model.use_copt:
+            for v in self._model.getVars():
+                v.setAttr('VType', GRB.BINARY)
+            if os.path.exists(self.header + "recovery_pp.lp"):
+                os.remove(self.header + "recovery_pp.lp")
+            self._model.write(self.header + "recovery_pp.lp")
+            self._model.optimize()
+            print()
+            print("Number of leg variables is: " + str(len(self._legVar)))
+            print("Number of lof variables is: " + str(len(self._lofVar)))
+            print("Number of selection constraint is: " + str(len(self._selectRng)))
+            print("Number of cover constraint is: " + str(len(self._coverRng)))
+            print()
+            print("Final Solution status: " + str(self._model.Status))
+            print("Final Optimal value: " + str(self._model.ObjVal))
+            lofVarSoln = [v.x for v in self._lofVar]
+            lofListSoln = []
+            if len(self._initColumns) > 0:
+                for i in range(0, len(lofVarSoln)):
+                    _sln = lofVarSoln[i]
+                    if _sln <= 1.0001 and _sln >= 0.9999:
+                        lofListSoln.append(self._initColumns[i])
+                        self._initColumns[i].print()
+            legVarSoln = [v.x for v in self._legVar]
+            print()
+            print(" ********************* END FINAL IP SOLUTION *********************")
+            return lofListSoln
+        else: # COPT
+            for v in self._model.getVars():
+                v.setType(cpt.COPT.BINARY)
+            if os.path.exists(self.header + "recovery_pp.lp"):
+                os.remove(self.header + "recovery_pp.lp")
+            self._model.writeLp(self.header + "recovery_pp.lp")
+            self._model.solve()
+            print()
+            print("Number of leg variables is: " + str(len(self._legVar)))
+            print("Number of lof variables is: " + str(len(self._lofVar)))
+            print("Number of selection constraint is: " + str(len(self._selectRng)))
+            print("Number of cover constraint is: " + str(len(self._coverRng)))
+            print()
+            print("Final Optimal value: " + str(self._model.objval))
+            lofVarSoln = [v.x for v in self._lofVar]
+            lofListSoln = []
+            if len(self._initColumns) > 0:
+                for i in range(0, len(lofVarSoln)):
+                    _sln = lofVarSoln[i]
+                    if _sln <= 1.0001 and _sln >= 0.9999:
+                        lofListSoln.append(self._initColumns[i])
+                        self._initColumns[i].print()
+            legVarSoln = [v.x for v in self._legVar]
+            print()
+            print(" ********************* END FINAL IP SOLUTION *********************")
+            return lofListSoln
     

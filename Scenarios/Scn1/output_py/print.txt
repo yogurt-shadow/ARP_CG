@@ -13,7 +13,6 @@ w_fltDelay =  10
 w_fltSwap =  1
 maxRunTime =  1800
 newamount =  2
-threadSize =  2
 ********************* Number of Aircraft Departured *********************
 number of aircraft departured from station MIL is 1
 number of aircraft departured from station XEM is 4
@@ -407,867 +406,920 @@ Leg 94 Flt 2932555 Tal MAZAX
 NUC Wed Jul 25 04:15:00 2012
 XEM Wed Jul 25 06:39:00 2012
 ############## TOTAL CONNECTION 1024 ###############
-cpu number is: 20
+Cardinal Optimizer v7.1.0. Build date Feb  4 2024
+Copyright Cardinal Operations 2024. All Rights Reserved
+
 List size: 12
 Number of Initial Lofs is 8
 
 ###### initial Lofs have been generated ######
  ********************* LP SOLUTION 0 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_0.lp
+Model fingerprint: 1c4f6025
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 103 columns and 168 nonzeros
-Model fingerprint: 0x7fc7f84d
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [8e+02, 8e+02]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-Presolve removed 107 rows and 103 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    2.4000000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 103 columns and 168 non-zero elements
+The folded problem has:
+    12 rows, 11 columns and 16 non-zero elements
+The presolved problem is empty
 
-Solved in 0 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  2.400000000e+04
+Postsolving
+
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Dual             0    2.4000000000e+04            0           0       0.00s
+Unfolding
+Dual             0    2.4000000000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 2.4000000000e+04  Iterations: 0  Time: 0.00s
 
 Number of leg variables is: 95
 Number of lof variables is: 8
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
 Optimal value: 24000.0
-Time for LP_0: 0.002997875213623047 seconds
  ********************* END LP SOLUTION 0 *********************
 
-Number of Better Lofs is: 21
-Time for SP_0: 0.031002521514892578 seconds
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 1 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_1.lp
+Model fingerprint: d9b5fcd1
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 124 columns and 408 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [4e+00, 2e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -6.1130000e+04   2.070000e+02   0.000000e+00      0s
-      15    2.3584000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 126 columns and 417 non-zero elements
+The presolved problem has:
+    107 rows, 126 columns and 417 non-zero elements
 
-Solved in 15 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  2.358400000e+04
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    2.4000000000e+04            0          23       0.00s
+Primal           9    2.2848000000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 2.2848000000e+04  Iterations: 9  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 29
+Number of lof variables is: 31
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 23584.0
-Time for MP_1: 0.0010008811950683594 seconds
+Optimal value: 22848.0
  ********************* END LP SOLUTION 1 *********************
-Number of Better Lofs is: 23
-Time for SP_2: 0.02458810806274414 seconds
-# Total time for LP: 0.0010008811950683594 seconds
-# Total time for SP: 0.02458810806274414 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 2 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_2.lp
+Model fingerprint: be2042b2
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 147 columns and 664 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [4e+00, 2e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -7.8325000e+04   2.910000e+02   0.000000e+00      0s
-      25    2.2810000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 149 columns and 626 non-zero elements
+The presolved problem has:
+    107 rows, 149 columns and 626 non-zero elements
 
-Solved in 25 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  2.281000000e+04
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    2.2848000000e+04            0          23       0.00s
+Primal          22    1.1864000000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 1.1864000000e+04  Iterations: 22  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 52
+Number of lof variables is: 54
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 22810.0
-Time for MP_2: 0.002009868621826172 seconds
+Optimal value: 11864.0
  ********************* END LP SOLUTION 2 *********************
-Number of Better Lofs is: 22
-Time for SP_3: 0.026007652282714844 seconds
-# Total time for LP: 0.0030107498168945312 seconds
-# Total time for SP: 0.050595760345458984 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 3 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_3.lp
+Model fingerprint: 45e3b2ca
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 169 columns and 898 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [2e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -8.4987000e+04   2.470000e+02   0.000000e+00      0s
-      19    2.2565000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 172 columns and 833 non-zero elements
+The presolved problem has:
+    107 rows, 172 columns and 833 non-zero elements
 
-Solved in 19 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  2.256500000e+04
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    1.1864000000e+04            0          23       0.00s
+Primal          26    1.1864000000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 1.1864000000e+04  Iterations: 26  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 74
+Number of lof variables is: 77
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 22565.0
-Time for MP_3: 0.0019931793212890625 seconds
+Optimal value: 11864.0
  ********************* END LP SOLUTION 3 *********************
-Number of Better Lofs is: 22
-Time for SP_4: 0.05099797248840332 seconds
-# Total time for LP: 0.005003929138183594 seconds
-# Total time for SP: 0.1015937328338623 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 4 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_4.lp
+Model fingerprint: 6d2c81bd
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 191 columns and 1089 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -8.9251000e+04   2.365000e+02   0.000000e+00      0s
-      36    1.2414000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 195 columns and 1017 non-zero elements
+The presolved problem has:
+    107 rows, 195 columns and 1017 non-zero elements
 
-Solved in 36 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  1.241400000e+04
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    1.1864000000e+04            0          23       0.00s
+Primal          36    1.1864000000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 1.1864000000e+04  Iterations: 36  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 96
+Number of lof variables is: 100
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 12414.0
-Time for MP_4: 0.0030105113983154297 seconds
+Optimal value: 11864.0
  ********************* END LP SOLUTION 4 *********************
-Number of Better Lofs is: 22
-Time for SP_5: 0.02271866798400879 seconds
-# Total time for LP: 0.008014440536499023 seconds
-# Total time for SP: 0.1243124008178711 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 5 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_5.lp
+Model fingerprint: 748f6927
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 213 columns and 1281 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -9.6266000e+04   2.390000e+02   0.000000e+00      0s
-      50    1.1191000e+04   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 217 columns and 1172 non-zero elements
+The presolved problem has:
+    107 rows, 217 columns and 1172 non-zero elements
 
-Solved in 50 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  1.119100000e+04
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    1.1864000000e+04            0          22       0.00s
+Primal          13    1.0811333333e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 1.0811333333e+04  Iterations: 13  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 118
+Number of lof variables is: 122
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 11191.0
-Time for MP_5: 0.0029985904693603516 seconds
+Optimal value: 10811.333333333334
  ********************* END LP SOLUTION 5 *********************
-Number of Better Lofs is: 23
-Time for SP_6: 0.029110193252563477 seconds
-# Total time for LP: 0.011013031005859375 seconds
-# Total time for SP: 0.15342259407043457 seconds
+
+Number of Better Lofs is 21
+
  ********************* LP SOLUTION 6 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_6.lp
+Model fingerprint: 8e0a7bb6
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 236 columns and 1498 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -9.9575000e+04   2.600000e+02   0.000000e+00      0s
-      97    9.7410000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 238 columns and 1360 non-zero elements
+The presolved problem has:
+    107 rows, 238 columns and 1360 non-zero elements
 
-Solved in 97 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  9.741000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    1.0811333333e+04            0          21       0.00s
+Primal          19    1.0579750000e+04            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 1.0579750000e+04  Iterations: 19  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 141
+Number of lof variables is: 143
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 9741.0
-Time for MP_6: 0.0028901100158691406 seconds
+Optimal value: 10579.75
  ********************* END LP SOLUTION 6 *********************
-Number of Better Lofs is: 23
-Time for SP_7: 0.020075082778930664 seconds
-# Total time for LP: 0.013903141021728516 seconds
-# Total time for SP: 0.17349767684936523 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 7 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_7.lp
+Model fingerprint: 78d771ba
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 259 columns and 1675 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -7.7344500e+04   2.260000e+02   0.000000e+00      0s
-      93    8.7682105e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 261 columns and 1561 non-zero elements
+The presolved problem has:
+    107 rows, 261 columns and 1561 non-zero elements
 
-Solved in 93 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  8.768210526e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    1.0579750000e+04            0          23       0.00s
+Primal          35    8.4690000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 8.4690000000e+03  Iterations: 35  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 164
+Number of lof variables is: 166
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 8768.210526315786
-Time for MP_7: 0.0 seconds
+Optimal value: 8469.0
  ********************* END LP SOLUTION 7 *********************
-Number of Better Lofs is: 24
-Time for SP_8: 0.031120777130126953 seconds
-# Total time for LP: 0.013903141021728516 seconds
-# Total time for SP: 0.2046184539794922 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 8 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_8.lp
+Model fingerprint: efefbb53
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 283 columns and 1869 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -7.5423000e+04   6.380000e+02   0.000000e+00      0s
-      72    7.2045000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 283 columns and 1779 non-zero elements
+The presolved problem has:
+    107 rows, 283 columns and 1779 non-zero elements
 
-Solved in 72 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  7.204500000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    8.4690000000e+03            0          22       0.00s
+Primal          44    8.0100000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 8.0100000000e+03  Iterations: 44  Time: 0.00s
 
 Number of leg variables is: 95
 Number of lof variables is: 188
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 7204.5
-Time for MP_8: 0.003975868225097656 seconds
+Optimal value: 8010.0
  ********************* END LP SOLUTION 8 *********************
-Number of Better Lofs is: 22
-Time for SP_9: 0.019847393035888672 seconds
-# Total time for LP: 0.017879009246826172 seconds
-# Total time for SP: 0.22446584701538086 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 9 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_9.lp
+Model fingerprint: 2fa307e4
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 305 columns and 2036 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -5.8832700e+04   6.105000e+02   0.000000e+00      0s
-     120    6.9430000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 306 columns and 1950 non-zero elements
+The presolved problem has:
+    107 rows, 306 columns and 1950 non-zero elements
 
-Solved in 120 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  6.943000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    8.0100000000e+03            0          23       0.00s
+Primal          32    7.7170000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 7.7170000000e+03  Iterations: 32  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 210
+Number of lof variables is: 211
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 6943.0
-Time for MP_9: 0.003893136978149414 seconds
+Optimal value: 7717.0
  ********************* END LP SOLUTION 9 *********************
-Number of Better Lofs is: 23
-Time for SP_10: 0.021000146865844727 seconds
-# Total time for LP: 0.021772146224975586 seconds
-# Total time for SP: 0.24546599388122559 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 10 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_10.lp
+Model fingerprint: 88abc288
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 328 columns and 2208 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -5.7899000e+04   3.726667e+02   0.000000e+00      0s
-     122    5.5916667e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 329 columns and 2130 non-zero elements
+The presolved problem has:
+    107 rows, 329 columns and 2130 non-zero elements
 
-Solved in 122 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  5.591666667e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    7.7170000000e+03            0          23       0.00s
+Primal          85    6.5594262295e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 6.5594262295e+03  Iterations: 85  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 233
+Number of lof variables is: 234
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 5591.666666666668
-Time for MP_10: 0.004098415374755859 seconds
+Optimal value: 6559.4262295082
  ********************* END LP SOLUTION 10 *********************
-Number of Better Lofs is: 23
-Time for SP_11: 0.020900249481201172 seconds
-# Total time for LP: 0.025870561599731445 seconds
-# Total time for SP: 0.26636624336242676 seconds
+
+Number of Better Lofs is 21
+
  ********************* LP SOLUTION 11 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_11.lp
+Model fingerprint: 407a3bf9
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 351 columns and 2363 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -5.0867000e+04   3.740000e+02   0.000000e+00      0s
-     113    5.4557000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 350 columns and 2294 non-zero elements
+The presolved problem has:
+    107 rows, 350 columns and 2294 non-zero elements
 
-Solved in 113 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  5.455700000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    6.5594262295e+03            0          21       0.00s
+Primal          43    6.1783030303e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 6.1783030303e+03  Iterations: 43  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 256
+Number of lof variables is: 255
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 5455.700000000002
-Time for MP_11: 0.006001949310302734 seconds
+Optimal value: 6178.303030303028
  ********************* END LP SOLUTION 11 *********************
-Number of Better Lofs is: 21
-Time for SP_12: 0.02002549171447754 seconds
-# Total time for LP: 0.03187251091003418 seconds
-# Total time for SP: 0.2863917350769043 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 12 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_12.lp
+Model fingerprint: 55980c67
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 372 columns and 2498 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -2.0265000e+04   3.930000e+02   0.000000e+00      0s
-     116    4.9975263e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 372 columns and 2458 non-zero elements
+The presolved problem has:
+    107 rows, 372 columns and 2458 non-zero elements
 
-Solved in 116 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.997526316e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    6.1783030303e+03            0          22       0.00s
+Primal          98    5.2273000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 5.2273000000e+03  Iterations: 98  Time: 0.00s
 
 Number of leg variables is: 95
 Number of lof variables is: 277
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4997.526315789473
-Time for MP_12: 0.0049991607666015625 seconds
+Optimal value: 5227.3
  ********************* END LP SOLUTION 12 *********************
-Number of Better Lofs is: 21
-Time for SP_13: 0.020511627197265625 seconds
-# Total time for LP: 0.03687167167663574 seconds
-# Total time for SP: 0.3069033622741699 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 13 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_13.lp
+Model fingerprint: c0a02ff7
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 393 columns and 2649 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -7.1833684e+03   1.684211e+02   0.000000e+00      0s
-      68    4.9230526e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 394 columns and 2661 non-zero elements
+The presolved problem has:
+    107 rows, 394 columns and 2661 non-zero elements
 
-Solved in 68 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.923052632e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    5.2273000000e+03            0          22       0.00s
+Primal          93    4.4790000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4790000000e+03  Iterations: 93  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 298
+Number of lof variables is: 299
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4923.052631578947
-Time for MP_13: 0.004998683929443359 seconds
+Optimal value: 4479.0
  ********************* END LP SOLUTION 13 *********************
-Number of Better Lofs is: 21
-Time for SP_14: 0.020000696182250977 seconds
-# Total time for LP: 0.0418703556060791 seconds
-# Total time for SP: 0.3269040584564209 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 14 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_14.lp
+Model fingerprint: 83081f4a
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 414 columns and 2825 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -2.2787368e+03   2.165263e+02   0.000000e+00      0s
-      90    4.7833333e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 416 columns and 2823 non-zero elements
+The presolved problem has:
+    107 rows, 416 columns and 2823 non-zero elements
 
-Solved in 90 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.783333333e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4790000000e+03            0          22       0.00s
+Primal          35    4.4790000000e+03            0           0       0.01s
+
+Solving finished
+Status: Optimal  Objective: 4.4790000000e+03  Iterations: 35  Time: 0.01s
 
 Number of leg variables is: 95
-Number of lof variables is: 319
+Number of lof variables is: 321
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4783.333333333334
-Time for MP_14: 0.005001544952392578 seconds
+Optimal value: 4479.0
  ********************* END LP SOLUTION 14 *********************
-Number of Better Lofs is: 22
-Time for SP_15: 0.020350933074951172 seconds
-# Total time for LP: 0.04687190055847168 seconds
-# Total time for SP: 0.34725499153137207 seconds
+
+Number of Better Lofs is 23
+
  ********************* LP SOLUTION 15 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_15.lp
+Model fingerprint: 9b7df9f4
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 436 columns and 3004 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -4.3666667e+02   2.723333e+02   0.000000e+00      0s
-      54    4.5730000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 439 columns and 2997 non-zero elements
+The presolved problem has:
+    107 rows, 439 columns and 2997 non-zero elements
 
-Solved in 54 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.573000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4790000000e+03            0          23       0.00s
+Primal          39    4.4601428571e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4601428571e+03  Iterations: 39  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 341
+Number of lof variables is: 344
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4573.0
-Time for MP_15: 0.00417327880859375 seconds
+Optimal value: 4460.142857142859
  ********************* END LP SOLUTION 15 *********************
-Number of Better Lofs is: 21
-Time for SP_16: 0.022422313690185547 seconds
-# Total time for LP: 0.05104517936706543 seconds
-# Total time for SP: 0.3696773052215576 seconds
+
+Number of Better Lofs is 21
+
  ********************* LP SOLUTION 16 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_16.lp
+Model fingerprint: 5b3dd423
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 457 columns and 3187 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    1.1195714e+03   1.442143e+02   0.000000e+00      0s
-      72    4.4230000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 460 columns and 3187 non-zero elements
+The presolved problem has:
+    107 rows, 460 columns and 3187 non-zero elements
 
-Solved in 72 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.423000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4601428571e+03            0          21       0.00s
+Primal          51    4.4285000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4285000000e+03  Iterations: 51  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 362
+Number of lof variables is: 365
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4423.0
-Time for MP_16: 0.005099058151245117 seconds
+Optimal value: 4428.5
  ********************* END LP SOLUTION 16 *********************
-Number of Better Lofs is: 20
-Time for SP_17: 0.02428293228149414 seconds
-# Total time for LP: 0.05614423751831055 seconds
-# Total time for SP: 0.39396023750305176 seconds
+
+Number of Better Lofs is 21
+
  ********************* LP SOLUTION 17 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_17.lp
+Model fingerprint: dcb1cd3f
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 477 columns and 3376 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    2.8810000e+03   1.520000e+02   0.000000e+00      0s
-      52    4.3990000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 481 columns and 3395 non-zero elements
+The presolved problem has:
+    107 rows, 481 columns and 3395 non-zero elements
 
-Solved in 52 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.399000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4285000000e+03            0          21       0.00s
+Primal          39    4.4285000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4285000000e+03  Iterations: 39  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 382
+Number of lof variables is: 386
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4399.0
-Time for MP_17: 0.007023334503173828 seconds
+Optimal value: 4428.5
  ********************* END LP SOLUTION 17 *********************
-Number of Better Lofs is: 19
-Time for SP_18: 0.019639015197753906 seconds
-# Total time for LP: 0.06316757202148438 seconds
-# Total time for SP: 0.41359925270080566 seconds
+
+Number of Better Lofs is 21
+
  ********************* LP SOLUTION 18 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_18.lp
+Model fingerprint: 9c172624
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 496 columns and 3545 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    1.9920000e+03   5.040000e+02   0.000000e+00      0s
-      50    4.3990000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 502 columns and 3563 non-zero elements
+The presolved problem has:
+    107 rows, 502 columns and 3563 non-zero elements
 
-Solved in 50 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.399000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4285000000e+03            0          21       0.00s
+Primal          51    4.4170000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4170000000e+03  Iterations: 51  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 401
+Number of lof variables is: 407
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4399.0
-Time for MP_18: 0.004536867141723633 seconds
+Optimal value: 4417.0
  ********************* END LP SOLUTION 18 *********************
-Number of Better Lofs is: 16
-Time for SP_19: 0.022002696990966797 seconds
-# Total time for LP: 0.06770443916320801 seconds
-# Total time for SP: 0.43560194969177246 seconds
+
+Number of Better Lofs is 22
+
  ********************* LP SOLUTION 19 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_19.lp
+Model fingerprint: ced58ac5
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 512 columns and 3695 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    3.8830000e+03   1.335000e+02   0.000000e+00      0s
-      26    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 524 columns and 3738 non-zero elements
+The presolved problem has:
+    107 rows, 524 columns and 3738 non-zero elements
 
-Solved in 26 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4170000000e+03            0          22       0.00s
+Primal          59    4.4170000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4170000000e+03  Iterations: 59  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 417
+Number of lof variables is: 429
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4364.0
-Time for MP_19: 0.003999471664428711 seconds
+Optimal value: 4417.0
  ********************* END LP SOLUTION 19 *********************
-Number of Better Lofs is: 16
-Time for SP_20: 0.023540496826171875 seconds
-# Total time for LP: 0.07170391082763672 seconds
-# Total time for SP: 0.45914244651794434 seconds
+
+Number of Better Lofs is 19
+
  ********************* LP SOLUTION 20 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_20.lp
+Model fingerprint: 23de6145
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 528 columns and 3855 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    3.8340000e+03   1.750000e+02   0.000000e+00      0s
-      21    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 543 columns and 3887 non-zero elements
+The presolved problem has:
+    107 rows, 543 columns and 3887 non-zero elements
 
-Solved in 21 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4170000000e+03            0          19       0.00s
+Primal          49    4.4100000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.4100000000e+03  Iterations: 49  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 433
+Number of lof variables is: 448
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4364.0
-Time for MP_20: 0.004999637603759766 seconds
+Optimal value: 4410.0
  ********************* END LP SOLUTION 20 *********************
-Number of Better Lofs is: 13
-Time for SP_21: 0.022999286651611328 seconds
-# Total time for LP: 0.07670354843139648 seconds
-# Total time for SP: 0.48214173316955566 seconds
+
+Number of Better Lofs is 18
+
  ********************* LP SOLUTION 21 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_21.lp
+Model fingerprint: 5aafba89
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 541 columns and 3966 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    4.2820000e+03   6.100000e+01   0.000000e+00      0s
-      18    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 561 columns and 4069 non-zero elements
+The presolved problem has:
+    107 rows, 561 columns and 4069 non-zero elements
 
-Solved in 18 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.4100000000e+03            0          18       0.00s
+Primal          34    4.3800000000e+03            0           0       0.01s
+
+Solving finished
+Status: Optimal  Objective: 4.3800000000e+03  Iterations: 34  Time: 0.01s
 
 Number of leg variables is: 95
-Number of lof variables is: 446
+Number of lof variables is: 466
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4364.0
-Time for MP_21: 0.005000114440917969 seconds
+Optimal value: 4380.0
  ********************* END LP SOLUTION 21 *********************
-Number of Better Lofs is: 6
-Time for SP_22: 0.023946046829223633 seconds
-# Total time for LP: 0.08170366287231445 seconds
-# Total time for SP: 0.5060877799987793 seconds
+
+Number of Better Lofs is 18
+
  ********************* LP SOLUTION 22 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_22.lp
+Model fingerprint: 7e668570
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 547 columns and 4016 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    4.3480000e+03   2.700000e+01   0.000000e+00      0s
-      11    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 579 columns and 4219 non-zero elements
+The presolved problem has:
+    107 rows, 579 columns and 4219 non-zero elements
 
-Solved in 11 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3800000000e+03            0          18       0.00s
+Primal          20    4.3790000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3790000000e+03  Iterations: 20  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 452
+Number of lof variables is: 484
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4364.0
-Time for MP_22: 0.00473475456237793 seconds
+Optimal value: 4379.0
  ********************* END LP SOLUTION 22 *********************
-Number of Better Lofs is: 4
-Time for SP_23: 0.023209333419799805 seconds
-# Total time for LP: 0.08643841743469238 seconds
-# Total time for SP: 0.5292971134185791 seconds
+
+Number of Better Lofs is 12
+
  ********************* LP SOLUTION 23 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_23.lp
+Model fingerprint: 3b917e15
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 551 columns and 4046 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    4.3580000e+03   1.100000e+01   0.000000e+00      0s
-       6    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 591 columns and 4325 non-zero elements
+The presolved problem has:
+    107 rows, 591 columns and 4325 non-zero elements
 
-Solved in 6 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3790000000e+03            0          12       0.00s
+Primal          40    4.3700000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3700000000e+03  Iterations: 40  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 456
+Number of lof variables is: 496
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
-Optimal value: 4364.0
-Time for MP_23: 0.005005598068237305 seconds
+Optimal value: 4370.0
  ********************* END LP SOLUTION 23 *********************
-Number of Better Lofs is: 2
-Time for SP_24: 0.026485681533813477 seconds
-# Total time for LP: 0.09144401550292969 seconds
-# Total time for SP: 0.5557827949523926 seconds
+
+Number of Better Lofs is 20
+
  ********************* LP SOLUTION 24 *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_24.lp
+Model fingerprint: 48e14019
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-Optimize a model with 107 rows, 553 columns and 4064 nonzeros
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-LP warm-start: use basis
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    4.3620000e+03   1.100000e+01   0.000000e+00      0s
-       1    4.3640000e+03   0.000000e+00   0.000000e+00      0s
+The original problem has:
+    107 rows, 611 columns and 4491 non-zero elements
+The presolved problem has:
+    107 rows, 611 columns and 4491 non-zero elements
 
-Solved in 1 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.364000000e+03
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3700000000e+03            0          20       0.00s
+Primal          41    4.3640000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3640000000e+03  Iterations: 41  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 458
+Number of lof variables is: 516
 Number of selection constraint is: 12
 Number of cover constraint is: 95
-Solution status: 2
 Optimal value: 4364.0
-Time for MP_24: 0.0044138431549072266 seconds
  ********************* END LP SOLUTION 24 *********************
-Number of Better Lofs is: 0
-Time for SP_25: 0.026512622833251953 seconds
-# Total time for LP: 0.09585785865783691 seconds
-# Total time for SP: 0.5822954177856445 seconds
- ********************* FINAL IP SOLUTION *********************
-Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 11.0 (22621.2))
 
-CPU model: 13th Gen Intel(R) Core(TM) i7-13700H, instruction set [SSE2|AVX|AVX2]
-Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+Number of Better Lofs is 18
 
-Optimize a model with 107 rows, 553 columns and 4064 nonzeros
-Model fingerprint: 0xb226e75e
-Variable types: 0 continuous, 553 integer (553 binary)
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [1e+00, 3e+03]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-Found heuristic solution: objective 76000.000000
-Presolve removed 35 rows and 41 columns
-Presolve time: 0.01s
-Presolved: 72 rows, 512 columns, 2848 nonzeros
-Variable types: 0 continuous, 512 integer (512 binary)
-Found heuristic solution: objective 40806.000000
+ ********************* LP SOLUTION 25 *********************
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_25.lp
+Model fingerprint: e1241af9
 
-Root relaxation: objective 4.364000e+03, 123 iterations, 0.00 seconds (0.00 work units)
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
 
-    Nodes    |    Current Node    |     Objective Bounds      |     Work
- Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+The original problem has:
+    107 rows, 629 columns and 4644 non-zero elements
+The presolved problem has:
+    107 rows, 629 columns and 4644 non-zero elements
 
-*    0     0               0    4364.0000000 4364.00000  0.00%     -    0s
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3640000000e+03            0          18       0.00s
+Primal          46    4.3640000000e+03            0           0       0.00s
 
-Explored 1 nodes (123 simplex iterations) in 0.01 seconds (0.01 work units)
-Thread count was 20 (of 20 available processors)
-
-Solution count 3: 4364 40806 76000 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 4.364000000000e+03, best bound 4.364000000000e+03, gap 0.0000%
+Solving finished
+Status: Optimal  Objective: 4.3640000000e+03  Iterations: 46  Time: 0.00s
 
 Number of leg variables is: 95
-Number of lof variables is: 458
+Number of lof variables is: 534
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Optimal value: 4364.0
+ ********************* END LP SOLUTION 25 *********************
+
+Number of Better Lofs is 11
+
+ ********************* LP SOLUTION 26 *********************
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_26.lp
+Model fingerprint: 6fa69ef0
+
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
+
+The original problem has:
+    107 rows, 640 columns and 4746 non-zero elements
+The presolved problem has:
+    107 rows, 640 columns and 4746 non-zero elements
+
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3640000000e+03            0          11       0.00s
+Primal          16    4.3640000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3640000000e+03  Iterations: 16  Time: 0.00s
+
+Number of leg variables is: 95
+Number of lof variables is: 545
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Optimal value: 4364.0
+ ********************* END LP SOLUTION 26 *********************
+
+Number of Better Lofs is 7
+
+ ********************* LP SOLUTION 27 *********************
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_27.lp
+Model fingerprint: 4c7c41a1
+
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
+
+The original problem has:
+    107 rows, 647 columns and 4806 non-zero elements
+The presolved problem has:
+    107 rows, 647 columns and 4806 non-zero elements
+
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3640000000e+03            0           7       0.00s
+Primal           4    4.3640000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3640000000e+03  Iterations: 4  Time: 0.00s
+
+Number of leg variables is: 95
+Number of lof variables is: 552
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Optimal value: 4364.0
+ ********************* END LP SOLUTION 27 *********************
+
+Number of Better Lofs is 9
+
+ ********************* LP SOLUTION 28 *********************
+Writing problem to C:\Code\ARP_CG\LP\PY\pp_28.lp
+Model fingerprint: 6d10d3bd
+
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing an LP problem
+
+The original problem has:
+    107 rows, 656 columns and 4879 non-zero elements
+The presolved problem has:
+    107 rows, 656 columns and 4879 non-zero elements
+
+Method   Iteration           Objective  Primal.NInf   Dual.NInf        Time
+Primal           0    4.3640000000e+03            0           9       0.00s
+Primal           8    4.3640000000e+03            0           0       0.00s
+
+Solving finished
+Status: Optimal  Objective: 4.3640000000e+03  Iterations: 8  Time: 0.00s
+
+Number of leg variables is: 95
+Number of lof variables is: 561
+Number of selection constraint is: 12
+Number of cover constraint is: 95
+Optimal value: 4364.0
+ ********************* END LP SOLUTION 28 *********************
+
+Number of Better Lofs is 0
+
+ ********************* FINAL IP SOLUTION *********************
+Writing problem to C:\Code\ARP_CG\LP\PY\recovery_pp.lp
+Model fingerprint: bc39eedc
+
+Using Cardinal Optimizer v7.1.0 on Windows
+Hardware has 14 cores and 20 threads. Using instruction set X86_AVX2 (10)
+Minimizing a MIP problem
+
+The original problem has:
+    107 rows, 656 columns and 4879 non-zero elements
+    656 binaries
+
+Starting the MIP solver with 20 threads and 64 tasks
+
+Presolving the problem
+
+The presolved problem has:
+    67 rows, 544 columns and 3210 non-zero elements
+    544 binaries
+
+
+     Nodes    Active  LPit/n  IntInf     BestBound  BestSolution    Gap   Time
+         0         1      --       0 -3.013192e+06            --    Inf  0.01s
+H        0         1      --       0 -3.013192e+06  7.600000e+04 102.5%  0.01s
+H        0         1      --       0 -3.013192e+06  6.114600e+04 102.0%  0.02s
+H        0         1      --       0 -3.013192e+06  6.018000e+03 100.2%  0.02s
+*        0         1      --       0  4.364000e+03  4.364000e+03  0.00%  0.02s
+         0         1      --       0  4.364000e+03  4.364000e+03  0.00%  0.02s
+         1         0     0.0       0  4.364000e+03  4.364000e+03  0.00%  0.02s
+         1         0     0.0       0  4.364000e+03  4.364000e+03  0.00%  0.02s
+
+Best solution   : 4364.000000000
+Best bound      : 4364.000000000
+Best gap        : 0.0000%
+Solve time      : 0.02
+Solve node      : 1
+MIP status      : solved
+Solution status : integer optimal (relative gap limit 0.0001)
+
+Violations      :     absolute     relative
+  bounds        :            0            0
+  rows          :            0            0
+  integrality   :            0
+
+Number of leg variables is: 95
+Number of lof variables is: 561
 Number of selection constraint is: 12
 Number of cover constraint is: 95
 
-Final Solution status: 2
 Final Optimal value: 4364.0
 ************ LOF ************
 Lof ID is 0
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg List Size is 8 cost 0
 
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 0 Flt 2929704 Tal ARDIE
 MIL Mon Jul 23 21:25:00 2012
 NUC Tue Jul 24 02:55:00 2012
@@ -1277,7 +1329,7 @@ OAr Tue Jul 24 02:55:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 1 Flt 2930018 Tal ARDIE
 NUC Tue Jul 24 04:10:00 2012
 XEM Tue Jul 24 06:34:00 2012
@@ -1287,7 +1339,7 @@ OAr Tue Jul 24 06:34:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 2 Flt 2929470 Tal ARDIE
 XEM Tue Jul 24 07:50:00 2012
 GOB Tue Jul 24 12:25:00 2012
@@ -1297,7 +1349,7 @@ OAr Tue Jul 24 12:25:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 3 Flt 2931868 Tal ARDIE
 GOB Tue Jul 24 14:05:00 2012
 XEM Tue Jul 24 18:40:00 2012
@@ -1307,7 +1359,7 @@ OAr Tue Jul 24 18:40:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 4 Flt 2931930 Tal ARDIE
 XEM Tue Jul 24 20:00:00 2012
 YTM Tue Jul 24 21:34:00 2012
@@ -1317,7 +1369,7 @@ OAr Tue Jul 24 21:34:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 5 Flt 2932431 Tal ARDIE
 YTM Tue Jul 24 22:05:00 2012
 XEM Tue Jul 24 23:35:00 2012
@@ -1327,7 +1379,7 @@ OAr Tue Jul 24 23:35:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 6 Flt 2931966 Tal ARDIE
 XEM Wed Jul 25 00:40:00 2012
 OCM Wed Jul 25 03:50:00 2012
@@ -1337,7 +1389,7 @@ OAr Wed Jul 25 03:50:00 2012
 Tail ARDIE
 MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -2339
+dual -2590
 Leg 7 Flt 2931813 Tal ARDIE
 OCM Wed Jul 25 05:05:00 2012
 XEM Wed Jul 25 08:15:00 2012
@@ -1346,17 +1398,116 @@ OAr Wed Jul 25 08:15:00 2012
 
 *****************************
 ************ LOF ************
+Lof ID is 2
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 9 cost 0
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 14 Flt 2929329 Tal MA953N
+XEM Mon Jul 23 23:10:00 2012
+XAL Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 23:10:00 2012
+OAr Tue Jul 24 02:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 15 Flt 2929923 Tal MA953N
+XAL Tue Jul 24 04:25:00 2012
+XEM Tue Jul 24 08:05:00 2012
+ODp Tue Jul 24 04:25:00 2012
+OAr Tue Jul 24 08:05:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 16 Flt 2932553 Tal MA953N
+XEM Tue Jul 24 09:00:00 2012
+NUC Tue Jul 24 11:12:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 11:12:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 17 Flt 2931720 Tal MA953N
+NUC Tue Jul 24 12:15:00 2012
+VAH Tue Jul 24 13:20:00 2012
+ODp Tue Jul 24 12:15:00 2012
+OAr Tue Jul 24 13:20:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 18 Flt 2932383 Tal MA953N
+VAH Tue Jul 24 14:20:00 2012
+NUC Tue Jul 24 15:30:00 2012
+ODp Tue Jul 24 14:20:00 2012
+OAr Tue Jul 24 15:30:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 19 Flt 2932478 Tal MA953N
+NUC Tue Jul 24 20:00:00 2012
+XEM Tue Jul 24 22:23:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 22:23:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 20 Flt 2932326 Tal MA953N
+XEM Tue Jul 24 23:40:00 2012
+DIM Wed Jul 25 01:25:00 2012
+ODp Tue Jul 24 23:40:00 2012
+OAr Wed Jul 25 01:25:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 21 Flt 2932099 Tal MA953N
+DIM Wed Jul 25 02:00:00 2012
+XEM Wed Jul 25 03:55:00 2012
+ODp Wed Jul 25 02:00:00 2012
+OAr Wed Jul 25 03:55:00 2012
+
+Tail MA953N
+XEM Mon Jul 23 22:55:00 2012
+JIT Wed Jul 25 19:59:00 2012
+dual 0
+Leg 22 Flt 2932585 Tal MA953N
+XEM Wed Jul 25 04:50:00 2012
+JIT Wed Jul 25 08:10:00 2012
+ODp Wed Jul 25 04:50:00 2012
+OAr Wed Jul 25 08:10:00 2012
+
+*****************************
+************ LOF ************
 Lof ID is 4
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg List Size is 8 cost 0
 
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 42 Flt 2929606 Tal MA958N
 XEM Mon Jul 23 23:55:00 2012
 NUC Tue Jul 24 02:04:00 2012
@@ -1366,7 +1517,7 @@ OAr Tue Jul 24 02:04:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 43 Flt 2929593 Tal MA958N
 NUC Tue Jul 24 02:40:00 2012
 XEM Tue Jul 24 05:04:00 2012
@@ -1376,7 +1527,7 @@ OAr Tue Jul 24 05:04:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 44 Flt 2929557 Tal MA958N
 XEM Tue Jul 24 06:20:00 2012
 MIL Tue Jul 24 12:10:00 2012
@@ -1386,7 +1537,7 @@ OAr Tue Jul 24 12:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 45 Flt 2931898 Tal MA958N
 MIL Tue Jul 24 13:20:00 2012
 XEM Tue Jul 24 19:10:00 2012
@@ -1396,7 +1547,7 @@ OAr Tue Jul 24 19:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 46 Flt 2931659 Tal MA958N
 XEM Tue Jul 24 20:55:00 2012
 NUC Tue Jul 24 22:59:00 2012
@@ -1406,7 +1557,7 @@ OAr Tue Jul 24 22:59:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 47 Flt 2931660 Tal MA958N
 NUC Tue Jul 24 23:55:00 2012
 OJS Wed Jul 25 02:05:00 2012
@@ -1416,7 +1567,7 @@ OAr Wed Jul 25 02:05:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 48 Flt 2931553 Tal MA958N
 OJS Wed Jul 25 03:05:00 2012
 NUC Wed Jul 25 05:10:00 2012
@@ -1426,7 +1577,7 @@ OAr Wed Jul 25 05:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 49 Flt 2931554 Tal MA958N
 NUC Wed Jul 25 06:10:00 2012
 XEM Wed Jul 25 08:35:00 2012
@@ -1439,13 +1590,13 @@ Lof ID is 5
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg List Size is 9 cost 0
 
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 50 Flt 2929060 Tal MA068N
 XEM Tue Jul 24 00:20:00 2012
 DJS Tue Jul 24 02:20:00 2012
@@ -1455,7 +1606,7 @@ OAr Tue Jul 24 02:20:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 51 Flt 2930028 Tal MA068N
 DJS Tue Jul 24 02:55:00 2012
 XEM Tue Jul 24 04:55:00 2012
@@ -1465,7 +1616,7 @@ OAr Tue Jul 24 04:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 52 Flt 2929541 Tal MA068N
 XEM Tue Jul 24 05:55:00 2012
 KFJ Tue Jul 24 10:45:00 2012
@@ -1475,7 +1626,7 @@ OAr Tue Jul 24 10:45:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 53 Flt 2931936 Tal MA068N
 KFJ Tue Jul 24 12:45:00 2012
 XEM Tue Jul 24 17:35:00 2012
@@ -1485,7 +1636,7 @@ OAr Tue Jul 24 17:35:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 54 Flt 2932016 Tal MA068N
 XEM Tue Jul 24 19:20:00 2012
 OMH Tue Jul 24 21:50:00 2012
@@ -1495,7 +1646,7 @@ OAr Tue Jul 24 21:50:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 55 Flt 2932579 Tal MA068N
 OMH Tue Jul 24 22:25:00 2012
 XEM Wed Jul 25 00:55:00 2012
@@ -1505,7 +1656,7 @@ OAr Wed Jul 25 00:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 56 Flt 2931458 Tal MA068N
 XEM Wed Jul 25 02:00:00 2012
 LDG Wed Jul 25 03:10:00 2012
@@ -1515,7 +1666,7 @@ OAr Wed Jul 25 03:10:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 57 Flt 2932636 Tal MA068N
 LDG Wed Jul 25 03:45:00 2012
 XEM Wed Jul 25 04:55:00 2012
@@ -1525,7 +1676,7 @@ OAr Wed Jul 25 04:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 58 Flt 2931504 Tal MA068N
 XEM Wed Jul 25 06:00:00 2012
 YTM Wed Jul 25 07:34:00 2012
@@ -1538,13 +1689,13 @@ Lof ID is 6
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg List Size is 9 cost 0
 
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 75 Flt 2929015 Tal YOJAX
 NUC Tue Jul 24 01:35:00 2012
 UUC Tue Jul 24 04:50:00 2012
@@ -1554,7 +1705,7 @@ OAr Tue Jul 24 04:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 76 Flt 2929423 Tal YOJAX
 UUC Tue Jul 24 05:35:00 2012
 TZM Tue Jul 24 06:55:00 2012
@@ -1564,7 +1715,7 @@ OAr Tue Jul 24 06:55:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 77 Flt 2928965 Tal YOJAX
 TZM Tue Jul 24 07:45:00 2012
 UUC Tue Jul 24 09:05:00 2012
@@ -1574,7 +1725,7 @@ OAr Tue Jul 24 09:05:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 78 Flt 2931835 Tal YOJAX
 UUC Tue Jul 24 09:45:00 2012
 XEM Tue Jul 24 11:50:00 2012
@@ -1584,7 +1735,7 @@ OAr Tue Jul 24 11:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 79 Flt 2931512 Tal YOJAX
 XEM Tue Jul 24 14:30:00 2012
 KFJ Tue Jul 24 19:20:00 2012
@@ -1594,7 +1745,7 @@ OAr Tue Jul 24 19:20:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 80 Flt 2931974 Tal YOJAX
 KFJ Tue Jul 24 21:00:00 2012
 XEM Wed Jul 25 01:50:00 2012
@@ -1604,7 +1755,7 @@ OAr Wed Jul 25 01:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 81 Flt 2932377 Tal YOJAX
 XEM Wed Jul 25 03:00:00 2012
 YTM Wed Jul 25 04:38:00 2012
@@ -1614,7 +1765,7 @@ OAr Wed Jul 25 04:38:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 82 Flt 2932425 Tal YOJAX
 YTM Wed Jul 25 05:10:00 2012
 XEM Wed Jul 25 06:40:00 2012
@@ -1624,7 +1775,7 @@ OAr Wed Jul 25 06:40:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 83 Flt 2932499 Tal YOJAX
 XEM Wed Jul 25 07:50:00 2012
 XAL Wed Jul 25 11:45:00 2012
@@ -1637,13 +1788,13 @@ Lof ID is 7
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg List Size is 5 cost 0
 
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 90 Flt 2929718 Tal MAZAX
 NUC Tue Jul 24 02:50:00 2012
 MIL Tue Jul 24 08:10:00 2012
@@ -1653,7 +1804,7 @@ OAr Tue Jul 24 08:10:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 91 Flt 2929719 Tal MAZAX
 MIL Tue Jul 24 09:10:00 2012
 URG Tue Jul 24 13:55:00 2012
@@ -1663,7 +1814,7 @@ OAr Tue Jul 24 13:55:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 92 Flt 2932150 Tal MAZAX
 URG Tue Jul 24 15:10:00 2012
 MIL Tue Jul 24 20:25:00 2012
@@ -1673,7 +1824,7 @@ OAr Tue Jul 24 20:25:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 93 Flt 2932151 Tal MAZAX
 MIL Tue Jul 24 21:40:00 2012
 NUC Wed Jul 25 03:10:00 2012
@@ -1683,7 +1834,7 @@ OAr Wed Jul 25 03:10:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 94 Flt 2932555 Tal MAZAX
 NUC Wed Jul 25 04:15:00 2012
 XEM Wed Jul 25 06:39:00 2012
@@ -1692,7 +1843,422 @@ OAr Wed Jul 25 06:39:00 2012
 
 *****************************
 ************ LOF ************
-Lof ID is 81
+Lof ID is 405
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg List Size is 6 cost 504
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 445
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg List Size is 6 cost 1052
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 451
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg List Size is 11 cost 2
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 486
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg List Size is 8 cost 6
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 492
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg List Size is 6 cost 0
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
+
+*****************************
+************ LOF ************
+Lof ID is 503
 Tail MA858N
 JIT Mon Jul 23 23:25:00 2012
 MIL Wed Jul 25 19:59:00 2012
@@ -1780,428 +2346,88 @@ ODp Wed Jul 25 06:20:00 2012
 OAr Wed Jul 25 12:10:00 2012
 
 *****************************
-************ LOF ************
-Lof ID is 86
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg List Size is 6 cost 0
 
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 59 Flt 2929850 Tal MA168N
-LUY Tue Jul 24 00:05:00 2012
-XEM Tue Jul 24 05:35:00 2012
-ODp Tue Jul 24 00:05:00 2012
-OAr Tue Jul 24 05:35:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 62 Flt 2932153 Tal MA168N
-XEM Tue Jul 24 09:00:00 2012
-YTM Tue Jul 24 10:38:00 2012
-ODp Tue Jul 24 09:00:00 2012
-OAr Tue Jul 24 10:38:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 63 Flt 2932179 Tal MA168N
-YTM Tue Jul 24 19:30:00 2012
-XEM Tue Jul 24 21:00:00 2012
-ODp Tue Jul 24 19:30:00 2012
-OAr Tue Jul 24 21:00:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 64 Flt 2932097 Tal MA168N
-XEM Tue Jul 24 21:46:00 2012
-NUC Tue Jul 24 23:55:00 2012
-ODp Tue Jul 24 21:46:00 2012
-OAr Tue Jul 24 23:55:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 65 Flt 2932216 Tal MA168N
-NUC Wed Jul 25 00:45:00 2012
-XEM Wed Jul 25 03:08:00 2012
-ODp Wed Jul 25 00:45:00 2012
-OAr Wed Jul 25 03:08:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 66 Flt 2932443 Tal MA168N
-XEM Wed Jul 25 05:30:00 2012
-NUC Wed Jul 25 07:43:00 2012
-ODp Wed Jul 25 05:30:00 2012
-OAr Wed Jul 25 07:43:00 2012
-
-*****************************
-************ LOF ************
-Lof ID is 335
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg List Size is 6 cost 1052
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 84 Flt 2929572 Tal AIMAX
-SCC Mon Jul 23 21:00:00 2012
-XEM Tue Jul 24 02:15:00 2012
-ODp Mon Jul 23 22:45:00 2012
-OAr Tue Jul 24 04:00:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 9 Flt 2929894 Tal CRDIE
-XEM Tue Jul 24 05:30:00 2012
-NUC Tue Jul 24 07:43:00 2012
-ODp Tue Jul 24 05:30:00 2012
-OAr Tue Jul 24 07:43:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 10 Flt 2931668 Tal CRDIE
-NUC Tue Jul 24 08:20:00 2012
-XEM Tue Jul 24 10:45:00 2012
-ODp Tue Jul 24 08:20:00 2012
-OAr Tue Jul 24 10:45:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 87 Flt 2932272 Tal AIMAX
-XEM Tue Jul 24 14:40:00 2012
-SCC Tue Jul 24 19:45:00 2012
-ODp Tue Jul 24 14:40:00 2012
-OAr Tue Jul 24 19:45:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 88 Flt 2932120 Tal AIMAX
-SCC Tue Jul 24 21:00:00 2012
-XEM Wed Jul 25 02:15:00 2012
-ODp Tue Jul 24 21:00:00 2012
-OAr Wed Jul 25 02:15:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 89 Flt 2932621 Tal AIMAX
-XEM Wed Jul 25 03:30:00 2012
-XAL Wed Jul 25 07:15:00 2012
-ODp Wed Jul 25 03:30:00 2012
-OAr Wed Jul 25 07:15:00 2012
-
-*****************************
-************ LOF ************
-Lof ID is 346
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+ ********************* END FINAL IP SOLUTION *********************
+test for upda
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg List Size is 11 cost 2
+dual -2590
+Leg 0 Flt 2929704 Tal ARDIE
+MIL Mon Jul 23 21:25:00 2012
+NUC Tue Jul 24 02:55:00 2012
+ODp Mon Jul 23 21:25:00 2012
+OAr Tue Jul 24 02:55:00 2012
 
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 23 Flt 2928944 Tal MA025N
-XAL Tue Jul 24 00:35:00 2012
-XEM Tue Jul 24 04:15:00 2012
-ODp Tue Jul 24 00:35:00 2012
-OAr Tue Jul 24 04:15:00 2012
+dual -2590
+Leg 1 Flt 2930018 Tal ARDIE
+NUC Tue Jul 24 04:10:00 2012
+XEM Tue Jul 24 06:34:00 2012
+ODp Tue Jul 24 04:10:00 2012
+OAr Tue Jul 24 06:34:00 2012
 
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 60 Flt 2929622 Tal MA168N
-XEM Tue Jul 24 05:00:00 2012
-LDG Tue Jul 24 06:10:00 2012
-ODp Tue Jul 24 05:00:00 2012
-OAr Tue Jul 24 06:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 61 Flt 2929203 Tal MA168N
-LDG Tue Jul 24 06:40:00 2012
+dual -2590
+Leg 2 Flt 2929470 Tal ARDIE
 XEM Tue Jul 24 07:50:00 2012
-ODp Tue Jul 24 06:40:00 2012
-OAr Tue Jul 24 07:50:00 2012
+GOB Tue Jul 24 12:25:00 2012
+ODp Tue Jul 24 07:50:00 2012
+OAr Tue Jul 24 12:25:00 2012
 
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 26 Flt 2931924 Tal MA025N
-XEM Tue Jul 24 10:30:00 2012
-ASV Tue Jul 24 11:55:00 2012
-ODp Tue Jul 24 10:30:00 2012
-OAr Tue Jul 24 11:55:00 2012
+dual -2590
+Leg 3 Flt 2931868 Tal ARDIE
+GOB Tue Jul 24 14:05:00 2012
+XEM Tue Jul 24 18:40:00 2012
+ODp Tue Jul 24 14:05:00 2012
+OAr Tue Jul 24 18:40:00 2012
 
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 27 Flt 2931527 Tal MA025N
-ASV Tue Jul 24 19:00:00 2012
-XEM Tue Jul 24 20:30:00 2012
-ODp Tue Jul 24 19:00:00 2012
-OAr Tue Jul 24 20:30:00 2012
+dual -2590
+Leg 4 Flt 2931930 Tal ARDIE
+XEM Tue Jul 24 20:00:00 2012
+YTM Tue Jul 24 21:34:00 2012
+ODp Tue Jul 24 20:00:00 2012
+OAr Tue Jul 24 21:34:00 2012
 
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 28 Flt 2931706 Tal MA025N
-XEM Tue Jul 24 21:15:00 2012
-LDG Tue Jul 24 22:25:00 2012
-ODp Tue Jul 24 21:15:00 2012
-OAr Tue Jul 24 22:25:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 29 Flt 2932034 Tal MA025N
-LDG Tue Jul 24 23:00:00 2012
-XEM Wed Jul 25 00:10:00 2012
-ODp Tue Jul 24 23:00:00 2012
-OAr Wed Jul 25 00:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 30 Flt 2932648 Tal MA025N
-XEM Wed Jul 25 01:00:00 2012
-YTM Wed Jul 25 02:38:00 2012
-ODp Wed Jul 25 01:00:00 2012
-OAr Wed Jul 25 02:38:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 31 Flt 2931674 Tal MA025N
-YTM Wed Jul 25 03:10:00 2012
-XEM Wed Jul 25 04:44:00 2012
-ODp Wed Jul 25 03:10:00 2012
-OAr Wed Jul 25 04:44:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 32 Flt 2931712 Tal MA025N
-XEM Wed Jul 25 06:00:00 2012
-LDG Wed Jul 25 07:10:00 2012
-ODp Wed Jul 25 06:00:00 2012
-OAr Wed Jul 25 07:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 33 Flt 2932048 Tal MA025N
-LDG Wed Jul 25 07:40:00 2012
-XEM Wed Jul 25 08:50:00 2012
-ODp Wed Jul 25 07:40:00 2012
-OAr Wed Jul 25 08:50:00 2012
-
-*****************************
-************ LOF ************
-Lof ID is 380
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg List Size is 6 cost 504
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 85 Flt 2929712 Tal AIMAX
-XEM Tue Jul 24 03:15:00 2012
-AIM Tue Jul 24 06:20:00 2012
-ODp Tue Jul 24 04:00:00 2012
-OAr Tue Jul 24 07:05:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 86 Flt 2929806 Tal AIMAX
-AIM Tue Jul 24 07:30:00 2012
-XEM Tue Jul 24 10:45:00 2012
-ODp Tue Jul 24 07:35:00 2012
-OAr Tue Jul 24 10:50:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 11 Flt 2932399 Tal CRDIE
-XEM Tue Jul 24 14:25:00 2012
-LUY Tue Jul 24 19:40:00 2012
-ODp Tue Jul 24 14:25:00 2012
-OAr Tue Jul 24 19:40:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 12 Flt 2932397 Tal CRDIE
-LUY Tue Jul 24 22:05:00 2012
-XEM Wed Jul 25 03:35:00 2012
+dual -2590
+Leg 5 Flt 2932431 Tal ARDIE
+YTM Tue Jul 24 22:05:00 2012
+XEM Tue Jul 24 23:35:00 2012
 ODp Tue Jul 24 22:05:00 2012
-OAr Wed Jul 25 03:35:00 2012
+OAr Tue Jul 24 23:35:00 2012
 
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 73 Flt 2932495 Tal MA059N
-XEM Wed Jul 25 04:35:00 2012
-LUC Wed Jul 25 06:30:00 2012
-ODp Wed Jul 25 04:35:00 2012
-OAr Wed Jul 25 06:30:00 2012
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2590
+Leg 6 Flt 2931966 Tal ARDIE
+XEM Wed Jul 25 00:40:00 2012
+OCM Wed Jul 25 03:50:00 2012
+ODp Wed Jul 25 00:40:00 2012
+OAr Wed Jul 25 03:50:00 2012
 
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 74 Flt 2932314 Tal MA059N
-LUC Wed Jul 25 07:05:00 2012
-XEM Wed Jul 25 08:55:00 2012
-ODp Wed Jul 25 07:05:00 2012
-OAr Wed Jul 25 08:55:00 2012
-
-*****************************
-************ LOF ************
-Lof ID is 404
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg List Size is 8 cost 6
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 8 Flt 2930060 Tal CRDIE
-NUC Tue Jul 24 02:19:00 2012
-XEM Tue Jul 24 04:43:00 2012
-ODp Tue Jul 24 02:19:00 2012
-OAr Tue Jul 24 04:43:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 24 Flt 2929727 Tal MA025N
-XEM Tue Jul 24 05:15:00 2012
-RVP Tue Jul 24 06:40:00 2012
-ODp Tue Jul 24 05:15:00 2012
-OAr Tue Jul 24 06:40:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 25 Flt 2930106 Tal MA025N
-RVP Tue Jul 24 07:15:00 2012
-XEM Tue Jul 24 08:40:00 2012
-ODp Tue Jul 24 07:15:00 2012
-OAr Tue Jul 24 08:40:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 69 Flt 2932545 Tal MA059N
-XEM Tue Jul 24 09:25:00 2012
-SAL Tue Jul 24 13:15:00 2012
-ODp Tue Jul 24 09:25:00 2012
-OAr Tue Jul 24 13:15:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 70 Flt 2932334 Tal MA059N
-SAL Tue Jul 24 14:30:00 2012
-XEM Tue Jul 24 17:55:00 2012
-ODp Tue Jul 24 14:30:00 2012
-OAr Tue Jul 24 17:55:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 71 Flt 2932535 Tal MA059N
-XEM Tue Jul 24 19:15:00 2012
-XAL Tue Jul 24 23:05:00 2012
-ODp Tue Jul 24 19:15:00 2012
-OAr Tue Jul 24 23:05:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 72 Flt 2931541 Tal MA059N
-XAL Wed Jul 25 00:35:00 2012
-XEM Wed Jul 25 04:15:00 2012
-ODp Wed Jul 25 00:35:00 2012
-OAr Wed Jul 25 04:15:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 13 Flt 2932089 Tal CRDIE
-XEM Wed Jul 25 05:55:00 2012
-KFJ Wed Jul 25 10:45:00 2012
-ODp Wed Jul 25 05:55:00 2012
-OAr Wed Jul 25 10:45:00 2012
-
-*****************************
-************ LOF ************
-Lof ID is 437
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg List Size is 9 cost 0
+Tail ARDIE
+MIL Mon Jul 23 20:55:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2590
+Leg 7 Flt 2931813 Tal ARDIE
+OCM Wed Jul 25 05:05:00 2012
+XEM Wed Jul 25 08:15:00 2012
+ODp Wed Jul 25 05:05:00 2012
+OAr Wed Jul 25 08:15:00 2012
 
 Tail MA953N
 XEM Mon Jul 23 22:55:00 2012
@@ -2293,95 +2519,10 @@ JIT Wed Jul 25 08:10:00 2012
 ODp Wed Jul 25 04:50:00 2012
 OAr Wed Jul 25 08:10:00 2012
 
-*****************************
-
- ********************* END FINAL IP SOLUTION *********************
-Time for IP_: 0.01482534408569336 seconds
-test for upda
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 0 Flt 2929704 Tal ARDIE
-MIL Mon Jul 23 21:25:00 2012
-NUC Tue Jul 24 02:55:00 2012
-ODp Mon Jul 23 21:25:00 2012
-OAr Tue Jul 24 02:55:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 1 Flt 2930018 Tal ARDIE
-NUC Tue Jul 24 04:10:00 2012
-XEM Tue Jul 24 06:34:00 2012
-ODp Tue Jul 24 04:10:00 2012
-OAr Tue Jul 24 06:34:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 2 Flt 2929470 Tal ARDIE
-XEM Tue Jul 24 07:50:00 2012
-GOB Tue Jul 24 12:25:00 2012
-ODp Tue Jul 24 07:50:00 2012
-OAr Tue Jul 24 12:25:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 3 Flt 2931868 Tal ARDIE
-GOB Tue Jul 24 14:05:00 2012
-XEM Tue Jul 24 18:40:00 2012
-ODp Tue Jul 24 14:05:00 2012
-OAr Tue Jul 24 18:40:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 4 Flt 2931930 Tal ARDIE
-XEM Tue Jul 24 20:00:00 2012
-YTM Tue Jul 24 21:34:00 2012
-ODp Tue Jul 24 20:00:00 2012
-OAr Tue Jul 24 21:34:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 5 Flt 2932431 Tal ARDIE
-YTM Tue Jul 24 22:05:00 2012
-XEM Tue Jul 24 23:35:00 2012
-ODp Tue Jul 24 22:05:00 2012
-OAr Tue Jul 24 23:35:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 6 Flt 2931966 Tal ARDIE
-XEM Wed Jul 25 00:40:00 2012
-OCM Wed Jul 25 03:50:00 2012
-ODp Wed Jul 25 00:40:00 2012
-OAr Wed Jul 25 03:50:00 2012
-
-Tail ARDIE
-MIL Mon Jul 23 20:55:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -2339
-Leg 7 Flt 2931813 Tal ARDIE
-OCM Wed Jul 25 05:05:00 2012
-XEM Wed Jul 25 08:15:00 2012
-ODp Wed Jul 25 05:05:00 2012
-OAr Wed Jul 25 08:15:00 2012
-
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 42 Flt 2929606 Tal MA958N
 XEM Mon Jul 23 23:55:00 2012
 NUC Tue Jul 24 02:04:00 2012
@@ -2391,7 +2532,7 @@ OAr Tue Jul 24 02:04:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 43 Flt 2929593 Tal MA958N
 NUC Tue Jul 24 02:40:00 2012
 XEM Tue Jul 24 05:04:00 2012
@@ -2401,7 +2542,7 @@ OAr Tue Jul 24 05:04:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 44 Flt 2929557 Tal MA958N
 XEM Tue Jul 24 06:20:00 2012
 MIL Tue Jul 24 12:10:00 2012
@@ -2411,7 +2552,7 @@ OAr Tue Jul 24 12:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 45 Flt 2931898 Tal MA958N
 MIL Tue Jul 24 13:20:00 2012
 XEM Tue Jul 24 19:10:00 2012
@@ -2421,7 +2562,7 @@ OAr Tue Jul 24 19:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 46 Flt 2931659 Tal MA958N
 XEM Tue Jul 24 20:55:00 2012
 NUC Tue Jul 24 22:59:00 2012
@@ -2431,7 +2572,7 @@ OAr Tue Jul 24 22:59:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 47 Flt 2931660 Tal MA958N
 NUC Tue Jul 24 23:55:00 2012
 OJS Wed Jul 25 02:05:00 2012
@@ -2441,7 +2582,7 @@ OAr Wed Jul 25 02:05:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 48 Flt 2931553 Tal MA958N
 OJS Wed Jul 25 03:05:00 2012
 NUC Wed Jul 25 05:10:00 2012
@@ -2451,7 +2592,7 @@ OAr Wed Jul 25 05:10:00 2012
 Tail MA958N
 XEM Mon Jul 23 23:55:00 2012
 XEM Wed Jul 25 19:59:00 2012
-dual -3939
+dual -3394
 Leg 49 Flt 2931554 Tal MA958N
 NUC Wed Jul 25 06:10:00 2012
 XEM Wed Jul 25 08:35:00 2012
@@ -2461,7 +2602,7 @@ OAr Wed Jul 25 08:35:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 50 Flt 2929060 Tal MA068N
 XEM Tue Jul 24 00:20:00 2012
 DJS Tue Jul 24 02:20:00 2012
@@ -2471,7 +2612,7 @@ OAr Tue Jul 24 02:20:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 51 Flt 2930028 Tal MA068N
 DJS Tue Jul 24 02:55:00 2012
 XEM Tue Jul 24 04:55:00 2012
@@ -2481,7 +2622,7 @@ OAr Tue Jul 24 04:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 52 Flt 2929541 Tal MA068N
 XEM Tue Jul 24 05:55:00 2012
 KFJ Tue Jul 24 10:45:00 2012
@@ -2491,7 +2632,7 @@ OAr Tue Jul 24 10:45:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 53 Flt 2931936 Tal MA068N
 KFJ Tue Jul 24 12:45:00 2012
 XEM Tue Jul 24 17:35:00 2012
@@ -2501,7 +2642,7 @@ OAr Tue Jul 24 17:35:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 54 Flt 2932016 Tal MA068N
 XEM Tue Jul 24 19:20:00 2012
 OMH Tue Jul 24 21:50:00 2012
@@ -2511,7 +2652,7 @@ OAr Tue Jul 24 21:50:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 55 Flt 2932579 Tal MA068N
 OMH Tue Jul 24 22:25:00 2012
 XEM Wed Jul 25 00:55:00 2012
@@ -2521,7 +2662,7 @@ OAr Wed Jul 25 00:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 56 Flt 2931458 Tal MA068N
 XEM Wed Jul 25 02:00:00 2012
 LDG Wed Jul 25 03:10:00 2012
@@ -2531,7 +2672,7 @@ OAr Wed Jul 25 03:10:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 57 Flt 2932636 Tal MA068N
 LDG Wed Jul 25 03:45:00 2012
 XEM Wed Jul 25 04:55:00 2012
@@ -2541,7 +2682,7 @@ OAr Wed Jul 25 04:55:00 2012
 Tail MA068N
 XEM Mon Jul 23 23:55:00 2012
 YTM Wed Jul 25 19:59:00 2012
-dual -4047
+dual -2597
 Leg 58 Flt 2931504 Tal MA068N
 XEM Wed Jul 25 06:00:00 2012
 YTM Wed Jul 25 07:34:00 2012
@@ -2551,7 +2692,7 @@ OAr Wed Jul 25 07:34:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 75 Flt 2929015 Tal YOJAX
 NUC Tue Jul 24 01:35:00 2012
 UUC Tue Jul 24 04:50:00 2012
@@ -2561,7 +2702,7 @@ OAr Tue Jul 24 04:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 76 Flt 2929423 Tal YOJAX
 UUC Tue Jul 24 05:35:00 2012
 TZM Tue Jul 24 06:55:00 2012
@@ -2571,7 +2712,7 @@ OAr Tue Jul 24 06:55:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 77 Flt 2928965 Tal YOJAX
 TZM Tue Jul 24 07:45:00 2012
 UUC Tue Jul 24 09:05:00 2012
@@ -2581,7 +2722,7 @@ OAr Tue Jul 24 09:05:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 78 Flt 2931835 Tal YOJAX
 UUC Tue Jul 24 09:45:00 2012
 XEM Tue Jul 24 11:50:00 2012
@@ -2591,7 +2732,7 @@ OAr Tue Jul 24 11:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 79 Flt 2931512 Tal YOJAX
 XEM Tue Jul 24 14:30:00 2012
 KFJ Tue Jul 24 19:20:00 2012
@@ -2601,7 +2742,7 @@ OAr Tue Jul 24 19:20:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 80 Flt 2931974 Tal YOJAX
 KFJ Tue Jul 24 21:00:00 2012
 XEM Wed Jul 25 01:50:00 2012
@@ -2611,7 +2752,7 @@ OAr Wed Jul 25 01:50:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 81 Flt 2932377 Tal YOJAX
 XEM Wed Jul 25 03:00:00 2012
 YTM Wed Jul 25 04:38:00 2012
@@ -2621,7 +2762,7 @@ OAr Wed Jul 25 04:38:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 82 Flt 2932425 Tal YOJAX
 YTM Wed Jul 25 05:10:00 2012
 XEM Wed Jul 25 06:40:00 2012
@@ -2631,7 +2772,7 @@ OAr Wed Jul 25 06:40:00 2012
 Tail YOJAX
 NUC Tue Jul 24 01:25:00 2012
 XAL Wed Jul 25 19:59:00 2012
-dual -1909
+dual -1603
 Leg 83 Flt 2932499 Tal YOJAX
 XEM Wed Jul 25 07:50:00 2012
 XAL Wed Jul 25 11:45:00 2012
@@ -2641,7 +2782,7 @@ OAr Wed Jul 25 11:45:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 90 Flt 2929718 Tal MAZAX
 NUC Tue Jul 24 02:50:00 2012
 MIL Tue Jul 24 08:10:00 2012
@@ -2651,7 +2792,7 @@ OAr Tue Jul 24 08:10:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 91 Flt 2929719 Tal MAZAX
 MIL Tue Jul 24 09:10:00 2012
 URG Tue Jul 24 13:55:00 2012
@@ -2661,7 +2802,7 @@ OAr Tue Jul 24 13:55:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 92 Flt 2932150 Tal MAZAX
 URG Tue Jul 24 15:10:00 2012
 MIL Tue Jul 24 20:25:00 2012
@@ -2671,7 +2812,7 @@ OAr Tue Jul 24 20:25:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 93 Flt 2932151 Tal MAZAX
 MIL Tue Jul 24 21:40:00 2012
 NUC Wed Jul 25 03:10:00 2012
@@ -2681,12 +2822,382 @@ OAr Wed Jul 25 03:10:00 2012
 Tail MAZAX
 NUC Tue Jul 24 02:19:00 2012
 XEM Wed Jul 25 11:00:00 2012
-dual -3143
+dual -2597
 Leg 94 Flt 2932555 Tal MAZAX
 NUC Wed Jul 25 04:15:00 2012
 XEM Wed Jul 25 06:39:00 2012
 ODp Wed Jul 25 04:15:00 2012
 OAr Wed Jul 25 06:39:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 85 Flt 2929712 Tal AIMAX
+XEM Tue Jul 24 03:15:00 2012
+AIM Tue Jul 24 06:20:00 2012
+ODp Tue Jul 24 04:00:00 2012
+OAr Tue Jul 24 07:05:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 86 Flt 2929806 Tal AIMAX
+AIM Tue Jul 24 07:30:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 07:35:00 2012
+OAr Tue Jul 24 10:50:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 11 Flt 2932399 Tal CRDIE
+XEM Tue Jul 24 14:25:00 2012
+LUY Tue Jul 24 19:40:00 2012
+ODp Tue Jul 24 14:25:00 2012
+OAr Tue Jul 24 19:40:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 12 Flt 2932397 Tal CRDIE
+LUY Tue Jul 24 22:05:00 2012
+XEM Wed Jul 25 03:35:00 2012
+ODp Tue Jul 24 22:05:00 2012
+OAr Wed Jul 25 03:35:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 73 Flt 2932495 Tal MA059N
+XEM Wed Jul 25 04:35:00 2012
+LUC Wed Jul 25 06:30:00 2012
+ODp Wed Jul 25 04:35:00 2012
+OAr Wed Jul 25 06:30:00 2012
+
+Tail MA059N
+XEM Tue Jul 24 02:40:00 2012
+XEM Wed Jul 25 10:45:00 2012
+dual -2400
+Leg 74 Flt 2932314 Tal MA059N
+LUC Wed Jul 25 07:05:00 2012
+XEM Wed Jul 25 08:55:00 2012
+ODp Wed Jul 25 07:05:00 2012
+OAr Wed Jul 25 08:55:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 84 Flt 2929572 Tal AIMAX
+SCC Mon Jul 23 21:00:00 2012
+XEM Tue Jul 24 02:15:00 2012
+ODp Mon Jul 23 22:45:00 2012
+OAr Tue Jul 24 04:00:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 9 Flt 2929894 Tal CRDIE
+XEM Tue Jul 24 05:30:00 2012
+NUC Tue Jul 24 07:43:00 2012
+ODp Tue Jul 24 05:30:00 2012
+OAr Tue Jul 24 07:43:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 10 Flt 2931668 Tal CRDIE
+NUC Tue Jul 24 08:20:00 2012
+XEM Tue Jul 24 10:45:00 2012
+ODp Tue Jul 24 08:20:00 2012
+OAr Tue Jul 24 10:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 87 Flt 2932272 Tal AIMAX
+XEM Tue Jul 24 14:40:00 2012
+SCC Tue Jul 24 19:45:00 2012
+ODp Tue Jul 24 14:40:00 2012
+OAr Tue Jul 24 19:45:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 88 Flt 2932120 Tal AIMAX
+SCC Tue Jul 24 21:00:00 2012
+XEM Wed Jul 25 02:15:00 2012
+ODp Tue Jul 24 21:00:00 2012
+OAr Wed Jul 25 02:15:00 2012
+
+Tail AIMAX
+SCC Mon Jul 23 20:45:00 2012
+XAL Wed Jul 25 19:59:00 2012
+dual 0
+Leg 89 Flt 2932621 Tal AIMAX
+XEM Wed Jul 25 03:30:00 2012
+XAL Wed Jul 25 07:15:00 2012
+ODp Wed Jul 25 03:30:00 2012
+OAr Wed Jul 25 07:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 23 Flt 2928944 Tal MA025N
+XAL Tue Jul 24 00:35:00 2012
+XEM Tue Jul 24 04:15:00 2012
+ODp Tue Jul 24 00:35:00 2012
+OAr Tue Jul 24 04:15:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 60 Flt 2929622 Tal MA168N
+XEM Tue Jul 24 05:00:00 2012
+LDG Tue Jul 24 06:10:00 2012
+ODp Tue Jul 24 05:00:00 2012
+OAr Tue Jul 24 06:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 61 Flt 2929203 Tal MA168N
+LDG Tue Jul 24 06:40:00 2012
+XEM Tue Jul 24 07:50:00 2012
+ODp Tue Jul 24 06:40:00 2012
+OAr Tue Jul 24 07:50:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 26 Flt 2931924 Tal MA025N
+XEM Tue Jul 24 10:30:00 2012
+ASV Tue Jul 24 11:55:00 2012
+ODp Tue Jul 24 10:30:00 2012
+OAr Tue Jul 24 11:55:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 27 Flt 2931527 Tal MA025N
+ASV Tue Jul 24 19:00:00 2012
+XEM Tue Jul 24 20:30:00 2012
+ODp Tue Jul 24 19:00:00 2012
+OAr Tue Jul 24 20:30:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 28 Flt 2931706 Tal MA025N
+XEM Tue Jul 24 21:15:00 2012
+LDG Tue Jul 24 22:25:00 2012
+ODp Tue Jul 24 21:15:00 2012
+OAr Tue Jul 24 22:25:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 29 Flt 2932034 Tal MA025N
+LDG Tue Jul 24 23:00:00 2012
+XEM Wed Jul 25 00:10:00 2012
+ODp Tue Jul 24 23:00:00 2012
+OAr Wed Jul 25 00:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 30 Flt 2932648 Tal MA025N
+XEM Wed Jul 25 01:00:00 2012
+YTM Wed Jul 25 02:38:00 2012
+ODp Wed Jul 25 01:00:00 2012
+OAr Wed Jul 25 02:38:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 31 Flt 2931674 Tal MA025N
+YTM Wed Jul 25 03:10:00 2012
+XEM Wed Jul 25 04:44:00 2012
+ODp Wed Jul 25 03:10:00 2012
+OAr Wed Jul 25 04:44:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 32 Flt 2931712 Tal MA025N
+XEM Wed Jul 25 06:00:00 2012
+LDG Wed Jul 25 07:10:00 2012
+ODp Wed Jul 25 06:00:00 2012
+OAr Wed Jul 25 07:10:00 2012
+
+Tail MA025N
+XAL Tue Jul 24 00:05:00 2012
+XEM Wed Jul 25 19:59:00 2012
+dual -2602
+Leg 33 Flt 2932048 Tal MA025N
+LDG Wed Jul 25 07:40:00 2012
+XEM Wed Jul 25 08:50:00 2012
+ODp Wed Jul 25 07:40:00 2012
+OAr Wed Jul 25 08:50:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 8 Flt 2930060 Tal CRDIE
+NUC Tue Jul 24 02:19:00 2012
+XEM Tue Jul 24 04:43:00 2012
+ODp Tue Jul 24 02:19:00 2012
+OAr Tue Jul 24 04:43:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 24 Flt 2929727 Tal MA025N
+XEM Tue Jul 24 05:15:00 2012
+RVP Tue Jul 24 06:40:00 2012
+ODp Tue Jul 24 05:15:00 2012
+OAr Tue Jul 24 06:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 25 Flt 2930106 Tal MA025N
+RVP Tue Jul 24 07:15:00 2012
+XEM Tue Jul 24 08:40:00 2012
+ODp Tue Jul 24 07:15:00 2012
+OAr Tue Jul 24 08:40:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 69 Flt 2932545 Tal MA059N
+XEM Tue Jul 24 09:25:00 2012
+SAL Tue Jul 24 13:15:00 2012
+ODp Tue Jul 24 09:25:00 2012
+OAr Tue Jul 24 13:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 70 Flt 2932334 Tal MA059N
+SAL Tue Jul 24 14:30:00 2012
+XEM Tue Jul 24 17:55:00 2012
+ODp Tue Jul 24 14:30:00 2012
+OAr Tue Jul 24 17:55:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 71 Flt 2932535 Tal MA059N
+XEM Tue Jul 24 19:15:00 2012
+XAL Tue Jul 24 23:05:00 2012
+ODp Tue Jul 24 19:15:00 2012
+OAr Tue Jul 24 23:05:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 72 Flt 2931541 Tal MA059N
+XAL Wed Jul 25 00:35:00 2012
+XEM Wed Jul 25 04:15:00 2012
+ODp Wed Jul 25 00:35:00 2012
+OAr Wed Jul 25 04:15:00 2012
+
+Tail CRDIE
+NUC Tue Jul 24 02:09:00 2012
+KFJ Wed Jul 25 19:59:00 2012
+dual -1526
+Leg 13 Flt 2932089 Tal CRDIE
+XEM Wed Jul 25 05:55:00 2012
+KFJ Wed Jul 25 10:45:00 2012
+ODp Wed Jul 25 05:55:00 2012
+OAr Wed Jul 25 10:45:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 59 Flt 2929850 Tal MA168N
+LUY Tue Jul 24 00:05:00 2012
+XEM Tue Jul 24 05:35:00 2012
+ODp Tue Jul 24 00:05:00 2012
+OAr Tue Jul 24 05:35:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 62 Flt 2932153 Tal MA168N
+XEM Tue Jul 24 09:00:00 2012
+YTM Tue Jul 24 10:38:00 2012
+ODp Tue Jul 24 09:00:00 2012
+OAr Tue Jul 24 10:38:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 63 Flt 2932179 Tal MA168N
+YTM Tue Jul 24 19:30:00 2012
+XEM Tue Jul 24 21:00:00 2012
+ODp Tue Jul 24 19:30:00 2012
+OAr Tue Jul 24 21:00:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 64 Flt 2932097 Tal MA168N
+XEM Tue Jul 24 21:46:00 2012
+NUC Tue Jul 24 23:55:00 2012
+ODp Tue Jul 24 21:46:00 2012
+OAr Tue Jul 24 23:55:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 65 Flt 2932216 Tal MA168N
+NUC Wed Jul 25 00:45:00 2012
+XEM Wed Jul 25 03:08:00 2012
+ODp Wed Jul 25 00:45:00 2012
+OAr Wed Jul 25 03:08:00 2012
+
+Tail MA168N
+LUY Mon Jul 23 20:40:00 2012
+NUC Wed Jul 25 19:59:00 2012
+dual -193
+Leg 66 Flt 2932443 Tal MA168N
+XEM Wed Jul 25 05:30:00 2012
+NUC Wed Jul 25 07:43:00 2012
+ODp Wed Jul 25 05:30:00 2012
+OAr Wed Jul 25 07:43:00 2012
 
 Tail MA858N
 JIT Mon Jul 23 23:25:00 2012
@@ -2768,468 +3279,8 @@ MIL Wed Jul 25 12:10:00 2012
 ODp Wed Jul 25 06:20:00 2012
 OAr Wed Jul 25 12:10:00 2012
 
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 59 Flt 2929850 Tal MA168N
-LUY Tue Jul 24 00:05:00 2012
-XEM Tue Jul 24 05:35:00 2012
-ODp Tue Jul 24 00:05:00 2012
-OAr Tue Jul 24 05:35:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 62 Flt 2932153 Tal MA168N
-XEM Tue Jul 24 09:00:00 2012
-YTM Tue Jul 24 10:38:00 2012
-ODp Tue Jul 24 09:00:00 2012
-OAr Tue Jul 24 10:38:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 63 Flt 2932179 Tal MA168N
-YTM Tue Jul 24 19:30:00 2012
-XEM Tue Jul 24 21:00:00 2012
-ODp Tue Jul 24 19:30:00 2012
-OAr Tue Jul 24 21:00:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 64 Flt 2932097 Tal MA168N
-XEM Tue Jul 24 21:46:00 2012
-NUC Tue Jul 24 23:55:00 2012
-ODp Tue Jul 24 21:46:00 2012
-OAr Tue Jul 24 23:55:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 65 Flt 2932216 Tal MA168N
-NUC Wed Jul 25 00:45:00 2012
-XEM Wed Jul 25 03:08:00 2012
-ODp Wed Jul 25 00:45:00 2012
-OAr Wed Jul 25 03:08:00 2012
-
-Tail MA168N
-LUY Mon Jul 23 20:40:00 2012
-NUC Wed Jul 25 19:59:00 2012
-dual -2334
-Leg 66 Flt 2932443 Tal MA168N
-XEM Wed Jul 25 05:30:00 2012
-NUC Wed Jul 25 07:43:00 2012
-ODp Wed Jul 25 05:30:00 2012
-OAr Wed Jul 25 07:43:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 84 Flt 2929572 Tal AIMAX
-SCC Mon Jul 23 21:00:00 2012
-XEM Tue Jul 24 02:15:00 2012
-ODp Mon Jul 23 22:45:00 2012
-OAr Tue Jul 24 04:00:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 9 Flt 2929894 Tal CRDIE
-XEM Tue Jul 24 05:30:00 2012
-NUC Tue Jul 24 07:43:00 2012
-ODp Tue Jul 24 05:30:00 2012
-OAr Tue Jul 24 07:43:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 10 Flt 2931668 Tal CRDIE
-NUC Tue Jul 24 08:20:00 2012
-XEM Tue Jul 24 10:45:00 2012
-ODp Tue Jul 24 08:20:00 2012
-OAr Tue Jul 24 10:45:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 87 Flt 2932272 Tal AIMAX
-XEM Tue Jul 24 14:40:00 2012
-SCC Tue Jul 24 19:45:00 2012
-ODp Tue Jul 24 14:40:00 2012
-OAr Tue Jul 24 19:45:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 88 Flt 2932120 Tal AIMAX
-SCC Tue Jul 24 21:00:00 2012
-XEM Wed Jul 25 02:15:00 2012
-ODp Tue Jul 24 21:00:00 2012
-OAr Wed Jul 25 02:15:00 2012
-
-Tail AIMAX
-SCC Mon Jul 23 20:45:00 2012
-XAL Wed Jul 25 19:59:00 2012
-dual -49
-Leg 89 Flt 2932621 Tal AIMAX
-XEM Wed Jul 25 03:30:00 2012
-XAL Wed Jul 25 07:15:00 2012
-ODp Wed Jul 25 03:30:00 2012
-OAr Wed Jul 25 07:15:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 23 Flt 2928944 Tal MA025N
-XAL Tue Jul 24 00:35:00 2012
-XEM Tue Jul 24 04:15:00 2012
-ODp Tue Jul 24 00:35:00 2012
-OAr Tue Jul 24 04:15:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 60 Flt 2929622 Tal MA168N
-XEM Tue Jul 24 05:00:00 2012
-LDG Tue Jul 24 06:10:00 2012
-ODp Tue Jul 24 05:00:00 2012
-OAr Tue Jul 24 06:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 61 Flt 2929203 Tal MA168N
-LDG Tue Jul 24 06:40:00 2012
-XEM Tue Jul 24 07:50:00 2012
-ODp Tue Jul 24 06:40:00 2012
-OAr Tue Jul 24 07:50:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 26 Flt 2931924 Tal MA025N
-XEM Tue Jul 24 10:30:00 2012
-ASV Tue Jul 24 11:55:00 2012
-ODp Tue Jul 24 10:30:00 2012
-OAr Tue Jul 24 11:55:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 27 Flt 2931527 Tal MA025N
-ASV Tue Jul 24 19:00:00 2012
-XEM Tue Jul 24 20:30:00 2012
-ODp Tue Jul 24 19:00:00 2012
-OAr Tue Jul 24 20:30:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 28 Flt 2931706 Tal MA025N
-XEM Tue Jul 24 21:15:00 2012
-LDG Tue Jul 24 22:25:00 2012
-ODp Tue Jul 24 21:15:00 2012
-OAr Tue Jul 24 22:25:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 29 Flt 2932034 Tal MA025N
-LDG Tue Jul 24 23:00:00 2012
-XEM Wed Jul 25 00:10:00 2012
-ODp Tue Jul 24 23:00:00 2012
-OAr Wed Jul 25 00:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 30 Flt 2932648 Tal MA025N
-XEM Wed Jul 25 01:00:00 2012
-YTM Wed Jul 25 02:38:00 2012
-ODp Wed Jul 25 01:00:00 2012
-OAr Wed Jul 25 02:38:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 31 Flt 2931674 Tal MA025N
-YTM Wed Jul 25 03:10:00 2012
-XEM Wed Jul 25 04:44:00 2012
-ODp Wed Jul 25 03:10:00 2012
-OAr Wed Jul 25 04:44:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 32 Flt 2931712 Tal MA025N
-XEM Wed Jul 25 06:00:00 2012
-LDG Wed Jul 25 07:10:00 2012
-ODp Wed Jul 25 06:00:00 2012
-OAr Wed Jul 25 07:10:00 2012
-
-Tail MA025N
-XAL Tue Jul 24 00:05:00 2012
-XEM Wed Jul 25 19:59:00 2012
-dual -3184
-Leg 33 Flt 2932048 Tal MA025N
-LDG Wed Jul 25 07:40:00 2012
-XEM Wed Jul 25 08:50:00 2012
-ODp Wed Jul 25 07:40:00 2012
-OAr Wed Jul 25 08:50:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 85 Flt 2929712 Tal AIMAX
-XEM Tue Jul 24 03:15:00 2012
-AIM Tue Jul 24 06:20:00 2012
-ODp Tue Jul 24 04:00:00 2012
-OAr Tue Jul 24 07:05:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 86 Flt 2929806 Tal AIMAX
-AIM Tue Jul 24 07:30:00 2012
-XEM Tue Jul 24 10:45:00 2012
-ODp Tue Jul 24 07:35:00 2012
-OAr Tue Jul 24 10:50:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 11 Flt 2932399 Tal CRDIE
-XEM Tue Jul 24 14:25:00 2012
-LUY Tue Jul 24 19:40:00 2012
-ODp Tue Jul 24 14:25:00 2012
-OAr Tue Jul 24 19:40:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 12 Flt 2932397 Tal CRDIE
-LUY Tue Jul 24 22:05:00 2012
-XEM Wed Jul 25 03:35:00 2012
-ODp Tue Jul 24 22:05:00 2012
-OAr Wed Jul 25 03:35:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 73 Flt 2932495 Tal MA059N
-XEM Wed Jul 25 04:35:00 2012
-LUC Wed Jul 25 06:30:00 2012
-ODp Wed Jul 25 04:35:00 2012
-OAr Wed Jul 25 06:30:00 2012
-
-Tail MA059N
-XEM Tue Jul 24 02:40:00 2012
-XEM Wed Jul 25 10:45:00 2012
-dual -2931
-Leg 74 Flt 2932314 Tal MA059N
-LUC Wed Jul 25 07:05:00 2012
-XEM Wed Jul 25 08:55:00 2012
-ODp Wed Jul 25 07:05:00 2012
-OAr Wed Jul 25 08:55:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 8 Flt 2930060 Tal CRDIE
-NUC Tue Jul 24 02:19:00 2012
-XEM Tue Jul 24 04:43:00 2012
-ODp Tue Jul 24 02:19:00 2012
-OAr Tue Jul 24 04:43:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 24 Flt 2929727 Tal MA025N
-XEM Tue Jul 24 05:15:00 2012
-RVP Tue Jul 24 06:40:00 2012
-ODp Tue Jul 24 05:15:00 2012
-OAr Tue Jul 24 06:40:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 25 Flt 2930106 Tal MA025N
-RVP Tue Jul 24 07:15:00 2012
-XEM Tue Jul 24 08:40:00 2012
-ODp Tue Jul 24 07:15:00 2012
-OAr Tue Jul 24 08:40:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 69 Flt 2932545 Tal MA059N
-XEM Tue Jul 24 09:25:00 2012
-SAL Tue Jul 24 13:15:00 2012
-ODp Tue Jul 24 09:25:00 2012
-OAr Tue Jul 24 13:15:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 70 Flt 2932334 Tal MA059N
-SAL Tue Jul 24 14:30:00 2012
-XEM Tue Jul 24 17:55:00 2012
-ODp Tue Jul 24 14:30:00 2012
-OAr Tue Jul 24 17:55:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 71 Flt 2932535 Tal MA059N
-XEM Tue Jul 24 19:15:00 2012
-XAL Tue Jul 24 23:05:00 2012
-ODp Tue Jul 24 19:15:00 2012
-OAr Tue Jul 24 23:05:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 72 Flt 2931541 Tal MA059N
-XAL Wed Jul 25 00:35:00 2012
-XEM Wed Jul 25 04:15:00 2012
-ODp Wed Jul 25 00:35:00 2012
-OAr Wed Jul 25 04:15:00 2012
-
-Tail CRDIE
-NUC Tue Jul 24 02:09:00 2012
-KFJ Wed Jul 25 19:59:00 2012
-dual -1647
-Leg 13 Flt 2932089 Tal CRDIE
-XEM Wed Jul 25 05:55:00 2012
-KFJ Wed Jul 25 10:45:00 2012
-ODp Wed Jul 25 05:55:00 2012
-OAr Wed Jul 25 10:45:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 14 Flt 2929329 Tal MA953N
-XEM Mon Jul 23 23:10:00 2012
-XAL Tue Jul 24 02:55:00 2012
-ODp Mon Jul 23 23:10:00 2012
-OAr Tue Jul 24 02:55:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 15 Flt 2929923 Tal MA953N
-XAL Tue Jul 24 04:25:00 2012
-XEM Tue Jul 24 08:05:00 2012
-ODp Tue Jul 24 04:25:00 2012
-OAr Tue Jul 24 08:05:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 16 Flt 2932553 Tal MA953N
-XEM Tue Jul 24 09:00:00 2012
-NUC Tue Jul 24 11:12:00 2012
-ODp Tue Jul 24 09:00:00 2012
-OAr Tue Jul 24 11:12:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 17 Flt 2931720 Tal MA953N
-NUC Tue Jul 24 12:15:00 2012
-VAH Tue Jul 24 13:20:00 2012
-ODp Tue Jul 24 12:15:00 2012
-OAr Tue Jul 24 13:20:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 18 Flt 2932383 Tal MA953N
-VAH Tue Jul 24 14:20:00 2012
-NUC Tue Jul 24 15:30:00 2012
-ODp Tue Jul 24 14:20:00 2012
-OAr Tue Jul 24 15:30:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 19 Flt 2932478 Tal MA953N
-NUC Tue Jul 24 20:00:00 2012
-XEM Tue Jul 24 22:23:00 2012
-ODp Tue Jul 24 20:00:00 2012
-OAr Tue Jul 24 22:23:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 20 Flt 2932326 Tal MA953N
-XEM Tue Jul 24 23:40:00 2012
-DIM Wed Jul 25 01:25:00 2012
-ODp Tue Jul 24 23:40:00 2012
-OAr Wed Jul 25 01:25:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 21 Flt 2932099 Tal MA953N
-DIM Wed Jul 25 02:00:00 2012
-XEM Wed Jul 25 03:55:00 2012
-ODp Wed Jul 25 02:00:00 2012
-OAr Wed Jul 25 03:55:00 2012
-
-Tail MA953N
-XEM Mon Jul 23 22:55:00 2012
-JIT Wed Jul 25 19:59:00 2012
-dual 0
-Leg 22 Flt 2932585 Tal MA953N
-XEM Wed Jul 25 04:50:00 2012
-JIT Wed Jul 25 08:10:00 2012
-ODp Wed Jul 25 04:50:00 2012
-OAr Wed Jul 25 08:10:00 2012
-
 Total number of connection of leg network: 1024
-total run time is 0.741330623626709 seconds
+total run time is 0.7390182018280029 seconds
 remove previous output file
 
 Canceled flights are
