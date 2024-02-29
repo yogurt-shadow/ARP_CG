@@ -5,9 +5,9 @@ import Util as ut
 import sys
 import gurobipy as gp
 from gurobipy import GRB
+from joblib import Parallel, delayed
 import time
 import os
-import threading
 
 class Model:
     _count = 0
@@ -121,21 +121,12 @@ class Model:
         for _leg in self._legList:
             _leg.resetLeg(threadIndex)
 
+    """
+    Currently use joblib to parallelize the process of finding new columns.
+    """
     def findNewColumns(self) -> None:
-        indexList = [[0, 0] for i in range(ut.util.threadSize)]
         unitSize = len(self._aircraftList) // ut.util.threadSize + 1
-        threads = []
-        for j in range(ut.util.threadSize):
-            indexList[j][0] = unitSize * j
-            indexList[j][1] = min(unitSize * (j + 1), len(self._aircraftList))
-            worker = threading.Thread(target=self.findNewColumnsParallel, args=(indexList[j][0], indexList[j][1], j))
-            # Setting daemon to True will let the main thread exit even though the workers are blocking
-            worker.daemon = True
-            worker.start()
-            threads.append(worker)
-        # Causes the main thread to wait for the threads to finish processing all the tasks
-        for thread in threads:
-            thread.join()
+        Parallel(n_jobs = ut.util.threadSize, backend = "threading")(delayed(self.findNewColumnsParallel)(unitSize * j, min(unitSize * (j + 1), len(self._aircraftList)), j) for j in range(ut.util.threadSize))
         betterCounter = sum([len(self._betterColumns[i]) for i in range(ut.util.threadSize)])
         print("Number of Better Lofs is: " + str(betterCounter))
     
